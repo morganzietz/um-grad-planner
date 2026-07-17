@@ -1,0 +1,18 @@
+{
+  "id": "lsa-gender-race-and-nation-minor",
+  "name": "Gender, Race, and Nation Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 Five courses totaling at least 15 credits, to be chosen from the following categories as stated:Foundational Course. One course chosen from:WGS 240 (WOMENSTD 240) / AMCULT 240: Introduction to Women's and Gender StudiesWGS 250 (WOMENSTD 250): Gender, Race, & NationFeminist Theory. One course chosen from:WGS 330 (WOMENSTD 330): Feminist ThoughtWGS 422 (WOMENSTD 422) / POLSCI 401: Feminist Political TheoryWGS 455 (WOMENSTD 455) / ANTHRCUL 455: Feminist Theory in AnthropologyElectives. Three electives (9 credits) that focus on women in specific racial and ethnic groups (At least two courses must be upper-level courses, with at least one at the 400-level), chosen from:AMCULT 498: Capstone Seminar, section titled, \"Skin Deep: Race and Beauty in American Culture\" (Only if elected WN17 or later)NURS 420: Introduction to Global Health: Issues and ChallengesWOMENSTD / ANTHRCUL / NURS 212: Global HIV/AIDS Epidemic WGS 215 (WOMENSTD 215) / HISTART / ARCH 216: Contested Spaces: Art, Architecture, Politics (Only if elected FA20 or later)WGS 220 (WOMENSTD 220) / NURS 220: Perspectives in Women's HealthWGS 222/ENGLISH 212: Narratives of Girlhood (Only if elected WN23 or later)WGS 233 (WOMENSTD 233) / AMCULT 233: Genes and SocietyWGS 235 (WOMENSTD 235) / AMCULT / ARABAM 235: Harems to Terrorists: Representing the Modern Middle East in Hollywood CinemaWGS 239 (WOMENSTD 239) / AMCULT 239: Gender, Sexuality, and Health in AmericaWGS 242 (WOMENSTD 242) / AMCULT 242: Gender Violence in a Global Context WGS 243 (WOMENSTD 243) / AMCULT / LATINOAM 243: Latinas in the U.S.WGS 258: Interdisciplinary Topics in WGS, section titled \"Black Women in Popular Culture\"WGS 270 (WOMENSTD 270) / SOC 270: Gender and the LawWGS 291 (WOMENSTD 291) / PSYCH 291: Introduction to Psychology of Women and Gender WGS 293 (WOMENSTD 293) / AMCULT 293: 20th-Century Writing by Women of ColorWGS 297 (WOMENSTD 297) / PSYCH 297: Promoting Equity and Inclusion in the University and the Workplace (Only if elected FA17 or later)WGS 301 (WOMENSTD 301) / ASIAN 301: Writing Japanese WomenWGS 302 (WOMENSTD 302) / HISTART / ANTHRCUL 302: Sex and Gender in JapanWGS 304 (WOMENSTD 304) / AAS 304: Gender and ImmigrationWOMENSTD 305 / ALA 306: Interdisciplinary & Intersectional LGBTQ HealthWGS 306 (WOMENSTD 306) / AAS 306: Women of Color and FeminismWGS 307 (WOMENSTD 307) / ANTHRCUL / RCSSCI... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/gender-race-and-nation-minor.html"
+}

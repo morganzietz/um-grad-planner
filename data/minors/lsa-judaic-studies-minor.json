@@ -1,0 +1,18 @@
+{
+  "id": "lsa-judaic-studies-minor",
+  "name": "Judaic Studies Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 Core Courses: At least one of the following three core courses:JUDAIC 205: What is Judaism?JUDAIC 210: Sources of Jewish HistoryJUDAIC 281: Jews in the Modern WorldElectives: All courses must be at the 200-level or above with a Judaic listing or be approved by a minor advisor.Upper Level Credit Requirement: At least two courses must be taken at the 300 or 400 level (6 credits). Language:200 level or above language courses in less commonly taught languages (such as Yiddish, Ladino, or Biblical Hebrew) can count toward the 15 credit minor (up to 8 credits) if the student meets LSA's language requirement in another language. Constraints Advanced Hebrew language courses (300-level and 400-level) may count toward the minor.Students may not use more than one Independent study course as an elective.",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/judaic-studies-minor.html"
+}

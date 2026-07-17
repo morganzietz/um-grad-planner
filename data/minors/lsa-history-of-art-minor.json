@@ -1,0 +1,18 @@
+{
+  "id": "lsa-history-of-art-minor",
+  "name": "History of Art Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 A minimum of 15 credits (or five courses) in the History of Art. The selected courses must include: 6 credits at the 200 level. 6 credits at the 300 level or higher, including a 3-credit seminar. 3 additional credits at the 200 level or higher.completion of the History of Art Distribution Requirements for minors.Distribution Requirements: There are two kinds of distribution requirements, one focusing on historical time periods and the other on different regions of the globe. The former familiarizes students with cultural practices associated with different historical moments, and the latter with a wide range of national and regional traditions. Minors in the History of Art are required to select 200-level or higher courses that correspond to at least two of the five time periods and two of the six regions listed below. Since each course counts towards one time period and one region, the distribution requirements can be satisfied with as few as two courses.Time Periods AncientMedievalEarly ModernModern and ContemporaryTranshistoricalRegions The Middle East (includes Western and Central Asia and North Africa)Sub-Saharan AfricaAsia (includes China, Japan, India, South and Southeast Asia, and the Pacific)Europe and the U. S.Latin America and the CaribbeanTransregional History of Art (Minor) (Winter 2018 - Summer 2023) Effective Winter 2018 Exclusions: A minor in History of Art is not open to students with a major in History of Art. Advising A major or minor in the History of Art is developed in consultation with a History of Art advisor. Appointments are scheduled through the departmental website: http://lsa.umich.edu/histart/undergraduates/advising-appointments.htmlMajors and minors must consult with an advisor at least once a year.The History of Art Website. For further information about the curriculum, student resources, faculty and staff, departmental events, and Helicon (the undergraduate art history association), please consult the History of Art website: www.lsa.umich.edu/histart/ Prerequisites None. Requirements Minimum Credits: 15 A minimum of 15 credits (or five courses) in the History of Art. The selected courses must include: 6 credits at the 200 level. 6 credits at the 300 level or higher, including a 3-credit seminar. 3 additional credits at the 200 level or higher.completion of the History of Art Distribution Requi... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/history-of-art-minor.html"
+}

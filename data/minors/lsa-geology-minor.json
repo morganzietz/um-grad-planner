@@ -1,0 +1,18 @@
+{
+  "id": "lsa-geology-minor",
+  "name": "Geology Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 An introductory geology course: EARTH 116, 119, 120, or 205+206. Students who elect EARTH 119, 120, or 205+206 are strongly encouraged to also enroll in EARTH 118.Core course. Choose one or more of: EARTH 305, 310, 314, 315, 351, 352.Electives: 311, 380, 417, 418/419, 420, 422, 436 (2 credits max), 440, 442, 449, 467, 483, 494 (one credit max) Information for Prospective Students Current Students Faculty and Staff Alumni and Friends More about LSA About LSA How Do I Apply? News LSA Magazine Give Maps Student Resources Courses Academic Advising Majors and Minors Departments and Units Global Studies LSA Opportunity Hub Connect Social Media Update",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/geology-minor.html"
+}

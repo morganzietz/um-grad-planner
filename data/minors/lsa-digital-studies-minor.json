@@ -1,0 +1,18 @@
+{
+  "id": "lsa-digital-studies-minor",
+  "name": "Digital Studies Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 16 Core Course: AMCULT 202: Digital Culture, ENGLISH 280: Introduction to Digital Cultures, or SAC 202: Introduction to Digital Media Studies (NOTE: Students can receive credit toward the minor for only one of AMCULT / DIGITAL 202, ENGLISH / DIGITAL 280, or FTVM 202 / DIGITAL 220.)Electives: Four additional courses, three of which must be at the 300-level or above:AMCULT 301: Topics in American Culture, section titled “Politics of Code”AMCULT 334 / FTVM 334 / COMM 334: Race, U.S. Culture, and Digital GamesAMCULT / DIGITAL / FTVM / GERMAN 346: Media Matter: From Print to Screen CultureAMCULT / DIGITAL 347: Politics of Code (only if elected WN20 or later)AMCULT 358: Topics in Digital Studies AMCULT / DIGITAL 360: Radical Digital Media (only if elected WN20 or later)AMCULT 379: Privacy, Politics, PowerAMCULT / DIGITAL / SI 410: Ethics and Information TechnologyAMCULT 498: Capstone Seminar in American Culture, sections titled “Race on the Internet” or \"Fakes, Phonies, and Copies\"ANTHRCUL / HISTART 354: Art, Science, and TechnologyARCH / DIGITAL 411: Becoming DigitalARTDES 200: Introductory Studios, section titled \"Programming for Poets\" ARTDES 372: Video Games ASIAN 282 / FTVM 282 / RCHUMS 283: Asia Goes Viral: Asian Pop Culture in the Age of Social MediaCOMM 312: TV in a Digital AgeCOMM 271: Communication RevolutionsCOMM 315: Critical Approaches to the InternetCOMM 334 / AMCULT 334 / FTVM 334: Race, U.S. Culture, and Digital GamesCOMM 350: The Rise of Mass CultureCOMM 362: Digital Media FoundationsCOMM 365: Visual Culture and Visual LiteracyCOMM 418: Designing Web ResearchCOMM 423: Computer Mediated CommunicationCOMM 424: Race, Gender and New Media COMM 425: Internet, Society and the LawCOMM 461: Visuality and New Media DIGITAL 220 / FTVM 202: Intro to Digital Studies MediaDIGITAL 258: Humanities Themes in Digital StudiesDIGITAL / ENGLISH 280: Introduction to Digital Cultures (if elected WN21 or later)DIGITAL / AMCULT / FTVM / GERMAN 346: Media Matter: From Print to Screen CultureDIGITAL 357: Digital Studies and the HumanitiesDIGITAL / AMCULT / SI 410: Ethics and Information TechnologyDIGITAL / ARCH 411: Becoming DigitalEDUC 222: Video Games and Learning EDUC 333: Video Games and LearningENGLISH 216: Narrating Disability CulturesENGLISH / DIGITAL 280: Introduction to Digital Cultures (if elected WN21 or later)ENGLISH 403: Topics in... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/digital-studies-minor.html"
+}

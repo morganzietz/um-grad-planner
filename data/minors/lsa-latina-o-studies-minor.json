@@ -1,0 +1,18 @@
+{
+  "id": "lsa-latina-o-studies-minor",
+  "name": "Latina/o Studies Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 Latina/o Studies Core: LATINOAM 213 / AMCULT 213 Introduction to Latina/o Studies. (must be taken for a letter grade).Students will select 4 courses (12 credit hours) from regularly taught Latina/o Studies Courses:LATINOAM / AMCULT 103: First Year Seminar in Latina/o StudiesLATINOAM / AMCULT 204: Themes in Latina/o StudiesRCLANG 204: Spanish Language Internship Project (only until FA20)SOC 225 Project Community*LATINOAM / AMCULT 226: The Latin TingeLATINOAM / AMCULT / WGS 243 (WOMENSTD 243): Latinas in the U.S.LATINOAM / AMCULT 301: Topics in Latina/o StudiesRCCORE 301: Community-Based Internship - Semester in Detroit*LATINOAM / AMCULT 304: American ImmigrationRCLANG 304: PALMA: Spanish in the CommunityLATINOAM / AMCULT 310: Latina/o Studies and the Social SciencesLATINOAM / AMCULT 311: Latina/o Studies in the HumanitiesLATINOAM / AMCULT 313: Cuba and its Diaspora LATINOAM / AMCULT 315/HISTORY 377: History of Latinos in the U.S.AMCULT 321 / PSYCH 325: Practicum in the Multicultural Community*LATINOAM / AMCULT 327/ENGLISH 387: Latina/o Literature of the U.S.RCSSCI 360: Social Science Junior Seminar, section titled, \"Spanish Language Internship Program II\" (FA20 or later)LATINOAM / AMCULT 361: Principles and Practices of Teaching ESL in Migrant CommunitiesLATINOAM / AMCULT 380: Studies in Transnational MediaLATINOAM / AMCULT / FTVM 381: Latina/os and the MediaLATINOAM/ AMCULT 385: Immigration Law: Critical Approaches to Contemporary IssuesAMCULT 388 or 425: Field Study*LATINOAM / AMCULT 389: Reading Course in Latina/o StudiesEDUC 390 / RCSSCI 390: Community-Engaged Learning in ESL Teaching Contexts*LATINOAM 404: Latina/os in the US: Social Problems and Social IssuesLATINOAM / AMCULT 405: Topics in Latina/o Studies LATINOAM / AMCULT 420: Latin American and Latina/o Film StudiesLATINOAM / SPANISH 440: Literature & Culture of the BorderlandsSPANISH 428: Internship in SpanishPOLSCI 489: Politics of Latinidad*Exceptions & substitutions may be approved in consultation with an advisor. Latina/o Studies (Minor) (Fall 2013 - Summer 2018) Effective Fall 2013 Exclusions: A minor in Latina/o American Studies is not open to students with a Latina/o Studies major or any minor in the Department of American Culture. Advising Students can set up advising appointments for any of the program's major or minor plans by visiting www.lsa.umich.edu/ac... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/latina-latino-studies-minor.html"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lsa-food-and-the-environment-minor",
+  "name": "Food and the Environment Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 The Food Systems Minor consists of no less than 5 courses for a total of at least 15 credits, at least two courses must be 300 -level or above, from the following categories as stated:Introductory Courses. Select at least one of the following as an orientation to the minor:BIOLOGY 101 / ENVIRON 101: Food, Energy, and the EnvironmentBIOLOGY 102: Practical BotanyBIOLOGY 105: Biology of NutritionENVIRON 270: Our Common Future: Ecology, Economics and Ethics of Sustainable DevelopmentENVIRON 290: Food: The Ecology, Economics, and Ethics of Growing and EatingUC 254: Sophomore Interdisciplinary Seminar, section titled \"Much Depends on Dinner\"Topical Courses. Three courses chosen from the following:Any course listed above not used to satisfy the introductory or synthetic course requirementANTHRBIO 364: Nutrition and EvolutionANTHRBIO 373: Humans and Environmental ChangeANTHRCUL 254: Anthropology of FoodANTHRCUL 458: Topics in Sociocultural and Linguistic Anthropology, section titled \"Anthropology of Food and Eating\"ARCH 357 / URP 357: Architecture, Sustainability and the City: Ideas, Forces and People Shaping the Built EnvironmentBIOLOGY 102: Practical BotanyBIOLOGY 212: Plants and Human HealthCLARCH 382 / CLCIV 382: Food in the Ancient World: Subsistence and SymbolCLCIV 382 / CLARCH 382: Food in the Ancient World: Subsistence and SymbolEARTH 154: Ocean ResourcesEARTH 159: Toward a Sustainable Human FutureEARTH 333: Inexhaustible Seas?: Marine Resources and Environmental IssuesEHS 540: Maternal and Child NutritionEHS 642: Community NutritionENVIRON 219/MIDEAST 209: Food and Drink in the Middle East ENVIRON 236/HISTORY 236: Environment and History in Preindustrial EuropeENVIRON 242: Topics in Environmental Social Science, section titled \"2.5 Million Years of Human Foods and Foodways: A Framework for Understanding Modern Diets\"ENVIRON/ASIAN 258: Food and Drink of AsiaENVIRON/EARTH 262: Plants and PeopleENVIRON 302: Topics in Environmental Social Science, section titled \"The Measure of Our Meals\"ENVIRON 314: Food Literacy for All ENVIRON 317: Conservation of Biological DiversityENVIRON/ASIAN/INTLSTD 351: Chinese Food in Crisis: Health, Ecology, and Identity in an Age of GlobalizationENVIRON 390 / RCIDIV 390: Environmental Activism: Citizenship in a RepublicENVIRON 421: Restoration EcologyENVIRON 436: Woody Plants: Biology and Identifica... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/food-and-the-environment-minor.html"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lsa-french-and-francophone-studies-minor",
+  "name": "French and Francophone Studies Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 21 FRENCH 235 and 18 credits of courses in FRENCH numbered FRENCH 240 and above, with a minimum of 9 credits at the 300 level. Students may substitute RCLANG 320 for FRENCH 235. Students who complete a second and/or a third RCLANG 320 course will receive minor credit for a French elective at the 270 level.Students may take up to one French course taught in English without language prerequisites. Students who begin their French coursework in the language program sequence (FRENCH 100-232) may replace one course taught in English, at the 240-level, with three credits from FRENCH 232, FRENCH 230, or RCLANG 290. Minors must take one of the following literature and culture courses in RLL at the Ann Arbor campus: FRENCH 350-379, 402, 450-499.FRENCH AP or IB credit may count as one upper-200-level FRENCH course taught in French. For more details, visit: lsa.umich.edu/rll/undergraduates/language-placement/ap-and-ib-credits.html Constraints To ensure that French minors gain a broad range of knowledge in the French language, literature, and culture, a maximum of six credits from the French professional and/or internship courses (FRENCH 278, 281, and 381) as well as any of their equivalents accepted as transfer and/or study abroad credit can count toward the major or minor.",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/french-and-francophone-studies-minor.html"
+}

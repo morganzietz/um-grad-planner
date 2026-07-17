@@ -1,0 +1,18 @@
+{
+  "id": "lsa-economics-minor",
+  "name": "Economics Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 17 17 credits in ECON at the 300-level and above, distributed as follows:ECON 401: Intermediate Microeconomics and ECON 402: Intermediate Macroeconomics, each completed with a grade of at least C- [ECON 401 should be taken before ECON 402.]Nine additional credits in upper level (300 and 400 level) ECON courses, including at least 3 credits in 400 level courses with ECON 401 or ECON 402 as a prerequisite. One (but only one) of ECON 452 and 454 may be counted toward this requirement. Neither ECON 451 nor 453 may be counted toward this requirement. Other Department Policies The Department of Economics does not give AP credit for ECON 101 or ECON 102. Whenever the department lists ECON 101 or ECON 102 as a prerequisite, the department does not accept AP credit as a substitute.Students achieving a 4 or 5 on the AP Microeconomics exam receive 2 credits for ECON 101X, and students achieving a 4 or 5 on the AP Macroeconomics exam receive 2 credits for ECON 102X. As prerequisites for other courses in Economics and as prerequisites for the Economics major and minor, ECON 101X does not substitute for ECON 101, and ECON 102X does not substitute for ECON 102. Students receiving 2 credits for ECON 101X may take ECON 101 and receive 4 credits for ECON 101. Students who receive 2 credits for ECON 102X may take ECON 102 and receive 4 credits for ECON 102. Thus, anyone who intends to concentrate in economics, to minor in economics, or to take electives in economics at the 300 or 400 level should enroll in ECON 101 and/or ECON 102.Students intending to apply to the BBA program should consult carefully the requirements of the Business School. As of this writing, the Business School does not accept ECON 101X as a substitute for ECON 101, and it does not accept ECON 102X as a substitute for ECON 102.Advanced placement credits in MATH 121 may be substituted for MATH 115. Credits in MATH 120 alone do not satisfy the mathematics prerequisite for an economics major or minor. Students with credit for MATH 120 may satisfy the mathematics prerequisite for the Economics major by completing, with a grade of at least C, ECON 210, MATH 115, MATH 116, or one of the Honors alternatives to these courses.",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/economics-minor.html"
+}

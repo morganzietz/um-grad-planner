@@ -1,0 +1,18 @@
+{
+  "id": "lsa-lesbian-gay-bisexual-transgender-queer-sexuality-studies-minor",
+  "name": "Lesbian Gay Bisexual Transgender Queer Sexuality Studies Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 Five courses totaling at least 15 credits, to be chosen from the following categories as stated:Foundational Course: WGS 245 (WOMENSTD 245) Introduction to Lesbian, Gay, Bisexual and Transgender+ Studies, WGS 265 Introduction to Transgender Studies, or WGS 295 (WOMENSTD 295) Sexuality in Western Culture.Electives: Four electives (12 credits) that focus on LGBT issues. At least two courses must be at the 300 level or above, with at least one at the 400 level.WGS / ENGLISH 214: Intro to LGBTQ+ LiteratureWGS (WOMENSTD) 224 / JUDAIC 224 / HISTORY 222: Sex and Sexuality in Jewish History and Culture (WN19)WGS (WOMENSTD) / AMCULT 239: Gender, Sexuality, and Health in AmericaWGS 245 (WOMENSTD 245): Introduction to Lesbian, Gay, Bisexual and Transgender and Queer Studies (when not taken as the foundational course)WGS 258 (WOMENSTD 258): Special Topics in Interdisciplinary Women's and Gender Studies, section titled \"Introduction to Transgender Studies\" (only if elected WN20 or later)WGS 265 Introduction to Transgender Studies (when not taken as the foundational course)WGS (WOMENSTD) / AMCULT 295: Sexuality in Western Culture (when not taken as the foundational course)WGS 305 (WOMENSTD 305) / ALA 306: Interdisciplinary & Intersectional LGBTQ HealthWGS (WOMENSTD) / POLSCI 308: Law and the Politics of SexualityWGS 312 (WOMENSTD 312): Queering US Immigration HistoryWGS (WOMENSTD) / HISTORY 327: History of SexualityWGS 341 (WOMENSTD 341): Special Topics in LGBTQ Studies WGS 343 (WOMENSTD 343): Topics in Gender, Race & Ethnicity in the U.S., section titled \"Queering US Immigration History\" (W18)WGS 348 (WOMENSTD 348) / SOC 345: Sociology of SexualityWGS (WOMENSTD) / ASIAN 352: Gender, Sexuality, and Power in Premodern ChinaWGS (WOMENSTD) / AMCULT 366 / HISTORY 353: Sex and Sexuality in U.S. Popular CultureWGS (WOMENSTD) / HISTORY 370 / AMCULT 375: Queer Histories of the United States, 1850 to the presentWGS 380 (WOMENSTD 380) / RCCORE 334: Special Topics, section titled \"Out of the Past: 20th Century LGBT History\" (F18)WOMENSTD / AAS 390: Homophobia in the Black WorldWGS (WOMENSTD) / PSYCH 394: Sex, Sexuality and Public Policy WGS 407 (WOMENSTD 407): IntersexualitiesWGS (WOMENSTD) / AMCULT 411: Rednecks, Queers, and Country Music: Identity and Social Status in Popular CultureWGS (WOMENSTD) / RCSSCI / ANTHRCUL 428: Sex Panics in the U.S. and... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/lesbian-gay-bisexual-transgender-queer-LGBTQ-and-sexuality-studies-minor.html"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lsa-archaeology-of-the-ancient-mediterranean-minor",
+  "name": "Archaeology of the Ancient Mediterranean Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 16 At least 16 credits of courses, to be chosen from the following three categories as stated:Introductory courses: One additional course from the list of Foundational Courses listed in the prerequisiteCivilization or History courses (Greek or Roman): At least one broad introductory course in Greek or Roman civilization or Greek or Roman history (CLCIV 101, 202, 302; HISTORY 200, 201).Upper-Level Archaeology of the Ancient Mediterranean courses: At least three courses at the 300- or 400-level in ARCHAM (or CLARCH) Classical Archaeology (Minor) (Winter 2021 - Summer 2024) Effective Winter 2021 Exclusions: The Academic minor in Classical Archaeology is not open to students with a major in Classical Archaeology or Classical Civilization or any other minor in the Department of Classical Studies. Advising Students interested in the Department's majors in Greek, Latin, Classical Languages and Literatures, Classical Archaeology, Classical Civilization or Modern Greek major should check with the Department office for the name of the current advisor. Students interested in obtaining Teacher Certification in Latin should see Professor Deborah Ross.Major advising for Modern Greek is provided by Professor Vassilios Lambropoulos and Artemis Leontis. Information about scheduling appointments is available from the department office.The Department recommends that interested students see the department advisors as early as possible in order to plan their programs and avoid unnecessary scheduling conflicts.Students wishing to pursue a minor in Classical Studies must develop a specific plan for its completion in consultation with the Department's designated advisor . Appointments may be scheduled at 2160 Angell Hall. Grade Policies The department requires that a student earn a grade of at least C– in all language courses which are prerequisite for subsequent elections. A student should repeat any language course in which a D+ or lower grade is earned and which serves as a prerequisite to other courses which are to be elected. A grade of D+ signifies some achievement but denotes too weak a foundation for subsequent courses. Prerequisites CLARCH 221, 222, or 323. Requirements Minimum Credits: 16 At least 16 credits of courses, to be chosen from the following three categories as stated:Introductory courses: At least one broad introductory course in c... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/archaeology_of_the_ancient_mediterranean-min.html"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lsa-american-culture-minor",
+  "name": "American Culture Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 One AMCULT course (3 credit) at 200-level, or higher (AMCULT 222 and 223 are excluded).AMCULT 300: Approaches to American Culture (3 credits).Three additional courses (9 credits total) at 300-level or higher. In consultation with the American Culture department advisor, students will plot their own path toward the minor through these additional courses. Information for Prospective Students Current Students Faculty and Staff Alumni and Friends More about LSA About LSA How Do I Apply? News LSA Magazine Give Maps Student Resources Courses Academic Advising Majors and Minors Departments and Units Global Studies LSA Opportunity Hub Connect Social Media Update",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/american-culture-minor.html"
+}

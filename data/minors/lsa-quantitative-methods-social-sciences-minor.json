@@ -1,0 +1,18 @@
+{
+  "id": "lsa-quantitative-methods-social-sciences-minor",
+  "name": "Quantitative Methods in the Social Sciences Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 17 Core Courses (8 credits):QMSS 201: Intro to Quantitative Methods in the Social Sciences (4 credits)QMSS 301: Quantitative Social Science Analysis and Big Data (4 credits)Electives (6 credits):As an interdisciplinary major focused on the social sciences, in addition to the required courses, the minor includes 6 elective credits of social science courses with significant instruction in quantitative methods, quantitative reasoning, experiment design, and data analysis. It is expected that one of these courses will be within the student’s major, and the course credits can be counted both towards their major and the QMSS minor. The second elective should normally come from another social science discipline, reinforcing the interdisciplinary intent of the minor. For a list of approved elective courses, please consult the QMSS website.The program assumes that there will be new courses developed and topics courses regularly offered in LSA social science departments as well as interdisciplinary programs on campus that will meet these requirements. QMSS program advisors will review and approve these courses by student request. QMSS program advisors will also evaluate and approve courses submitted for transfer credit and study abroad credit that meet these requirements as electives. Capstone Course (3 credits):QMSS 451: Senior Capstone: Social Sciences Study Management (3 credits)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/quantitative_methods_social_sciences-min.html"
+}

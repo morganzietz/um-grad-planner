@@ -1,0 +1,18 @@
+{
+  "id": "lsa-music-minor",
+  "name": "Music Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements for the minor; No more than one course fulfilling a requirement in the Playwriting minor may simultaneously be counted to cover another degree requirement. Students will follow requirements for the year in which the Minor was declared. Minor in Playwriting: 2025-2026 Requirements Minor in Playwriting: 2024-2025 Requirements Popular Music Studies Applying and Advising: Students interested in the Popular Music Studies minor should contact Professor Carlos Rodriguez. At this time, the Popular Music Studies minor is only available to students in the School of Music, Theatre & Dance. Students will follow requirements for the year in which the Minor was declared. Minor in Popular Music Studies: 2025-2026 Requirements Minor in Popular Music Studies: 2024-2025 Requirements Theatre Design & Production Applying and Advising: Students interested in the Theatre Design and Production minor should contact Professor Jess Fialko. Students will follow requirements for the year in which the Minor was declared. Minor in Theatre Design and Production: 2025-2026 Curriculum Minor in Theatre Design and Production: 2024-2025 Curriculum Graduate Certificates Graduate Certificate in Arts Entrepreneurship & Leadership Applying and Advising: Admission to the program is granted on a rolling basis and students are encouraged to apply at any time. Students who wish to pursue the certificate are encouraged to apply as early in their programs as possible. Current U-M students must be in good standing and interested students should meet with a Department of Entrepreneurship and Leadership advisor to map a course of study prior to submitting their application. Students who are not currently enrolled at U-M may apply directly to earn the graduate certificate. Exclusions: Artsadmn courses can be used to satisfy any of the certificate requirements. Only internship or independent study courses may be used more than once to satisfy a requirement and only one such repeated class can be included in the certificate. The Graduate Certificate in Arts Entrepreneurship & Leadership is administered by the Rackham Graduate School. Rackham academic policies governing Certificates of Graduate Studies apply. No more than one-sixth of the credits (5.0 credits) required for a master’s degree may simultaneously be counted toward the Arts Entrepreneurship & Leadership certificate. Requirements: Gradu... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://smtd.umich.edu/current-students-2/minors/"
+}

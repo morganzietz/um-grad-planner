@@ -1,0 +1,574 @@
+<!DOCTYPE html><html lang="en-US"><head>
+                <meta content="text/html; charset=UTF-8" name="Content-Type">
+        <!-- copied from creative -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- end copied from creative -->
+         <!-- Link to Google fonts -->
+         
+         
+         <style type="text/css">@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:300;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/latin-ext/wght/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:300;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:300;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/greek/wght/normal.woff2);unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:300;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:300;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:300;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:400;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:400;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:400;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/latin-ext/wght/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:400;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:400;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:400;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/greek/wght/normal.woff2);unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:500;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:500;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:500;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:500;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:500;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/greek/wght/normal.woff2);unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:500;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/latin-ext/wght/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:600;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:600;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:600;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:600;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/greek/wght/normal.woff2);unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:600;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/latin-ext/wght/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:600;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:700;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:700;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/greek/wght/normal.woff2);unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:700;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:700;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:700;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/latin-ext/wght/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:700;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}</style>
+         <style type="text/css">@font-face {font-family:IBM Plex Sans Condensed;font-style:normal;font-weight:200;src:url(/cf-fonts/s/ibm-plex-sans-condensed/5.2.8/vietnamese/200/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:IBM Plex Sans Condensed;font-style:normal;font-weight:200;src:url(/cf-fonts/s/ibm-plex-sans-condensed/5.2.8/latin-ext/200/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:IBM Plex Sans Condensed;font-style:normal;font-weight:200;src:url(/cf-fonts/s/ibm-plex-sans-condensed/5.2.8/cyrillic-ext/200/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:IBM Plex Sans Condensed;font-style:normal;font-weight:200;src:url(/cf-fonts/s/ibm-plex-sans-condensed/5.2.8/latin/200/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:IBM Plex Sans Condensed;font-style:normal;font-weight:300;src:url(/cf-fonts/s/ibm-plex-sans-condensed/5.2.8/vietnamese/300/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:IBM Plex Sans Condensed;font-style:normal;font-weight:300;src:url(/cf-fonts/s/ibm-plex-sans-condensed/5.2.8/latin/300/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:IBM Plex Sans Condensed;font-style:normal;font-weight:300;src:url(/cf-fonts/s/ibm-plex-sans-condensed/5.2.8/cyrillic-ext/300/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:IBM Plex Sans Condensed;font-style:normal;font-weight:300;src:url(/cf-fonts/s/ibm-plex-sans-condensed/5.2.8/latin-ext/300/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:IBM Plex Sans Condensed;font-style:normal;font-weight:400;src:url(/cf-fonts/s/ibm-plex-sans-condensed/5.2.8/cyrillic-ext/400/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:IBM Plex Sans Condensed;font-style:normal;font-weight:400;src:url(/cf-fonts/s/ibm-plex-sans-condensed/5.2.8/vietnamese/400/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:IBM Plex Sans Condensed;font-style:normal;font-weight:400;src:url(/cf-fonts/s/ibm-plex-sans-condensed/5.2.8/latin-ext/400/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:IBM Plex Sans Condensed;font-style:normal;font-weight:400;src:url(/cf-fonts/s/ibm-plex-sans-condensed/5.2.8/latin/400/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:IBM Plex Sans Condensed;font-style:normal;font-weight:500;src:url(/cf-fonts/s/ibm-plex-sans-condensed/5.2.8/cyrillic-ext/500/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:IBM Plex Sans Condensed;font-style:normal;font-weight:500;src:url(/cf-fonts/s/ibm-plex-sans-condensed/5.2.8/latin-ext/500/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:IBM Plex Sans Condensed;font-style:normal;font-weight:500;src:url(/cf-fonts/s/ibm-plex-sans-condensed/5.2.8/latin/500/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:IBM Plex Sans Condensed;font-style:normal;font-weight:500;src:url(/cf-fonts/s/ibm-plex-sans-condensed/5.2.8/vietnamese/500/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:IBM Plex Sans Condensed;font-style:normal;font-weight:600;src:url(/cf-fonts/s/ibm-plex-sans-condensed/5.2.8/cyrillic-ext/600/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:IBM Plex Sans Condensed;font-style:normal;font-weight:600;src:url(/cf-fonts/s/ibm-plex-sans-condensed/5.2.8/vietnamese/600/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:IBM Plex Sans Condensed;font-style:normal;font-weight:600;src:url(/cf-fonts/s/ibm-plex-sans-condensed/5.2.8/latin/600/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:IBM Plex Sans Condensed;font-style:normal;font-weight:600;src:url(/cf-fonts/s/ibm-plex-sans-condensed/5.2.8/latin-ext/600/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:300;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:300;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:300;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/latin-ext/wght/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:300;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:300;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:300;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/greek/wght/normal.woff2);unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:400;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/greek/wght/normal.woff2);unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:400;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:400;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:400;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:400;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:400;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/latin-ext/wght/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:500;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/latin-ext/wght/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:500;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:500;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:500;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:500;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:500;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/greek/wght/normal.woff2);unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:600;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:600;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:600;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:600;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/greek/wght/normal.woff2);unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:600;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:600;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/latin-ext/wght/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:700;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/latin-ext/wght/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:700;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:700;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:700;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:700;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/greek/wght/normal.woff2);unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;font-display:swap;}@font-face {font-family:IBM Plex Sans;font-style:normal;font-weight:700;src:url(/cf-fonts/v/ibm-plex-sans/5.2.8/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}</style>
+        <meta name="mobile_links" eecs="off" cse="on" ece="on">            <!-- Google tag (gtag.js) -->
+            <script async="" src="//cse.google.com/adsense/search/async-ads.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-9S09D4EFFF&amp;cx=c&amp;gtm=4e6770"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=UA-147211146-1&amp;cx=c&amp;gtm=4e6770"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-147211146-1"></script>
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-147211146-1');            </script>
+            <script>
+var eecs_home_url = 'https://eecs.engin.umich.edu';
+var cse_home_url = 'https://cse.engin.umich.edu';
+var ece_home_url = 'https://ece.engin.umich.edu';
+</script>
+        <title>Electrical Engineering and Computer Science at the University of Michigan</title>
+        <link rel="profile" href="http://gmpg.org/xfn/11">
+        <link rel="pingback" href="https://eecs.engin.umich.edu/xmlrpc.php">
+        <meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+<link rel="dns-prefetch" href="//umich.edu">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://eecs.engin.umich.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Feecs.engin.umich.edu%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://eecs.engin.umich.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Feecs.engin.umich.edu%2F&amp;format=xml">
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v10.2.2 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=G-WE9W3E51W3" data-cfasync="false" data-wpfc-render="false" type="text/javascript" async=""></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var mi_version = '10.2.2';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+								var MonsterInsightsDefaultLocations = {"page_location":"https:\/\/eecs.engin.umich.edu\/"};
+								MonsterInsightsDefaultLocations.page_location = window.location.href;
+								if ( typeof MonsterInsightsPrivacyGuardFilter === 'function' ) {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsPrivacyGuardFilter( MonsterInsightsExcludeQuery ) : MonsterInsightsPrivacyGuardFilter( MonsterInsightsDefaultLocations );
+				} else {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsExcludeQuery : MonsterInsightsDefaultLocations;
+				}
+
+								var disableStrs = [
+										'ga-disable-G-WE9W3E51W3',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = monsterinsights_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
+								MonsterInsightsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+						} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+					if ( MonsterInsightsLocations.page_location ) {
+						__gtagTracker('set', MonsterInsightsLocations);
+					}
+										__gtagTracker('config', 'G-WE9W3E51W3', {"forceSSL":"true","link_attribution":"true"} );
+										window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+									'referrer' : 'page_referrer',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+							<!-- / Google Analytics by MonsterInsights -->
+		<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel="stylesheet" id="tribe-events-pro-mini-calendar-block-styles-css" href="https://eecs.engin.umich.edu/wp-content/plugins/events-calendar-pro/build/css/tribe-events-pro-mini-calendar-block.css?ver=7.7.16" media="all">
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<link rel="stylesheet" id="wp-components-css" href="https://eecs.engin.umich.edu/wp-includes/css/dist/components/style.min.css?ver=7.0" media="all">
+<link rel="stylesheet" id="wp-preferences-css" href="https://eecs.engin.umich.edu/wp-includes/css/dist/preferences/style.min.css?ver=7.0" media="all">
+<link rel="stylesheet" id="wp-block-editor-css" href="https://eecs.engin.umich.edu/wp-includes/css/dist/block-editor/style.min.css?ver=7.0" media="all">
+<link rel="stylesheet" id="wp-reusable-blocks-css" href="https://eecs.engin.umich.edu/wp-includes/css/dist/reusable-blocks/style.min.css?ver=7.0" media="all">
+<link rel="stylesheet" id="wp-patterns-css" href="https://eecs.engin.umich.edu/wp-includes/css/dist/patterns/style.min.css?ver=7.0" media="all">
+<link rel="stylesheet" id="wp-editor-css" href="https://eecs.engin.umich.edu/wp-includes/css/dist/editor/style.min.css?ver=7.0" media="all">
+<link rel="stylesheet" id="cbd_eecs_blocks-cgb-style-css-css" href="https://eecs.engin.umich.edu/wp-content/plugins/cbd-eecs-blocks/dist/blocks.style.build.css?ver=8.30" media="all">
+<link rel="stylesheet" id="wp-base-styles-css" href="https://eecs.engin.umich.edu/wp-includes/css/dist/base-styles/admin-schemes.min.css?ver=7.0" media="all">
+<link rel="stylesheet" id="cse-arb-admin-style-css" href="https://eecs.engin.umich.edu/wp-content/plugins/cse-annual-report-blocks/css/admin-style.css?ver=0.01" media="all">
+<link rel="stylesheet" id="cse-arb-style-css" href="https://eecs.engin.umich.edu/wp-content/plugins/cse-annual-report-blocks/css/style.css?ver=0.18" media="all">
+<link rel="stylesheet" id="metaslider-blocks-editor-css-css" href="https://eecs.engin.umich.edu/wp-content/plugins/ml-slider/admin/assets/dist/css/editor-block.css?ver=3.110.0" media="all" property="stylesheet">
+<link rel="stylesheet" id="fontawesome-free-css" href="https://eecs.engin.umich.edu/wp-content/plugins/getwid/vendors/fontawesome-free/css/all.min.css?ver=5.5.0" media="all">
+<link rel="stylesheet" id="slick-css" href="https://eecs.engin.umich.edu/wp-content/plugins/getwid/vendors/slick/slick/slick.min.css?ver=1.9.0" media="all">
+<link rel="stylesheet" id="slick-theme-css" href="https://eecs.engin.umich.edu/wp-content/plugins/getwid/vendors/slick/slick/slick-theme.min.css?ver=1.9.0" media="all">
+<link rel="stylesheet" id="mp-fancybox-css" href="https://eecs.engin.umich.edu/wp-content/plugins/getwid/vendors/mp-fancybox/jquery.fancybox.min.css?ver=3.5.7-mp.1" media="all">
+<link rel="stylesheet" id="getwid-blocks-css" href="https://eecs.engin.umich.edu/wp-content/plugins/getwid/assets/css/blocks.style.css?ver=2.2.0" media="all">
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--um-maize: #ffcb05;--wp--preset--color--um-blue: #00274C;--wp--preset--color--tappan-red: #9A3324;--wp--preset--color--ross-orange: #D86018;--wp--preset--color--rackham-green: #75988d;--wp--preset--color--wave-field-green: #A5A508;--wp--preset--color--taubman-teal: #00B2A9;--wp--preset--color--arboretum-blue: #2F65A7;--wp--preset--color--a-2-amethyst: #702082;--wp--preset--color--matthaei-violet: #575294;--wp--preset--color--umma-tan: #CFC096;--wp--preset--color--burton-tower-beige: #9B9A6D;--wp--preset--color--angell-hall-ash: #989C97;--wp--preset--color--law-quad-stone: #655A52;--wp--preset--color--puma-black: #131516;--wp--preset--color--charcoal: #4a4a4a;--wp--preset--color--claret: #7A121C;--wp--preset--color--dark-blue-grey: #031B31;--wp--preset--color--pale-grey: #FAFAFA;--wp--preset--color--windows-blue: #407EC9;--wp--preset--color--um-white: #faf0e6;--wp--preset--color--med-gray: #333333;--wp--preset--color--coe-white: #fafafa;--wp--preset--color--coe-medium-blue: #2A5993;--wp--preset--color--faculty-menu-blue: #335270;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-um-maize-color{color: var(--wp--preset--color--um-maize) !important;}.has-um-blue-color{color: var(--wp--preset--color--um-blue) !important;}.has-tappan-red-color{color: var(--wp--preset--color--tappan-red) !important;}.has-ross-orange-color{color: var(--wp--preset--color--ross-orange) !important;}.has-rackham-green-color{color: var(--wp--preset--color--rackham-green) !important;}.has-wave-field-green-color{color: var(--wp--preset--color--wave-field-green) !important;}.has-taubman-teal-color{color: var(--wp--preset--color--taubman-teal) !important;}.has-arboretum-blue-color{color: var(--wp--preset--color--arboretum-blue) !important;}.has-a-2-amethyst-color{color: var(--wp--preset--color--a-2-amethyst) !important;}.has-matthaei-violet-color{color: var(--wp--preset--color--matthaei-violet) !important;}.has-umma-tan-color{color: var(--wp--preset--color--umma-tan) !important;}.has-burton-tower-beige-color{color: var(--wp--preset--color--burton-tower-beige) !important;}.has-angell-hall-ash-color{color: var(--wp--preset--color--angell-hall-ash) !important;}.has-law-quad-stone-color{color: var(--wp--preset--color--law-quad-stone) !important;}.has-puma-black-color{color: var(--wp--preset--color--puma-black) !important;}.has-charcoal-color{color: var(--wp--preset--color--charcoal) !important;}.has-claret-color{color: var(--wp--preset--color--claret) !important;}.has-dark-blue-grey-color{color: var(--wp--preset--color--dark-blue-grey) !important;}.has-pale-grey-color{color: var(--wp--preset--color--pale-grey) !important;}.has-windows-blue-color{color: var(--wp--preset--color--windows-blue) !important;}.has-um-white-color{color: var(--wp--preset--color--um-white) !important;}.has-med-gray-color{color: var(--wp--preset--color--med-gray) !important;}.has-coe-white-color{color: var(--wp--preset--color--coe-white) !important;}.has-coe-medium-blue-color{color: var(--wp--preset--color--coe-medium-blue) !important;}.has-faculty-menu-blue-color{color: var(--wp--preset--color--faculty-menu-blue) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-um-maize-background-color{background-color: var(--wp--preset--color--um-maize) !important;}.has-um-blue-background-color{background-color: var(--wp--preset--color--um-blue) !important;}.has-tappan-red-background-color{background-color: var(--wp--preset--color--tappan-red) !important;}.has-ross-orange-background-color{background-color: var(--wp--preset--color--ross-orange) !important;}.has-rackham-green-background-color{background-color: var(--wp--preset--color--rackham-green) !important;}.has-wave-field-green-background-color{background-color: var(--wp--preset--color--wave-field-green) !important;}.has-taubman-teal-background-color{background-color: var(--wp--preset--color--taubman-teal) !important;}.has-arboretum-blue-background-color{background-color: var(--wp--preset--color--arboretum-blue) !important;}.has-a-2-amethyst-background-color{background-color: var(--wp--preset--color--a-2-amethyst) !important;}.has-matthaei-violet-background-color{background-color: var(--wp--preset--color--matthaei-violet) !important;}.has-umma-tan-background-color{background-color: var(--wp--preset--color--umma-tan) !important;}.has-burton-tower-beige-background-color{background-color: var(--wp--preset--color--burton-tower-beige) !important;}.has-angell-hall-ash-background-color{background-color: var(--wp--preset--color--angell-hall-ash) !important;}.has-law-quad-stone-background-color{background-color: var(--wp--preset--color--law-quad-stone) !important;}.has-puma-black-background-color{background-color: var(--wp--preset--color--puma-black) !important;}.has-charcoal-background-color{background-color: var(--wp--preset--color--charcoal) !important;}.has-claret-background-color{background-color: var(--wp--preset--color--claret) !important;}.has-dark-blue-grey-background-color{background-color: var(--wp--preset--color--dark-blue-grey) !important;}.has-pale-grey-background-color{background-color: var(--wp--preset--color--pale-grey) !important;}.has-windows-blue-background-color{background-color: var(--wp--preset--color--windows-blue) !important;}.has-um-white-background-color{background-color: var(--wp--preset--color--um-white) !important;}.has-med-gray-background-color{background-color: var(--wp--preset--color--med-gray) !important;}.has-coe-white-background-color{background-color: var(--wp--preset--color--coe-white) !important;}.has-coe-medium-blue-background-color{background-color: var(--wp--preset--color--coe-medium-blue) !important;}.has-faculty-menu-blue-background-color{background-color: var(--wp--preset--color--faculty-menu-blue) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-um-maize-border-color{border-color: var(--wp--preset--color--um-maize) !important;}.has-um-blue-border-color{border-color: var(--wp--preset--color--um-blue) !important;}.has-tappan-red-border-color{border-color: var(--wp--preset--color--tappan-red) !important;}.has-ross-orange-border-color{border-color: var(--wp--preset--color--ross-orange) !important;}.has-rackham-green-border-color{border-color: var(--wp--preset--color--rackham-green) !important;}.has-wave-field-green-border-color{border-color: var(--wp--preset--color--wave-field-green) !important;}.has-taubman-teal-border-color{border-color: var(--wp--preset--color--taubman-teal) !important;}.has-arboretum-blue-border-color{border-color: var(--wp--preset--color--arboretum-blue) !important;}.has-a-2-amethyst-border-color{border-color: var(--wp--preset--color--a-2-amethyst) !important;}.has-matthaei-violet-border-color{border-color: var(--wp--preset--color--matthaei-violet) !important;}.has-umma-tan-border-color{border-color: var(--wp--preset--color--umma-tan) !important;}.has-burton-tower-beige-border-color{border-color: var(--wp--preset--color--burton-tower-beige) !important;}.has-angell-hall-ash-border-color{border-color: var(--wp--preset--color--angell-hall-ash) !important;}.has-law-quad-stone-border-color{border-color: var(--wp--preset--color--law-quad-stone) !important;}.has-puma-black-border-color{border-color: var(--wp--preset--color--puma-black) !important;}.has-charcoal-border-color{border-color: var(--wp--preset--color--charcoal) !important;}.has-claret-border-color{border-color: var(--wp--preset--color--claret) !important;}.has-dark-blue-grey-border-color{border-color: var(--wp--preset--color--dark-blue-grey) !important;}.has-pale-grey-border-color{border-color: var(--wp--preset--color--pale-grey) !important;}.has-windows-blue-border-color{border-color: var(--wp--preset--color--windows-blue) !important;}.has-um-white-border-color{border-color: var(--wp--preset--color--um-white) !important;}.has-med-gray-border-color{border-color: var(--wp--preset--color--med-gray) !important;}.has-coe-white-border-color{border-color: var(--wp--preset--color--coe-white) !important;}.has-coe-medium-blue-border-color{border-color: var(--wp--preset--color--coe-medium-blue) !important;}.has-faculty-menu-blue-border-color{border-color: var(--wp--preset--color--faculty-menu-blue) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel="stylesheet" id="i-love-eecs-style-css" href="https://eecs.engin.umich.edu/wp-content/themes/i-love-eecs/style.css?ver=4.209" media="all">
+<link rel="stylesheet" id="i-love-eecs-news-style-css" href="https://eecs.engin.umich.edu/wp-content/themes/i-love-eecs/css/news.css?ver=4.209" media="all">
+<link rel="stylesheet" id="i-love-eecs-events-style-css" href="https://eecs.engin.umich.edu/wp-content/themes/i-love-eecs/css/events.css?ver=4.209" media="all">
+<link rel="stylesheet" id="i-love-eecs-blocks-style-css" href="https://eecs.engin.umich.edu/wp-content/themes/i-love-eecs/css/style-blocks.css?ver=4.209" media="all">
+<link rel="stylesheet" id="slick-slider-style-css" href="https://eecs.engin.umich.edu/wp-content/themes/i-love-eecs/css/slick.css?ver=1.0" media="all">
+<script async="" data-wp-strategy="async" id="monsterinsights-frontend-script-js" src="https://eecs.engin.umich.edu/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=10.2.2"></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id="monsterinsights-frontend-script-js-extra">/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[]","home_url":"https:\/\/eecs.engin.umich.edu","hash_tracking":"false","v4_id":"G-WE9W3E51W3"};/* ]]> */
+</script>
+<script id="jquery-core-js" src="https://eecs.engin.umich.edu/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://eecs.engin.umich.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<link rel="https://api.w.org/" href="https://eecs.engin.umich.edu/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="https://eecs.engin.umich.edu/wp-json/wp/v2/pages/791"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://eecs.engin.umich.edu/xmlrpc.php?rsd">
+<link rel="canonical" href="https://eecs.engin.umich.edu/">
+<link rel="shortlink" href="https://eecs.engin.umich.edu/">
+<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://eecs.engin.umich.edu"><link rel="alternate" href="https://eecs.engin.umich.edu/wp-json/tribe/events/v1/"><style type="text/css">.blue-message {
+background: none repeat scroll 0 0 #3399ff;
+    color: #ffffff;
+    text-shadow: none;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px;
+}.green-message {
+background: none repeat scroll 0 0 #8cc14c;
+    color: #ffffff;
+    text-shadow: none;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px;
+}.orange-message {
+background: none repeat scroll 0 0 #faa732;
+    color: #ffffff;
+    text-shadow: none;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px;
+}.red-message {
+background: none repeat scroll 0 0 #da4d31;
+    color: #ffffff;
+    text-shadow: none;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px;
+}.grey-message {
+background: none repeat scroll 0 0 #53555c;
+    color: #ffffff;
+    text-shadow: none;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px;
+}.left-block {
+background: none repeat scroll 0 0px, radial-gradient(ellipse at center center, #ffffff 0%, #f2f2f2 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #8b8e97;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}.right-block {
+background: none repeat scroll 0 0px, radial-gradient(ellipse at center center, #ffffff 0%, #f2f2f2 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #8b8e97;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+}.blockquotes {
+background: none;
+    border-left: 5px solid #f1f1f1;
+    color: #8B8E97;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 22px;
+    padding-left: 15px;
+    padding: 10px;
+    width: 60%;
+    float: left;
+}</style>        <meta name="description" content="">
+        <meta property="fb:app_id" content="436690560385989">
+        <meta property="og:site_name" content="Electrical Engineering and Computer Science">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="Electrical Engineering and Computer Science at the University of Michigan">
+        <meta property="og:url" content="https://eecs.engin.umich.edu//">
+        <meta property="og:image" content="">
+        <meta property="og:image:secure_url" content="">
+        <meta property="og:image:width" content="394">
+        <meta property="og:image:height" content="263">
+        <meta property="og:description" content="">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@eecsatmi">
+        <meta name="twitter:creator" content="@eecsatmi">
+        <meta name="twitter:title" content="Electrical Engineering and Computer Science at the University of Michigan">
+        <meta name="twitter:image" content="">
+        <meta name="twitter:description" content="">
+    <script src="https://www.google.com/cse/static/element/d4d17fc91fc77275/cse_element__en.js?usqp=CAM%3D" type="text/javascript"></script><link type="text/css" href="https://www.google.com/cse/static/element/d4d17fc91fc77275/default_v6+en.css" rel="stylesheet"><link type="text/css" href="https://www.google.com/cse/static/style/look/v6/default.css" rel="stylesheet"><script src="https://www.google.com/cse/static/element/d4d17fc91fc77275/cse_element__en.js?usqp=CAM%3D" type="text/javascript"></script><link type="text/css" href="https://www.google.com/cse/static/element/d4d17fc91fc77275/default_v6+en.css" rel="stylesheet"><link type="text/css" href="https://www.google.com/cse/static/style/look/v6/default.css" rel="stylesheet"><script src="https://eecs.engin.umich.edu/wp-includes/js/wp-emoji-release.min.js?ver=7.0" defer=""></script><style type="text/css">.gsc-control-cse{font-family:arial, sans-serif}.gsc-control-cse .gsc-table-result{font-family:arial, sans-serif}.gsc-refinementsGradient{background:linear-gradient(to left,rgba(255,255,255,1),rgba(255,255,255,0))}</style><style type="text/css">.gscb_a{display:inline-block;font:27px/13px arial,sans-serif}.gsst_a .gscb_a{color:#a1b9ed;cursor:pointer}.gsst_a:hover .gscb_a,.gsst_a:focus .gscb_a{color:#36c}.gsst_a{display:inline-block}.gsst_a{cursor:pointer;padding:0 4px}.gsst_a:hover{text-decoration:none!important}.gsst_b{font-size:16px;padding:0 2px;position:relative;user-select:none;-webkit-user-select:none;white-space:nowrap}.gsst_e{vertical-align:middle;opacity:0.55;}.gsst_a:hover .gsst_e,.gsst_a:focus .gsst_e{opacity:0.72;}.gsst_a:active .gsst_e{opacity:1;}.gsst_f{background:white;text-align:left}.gsst_g{background-color:white;border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);margin:-1px -3px;padding:0 6px}.gsst_h{background-color:white;height:1px;margin-bottom:-1px;position:relative;top:-1px}.gsib_a{width:100%;padding:4px 6px 0}.gsib_a,.gsib_b{vertical-align:top}.gssb_c{border:0;position:absolute;z-index:989}.gssb_e{border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);cursor:default}.gssb_f{visibility:hidden;white-space:nowrap}.gssb_k{border:0;display:block;position:absolute;top:0;z-index:988}.gsdd_a{border:none!important}.gsq_a{padding:0}.gssb_a{padding:0 7px}.gssb_a,.gssb_a td{white-space:nowrap;overflow:hidden;line-height:22px}#gssb_b{font-size:11px;color:#36c;text-decoration:none}#gssb_b:hover{font-size:11px;color:#36c;text-decoration:underline}.gssb_g{text-align:center;padding:8px 0 7px;position:relative}.gssb_h{font-size:15px;height:28px;margin:0.2em;-webkit-appearance:button}.gssb_i{background:#eee}.gss_ifl{visibility:hidden;padding-left:5px}.gssb_i .gss_ifl{visibility:visible}a.gssb_j{font-size:13px;color:#36c;text-decoration:none;line-height:100%}a.gssb_j:hover{text-decoration:underline}.gssb_l{height:1px;background-color:#e5e5e5}.gssb_m{color:#000;background:#fff}.gssb_a{padding:8px 16px}.gsib_a{padding:4px 10px 4px 56px}.gscb_a{line-height:27px}.gssb_e{border:0}.gssb_l{margin:5px 0}input.gsc-input::-webkit-input-placeholder{font-size:14px}input.gsc-input:-moz-placeholder{font-size:14px}input.gsc-input::-moz-placeholder{font-size:14px}input.gsc-input:-ms-input-placeholder{font-size:14px}input.gsc-input:focus::-webkit-input-placeholder{color:transparent}input.gsc-input:focus:-moz-placeholder{color:transparent}input.gsc-input:focus::-moz-placeholder{color:transparent}input.gsc-input:focus:-ms-input-placeholder{color:transparent}.gssb_c .gsc-completion-container{position:static}.gssb_c{z-index:5000}.gsc-completion-container table{background:transparent;font-size:inherit;font-family:inherit}.gssb_c > tbody > tr,.gssb_c > tbody > tr > td,.gssb_d,.gssb_d > tbody > tr,.gssb_d > tbody > tr > td,.gssb_e,.gssb_e > tbody > tr,.gssb_e > tbody > tr > td{padding:0;margin:0;border:0}.gssb_a table,.gssb_a table tr,.gssb_a table tr td{padding:0;margin:0;border:0}.gssb_a,.gssb_a td{line-height:24px}</style><style type="text/css">.gscb_a{display:inline-block;font:27px/13px arial,sans-serif}.gsst_a .gscb_a{color:#a1b9ed;cursor:pointer}.gsst_a:hover .gscb_a,.gsst_a:focus .gscb_a{color:#36c}.gsst_a{display:inline-block}.gsst_a{cursor:pointer;padding:0 4px}.gsst_a:hover{text-decoration:none!important}.gsst_b{font-size:16px;padding:0 2px;position:relative;user-select:none;-webkit-user-select:none;white-space:nowrap}.gsst_e{vertical-align:middle;opacity:0.55;}.gsst_a:hover .gsst_e,.gsst_a:focus .gsst_e{opacity:0.72;}.gsst_a:active .gsst_e{opacity:1;}.gsst_f{background:white;text-align:left}.gsst_g{background-color:white;border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);margin:-1px -3px;padding:0 6px}.gsst_h{background-color:white;height:1px;margin-bottom:-1px;position:relative;top:-1px}.gsib_a{width:100%;padding:4px 6px 0}.gsib_a,.gsib_b{vertical-align:top}.gssb_c{border:0;position:absolute;z-index:989}.gssb_e{border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);cursor:default}.gssb_f{visibility:hidden;white-space:nowrap}.gssb_k{border:0;display:block;position:absolute;top:0;z-index:988}.gsdd_a{border:none!important}.gsq_a{padding:0}.gssb_a{padding:0 7px}.gssb_a,.gssb_a td{white-space:nowrap;overflow:hidden;line-height:22px}#gssb_b{font-size:11px;color:#36c;text-decoration:none}#gssb_b:hover{font-size:11px;color:#36c;text-decoration:underline}.gssb_g{text-align:center;padding:8px 0 7px;position:relative}.gssb_h{font-size:15px;height:28px;margin:0.2em;-webkit-appearance:button}.gssb_i{background:#eee}.gss_ifl{visibility:hidden;padding-left:5px}.gssb_i .gss_ifl{visibility:visible}a.gssb_j{font-size:13px;color:#36c;text-decoration:none;line-height:100%}a.gssb_j:hover{text-decoration:underline}.gssb_l{height:1px;background-color:#e5e5e5}.gssb_m{color:#000;background:#fff}.gssb_a{padding:8px 16px}.gsib_a{padding:4px 10px 4px 56px}.gscb_a{line-height:27px}.gssb_e{border:0}.gssb_l{margin:5px 0}input.gsc-input::-webkit-input-placeholder{font-size:14px}input.gsc-input:-moz-placeholder{font-size:14px}input.gsc-input::-moz-placeholder{font-size:14px}input.gsc-input:-ms-input-placeholder{font-size:14px}input.gsc-input:focus::-webkit-input-placeholder{color:transparent}input.gsc-input:focus:-moz-placeholder{color:transparent}input.gsc-input:focus::-moz-placeholder{color:transparent}input.gsc-input:focus:-ms-input-placeholder{color:transparent}.gssb_c .gsc-completion-container{position:static}.gssb_c{z-index:5000}.gsc-completion-container table{background:transparent;font-size:inherit;font-family:inherit}.gssb_c > tbody > tr,.gssb_c > tbody > tr > td,.gssb_d,.gssb_d > tbody > tr,.gssb_d > tbody > tr > td,.gssb_e,.gssb_e > tbody > tr,.gssb_e > tbody > tr > td{padding:0;margin:0;border:0}.gssb_a table,.gssb_a table tr,.gssb_a table tr td{padding:0;margin:0;border:0}.gssb_a,.gssb_a td{line-height:24px}</style><style type="text/css">.gsc-control-cse{font-family:arial, sans-serif}.gsc-control-cse .gsc-table-result{font-family:arial, sans-serif}.gsc-refinementsGradient{background:linear-gradient(to left,rgba(255,255,255,1),rgba(255,255,255,0))}</style></head>
+            <body id="body" class="home wp-singular page-template-default page page-id-791 wp-theme-i-love-eecs tribe-js metaslider-plugin eecs-1">
+            <button onclick="topFunction()" id="eecsTopBtn" title="Back to top" aria-label="Go back to the top of the page"><img src="https://eecs.engin.umich.edu/wp-content/themes/i-love-eecs/images/top-arrow.svg" alt="Back to Top"></button> 
+    <div id="fade-screen" class="fade-screen"></div>
+
+
+    <header class="site-1 eecs-g-site-type header-coe-style" id="eecs">
+
+    <div class="header-div-top">
+        <div class="header-div-logo">
+            <a href="https://eecs.engin.umich.edu" aria-label="Visit the University of Michigan Electrical Engineering and Computer Science website home page"><img src="https://eecs.engin.umich.edu/wp-content/uploads/2019/09/logo-eecs-1.svg" alt="Electrical Engineering and Computer Science"></a>        </div>
+        <div class="header-div-utility-wrapper">
+        <nav class="utility-nav" id="header_coe_utility_menu_desktop" aria-label="Utility Menu"><a href="https://cse.engin.umich.edu/" aria-label="CSE" target="_self">CSE</a><span class="utility-menu-divider">|</span><a href="https://ece.engin.umich.edu/" aria-label="ECE" target="_self">ECE</a></nav>        </div>
+
+        <div class="header-div-search">
+            <script async="" src="https://cse.google.com/cse.js?cx=8b1432b1e0d267930"></script>
+<div id="google-top-search-coe"><div class="gsc-control-searchbox-only gsc-control-searchbox-only-en" dir="ltr"><form class="gsc-search-box gsc-search-box-tools" accept-charset="utf-8"><table cellspacing="0" cellpadding="0" role="presentation" class="gsc-search-box"><tbody><tr><td class="gsc-input"><div class="gsc-input-box" id="gsc-iw-id1"><table cellspacing="0" cellpadding="0" role="presentation" id="gs_id50" class="gstl_50 gsc-input" style="width: 100%; padding: 0px;"><tbody><tr><td id="gs_tti50" class="gsib_a"><input autocomplete="off" type="text" size="10" class="gsc-input" name="search" title="search" aria-label="search" id="gsc-i-id1" style="width: 100%; padding: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; margin: -0.0625em 0px 0px; height: 1.25em; background: url(&quot;https://www.google.com/cse/static/images/1x/en/branding.png&quot;) left center no-repeat rgb(255, 255, 255); outline: none;" dir="ltr" spellcheck="false" placeholder="Search"></td><td class="gsib_b"><div class="gsst_b" id="gs_st50" dir="ltr"><a class="gsst_a" href="javascript:void(0)" title="Clear search box" role="button" style="display: none;"><span class="gscb_a" id="gs_cb50" aria-hidden="true">×</span></a></div></td></tr></tbody></table></div></td><td class="gsc-search-button"><button class="gsc-search-button gsc-search-button-v2"><svg width="13" height="13" viewBox="0 0 13 13"><title>search</title><path d="m4.8495 7.8226c0.82666 0 1.5262-0.29146 2.0985-0.87438 0.57232-0.58292 0.86378-1.2877 0.87438-2.1144 0.010599-0.82666-0.28086-1.5262-0.87438-2.0985-0.59352-0.57232-1.293-0.86378-2.0985-0.87438-0.8055-0.010599-1.5103 0.28086-2.1144 0.87438-0.60414 0.59352-0.8956 1.293-0.87438 2.0985 0.021197 0.8055 0.31266 1.5103 0.87438 2.1144 0.56172 0.60414 1.2665 0.8956 2.1144 0.87438zm4.4695 0.2115 3.681 3.6819-1.259 1.284-3.6817-3.7 0.0019784-0.69479-0.090043-0.098846c-0.87973 0.76087-1.92 1.1413-3.1207 1.1413-1.3553 0-2.5025-0.46363-3.4417-1.3909s-1.4088-2.0686-1.4088-3.4239c0-1.3553 0.4696-2.4966 1.4088-3.4239 0.9392-0.92727 2.0864-1.3969 3.4417-1.4088 1.3553-0.011889 2.4906 0.45771 3.406 1.4088 0.9154 0.95107 1.379 2.0924 1.3909 3.4239 0 1.2126-0.38043 2.2588-1.1413 3.1385l0.098834 0.090049z"></path></svg></button></td><td class="gsc-clear-button"><div class="gsc-clear-button" title="clear results">&nbsp;</div></td></tr></tbody></table></form></div></div>        </div>
+    </div>
+
+    <nav class="main-menu-nav" aria-label="Main Menu"><ul id="main-menu" class="main-menu"><li> </li><li class="dept-menu main-menu-item cse-dept-menu"><a href="https://cse.engin.umich.edu" class="main-menu-link abc">Computer Science &amp; Engineering</a></li><li class="dept-menu main-menu-item ece-dept-menu"><a href="https://ece.engin.umich.edu" class="main-menu-link abc">Electrical &amp; Computer Engineering</a></li></ul></nav>    <div class="hamburger-logo-wrapper">
+        <div id="hamburger" class="hamburger" type="button" aria-label="Menu" aria-controls="navigation" role="button">
+            <span id="hamburger-icon"><img src="https://eecs.engin.umich.edu/wp-content/themes/i-love-eecs/images/menu.svg" alt="menu"> MENU </span>
+            <a href="#" class="search" id="search-button-mobile" aria-label="Open a search form">
+                <span class="search-text" id="search-button-mobile-text" role="button" aria-label="Open a search form">Search</span>
+                <img src="https://eecs.engin.umich.edu/wp-content/themes/i-love-eecs/images/search.svg" alt="Search" id="eecs-search-svg-mobile">
+                <img src="https://eecs.engin.umich.edu/wp-content/themes/i-love-eecs/images/noun_Close_330124.svg" alt="Close" id="eecs-close-svg-mobile" class="now-you-dont">
+            </a>
+            <script async="" src="https://cse.google.com/cse.js?cx=8b1432b1e0d267930"></script>
+<div id="google-top-search-mobile"><div class="gsc-control-searchbox-only gsc-control-searchbox-only-en" dir="ltr"><form class="gsc-search-box gsc-search-box-tools" accept-charset="utf-8"><table cellspacing="0" cellpadding="0" role="presentation" class="gsc-search-box"><tbody><tr><td class="gsc-input"><div class="gsc-input-box" id="gsc-iw-id2"><table cellspacing="0" cellpadding="0" role="presentation" id="gs_id51" class="gstl_51 gsc-input" style="width: 100%; padding: 0px;"><tbody><tr><td id="gs_tti51" class="gsib_a"><input autocomplete="off" type="text" size="10" class="gsc-input" name="search" title="search" aria-label="search" id="gsc-i-id2" dir="ltr" spellcheck="false" placeholder="Search" style="width: 100%; padding: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; margin: -0.0625em 0px 0px; height: 1.25em; background: url(&quot;https://www.google.com/cse/static/images/1x/en/branding.png&quot;) left center no-repeat rgb(255, 255, 255); outline: none;"><button class="eecs-google-search-submit" onclick="(this.eecsTriggerSearch);"></button></td><td class="gsib_b"><div class="gsst_b" id="gs_st51" dir="ltr"><a class="gsst_a" href="javascript:void(0)" title="Clear search box" role="button" style="display: none;"><span class="gscb_a" id="gs_cb51" aria-hidden="true">×</span></a></div></td></tr></tbody></table></div></td><td class="gsc-search-button"><button class="gsc-search-button gsc-search-button-v2"><svg width="13" height="13" viewBox="0 0 13 13"><title>search</title><path d="m4.8495 7.8226c0.82666 0 1.5262-0.29146 2.0985-0.87438 0.57232-0.58292 0.86378-1.2877 0.87438-2.1144 0.010599-0.82666-0.28086-1.5262-0.87438-2.0985-0.59352-0.57232-1.293-0.86378-2.0985-0.87438-0.8055-0.010599-1.5103 0.28086-2.1144 0.87438-0.60414 0.59352-0.8956 1.293-0.87438 2.0985 0.021197 0.8055 0.31266 1.5103 0.87438 2.1144 0.56172 0.60414 1.2665 0.8956 2.1144 0.87438zm4.4695 0.2115 3.681 3.6819-1.259 1.284-3.6817-3.7 0.0019784-0.69479-0.090043-0.098846c-0.87973 0.76087-1.92 1.1413-3.1207 1.1413-1.3553 0-2.5025-0.46363-3.4417-1.3909s-1.4088-2.0686-1.4088-3.4239c0-1.3553 0.4696-2.4966 1.4088-3.4239 0.9392-0.92727 2.0864-1.3969 3.4417-1.4088 1.3553-0.011889 2.4906 0.45771 3.406 1.4088 0.9154 0.95107 1.379 2.0924 1.3909 3.4239 0 1.2126-0.38043 2.2588-1.1413 3.1385l0.098834 0.090049z"></path></svg></button></td><td class="gsc-clear-button"><div class="gsc-clear-button" title="clear results">&nbsp;</div></td></tr></tbody></table></form></div></div>        </div>
+    </div>
+
+</header>
+
+<div id="main-content" role="main">
+<div class="eecs-landing-two-cards">
+    <div class="eecs-ltwoc-background" style="background-image:url(https://eecs.engin.umich.edu/wp-content/uploads/2019/09/eecs-header1-e1566580142499.jpg);"></div>
+    <div class="eecs-ltwoc-main-container">
+        <h2 class="eecs-ltwoc-title">Electrical Engineering and Computer Science (EECS)</h2>
+        <div class="eecs-ltwoc-main-body"><p>The EECS Department is one of the leading departments of its kind in the nation. Our excellence and impact comes through in the work of the two departmental divisions: Computer Science and Engineering and Electrical and Computer Engineering.</p>
+</div>
+    </div>
+    <div class="eecs-ltwoc-card-container">
+        <div class="eecs-ltwoc-column eecs-ltwoc-column1">            <div>
+                <div class="eecs-ltwoc-card-content">
+                    <h2>Computer Science and Engineering (CSE) </h2>
+                    <div>
+                        <p>CSE is home of one of the oldest and most respected programs in computation. Research activities include foundational work in artificial intelligence, pervasive computing, computer systems, cybersecurity, quantum computing, human-centered computing, theoretical computer science, and beyond.</p>
+<p><a href="https://cse.engin.umich.edu/" class="eecs-ltwoc-link">Explore CSE<span style="padding-left:4px;">&gt;</span></a></p>                    </div>
+                </div>
+            </div>
+            </div><div class="eecs-ltwoc-column eecs-ltwoc-column2">            <div>
+                <div class="eecs-ltwoc-card-content">
+                    <h2>Electrical and Computer Engineering (ECE) </h2>
+                    <div>
+                        <p>ECE faculty and students are powering innovation by revolutionizing technologies to improve healthcare, the environment, sustainability, security, energy, transportation and space. All ECE programs, undergraduate and graduate, are ranked in the top 10 in the nation.</p>
+<p><a href="https://ece.engin.umich.edu/" class="eecs-ltwoc-link">Explore ECE<span style="padding-left:4px;">&gt;</span></a></p>                    </div>
+                </div>
+            </div>
+            </div>    </div>
+</div>
+
+
+<div class="eecs-landing-three-cards">
+    <div class="eecs-ltc-background" style="background-image:url(https://eecs.engin.umich.edu/wp-content/uploads/2019/09/cards-bg.jpg);"></div>
+    <div class="eecs-ltc-main-container">
+        <h1>EECS at Michigan</h1>
+        <div class="eecs-ltc-main-body"><p>Established. Respected. Making a world of difference. EECS undergraduate and graduate degree programs are considered among the best in the country. Our research activities, which range from the nano- to the systems level, are supported by more than $75M in funding annually — a clear indication of the strength of our programs and our award-winning faculty. With this combination of great resources and talent, EECS at Michigan is transforming and improving a wide range of fields that touch all of our lives.</p>
+</div>
+    </div>
+    <div class="eecs-ltc-card-container">
+                    <div>
+                                    <img decoding="async" src="https://eecs.engin.umich.edu/wp-content/uploads/2023/07/card3-resized.jpg" alt="Students with drone">
+                                    <div class="eecs-ltc-card-content">
+                    <h2>Undergraduate Programs</h2>
+                    <div>
+                        <h3>Computer Science &amp; Engineering</h3><p><a href="https://cse.engin.umich.edu/academics/undergraduate/majors-and-minors/computer-engineering-major/">BSE, Computer Engineering<span style="padding-left:4px;">&gt;</span></a></p><p><a href="https://cse.engin.umich.edu/academics/undergraduate/majors-and-minors/computer-science-eng-major/">BSE, Computer Science<span style="padding-left:4px;">&gt;</span></a></p><p><a href="https://cse.engin.umich.edu/academics/undergraduate/majors-and-minors/computer-science-lsa-major/">BS, Computer Science (LSA)<span style="padding-left:4px;">&gt;</span></a></p><p><a href="https://cse.engin.umich.edu/academics/undergraduate/majors-and-minors/data-science-eng-major/">BSE, Data Science<span style="padding-left:4px;">&gt;</span></a></p><p><a href="https://cse.engin.umich.edu/academics/undergraduate/majors-and-minors/data-science-lsa-major/">BS, Data Science (LSA)<span style="padding-left:4px;">&gt;</span></a></p><p><a href="https://cse.engin.umich.edu/academics/undergraduate/majors-and-minors/computer-science-minor/">Minor, Computer Science<span style="padding-left:4px;">&gt;</span></a></p><p><a href="https://cse.engin.umich.edu/academics/undergraduate/majors-and-minors/artificial-intelligence-minor/">Minor, Artificial Intelligence<span style="padding-left:4px;">&gt;</span></a></p><h3>Electrical &amp; Computer Engineering</h3><p><a href="https://ece.engin.umich.edu/academics/undergraduate/majors-minors/computer-engineering-major/">BSE, Computer Engineering<span style="padding-left:4px;">&gt;</span></a></p><p><a href="https://ece.engin.umich.edu/academics/undergraduate/majors-minors/electrical-engineering-major/">BSE, Electrical Engineering<span style="padding-left:4px;">&gt;</span></a></p><p><a href="https://ece.engin.umich.edu/academics/undergraduate/majors-minors/electrical-engineering-minor/">Minor, Electrical Engineering<span style="padding-left:4px;">&gt;</span></a></p>                    </div>
+                </div>
+            </div>
+                        <div>
+                                    <img decoding="async" src="https://eecs.engin.umich.edu/wp-content/uploads/2023/07/woman-in-lab-resized.jpg" alt="Woman in lab">
+                                    <div class="eecs-ltc-card-content">
+                    <h2>Graduate Programs</h2>
+                    <div>
+                        <h3>Computer Science &amp; Engineering</h3><p><a href="https://cse.engin.umich.edu/academics/graduate/graduate-programs/phd-in-cse/">PhD, Computer Science &amp; Engineering<span style="padding-left:4px;">&gt;</span></a></p><p><a href="https://cse.engin.umich.edu/academics/graduate/graduate-programs/masters-in-cse/">MS/MSE, Computer Science &amp; Engineering<span style="padding-left:4px;">&gt;</span></a></p><p><a href="https://cse.engin.umich.edu/academics/graduate/graduate-programs/masters-in-data-science/">MS, Data Science (LSA)<span style="padding-left:4px;">&gt;</span></a></p><h3>Electrical &amp; Computer Engineering</h3><p><a href="https://ece.engin.umich.edu/academics/graduate-programs/prospective-grad-students/about-the-doctoral-program/">PhD, Electrical &amp; Computer Engineering<span style="padding-left:4px;">&gt;</span></a></p><p><a href="https://ece.engin.umich.edu/academics/graduate-programs/prospective-grad-students/about-the-masters-program/">MSE, Electrical &amp; Computer Engineering<span style="padding-left:4px;">&gt;</span></a></p><p><a href="https://ece.engin.umich.edu/academics/graduate-programs/prospective-grad-students/about-the-master-of-engineering-meng-program/">MEng, Electrical &amp; Computer Engineering<span style="padding-left:4px;">&gt;</span></a></p>                    </div>
+                </div>
+            </div>
+                        <div>
+                                    <img decoding="async" src="https://eecs.engin.umich.edu/wp-content/uploads/2023/07/student-with-microchip.jpg" alt="Student with microchip">
+                                    <div class="eecs-ltc-card-content">
+                    <h2>News and Events</h2>
+                    <div>
+                        <h3>Computer Science &amp; Engineering</h3><p><a href="https://cse.engin.umich.edu/news/">CSE News<span style="padding-left:4px;">&gt;</span></a></p><p><a href="https://cse.engin.umich.edu/events/">CSE Events<span style="padding-left:4px;">&gt;</span></a></p><h3>Electrical &amp; Computer Engineering</h3><p><a href="https://ece.engin.umich.edu/news/">ECE News<span style="padding-left:4px;">&gt;</span></a></p><p><a href="https://ece.engin.umich.edu/events/">ECE Events<span style="padding-left:4px;">&gt;</span></a></p>                    </div>
+                </div>
+            </div>
+                    
+    </div>
+</div>
+
+
+<div class="eecs-video-grid" style="background-color:var(--um-blue);">
+        <div class="eecs-video-grid-wrapper eecs-video-grid-50">
+        <figure class="eecs-video-grid-video"><iframe title="Tools for “more humane coding”" src="https://www.youtube.com/embed/Qo14lZF6ByY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" aria-label="Flickr Slideshow"></iframe><h2 class="eecs-video-grid-video-title" style="color: var(--um-maize); font-size:24px;">Tools for “more humane coding”</h2><span class="eecs-video-grid-video-caption" style="color: var(--white); font-size:16px;">Prof. Cyrus Omar and PhD student David Moon describe their work to design more intuitive, interactive, and efficient coding environments that can help novices and professionals alike focus on the bigger picture without getting bogged down in bug fixing.</span></figure><figure class="eecs-video-grid-video"><iframe title="Snail extinction mystery solved using miniature solar sensors" src="https://www.youtube.com/embed/m6EzsWpeN3U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" aria-label="Flickr Slideshow"></iframe><h2 class="eecs-video-grid-video-title" style="color: var(--um-maize); font-size:24px;">Snail extinction mystery solved using miniature solar sensors</h2><span class="eecs-video-grid-video-caption" style="color: var(--white); font-size:16px;">The World’s Smallest Computer, developed by Prof. David Blaauw, helped yield new insights into the survival of a native snail important to Tahitian culture and ecology and to biologists studying evolution, while proving the viability of similar studies of very small animals including insects.</span></figure>    </div>
+</div>
+
+
+
+<div class="eecs-acf-news-feed-block two-column"><div class="eecs-acf-news-feed-wrapper"><div class="eecs-acf-news-feed-column-1"><h2 class="eecs-acf-news-feed-heading">Events</h2><div class="events-list"><a href="https://eecs.engin.umich.edu/event/avant-garde-circuits-and-systems-for-high-frequency-wireless-communications" class="eecs-event-block-item"><div class="event-date"><div class="event-month">JUL</div><div class="event-day">10</div></div><!-- event-date --><div class="event-description" style="flex-grow:1;"><div class="event-type">Dissertation Defense</div><div class="event-title">Avant-Garde Circuits and Systems for High-Frequency Wireless Communications</div><div class="event-details">10:00am – 12:00pm in 1500 EECS Building</div><!-- event details --></div><!-- event desc --></a><!-- event anchor --><a href="https://eecs.engin.umich.edu/event/cuos-seminar-high-peak-and-average-power-cpa-laser-systems" class="eecs-event-block-item"><div class="event-date"><div class="event-month">JUL</div><div class="event-day">10</div></div><!-- event-date --><div class="event-description" style="flex-grow:1;"><div class="event-type">CUOS Seminar | ECE Seminar | Optics Seminar</div><div class="event-title">CUOS Seminar: High Peak and Average Power CPA Laser Systems</div><div class="event-details">12:00pm – 1:00pm in 2000 Phoenix Memorial Laboratory</div><!-- event details --></div><!-- event desc --></a><!-- event anchor --><a href="https://eecs.engin.umich.edu/event/computing-and-communicating-uncertainty-for-responsible-human-ai-decision-making" class="eecs-event-block-item"><div class="event-date"><div class="event-month">JUL</div><div class="event-day">15</div></div><!-- event-date --><div class="event-description" style="flex-grow:1;"><div class="event-type">Dissertation Defense</div><div class="event-title">Computing and Communicating Uncertainty for Responsible Human-AI Decision-making</div><div class="event-details">10:00am – 12:00pm in 4320 Leinweber – Dow Event Space</div><!-- event details --></div><!-- event desc --></a><!-- event anchor --><a href="https://eecs.engin.umich.edu/event/learning-and-adaptation-in-interactive-ai-agents" class="eecs-event-block-item"><div class="event-date"><div class="event-month">JUL</div><div class="event-day">20</div></div><!-- event-date --><div class="event-description" style="flex-grow:1;"><div class="event-type">Dissertation Defense</div><div class="event-title">Learning and Adaptation in Interactive AI Agents</div><div class="event-details">2:00pm – 4:00pm in Remote/Virtual</div><!-- event details --></div><!-- event desc --></a><!-- event anchor --><p class="eecs-acf-news-feed-more"><a class="eecs-acf-news-feed-more-link" href="https://cse.engin.umich.edu/events">CSE&nbsp;Events&nbsp;&gt;</a><a class="eecs-acf-news-feed-more-link" href="https://ece.engin.umich.edu/events">ECE&nbsp;Events&nbsp;&gt;</a></p></div></div><div class="eecs-acf-news-feed-column-2"><h2 class="eecs-acf-news-feed-heading">News</h2><a href="https://eecs.engin.umich.edu/stories/cyrus-omar-receives-u-m-henry-russel-award" class="eecs-acf-news-feed-home3-row story1 eecs-show-article" data-story-count="1"><div class="eecs-acf-news-feed-home3-text"><h3>Cyrus Omar receives U-M Henry Russel Award</h3><p class="eecs-acf-news-feed-home3-excerpt">U-M’s highest honor for early- to mid-career faculty, the award recognizes Omar’s outstanding contributions to research, teaching, and mentorship</p></div><div class="eecs-acf-news-feed-home3-image" style="background-image:url(https://eecsnews.engin.umich.edu/wp-content/uploads/sites/2/2025/01/Cyrus-Omar-featured-470x312.png)"></div></a><a href="https://eecs.engin.umich.edu/stories/eleven-papers-and-two-demos-by-cse-researchers-at-acl-2026" class="eecs-acf-news-feed-home3-row story2 eecs-show-article" data-story-count="2"><div class="eecs-acf-news-feed-home3-text"><h3>Eleven papers and two demos by CSE researchers at ACL 2026</h3><p class="eecs-acf-news-feed-home3-excerpt">CSE authors are presenting new research on topics spanning computational linguistics and natural language processing.</p></div><div class="eecs-acf-news-feed-home3-image" style="background-image:url(https://eecsnews.engin.umich.edu/wp-content/uploads/sites/2/2026/07/ACL26_featured-470x312.png)"></div></a><a href="https://eecs.engin.umich.edu/stories/aistats26-causcale-workshop-best-paper-reveals-when-llms-can-and-cannot-generalize-to-prompts-outside-of-their-training" class="eecs-acf-news-feed-home3-row story3 eecs-show-article" data-story-count="3"><div class="eecs-acf-news-feed-home3-text"><h3>AISTATS’26 CauScale Workshop Best Paper reveals generalization mechanism of LLMs</h3><p class="eecs-acf-news-feed-home3-excerpt">New research led by Laura Balzano and Qing Qu establishes a mathematical framework explaining how LLMs generalize to novel, out-of-distribution tasks.</p></div><div class="eecs-acf-news-feed-home3-image" style="background-image:url(https://eecsnews.engin.umich.edu/wp-content/uploads/sites/2/2026/07/LLM-in-context-feat-470x312.jpg)"></div></a><p class="eecs-acf-news-feed-more"><a class="eecs-acf-news-feed-more-link" href="https://cse.engin.umich.edu/news">CSE&nbsp;News&nbsp;&gt;</a><a class="eecs-acf-news-feed-more-link" href="https://ece.engin.umich.edu/news">ECE&nbsp;News&nbsp;&gt;</a></p></div></div></div></div>
+<!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+                            <div class="inner">
+                    <!-- Use Separate file based on site type -->
+                    <div class="footer-left">
+    <a href="https://umich.edu/" target="_blank" aria-label="Visit the University of Michigan Website"><img class="footer-logo" src="https://eecs.engin.umich.edu/wp-content/themes/i-love-eecs/images/footer-logo.svg" alt="University of Michigan"></a>
+            <nav class="footer-nav">
+            <ul class="footer-menu">
+                <li class="footer-menu-item">
+                    <a class="footer-menu-link" href="https://www.engin.umich.edu/" target="_blank">Michigan Engineering</a>
+                </li>
+                <li class="footer-menu-item">
+                    <a class="footer-menu-link" href="https://eecs.engin.umich.edu">Electrical Engineering and Computer Science Department</a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+<div class="footer-right footer-type-reg">
+    <div class="footer-right-column"><h3 class="footer-right-heading"><a href="https://cse.engin.umich.edu">Computer Science<br>and Engineering</a></h3><address class="footer-right-text">Bob and Betty Beyster Building<br>2260 Hayward Street<br>Ann Arbor, MI 48109-2121</address><div class="footer-right-links"><a class="footer-right-link" href="https://cse.engin.umich.edu/about/contact-us/">Contact &gt;</a><a class="footer-right-link" href="https://sites.google.com/umich.edu/cse-intranet" target="_blank">CSE Intranet &gt;</a></div><div class="footer-div-socials footer-align-left div-address"><a class="footer-right-social" href="https://twitter.com/UMichCSE" target="_blank" aria-label="Find us on x"><img src="https://eecs.engin.umich.edu/wp-content/themes/i-love-eecs/images/x-twitter.svg" alt="x"></a><a class="footer-right-social" href="https://www.linkedin.com/company/umichcse" target="_blank" aria-label="Find us on linkedin"><img src="https://eecs.engin.umich.edu/wp-content/themes/i-love-eecs/images/linkedin.svg" alt="linkedin"></a><a class="footer-right-social" href="https://www.youtube.com/@UMichCSE" target="_blank" aria-label="Find us on youtube"><img src="https://eecs.engin.umich.edu/wp-content/themes/i-love-eecs/images/youtube.svg" alt="youtube"></a></div></div><div class="footer-right-column"><h3 class="footer-right-heading"><a href="https://ece.engin.umich.edu">Electrical and<br>Computer Engineering</a></h3><address class="footer-right-text">EECS Building<br>1301 Beal Avenue<br>Ann Arbor, MI 48109-2122</address><div class="footer-right-links"><a class="footer-right-link" href="https://ece.engin.umich.edu/about/contact-us/">Contact &gt;</a><a class="footer-right-link" href="https://sites.google.com/umich.edu/ece-intranet" target="_blank">ECE Intranet &gt;</a></div><div class="footer-div-socials footer-align-left div-address"><a class="footer-right-social" href="https://twitter.com/UMichECE" target="_blank" aria-label="Find us on x"><img src="https://eecs.engin.umich.edu/wp-content/themes/i-love-eecs/images/x-twitter.svg" alt="x"></a><a class="footer-right-social" href="https://www.linkedin.com/school/umichece/" target="_blank" aria-label="Find us on linkedin"><img src="https://eecs.engin.umich.edu/wp-content/themes/i-love-eecs/images/linkedin.svg" alt="linkedin"></a><a class="footer-right-social" href="https://www.youtube.com/user/EECSatUM" target="_blank" aria-label="Find us on youtube"><img src="https://eecs.engin.umich.edu/wp-content/themes/i-love-eecs/images/youtube.svg" alt="youtube"></a><a class="footer-right-social" href="https://www.instagram.com/umichece/" target="_blank" aria-label="Find us on instagram"><img src="https://eecs.engin.umich.edu/wp-content/themes/i-love-eecs/images/instagram.svg" alt="instagram"></a><a class="footer-right-social" href="https://www.flickr.com/photos/26556146@N07/" target="_blank" aria-label="Find us on flickr"><img src="https://eecs.engin.umich.edu/wp-content/themes/i-love-eecs/images/flickr.svg" alt="flickr"></a></div></div></div>
+                </div>
+                        <div class="copyright ">
+                    <div class="copyright-text">© 2026 <a href="https://regents.umich.edu/" target="_blank" class="copyright-menu-link treat-as-internal">The Regents of the University of Michigan</a></div>
+        <nav class="copyright-nav" aria-label="Copyright and Policy Menu">
+        <ul class="copyright-menu">
+            <li class="copyright-menu-item">
+                <a class="copyright-menu-link" href="https://www.engin.umich.edu/college/about/privacy" target="_blank">Privacy Policy</a>
+            </li>
+            <li class="copyright-menu-item">
+                <a class="copyright-menu-link" href="https://safety.engin.umich.edu/" target="_blank">Campus Safety</a>
+            </li>
+            <li class="copyright-menu-item">
+                <a class="copyright-menu-link" href="https://hr.umich.edu/working-u-m/workplace-improvement/office-institutional-equity/nondiscrimination-policy-notice" target="_blank">Non-Discrimination Policy</a>
+            </li>
+        </ul>
+    </nav>
+            </div><!-- copyright -->
+        </div><!-- container -->
+    </footer>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/i-love-eecs/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script><script id="tec-user-agent-js" src="https://eecs.engin.umich.edu/wp-content/plugins/the-events-calendar/common/build/js/user-agent.js?ver=da75d0bdea6dde3898df"></script>
+<script id="cbd_eecs_blocks-scripts-js-js" src="https://eecs.engin.umich.edu/wp-content/plugins/cbd-eecs-blocks/dist/js/scripts.js?ver=1.0.0"></script>
+<script id="getwid-blocks-frontend-js-js-extra">
+var Getwid = {"settings":[],"ajax_url":"https://eecs.engin.umich.edu/wp-admin/admin-ajax.php","isRTL":"","nonces":{"contact_form":"d38195c3bf"}};
+//# sourceURL=getwid-blocks-frontend-js-js-extra
+</script>
+<script id="getwid-blocks-frontend-js-js" src="https://eecs.engin.umich.edu/wp-content/plugins/getwid/assets/js/frontend.blocks.js?ver=2.2.0"></script>
+<script id="cse-arb-scripts-js" src="https://eecs.engin.umich.edu/wp-content/plugins/cse-annual-report-blocks/js/scripts.js?ver=0.05"></script>
+<script id="intersection-observer-script-js" src="https://eecs.engin.umich.edu/wp-content/themes/i-love-eecs/js/intersection-observer.js?ver=7.0"></script>
+<script id="app-script-js" src="https://eecs.engin.umich.edu/wp-content/themes/i-love-eecs/js/app.js?ver=4.209"></script>
+<script id="i-love-eecs-scripts-js" src="https://eecs.engin.umich.edu/wp-content/themes/i-love-eecs/js/scripts.js?ver=4.209"></script>
+<script id="slick-slider-js" src="https://eecs.engin.umich.edu/wp-content/themes/i-love-eecs/js/slick.min.js?ver=7.0"></script>
+<script id="sharer-js-js" src="https://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js?ver=7.0"></script>
+<script id="umich-alerts-js" src="https://umich.edu/apis/umalerts/umalerts.js?ver=1.0"></script>
+<script id="wdt-custom-avada-js-js-extra">
+var wdt_ajax_object = {"ajaxurl":"https://eecs.engin.umich.edu/wp-admin/admin-ajax.php"};
+//# sourceURL=wdt-custom-avada-js-js-extra
+</script>
+<script id="wdt-custom-avada-js-js" src="https://eecs.engin.umich.edu/wp-content/plugins/wpdatatables/integrations/starter/page-builders/avada/assets/js/wdt-custom-avada-js.js?ver=7.5.1"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://eecs.engin.umich.edu/wp-includes/js/wp-emoji-release.min.js?ver=7.0"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://eecs.engin.umich.edu/wp-includes/js/wp-emoji-loader.min.js
+</script>
+<nav id="mobile-menu-nav" class="mobile-menu-nav" aria-label="Mobile Main Menu"><ul id="mobile-menu-22" class="mobile-menu-22"><li> </li><li class="dept-menu main-menu-item cse-dept-menu"><a href="https://cse.engin.umich.edu" class="main-menu-link abc">Computer Science &amp; Engineering</a></li><li class="dept-menu main-menu-item ece-dept-menu"><a href="https://ece.engin.umich.edu" class="main-menu-link abc">Electrical &amp; Computer Engineering</a></li></ul></nav><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a181ab49cbb5519b',t:'MTc4MzU0MDc2Mw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; visibility: hidden;" aria-label="Flickr Slideshow"></iframe>
+<table cellspacing="0" cellpadding="0" role="presentation" class="gstl_50 gssb_c" style="width: 111px; display: none; top: 64px; left: 1086px; position: absolute;"><tbody><tr><td class="gssb_f"></td><td class="gssb_e" style="width: 100%;"></td></tr></tbody></table><table cellspacing="0" cellpadding="0" role="presentation" class="gstl_51 gssb_c" style="width: 2px; display: none; top: 0px; left: -1px; position: absolute;"><tbody><tr><td class="gssb_f"></td><td class="gssb_e" style="width: 100%;"></td></tr></tbody></table></body></html>

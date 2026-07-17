@@ -1,0 +1,18 @@
+{
+  "id": "lsa-moral-and-political-philosophy-minor",
+  "name": "Moral and Political Philosophy Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 COMMON REQUIREMENTS FOR ALL PHILOSOPHY ACADEMIC MINORS:Any 100- or 200-level course other than PHIL 180, 183 (if elected after FA20), 201, 296 (logic courses).At least one course at the 400-level, other than formal methods (PHIL 413, 414)A minimum of 15 credits of Philosophy, at least 9 of which (including the required 400-level course) must be taken in residence.No course will count toward the minor unless the student receives a grade of C- or better.SPECIFIC REQUIREMENTS FOR Moral and Political Philosophy:One of PHIL 361 or 362 or 366 or 367 or PPE 300Three additional courses from: PHIL 353, 355, 356, 359, 361, 366, 367, 369, 384, 385, 429, 430, 431, 433, 441, 442, 443, 444, 446, 485 (one of which must be at the 400-level), PPE 300",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/moral-and-political-philosophy.html"
+}

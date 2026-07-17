@@ -1,0 +1,1277 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <!-- Google tag (gtag.js) -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TTF66LJ1T9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-TTF66LJ1T9');
+    </script>
+
+    <meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><title>
+	FA 2026 | MATH 217 - Linear Algebra | Section 001
+</title><link rel="icon" type="image/png" href="https://lsa.umich.edu/etc/designs/michigan-lsa/favicon.png">
+
+    <!-- Include viewport meta tag to make page responsive to device and screen resolution. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jQuery / jQuery DateTimePicker -->
+    <link href="assets/jquery/themes/smoothness/jquery-ui.css" rel="stylesheet"><link href="assets/jquery/jquery.jgrowl.css" rel="stylesheet">
+
+    <!-- Twitter Bootstrap -->
+    <link href="assets/bootstrap/css/bootstrap.css?v1.8" rel="stylesheet"><link id="cssBootstrapAccessible" rel="stylesheet" type="text/css">
+    
+    
+    <!-- Font Awesome -->
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Multiselect -->
+    <link href="assets/bootstrap/css/bootstrap-multiselect.css" rel="stylesheet">
+
+    <!-- lss dmc (few classes for shared styling as LSA Website ) -->
+    <link rel="stylesheet" href="assets/stylesheets/lsadmc.css?v1.2">
+
+    <!-- lss mis ------------------------------------ -->
+    <link rel="stylesheet" href="assets/stylesheets/lsamis.css?v1.6">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700i,800|Oswald:300,400,700|Open+Sans:600,400&amp;display=swap" rel="stylesheet">
+
+    <!-- cg specific -->
+    <link href="assets/stylesheets/cgstyle.css?v=1.6" rel="stylesheet">
+    <meta name="googlebot" content="noindex, nofollow, noarchive">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="msnbot" content="noindex, nofollow">
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <!-- NOTE: this is only used if user has Javascript turned off (that's what the noscript tag does) If Javascript is
+         turned off then Google Tag Manager will still work. Some people remove this as not really needed, figured
+         I would leave in, maybe we want to see how many users have Javascript disabled?
+    -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KCFDNPX"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <form method="post" action="./cg_detail.aspx?content=2610MATH217001&amp;termArray=f_26_2610" id="form1" style="height:100%;">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="207F1B09">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="QaZCWOpomA0B/MJnlB1C5fGKKlL3YCfd0YUAGcBCwE9nGu0h0mECI5/5Gjz9IXJOeGKfRqUKWWpi3sMYujxbBuxjXTO4O/V2Qut94jbbPPuEhfPd">
+</div>
+        <div class="wrapper">
+            <div class="top-bar-wrap" id="top-bar-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="lsa-nav hidden-xs col-xs-12">
+                            <ul>
+                                <li>
+                                    <a href="http://umich.edu/">U-M</a>
+                                </li><li class="divider">//</li>
+                
+                                <li>
+                                    <a href="http://lsa.umich.edu/">LSA</a>
+                                </li><li class="divider">//</li>
+                
+                                <li>
+                                    <a href="http://lsa.umich.edu/lsa/academics/departments-and-units.html">Departments and Units</a>
+                                </li><li class="divider">//</li>
+                
+                                <li>
+                                    <a href="http://lsa.umich.edu/lsa/academics/majors-minors.html">Majors and Minors</a>
+                                </li>
+                            </ul>
+                        </div>                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 mis-apptitle mis-morereadablefont" id="mis-apptitle">
+                            <a id="hyperlinkHomeTitle" href="default.aspx">LSA Course Guide</a>
+                        </div>
+                        <div class="col-sm-6 text-right" id="header-logo">
+                            <img id="imgHeader" title="U-M College of LSA" src="assets/images/en-logo2.png" alt="U-M College of LSA">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- main navbar -->
+            <nav class="navbar navbar-default cg-navbar" id="navbar">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" role="tab" aria-selected="false" id="ui-collapse-435">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse nav-justified" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li id="navSearch"><a id="hyperlinkHome" href="default.aspx"><i class="fa fa-search"></i> Search</a></li>
+                            <li id="navBrowseUG"><a id="hyperlinkBrowseUGSubjectList" href="cg_subjectlist.aspx?termArray=f_26_2610&amp;cgtype=ug&amp;allsections=true"><i class="fa fa-list"></i> Browse UG Subjects</a></li>
+                            <li id="navBrowseGRAD"><a id="hyperlinkBrowseGRADSubjectList" href="cg_subjectlist.aspx?termArray=f_26_2610&amp;cgtype=gr&amp;allsections=true"><i class="fa fa-list"></i> Browse GRAD Subjects</a></li>
+                            <li id="navTheme"><a id="hyperlinkThemeSemesterCourses" href="cg_results.aspx?termArray=f_26_2610&amp;cgtype=ug&amp;cgtype=gr&amp;allsections=true&amp;show=20&amp;department=&amp;reqs=Theme_Sem"><i class="fa fa-picture-o"></i> Theme Semester Courses</a></li>
+                        </ul>
+                        <div class="OuterVersionSwitch">
+                            <div class="VersionSwitchSection">
+                                <a onclick="VersionSwitch();" id="btnVersionSwitch" class="btn btn-default" alt="Accessible Version" href="javascript:__doPostBack('ctl00$btnVersionSwitch','')"><span id="glyphVersionSwitch" class="glyphicon glyphicon-unchecked glyphicon-cgnav-black"></span> Accessible Version
+                                </a>
+                                <span id="ttVersionSwitch" class="glyphicon glyphicon-question-sign glyphicon-cgmain" data-toggle="tooltip" data-placement="right" title="" data-original-title="This version works better for some screen readers"></span>
+                            </div>
+                        </div>
+                        <div class="visible-xs" style="margin-bottom:15px;">
+                            &nbsp;
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Main Content Area -->
+            <div class="container" id="container" role="main" style="margin-bottom:40px;">
+                
+    <div class="row" style="padding-bottom:10px;">
+        <div class="col-sm-6">
+            <div class="pull-left">
+                <a href="javascript:history.back();">&lt; <b>back</b></a>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="pull-right">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-8">
+            <div style="font-family: 'Oswald', sans-serif; font-size:28px !important; color:#00274c;">
+                <span id="contentMain_lblSubject">MATH</span>
+                <span id="contentMain_lblCatNo">217</span>
+                -
+                <span id="contentMain_lblLongTitle">Linear Algebra</span>
+            </div>
+            <div style="font-family: 'Oswald', sans-serif; font-size:22px !important; color:#00274c; border-bottom:1px solid #ddd; padding-bottom:5px;">
+                <div>
+                    <span id="contentMain_lblTerm">Fall 2026, </span>
+                    <span id="contentMain_lblSection">Section 001</span>
+                    <span id="contentMain_lblSubtitle"></span>
+                </div>
+            </div>
+
+            <div style="padding-top:10px; font-size:15px;">
+                <table>
+                    <tbody><tr>
+                        <td>
+                            <b>Instruction Mode:</b>
+                            Section 001 is <i class="fa fa-user"></i>&nbsp;In Person (see other Sections below)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding-top:5px;">
+                            <b>Subject:</b>&nbsp;<span id="contentMain_lblSubjectDescr">Mathematics (MATH)</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding-top:5px;">
+                            <b>Department:</b>&nbsp;<span id="contentMain_lblDeptDescr">LSA Mathematics</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding-top:5px;">
+                            <div id="contentMain_pnlCrsHomePage" class="newlnpnl text-content-wurl">
+	
+                                <span id="contentMain_lblCrsHomePage"></span>
+                            
+</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding-top:5px;">
+                            <div id="contentMain_pnlClHomePage" class="newlnpnl text-content-wurl">
+	
+                                <span id="contentMain_lblClHomePage"></span>
+                            
+</div>
+                        </td>
+                    </tr>
+                </tbody></table>
+            </div>
+        </div>
+        <div class="col-sm-2 text-center" style="border:1px solid #ddd; border-radius:4px; height:150px;">
+            <div style="width:100%; text-align:center; padding-top:10px;">
+                <div>
+                    <img src="assets/images/atlas.png">
+                </div>
+            </div>
+
+            <div style="padding-top:10px;">
+                See additional student enrollment and course instructor information to guide you in your decision making.
+
+            </div>
+
+            <div style="padding-top:8px;">
+                <a id="contentMain_lnk_ART2" class="btn btn-primary" href="https://atlas.ai.umich.edu/course/MATH%20217" target="_blank">Atlas Course Profile<span class="glyphicon glyphicon-new-window newwindowglyph"></span>
+                </a>
+            </div>
+                
+
+
+        </div>
+        <div class="col-sm-2">
+            <div style="font-family: 'Oswald', sans-serif; font-size:16px !important; text-align:center; background-color:#f5f5f5; border-top:1px solid #ddd; border-left:1px solid #ddd; border-right:1px solid #ddd; padding-top:3px; padding-bottom:3px; border-top-right-radius: 4px; border-top-left-radius: 4px;">
+                Page Index
+            </div>
+            
+            <div class="list-group">
+                <a href="#ClassDetails" class="list-group-item list-group-item-compact" style="border-top-right-radius: 0; border-top-left-radius: 0;"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>&nbsp;Details</a>
+                <a href="#ClassDescription" class="list-group-item list-group-item-compact"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>&nbsp;Description</a>
+                <a href="#ClassSchedule" class="list-group-item list-group-item-compact"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>&nbsp;Schedule</a>
+                <a href="#ClassTextbooks" class="list-group-item list-group-item-compact"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>&nbsp;Textbooks/Other Materials</a>
+                <a href="#ClassSyllabi" class="list-group-item list-group-item-compact"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>&nbsp;Syllabi</a>
+                
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!---------- Details ---------->
+    <div class="panel panel-default" id="ClassDetails" style="margin-top:10px;">
+        <div class="panel-heading">
+            <h4 class="panel-title panel-title-cg">
+                Details
+            </h4>
+        </div>
+        <div id="classDetailsBody" class="panel-collapse collapse in">
+            <div class="panel-body">
+                
+                <div class="row classdetailsrow">
+                    <div class="col-sm-2 classdetailslabel">
+                        Credits:
+                    </div>
+                    <div class="col-sm-10">
+                        <span id="contentMain_lblCredits">4</span>
+                        <span id="contentMain_lblNonLSA"></span>
+                    </div>
+                </div>
+                <div id="contentMain_pnlDist">
+	
+                    <div class="row classdetailsrow">
+                        <div class="col-sm-2 classdetailslabel">
+                            Requirements &amp; Distribution:
+                        </div>
+                        <div class="col-sm-10">
+                            <span id="contentMain_lblDist">BS, MSA, QR/1</span>
+                        </div>
+                    </div>
+                
+</div>
+                
+                <div id="contentMain_pnlCreditExcl">
+	
+                    <div class="row classdetailsrow">
+                        <div class="col-sm-2 classdetailslabel">
+                            Credit Exclusions:
+                        </div>
+                        <div class="col-sm-10">
+                            <span id="contentMain_lblCreditExcl">No credit granted to those who have completed or are enrolled in MATH 419 or 420. Only 2 credits granted to those who have completed MATH 214 or 417.</span>
+                        </div>
+                    </div>
+                
+</div>
+                <div id="contentMain_pnlWaitCap">
+	
+                    <div class="row classdetailsrow">
+                        <div class="col-sm-2 classdetailslabel">
+                            Waitlist Capacity:
+                        </div>
+                        <div class="col-sm-10">
+                            <span id="contentMain_lblWaitCap">5</span>
+                        </div>
+                    </div>
+                
+</div>
+                
+                
+                
+                
+                
+                
+                <div id="contentMain_pnlAdvPre">
+	
+                    <div class="row classdetailsrow">
+                        <div class="col-sm-2 classdetailslabel">
+                            Advisory Prerequisites:
+                        </div>
+                        <div class="col-sm-10">
+                            <span id="contentMain_lblAdvPre">MATH 205, 215 or 285. Most students take only one course from MATH 214, 217, 417, and 419.</span>
+                        </div>
+                    </div>
+                
+</div>
+                
+                <div id="contentMain_pnlBS">
+	
+                    <div class="row classdetailsrow">
+                        <div class="col-sm-2 classdetailslabel">
+                            BS:
+                        </div>
+                        <div class="col-sm-10">
+                            <span id="contentMain_lblBS">This course counts toward the 60 credits of math/science required for a Bachelor of Science degree.</span>
+                        </div>
+                    </div>
+                
+</div>
+                
+                
+                <div id="contentMain_pnlRepeat">
+	
+                    <div class="row classdetailsrow">
+                        <div class="col-sm-2 classdetailslabel">
+                            Repeatability:
+                        </div>
+                        <div class="col-sm-10 text-content-wurl">
+                            <span id="contentMain_lblRepeat">May not be repeated for credit.</span>
+                        </div>
+                    </div>
+                
+</div>
+                
+                
+                
+                
+                
+                
+                <div id="contentMain_panelClassStartEndDt">
+	
+                    <div class="row classdetailsrow">
+                        <div class="col-sm-2 classdetailslabel">
+                            Start/End Date:
+                        </div>
+                        <div class="col-sm-10">
+                            <span class="badge">Full Term</span>
+                            <span id="contentMain_lblStartEndDt">8/31/26 - 12/11/26 (see other Sections below)</span>
+                            <div style="padding-top:5px;" class="text-content-wurl">
+                                NOTE: Drop/Add deadlines are dependent on the class meeting dates and will differ for full term versus partial term offerings. 
+                                <br>
+                                For information on drop/add deadlines, see the <a href="https://ro.umich.edu/calendars" target="_blank">Office of the Registrar</a> and search Registration Deadlines.
+                            </div>
+                        </div>
+                    </div>
+                
+</div>
+            </div>
+        </div>
+    </div>
+
+    <!---------- Description ---------->
+    <div class="panel panel-default" id="ClassDescription">
+        <div class="panel-heading">
+            <h4 class="panel-title panel-title-cg">
+                Description
+            </h4>
+        </div>
+        <div id="classDescriptionBody" class="panel-collapse collapse in">
+            <div class="panel-body text-content-wurl">
+                <span id="contentMain_lblDescr"><p>For a student who has completed the calculus sequence, there are two sequences which deal with linear algebra and differential equations: Math 216 &amp; 417 (or 419) and Math 217 &amp; 316. The sequence 216 &amp; 417 emphasizes problem-solving and applications and is intended for students of Engineering and the sciences. Mathematics majors and other students who have some interest in the theory of mathematics should elect the sequence 217 &amp; 316. These courses are explicitly designed to introduce the student to both the concepts and applications of their subjects and to the methods by which the results are proved.</p>
+<p><strong>Advisory co-requisite: Math 201</strong></p>
+<p>Fall 2026 Evening Exams: Wed 10/14/26 &amp; 11/18/26 6-8pm <strong>DO NOT</strong> schedule classes or travel that conflicts with these time.</p>
+<p><br><strong><a href="http://lsa.umich.edu/math/undergraduates/undergraduate-math-courses/200-level-math-courses.html" target="_blank" rel="noopener"> For more information on this course, please visit the Department of Mathematics webpage </a></strong></p><p><b>Course Requirements:</b></p><p><strong>Fall 2025 Evening Exams:</strong> Wed 10/8/25 &amp; Wed 11/12/25 6-8pm. **DO NOT** schedule classes or travel that conflicts with these times. All Evening Midterm Exams are mandatory.&nbsp;</p>
+<p>&nbsp;</p></span>
+            </div>
+        </div>
+    </div>
+
+    <!---------- Schedule ---------->
+    <div class="panel panel-default" id="ClassSchedule">
+        <div class="panel-heading">
+            <h4 class="panel-title panel-title-cg">
+                Schedule
+            </h4>
+        </div>
+        <div id="classScheduleBody" class="panel-collapse collapse in">
+            <div class="panel-body">
+                <div style="font-weight:bold; font-size:12px; padding-bottom:5px;">
+                    <span id="contentMain_lblSubject_2">MATH</span>
+                    <span id="contentMain_lblCatNo_2">217</span>
+                    -
+                    <span id="contentMain_lblLongTitle_2">Linear Algebra</span>  
+                </div>
+                <!-- Substitution control used so that we get non-cached Class Schedule list -->
+                
+        <div class="row hidden-xs hidden-sm" style="margin-left:0px; margin-right:0px;">
+            <div class="col-md-12">
+                <div class="row resultshdr toppadding_main bottompadding_main">
+                    <div class="col-md-1">
+                        <b>Section</b>
+                    </div>
+                    
+                    <div class="col-md-1">
+                        <b>Class Instruction Mode</b>
+                    </div>
+                    <div class="col-md-1">
+                        <b>Class</b><br><b>Number</b>
+                    </div>
+                    <div class="col-md-1">
+                        <b>Enrollment</b><br><b>Status</b>
+                    </div>
+                    <div class="col-md-1">
+                        <b>Open</b><br><b>Seats</b>
+                    </div>
+                    <div class="col-md-2">
+                        <b>Open Restricted Seats</b>
+                    </div>
+                    <div class="col-md-1">
+                        <b>Waitlist</b>
+                    </div>
+                    <div class="col-md-4">
+                        <b>
+                            <table cellspacing="0" cellpadding="0" border="0">
+                                <tbody><tr>
+                                    <td class="MPCol_DayTimeHeader MPCol_BottomPadding" colspan="2">
+                                        Day/Time
+                                    </td>
+                                    <td>
+                                        Location
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="3">
+                                        Start/End Date
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                        </b>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row visible-xs" style="margin-left:0px; margin-right:0px;">
+            <div class="col-md-12">
+                <div class="row resultshdr toppadding_main bottompadding_main">
+                    <div class="col-md-12">
+                        <b>Schedule Listing</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row clsschedulerow toppadding_main bottompadding_main" style="margin-left:0px; margin-right:0px; background-color: #eff0f1;">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg xs_label">Section:</div>
+                        <span class="badge badge-clsschedule">001 (LEC) </span><i class="fa fa-check fa-lg hidden-md hidden-lg" style="padding-left:5px; color:green;"></i>
+                    </div>
+                    
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Instruction Mode:</div>
+                        <i class="fa fa-user"></i>&nbsp;In Person
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Class No:</div>
+                        11371
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Enroll Stat:</div>
+                        <span class="badge badge-closed">Closed</span>
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Open Seats:</div>
+                        0
+                    </div>
+                    <div class="col-md-2">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Open Restricted Seats:</div>
+                        &nbsp;
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Wait List:</div>
+                        -
+                    </div>
+                    <div class="col-md-4">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Meeting Day/Time/Location:</div>
+                        
+                        <table style="width:100%;">
+                            <tbody><tr>
+                                <td class="MPCol_BottomPadding">
+                                    <table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="MPCol_Day">MWF</td><td class="MPCol_Time"> 8:30AM - 10:00AM</td><td class="loc_link">B745 EH<a href="https://rooms.lsa.umich.edu/classrooms/EHB745" target="_blank" title="View Classroom Info"><span class="glyphicon glyphicon-search glyphicon-loc"></span></a></td></tr></tbody></table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    8/31/26 - 12/11/26
+                                </td>
+                                
+                            </tr>
+                        </tbody></table>
+                        
+                    </div>
+                </div>
+                <div class="row toppadding_interior">
+                    <div class="col-md-12">
+                        <b>Note:</b> It is recommended that you enroll in any section that fits your schedule as registration is restricted throughout the registration period.  If you do not see space available in a section that fits your schedule, we recommend that you check back regularly as space will continue to open up throughout the registration period.  A waitlist may open up the week prior to courses.  We do not entertain waitlist requests prior to that period.
+
+EVENING EXAMS for Math 217: Wed 10/14/26 &amp; Wed 11/18/26 6-8pm. **DO NOT* schedule classes or travel that conflict with these times. All Evening Midterm Exams are mandatory.**
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row clsschedulerow toppadding_main bottompadding_main" style="margin-left:0px; margin-right:0px; background-color: #ffffff;">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg xs_label">Section:</div>
+                        <span>002 (LEC) </span>
+                    </div>
+                    
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Instruction Mode:</div>
+                        <i class="fa fa-user"></i>&nbsp;In Person
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Class No:</div>
+                        11372
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Enroll Stat:</div>
+                        <span class="badge badge-open">Open</span>
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Open Seats:</div>
+                        3
+                    </div>
+                    <div class="col-md-2">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Open Restricted Seats:</div>
+                        &nbsp;
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Wait List:</div>
+                        -
+                    </div>
+                    <div class="col-md-4">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Meeting Day/Time/Location:</div>
+                        
+                        <table style="width:100%;">
+                            <tbody><tr>
+                                <td class="MPCol_BottomPadding">
+                                    <table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="MPCol_Day">MWF</td><td class="MPCol_Time"> 8:30AM - 10:00AM</td><td class="loc_link">B743 EH<a href="https://rooms.lsa.umich.edu/classrooms/EHB743" target="_blank" title="View Classroom Info"><span class="glyphicon glyphicon-search glyphicon-loc"></span></a></td></tr></tbody></table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    8/31/26 - 12/11/26
+                                </td>
+                                
+                            </tr>
+                        </tbody></table>
+                        
+                    </div>
+                </div>
+                <div class="row toppadding_interior">
+                    <div class="col-md-12">
+                        <b>Note:</b> It is recommended that you enroll in any section that fits your schedule as registration is restricted throughout the registration period.  If you do not see space available in a section that fits your schedule, we recommend that you check back regularly as space will continue to open up throughout the registration period.  A waitlist may open up the week prior to courses.  We do not entertain waitlist requests prior to that period.
+
+EVENING EXAMS for Math 217: Wed 10/14/26 &amp; Wed 11/18/26 6-8pm. **DO NOT* schedule classes or travel that conflict with these times. All Evening Midterm Exams are mandatory.**
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row clsschedulerow toppadding_main bottompadding_main" style="margin-left:0px; margin-right:0px; background-color: #eff0f1;">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg xs_label">Section:</div>
+                        <span>003 (LEC) </span>
+                    </div>
+                    
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Instruction Mode:</div>
+                        <i class="fa fa-user"></i>&nbsp;In Person
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Class No:</div>
+                        15696
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Enroll Stat:</div>
+                        <span class="badge badge-closed">Closed</span>
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Open Seats:</div>
+                        0
+                    </div>
+                    <div class="col-md-2">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Open Restricted Seats:</div>
+                        &nbsp;
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Wait List:</div>
+                        -
+                    </div>
+                    <div class="col-md-4">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Meeting Day/Time/Location:</div>
+                        
+                        <table style="width:100%;">
+                            <tbody><tr>
+                                <td class="MPCol_BottomPadding">
+                                    <table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="MPCol_Day">MWF</td><td class="MPCol_Time"> 10:00AM - 11:30AM</td><td class="loc_link">B743 EH<a href="https://rooms.lsa.umich.edu/classrooms/EHB743" target="_blank" title="View Classroom Info"><span class="glyphicon glyphicon-search glyphicon-loc"></span></a></td></tr></tbody></table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    8/31/26 - 12/11/26
+                                </td>
+                                
+                            </tr>
+                        </tbody></table>
+                        
+                    </div>
+                </div>
+                <div class="row toppadding_interior">
+                    <div class="col-md-12">
+                        <b>Note:</b> It is recommended that you enroll in any section that fits your schedule as registration is restricted throughout the registration period.  If you do not see space available in a section that fits your schedule, we recommend that you check back regularly as space will continue to open up throughout the registration period.  A waitlist may open up the week prior to courses.  We do not entertain waitlist requests prior to that period.
+
+EVENING EXAMS for Math 217: Wed 10/14/26 &amp; Wed 11/18/26 6-8pm. **DO NOT* schedule classes or travel that conflict with these times. All Evening Midterm Exams are mandatory.**
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row clsschedulerow toppadding_main bottompadding_main" style="margin-left:0px; margin-right:0px; background-color: #ffffff;">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg xs_label">Section:</div>
+                        <span>004 (LEC) </span>
+                    </div>
+                    
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Instruction Mode:</div>
+                        <i class="fa fa-user"></i>&nbsp;In Person
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Class No:</div>
+                        18769
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Enroll Stat:</div>
+                        <span class="badge badge-closed">Closed</span>
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Open Seats:</div>
+                        0
+                    </div>
+                    <div class="col-md-2">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Open Restricted Seats:</div>
+                        &nbsp;
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Wait List:</div>
+                        -
+                    </div>
+                    <div class="col-md-4">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Meeting Day/Time/Location:</div>
+                        
+                        <table style="width:100%;">
+                            <tbody><tr>
+                                <td class="MPCol_BottomPadding">
+                                    <table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="MPCol_Day">MWF</td><td class="MPCol_Time"> 11:30AM - 1:00PM</td><td class="loc_link">B735 EH<a href="https://rooms.lsa.umich.edu/classrooms/EHB735" target="_blank" title="View Classroom Info"><span class="glyphicon glyphicon-search glyphicon-loc"></span></a></td></tr></tbody></table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    8/31/26 - 12/11/26
+                                </td>
+                                
+                            </tr>
+                        </tbody></table>
+                        
+                    </div>
+                </div>
+                <div class="row toppadding_interior">
+                    <div class="col-md-12">
+                        <b>Note:</b> It is recommended that you enroll in any section that fits your schedule as registration is restricted throughout the registration period.  If you do not see space available in a section that fits your schedule, we recommend that you check back regularly as space will continue to open up throughout the registration period.  A waitlist may open up the week prior to courses.  We do not entertain waitlist requests prior to that period.
+
+EVENING EXAMS for Math 217: Wed 10/14/26 &amp; Wed 11/18/26 6-8pm. **DO NOT* schedule classes or travel that conflict with these times. All Evening Midterm Exams are mandatory.**
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row clsschedulerow toppadding_main bottompadding_main" style="margin-left:0px; margin-right:0px; background-color: #eff0f1;">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg xs_label">Section:</div>
+                        <span>005 (LEC) </span>
+                    </div>
+                    
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Instruction Mode:</div>
+                        <i class="fa fa-user"></i>&nbsp;In Person
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Class No:</div>
+                        20103
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Enroll Stat:</div>
+                        <span class="badge badge-closed">Closed</span>
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Open Seats:</div>
+                        0
+                    </div>
+                    <div class="col-md-2">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Open Restricted Seats:</div>
+                        &nbsp;
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Wait List:</div>
+                        -
+                    </div>
+                    <div class="col-md-4">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Meeting Day/Time/Location:</div>
+                        
+                        <table style="width:100%;">
+                            <tbody><tr>
+                                <td class="MPCol_BottomPadding">
+                                    <table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="MPCol_Day">MWF</td><td class="MPCol_Time"> 1:00PM - 2:30PM</td><td class="loc_link">B735 EH<a href="https://rooms.lsa.umich.edu/classrooms/EHB735" target="_blank" title="View Classroom Info"><span class="glyphicon glyphicon-search glyphicon-loc"></span></a></td></tr></tbody></table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    8/31/26 - 12/11/26
+                                </td>
+                                
+                            </tr>
+                        </tbody></table>
+                        
+                    </div>
+                </div>
+                <div class="row toppadding_interior">
+                    <div class="col-md-12">
+                        <b>Note:</b> It is recommended that you enroll in any section that fits your schedule as registration is restricted throughout the registration period.  If you do not see space available in a section that fits your schedule, we recommend that you check back regularly as space will continue to open up throughout the registration period.  A waitlist may open up the week prior to courses.  We do not entertain waitlist requests prior to that period.
+
+EVENING EXAMS for Math 217: Wed 10/14/26 &amp; Wed 11/18/26 6-8pm. **DO NOT* schedule classes or travel that conflict with these times. All Evening Midterm Exams are mandatory.**
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row clsschedulerow toppadding_main bottompadding_main" style="margin-left:0px; margin-right:0px; background-color: #ffffff;">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg xs_label">Section:</div>
+                        <span>006 (LEC) </span>
+                    </div>
+                    
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Instruction Mode:</div>
+                        <i class="fa fa-user"></i>&nbsp;In Person
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Class No:</div>
+                        20104
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Enroll Stat:</div>
+                        <span class="badge badge-open">Open</span>
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Open Seats:</div>
+                        1
+                    </div>
+                    <div class="col-md-2">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Open Restricted Seats:</div>
+                        &nbsp;
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Wait List:</div>
+                        -
+                    </div>
+                    <div class="col-md-4">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Meeting Day/Time/Location:</div>
+                        
+                        <table style="width:100%;">
+                            <tbody><tr>
+                                <td class="MPCol_BottomPadding">
+                                    <table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="MPCol_Day">MWF</td><td class="MPCol_Time"> 2:30PM - 4:00PM</td><td class="loc_link">B745 EH<a href="https://rooms.lsa.umich.edu/classrooms/EHB745" target="_blank" title="View Classroom Info"><span class="glyphicon glyphicon-search glyphicon-loc"></span></a></td></tr></tbody></table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    8/31/26 - 12/11/26
+                                </td>
+                                
+                            </tr>
+                        </tbody></table>
+                        
+                    </div>
+                </div>
+                <div class="row toppadding_interior">
+                    <div class="col-md-12">
+                        <b>Note:</b> It is recommended that you enroll in any section that fits your schedule as registration is restricted throughout the registration period.  If you do not see space available in a section that fits your schedule, we recommend that you check back regularly as space will continue to open up throughout the registration period.  A waitlist may open up the week prior to courses.  We do not entertain waitlist requests prior to that period.
+
+EVENING EXAMS for Math 217: Wed 10/14/26 &amp; Wed 11/18/26 6-8pm. **DO NOT* schedule classes or travel that conflict with these times. All Evening Midterm Exams are mandatory.**
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row clsschedulerow toppadding_main bottompadding_main" style="margin-left:0px; margin-right:0px; background-color: #eff0f1;">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg xs_label">Section:</div>
+                        <span>007 (LEC) </span>
+                    </div>
+                    
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Instruction Mode:</div>
+                        <i class="fa fa-user"></i>&nbsp;In Person
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Class No:</div>
+                        20105
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Enroll Stat:</div>
+                        <span class="badge badge-open">Open</span>
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Open Seats:</div>
+                        1
+                    </div>
+                    <div class="col-md-2">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Open Restricted Seats:</div>
+                        &nbsp;
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Wait List:</div>
+                        -
+                    </div>
+                    <div class="col-md-4">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Meeting Day/Time/Location:</div>
+                        
+                        <table style="width:100%;">
+                            <tbody><tr>
+                                <td class="MPCol_BottomPadding">
+                                    <table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="MPCol_Day">MWF</td><td class="MPCol_Time"> 2:30PM - 4:00PM</td><td class="loc_link">B735 EH<a href="https://rooms.lsa.umich.edu/classrooms/EHB735" target="_blank" title="View Classroom Info"><span class="glyphicon glyphicon-search glyphicon-loc"></span></a></td></tr></tbody></table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    8/31/26 - 12/11/26
+                                </td>
+                                
+                            </tr>
+                        </tbody></table>
+                        
+                    </div>
+                </div>
+                <div class="row toppadding_interior">
+                    <div class="col-md-12">
+                        <b>Note:</b> It is recommended that you enroll in any section that fits your schedule as registration is restricted throughout the registration period.  If you do not see space available in a section that fits your schedule, we recommend that you check back regularly as space will continue to open up throughout the registration period. The waitlist will open when all sections of the course are full.
+
+EVENING EXAMS for Math 217: Wed 10/14/26 &amp; Wed 11/18/26 6-8pm. **DO NOT* schedule classes or travel that conflict with these times. All Evening Midterm Exams are mandatory.**
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row clsschedulerow toppadding_main bottompadding_main" style="margin-left:0px; margin-right:0px; background-color: #ffffff;">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg xs_label">Section:</div>
+                        <span>008 (LEC) </span>
+                    </div>
+                    
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Instruction Mode:</div>
+                        <i class="fa fa-user"></i>&nbsp;In Person
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Class No:</div>
+                        30911
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Enroll Stat:</div>
+                        <span class="badge badge-closed">Closed</span>
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Open Seats:</div>
+                        0
+                    </div>
+                    <div class="col-md-2">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Open Restricted Seats:</div>
+                        &nbsp;
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Wait List:</div>
+                        -
+                    </div>
+                    <div class="col-md-4">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Meeting Day/Time/Location:</div>
+                        
+                        <table style="width:100%;">
+                            <tbody><tr>
+                                <td class="MPCol_BottomPadding">
+                                    <table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="MPCol_Day">MWF</td><td class="MPCol_Time"> 11:30AM - 1:00PM</td><td class="loc_link">B745 EH<a href="https://rooms.lsa.umich.edu/classrooms/EHB745" target="_blank" title="View Classroom Info"><span class="glyphicon glyphicon-search glyphicon-loc"></span></a></td></tr></tbody></table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    8/31/26 - 12/11/26
+                                </td>
+                                
+                            </tr>
+                        </tbody></table>
+                        
+                    </div>
+                </div>
+                <div class="row toppadding_interior">
+                    <div class="col-md-12">
+                        <b>Note:</b> It is recommended that you enroll in any section that fits your schedule as registration is restricted throughout the registration period.  If you do not see space available in a section that fits your schedule, we recommend that you check back regularly as space will continue to open up throughout the registration period. The waitlist will open when all sections of the course are full.
+
+EVENING EXAMS for Math 217: Wed 10/14/26 &amp; Wed 11/18/26 6-8pm. **DO NOT* schedule classes or travel that conflict with these times. All Evening Midterm Exams are mandatory.**
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row clsschedulerow toppadding_main bottompadding_main" style="margin-left:0px; margin-right:0px; background-color: #eff0f1;">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg xs_label">Section:</div>
+                        <span>009 (LEC) </span>
+                    </div>
+                    
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Instruction Mode:</div>
+                        <i class="fa fa-user"></i>&nbsp;In Person
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Class No:</div>
+                        31134
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Enroll Stat:</div>
+                        <span class="badge badge-closed">Closed</span>
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Open Seats:</div>
+                        0
+                    </div>
+                    <div class="col-md-2">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Open Restricted Seats:</div>
+                        &nbsp;
+                    </div>
+                    <div class="col-md-1">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Wait List:</div>
+                        -
+                    </div>
+                    <div class="col-md-4">
+                        <div class="hidden-md hidden-lg clsschedulerow_xs_rowpadding"></div>
+                        <div class="hidden-md hidden-lg xs_label">Meeting Day/Time/Location:</div>
+                        
+                        <table style="width:100%;">
+                            <tbody><tr>
+                                <td class="MPCol_BottomPadding">
+                                    <table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="MPCol_Day">MWF</td><td class="MPCol_Time"> 1:00PM - 2:30PM</td><td class="loc_link">B745 EH<a href="https://rooms.lsa.umich.edu/classrooms/EHB745" target="_blank" title="View Classroom Info"><span class="glyphicon glyphicon-search glyphicon-loc"></span></a></td></tr></tbody></table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    8/31/26 - 12/11/26
+                                </td>
+                                
+                            </tr>
+                        </tbody></table>
+                        
+                    </div>
+                </div>
+                <div class="row toppadding_interior">
+                    <div class="col-md-12">
+                        <b>Note:</b> It is recommended that you enroll in any section that fits your schedule as registration is restricted throughout the registration period.  If you do not see space available in a section that fits your schedule, we recommend that you check back regularly as space will continue to open up throughout the registration period. The waitlist will open when all sections of the course are full.
+
+EVENING EXAMS for Math 217: Wed 10/14/26 &amp; Wed 11/18/26 6-8pm. **DO NOT* schedule classes or travel that conflict with these times. All Evening Midterm Exams are mandatory.**
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+
+                <!----------------------------------------------------------------------------->
+            </div>
+        </div>
+    </div>
+
+    <!---------- Textbooks/Other Materials ---------->
+    <div class="panel panel-default" id="ClassTextbooks">
+        <div class="panel-heading">
+            <h4 class="panel-title panel-title-cg">
+                Textbooks/Other Materials
+            </h4>
+        </div>
+        <div id="classTextbooksBody" class="panel-collapse collapse in">
+            <div class="panel-body">
+                The partner U-M / Barnes &amp; Noble Education textbook website is the official way for U-M students to view their upcoming textbook or course material needs, whether they choose to buy from Barnes &amp; Noble Education or not. Students also can view a customized list of their specific textbook needs by clicking a "View/Buy Textbooks" link in their course schedule in Wolverine Access.
+                <br><br>
+                <span id="contentMain_lblTextbookNote" style="font-style:italic;">Click the button below to view and buy textbooks for MATH 217.001</span><br><br>
+                <a id="contentMain_hlnkTextbook" class="btn btn-primary" href="https://bncvirtual.com/vb_buy2.php?ACTION=registrar&amp;FVGRP=UMI&amp;TERMCOURSES=2610|CENTRAL|MATH 217 001" target="_blank"><i class="fa fa-book fa-lg"></i> View/Buy Textbooks <span class="glyphicon glyphicon-new-window newwindowglyph"></span></a>
+            </div>
+        </div>
+    </div>
+
+    <!---------- Syllabi ---------->
+    <div class="panel panel-default" id="ClassSyllabi">
+        <div class="panel-heading">
+            <h4 class="panel-title panel-title-cg">
+                Syllabi
+            </h4>
+        </div>
+        <div id="classSyllabiBody" class="panel-collapse collapse in">
+            <div class="panel-body">
+                <span id="contentMain_lblSyllabi_Disclaimer">Syllabi are available to current LSA students.  <b>IMPORTANT:</b>  These syllabi are provided to give students a general idea about the courses, as offered by LSA departments and programs in <b>prior academic terms</b>.  The syllabi <b>do not</b> necessarily reflect the assignments, sequence of course materials, and/or course expectations that the faculty and departments/programs have for these same courses in the current and/or future terms.</span><br><br>
+                <span id="contentMain_lblSyllabiNote" style="font-style:italic;">Click the button below to view historical syllabi for MATH 217 (UM login required)</span><br><br>
+
+                
+                <a id="contentMain_lnk_ViewSyllabus" class="btn btn-primary" href="https://webapps.lsa.umich.edu/syllabi/cg_syllabus_results.aspx?Subject=MATH&amp;CatNbr=217" target="_blank"><i class="fa fa-file fa-lg"></i> View Historical Syllabi <span class="glyphicon glyphicon-new-window newwindowglyph"></span></a>
+            </div>
+        </div>
+    </div>
+
+    <!---------- CourseProfile (Atlas) ---------->
+    <div class="panel panel-default" id="CourseProfile">
+        <div class="panel-heading">
+            <h4 class="panel-title panel-title-cg">
+                CourseProfile (Atlas)
+            </h4>
+        </div>
+        <div id="classARTBody" class="panel-collapse collapse in">
+            <div class="panel-body">
+                The Atlas system, developed by the <a href="https://ai.umich.edu/">Center for Academic Innovation</a>, provides additional information about: course enrollments; academic terms and instructors; student academic profiles (school/college, majors), and previous, concurrent, and subsequent course enrollments.
+                <br><br>
+
+                <a id="contentMain_lnk_ART" class="btn btn-primary" href="https://atlas.ai.umich.edu/course/MATH%20217" target="_blank">
+                    <img src="assets/images/atlas-mark-WEB-small2.png"> CourseProfile (Atlas) <span class="glyphicon glyphicon-new-window newwindowglyph"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+            </div>
+
+            <!-- provide space for footer at bottom of the page -->
+            <div class="push"></div>
+        </div>
+
+        <!-- footer -->
+        <div class="mis-page-footer hidden-xs">
+            <div class="container">
+                <div class="row" style="padding-top: 12px;">
+                    <div class="col-md-12 text-center">
+                        Built by <a href="http://lsa.umich.edu/technology-services/" style="color: #fff; padding-top: 10px;" target="_blank">LSA Technology Services</a>
+                        in collaboration with <a href="https://lsa.umich.edu/lsa/faculty-staff/student-academic-affairs.html" style="color: #fff; padding-top: 10px;" target="_blank">LSA Student Academic Affairs (SAA)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!-- jQuery / jQuery DateTimePicker -->
+    <script src="assets/jquery/jquery-3.5.1.js"></script>
+    <script src="assets/jquery/jquery-ui.js"></script>
+    <script src="assets/jquery/jquery-ui-timepicker-addon.js"></script>
+    <script src="assets/jquery/jquery.jgrowl.js"></script>
+
+    <!-- Twitter Bootstrap -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap-accessibility.js"></script>
+
+    <!-- Bootstrap Multiselect -->
+    <script src="assets/bootstrap/js/bootstrap-multiselect.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $.urlParam = function (name) {
+                var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(window.location.href);
+                if (results == null) {
+                    return null;
+                }
+                else {
+                    return results[1] || 0;
+                }
+            }
+
+            var isAccessible = false;
+            var accessible = $.urlParam('accessible');
+            if (accessible == 'true') {
+                isAccessible = true;
+            };
+
+            if (isAccessible == true) {
+                var glyph = document.getElementById('glyphVersionSwitch');
+                glyph.className = 'glyphicon glyphicon-check glyphicon-cgnav-black';
+
+                var tt = document.getElementById('ttVersionSwitch');
+                tt.title = 'Switch back to the standard Course Guide version';
+            }
+            else {
+                var glyph = document.getElementById('glyphVersionSwitch');
+                glyph.className = 'glyphicon glyphicon-unchecked glyphicon-cgnav-black';
+
+                var tt = document.getElementById('ttVersionSwitch');
+                tt.title = 'This version works better for some screen readers';
+            };
+
+            $("#ttVersionSwitch").tooltip({ placement: "bottom" });
+
+            //set active menu item based on current page
+            var navItem = '#nav' + $("#hidPage").val();
+            $(navItem).addClass('active');
+        });
+
+        function VersionSwitch() {
+            $.urlParam = function (name) {
+                var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(window.location.href);
+                if (results == null) {
+                    return null;
+                }
+                else {
+                    return results[1] || 0;
+                }
+            }
+
+            var isAccessible = false;
+            var accessible = $.urlParam('accessible');
+            if (accessible == 'true') {
+                isAccessible = true;
+            };
+
+            if (isAccessible == true) {
+                alert('You are switching to the standard version of the LSA Course Guide');
+            }
+            else {
+                alert('You are switching to the accessible version of the LSA Course Guide');
+            };
+            
+        }
+    </script>
+
+    
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".PageIndexRow").click(function () {
+                window.document.location = $(this).data('url');
+            });
+        });
+
+    </script>
+
+
+
+</body></html>

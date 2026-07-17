@@ -1,0 +1,18 @@
+{
+  "id": "lsa-general-philosophy-minor",
+  "name": "Philosophy Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 Any 100- or 200-level course other than PHIL 180, 183, 201, 296 (logic courses). PHIL 288 or 289 may be used toward this requirement or (ii) below, but not both. At least one course at the 400-level, other than formal methods (PHIL 413, 414)A minimum of 15 credits of Philosophy, at least 9 of which (including the required 400-level course) must be taken in residence.No course will count toward the minor unless the student receives a grade of C- or better.Additional Requirements:One course in Logic or Formal Methods (PHIL 180, 183, 201, 296, 303, 305, 413, or 414)Two courses from: PHIL 288, PHIL 289, PPE 300, any 300-level PHIL courses other than PHIL 303, PHIL 305, PHIL 399. PHIL 288 or 289 may be used toward this requirement or #1 above, but not both.One 400-level course, which must not include 401, 413, 414, or 455",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/philosophy-min.html"
+}

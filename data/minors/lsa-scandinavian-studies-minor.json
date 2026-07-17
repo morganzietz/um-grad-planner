@@ -1,0 +1,18 @@
+{
+  "id": "lsa-scandinavian-studies-minor",
+  "name": "Scandinavian Studies Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 At least 15 credits and five courses, to be chosen from the following categories as stated below.Required Scandinavian courses: SCAND 325, 331, and 375.Electives: Two courses chosen from among:SCAND 351, 421, 430, 442, 460, 480.Appropriate (Scandinavian topic) sections of: ENGLISH 407, FTVM/ENGLISH 330, and FTVM 441.PHIL 371. Scandinavian Studies Minor (Fall 2012-Fall 2013) Scandinavian Studies Academic Minor Effective Fall 2012-Fall 2013 Not open to student electing any minor in the Department of Germanic Languages and Literatures Prerequisites to the Minor SCAND 234 or equivalent, as determined by the Departmental placement examination. Requirements for the Minor At least 15 credits and five courses, to be chosen from the following categories as stated below. Required Scandinavian courses: SCAND 325, 331, and 375. Electives: Two courses chosen from among: SCAND 351, 421, 430, 442, 460, 480. Appropriate (Scandinavian topic) sections of: ENGLISH 407, SAC 330, and SAC 441. PHIL 371. Information for Prospective Students Current Students Faculty and Staff Alumni and Friends More about LSA About LSA How Do I Apply? News LSA Magazine Give Maps Student Resources Courses Academic Advising Majors and Minors Departments and Units Global Studies LSA Opportunity Hub Connect Social Media Update",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/scandinavian-studies-minor.html"
+}

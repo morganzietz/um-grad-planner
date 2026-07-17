@@ -1,0 +1,18 @@
+{
+  "id": "lsa-religion-minor",
+  "name": "Religion Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 A minimum of 5 courses (15 credits) are required, distributed as followsCore Course. HISTORY 105: Introduction to Religion.Additional Courses. Four additional courses (at least 12 credits) are required.At least two of these four courses must be at the 300-level or higher.All four courses must cover at least two of the following religious traditions or philosophical traditions – Buddhism [BUD]; Christianity [CHR]; Comparative [COMP]; Hinduism [HIN]; Islam [ISLM]; Judaism [JUD] – or another religious tradition approved by a faculty advisor.All four courses must be selected from the Religion Minor Approved Course List.To view a list of courses currently being offered, use the History Department’s Course List page. Use the Minor dropdown list to search specifically for courses approved for the Religion minor. Constraints AP credit: AP credits may not be used to satisfy requirements of the minor.",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/religion-minor.html"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lsa-urban-studies-minor",
+  "name": "Urban Studies Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 A minimum of 5 courses (at least 15 credits), to be elected from categories as stated:Core Course: One of the following:RCSTP 330: Living for the City: Black Study and Urban TransformationURP 423 Introduction to Urban and Environmental PlanningElectives. Each student will select four electives (no more than one course below the 300 level) from three Categories of courses: Group A (Theory / Perspectives), Group B (Policy / Technique) and Group C (Applications / Practice). No more than two electives may be selected from any one group. *Elective courses at the 500 level are acceptable and students in the Urban Studies minor are welcome to take them, but often must request permission to register.Semester in Detroit: Students who participate in the semester in Detroit Program (SiD) during the fall semester will complete the minor if they also complete the core course. Those who complete the spring SiD Program will fulfill the minor after completing two courses, one of which must be the core course and the other from approved courses for the minor*Note: Despite regular updates of eligible courses for the minor, new courses continue to be developed. The Urban Studies minor advisor can review courses not on this list for possible inclusion in the minor. You can search for courses via the LSA Course Guide (https://www.lsa.umich.edu/cg/) and the course listings on the College of Architecture & Urban Planning website (https://taubmancollege.umich.edu/urbanplanning/students/course-list).Group A Theory/Perspectives - Courses that present intellectual background for the study of urban communities. Drawn from African American Studies, Sociology, American Culture, and other disciplines, these courses introduce students to disciplinary and theoretical perspectives on community formation and urban life, and they provide opportunities for students to think through differing and at times competing analytical approaches.AAS 347 /RCSTP 343 / SOC 335 - Urban Inequality in AmericaAAS 358 - Topics in Black World Studies (Select sections of this course may be eligible with advisor approval)AAS 426 - Cities in Contemporary AfricaAAS 458 - Issues in Black World Studies (Select sections of this course may be eligible with advisor approval)AMCULT 204 / ASIANPAM 204 - Themes in American Culture, section titled, \"New Immigrants and the Rust Belt\" (Other sec... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/urban-studies-minor.html"
+}

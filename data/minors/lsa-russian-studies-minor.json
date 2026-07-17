@@ -1,0 +1,18 @@
+{
+  "id": "lsa-russian-studies-minor",
+  "name": "Russian Studies Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 At least 15 credits of courses on Russian specific topics, selected in consultation with and approved by the Slavic undergraduate academic advisor.A minimum of 3 courses that will be counted toward the academic minor must be upper-level (300- or 400-level).REEES 395: Survey of Russia: The Russian Empire, the Soviet Union, and the Successor States.Disciplinary distribution: At least one 3-credit course in each sub-area (arts/culture, history*, and social science). *In most cases, students who have taken REEES 395 should not enroll in HISTORY 434. Constraints Russian language courses may not count toward the academic minor. Russian Studies (Minor) (Fall 2011 - Summer 2019) Effective Fall 2011 Exclusions: Not open to those electing a concentration or another academic minor in REES.Those electing a major in the Department of Slavic Languages and Literatures may pursue a REES minor, but may not count any Slavic Department courses toward satisfying the requirements for the REES minor. Students may concurrently pursue a minor in both REES and Slavic Languages and Literatures, with the following restrictions:REES minors may not count any courses for which Slavic is the home unit;Slavic Department minors may not count REES 397 nor any courses for which REES is the home unit, which includes SLAVIC 395 and 396. Advising Undergraduate advisors at the International Institute are available to meet with undeclared students who would like to learn more about the program, and also with current majors and minors who would like to discuss course selection, degree requirements, major/minor releases, and other matters of concern. Appointments can be made through our online appointment calendar by clicking on: meet with an advisor. Information on all of our undergraduate programs and Walk-In Advising hours can also be found on our website: here. The International Institute’s Undergraduate Advising Office is currently located at 1080 South University Avenue, Suite 2660.Students pursuing a REES minor must discuss their plans and course elections with the CREES undergraduate academic advisor. Appointments are scheduled online at www.ii.umich.edu/crees. Prerequisites None. Requirements Minimum Credits: 15 At least 15 credits of courses on Russian specific topics, selected in consultation with and approved by the CREES undergraduate academic advisor.A... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/russian-studies-minor.html"
+}

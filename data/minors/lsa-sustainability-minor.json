@@ -1,0 +1,18 @@
+{
+  "id": "lsa-sustainability-minor",
+  "name": "Sustainability Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 18 At least 9 of the 18 credits must be at the 300-level or above.Introductory Sustainability Course: ENVIRON 109, ENVIRON 111, ENVIRON 207, or ENVIRON 208Practical/Field Experience Course: Students pursuing the Academic Minor in Sustainability are required to spend time off-campus participating in a pre-approved Internship or Field Experience/Study Abroad Course. This provides students with an opportunity to have greater exposure to sustainability issue(s) and develop greater skills in identifying and helping to resolve current and emerging sustainability issue(s). The following courses have been pre-approved, but students may petition other courses to meet this requirement prior to enrollment, with approval granted by PitE if the course is deemed to have suitably focused on sustainability issues. Any petitions must be received and approved before enrolling in these courses. Courses with emphasis on basic aspects of environmental, social, and natural sciences and humanities are not acceptable to meet this requirement.ENVIRON 245: Interdisciplinary Environmental Topics, section titled \"Campus as Sustainability Lab\"ENVIRON 302: Topics in Environmental Social Science, sections titled \"Sustainable Neighborhoods: Experiential Learning and Active Engagement in Detroit\" and \"Assessing Sustainability Culture\"ENVIRON 303: Topics in Environmental Natural Science, section titled \"Urban Ecology on Campus\"ENVIRON / ORGSTUDY / RCIDIV 391: Sustainability and the CampusENVIRON 398: Environment Internship ProgramENVIRON 465: Interdisciplinary Environmental Topics, section titled \"Campus Farm Ecological and Organic Farming Practicum\"EARTH 344 / ENVIRON 344: Sustainable and Fossil Energy: Options and ConsequencesSTDABRD 303: UM at Institute for Central American Development Studies, San Jose, Costa RicaSTDABRD 308: UM at EcoQuest New ZealandSTDABRD 358 UM/CIC Political Science Internships in British Government and Politics, London, EnglandSTDABRD 452: UM at St. Peter's College, Oxford, EnglandSTDABRD 471: UM at Middle East Technical University, Ankara, TurkeyCapstone Course /Design Experience. At least one upper-division course addressing major sustainability issues in settings with small sections emphasizing discussion and drawing on interdisciplinary experiences of students.ARCH / URP 423 / ENVIRON 370: Introduction to Urban and Environmental Pl... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/sustainability-minor.html"
+}

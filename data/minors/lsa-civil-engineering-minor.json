@@ -1,0 +1,18 @@
+{
+  "id": "lsa-civil-engineering-minor",
+  "name": "Civil Engineering Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "prerequisites with a grade of C or better. To declare the minor, schedule an appointment with a faculty program advisor. Schedule an advising appointment",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://cee.engin.umich.edu/undergraduate-studies/minor-in-civil-engineering/"
+}

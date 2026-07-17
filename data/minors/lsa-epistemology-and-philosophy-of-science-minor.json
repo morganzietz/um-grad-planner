@@ -1,0 +1,18 @@
+{
+  "id": "lsa-epistemology-and-philosophy-of-science-minor",
+  "name": "Epistemology and Philosophy of Science Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 COMMON REQUIREMENTS FOR ALL PHILOSOPHY ACADEMIC MINORS:At least one course at the 400-level, other than formal methods (PHIL 413, 414)A minimum of 15 credits of Philosophy, at least 9 of which (including the required 400-level course) must be taken in residence.No course will count toward the minor unless the student receives a grade of C- or better.SPECIFIC REQUIREMENTS FOR EPISTEMOLOGY AND PHILOSOPHY OF SCIENCE:One course in Formal Methods: PHIL 296, 303, 305, 413, or 414PHIL 345, 381, or 383Two other courses from: PHIL 320, 322, 323 (W18), 381, 383, 384 (W18), 420, 422, 423, 424, 425, 427, 443, 477. At least one course taken to satisfy the minor must be at the 400-level, other than formal methods (PHIL 413, 414)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/epistemology-and-philosophy-of-science.html"
+}

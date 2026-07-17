@@ -1,0 +1,18 @@
+{
+  "id": "lsa-bosnian-croatian-serbian-literature-and-culture-minor",
+  "name": "Bosnian/Croatian/Serbian, Literature and Culture Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 16 16 credits of courses, including BCS 232 (4 credits) and 12 credits in courses selected from the following two categories, with at least 6 credits from Category A and no more than 6 credits from Category B:Category A: BCS Courses Language, Literature, and Culture. Courses in Category A encourage students to continue their language study through literary classes and individualized work with an instructor, concentrating on BCS culture, literature and history.BCS 331: Third-Year Bosnian/Croatian/Serbian IBCS 332: Third-Year Bosnian/Croatian/Serbian IIBCS 350 / JUDAIC 350 / REEES 350: Legacy of the Holocaust in Yugoslav Culture: How and Why We Need to Narrate the HolocaustBCS 436: Modern Bosnian/Croatian/Serbian LiteratureBCS 437: Yugoslav Literature of Exile: Nowhere People-Exiles from the State of IdeologyBCS 439: Directed Reading of Bosnian/Croatian/Serbian LiteratureBCS 450: In No Man's Land: Walls, Migrations and Human Trafficking in the Balkans and Mediterranean (W16)HISTORY 431: History of the Balkans Since 1878SLAVIC 471: Seminar in Cultural Studies of Central, Eastern and Southern Europe, section titled “Technologies of Memory”Category B: Courses on Central/Eastern European Slavic Culture. Category B courses place the cultural space of the Western Balkans (the area where BCS is spoken) into a larger Central European political, cultural and historical context.POLISH 215: Heart of Europe: Poland TodaySLAVIC 225: Arts and Cultures of Central EuropeSLAVIC 245: Vampires and How to Spot Them: Blood, Lust and Power (W19)SLAVIC 312 / RCHUMS 312: Central European CinemaSLAVIC 423: Central European Literature in the Twentieth CenturySLAVIC 490: Issues in the Cultures of Eastern Europe (appropriate topics)REEES 405: Topics in Russian, East European, and Eurasian Studies (appropriate topics) Information for Prospective Students Current Students Faculty and Staff Alumni and Friends More about LSA About LSA How Do I Apply? News LSA Magazine Give Maps Student Resources Courses Academic Advising Majors and Minors Departments and Units Global Studies LSA Opportunity Hub Connect Social Media Update",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/bosnian-croatian-serbian-literature-and-culture-minor.html"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lsa-pharmacology-minor",
+  "name": "Pharmacology Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 Core Requirement (9 credits)PHRMACOL 310: Pharmacology and TherapeuticsPHRMACOL 425: Development of New Medications - Pharmacology in ActionPHRMACOL 503: Real World Drug Discovery or PHRMACOL 399: Undergrad Pharmacology Research (for a minimum of 2 credits) Students should take PHRMACOL 310 and PHRMACOL 425 prior to enrolling in PHRMACOL 503Elective Requirement (6 credits)BIOLCHEM/CHEM 452: Advanced Biochemistry: Cellular ProcessesBIOPHYS 430: Medical PhysicsBIOPHYS 440: Biophysics of DiseaseENVIRON 310: Toxicology - The Study of Environmental Chemicals and DiseaseMCDB 427: Molecular BiologyMCDB 428: Cellular BiologyMICRBIOL 405: Introduction to Infectious DiseaseNEURO/PSYCH 230: Introduction to Behavioral Neuroscience NEURO/MCDB 322: Principles of Cellular and Molecular NeuroscienceNEURO/PSYCH 336: Drugs of Abuse, Brain, and BehaviorNEURO/PSYCH 431: Advanced Topics in Behavioral Neuroscience NEURO/PSYCH 433: Advanced Topics in NeurosciencePHRMACOL 399: Undergrad Pharmacology ResearchPHYSIOL 502: Human Physiology STATS 250: Introduction to Statistics and Data Analysis or STATS 280: Honors Introduction to Statistics and Data Analysis Constraints Only 4-credits of PHRMACOL 399 can be used to meet the requirements of the minor.",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/pharmacology-minor.html"
+}

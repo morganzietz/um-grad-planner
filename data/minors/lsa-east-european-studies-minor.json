@@ -1,0 +1,18 @@
+{
+  "id": "lsa-east-european-studies-minor",
+  "name": "East European and Eurasian Studies Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 At least fifteen credits elected in the following courses on East European and Eurasian topics, of which only one course may be below the 300-level. Students must take at least two courses focused on the humanities in the below mentioned list of courses. Courses focused on East European and Eurasian humanities topicsSLAVIC 225, 240, 245, 261, 270, 281, 312, 313, 315, 316, 470, 471, 481, 488, 490;RUSSIAN 231, 322, 333, 346, 347, 348, 356, 358, 361, 444, 450, 453, 454, 460, 462, 463, 464, 466, 467, 468, 469, 473, 474, 475;RUSSIAN 375/575/HISTORY 333POLISH 214, 215, 314, 324, 325, 326, 357;CZECH 315, 484;BCS 436;HISTORY 330/POLISH 330;HISTORY 331/POLISH 331;HISTORY 432, 433, 434.Courses focused on East European and Eurasian social sciences topicsANTHRCUL 309, 507;POLSCI 338, 342, 345, 358, 407;POLSCI 350/JUDAIC 451;POLSCI 397/HISTORY 341;ECON 444;SOC 457;REEES 395/HISTORY 332/SLAVIC 395/SOC 392/POLSCI 395;REEES 397/ANTHRCUL 317/HISTORY228/POLSCI 334/SLAVIC 397/SOC 317. East European Studies (Minor) (Fall 2019 - Summer 2020) Effective Fall 2019 Exclusions: Not open to those electing a major or another minor in Russian, East European, and Eurasian Studies. Advising Undergraduate advisors in Slavic Languages and Literatures are available to meet with undeclared students who would like to learn more about the program, and also with current majors and minors who would like to discuss course selection, degree requirements, major/minor releases, and other matters of concern. Appointments can be made through our online appointment calendar. Students may also contact slavic@umich.edu for any inquiries.The Slavic Department is currently located at 3040 Modern Languages Building, 812 E. Washington St. Ann Arbor, MI. Prerequisites None. Requirements Minimum Credits: 15 At least 15 credits of courses on East European topics, selected in consultation with and approved by the Slavic undergraduate academic advisor. A minimum of 3 courses that will be counted toward the minor must be upper-level (300- or 400-level).REEES 396 or REEES 397Disciplinary distribution: At least one 3-credit course in each sub-area (arts/culture, history, and social science). Constraints Bosnian/Croatian/Serbian, Czech, Polish, or Ukrainian language courses may not count toward the minor. East European Studies (Minor) (Fall 2011 - Summer 2019) Effective Fall 2011 Exclu... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/east-european-studies-minor.html"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lsa-spanish-language-literature-and-culture-minor",
+  "name": "Spanish Language, Literature, and Culture Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 21 A minimum of 7 courses (21 credits) of at least 3 credits each, beyond the prerequisite, including:A maximum of 4 courses of at least 3 credits each from SPANISH courses numbered 279 to 399; up to two terms of RCLANG 324 may also be used to meet this requirementA minimum of 3 courses of at least 3 credits each from SPANISH courses at the 400-levelOf the courses taken to meet requirements, at least 3 courses of 3 or more credits each must come from SPANISH literature courses at the 279 to 499-level. Constraints Specific course selections must include three literature courses.Other courses, or \"electives in Spanish,\" may be selected in Hispanic culture, linguistics, and film.Each course to be counted toward the minor must be at least 3 credits.No more than one Independent Study and one internship course (6 credits) can be included in the major/minor.Students may count only one of ITALIAN 410 or PORTUG 280 toward the Spanish minor.",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/spanish-language-literature-and-culture-minor.html"
+}

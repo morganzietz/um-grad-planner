@@ -1,0 +1,18 @@
+{
+  "id": "lsa-latin-american-and-caribbean-studies-minor",
+  "name": "Latin American and Caribbean Studies Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 At least 15 credit of advisor approved courses at the 300-level and above, to be chosen from one of the following tracks:Health, Medicine, and ScienceTwo courses (6 credits) directly related to the fields of Health, Medicine and Science that touch on issues in the Latin American and Caribbean region.Three courses (or at least 9 credits) drawn from courses, from any department, that cover Latin America and the Caribbean.Human RightsTwo courses (6 credits) directly related to the field of Human Rights that touch on issues in the Latin American and Caribbean region.Three courses (or at least 9 credits) drawn from courses, from any department, that cover Latin America and the Caribbean.Latin American and Caribbean Societies Two courses (6 credits) that touch on cultural and societal issues in the Latin American and Caribbean region.Three courses (or at least 9 credits) drawn from courses, from that cover Latin America and the Caribbean.Interdisciplinary Requirement. Courses must be drawn from at least three different departments, with not more than six credits in any one department.",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/latin-american-and-caribbean-studies-minor.html"
+}

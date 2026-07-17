@@ -1,0 +1,18 @@
+{
+  "id": "lsa-asian-languages-and-cultures-minor",
+  "name": "Asian Languages and Cultures Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 At least 15 credits, chosen in consultation with and approved by a department advisor, in the following categories, as stated:Language Requirement: At least two ASIANLAN courses at the 300-level or above of an Asian language taught within the department. Minors are encouraged to take language courses beyond third-year proficiency and also take courses to acquire a second Asian language.Culture Requirement: At least one ASIAN course at the 300-level or above that is directly related to the language studied (e.g. a student studying Japanese should elect courses focused on Japan).",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/asian-languages-and-cultures-minor.html"
+}

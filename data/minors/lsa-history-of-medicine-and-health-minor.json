@@ -1,0 +1,18 @@
+{
+  "id": "lsa-history-of-medicine-and-health-minor",
+  "name": "History of Medicine and Health Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 A minimum of 5 courses and 15 credits to be chosen based on the requirements below. At least one course must be at the 300-level or higher. No more than one 100-level course may count towards the minor.1. One of the following courses designed to provide an introduction to important methods and/or concepts in the field. (Students may take more than one of these courses for minor credit but only one is required.)HISTORY 234, History of Medicine in the Western World from the 18th C to the PresentHISTORY / PSYCH / STS 265, Minds and Brains in AmericaHISTORY 285 / RCSSCI 275 / STS 275: Science, Technology, Medicine, and SocietyCLCIV 392 / HISTORY 292 / STS 392: Ancient Medicine in Greece and Rome (Classics)HISTORY 297 / ASIAN 265: Health and disease in Chinese HistoryHISTORY 305 / PSYCH 321 / STS 305: American AddictionsHISTORY 355 / AAS 355 / ANTHRCUL 355: Health and Illness in African WorldsHISTORY 376: Epidemics: Plagues and Cultures from the Black Death to the PresentWGS 408 / HISTORY 438 / ASIAN 408: Gender and Health in East Asia: Historical and Contemporary Perspective (WGS)2. Additional Courses. Four additional courses (at least 12 credits) are required. Three must be selected from the Medicine and Health Minor Approved History Course List (including those listed above in #1). The fourth course may be chosen from the same list, from the Medicine & Health Minor Approved Cognate Course List, or it may be any other History course not on either list.To view a list of current and previously offered courses specific to this minor, please review the History Department’s Course List page and select the \"Medicine & Health\" filter from the minor dropdown list. Constraints AP credit: AP credits may not be used to satisfy requirements of the minor.",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/history-of-medicine-and-health-minor.html"
+}

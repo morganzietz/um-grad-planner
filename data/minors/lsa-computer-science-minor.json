@@ -1,0 +1,18 @@
+{
+  "id": "lsa-computer-science-minor",
+  "name": "Computer Science Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 Three Core Courses:EECS 203: Discrete Mathematics or MATH 465: Introduction to Combinatorics or MATH 565: Combinatorics and Graph Theory (3-4 credits) EECS 280: Programming and Introductory Data Structures (4 credits) EECS 281: Data Structures and Algorithms (4 credits) EECS 281 has both EECS 203 (or equivalent) and 280 as prerequisites.Approved CS Minor Elective Course: 4 credits. Check with the department for an up-to-date list of approved elective courses for the CS minor. Computer Science (Minor) (Fall 2022) Effective Fall 2022 Exclusions: A minor in Computer Science is not open to students with a major in Computer Science, Computer Engineering, or Data Science through either LSA or Engineering. Grade Policies Grades of C or better must be achieved in all courses taken to satisfy Computer Science requirements. Prerequisites MATH 115, and prior programming experience: EECS 183, ENGR 101, or their equivalent.You must satisfy the prerequisites before declaring. The best time to declare is during or after the academic term you take your first core course (EECS 203 or 280). Note that you will need to declare before you will be allowed to enroll in any of the electives. Requirements Minimum Credits: 16 Three Core Courses (4 credits each):EECS 203: Discrete MathematicsEECS 280: Programming and Introductory Data StructuresEECS 281: Data Structures and Algorithms EECS 281 has both EECS 203 and 280 as prerequisites. All of the electives have EECS 281 as a prerequisite. Thus, completing the minor requires a minimum of three academic terms.Approved CS Minor Elective Course: 4 credits. Check with the department for an up-to-date list of approved elective courses for the CS minor. Computer Science (Minor) (Winter 2016 - Summer 2022) Effective Winter 2016 Exclusions: A minor in Computer Science is not open to students with a major in the Department of Electrical Engineering and Computer Science. Since Data Science is owned jointly by the department of Statistics and EECS, DS-LSA and DS-Eng students are not eligible for the CS Minor. Grade Policies Grades of C or better must be achieved in all courses taken to satisfy Computer Science requirements. Prerequisites MATH 115, and prior programming experience: EECS 183, ENGR 101, or their equivalent.You must satisfy the prerequisites before declaring. The best time to declare is during or aft... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/computer-science-minor.html"
+}

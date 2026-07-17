@@ -1,0 +1,1265 @@
+{
+  "generatedAt": "2026-07-08T19:56:31.770Z",
+  "entries": [
+    {
+      "slug": "actuarial_mathematics",
+      "kind": "sub-major",
+      "fixture": "actuarial_mathematics-sub.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/mathematics-major.html"
+    },
+    {
+      "slug": "afroamerican_and_african_studies",
+      "kind": "major",
+      "fixture": "afroamerican_and_african_studies-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/afroamerican-and-african-studies-major.html"
+    },
+    {
+      "slug": "afroamerican_and_african_studies",
+      "kind": "minor",
+      "fixture": "afroamerican_and_african_studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/afroamerican-and-african-studies-minor.html"
+    },
+    {
+      "slug": "american_culture",
+      "kind": "major",
+      "fixture": "american_culture-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/american-culture-major.html"
+    },
+    {
+      "slug": "american_culture",
+      "kind": "minor",
+      "fixture": "american_culture-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/american-culture-minor.html"
+    },
+    {
+      "slug": "anthropology",
+      "kind": "major",
+      "fixture": "anthropology-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/anthropology-major.html"
+    },
+    {
+      "slug": "anthropology",
+      "kind": "minor",
+      "fixture": "anthropology-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/anthropology-minor.html"
+    },
+    {
+      "slug": "arab_and_muslim_american_studies",
+      "kind": "minor",
+      "fixture": "arab_and_muslim_american_studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/arab-and-muslim-american-studies-minor.html"
+    },
+    {
+      "slug": "arabic_studies",
+      "kind": "minor",
+      "fixture": "arabic_studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/arabic-studies-minor.html"
+    },
+    {
+      "slug": "archaeology",
+      "kind": "sub-major",
+      "fixture": "archaeology-sub.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/archaeology-sub-major.html"
+    },
+    {
+      "slug": "archaeology_of_the_ancient_mediterranean",
+      "kind": "major",
+      "fixture": "archaeology_of_the_ancient_mediterranean-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/archaeology_of_the_ancient_mediterranean-maj.html"
+    },
+    {
+      "slug": "archaeology_of_the_ancient_mediterranean",
+      "kind": "minor",
+      "fixture": "archaeology_of_the_ancient_mediterranean-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/archaeology_of_the_ancient_mediterranean-min.html"
+    },
+    {
+      "slug": "architecture",
+      "kind": "minor",
+      "fixture": "architecture-min.html",
+      "requirementsUrl": "https://taubmancollege.umich.edu/academics/architecture/architecture-minor/"
+    },
+    {
+      "slug": "art_and_design",
+      "kind": "minor",
+      "fixture": "art_and_design-min.html",
+      "requirementsUrl": "https://stamps.umich.edu/undergraduate-programs/minor"
+    },
+    {
+      "slug": "arts_and_ideas_in_the_humanities",
+      "kind": "major",
+      "fixture": "arts_and_ideas_in_the_humanities-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/arts-ideas-in-the-humanities-major.html"
+    },
+    {
+      "slug": "asian_languages_and_cultures",
+      "kind": "minor",
+      "fixture": "asian_languages_and_cultures-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/asian-languages-and-cultures-minor.html"
+    },
+    {
+      "slug": "asian_studies",
+      "kind": "major",
+      "fixture": "asian_studies-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/asian-studies-major.html"
+    },
+    {
+      "slug": "asian_studies",
+      "kind": "minor",
+      "fixture": "asian_studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/asian-studies-minor.html"
+    },
+    {
+      "slug": "asian_pacific_islander_american_studies",
+      "kind": "minor",
+      "fixture": "asian_pacific_islander_american_studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/asian-pacific-islander-american-studies-minor.html"
+    },
+    {
+      "slug": "astronomy_and_astrophysics",
+      "kind": "major",
+      "fixture": "astronomy_and_astrophysics-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/astronomy-and-astrophysics-major.html"
+    },
+    {
+      "slug": "astronomy_and_astrophysics",
+      "kind": "minor",
+      "fixture": "astronomy_and_astrophysics-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/astronomy-and-astrophysics-minor.html"
+    },
+    {
+      "slug": "biochemistry",
+      "kind": "minor",
+      "fixture": "biochemistry-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/biochemistry-minor.html"
+    },
+    {
+      "slug": "biochemistry_bs",
+      "kind": "major",
+      "fixture": "biochemistry_bs-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/biochemistry-major.html"
+    },
+    {
+      "slug": "biological_anthropology",
+      "kind": "minor",
+      "fixture": "biological_anthropology-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/biological-anthropology-minor.html"
+    },
+    {
+      "slug": "biology",
+      "kind": "major",
+      "fixture": "biology-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/biology-major.html"
+    },
+    {
+      "slug": "biology",
+      "kind": "minor",
+      "fixture": "biology-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/biology-minor.html"
+    },
+    {
+      "slug": "general_biology",
+      "kind": "major",
+      "fixture": "general_biology-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/biology-health-and-society-major.html"
+    },
+    {
+      "slug": "biomolecular_science_ab_or_bs",
+      "kind": "major",
+      "fixture": "biomolecular_science_ab_or_bs-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/biomolecular-science-major.html"
+    },
+    {
+      "slug": "biophysics",
+      "kind": "minor",
+      "fixture": "biophysics-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/biophysics-minor.html"
+    },
+    {
+      "slug": "biophysics_bs",
+      "kind": "major",
+      "fixture": "biophysics_bs-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/biophysics-major.html"
+    },
+    {
+      "slug": "biophyschology_cognition_and_neuroscience_bcn",
+      "kind": "major",
+      "fixture": "biophyschology_cognition_and_neuroscience_bcn-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/biopsychology-cognition-and-neuroscience-major.html"
+    },
+    {
+      "slug": "biotechnology-and-bioenvironmental-sciences",
+      "kind": "major",
+      "fixture": "biotechnology-and-bioenvironmental-sciences-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/biotechnology-and-bioenvironmental-sciences-maj.html"
+    },
+    {
+      "slug": "bosnian_croatian_serbian_literature_and_culture",
+      "kind": "minor",
+      "fixture": "bosnian_croatian_serbian_literature_and_culture-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/bosnian-croatian-serbian-literature-and-culture-minor.html"
+    },
+    {
+      "slug": "business",
+      "kind": "minor",
+      "fixture": "business-min.html",
+      "requirementsUrl": "https://michiganross.umich.edu/undergraduate/business-minor/curriculum"
+    },
+    {
+      "slug": "cell_and_molecular_biology_and_biomedical_engineering",
+      "kind": "major",
+      "fixture": "cell_and_molecular_biology_and_biomedical_engineering-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/cell-and-molecular-biomedical-science-major.html"
+    },
+    {
+      "slug": "chemistry",
+      "kind": "major",
+      "fixture": "chemistry-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/chemistry-maj"
+    },
+    {
+      "slug": "chemistry",
+      "kind": "minor",
+      "fixture": "chemistry-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/chemistry-minor.html"
+    },
+    {
+      "slug": "civil_engineering",
+      "kind": "minor",
+      "fixture": "civil_engineering-min.html",
+      "requirementsUrl": "https://cee.engin.umich.edu/undergraduate-studies/minor-in-civil-engineering/"
+    },
+    {
+      "slug": "classical_civilization",
+      "kind": "major",
+      "fixture": "classical_civilization-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/classical-civilization-major.html"
+    },
+    {
+      "slug": "classical_civilization",
+      "kind": "minor",
+      "fixture": "classical_civilization-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/classical-civilization-minor.html"
+    },
+    {
+      "slug": "classical_languages",
+      "kind": "minor",
+      "fixture": "classical_languages-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/classical-languages-minor.html"
+    },
+    {
+      "slug": "classical_languages_and_literatures",
+      "kind": "major",
+      "fixture": "classical_languages_and_literatures-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/classical-languages-and-literatures-major.html"
+    },
+    {
+      "slug": "climate_and_space_sciences_and_engineering",
+      "kind": "minor",
+      "fixture": "climate_and_space_sciences_and_engineering-min.html",
+      "requirementsUrl": "https://clasp.engin.umich.edu/academics/undergraduate-studies/climate-and-space-sciences-and-engineering-minor/"
+    },
+    {
+      "slug": "cognitive_science",
+      "kind": "major",
+      "fixture": "cognitive_science-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/cognitive-science-major.html"
+    },
+    {
+      "slug": "communication_studies",
+      "kind": "major",
+      "fixture": "communication_studies-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/communication-and-media-major.html"
+    },
+    {
+      "slug": "community_action_and_social_change",
+      "kind": "minor",
+      "fixture": "community_action_and_social_change-min.html",
+      "requirementsUrl": "https://ssw.umich.edu/offices/casc-undergraduate-minor/declarations-and-requirements"
+    },
+    {
+      "slug": "comparative_culture_and_identity_cci",
+      "kind": "sub-major",
+      "fixture": "comparative_culture_and_identity_cci-sub.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/international-studies-major.html"
+    },
+    {
+      "slug": "comparative_literature_arts_and_media",
+      "kind": "major",
+      "fixture": "comparative_literature_arts_and_media-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/comparative_literature_arts_and_media-maj.html"
+    },
+    {
+      "slug": "complex_systems",
+      "kind": "minor",
+      "fixture": "complex_systems-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/complex-systems-minor.html"
+    },
+    {
+      "slug": "computer_science",
+      "kind": "major",
+      "fixture": "computer_science-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/computer-science-major.html"
+    },
+    {
+      "slug": "computer_science",
+      "kind": "minor",
+      "fixture": "computer_science-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/computer-science-minor.html"
+    },
+    {
+      "slug": "computing_for_expression",
+      "kind": "minor",
+      "fixture": "computing_for_expression-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/computing-for-expression-minor.html"
+    },
+    {
+      "slug": "computing_for_scientific_discovery",
+      "kind": "minor",
+      "fixture": "computing_for_scientific_discovery-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/computing-for-scientific-discovery-minor.html"
+    },
+    {
+      "slug": "creative_writing",
+      "kind": "minor",
+      "fixture": "creative_writing-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/creative-writing-minor.html"
+    },
+    {
+      "slug": "creative_writing_and_literature",
+      "kind": "major",
+      "fixture": "creative_writing_and_literature-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/creative-writing-literature-major.html"
+    },
+    {
+      "slug": "crime_and_justice",
+      "kind": "minor",
+      "fixture": "crime_and_justice-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/crime-and-justice-minor.html"
+    },
+    {
+      "slug": "culture_and_media",
+      "kind": "sub-major",
+      "fixture": "culture_and_media-sub.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/culture-and-media-sub-major.html"
+    },
+    {
+      "slug": "cultures_and_literatures_of_eastern_europe",
+      "kind": "minor",
+      "fixture": "cultures_and_literatures_of_eastern_europe-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/cultures-and-literatures-of-eastern-europe-minor.html"
+    },
+    {
+      "slug": "czech_language_literature_and_culture",
+      "kind": "minor",
+      "fixture": "czech_language_literature_and_culture-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/czech-language-literature-and-culture-minor.html"
+    },
+    {
+      "slug": "dance",
+      "kind": "minor",
+      "fixture": "dance-min.html",
+      "requirementsUrl": "https://smtd.umich.edu/department/department-of-dance/"
+    },
+    {
+      "slug": "data_science",
+      "kind": "major",
+      "fixture": "data_science-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/data-science-major.html"
+    },
+    {
+      "slug": "data_science",
+      "kind": "minor",
+      "fixture": "data_science-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/data-science-minor.html"
+    },
+    {
+      "slug": "digital_studies",
+      "kind": "minor",
+      "fixture": "digital_studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/digital-studies-minor.html"
+    },
+    {
+      "slug": "disability-studies",
+      "kind": "minor",
+      "fixture": "disability-studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/disability-studies-min.html"
+    },
+    {
+      "slug": "drama",
+      "kind": "major",
+      "fixture": "drama-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/drama-major.html"
+    },
+    {
+      "slug": "drama",
+      "kind": "minor",
+      "fixture": "drama-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/drama-minor.html"
+    },
+    {
+      "slug": "dutch_language_and_culture",
+      "kind": "minor",
+      "fixture": "dutch_language_and_culture-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/dutch_language_and_culture.html"
+    },
+    {
+      "slug": "earth_and_environmental_sciences",
+      "kind": "major",
+      "fixture": "earth_and_environmental_sciences-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/earth-and-environmental-sciences-major.html"
+    },
+    {
+      "slug": "earth_sciences",
+      "kind": "minor",
+      "fixture": "earth_sciences-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/earth-sciences-minor.html"
+    },
+    {
+      "slug": "east_european_studies",
+      "kind": "minor",
+      "fixture": "east_european_studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/east-european-studies-minor.html"
+    },
+    {
+      "slug": "ecology_and_evolutionary_biology",
+      "kind": "minor",
+      "fixture": "ecology_and_evolutionary_biology-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/ecology-and-evolutionary-biology-minor.html"
+    },
+    {
+      "slug": "ecology_and_evolutionary_biology_eeb",
+      "kind": "major",
+      "fixture": "ecology_and_evolutionary_biology_eeb-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/ecology_evolution_and_biodiversity_eeb-maj.html"
+    },
+    {
+      "slug": "economics",
+      "kind": "major",
+      "fixture": "economics-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/economics-major.html"
+    },
+    {
+      "slug": "economics",
+      "kind": "minor",
+      "fixture": "economics-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/economics-minor.html"
+    },
+    {
+      "slug": "education_for_empowerment",
+      "kind": "minor",
+      "fixture": "education_for_empowerment-min.html",
+      "requirementsUrl": "https://soe.umich.edu/academics-admissions/degrees/minor/education-empowerment"
+    },
+    {
+      "slug": "electrical_engineering",
+      "kind": "minor",
+      "fixture": "electrical_engineering-min.html",
+      "requirementsUrl": "http://www.eecs.umich.edu/eecs/undergraduate/ee-minor/"
+    },
+    {
+      "slug": "energy_and_science_policy",
+      "kind": "minor",
+      "fixture": "energy_and_science_policy-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/energy-science-and-policy-minor.html"
+    },
+    {
+      "slug": "english",
+      "kind": "major",
+      "fixture": "english-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/english-major.html"
+    },
+    {
+      "slug": "english",
+      "kind": "minor",
+      "fixture": "english-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/english-minor.html"
+    },
+    {
+      "slug": "entrepreneurship",
+      "kind": "minor",
+      "fixture": "entrepreneurship-min.html",
+      "requirementsUrl": "https://ent-minor.umich.edu/requirements"
+    },
+    {
+      "slug": "environment",
+      "kind": "major",
+      "fixture": "environment-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/the-environment-major.html"
+    },
+    {
+      "slug": "environment",
+      "kind": "minor",
+      "fixture": "environment-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/the-environment-minor.html"
+    },
+    {
+      "slug": "environment_and_conservation",
+      "kind": "sub-major",
+      "fixture": "environment_and_conservation-sub.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/environment-and-conservation-sub-major.html"
+    },
+    {
+      "slug": "environmental_justice",
+      "kind": "minor",
+      "fixture": "environmental_justice-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/environmental-justice-minor.html"
+    },
+    {
+      "slug": "epistemology_and_philosophy_of_science",
+      "kind": "minor",
+      "fixture": "epistemology_and_philosophy_of_science-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/epistemology-and-philosophy-of-science.html"
+    },
+    {
+      "slug": "ethnic_studies",
+      "kind": "sub-major",
+      "fixture": "ethnic_studies-sub.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/ethnic-studies-submajor.html"
+    },
+    {
+      "slug": "screen_arts_and_cultures",
+      "kind": "major",
+      "fixture": "screen_arts_and_cultures-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/film-television-and-media-major.html"
+    },
+    {
+      "slug": "food_and_the_environment",
+      "kind": "minor",
+      "fixture": "food_and_the_environment-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/food-and-the-environment-minor.html"
+    },
+    {
+      "slug": "french_and_francophone_studies",
+      "kind": "major",
+      "fixture": "french_and_francophone_studies-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/french-and-francophone-studies-major.html"
+    },
+    {
+      "slug": "french_and_francophone_studies",
+      "kind": "minor",
+      "fixture": "french_and_francophone_studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/french-and-francophone-studies-minor.html"
+    },
+    {
+      "slug": "gender_and_health",
+      "kind": "major",
+      "fixture": "gender_and_health-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/gender-and-health-major.html"
+    },
+    {
+      "slug": "gender_and_health",
+      "kind": "minor",
+      "fixture": "gender_and_health-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/gender-and-health-minor.html"
+    },
+    {
+      "slug": "gender_race_and_nation",
+      "kind": "minor",
+      "fixture": "gender_race_and_nation-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/gender-race-and-nation-minor.html"
+    },
+    {
+      "slug": "general_studies",
+      "kind": "major",
+      "fixture": "general_studies-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/advising/degrees-majors/bachelor-of-general-studies.html"
+    },
+    {
+      "slug": "geology",
+      "kind": "minor",
+      "fixture": "geology-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/geology-minor.html"
+    },
+    {
+      "slug": "geospatial_science",
+      "kind": "minor",
+      "fixture": "geospatial_science-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/geospatial-science-minor.html"
+    },
+    {
+      "slug": "german",
+      "kind": "major",
+      "fixture": "german-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/german-major.html"
+    },
+    {
+      "slug": "german_studies",
+      "kind": "minor",
+      "fixture": "german_studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/german-studies-minor.html"
+    },
+    {
+      "slug": "global_environment_and_health_geh",
+      "kind": "sub-major",
+      "fixture": "global_environment_and_health_geh-sub.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/international-studies-major.html"
+    },
+    {
+      "slug": "global_history",
+      "kind": "minor",
+      "fixture": "global_history-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/global-history-minor.html"
+    },
+    {
+      "slug": "global_media_studies",
+      "kind": "minor",
+      "fixture": "global_media_studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/global-media-studies-minor.html"
+    },
+    {
+      "slug": "global_theatre_and_ethnic_studies",
+      "kind": "minor",
+      "fixture": "global_theatre_and_ethnic_studies-min.html",
+      "requirementsUrl": "https://smtd.umich.edu/backstage/minors-certificates/"
+    },
+    {
+      "slug": "greek_ancient_language_and_literature",
+      "kind": "major",
+      "fixture": "greek_ancient_language_and_literature-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/greek-ancient-language-and-literature-major.html"
+    },
+    {
+      "slug": "greek_modern_language_and_culture",
+      "kind": "major",
+      "fixture": "greek_modern_language_and_culture-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/greek-modern-language-and-culture-major.html"
+    },
+    {
+      "slug": "greek_modern_language_and_culture",
+      "kind": "minor",
+      "fixture": "greek_modern_language_and_culture-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/greek-modern-language-and-culture-minor.html"
+    },
+    {
+      "slug": "history",
+      "kind": "major",
+      "fixture": "history-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/history-major.html"
+    },
+    {
+      "slug": "history",
+      "kind": "minor",
+      "fixture": "history-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/history-minor.html"
+    },
+    {
+      "slug": "history_of_art",
+      "kind": "major",
+      "fixture": "history_of_art-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/history-of-art-major.html"
+    },
+    {
+      "slug": "history_of_art",
+      "kind": "minor",
+      "fixture": "history_of_art-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/history-of-art-minor.html"
+    },
+    {
+      "slug": "history_of_law_and_policy",
+      "kind": "minor",
+      "fixture": "history_of_law_and_policy-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/history-of-law-and-policy-minor.html"
+    },
+    {
+      "slug": "history_of_medicine_and_health",
+      "kind": "minor",
+      "fixture": "history_of_medicine_and_health-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/history-of-medicine-and-health-minor.html"
+    },
+    {
+      "slug": "honors_mathematics",
+      "kind": "sub-major",
+      "fixture": "honors_mathematics-sub.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/mathematics-major.html"
+    },
+    {
+      "slug": "human_anatomy_and_physiology",
+      "kind": "minor",
+      "fixture": "human_anatomy_and_physiology-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/human-anatomy-and-physiology-minor.html"
+    },
+    {
+      "slug": "human_origins_biology_and_behavior",
+      "kind": "major",
+      "fixture": "human_origins_biology_and_behavior-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/human-origins-biology-and-behavior-major.html"
+    },
+    {
+      "slug": "interdisciplinary_astronomy",
+      "kind": "minor",
+      "fixture": "interdisciplinary_astronomy-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/interdisciplinary-astronomy-minor.html"
+    },
+    {
+      "slug": "interdisciplinary_astronomy_ba_or_bs",
+      "kind": "major",
+      "fixture": "interdisciplinary_astronomy_ba_or_bs-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/interdisciplinary-astronomy-major.html"
+    },
+    {
+      "slug": "interdisciplinary_chemical_sciences_ics_ab_or_bs",
+      "kind": "major",
+      "fixture": "interdisciplinary_chemical_sciences_ics_ab_or_bs-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/interdisciplinary-chemical-sciences-major.html"
+    },
+    {
+      "slug": "interdiscplinary_physics_ab_or_bs",
+      "kind": "major",
+      "fixture": "interdiscplinary_physics_ab_or_bs-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/interdisciplinary-physics-major.html"
+    },
+    {
+      "slug": "intergroup_relations_education",
+      "kind": "minor",
+      "fixture": "intergroup_relations_education-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/intergroup-relations-education-minor.html"
+    },
+    {
+      "slug": "international_security_norms_and_cooperation_isnc",
+      "kind": "sub-major",
+      "fixture": "international_security_norms_and_cooperation_isnc-sub.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/international-studies-major.html"
+    },
+    {
+      "slug": "international_studies",
+      "kind": "major",
+      "fixture": "international_studies-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/international-studies-major.html"
+    },
+    {
+      "slug": "international_studies",
+      "kind": "minor",
+      "fixture": "international_studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/international-studies-minor.html"
+    },
+    {
+      "slug": "islamic_studies",
+      "kind": "minor",
+      "fixture": "islamic_studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/islamic-studies-minor.html"
+    },
+    {
+      "slug": "italian",
+      "kind": "major",
+      "fixture": "italian-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/italian-major.html"
+    },
+    {
+      "slug": "italian",
+      "kind": "minor",
+      "fixture": "italian-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/italian-minor.html"
+    },
+    {
+      "slug": "judaic_studies",
+      "kind": "major",
+      "fixture": "judaic_studies-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/judaic-studies-major.html"
+    },
+    {
+      "slug": "judaic_studies",
+      "kind": "minor",
+      "fixture": "judaic_studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/judaic-studies-minor.html"
+    },
+    {
+      "slug": "latin_american_and_caribbean_studies",
+      "kind": "major",
+      "fixture": "latin_american_and_caribbean_studies-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/latin-american-and-caribbean-studies-major.html"
+    },
+    {
+      "slug": "latin_american_and_caribbean_studies",
+      "kind": "minor",
+      "fixture": "latin_american_and_caribbean_studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/latin-american-and-caribbean-studies-minor.html"
+    },
+    {
+      "slug": "latin_language_and_literature",
+      "kind": "major",
+      "fixture": "latin_language_and_literature-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/latin-language-and-literature-major.html"
+    },
+    {
+      "slug": "latina_latino_studies",
+      "kind": "major",
+      "fixture": "latina_latino_studies-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/latina-latino-studies-major.html"
+    },
+    {
+      "slug": "latina_o_studies",
+      "kind": "minor",
+      "fixture": "latina_o_studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/latina-latino-studies-minor.html"
+    },
+    {
+      "slug": "law_justice_and_social_change",
+      "kind": "minor",
+      "fixture": "law_justice_and_social_change-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/law-justice-and-social-change-minor.html"
+    },
+    {
+      "slug": "law_justics_and_social_change",
+      "kind": "sub-major",
+      "fixture": "law_justics_and_social_change-sub.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/sociology-major.html"
+    },
+    {
+      "slug": "lesbian_gay_bisexual_transgender_queer_sexuality_studies",
+      "kind": "minor",
+      "fixture": "lesbian_gay_bisexual_transgender_queer_sexuality_studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/lesbian-gay-bisexual-transgender-queer-LGBTQ-and-sexuality-studies-minor.html"
+    },
+    {
+      "slug": "linguistics",
+      "kind": "major",
+      "fixture": "linguistics-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/linguistics-major.html"
+    },
+    {
+      "slug": "linguistics",
+      "kind": "minor",
+      "fixture": "linguistics-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/linguistics-minor.html"
+    },
+    {
+      "slug": "mathematical_sciences",
+      "kind": "sub-major",
+      "fixture": "mathematical_sciences-sub.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/mathematics-major.html"
+    },
+    {
+      "slug": "mathematics",
+      "kind": "major",
+      "fixture": "mathematics-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/mathematics-major.html"
+    },
+    {
+      "slug": "mathematics",
+      "kind": "minor",
+      "fixture": "mathematics-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/mathematics-minor.html"
+    },
+    {
+      "slug": "mathematics_of_finance_and_risk_management",
+      "kind": "sub-major",
+      "fixture": "mathematics_of_finance_and_risk_management-sub.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/mathematics-major.html"
+    },
+    {
+      "slug": "medical_anthropology",
+      "kind": "minor",
+      "fixture": "medical_anthropology-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/medical-anthropology-minor.html"
+    },
+    {
+      "slug": "medical_anthropology",
+      "kind": "sub-major",
+      "fixture": "medical_anthropology-sub.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/medical-anthropology-sub-major.html"
+    },
+    {
+      "slug": "medieval_and_early_modern_studies",
+      "kind": "minor",
+      "fixture": "medieval_and_early_modern_studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/medieval-and-early-modern-studies-minor.html"
+    },
+    {
+      "slug": "microbiology",
+      "kind": "major",
+      "fixture": "microbiology-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/microbiology-major.html"
+    },
+    {
+      "slug": "near_eastern_studies",
+      "kind": "major",
+      "fixture": "near_eastern_studies-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/middle-east-studies-major.html"
+    },
+    {
+      "slug": "near_eastern_languages_and_cultures",
+      "kind": "minor",
+      "fixture": "near_eastern_languages_and_cultures-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/middle-east-studies-minor.html"
+    },
+    {
+      "slug": "middle_eastern_and_north_african_studies",
+      "kind": "major",
+      "fixture": "middle_eastern_and_north_african_studies-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/middle-eastern-and-north-african-studies-major.html"
+    },
+    {
+      "slug": "modern_middle_eastern_and_north_african_studies",
+      "kind": "minor",
+      "fixture": "modern_middle_eastern_and_north_african_studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/modern-middle-eastern-and-north-african-studies-minor.html"
+    },
+    {
+      "slug": "cell_and_molecular_biology",
+      "kind": "major",
+      "fixture": "cell_and_molecular_biology-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/molecular-cellular-and-developmental-biology-major.html"
+    },
+    {
+      "slug": "moral_and_political_philosophy",
+      "kind": "minor",
+      "fixture": "moral_and_political_philosophy-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/moral-and-political-philosophy.html"
+    },
+    {
+      "slug": "multidisciplinary_design",
+      "kind": "minor",
+      "fixture": "multidisciplinary_design-min.html",
+      "requirementsUrl": "http://mdp.engin.umich.edu/mdp-minor/"
+    },
+    {
+      "slug": "museum_studies",
+      "kind": "minor",
+      "fixture": "museum_studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/museum-studies-minor.html"
+    },
+    {
+      "slug": "music",
+      "kind": "minor",
+      "fixture": "music-min.html",
+      "requirementsUrl": "https://smtd.umich.edu/current-students-2/minors/"
+    },
+    {
+      "slug": "native_american_studies",
+      "kind": "minor",
+      "fixture": "native_american_studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/native-american-studies-minor.html"
+    },
+    {
+      "slug": "neuroscience",
+      "kind": "major",
+      "fixture": "neuroscience-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/neuroscience-major.html"
+    },
+    {
+      "slug": "oceanography",
+      "kind": "minor",
+      "fixture": "oceanography-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/oceanography-minor.html"
+    },
+    {
+      "slug": "organizational_studies",
+      "kind": "major",
+      "fixture": "organizational_studies-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/organizational-studies-major.html"
+    },
+    {
+      "slug": "paleontology",
+      "kind": "minor",
+      "fixture": "paleontology-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/paleontology-minor.html"
+    },
+    {
+      "slug": "performing_arts_management",
+      "kind": "minor",
+      "fixture": "performing_arts_management-min.html",
+      "requirementsUrl": "https://smtd.umich.edu/backstage/minors-certificates/"
+    },
+    {
+      "slug": "pharmacology",
+      "kind": "minor",
+      "fixture": "pharmacology-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/pharmacology-minor.html"
+    },
+    {
+      "slug": "philosophy",
+      "kind": "major",
+      "fixture": "philosophy-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/philosophy-major.html"
+    },
+    {
+      "slug": "general_philosophy",
+      "kind": "minor",
+      "fixture": "general_philosophy-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/philosophy-min.html"
+    },
+    {
+      "slug": "philosophy_political_science_economics",
+      "kind": "major",
+      "fixture": "philosophy_political_science_economics-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/philosophy-politics-and-economics-major.html"
+    },
+    {
+      "slug": "physics",
+      "kind": "major",
+      "fixture": "physics-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/physics-major.html"
+    },
+    {
+      "slug": "physics",
+      "kind": "minor",
+      "fixture": "physics-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/physics-minor.html"
+    },
+    {
+      "slug": "playwriting",
+      "kind": "minor",
+      "fixture": "playwriting-min.html",
+      "requirementsUrl": "https://smtd.umich.edu/degree/minor-in-playwriting/"
+    },
+    {
+      "slug": "polish",
+      "kind": "major",
+      "fixture": "polish-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/polish-major.html"
+    },
+    {
+      "slug": "polish_language_literature_and_culture",
+      "kind": "minor",
+      "fixture": "polish_language_literature_and_culture-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/polish-language-literature-and-culture-minor.html"
+    },
+    {
+      "slug": "political_economy_and_development_ped",
+      "kind": "sub-major",
+      "fixture": "political_economy_and_development_ped-sub.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/international-studies-major.html"
+    },
+    {
+      "slug": "political_science",
+      "kind": "major",
+      "fixture": "political_science-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/political-science-major.html"
+    },
+    {
+      "slug": "political_science",
+      "kind": "minor",
+      "fixture": "political_science-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/political-science-minor.html"
+    },
+    {
+      "slug": "politics_law_and_economy",
+      "kind": "sub-major",
+      "fixture": "politics_law_and_economy-sub.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/politics-law-and-economy-sub-major.html"
+    },
+    {
+      "slug": "portuguese",
+      "kind": "minor",
+      "fixture": "portuguese-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/portuguese-minor.html"
+    },
+    {
+      "slug": "power_identity_and_inequality",
+      "kind": "sub-major",
+      "fixture": "power_identity_and_inequality-sub.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/power-identity-and-inequality-sub-major.html"
+    },
+    {
+      "slug": "psychology_general_social_science",
+      "kind": "major",
+      "fixture": "psychology_general_social_science-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/psychology-general-social-science-major.html"
+    },
+    {
+      "slug": "public_policy",
+      "kind": "minor",
+      "fixture": "public_policy-min.html",
+      "requirementsUrl": "https://fordschool.umich.edu/application/ba/process"
+    },
+    {
+      "slug": "pure_mathematics",
+      "kind": "sub-major",
+      "fixture": "pure_mathematics-sub.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/mathematics-major.html"
+    },
+    {
+      "slug": "quantitative_methods_social_sciences",
+      "kind": "minor",
+      "fixture": "quantitative_methods_social_sciences-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/quantitative_methods_social_sciences-min.html"
+    },
+    {
+      "slug": "religion",
+      "kind": "minor",
+      "fixture": "religion-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/religion-minor.html"
+    },
+    {
+      "slug": "romance_languages_and_literatures",
+      "kind": "major",
+      "fixture": "romance_languages_and_literatures-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/romance-languages-and-literatures-major.html"
+    },
+    {
+      "slug": "russian",
+      "kind": "major",
+      "fixture": "russian-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/russian-major.html"
+    },
+    {
+      "slug": "russian_language_literature_and_culture",
+      "kind": "minor",
+      "fixture": "russian_language_literature_and_culture-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/russian-language-literature-and-culture-minor.html"
+    },
+    {
+      "slug": "russian_studies",
+      "kind": "minor",
+      "fixture": "russian_studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/russian-studies-minor.html"
+    },
+    {
+      "slug": "russian_east_european_and_eurasian_studies",
+      "kind": "major",
+      "fixture": "russian_east_european_and_eurasian_studies-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/russian-east-european-and-eurasian-studies-major.html"
+    },
+    {
+      "slug": "scandinavian_studies",
+      "kind": "minor",
+      "fixture": "scandinavian_studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/scandinavian-studies-minor.html"
+    },
+    {
+      "slug": "science_technology_and_society_sts",
+      "kind": "minor",
+      "fixture": "science_technology_and_society_sts-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/science-technology-and-society-minor.html"
+    },
+    {
+      "slug": "screenwriting",
+      "kind": "sub-major",
+      "fixture": "screenwriting-sub.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/film-television-and-media-major.html"
+    },
+    {
+      "slug": "secondary_mathematics_teaching_certificate",
+      "kind": "sub-major",
+      "fixture": "secondary_mathematics_teaching_certificate-sub.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/mathematics-major.html"
+    },
+    {
+      "slug": "social_class_and_inequality_studies",
+      "kind": "minor",
+      "fixture": "social_class_and_inequality_studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/social-class-and-inequality-studies.html"
+    },
+    {
+      "slug": "social_media_analysis_and_design",
+      "kind": "minor",
+      "fixture": "social_media_analysis_and_design-min.html",
+      "requirementsUrl": "https://www.si.umich.edu/programs/undergraduate-minors"
+    },
+    {
+      "slug": "social_theory_and_practice",
+      "kind": "major",
+      "fixture": "social_theory_and_practice-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/social-theory-and-practice-major.html"
+    },
+    {
+      "slug": "sociology",
+      "kind": "major",
+      "fixture": "sociology-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/sociology-major.html"
+    },
+    {
+      "slug": "sociology_and_social_work",
+      "kind": "sub-major",
+      "fixture": "sociology_and_social_work-sub.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/sociology-and-social-work-submajor.html"
+    },
+    {
+      "slug": "health-and-society",
+      "kind": "sub-major",
+      "fixture": "health-and-society-sub.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/sociology-major.html"
+    },
+    {
+      "slug": "spanish",
+      "kind": "major",
+      "fixture": "spanish-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/spanish-major.html"
+    },
+    {
+      "slug": "spanish_language_literature_and_culture",
+      "kind": "minor",
+      "fixture": "spanish_language_literature_and_culture-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/spanish-language-literature-and-culture-minor.html"
+    },
+    {
+      "slug": "statistics",
+      "kind": "major",
+      "fixture": "statistics-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/statistics-major.html"
+    },
+    {
+      "slug": "statistics",
+      "kind": "minor",
+      "fixture": "statistics-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/statistics-minor.html"
+    },
+    {
+      "slug": "sustainability",
+      "kind": "minor",
+      "fixture": "sustainability-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/sustainability-minor.html"
+    },
+    {
+      "slug": "design_and_production",
+      "kind": "minor",
+      "fixture": "design_and_production-min.html",
+      "requirementsUrl": "https://smtd.umich.edu/degree/minor-in-design-production/"
+    },
+    {
+      "slug": "translation",
+      "kind": "major",
+      "fixture": "translation-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/translation-maj.html"
+    },
+    {
+      "slug": "translation_studies",
+      "kind": "minor",
+      "fixture": "translation_studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/translation-studies-minor.html"
+    },
+    {
+      "slug": "ukrainian_language_literature_and_culture",
+      "kind": "minor",
+      "fixture": "ukrainian_language_literature_and_culture-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/ukrainian-language-literature-and-culture-minor.html"
+    },
+    {
+      "slug": "urban_studies",
+      "kind": "minor",
+      "fixture": "urban_studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/urban-studies-minor.html"
+    },
+    {
+      "slug": "user_experience_design",
+      "kind": "minor",
+      "fixture": "user_experience_design-min.html",
+      "requirementsUrl": "https://www.si.umich.edu/programs/undergraduate-minors"
+    },
+    {
+      "slug": "water_and_the_environment",
+      "kind": "minor",
+      "fixture": "water_and_the_environment-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/water-and-the-environment-minor.html"
+    },
+    {
+      "slug": "womens_studies",
+      "kind": "major",
+      "fixture": "womens_studies-maj.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/womens-and-gender-studies-major.html"
+    },
+    {
+      "slug": "wrtiting",
+      "kind": "minor",
+      "fixture": "wrtiting-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/writing-minor.html"
+    },
+    {
+      "slug": "yiddish_studies",
+      "kind": "minor",
+      "fixture": "yiddish_studies-min.html",
+      "requirementsUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/yiddish-studies-minor.html"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<div>
+  <div class="col-sm-8 col-xs-12">
+    <h2 class="program_title">Anthropology (Major)</h2>
+    <div class="program_descr">
+      <p>The undergraduate Anthropology Program emphasizes the commitment of this department to four-field anthropology, providing exposure to Anthropological Archaeology, Biological Anthropology, Sociocultural Anthropology and Linguistic Anthropology. This approach serves Anthropology's intellectual goal to achieve a comprehensive, comparative, and innovative understanding of humanity. </p><p>An undergraduate major in Anthropology contributes to a liberal arts education, offering a disciplined awareness of human behavior that forms the basis for problem solving in an increasingly complex world, wherever the major takes you. </p><p> As an Anthropology major, you will learn about </p><ul><li>the importance of human diversity (biological and cultural) in the past and present and why diversity matters for our future</li><li>how human bodies and minds are shaped both by our present environments, and our species’ evolutionary past</li><li>the ways in which race is socially constructed and how that translates to real-world biological consequences</li></ul><p>You will also learn important skills, such as</p><ul><li>The ability to incorporate different cultural perspectives in your critical thinking </li><li>Cultural competency</li><li>The diversity of methods anthropologists use to study our human past and present, including qualitative, quantitative, and mixed methods approaches</li></ul><p>The department also offers six optional sub-majors for students who want to pursue deeper knowledge in a specific aspect of Anthropology.</p><p>Optional Sub-majors: </p><ul><li>Archaeology</li><li>Culture and Media</li><li>Environment and Conservation</li><li>Medical Anthropology</li><li>Politics, Law, and Economy</li><li>Power, Identity, and Inequality</li></ul><p> </p><p>Related Programs<br /><a href="https://lsa.umich.edu/lsa/academics/majors-minors.html#anthropology-min">Anthropology Minor</a><br /><a href="https://lsa.umich.edu/lsa/academics/majors-minors.html#biological_anthropology-min">Biological Anthropology Minor</a><br />Human Origins, Biology, and Behavior Major<br />Medical Anthropology Minor<br />Archaeology Sub-major<br />Culture and Media Sub-major<br />Environment and Conservation Sub-major<br />Medical Anthropology Sub-major<br />Politics, Law, and Economy Sub-major<br />Power, Identity, and Inequality Sub-major</p><p> </p>
+    </div>
+  </div>
+  <div class="col-sm-4 col-xs-12 button_links">
+    <div class="btn classic theme-bg center lsa-button-click" style="margin:3px;">
+        <a href="/lsa/academics/majors-minors/anthropology-major.html" style="text-decoration: none;">REQUIREMENTS</a>
+    </div>
+    <div class="btn classic theme-bg center lsa-button-click" style="margin:3px;">
+        <a href="http://www.lsa.umich.edu/anthro" style="text-decoration: none;">WEBSITE</a>
+    </div>
+    <div class="btn classic theme-bg center lsa-button-click" style="margin:3px;">
+        <a href="http://www.lsa.umich.edu/anthro/undergraduates/advising" style="text-decoration: none;">ADVISING</a>
+    </div>
+  </div>
+  <div class="col-xs-12">
+    <div class="col-sm-6 col-xs-12">      
+      <h4>DEPARTMENT/PROGRAM</h4>
+      <p>LSA Anthropology</p>
+    </div>
+    
+  </div>
+</div>

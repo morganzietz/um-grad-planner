@@ -1,0 +1,18 @@
+{
+  "id": "lsa-afroamerican-and-african-studies-minor",
+  "name": "Afroamerican and African Studies Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 Complete two of the following gateway courses:AAS 200: Introduction to African StudiesAAS 201: Introduction to African American StudiesAAS 202: Introduction to African Diasporic StudiesComplete one 300-level or above comparative or global course that compares different geographical regions, historical periods, political contexts, or cultural contexts. Choose from: AAS 304, 309, 322, 323, 324, 346,357, 359, 362, 365, 381, 384, 441Complete one 200-, 300-, or 400-level AAS elective courseComplete the DAAS-In-Action course: AAS 498 Afroamerican and African Studies (Minor) (Winter 2024 - Summer 2025) Effective Winter 2024 Exclusions: A minor in Afroamerican and African Studies is not open to students with a major in the Department of Afroamerican and African Studies. Advising Students wishing to pursue a minor in Afroamerican and African Studies must develop a specific plan for its completion in consultation with the department's designated advisor. A team of DAAS faculty and staff is available to advise students.Students can make an appointment with an advisor through our department website, contact an advisor by email (daasadvising.umich.edu), or drop by the department during advising hours to meet with an advisor.Students are also encouraged to relax or study in the Lemuel Johnson Center (room 5511) and to attend DAAS community events where our advisors are often present. Prerequisites none. Requirements Minimum Credits: 15 Complete two of the following gateway courses:AAS 200: Introduction to African StudiesAAS 201: Introduction to African American StudiesAAS 202: Introduction to African Diasporic StudiesComplete one 300-level comparative or global course that compares different geographical regions, historical periods, political contexts, or cultural contexts. Choose from: AAS 303, 304, 309, 322, 323, 324, 346, 354, 359, 362, 365, 366, 381, 384. Complete one 200-, 300-, or 400-level AAS elective courseComplete the DAAS-In-Action course: AAS 498 Afroamerican and African Studies (Minor) (Fall 2020 - Fall 2023) Effective Fall 2020 Exclusions: A minor in Afroamerican and African Studies is not open to students with a major in the Department of Afroamerican and African Studies. Advising Students wishing to pursue a minor in Afroamerican and African Studies must develop a specific plan for its completion in consultation with the de... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/afroamerican-and-african-studies-minor.html"
+}

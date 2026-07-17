@@ -1,0 +1,18 @@
+{
+  "id": "lsa-english-minor",
+  "name": "English Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 Students must successfully complete 15 credits in ENGLISH courses. Students must take a total of two courses (6 credits) from the Foundations & Methods category and one course (3 credits) each from the Regions and Time categories with no option to “double-count” any courses: 1. FOUNDATIONS & METHODS (two courses, 6 credits total) one 200-level course from the approved list (3 credits)one 300- or 400-level course (3 credits)2. REGIONS (one 300- or 400-level course, 3 credits total) Students must take one course (3 credits) from one of the following subcategories:the Americas, the United Kingdom, Australia, New Zealand, and Ireland;Africa, Asia, the Middle East, and the Pacific Islands. 3. TIME (one 300- or 400-level course, 3 credits total) Students must take one course (3 credits) from one of the following three subcategories:Medieval and Early Modern18th and 19th CenturiesModern and Contemporary4. ELECTIVESThe remaining 3 credits must be completed with electives. The department will offer in any one term a considerable range of courses designed to meet these requirements and electives. A list of which courses meet a given requirement will be available each year online at www.lsa.umich.edu, or from an English department advisor.Approved 200-level courses:ENGLISH 201: Readings in U.S. Literatures: \"American\" and Other FictionsENGLISH 203: Intro to RhetoricENGLISH 215: Great Women WritersENGLISH 216: Intro to Disability StudiesENGLISH 221: Literature Outside the ClassroomENGLISH 230: Intro to Short Story and NovelENGLISH 232: Intro to Visual CultureENGLISH 235: Intro to AutobiographyENGLISH 240: Poetry for Non-majorsENGLISH 242: Interdisciplinary Studies in EnglishENGLISH 245: Intro to Drama and TheatreENGLISH 250: Intro to Language StudiesENGLISH 258: Bible as LiteratureENGLISH 260: Intro to British LiteratureENGLISH 267: Shakespeare and his WorldENGLISH 270: Intro to American LitENGLISH 274: Intro to Afro-American LitENGLISH 275: Intro World Lit in EnglishENGLISH 280: Intro to Digital CulturesENGLISH 282: Native American LiteratureENGLISH 285: Intro to 20th C LitENGLISH 290: Topics in Lang & LitENGLISH 292: Themes in Lang & Lit (mini-course)ENGLISH 293: Great Works of Lit (mini-course)One course may be a creative or expository writing course. Creative/expository writing courses include ENGLISH 322 (only if elected FA21 or lat... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/english-minor.html"
+}

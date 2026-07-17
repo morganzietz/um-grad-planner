@@ -6,10 +6,23 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "ingest:auth": "tsx scripts/ingest/auth.ts",
+    "ingest:recon": "tsx scripts/ingest/recon.ts",
+    "ingest:lsa": "tsx scripts/ingest/lsa.ts",
+    "ingest:diff": "tsx scripts/ingest/diff-manual.ts",
+    "ingest:refresh-terms": "tsx scripts/ingest/refresh-terms.ts",
+    "ingest:lsa-list": "tsx scripts/ingest/lsa-majors-list.ts",
+    "ingest:lsa-parse": "tsx scripts/ingest/lsa-majors-parse.ts",
+    "ingest:lsa-generate": "tsx scripts/ingest/lsa-generate-stubs.ts",
+    "ingest:lsa-requirements": "tsx scripts/ingest/lsa-fetch-requirements.ts",
+    "ingest:lsa-extract-text": "tsx scripts/ingest/lsa-extract-req-text.ts"
   },
   "dependencies": {
     "next": "16.2.9",
+    "pdfjs-dist": "^6.1.200",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
@@ -18,9 +31,14 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@vitest/ui": "^4.1.9",
+    "cheerio": "^1.2.0",
     "eslint": "^9",
     "eslint-config-next": "16.2.9",
+    "playwright": "^1.61.1",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "tsx": "^4.23.0",
+    "typescript": "^5",
+    "vitest": "^4.1.9"
   }
 }

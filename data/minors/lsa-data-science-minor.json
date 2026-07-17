@@ -1,0 +1,18 @@
+{
+  "id": "lsa-data-science-minor",
+  "name": "Data Science Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 The minor program in Data Science (DataSci) consists of 15 credits covering four core requirements. Each core requirement must be satisfied unless it is excused by a course used for a corresponding major and not double-counted.Core Requirements:1. Core data science: DATASCI 306. 2. Computer science: EECS 280. 3. Mathematics: MATH 214 or 217 or 417 or ROB 101. 4. Statistics: IOE 366 or STATS 401 or 413 or ECON 452. No more than one course counted toward the 15 credit requirement for the DataSci minor can be used to also meet a requirement, either a program requirement or prerequisite, in a major for which the student is declared. If students have completed more than one DataSci minor core course as part of their major(s) then they must complete DataSci minor electives to reach the 15 credit minimum. For this double counting rule, courses used to meet a College of Engineering (CoE) core requirement are counted as prerequisites for a major; however, courses used to meet a CoE flexible technical elective are not considered part of the major. Data Science Application Electives: Courses from the following list can be taken to meet the credit requirement. Ask an adviser if you have a course involving data science which you think should be considered for addition to this list. A student who has declared a Data Science minor and is not a major in Computer Science, Mathematics or Statistics takes 15 credits of core courses and is not required to take any application electives. Such students are expected to see relevant data analysis applications within their own major field of study.CLIMATE 324/ SPACE 324. Instrumentation for Atmospheric and Space ScienceCLIMATE 423/ SPACE 423. Data Analysis and Visualization for GeoscientistsDATASCI 315. Statistics and Artificial IntelligenceEARTH 408/ENVIRON 403: Introduction to GIS in the Earth SciencesENVIRON 473/ANTHROBIO 463/PSYCH 463: Statistical Modeling in RQMSS 301: Quantitative Social Analysis and Big DataSI 311 (Topics course, section 3): Sports AnalyticsSI 340: Experiment Design and AnalysesSOC 310: Sociological Research MethodsSTATS/BIOSTAT 449: Topics in BiostatisticsSTATS 470: Design of ExperimentsASTRO 361: Astronomical TechniquesASTRO 406: Computational AstrophysicsBIOINF 463/BIOPHYS 463/MATH 463: Mathematical Modeling in BiologyBIOPHYS 445/CMPLXSYS 445/PHYSICS 445: Introduction to In... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/data-science-minor.html"
+}

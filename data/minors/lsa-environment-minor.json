@@ -1,0 +1,18 @@
+{
+  "id": "lsa-environment-minor",
+  "name": "Environment Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 17 At least 17 credits of courses, to be elected from five categories as stated (at least two of the required courses must be at the 300-level or above):Introductory interdisciplinary courses. One course chosen from:ENVIRON 110 / AOSS 171 / BIOLOGY 110 / EARTH / ENSCEN 171 / RCNSCI 110: Introduction to Global Change: The Science Behind SustainabilityENVIRON 111 / AOSS / EARTH / ENSCEN / GEOG 111: Global Change: The Sustainability ChallengeENVIRON 201 / RCNSCI 202: Ecological IssuesENVIRON 270: Our Common FutureCEE 260: Environmental PrinciplesEnvironmental Natural Science. One course chosen from the list of Environmental Natural Science courses, above.Environmental Social Science. One course chosen from the list of Environmental Social Science courses, below.Culture and Environment. One course chosen from the list of Culture and Environment courses, below.Analytics or Field Experience (one course):Field Experience. The field experience requirement may be satisfied in two ways: by a field course at the UM Biological Station, Camp Davis, or other approved field location; or by an approved off-campus internship that results in academic credit.Analytics. The analytics requirement may be satisfied by electing STATS 250 or SOC 210 or equivalent (STATS 265 or IOE 265).Environmental Social Science Courses for the academic minor.These courses do not necessarily satisfy the SS distribution requirement.ARCH 423ANTHRCUL 256CEE 307COMM 413ECON 330, 360, 370EDCURINS 382EHS 588ENVIRON 203, 207, 208, 211, (221 prior to Fall 2016), 222, 223, 237, 242, 256, 270, 290, 302, 306, 308, 312, 313, 316, 318, 320, 321, 335, 345, 350, 356, 360, 361, 365, 367, 370, 375, 382, 390, 391, 405, 407, 408, 412, 413, 448, 449, 462, 475, 490HISTORY (222 prior to Fall 2016), 223, 237 NRE 449, 475ORGSTUDY 203, 208POLSCI 331, 380, 394PSYCH 384, 385PUBPOL 312, 412RCIDIV 316, 318, 390RCSSCI 221, 222SOC 222, 330UP 423Culture and Environment Courses for the academic minor. (Fall 2014 - Current | Previous)AAS 409, 432AES 241AMCULT 284, 311 section titled “Green Indigeneity”, 373ANTHRBIO 364, 365, 373ANTHRCUL 256, 328, 408, 439, 440ARCH 209 section titled “Experiencing Architecture”, 212, 213, 357, 423ARTDES 250ASIAN 257, 258CLARCH 222, 382, 350 section titled \"The Art and Life in Roman Villas\"CLCIV 382EARTH 238ENGLISH 290 section titled “American Environments: History, Thi... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/the-environment-minor.html"
+}

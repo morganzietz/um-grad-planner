@@ -1,0 +1,18 @@
+{
+  "id": "lsa-crime-and-justice-minor",
+  "name": "Crime and Justice Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 A minimum of five courses (at least 15 credits), to be elected from categories as stated:Core Course: SOC 368. CriminologyElectives. One course from each of the following three areas (at least two of which must be at the 300-level and above).No more than three courses may be selected from any single department or program.Contexts and Social Perspectives on the Problems of Crime and PunishmentAAS 262 / HISTORY 272: The Modern Civil Rights MovementAAS / SOC 303: Race and Ethnic RelationsAAS 322 / ENVIRON 335: Introduction to Environmental Politics: Race, Class and GenderAAS 324: Dealing with the Past : Doing Justice in Africa: South Africa, Rwanda, Sierra LeoneAAS / RCSSCI 330: Urban and Community Studies, IAAS 334 / AMCULT 336: Popular Culture in Contemporary Black AmericaAAS 420 / ANTHRCUL 347: Race and EthnicityAAS 426 Urban Redevelopment and Social JusticeAAS / SOC 434: Social Organization of Black CommunitiesAAS 454 / ANTHRCUL 453 African-American CultureAMCULT / SOC 304: American ImmigrationAMCULT 336 / AAS 334: Popular Culture in Contemporary Black AmericaAMCULT 337: A Survey of American Blues MusicAMCULT / HISTORY 369: U.S. Mass Culture from Minstrelsy to Hip HopAMCULT / HISTORY 374: Politics and Culture of the “Sixties”AMCULT 399: Race in AmericaAMCULT 421 / SOC 423: StratificationANTHRCUL 235: Anthropology of Crime, Criminalization and Punishment (only if elected Fall 2019 or later)ANTHRCUL 347 / AAS 420: Race and EthnicityANTHRCUL 453 / AAS 454 African-American CultureARCH / UP 357 Architecture, Sustainability, and the City: Ideas, Force, and People Shaping the Built EnvironmentCEE 307 / ENVIRON 407: Sustainable CitiesCOMM / PSYCH 318: Media and ViolenceENVIRON 222: Introduction to Environmental JusticeENVIRON 335 / AAS 322: Introduction to Environmental Politics: Race, Class and GenderENVIRON 407 / CEE 307: Sustainable CitiesENVIRON 408: Land Use Policy, Law, and the EnvironmentHISTORY 272 / AAS 262: The Modern Civil Rights MovementHISTORY / AMCULT 369: U.S. Mass Culture from Minstrelsy to Hip HopHISTORY / AMCULT 374: Politics and Culture of the “Sixties”HISTORY / WGS 375 (WOMENSTD 375): History of Witchcraft: The 1692 Salem Trials in Historical and Cross-Cultural PerspectivePHIL 224: Global JusticePHIL 355: Contemporary Moral ProblemsPOLSCI 307: Topics in American Political ThoughtPOLSCI 319 Politics of Civil Liber... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/crime-and-justice-minor.html"
+}

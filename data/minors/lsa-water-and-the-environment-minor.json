@@ -1,0 +1,18 @@
+{
+  "id": "lsa-water-and-the-environment-minor",
+  "name": "Water and the Environment Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 18 The minor consists of no fewer than 6 classes for a total of at least 18 credits.Introductory Course: The Water Cycle, an Interdisciplinary ApproachSecond Water-Centered Course. Select one from the list below.Three Topics Courses. Select three courses from the list below. Two courses must be 300 level or above. Students will be required to take at least two courses from different sub-topics listed below.Practical Experience. Student choose a practical experience synthesizing approaches and knowledge bases relevant to the issue. The practical experience can take the form of an independent study course, internship, field-oriented course or study abroad course. Students either work with a faculty advisor to complete an independent study course or internship, or they will consult with a PitE Advisor or faculty to choose a field-oriented course or study abroad experience synthesizing approaches and knowledge bases relevant to the student’s interest in water.Second Water-Centered Course. (Select one from the following list):AOSS 171 / ENVIRON 110 / BIOLOGY 110 / EARTH 171 / ENSCEN 171 / RCNSCI 110: Introduction to Global Change: The Science Behind SustainabilityAOSS 172 / ENVIRON 111 / EARTH 172 / ENSCEN 172 / GEOG 111: Global Change: The Sustainability ChallengeBIOLOGY 109: Ecological Knowledge and Environmental Problem SolvingBIOLOGY 110 / AOSS 171 / ENVIRON 110 / EARTH 171 / ENSCEN 171 / RCNSCI 110: Introduction to Global Change: The Science Behind SustainabilityEARTH 110: Evolving OceansEARTH 171 / AOSS 171 / ENVIRON 110 / BIOLOGY 110 / ENSCEN 171 / RCNSCI 110: Introduction to Global Change: The Science Behind SustainabilityEARTH 172 / AOSS 172 / ENVIRON 111 / ENSCEN 172 / GEOG 111: Global Change: The Sustainability ChallengeEARTH 206 / ENVIRON 206: How the Earth Works: The Water Cycle and EnvironmentEARTH 222 / ENVIRON 232: Introductory OceanographyEARTH 277: Water in the 21st CenturyENSCEN 171 / AOSS 171 / ENVIRON 110 / BIOLOGY 110 / EARTH 171 / RCNSCI 110: Introduction to Global Change: The Science Behind SustainabilityENSCEN 172 / AOSS 172 / ENVIRON 111 / EARTH 172 / GEOG 111: Global Change: The Sustainability ChallengeENVIRON 110 / AOSS 171 / BIOLOGY 110 / EARTH 171 / ENSCEN 171 / RCNSCI 110: Introduction to Global Change: The Science Behind SustainabilityENVIRON 111 / AOSS 172 / EARTH 172 / ENSCEN 172 / GEOG 111: Global C... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/water-and-the-environment-minor.html"
+}

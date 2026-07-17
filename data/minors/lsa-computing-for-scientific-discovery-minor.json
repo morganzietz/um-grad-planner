@@ -1,0 +1,18 @@
+{
+  "id": "lsa-computing-for-scientific-discovery-minor",
+  "name": "Computing for Scientific Discovery Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 Foundation Elective: Students should choose one from the approved listDATASCI 101: Introduction to Data ScienceCMPLXSYS 100: Introduction to ComplexityPHIL 183: Critical ReasoningQMSS 201: Introduction to Quantitative Methods in the Social SciencesSOC 210: Introduction to Statistics for Social Science, section 020 titled, \"Data Analysis\"STATS 250: Introduction to Statistics and Data AnalysisSTATS 280: Honors Introduction to Statistics and Data AnalysisSTATS 412: Introduction to Probability and StatisticsIntroductory Programming Elective: Students should choose one from the approved listCOMPFOR/BIOLOGY/BIOPHYS 131: Python Programming for the Sciences COMPFOR/ANTHRBIO 133: Fundamentals of Scientific Computing in R DATASCI 306: Introduction to Statistical Computing EARTH 133: Programming in Earth and Environmental SciencesENGR 101: Introduction to Computers and ProgrammingENGR 151: Accelerated Introduction to Computers and ProgrammingEECS 183: Elementary Programming ConceptsLING 123/COMPFOR 150: The ABCs of PythonPHYSICS 104: Python Programming for Introductory Science CoursesSI 101 - Introduction to Programming with PythonSOC 251/CMPLXSYS 251: Computational Social Sciences Thematic Course Electives: Students should choose 3 courses from any of the thematic areas below for a minimum 9 credits total; at least two courses should be at the 300-level or aboveDomain application courses:ASTRO 361: Astronomical TechniquesASTRO 406: Computational Astrophysics BIOPHYS/BIOLOGY 233: Introduction to Quantitative and Computational BiologyCHEM 462: Computational Chemistry LaboratoryCOGSCI/LING 445: Introduction to Machine Learning for Natural Language ProcessingECON 251: Introduction to Statistics and Econometrics IIECON 452: Intermediate Introduction to Statistics and Econometrics IIFIN 342: Big Data in FinanceLING 441: Introduction to Computational LinguisticsPHYSICS 411: Introduction to Computational PhysicsQMSS 301: Quantitative Social Science Analysis and Big DataInformation, modeling and inference courses:ASTRO 416: Data Science for AstrophysicistsBIOPHYS/CMPLXSYS/MATH/PHYSICS 445: Entropy and Information: Concepts and ApplicationsDATASCI 415: Data Mining and Statistical LearningENVIRON/EARTH 309: GIS Explorations of the Past, Present, and FutureEARTH 468: Data Analysis, Inference, and Estimation Breadth courses:AMCULT/DIGITAL/SI/STS 41... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/computing-for-scientific-discovery-minor.html"
+}

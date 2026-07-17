@@ -1,0 +1,18 @@
+{
+  "id": "lsa-linguistics-minor",
+  "name": "Linguistics Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 15 credits, distributed as followsCore: Two courses chosen from LING 313, 315, and 316:LING 313: Sound Patterns. This course explores two fundamental aspects of sounds in language: speech sounds as physical entities (phonetics) and speech sounds as linguistic units (phonology).LING 315: Introduction to Syntax. This course examines the rule systems whereby words are organized into phrases and phrases into sentences in natural languages.LING 316: Aspects of Meaning. This course introduces students to the study of meaning in language (semantics).Electives: Remaining courses chosen from the following categories:Other Linguistics courses with a LING number at the 300-level or higher, including cross-listed courses. Also, one of LING 209 or 210 may count toward the minor, but not both.Cognate courses, as listed on the Linguistics websiteIndependent Study/Experiential Coursework: independent study and experiential practice courses, as defined here, with a LING number (at most 6 credits total)Transfer and study abroad courses, subject to departmental approval Other Department Policies If a course with Linguistics content is not on the pre-approved cognate list, students may request approval to count it towards the minor.",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/linguistics-minor.html"
+}

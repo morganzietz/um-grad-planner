@@ -1,0 +1,18 @@
+{
+  "id": "lsa-biological-anthropology-minor",
+  "name": "Biological Anthropology Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 16 At least five courses (no fewer than16 credits), to be chosen from the following categories as stated:ANTHRBIO 201.At least four upper-level courses in ANTHRBIO, chosen in consultation with an advisor, one of which must be at the 400-level or above. Biological Anthropology Minor (through Summer 2014) The minor in Biological Anthropology allows students with interests in evolutionary biology or medicine to add an anthropological perspective to their studies. Many students are interested in specific topics covered by Biological Anthropology, such as Human Evolution, the Evolution of Human Behavior, Primatology, Nutrition and Adaptation, Human Genetics, etc. Thus, a minor in biological anthropology offers several \"tracks\" to students depending on their interests. An academic minor in Biological Anthropology is not open to students with any major or any other minor in the department of Anthropology. Effective through Summer 2014 Prerequisites to the Minor None. Academic Minor Program At least five courses (no fewer than16 credits), to be chosen from the following categories as stated: ANTHRBIO 161. At least four upper-level courses in ANTHRBIO, chosen in consultation with an advisor, one of which must be at the 400-level or above. Information for Prospective Students Current Students Faculty and Staff Alumni and Friends More about LSA About LSA How Do I Apply? News LSA Magazine Give Maps Student Resources Courses Academic Advising Majors and Minors Departments and Units Global Studies LSA Opportunity Hub Connect Social Media Update",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/biological-anthropology-minor.html"
+}

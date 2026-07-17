@@ -1,0 +1,18 @@
+{
+  "id": "lsa-public-policy-minor",
+  "name": "Public Policy Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Prerequisites Students apply to the program during their sophomore year and are admitted to the Ford School for their final two years. Before beginning the program, students must have junior standing at the University of Michigan–Ann Arbor, and must complete the following prerequisites:Principles of Economics I (Econ 101)Principles of Economics II (Econ 102)One course from Race and Ethnicity (RE)One introductory social science course, such as Systematic Thinking about Problems of the Day (PUBPOL 201)Click here for the LSA course guideStudents must receive a C- or better in any prerequisite and core courses. Apply online The application involves a series of questions, three short essays, a resume, and a transcript, as described below:Essay #1: Explain how your background, your experiences inside and outside of school, your career aspirations, etc. have led you to apply to pursue a BA in public policy. Why do you think public policy is the right degree program for you? (300 words)Essay #2: The Ford School aims to prepare students to engage respectfully and productively across difference, including differences in background, experiences, perspectives, and ideologies. Research has shown that diverse groups arrive at more innovative and effective solutions to problems. However, interacting across differences can be quite challenging. Please describe and critically analyze an experience in any setting (e.g., a classroom, extracurricular activity, job, volunteering, etc.) in which you had to work across difference and/or experienced difference because of your background, experiences, identity, or ideology. In what specific ways was this challenging? Did you attempt to work through difference and were you successful? Are there things that you wish you or others had done differently in this instance, or that you might do differently in the future when working with people who differ from you? (300 words)Essay #3: Identify a contemporary policy issue that interests you and take a stance on the direction public policy should take. What would be a specific policy solution or way to address the problem and why? For the purposes of this essay, imagine that the audience is familiar with the topic but that you need to defend any assertions you make to be convincing. The admissions committee will evaluate you not on whatever position you take but on how well you can clearly d... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://fordschool.umich.edu/application/ba/process"
+}

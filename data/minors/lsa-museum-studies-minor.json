@@ -1,0 +1,18 @@
+{
+  "id": "lsa-museum-studies-minor",
+  "name": "Museum Studies Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 18 Core Courses: MUSEUMS 301 and 401. MUSEUMS 301 and MUSEUMS 401 provide a theoretical/historical overview of museums as examined through the constructs of institutions, objects and collections, and society as well as an examination of the critical issues confronting museums in the contemporary world.Museum-Based Practicum: MUSEUMS 409 (Practicum in Museums) will be available to students who have declared the minor in Museum Studies. MUSEUMS 409 establishes a critical bridge between theory and practice and - through the use of mentoring, class discussion, and engagement with the principles of reflective practice -- will assure that students draw the most from this experiential requirement. Based on the premise that theoretical grounding is necessary for a successful practicum experience, students will not be allowed to seek MUSEUMS 409 credit for museum-based practical experiences undertaken before completing MUSEUMS 301. Students interested in acquiring additional museum experience may repeat MUSEUMS 409 for a total of six credits. In such instances the second three credits may replace one of the required three elective courses.Electives: Three elective courses chosen in consultation with, and approved by, the museum studies faculty advisor. These courses are selected from designated 300- and 400-level courses in the three thematic areas (institutions, objects and collections, and society)of the program. Students must elect one course from at least two of the three areas.InstitutionsObjects & CollectionsSocietyA complete list of current electives can be found on the Museum Studies website.The electives offer students the opportunity to take courses to further their knowledge of institutions, objects and collections, and society in many departments in the university. Those students selecting courses not directly focused on the museum will have the opportunity to make critical ties back to the field through the completion of mentored writing assignments. To receive elective credit for a course that is not explicitly museum-focused, upon receiving prior approval a student will be required to write a brief (5-page) rationale paper that addresses the relationship between the content of the course and issues considered in the two museum studies core courses, MUSEUMS 301 and 401. The academic staff of the Museum Studies Program will... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/museum-studies-minor.html"
+}

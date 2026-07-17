@@ -1,0 +1,18 @@
+{
+  "id": "lsa-portuguese-minor",
+  "name": "Portuguese Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 18 A minimum of 18 credits beyond PORTUG 232. PORTUG 287: Advanced Portuguese Conversation and Composition is required. Constraints Students pursuing the minor in Portuguese may petition to have up to three courses (no more than 9 credits) from other units (for example, History, Afro-American and African Studies, as well as Latin American and Caribbean Studies), taught in English, which have a Brazilian, Lusophone African, and/or Portuguese focus to count for the minor. Courses from outside the PORTUG subject be approved in advance by a Portuguese advisor in the department of Romance Languages & Literatures.",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/portuguese-minor.html"
+}

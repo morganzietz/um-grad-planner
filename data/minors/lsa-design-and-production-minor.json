@@ -1,0 +1,18 @@
+{
+  "id": "lsa-design-and-production-minor",
+  "name": "Theatre Design and Production Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements text not yet loaded. See the sponsoring department for the authoritative list.",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://smtd.umich.edu/degree/minor-in-design-production/"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lsa-biophysics-minor",
+  "name": "Biophysics Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 The minor requires at least 15 credits from the following courses:PHYSICS 340 or CHEM 210BIOLOGY 305 or MCDB 310 or CHEM 351BIOPHYS 370 or 417, or PHYSICS 370 or 417, or CHEM 370 or 417BIOPHYS 290 or 430 or 440, or PHYSICS 290 or 430, or CHEM 440BIOPHYS 450 or PHYSICS 450Students wishing to pursue this option are strongly encouraged to talk to an advisor because the LSA rules for double-counting courses towards a major and minor apply. Biophysics Minor (Fall 2011-Fall 2015) Effective Fall 2011-Fall 2015 Not open to those electing a major in the Program in Biophysics The minor in biophysics is designed to give students in the natural sciences exposure and skills in quantitative, interdisciplinary work in the biophysical sciences. Prerequisites to the Minor None for the minor per se, although individual courses elected to meet the requirements of the minor may have course prerequisites. Requirements for the Minor The minor requires at least 15 credits from the following courses: PHYSICS 340/341 or CHEM 210/211 BIOLOGY 305 or MCDB (BIOLOGY) 310 or CHEM 451 (or BIOLCHEM 451) BIOPHYS 290 or 430 or 440 BIOPHYS 370 or 417. Students wishing to pursue this option are strongly encouraged to talk to an advisor because the LSA rules for double-counting courses towards a major and minor apply. Information for Prospective Students Current Students Faculty and Staff Alumni and Friends More about LSA About LSA How Do I Apply? News LSA Magazine Give Maps Student Resources Courses Academic Advising Majors and Minors Departments and Units Global Studies LSA Opportunity Hub Connect Social Media Update",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/biophysics-minor.html"
+}

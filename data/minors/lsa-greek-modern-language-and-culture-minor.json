@@ -1,0 +1,18 @@
+{
+  "id": "lsa-greek-modern-language-and-culture-minor",
+  "name": "Greek (Modern) Language and Culture Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 16 Modern Greek Language and Literature: at least two courses in modern Greek language and literature, above GREEKMOD 201.Modern Greek culture: at least one broad introductory course. (GREEKMOD 302 can be used for this requirement if not used for the language and literature requirement)Upper-Level courses: at least two upper-level (300- or 400-level) courses in modern Greek diaspora and travel.Substitutions: Any appropriate course taught in the area of Modern Greek Studies in departments other than Classical Studies must be approved by the program advisor and the Chair in Modern Greek. Greek (Modern) Language and Culture (Minor) (Winter 2016 - Summer 2024) Effective Winter 2016 Exclusions: The minor in Greek (Modern) Language and Culture is not open to students with a major in Greek (Modern) Language and Culture or any other minor in the Department of Classical Studies. Advising Students wishing to pursue a minor in Classical Studies must develop a specific plan for its completion in consultation with the Department's designated advisor . Appointments may be scheduled at 2160 Angell Hall. Grade Policies The department requires that a student earn a grade of at least C– in all language courses which are prerequisite for subsequent elections. A student should repeat any language course in which a D+ or lower grade is earned and which serves as a prerequisite to other courses which are to be elected. A grade of D+ signifies some achievement but denotes too weak a foundation for subsequent courses. Prerequisites GREEKMOD 201 (or MODGREEK 201), or equivalent as determined by departmental placement examination. Requirements Minimum Credits: 16 Modern Greek Language and Literature: at least two courses in modern Greek language and literature, above GREEKMOD 201 (MODGREEK 201).Modern Greek culture: at least one broad introductory course. (GREEKMOD 302 (MODGREEK 302) can be used for this requirement if not used for the language and literature requirement)Upper-Level courses: at least two upper-level (300- or 400-level) courses in modern Greek diaspora and travel.Substitutions: Any appropriate course taught in the area of Modern Greek Studies in departments other than Classical Studies must be approved by the program advisor and the Chair in Modern Greek. Greek (Modern) Language and Culture Minor (Winter 2015-Fall 2015) Effective Winter 2... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/greek-modern-language-and-culture-minor.html"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lsa-energy-and-science-policy-minor",
+  "name": "Energy Science and Policy Minor Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 This minor requires no fewer than five courses for a total of at least 15 credits, with at least two courses at the 300-level or above.Introductory Course (one course; 3 credits minimum) – students take one, or both, of the following courses that will provide a sound introductory scientific orientation that is fundamental to understanding the basic concepts of energy: BIOLOGY 101: Food, Energy, and Environmental JusticeENVIRON 250 / CMPLXSYS 250 / PUBPOL 250: Social Systems, Energy, and PolicyPHYSICS 210: Energy for the FutureTopics Courses: (four courses, and a minimum 12 credits, with at least two courses at the 300-level or above). Students must take at least two courses representing approaches outside of or different from that of their area of concentration (e.g., humanists will have to take two topics courses from outside the humanities).Selecttwo courses from the Energy Economics & Policy grouptwo courses from the Energy Production, Extraction & Technology groupOR selecttwo courses from one of the above categoriesone course from the other of the above categoriesone Breadth courseEnergy Economics & PolicyARCH 357 / UP 357: Architecture, Sustainability and the City: Ideas, Forces and People Shaping the Built Environment.CEE 307 / ENVIRON 407: Sustainable Cities.CEE 588: Sustainability Finance: Investment Models for Green Growth.EAS 527: Energy Markets and Energy Politics.EAS 574: Sustainable Energy Systems.ECON 370 / ENVIRON 375: Environmental and Resource Economics.ECON 437: Energy Economics and Policy.EHS 588 / ENVIRON 475 / NRE 475: Environmental Law.ENVIRON 235: Environmental Economics, Policy, and Justice.ENVIRON 312 / POLSCI 380 / PUBPOL 312: Environmental Politics and Policy.ENVIRON 375 / ECON 370: Environmental and Resource Economics.ENVIRON 380: Natural Resources, Economics, and the Environment.ENVIRON 407 / CEE 307: Sustainable Cities.ENVIRON 475 / NRE 475 / EHS 588: Environmental Law.GEOG 472 / UP 572: Transportation and Land-Use Planning.INTLSTD 401: International Studies Advanced Seminar, section titled “Politics of Energy in the Developing World.”NRE 475 / ENVIRON 475 / EHS 588: Environmental Law.POLSCI 380 / ENVIRON 312 / PUBPOL 312: Environmental Politics and Policy.POLSCI 389: Topics in Contemporary Political Science, section titled “Energy Politics”.POLSCI 497: Undergraduate Seminar in Comparative and Fo... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/energy-science-and-policy-minor.html"
+}

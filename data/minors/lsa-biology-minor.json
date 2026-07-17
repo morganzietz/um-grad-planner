@@ -1,0 +1,18 @@
+{
+  "id": "lsa-biology-minor",
+  "name": "Biology Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 Five courses totaling at least 15 credits, distributed as follows:Core CoursesSelect at least two of the four courses listed. (Courses with an asterisk (*) may overlap with the lab requirement.)Ecology: BIOLOGY 281 or 282 or EEB 381*Genetics: BIOLOGY 305Biochemistry: Choose from: MCDB 310, BIOLCHEM 415, or CHEM 351Evolution: EEB 390, 391, or 392*Lab or Field Course(This requirement may OVERLAP with other minor reqs.):Choose one laboratory or field course in BIOLOGY, EEB, or MCDB from the following: BIOLOGY 202, 207, 226, 230, 252, 255, 288; EEB 300*, 313, 320, 321, 330, 341, 348, 372, 373, 381, 391, 392, 400*, 405, 416, 429, 431, 433, 436, 441, 443, 447, 450, 451, 453, 455, 457, 468, 477, 482, 483, 486, 489, 493, 496, 556; MCDB 300*, 306, 308, 400*, 416, 419, 423, 424, 429.*EEB/MCDB 300 or 400 (Independent Research), elected for a minimum of 3 credits in a single term, may be used to fulfill a lab requirement. Upper-Level Elective(May overlap with the lab requirement.):Choose one course in EEB or MCDB at the 300- or 400- levelExclusions: EEB/MCDB 301, EEB/MCDB 302, EEB/MCDB 399, EEB/MCDB 499, MCDB 412, MCDB 461, and non-specific (departmental) transfer courses are EXCLUDED.EEB/MCDB 300 or 400 (Independent Research), elected for a minimum of 3 credits in a single term, may be used to fulfill this requirement. (3 credit max. applies; see CONSTRAINTS below.)Additional Course(s)Choose additional BIOLOGY, EEB, and MCDB courses at the 200-, 300-, or 400-level, to reach 15 minor credit hours. Exclusions: BIOLOGY 241, BIOLOGY 299, EEB/MCDB 301, EEB/MCDB 302, MCDB 412, and non-specific (departmental) transfer courses are EXCLUDED. Constraints Prerequisites, introductory science courses, and non-specific (departmental) transfer courses are EXCLUDED from the 15 cr. required for the minor.A maximum of three credits of independent research (BIOLOGY 200, EEB/MCDB 300 or 400) may be counted toward the minor. Biology (Minor) (Winter 2023 - Summer 2025) Effective Winter 2023 Exclusions: Students who elect a minor in Biology may not elect the following majors: Biology; Biology, Health, and Society (formerly known as General Biology); Plant Biology' Ecology and Evolutionary Biology; Ecology, Evolution, & Biodiversity; Cellular and Molecular Biomedical Science (formerly known as CMB:BME); Microbiology; Molecular, Cellular, and Developmental Biol... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/biology-minor.html"
+}

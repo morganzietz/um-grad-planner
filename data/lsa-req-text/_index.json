@@ -1,0 +1,1472 @@
+[
+  {
+    "slug": "actuarial_mathematics-sub",
+    "title": "Mathematics Major | U-M LSA U-M College of LSA",
+    "reqLen": 1083,
+    "fullLen": 166807,
+    "hasReqSection": true
+  },
+  {
+    "slug": "afroamerican_and_african_studies-maj",
+    "title": "Afroamerican and African Studies Major | U-M LSA U-M College of LSA",
+    "reqLen": 1495,
+    "fullLen": 28143,
+    "hasReqSection": true
+  },
+  {
+    "slug": "afroamerican_and_african_studies-min",
+    "title": "Afroamerican and African Studies Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 11484,
+    "hasReqSection": true
+  },
+  {
+    "slug": "american_culture-maj",
+    "title": "American Culture Major | U-M LSA U-M College of LSA",
+    "reqLen": 4651,
+    "fullLen": 13020,
+    "hasReqSection": true
+  },
+  {
+    "slug": "american_culture-min",
+    "title": "American Culture Minor | U-M LSA U-M College of LSA",
+    "reqLen": 695,
+    "fullLen": 4005,
+    "hasReqSection": true
+  },
+  {
+    "slug": "anthropology-maj",
+    "title": "Anthropology Major | U-M LSA U-M College of LSA",
+    "reqLen": 887,
+    "fullLen": 51924,
+    "hasReqSection": true
+  },
+  {
+    "slug": "anthropology-min",
+    "title": "Anthropology Minor | U-M LSA U-M College of LSA",
+    "reqLen": 1536,
+    "fullLen": 5287,
+    "hasReqSection": true
+  },
+  {
+    "slug": "arab_and_muslim_american_studies-min",
+    "title": "Arab and Muslim American Studies Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 12199,
+    "hasReqSection": true
+  },
+  {
+    "slug": "arabic_studies-min",
+    "title": "Arabic Studies Minor | U-M LSA U-M College of LSA",
+    "reqLen": 1604,
+    "fullLen": 5153,
+    "hasReqSection": true
+  },
+  {
+    "slug": "archaeology-sub",
+    "title": "Archaeology submajor | U-M LSA U-M College of LSA",
+    "reqLen": 887,
+    "fullLen": 43626,
+    "hasReqSection": true
+  },
+  {
+    "slug": "archaeology_of_the_ancient_mediterranean-maj",
+    "title": "Archaeology of the Ancient Mediterranean Major | U-M LSA U-M College of LSA",
+    "reqLen": 1514,
+    "fullLen": 24001,
+    "hasReqSection": true
+  },
+  {
+    "slug": "archaeology_of_the_ancient_mediterranean-min",
+    "title": "Archaeology of the Ancient Mediterranean Minor | U-M LSA U-M College of LSA",
+    "reqLen": 5647,
+    "fullLen": 10018,
+    "hasReqSection": true
+  },
+  {
+    "slug": "architecture-min",
+    "title": "Architecture Minor - Taubman College",
+    "reqLen": 6000,
+    "fullLen": 7786,
+    "hasReqSection": true
+  },
+  {
+    "slug": "art_and_design-min",
+    "title": "Minor in Art & Design | U-M Stamps",
+    "reqLen": 3594,
+    "fullLen": 7758,
+    "hasReqSection": true
+  },
+  {
+    "slug": "arts_and_ideas_in_the_humanities-maj",
+    "title": "Arts & Ideas in the Humanities Major | U-M LSA U-M College of LSA",
+    "reqLen": 4521,
+    "fullLen": 27174,
+    "hasReqSection": true
+  },
+  {
+    "slug": "asian_languages_and_cultures-min",
+    "title": "Asian Languages and Cultures Minor | U-M LSA U-M College of LSA",
+    "reqLen": 617,
+    "fullLen": 6909,
+    "hasReqSection": true
+  },
+  {
+    "slug": "asian_pacific_islander_american_studies-min",
+    "title": "Asian & Pacific Islander American Studies Minor | U-M LSA U-M College of LSA",
+    "reqLen": 3745,
+    "fullLen": 6888,
+    "hasReqSection": true
+  },
+  {
+    "slug": "asian_studies-maj",
+    "title": "Asian Studies Major | U-M LSA U-M College of LSA",
+    "reqLen": 1878,
+    "fullLen": 27976,
+    "hasReqSection": true
+  },
+  {
+    "slug": "asian_studies-min",
+    "title": "Asian Studies Minor | U-M LSA U-M College of LSA",
+    "reqLen": 553,
+    "fullLen": 5587,
+    "hasReqSection": true
+  },
+  {
+    "slug": "astronomy_and_astrophysics-maj",
+    "title": "Astronomy and Astrophysics Major | U-M LSA U-M College of LSA",
+    "reqLen": 341,
+    "fullLen": 16395,
+    "hasReqSection": true
+  },
+  {
+    "slug": "astronomy_and_astrophysics-min",
+    "title": "Astronomy and Astrophysics Minor | U-M LSA U-M College of LSA",
+    "reqLen": 4053,
+    "fullLen": 7446,
+    "hasReqSection": true
+  },
+  {
+    "slug": "biochemistry-min",
+    "title": "Biochemistry Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 15298,
+    "hasReqSection": true
+  },
+  {
+    "slug": "biochemistry_bs-maj",
+    "title": "Biochemistry Major | U-M LSA U-M College of LSA",
+    "reqLen": 2648,
+    "fullLen": 61985,
+    "hasReqSection": true
+  },
+  {
+    "slug": "biological_anthropology-min",
+    "title": "Biological Anthropology Minor | U-M LSA U-M College of LSA",
+    "reqLen": 1586,
+    "fullLen": 5390,
+    "hasReqSection": true
+  },
+  {
+    "slug": "biology-maj",
+    "title": "Biology Major | U-M LSA U-M College of LSA",
+    "reqLen": 2979,
+    "fullLen": 60845,
+    "hasReqSection": true
+  },
+  {
+    "slug": "biology-min",
+    "title": "Biology Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 24577,
+    "hasReqSection": true
+  },
+  {
+    "slug": "biomolecular_science_ab_or_bs-maj",
+    "title": "Biomolecular Science Major | U-M LSA U-M College of LSA",
+    "reqLen": 741,
+    "fullLen": 42238,
+    "hasReqSection": true
+  },
+  {
+    "slug": "biophyschology_cognition_and_neuroscience_bcn-maj",
+    "title": "Biopsychology, Cognition, and Neuroscience (BCN) Major | U-M LSA U-M College of LSA",
+    "reqLen": 1465,
+    "fullLen": 64130,
+    "hasReqSection": true
+  },
+  {
+    "slug": "biophysics-min",
+    "title": "Biophysics Minor | U-M LSA U-M College of LSA",
+    "reqLen": 1641,
+    "fullLen": 4885,
+    "hasReqSection": true
+  },
+  {
+    "slug": "biophysics_bs-maj",
+    "title": "Biophysics Major | U-M LSA U-M College of LSA",
+    "reqLen": 2998,
+    "fullLen": 51601,
+    "hasReqSection": true
+  },
+  {
+    "slug": "biotechnology-and-bioenvironmental-sciences-maj",
+    "title": "Biotechnology and Bioenvironmental Sciences Major | U-M LSA U-M College of LSA",
+    "reqLen": 2677,
+    "fullLen": 10783,
+    "hasReqSection": true
+  },
+  {
+    "slug": "bosnian_croatian_serbian_literature_and_culture-min",
+    "title": "Bosnian, Croatian, Serbian Literature and Culture Minor | U-M LSA U-M College of LSA",
+    "reqLen": 2155,
+    "fullLen": 5911,
+    "hasReqSection": true
+  },
+  {
+    "slug": "business-min",
+    "title": "Business Minor Curriculum | Michigan Ross",
+    "reqLen": 0,
+    "fullLen": 9025,
+    "hasReqSection": false
+  },
+  {
+    "slug": "cell_and_molecular_biology-maj",
+    "title": "Molecular, Cellular, and Developmental Biology Major | U-M LSA U-M College of LSA",
+    "reqLen": 1695,
+    "fullLen": 58211,
+    "hasReqSection": true
+  },
+  {
+    "slug": "cell_and_molecular_biology_and_biomedical_engineering-maj",
+    "title": "Cellular and Molecular Biomedical Science Major | U-M LSA U-M College of LSA",
+    "reqLen": 2020,
+    "fullLen": 56784,
+    "hasReqSection": true
+  },
+  {
+    "slug": "chemistry-maj",
+    "title": "Chemistry Major | U-M LSA U-M College of LSA",
+    "reqLen": 833,
+    "fullLen": 10780,
+    "hasReqSection": true
+  },
+  {
+    "slug": "chemistry-min",
+    "title": "Chemistry Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 13843,
+    "hasReqSection": true
+  },
+  {
+    "slug": "civil_engineering-min",
+    "title": "Minor in Civil Engineering - Civil and Environmental Engineering",
+    "reqLen": 153,
+    "fullLen": 2075,
+    "hasReqSection": true
+  },
+  {
+    "slug": "classical_civilization-maj",
+    "title": "Classical Civilization Major | U-M LSA U-M College of LSA",
+    "reqLen": 2933,
+    "fullLen": 40059,
+    "hasReqSection": true
+  },
+  {
+    "slug": "classical_civilization-min",
+    "title": "Classical Civilization Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 15576,
+    "hasReqSection": true
+  },
+  {
+    "slug": "classical_languages-min",
+    "title": "Classical Languages | U-M LSA U-M College of LSA",
+    "reqLen": 1786,
+    "fullLen": 6619,
+    "hasReqSection": true
+  },
+  {
+    "slug": "classical_languages_and_literatures-maj",
+    "title": "Classical Languages and Literatures Major | U-M LSA U-M College of LSA",
+    "reqLen": 861,
+    "fullLen": 33101,
+    "hasReqSection": true
+  },
+  {
+    "slug": "climate_and_space_sciences_and_engineering-min",
+    "title": "Climate and Space Sciences and Engineering Minor - Climate and Space Sciences and Engineering",
+    "reqLen": 0,
+    "fullLen": 4181,
+    "hasReqSection": false
+  },
+  {
+    "slug": "cognitive_science-maj",
+    "title": "Cognitive Science Major | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 162889,
+    "hasReqSection": true
+  },
+  {
+    "slug": "communication_studies-maj",
+    "title": "Communication and Media Major | U-M LSA U-M College of LSA",
+    "reqLen": 1881,
+    "fullLen": 51369,
+    "hasReqSection": true
+  },
+  {
+    "slug": "community_action_and_social_change-min",
+    "title": "Declarations & Course Requirements | University of Michigan School of Social Work",
+    "reqLen": 0,
+    "fullLen": 3111,
+    "hasReqSection": false
+  },
+  {
+    "slug": "comparative_culture_and_identity_cci-sub",
+    "title": "International Studies Major | U-M LSA U-M College of LSA",
+    "reqLen": 1403,
+    "fullLen": 379576,
+    "hasReqSection": true
+  },
+  {
+    "slug": "comparative_literature_arts_and_media-maj",
+    "title": "Comparative Literature, Arts, and Media | U-M LSA U-M College of LSA",
+    "reqLen": 1018,
+    "fullLen": 12780,
+    "hasReqSection": true
+  },
+  {
+    "slug": "complex_systems-min",
+    "title": "Complex Systems Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 18796,
+    "hasReqSection": true
+  },
+  {
+    "slug": "computer_science-maj",
+    "title": "Computer Science Major | U-M LSA U-M College of LSA",
+    "reqLen": 1820,
+    "fullLen": 17632,
+    "hasReqSection": true
+  },
+  {
+    "slug": "computer_science-min",
+    "title": "Computer Science Minor | U-M LSA U-M College of LSA",
+    "reqLen": 4798,
+    "fullLen": 8226,
+    "hasReqSection": true
+  },
+  {
+    "slug": "computing_for_expression-min",
+    "title": "Computing for Expression | U-M LSA U-M College of LSA",
+    "reqLen": 1966,
+    "fullLen": 11029,
+    "hasReqSection": true
+  },
+  {
+    "slug": "computing_for_scientific_discovery-min",
+    "title": "Computing for Scientific Discovery | U-M LSA U-M College of LSA",
+    "reqLen": 2786,
+    "fullLen": 18883,
+    "hasReqSection": true
+  },
+  {
+    "slug": "creative_writing-min",
+    "title": "Creative Writing Minor | U-M LSA U-M College of LSA",
+    "reqLen": 2059,
+    "fullLen": 16135,
+    "hasReqSection": true
+  },
+  {
+    "slug": "creative_writing_and_literature-maj",
+    "title": "Creative Writing & Literature Major | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 32238,
+    "hasReqSection": true
+  },
+  {
+    "slug": "crime_and_justice-min",
+    "title": "Crime and Justice Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 24264,
+    "hasReqSection": true
+  },
+  {
+    "slug": "culture_and_media-sub",
+    "title": "Culture and Media submajor | U-M LSA U-M College of LSA",
+    "reqLen": 887,
+    "fullLen": 43644,
+    "hasReqSection": true
+  },
+  {
+    "slug": "cultures_and_literatures_of_eastern_europe-min",
+    "title": "Cultures and Literatures of Eastern Europe Minor | U-M LSA U-M College of LSA",
+    "reqLen": 3719,
+    "fullLen": 7564,
+    "hasReqSection": true
+  },
+  {
+    "slug": "czech_language_literature_and_culture-min",
+    "title": "Czech Language, Literature, and Culture Minor | U-M LSA U-M College of LSA",
+    "reqLen": 1327,
+    "fullLen": 5118,
+    "hasReqSection": true
+  },
+  {
+    "slug": "dance-min",
+    "title": "Department of Dance - University of Michigan School of Music, Theatre & Dance",
+    "reqLen": 0,
+    "fullLen": 5549,
+    "hasReqSection": false
+  },
+  {
+    "slug": "data_science-maj",
+    "title": "Data Science Major | U-M LSA U-M College of LSA",
+    "reqLen": 3009,
+    "fullLen": 47750,
+    "hasReqSection": true
+  },
+  {
+    "slug": "data_science-min",
+    "title": "Data Science Minor | U-M LSA U-M College of LSA",
+    "reqLen": 3761,
+    "fullLen": 18071,
+    "hasReqSection": true
+  },
+  {
+    "slug": "design_and_production-min",
+    "title": "Minor in Theatre Design & Production - University of Michigan School of Music, Theatre & Dance",
+    "reqLen": 0,
+    "fullLen": 3520,
+    "hasReqSection": false
+  },
+  {
+    "slug": "digital_studies-min",
+    "title": "Digital Studies Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 15791,
+    "hasReqSection": true
+  },
+  {
+    "slug": "disability-studies-min",
+    "title": "Disability Studies | U-M LSA U-M College of LSA",
+    "reqLen": 342,
+    "fullLen": 4376,
+    "hasReqSection": true
+  },
+  {
+    "slug": "drama-maj",
+    "title": "Drama Major | U-M LSA U-M College of LSA",
+    "reqLen": 2219,
+    "fullLen": 12319,
+    "hasReqSection": true
+  },
+  {
+    "slug": "drama-min",
+    "title": "Drama Minor | U-M LSA U-M College of LSA",
+    "reqLen": 5941,
+    "fullLen": 9081,
+    "hasReqSection": true
+  },
+  {
+    "slug": "dutch_language_and_culture-min",
+    "title": "Dutch Language and Culture | U-M LSA U-M College of LSA",
+    "reqLen": 1641,
+    "fullLen": 4672,
+    "hasReqSection": true
+  },
+  {
+    "slug": "earth_and_environmental_sciences-maj",
+    "title": "Earth and Environmental Sciences Major | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 150792,
+    "hasReqSection": true
+  },
+  {
+    "slug": "earth_sciences-min",
+    "title": "Earth Sciences Minor | U-M LSA U-M College of LSA",
+    "reqLen": 3184,
+    "fullLen": 6403,
+    "hasReqSection": true
+  },
+  {
+    "slug": "east_european_studies-min",
+    "title": "East European and Eurasian Studies Minor | U-M LSA U-M College of LSA",
+    "reqLen": 4721,
+    "fullLen": 8052,
+    "hasReqSection": true
+  },
+  {
+    "slug": "ecology_and_evolutionary_biology-min",
+    "title": "Ecology and Evolutionary Biology Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 21527,
+    "hasReqSection": true
+  },
+  {
+    "slug": "ecology_and_evolutionary_biology_eeb-maj",
+    "title": "Ecology, Evolution, and Biodiversity Major | U-M LSA U-M College of LSA",
+    "reqLen": 2614,
+    "fullLen": 80583,
+    "hasReqSection": true
+  },
+  {
+    "slug": "economics-maj",
+    "title": "Economics Major | U-M LSA U-M College of LSA",
+    "reqLen": 3093,
+    "fullLen": 82186,
+    "hasReqSection": true
+  },
+  {
+    "slug": "economics-min",
+    "title": "Economics Minor | U-M LSA U-M College of LSA",
+    "reqLen": 2237,
+    "fullLen": 22854,
+    "hasReqSection": true
+  },
+  {
+    "slug": "education_for_empowerment-min",
+    "title": "Education for Empowerment | University of Michigan Marsal Family School of Education(link is external)(link is external)(link is external)(link is external)(link is external)(link is external)(link is external)(link is external)(link is external)(link is external)(link is external)",
+    "reqLen": 0,
+    "fullLen": 6581,
+    "hasReqSection": false
+  },
+  {
+    "slug": "electrical_engineering-min",
+    "title": "Electrical Engineering and Computer Science at the University of Michigan",
+    "reqLen": 0,
+    "fullLen": 4092,
+    "hasReqSection": false
+  },
+  {
+    "slug": "energy_and_science_policy-min",
+    "title": "Energy Science and Policy Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 15404,
+    "hasReqSection": true
+  },
+  {
+    "slug": "english-maj",
+    "title": "English Major | U-M LSA U-M College of LSA",
+    "reqLen": 4641,
+    "fullLen": 74937,
+    "hasReqSection": true
+  },
+  {
+    "slug": "english-min",
+    "title": "English Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 12706,
+    "hasReqSection": true
+  },
+  {
+    "slug": "entrepreneurship-min",
+    "title": "Requirements | Entrepreneurship Minor",
+    "reqLen": 0,
+    "fullLen": 4248,
+    "hasReqSection": false
+  },
+  {
+    "slug": "environment-maj",
+    "title": "The Environment Major | U-M LSA U-M College of LSA",
+    "reqLen": 3169,
+    "fullLen": 39415,
+    "hasReqSection": true
+  },
+  {
+    "slug": "environment-min",
+    "title": "The Environment Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 16516,
+    "hasReqSection": true
+  },
+  {
+    "slug": "environment_and_conservation-sub",
+    "title": "Environment and Conservation submajor | U-M LSA U-M College of LSA",
+    "reqLen": 887,
+    "fullLen": 43677,
+    "hasReqSection": true
+  },
+  {
+    "slug": "environmental_justice-min",
+    "title": "Environmental Justice Minor | U-M LSA U-M College of LSA",
+    "reqLen": 714,
+    "fullLen": 4780,
+    "hasReqSection": true
+  },
+  {
+    "slug": "epistemology_and_philosophy_of_science-min",
+    "title": "Epistemology and Philosophy of Science | U-M LSA U-M College of LSA",
+    "reqLen": 757,
+    "fullLen": 6399,
+    "hasReqSection": true
+  },
+  {
+    "slug": "ethnic_studies-sub",
+    "title": "Ethnic Studies Sub | U-M LSA U-M College of LSA",
+    "reqLen": 4651,
+    "fullLen": 9857,
+    "hasReqSection": true
+  },
+  {
+    "slug": "food_and_the_environment-min",
+    "title": "Food and the Environment Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 21134,
+    "hasReqSection": true
+  },
+  {
+    "slug": "french_and_francophone_studies-maj",
+    "title": "French and Francophone Studies Major | U-M LSA U-M College of LSA",
+    "reqLen": 1554,
+    "fullLen": 51694,
+    "hasReqSection": true
+  },
+  {
+    "slug": "french_and_francophone_studies-min",
+    "title": "French and Francophone Studies Minor | U-M LSA U-M College of LSA",
+    "reqLen": 1312,
+    "fullLen": 19642,
+    "hasReqSection": true
+  },
+  {
+    "slug": "gender_and_health-maj",
+    "title": "Gender and Health Major | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 64051,
+    "hasReqSection": true
+  },
+  {
+    "slug": "gender_and_health-min",
+    "title": "Gender and Health Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 32705,
+    "hasReqSection": true
+  },
+  {
+    "slug": "gender_race_and_nation-min",
+    "title": "Gender, Race, and Nation Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 17375,
+    "hasReqSection": true
+  },
+  {
+    "slug": "general_biology-maj",
+    "title": "Biology, Health, and Society Major | U-M LSA U-M College of LSA",
+    "reqLen": 3486,
+    "fullLen": 91312,
+    "hasReqSection": true
+  },
+  {
+    "slug": "general_philosophy-min",
+    "title": "Philosophy | U-M LSA U-M College of LSA",
+    "reqLen": 861,
+    "fullLen": 7629,
+    "hasReqSection": true
+  },
+  {
+    "slug": "general_studies-maj",
+    "title": "Bachelor in General Studies | U-M LSA Newnan Advising Center",
+    "reqLen": 1886,
+    "fullLen": 13226,
+    "hasReqSection": true
+  },
+  {
+    "slug": "geology-min",
+    "title": "Geology Minor | U-M LSA U-M College of LSA",
+    "reqLen": 685,
+    "fullLen": 3696,
+    "hasReqSection": true
+  },
+  {
+    "slug": "geospatial_science-min",
+    "title": "Geospatial Science | U-M LSA U-M College of LSA",
+    "reqLen": 645,
+    "fullLen": 6787,
+    "hasReqSection": true
+  },
+  {
+    "slug": "german-maj",
+    "title": "German Major | U-M LSA U-M College of LSA",
+    "reqLen": 1584,
+    "fullLen": 11128,
+    "hasReqSection": true
+  },
+  {
+    "slug": "german_studies-min",
+    "title": "German Studies Minor | U-M LSA U-M College of LSA",
+    "reqLen": 3940,
+    "fullLen": 7311,
+    "hasReqSection": true
+  },
+  {
+    "slug": "global_environment_and_health_geh-sub",
+    "title": "International Studies Major | U-M LSA U-M College of LSA",
+    "reqLen": 1403,
+    "fullLen": 379576,
+    "hasReqSection": true
+  },
+  {
+    "slug": "global_history-min",
+    "title": "Global History Minor | U-M LSA U-M College of LSA",
+    "reqLen": 870,
+    "fullLen": 41982,
+    "hasReqSection": true
+  },
+  {
+    "slug": "global_media_studies-min",
+    "title": "Global Media Studies Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 15564,
+    "hasReqSection": true
+  },
+  {
+    "slug": "global_theatre_and_ethnic_studies-min",
+    "title": "Minors & Certificates - University of Michigan School of Music, Theatre & Dance",
+    "reqLen": 6000,
+    "fullLen": 24990,
+    "hasReqSection": true
+  },
+  {
+    "slug": "greek_ancient_language_and_literature-maj",
+    "title": "Greek (Ancient) Language and Literature Major | U-M LSA U-M College of LSA",
+    "reqLen": 527,
+    "fullLen": 23082,
+    "hasReqSection": true
+  },
+  {
+    "slug": "greek_modern_language_and_culture-maj",
+    "title": "Greek (Modern) Language and Culture Major | U-M LSA U-M College of LSA",
+    "reqLen": 572,
+    "fullLen": 20303,
+    "hasReqSection": true
+  },
+  {
+    "slug": "greek_modern_language_and_culture-min",
+    "title": "Greek (Modern) Language and Culture Minor | U-M LSA U-M College of LSA",
+    "reqLen": 5795,
+    "fullLen": 9555,
+    "hasReqSection": true
+  },
+  {
+    "slug": "health-and-society-sub",
+    "title": "Sociology Major | U-M LSA U-M College of LSA",
+    "reqLen": 1901,
+    "fullLen": 86767,
+    "hasReqSection": true
+  },
+  {
+    "slug": "history-maj",
+    "title": "History Major | U-M LSA U-M College of LSA",
+    "reqLen": 4274,
+    "fullLen": 36758,
+    "hasReqSection": true
+  },
+  {
+    "slug": "history-min",
+    "title": "History Minor | U-M LSA U-M College of LSA",
+    "reqLen": 693,
+    "fullLen": 10621,
+    "hasReqSection": true
+  },
+  {
+    "slug": "history_of_art-maj",
+    "title": "History of Art Major | U-M LSA U-M College of LSA",
+    "reqLen": 1763,
+    "fullLen": 23582,
+    "hasReqSection": true
+  },
+  {
+    "slug": "history_of_art-min",
+    "title": "History of Art Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 10578,
+    "hasReqSection": true
+  },
+  {
+    "slug": "history_of_law_and_policy-min",
+    "title": "History of Law and Policy Minor | U-M LSA U-M College of LSA",
+    "reqLen": 1577,
+    "fullLen": 34693,
+    "hasReqSection": true
+  },
+  {
+    "slug": "history_of_medicine_and_health-min",
+    "title": "History of Medicine and Health Minor | U-M LSA U-M College of LSA",
+    "reqLen": 1802,
+    "fullLen": 22973,
+    "hasReqSection": true
+  },
+  {
+    "slug": "honors_mathematics-sub",
+    "title": "Mathematics Major | U-M LSA U-M College of LSA",
+    "reqLen": 1083,
+    "fullLen": 166807,
+    "hasReqSection": true
+  },
+  {
+    "slug": "human_anatomy_and_physiology-min",
+    "title": "Human Anatomy and Physiology | U-M LSA U-M College of LSA",
+    "reqLen": 869,
+    "fullLen": 6157,
+    "hasReqSection": true
+  },
+  {
+    "slug": "human_origins_biology_and_behavior-maj",
+    "title": "Human Origins, Biology, and Behavior Major | U-M LSA U-M College of LSA",
+    "reqLen": 1966,
+    "fullLen": 13449,
+    "hasReqSection": true
+  },
+  {
+    "slug": "interdisciplinary_astronomy-min",
+    "title": "Interdisciplinary Astronomy Minor | U-M LSA U-M College of LSA",
+    "reqLen": 2229,
+    "fullLen": 5213,
+    "hasReqSection": true
+  },
+  {
+    "slug": "interdisciplinary_astronomy_ba_or_bs-maj",
+    "title": "Interdisciplinary Astronomy Major | U-M LSA U-M College of LSA",
+    "reqLen": 341,
+    "fullLen": 14864,
+    "hasReqSection": true
+  },
+  {
+    "slug": "interdisciplinary_chemical_sciences_ics_ab_or_bs-maj",
+    "title": "Interdisciplinary Chemical Sciences (ICS) Major | U-M LSA U-M College of LSA",
+    "reqLen": 1281,
+    "fullLen": 18960,
+    "hasReqSection": true
+  },
+  {
+    "slug": "interdiscplinary_physics_ab_or_bs-maj",
+    "title": "Interdisciplinary Physics Major | U-M LSA U-M College of LSA",
+    "reqLen": 1078,
+    "fullLen": 23755,
+    "hasReqSection": true
+  },
+  {
+    "slug": "intergroup_relations_education-min",
+    "title": "Intergroup Relations Education Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 43296,
+    "hasReqSection": true
+  },
+  {
+    "slug": "international_security_norms_and_cooperation_isnc-sub",
+    "title": "International Studies Major | U-M LSA U-M College of LSA",
+    "reqLen": 1403,
+    "fullLen": 379576,
+    "hasReqSection": true
+  },
+  {
+    "slug": "international_studies-maj",
+    "title": "International Studies Major | U-M LSA U-M College of LSA",
+    "reqLen": 1403,
+    "fullLen": 379576,
+    "hasReqSection": true
+  },
+  {
+    "slug": "international_studies-min",
+    "title": "International Studies Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 12371,
+    "hasReqSection": true
+  },
+  {
+    "slug": "islamic_studies-min",
+    "title": "Islamic Studies Minor | U-M LSA U-M College of LSA",
+    "reqLen": 4623,
+    "fullLen": 23024,
+    "hasReqSection": true
+  },
+  {
+    "slug": "italian-maj",
+    "title": "Italian Major | U-M LSA U-M College of LSA",
+    "reqLen": 539,
+    "fullLen": 32287,
+    "hasReqSection": true
+  },
+  {
+    "slug": "italian-min",
+    "title": "Italian Minor | U-M LSA U-M College of LSA",
+    "reqLen": 528,
+    "fullLen": 12370,
+    "hasReqSection": true
+  },
+  {
+    "slug": "judaic_studies-maj",
+    "title": "Judaic Studies Major | U-M LSA U-M College of LSA",
+    "reqLen": 1337,
+    "fullLen": 27846,
+    "hasReqSection": true
+  },
+  {
+    "slug": "judaic_studies-min",
+    "title": "Judaic Studies Minor | U-M LSA U-M College of LSA",
+    "reqLen": 836,
+    "fullLen": 13961,
+    "hasReqSection": true
+  },
+  {
+    "slug": "latin_american_and_caribbean_studies-maj",
+    "title": "Latin American and Caribbean Studies Major | U-M LSA U-M College of LSA",
+    "reqLen": 1803,
+    "fullLen": 10707,
+    "hasReqSection": true
+  },
+  {
+    "slug": "latin_american_and_caribbean_studies-min",
+    "title": "Latin American and Caribbean Studies Minor | U-M LSA U-M College of LSA",
+    "reqLen": 1128,
+    "fullLen": 7084,
+    "hasReqSection": true
+  },
+  {
+    "slug": "latin_language_and_literature-maj",
+    "title": "Latin Language and Literature Major | U-M LSA U-M College of LSA",
+    "reqLen": 571,
+    "fullLen": 38638,
+    "hasReqSection": true
+  },
+  {
+    "slug": "latina_latino_studies-maj",
+    "title": "Latina & Latino Studies Major | U-M LSA U-M College of LSA",
+    "reqLen": 1949,
+    "fullLen": 20721,
+    "hasReqSection": true
+  },
+  {
+    "slug": "latina_o_studies-min",
+    "title": "Latina & Latino Studies Minor | U-M LSA U-M College of LSA",
+    "reqLen": 5758,
+    "fullLen": 8884,
+    "hasReqSection": true
+  },
+  {
+    "slug": "law_justice_and_social_change-min",
+    "title": "Law, Justice, and Social Change Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 12698,
+    "hasReqSection": true
+  },
+  {
+    "slug": "law_justics_and_social_change-sub",
+    "title": "Sociology Major | U-M LSA U-M College of LSA",
+    "reqLen": 1901,
+    "fullLen": 86767,
+    "hasReqSection": true
+  },
+  {
+    "slug": "lesbian_gay_bisexual_transgender_queer_sexuality_studies-min",
+    "title": "Lesbian Gay Bisexual Transgender Queer (LGBTQ) and Sexuality Studies Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 15643,
+    "hasReqSection": true
+  },
+  {
+    "slug": "linguistics-maj",
+    "title": "Linguistics Major | U-M LSA U-M College of LSA",
+    "reqLen": 3415,
+    "fullLen": 35920,
+    "hasReqSection": true
+  },
+  {
+    "slug": "linguistics-min",
+    "title": "Linguistics Minor | U-M LSA U-M College of LSA",
+    "reqLen": 1265,
+    "fullLen": 12206,
+    "hasReqSection": true
+  },
+  {
+    "slug": "mathematical_sciences-sub",
+    "title": "Mathematics Major | U-M LSA U-M College of LSA",
+    "reqLen": 1083,
+    "fullLen": 166807,
+    "hasReqSection": true
+  },
+  {
+    "slug": "mathematics-maj",
+    "title": "Mathematics Major | U-M LSA U-M College of LSA",
+    "reqLen": 1083,
+    "fullLen": 166807,
+    "hasReqSection": true
+  },
+  {
+    "slug": "mathematics-min",
+    "title": "Mathematics Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 18712,
+    "hasReqSection": true
+  },
+  {
+    "slug": "mathematics_of_finance_and_risk_management-sub",
+    "title": "Mathematics Major | U-M LSA U-M College of LSA",
+    "reqLen": 1083,
+    "fullLen": 166807,
+    "hasReqSection": true
+  },
+  {
+    "slug": "medical_anthropology-min",
+    "title": "Medical Anthropology Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 12638,
+    "hasReqSection": true
+  },
+  {
+    "slug": "medical_anthropology-sub",
+    "title": "Medical Anthropology submajor | U-M LSA U-M College of LSA",
+    "reqLen": 887,
+    "fullLen": 43653,
+    "hasReqSection": true
+  },
+  {
+    "slug": "medieval_and_early_modern_studies-min",
+    "title": "Medieval and Early Modern Studies Minor | U-M LSA U-M College of LSA",
+    "reqLen": 1219,
+    "fullLen": 4300,
+    "hasReqSection": true
+  },
+  {
+    "slug": "microbiology-maj",
+    "title": "Microbiology Major | U-M LSA U-M College of LSA",
+    "reqLen": 2112,
+    "fullLen": 72281,
+    "hasReqSection": true
+  },
+  {
+    "slug": "middle_eastern_and_north_african_studies-maj",
+    "title": "Middle Eastern and North African Studies Major | U-M LSA U-M College of LSA",
+    "reqLen": 746,
+    "fullLen": 11386,
+    "hasReqSection": true
+  },
+  {
+    "slug": "modern_middle_eastern_and_north_african_studies-min",
+    "title": "Modern Middle Eastern and North African Studies Minor | U-M LSA U-M College of LSA",
+    "reqLen": 589,
+    "fullLen": 4942,
+    "hasReqSection": true
+  },
+  {
+    "slug": "moral_and_political_philosophy-min",
+    "title": "Moral and Political Philosophy | U-M LSA U-M College of LSA",
+    "reqLen": 776,
+    "fullLen": 7781,
+    "hasReqSection": true
+  },
+  {
+    "slug": "multidisciplinary_design-min",
+    "title": "MDP Minor | Multidisciplinary Design Program",
+    "reqLen": 0,
+    "fullLen": 2072,
+    "hasReqSection": false
+  },
+  {
+    "slug": "museum_studies-min",
+    "title": "Museum Studies Minor | U-M LSA U-M College of LSA",
+    "reqLen": 2729,
+    "fullLen": 6306,
+    "hasReqSection": true
+  },
+  {
+    "slug": "music-min",
+    "title": "Minors & Certificates - University of Michigan School of Music, Theatre & Dance",
+    "reqLen": 6000,
+    "fullLen": 24990,
+    "hasReqSection": true
+  },
+  {
+    "slug": "native_american_studies-min",
+    "title": "Native American Studies Minor | U-M LSA U-M College of LSA",
+    "reqLen": 5860,
+    "fullLen": 8958,
+    "hasReqSection": true
+  },
+  {
+    "slug": "near_eastern_languages_and_cultures-min",
+    "title": "Middle East Studies Minor | U-M LSA U-M College of LSA",
+    "reqLen": 2297,
+    "fullLen": 16994,
+    "hasReqSection": true
+  },
+  {
+    "slug": "near_eastern_studies-maj",
+    "title": "Middle East Studies Major | U-M LSA U-M College of LSA",
+    "reqLen": 4036,
+    "fullLen": 35706,
+    "hasReqSection": true
+  },
+  {
+    "slug": "neuroscience-maj",
+    "title": "Neuroscience Major | U-M LSA U-M College of LSA",
+    "reqLen": 2525,
+    "fullLen": 43441,
+    "hasReqSection": true
+  },
+  {
+    "slug": "oceanography-min",
+    "title": "Oceanography Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 10714,
+    "hasReqSection": true
+  },
+  {
+    "slug": "organizational_studies-maj",
+    "title": "Organizational Studies Major | U-M LSA U-M College of LSA",
+    "reqLen": 4013,
+    "fullLen": 66475,
+    "hasReqSection": true
+  },
+  {
+    "slug": "paleontology-min",
+    "title": "Paleontology Minor | U-M LSA U-M College of LSA",
+    "reqLen": 3103,
+    "fullLen": 6234,
+    "hasReqSection": true
+  },
+  {
+    "slug": "performing_arts_management-min",
+    "title": "Minors & Certificates - University of Michigan School of Music, Theatre & Dance",
+    "reqLen": 6000,
+    "fullLen": 24990,
+    "hasReqSection": true
+  },
+  {
+    "slug": "pharmacology-min",
+    "title": "Pharmacology Minor | U-M LSA U-M College of LSA",
+    "reqLen": 1277,
+    "fullLen": 4775,
+    "hasReqSection": true
+  },
+  {
+    "slug": "philosophy-maj",
+    "title": "Philosophy Major | U-M LSA U-M College of LSA",
+    "reqLen": 1443,
+    "fullLen": 13380,
+    "hasReqSection": true
+  },
+  {
+    "slug": "philosophy_political_science_economics-maj",
+    "title": "Philosophy, Politics, and Economics (PPE) Major | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 60936,
+    "hasReqSection": true
+  },
+  {
+    "slug": "physics-maj",
+    "title": "Physics Major | U-M LSA U-M College of LSA",
+    "reqLen": 2231,
+    "fullLen": 39561,
+    "hasReqSection": true
+  },
+  {
+    "slug": "physics-min",
+    "title": "Physics Minor | U-M LSA U-M College of LSA",
+    "reqLen": 1048,
+    "fullLen": 10238,
+    "hasReqSection": true
+  },
+  {
+    "slug": "playwriting-min",
+    "title": "Minor in Playwriting - University of Michigan School of Music, Theatre & Dance",
+    "reqLen": 218,
+    "fullLen": 1475,
+    "hasReqSection": true
+  },
+  {
+    "slug": "polish-maj",
+    "title": "Polish Major | U-M LSA U-M College of LSA",
+    "reqLen": 644,
+    "fullLen": 5372,
+    "hasReqSection": true
+  },
+  {
+    "slug": "polish_language_literature_and_culture-min",
+    "title": "Polish Language, Literature, and Culture Minor | U-M LSA U-M College of LSA",
+    "reqLen": 495,
+    "fullLen": 10806,
+    "hasReqSection": true
+  },
+  {
+    "slug": "political_economy_and_development_ped-sub",
+    "title": "International Studies Major | U-M LSA U-M College of LSA",
+    "reqLen": 1403,
+    "fullLen": 379576,
+    "hasReqSection": true
+  },
+  {
+    "slug": "political_science-maj",
+    "title": "Political Science Major | U-M LSA U-M College of LSA",
+    "reqLen": 2396,
+    "fullLen": 20654,
+    "hasReqSection": true
+  },
+  {
+    "slug": "political_science-min",
+    "title": "Political Science Minor | U-M LSA U-M College of LSA",
+    "reqLen": 697,
+    "fullLen": 7078,
+    "hasReqSection": true
+  },
+  {
+    "slug": "politics_law_and_economy-sub",
+    "title": "Politics, Law, and Economy submajor | U-M LSA U-M College of LSA",
+    "reqLen": 887,
+    "fullLen": 43671,
+    "hasReqSection": true
+  },
+  {
+    "slug": "portuguese-min",
+    "title": "Portuguese Minor | U-M LSA U-M College of LSA",
+    "reqLen": 645,
+    "fullLen": 13378,
+    "hasReqSection": true
+  },
+  {
+    "slug": "power_identity_and_inequality-sub",
+    "title": "Power, Identity, and Inequality submajor | U-M LSA U-M College of LSA",
+    "reqLen": 887,
+    "fullLen": 43686,
+    "hasReqSection": true
+  },
+  {
+    "slug": "psychology_general_social_science-maj",
+    "title": "Psychology (General Social Science) Major | U-M LSA U-M College of LSA",
+    "reqLen": 2258,
+    "fullLen": 71071,
+    "hasReqSection": true
+  },
+  {
+    "slug": "public_policy-min",
+    "title": "Undergraduate application process | Gerald R. Ford School of Public Policy",
+    "reqLen": 4871,
+    "fullLen": 5023,
+    "hasReqSection": true
+  },
+  {
+    "slug": "pure_mathematics-sub",
+    "title": "Mathematics Major | U-M LSA U-M College of LSA",
+    "reqLen": 1083,
+    "fullLen": 166807,
+    "hasReqSection": true
+  },
+  {
+    "slug": "quantitative_methods_social_sciences-min",
+    "title": "Quantitative Methods in the Social Sciences | U-M LSA U-M College of LSA",
+    "reqLen": 1425,
+    "fullLen": 16360,
+    "hasReqSection": true
+  },
+  {
+    "slug": "religion-min",
+    "title": "Religion Minor | U-M LSA U-M College of LSA",
+    "reqLen": 937,
+    "fullLen": 45595,
+    "hasReqSection": true
+  },
+  {
+    "slug": "romance_languages_and_literatures-maj",
+    "title": "Romance Languages and Literatures Major | U-M LSA U-M College of LSA",
+    "reqLen": 2328,
+    "fullLen": 75073,
+    "hasReqSection": true
+  },
+  {
+    "slug": "russian-maj",
+    "title": "Russian Major | U-M LSA U-M College of LSA",
+    "reqLen": 2249,
+    "fullLen": 20305,
+    "hasReqSection": true
+  },
+  {
+    "slug": "russian_east_european_and_eurasian_studies-maj",
+    "title": "Russian, East European, and Eurasian Studies Major | U-M LSA U-M College of LSA",
+    "reqLen": 1369,
+    "fullLen": 9857,
+    "hasReqSection": true
+  },
+  {
+    "slug": "russian_language_literature_and_culture-min",
+    "title": "Russian Language, Literature, and Culture Minor | U-M LSA U-M College of LSA",
+    "reqLen": 3624,
+    "fullLen": 7269,
+    "hasReqSection": true
+  },
+  {
+    "slug": "russian_studies-min",
+    "title": "Russian Studies Minor | U-M LSA U-M College of LSA",
+    "reqLen": 3187,
+    "fullLen": 6601,
+    "hasReqSection": true
+  },
+  {
+    "slug": "scandinavian_studies-min",
+    "title": "Scandinavian Studies Minor | U-M LSA U-M College of LSA",
+    "reqLen": 1336,
+    "fullLen": 4504,
+    "hasReqSection": true
+  },
+  {
+    "slug": "science_technology_and_society_sts-min",
+    "title": "Science, Technology, and Society (STS) Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 17194,
+    "hasReqSection": true
+  },
+  {
+    "slug": "screen_arts_and_cultures-maj",
+    "title": "Film, Television, and Media Major | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 71132,
+    "hasReqSection": true
+  },
+  {
+    "slug": "screenwriting-sub",
+    "title": "Film, Television, and Media Major | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 71132,
+    "hasReqSection": true
+  },
+  {
+    "slug": "secondary_mathematics_teaching_certificate-sub",
+    "title": "Mathematics Major | U-M LSA U-M College of LSA",
+    "reqLen": 1083,
+    "fullLen": 166807,
+    "hasReqSection": true
+  },
+  {
+    "slug": "social_class_and_inequality_studies-min",
+    "title": "Social Class and Inequality Studies | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 27303,
+    "hasReqSection": true
+  },
+  {
+    "slug": "social_media_analysis_and_design-min",
+    "title": "Undergraduate minors | umsiCopy linkFind any service",
+    "reqLen": 0,
+    "fullLen": 3471,
+    "hasReqSection": false
+  },
+  {
+    "slug": "social_theory_and_practice-maj",
+    "title": "Social Theory and Practice Major | U-M LSA U-M College of LSA",
+    "reqLen": 1929,
+    "fullLen": 13968,
+    "hasReqSection": true
+  },
+  {
+    "slug": "sociology-maj",
+    "title": "Sociology Major | U-M LSA U-M College of LSA",
+    "reqLen": 1901,
+    "fullLen": 86767,
+    "hasReqSection": true
+  },
+  {
+    "slug": "sociology_and_social_work-sub",
+    "title": "Sociology and Social Work Submajor | U-M LSA U-M College of LSA",
+    "reqLen": 1901,
+    "fullLen": 74511,
+    "hasReqSection": true
+  },
+  {
+    "slug": "spanish-maj",
+    "title": "Spanish Major | U-M LSA U-M College of LSA",
+    "reqLen": 1027,
+    "fullLen": 33469,
+    "hasReqSection": true
+  },
+  {
+    "slug": "spanish_language_literature_and_culture-min",
+    "title": "Spanish Language, Literature, and Culture Minor | U-M LSA U-M College of LSA",
+    "reqLen": 975,
+    "fullLen": 23368,
+    "hasReqSection": true
+  },
+  {
+    "slug": "statistics-maj",
+    "title": "Statistics Major | U-M LSA U-M College of LSA",
+    "reqLen": 808,
+    "fullLen": 22383,
+    "hasReqSection": true
+  },
+  {
+    "slug": "statistics-min",
+    "title": "Statistics Minor | U-M LSA U-M College of LSA",
+    "reqLen": 761,
+    "fullLen": 12141,
+    "hasReqSection": true
+  },
+  {
+    "slug": "sustainability-min",
+    "title": "Sustainability Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 27122,
+    "hasReqSection": true
+  },
+  {
+    "slug": "translation-maj",
+    "title": "Translation Major | U-M LSA U-M College of LSA",
+    "reqLen": 2412,
+    "fullLen": 11652,
+    "hasReqSection": true
+  },
+  {
+    "slug": "translation_studies-min",
+    "title": "Translation Studies Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 14698,
+    "hasReqSection": true
+  },
+  {
+    "slug": "ukrainian_language_literature_and_culture-min",
+    "title": "Ukrainian Language, Literature, and Culture Minor | U-M LSA U-M College of LSA",
+    "reqLen": 860,
+    "fullLen": 5860,
+    "hasReqSection": true
+  },
+  {
+    "slug": "urban_studies-min",
+    "title": "Urban Studies Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 38840,
+    "hasReqSection": true
+  },
+  {
+    "slug": "user_experience_design-min",
+    "title": "Undergraduate minors | umsiCopy linkFind any service",
+    "reqLen": 0,
+    "fullLen": 3471,
+    "hasReqSection": false
+  },
+  {
+    "slug": "water_and_the_environment-min",
+    "title": "Water and the Environment Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 23255,
+    "hasReqSection": true
+  },
+  {
+    "slug": "womens_studies-maj",
+    "title": "Women's and Gender Studies Major | U-M LSA U-M College of LSA",
+    "reqLen": 1754,
+    "fullLen": 25544,
+    "hasReqSection": true
+  },
+  {
+    "slug": "wrtiting-min",
+    "title": "Writing Minor | U-M LSA U-M College of LSA",
+    "reqLen": 6000,
+    "fullLen": 28348,
+    "hasReqSection": true
+  },
+  {
+    "slug": "yiddish_studies-min",
+    "title": "Yiddish Studies Minor | U-M LSA U-M College of LSA",
+    "reqLen": 846,
+    "fullLen": 11856,
+    "hasReqSection": true
+  }
+]

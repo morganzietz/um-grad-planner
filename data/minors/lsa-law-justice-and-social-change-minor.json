@@ -1,0 +1,18 @@
+{
+  "id": "lsa-law-justice-and-social-change-minor",
+  "name": "Law, Justice, and Social Change Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 A minimum of 15 credits from any combination of the courses listed below.SOC 204: International Migration and the Politics of Membership in a Globalizing WorldSOC 208: Terrorism, Torture, & ViolenceSOC 214: Non-profitsSOC 225: Project Community - Criminal Justice SectionSOC 250: Politics, Power, and SocietySOC 270: Gender and the LawSOC 304: American ImmigrationSOC 325: Project Community: Advanced Practicum - Criminal Justice SectionSOC 335: Urban Inequality in AmericaSOC 354: Law and SocietySOC 368: CriminologySOC 391: Justice in ActionSOC 422: Latin AmericaSOC 461: Social Movements: Political Protest and Collective ResistanceSOC 465: Sociology of Deviance: From Sin to SicknessSOC 468: Crime & Justice: Inside Out Prison ExchangeSOC 476: Sociology of BioethicsSOC 480: Environmental JusticeApproved topics in SOC 295, 495, 394 (SURO), 395 (Independent Study), 396 (Internship)A minimum of nine credits must be elected in the minor at the 300-level or above (not including prerequisites). Constraints Up to 6 credits of SOC 394 SURO, SOC 395 Independent Study, and SOC 396 Internship may count in the minor. Other Department Policies Sociology will allow one course from outside the department with significant sociological content related to law, justice, and social change to be included in the plan for the minor. Students interested in petitioning to include a non-SOC course in their minor should complete the course petition process which includes submitting a petition form and the course syllabus. Law, Justice, and Social Change (Minor) (Winter 2017 - Fall 2022) Effective Winter 2017 Exclusions: A minor in Law, Justice, and Social Change is not open to those electing a minor in Crime and Justice (Residential College). Students electing the Law, Justice, and Social Change minor may not declare a minor in History of Law and Policy. Advising Please review the Advising page of the Sociology website for full information on declaring a Sociology major, sub-major, or minor, getting in touch by email, or scheduling an appointment.A department advisor is available to discuss the choice of Sociology as a major or minor, assist with course planning, and provide guidance on department opportunities. Students may schedule an advising appointment using the online appointment scheduler linked here or email advising questions to socadvisor@umich.edu... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/law-justice-and-social-change-minor.html"
+}

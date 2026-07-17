@@ -1,0 +1,18 @@
+{
+  "id": "lsa-architecture-minor",
+  "name": "Architecture Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements and the minor, as well as those between major and minor or between multiple minors. Courses graded pass/fail may not be used toward the architecture minor. Test credits may not be used to meet the requirements of the architecture minor. Students must complete at least two upper-level courses (numbered 300 or above) as part of the architecture minor. Additional information for declared minor students is available on the Taubman College Intranet Architecture Minor article. What’s next if you want to further your architecture studies? If you decide you want to pursue more architecture education, you can apply to the Tau",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://taubmancollege.umich.edu/academics/architecture/architecture-minor/"
+}

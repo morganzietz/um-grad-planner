@@ -1,0 +1,18 @@
+{
+  "id": "lsa-science-technology-and-society-sts-minor",
+  "name": "Science, Technology, and Society (STS) Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 A minimum of 15 credits (and at least 5 courses), to be chosen from the list of approved STS courses. At least one course must be at the 300 level or above. Only one course at the 100 level is permitted.Core course: RCSSCI 275 / HISTORY 285.Electives. A minimum of 3 courses in a chosen focus track (Science; Technology; Medicine).Courses on science, technology, and society are offered by many different departments and programs in LSA as well as in other colleges of the university. Only courses specifically approved by the STS Program may be counted toward the minor. There are presently no provisions for exceptions to this rule. An up-to-date list of currently approved courses is available at the STS Program website. Constraints No course may be counted simultaneously toward both STS and any other minor.Students may not declare the STS minor later than the first week of the first term of their senior year. Science, Technology, and Society (STS) Minor (Fall 2014-Fall 2015) effective date : Fall 2014-Fall 2015 Not open to students with a minor in Medical Anthropology or History of Medicine and Health Students wishing to pursue a minor in Science, Technology, and Society must develop a specific plan for its completion in consultation with the program's designated advisor. Appointments may be scheduled by sending e-mail to sts.minor.advisor@umich.edu. Students may not declare the STS minor later than the first week of the first term of their senior year. No course may be counted simultaneously toward both STS and any other minor. Prerequisites to the Minor None for the Academic Minor per se, although individual courses elected to meet the requirements of the Academic Minor may have course prerequisites. Requirements for the Minor A minimum of 15 credits of courses, to be elected from the categories as stated below: Core course: RCSSCI 275. Electives. A minimum of 2 courses for at least 7 credits, subject to the following conditions: A maximum of one elective at the 100 level is permitted (up to 4 credits). At least one elective must be at the 300 level or above. Students may also count any research seminar (see below) as an elective. At least one elective and the research seminar must be drawn from one of the focus clusters: science and society, technology and society, or medicine and society. One research course or seminar, at the... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/science-technology-and-society-minor.html"
+}

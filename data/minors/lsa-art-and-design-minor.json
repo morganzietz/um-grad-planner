@@ -1,0 +1,18 @@
+{
+  "id": "lsa-art-and-design-minor",
+  "name": "Art & Design Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements, students must complete one academic course (minimum 3 credits). Academic course options are:ARTDES 150: Art and Design in ContextARTDES 151: Art and Design HistoryARTDES 160: Penny W. Stamps Lecture Series (1 credit/semester for 3 semesters)ARTDES 389: Writing Cultural CriticismAll 3 or 4 credit courses listed in the LSA",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://stamps.umich.edu/undergraduate-programs/minor"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lsa-translation-studies-minor",
+  "name": "Translation Studies Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 During their first meeting, the student and the Translation Studies advisor will devise a plan to satisfy the requirements. Any changes to the plan must be approved by the Translation Studies advisor, who will provide ongoing advising regarding course selection and planning for the capstone project.The Minor in Translation Studies requiresA minimum of 15 credits of courses, at least two courses in Comparative Literature, and a minimum of 12 credits in upper-level courses.Comp Lit Translation Core (3 credits): either COMPLIT 200: Translation Across Disciplines; COMPLIT 250: Translating Race and Ethnicity in Local and Global Contexts; COMPLIT 322: Translating World Literatures; COMPLIT 323: Adapting World Literatures; or COMPLIT 494: Translation PracticumLanguage (3 credits): An upper-level course (taught at the University of Michigan or taken for credit during Study Abroad) that develops skills in a language that the student will use for the capstone translation project. As a rule, an approved course plan for the Minor in Translation Studies will include at least one upper-level course in a second language. However, students interested in translating across different media, technologies, or disciplines may petition for exception to the language rule, by proposing an upper-level course that develops other skills relevant to the capstone translation project.Translation Electives (6 credits): two upper-level courses with a central component on translation (taught in any department at the University of Michigan, or taken for credit during Study Abroad). Students may select courses from a pre-approved list, or propose courses for approval (with an explanation of the translation component and its relevance to their course plan for the Minor).Translation Capstone Seminar (3 credits): A capstone project completed via COMPLIT 497: Translation Capstone Seminar Translation Studies (Minor) (Fall 2025) Effective Fall 2025 Exclusions: Students who elect a major in Translation may not elect the Minor in Translation Studies. Advising The Chair of the Department of Comparative Literature will designate a faculty member to serve as Translation Studies advisor.During their first meeting, the student and the Translation Studies advisor will devise a plan to satisfy the requirements. Any changes to the plan must be approved by the Translation Stud... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/translation-studies-minor.html"
+}

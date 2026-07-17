@@ -1,0 +1,18 @@
+{
+  "id": "lsa-biochemistry-minor",
+  "name": "Biochemistry Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 18 Core: CHEM 351, BIOLCHEM 415, OR MCDB 310Electives: CHEM 211, CHEM 215, [CHEM 241/242 OR CHEM 245/246/247], [CHEM 230 OR CHEM 260 OR BIOPHYS 370/CHEM 370 OR CHE 330* OR BIOMEDE 221*], CHEM 398 (3 credit max), CHEM 303, CHEM 352 or 353, CHEM 421, CHEM 451, CHEM 452, CHEM 453, BIOLOGY 305 *CHE 330 or BIOMEDE 221 only fulfill this requirement for students in the College of Engineering. Students from all other schools/colleges may choose (CHEM 230, CHEM 260, or BIOPHYS 370/CHEM 370). If an Engineering student wishes to use CHE 330 or BIOMEDE 221 to complete this requirement, they should speak to a Chemistry advisor so that approval of the course can be noted on the audit. Constraints No more than one course counted toward the 18-credit Biochemistry minor may also be used to meet a requirement for a major. (Requirements for a major, in this instance, include both the major requirements and major prerequisites.) If students have completed more than one Biochemistry minor course (core or elective) that is also part of their major, then they should share only one of these courses and must complete unique Biochemistry minor electives to reach the 18 credit minimum for the minor. Teaching Certificate Those seeking a B.S. degree with a teaching certificate in Chemistry must fulfill departmental as well as School of Education requirements. Students who plan to earn a teaching certificate with a teaching major or minor in Chemistry should contact the School of Education Teacher Education Office. Biochemistry (Minor) (Winter 2023 - Summer 2025) Effective Winter 2023 Exclusions: The Biochemistry Academic Minor is not open to students majoring in Biochemistry; Biomolecular Science; Chemical Science; Interdisciplinary Chemical Sciences; Chemistry; Molecular, Cellular, and Developmental Biology (formerly known as Cell and Molecular Biology, or CMB); Biology; General Biology; Biology, Health and Society (BHS); Neuroscience; Ecology, Evolution, and Biodiversity; Plant Biology; and Microbiology.Students electing a minor within the Department of Chemistry may only elect ONE of the five minors offered by the Department. Advising Students wishing to pursue a minor offered by the Chemistry Department must develop a specific plan for its completion in consultation with the Department's designated advisor. Chemistry, Chemical Physics, Polymer Chemistry... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/biochemistry-minor.html"
+}

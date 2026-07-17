@@ -1,0 +1,18 @@
+{
+  "id": "lsa-interdisciplinary-astronomy-minor",
+  "name": "Interdisciplinary Astronomy Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 Stellar and Planetary Astrophysics: ASTRO 101 or 115Galactic and Extragalactic Astrophysics: ASTRO 102, 104, 105, or 142Astronomy Electives: Six credits from ASTRO 200-level coursesCognate: Three credits from a 300 or 400-level interdisciplinary course selected with approval of a department advisor.Students are encouraged to take introductory Physics courses in their earlier course of study. Interdisciplinary Astronomy Minor (Winter 2014-Summer 2016) Effective Winter 2014-Summer 2016 The minor in Interdisciplinary Astronomy is offered to students wishing to develop a broad overview of astronomy and understanding of science. Prerequisites to the Minor None. Requirements for the Minor At least 15 credits of courses to be selected from the following categories as stated : Planetary Science: ASTRO 101 or 115 Astrophysics: ASTRO 102, 104, 105, or 142 6 credits from: ASTRO 201, 205, 210, or 220 3 credits from: A 300 or 400-level Astronomy course, or one of the Earth and Environmental Sciences, Philosophy, or Physics courses allowed for credit toward the major in Interdisciplinary Astronomy Students are encouraged to take introductory Physics courses in their earlier course of study. Interdisciplinary Astronomy Minor (Winter 2012-Fall 2013) Effective Winter 2012 - Fall 2013 The minor in Interdisciplinary Astronomy is offered to students wishing to develop a broad overview of astronomy and understanding of science. Prerequisites to the Minor: None. Academic Minor Program: 16 credits of courses as follows: ASTRO 101 or 115 ASTRO 102, 104, 105, or 142 6 credits from: ASTRO 201, 205, 210, or 220 3 credits from: A 300 or 400-level Astronomy course, or one of the Geology Sciences, Philosophy, or Physics courses allowed for credit toward the major in Interdisciplinary Astronomy Students are encouraged to take introductory Physics courses in their earlier course of study. Information for Prospective Students Current Students Faculty and Staff Alumni and Friends More about LSA About LSA How Do I Apply? News LSA Magazine Give Maps Student Resources Courses Academic Advising Majors and Minors Departments and Units Global Studies LSA Opportunity Hub Connect Social Media Update",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/interdisciplinary-astronomy-minor.html"
+}

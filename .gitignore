@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# saved LSA CG session state (local only — do not commit)
+/.auth/
+.auth/
+data/whatif-pdfs/
+
+# Claude Code session data (local only)
+.claude/

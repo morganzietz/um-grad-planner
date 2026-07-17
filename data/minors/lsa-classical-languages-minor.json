@@ -1,0 +1,18 @@
+{
+  "id": "lsa-classical-languages-minor",
+  "name": "Classical Languages Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 16 Greek (Ancient) Language and Literature Requirements:1. At least two upper-level courses in Greek language and literature, Greek 302 or 308, or higher (6-7 credits)2. At least one broad introductory course in Greek civilization from the following: CLCIV 101, ARCHAM or CLARCH 221, HISTORY 200 (4 credits)3. At least one upper-level (300 or 400-level) course in Greek civilization, archaeology or history (3-4 credits)4. Another course from 1, 2 or 3 above (3-4 credits) Latin Language and Literature Track:1. At least two upper-level courses in Latin language and literature Latin 301 or higher (6 credits)2. At least one broad introductory course in Roman civilization from the following: CLCIV 202, ARCHAM or CLARCH 222, HISTORY 201 or CLCIV/HISTORY 302 (4 credits)3. At least one upper-level (300 or 400-level) course in Roman civilization, archaeology or history (3 or 4 credits)4. Another course from 1, 2 or 3 above (3 or 4 credits) Classical Languages and Literature Track1. At least one elementary course in the second language for the minor (e.g. if student selected Greek (Ancient) as their primary language, then this requirement would be fulfilled with Latin and vice versa). (4-8 credits)2. At least one upper-level course in each language (Greek 401 or higher; Latin 301 or higher) (6 credits)3. At least one additional course in Greek (Ancient), Latin, Greek civilization or Roman civilization, history or archaeology (3-6 credits) Information for Prospective Students Current Students Faculty and Staff Alumni and Friends More about LSA About LSA How Do I Apply? News LSA Magazine Give Maps Student Resources Courses Academic Advising Majors and Minors Departments and Units Global Studies LSA Opportunity Hub Connect Social Media Update",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/classical-languages-minor.html"
+}

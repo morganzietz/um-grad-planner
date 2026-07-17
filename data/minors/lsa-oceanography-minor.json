@@ -1,0 +1,18 @@
+{
+  "id": "lsa-oceanography-minor",
+  "name": "Oceanography Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 One introductory geoscience course must be taken from one of the following two groups:Group 1. Courses with laboratory: EARTH 116, 118&119, 120, 201, 218&219.Group 2. Courses without laboratory (EARTH 119, 205&206, 219).Core courses: EARTH 222, 223.Elective courses (5-7 credits) to be elected from the following:CHEM 467EARTH 305, 320, 321, 333, 409, 420, 421, 422, 446, 449, 452, 465, 467, 478, 479;EEB 380AOSS 320, 321, 410, 420, 467ENSCEN 420, 455, 467NAVARCH 320, 440or permission of advisor Oceanography (Minor) (Fall 2020) Effective Fall 2020 Exclusions: Not open to students electing the minor in Earth Sciences. Advising Students wishing to pursue a minor in the Department of Earth and Environmental Sciences must develop a specific plan for its completion in consultation with the department's designated advisor. Appointments are scheduled online www.lsa.umich.edu/earth/undergraduate Prerequisites None. Requirements Minimum Credits: 15 One introductory geoscience course must be taken from one of the following two groups:Group 1. Courses with laboratory: EARTH 116, 118&119, 120, 201, 219.Group 2. Courses without laboratory (EARTH 119, 205&206).Core courses: EARTH 222, 223.Elective courses (5-7 credits) to be elected from the following:CHEM 467EARTH 305, 320, 321, 333, 409, 420, 421, 422, 446, 449, 452, 465, 467, 478, 479;EEB 380AOSS 320, 321, 410, 420, 467ENSCEN 420, 455, 467NAVARCH 320, 440or permission of advisor Oceanography (Minor) (Fall 2018 - Summer 2020) Effective Fall 2018 Exclusions: Not open to students electing the minor in Earth Sciences. Advising Students wishing to pursue a minor in the Department of Earth and Environmental Sciences must develop a specific plan for its completion in consultation with the department's designated advisor. Appointments are scheduled online www.lsa.umich.edu/earth/undergraduate Prerequisites None. Requirements Minimum Credits: 15 One introductory geoscience course must be taken from one of the following two groups:Group 1. Courses with laboratory: EARTH 116, 118&119, 120, 201, 219.Group 2. Courses without laboratory (EARTH 119, 205&206).Core courses: EARTH 222, 223.Elective courses (5-7 credits) to be elected from the following:CHEM 467EARTH 305, 320, 321, 409, 420, 421, 422, 446, 449, 452, 465, 467, 478, 479;EEB 380; 401 (section titled \"Field Methods in Great Lakes Oceanography) -... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/oceanography-minor.html"
+}

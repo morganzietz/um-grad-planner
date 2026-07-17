@@ -1,0 +1,18 @@
+{
+  "id": "lsa-global-history-minor",
+  "name": "Global History Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 A minimum of 5 courses and 15 credits are required, distributed as followsSurvey Requirement: Students must take one of the following four courses:HISTORY 237: Global Environmental HistoryHISTORY 238: Zoom: A History of EverythingHISTORY 239: The World Before 1492HISTORY 240: The World Since 1492Four additional courses (a minimum of 3 credits each for at least 12 credits) are also required, with at least two of the four at the 300-level or above. These courses must be chosen from the Global History Minor Approved Course List. Please review the History Department’s Course List page to view a list of current and previously offered courses. Use the Minor dropdown filter to search specifically for courses approved for the Global History minor. Constraints AP credit: AP credits may not be used to satisfy requirements of the minor.",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/global-history-minor.html"
+}

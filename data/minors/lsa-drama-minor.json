@@ -1,0 +1,18 @@
+{
+  "id": "lsa-drama-minor",
+  "name": "Drama Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 The minor requires one foundational course, one capstone course and a minimum of three electives to reach the 15-credits. At least three courses must be at the 300-level or above.Courses that count toward the foundational requirement (choose one):RCDRAMA 281 Inside the Dramatic Experience RCDRAMA 282 Drama and InterpretationCourses that count toward the capstone requirement (choose one):RCDRAMA 481: Play Production Seminar (capstone requirement is usually filled by this course, but may be filled by one of the three other courses listed)RCCORE 307 College Teaching (Student Teaching Internship)RCCORE 406 Independent StudyRCDRAMA 483 Shakespeare in the ArbOther courses — electives (choose at least three):THTREMUS 101 Intro to Acting ITHTREMUS 102 Intro to Acting IITHTREMUS 110 Intro to Acting for the CameraTHTREMUS 227 / ENGLISH 227 Introductory PlaywritingTHTREMUS 240 Introduction to DesignTHTREMUS 241 Directing ITHTREMUS 250 Introduction to Technical Theatre PracticeTHTREMUS 251 Practicum ITHTREMUS 321 Theatre History ITHTREMUS 322 Theatre History IITHTREMUS 323 / ENGLISH 349 American Theatre and DramaRCDRAMA 332 The Atonement ProjectRCDRAMA 334 Latina/o Theatre for Social ChangeRCDRAMA 335 Theatre and IncarcerationRCDRAMA 381 Shakespeare on the StageRCDRAMA 383 Ibsen, Strindberg, and ChekhovRCDRAMA 387 Masterpieces of Renaissance Drama: Shakespeare’s ContemporariesRCDRAMA 389 The Modern Theater: Marginalized Roles in American Musical TheaterRCDRAMA 390 Special Topics in Period and Place DramaRCDRAMA 483 Shakespeare in the Arb'RCDRAMA 482 Director and TextRCDRAMA 485 Special Drama TopicsRCHUMS 334 Theatre, Music, and Arts through the Lens of 20th Century American PoliticsRCHUMS 334 Advanced Practice in Community Engagement through the ArtsRCHUMS 341 Community Empowerment through the ArtsRCMUSIC 254 The Human Voice as Acoustical InstrumentENGLISH 293-001 Great Works: Hamlet, Hamlet, HamletENGLISH 293-002 Great Works: Art and Activism in Four Plays by Arthur MillerENGLISH 346 001 Disaster PlaysENGLISH 349 American Theatre and DramaENGLISH 427 Advanced PlaywritingOther courses as approved by the Drama Program head Drama - Text-to-Performance (T-t-P) (Minor) (Fall 2012 - Fall 2023) Effective Fall 2012 Exclusions: Not open to students pursuing an academic minor or major in the Department of Theatre and Drama. Advising 1813 East Qua... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/drama-minor.html"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lsa-creative-writing-minor",
+  "name": "Creative Writing Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 15 credits, including:An intermediate and advanced course in Creative Writing in one area of focus (total 6 credits): ENGLISH 323/423, prose fiction; ENGLISH 324/424, poetry; or ENGLISH 325/425, creative nonfiction)Note: English 423, 424, or 425 will also satisfy the Upper-Level Writing Requirement.Three English literature courses (9 credits) at the 200-level or above.At least one of these courses (3 credits) must be at the 300-level or above.One Creative Writing course at the 300 or 400-level in a genre other than the student's primary focus may be used toward this requirement.Eligible 200-level courses for this requirement are:ENGLISH 201: Readings in U.S. Literatures: \"American\" and Other FictionsENGLISH 203: Intro to RhetoricENGLISH / WGS 214: Introduction to LGBTQ+ LiteraturesENGLISH 215 / WGS 217: Introduction to Women and LiteratureENGLISH 216: Intro to Disability StudiesENGLISH 221: Literature Outside the ClassroomENGLISH 230: Reading Literary Fiction/Non-FictionENGLISH 232: Intro to Visual CulturesENGLISH 235: Reading Autobiography and Life WritingENGLISH 240: Introduction to Reading PoetryENGLISH 242: Interdisciplinary Studies in EnglishENGLISH 244: Introduction to Literary JournalismENGLISH 246: Introductory Topics in Theatre and DramaENGLISH 250: Intro to Language StudiesENGLISH 258 / JUDAIC 258 / RELIGION 258: The Bible as LiteratureENGLISH 260: Reading British LiteraturesENGLISH 266: Reading Genre FictionENGLISH 267: Shakespeare and His WorldENGLISH 270: Introduction to American LiteratureENGLISH 274 / AAS 271: Introduction to Afro-American LiteratureENGLISH 275: Reading World Literatures in EnglishENGLISH 280 / DIGITAL 280: Introduction to Digital StudiesENGLISH 282 / AMCULT 232 / NATIVEAM 232: Introduction to Native American LiteratureENGLISH 285: Intro to 20th C LitENGLISH 287 / AMCULT 287 / LATINOAM 287: Introduction to Latinx LiteraturesENGLISH 290: Themes in Language and LiteratureENGLISH 292: Themes in Lang & Lit (mini-course)ENGLISH 293: Great Works of Lit (mini-course)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/creative-writing-minor.html"
+}

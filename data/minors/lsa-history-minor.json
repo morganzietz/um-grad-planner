@@ -1,0 +1,18 @@
+{
+  "id": "lsa-history-minor",
+  "name": "History Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 Five courses (at least 15 credits), to be chosen in consultation with a faculty advisor, covering at least two of the following areas: North America, Latin America, Europe, the Middle East/Central Asia, Africa, Asia, and Transregional/Global.At least four of the five courses must be at the 200-level or above; at least two courses must be at the 300-level or higher. Constraints First-Year Seminars do not count toward the minor.Two mini-courses will equal one regular course.HISTORY 294, Explorations in History (when taken for two credits) will count as one course.AP and IB credit: AP and/or IB credits may not be used to satisfy requirements of the minor.",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/history-minor.html"
+}

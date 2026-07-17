@@ -1,0 +1,18 @@
+{
+  "id": "lsa-astronomy-and-astrophysics-minor",
+  "name": "Astronomy and Astrophysics Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 Introductory Course: ASTRO 201Astronomy Core Courses: at least two courses chosen from among: ASTRO 361, 402, 404Astronomy Electives: At least one course chosen from ASTRO 400-level courses not already taken as Astronomy core. Remaining credits may be selected from any ASTRO courses (200- through 400-level). Astronomy and Astrophysics (Minor) (Fall 2024 - Summer 2026) Effective Fall 2024 Exclusions: The minors in Astronomy are not open to students with a major in Department of Astronomy. Advising Advising appointments are scheduled online. Prerequisites Mathematics through differential equations: MATH 216 or its equivalentPHYSICS 140/141, 240/241, and 340. Requirements Minimum Credits: 15 Introductory Course: ASTRO 201Astronomy Core Courses: at least two courses chosen from among: ASTRO 361, 402, 404Astronomy Electives: At least one course chosen from ASTRO 400-level courses not already taken as Astronomy core. Remaining credits may be selected from any ASTRO courses (200- through 400-level). Astronomy and Astrophysics (Minor) (Fall 2016 - Summer 2024) Effective Fall 2016 Exclusions: The minors in Astronomy are not open to students with a major in Department of Astronomy. Advising Advising appointments are scheduled online. Prerequisites Mathematics through differential equations: MATH 216 or its equivalentPHYSICS 140/141, 240/241, and 340. Requirements Minimum Credits: 15 Introductory Course: ASTRO 201Astronomy Core Courses: at least two courses chosen from among: ASTRO 361, 402, 404.Astronomy Electives: Remaining credits can be selected from ASTRO 399 and 400-level courses not already taken as Astronomy core. Astronomy and Astrophysics Minor (Winter 2012-Summer 2016) Effective Winter 2012 (Clarification to minimum credits made Winter 2014) through Summer 2016 The minors in Astronomy are not open to students with a major in Department of Astronomy. The minor in Astronomy and Astrophysics is offered to students with a strong background in physics and math, who wish to develop a deep expertise in astronomy. Students with a science, math, or engineering major can often incorporate the added dimension of a minor in Astronomy and Astrophysics with only a few additional courses if their degrees already require a significant background in physics. Prerequisites to the Minor Mathematics through differential equations: MATH 216 or it... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/astronomy-and-astrophysics-minor.html"
+}

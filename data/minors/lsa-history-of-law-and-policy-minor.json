@@ -1,0 +1,18 @@
+{
+  "id": "lsa-history-of-law-and-policy-minor",
+  "name": "History of Law and Policy Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 A minimum of five courses (15 credits) is required, with three of the five courses at the 300-level or above. To fulfill the departmental Regional Distribution requirement, courses must cover at least two of the following areas: North America, Latin America, Europe, the Middle East/Central Asia, Africa, Asia, or Transregional/Global.Core CourseSelect at least one:HISTORY 217: Topics in the History of Human RightsHISTORY 235: Law and Social JusticeHISTORY / INTLSTD 300: Human Wrongs and Human RightsHISTORY 315: American Constitutional HistoryHISTORY 345 / RCSTP 357: History and Theory of PunishmentHISTORY 366: Crime and Drugs in Modern AmericaElectivesCore Courses taken but not used to count toward the Core Course requirement may be used as electives. A minimum of four courses (totaling at least 12 credits) is required. All electives taken for the Law & Policy Minor must be selected from the Law & Policy Approved Course List. Please review the History Department’s Course List page to view a list of current and previously offered courses. Use the Minor dropdown list to search specifically for courses approved for the Law & Policy minor. .100-level ElectivesA maximum of one 100-level course may be applied toward the requirements for the minor.HISTORY 102: A History of the PresentHISTORY 103: Introduction to History in the Humanities (appropriate sections)HISTORY 104: Introduction to History in the Social Sciences (appropriate sections) Constraints AP credit: AP credits may not be used to satisfy requirements of the minor.",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/history-of-law-and-policy-minor.html"
+}

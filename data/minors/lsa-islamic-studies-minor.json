@@ -1,0 +1,18 @@
+{
+  "id": "lsa-islamic-studies-minor",
+  "name": "Islamic Studies Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 16 At least 16 credits, selected in consultation with and approved by the ISP undergraduate academic advisor, from the following.MIDEAST 216: Introduction to IslamFour additional courses on Islam or on Muslim societies—At least two courses which must be 300-level or above—At least two 3-credit courses covering two of the following regions:Central Asia East and Southeast Asia Europe and the Americas South Asia Middle East and North Africa Sub-Saharan Africa General Islamic Studies: without specific regional focusHISTORY 243 / MENAS 243: Islamic World HistoryHISTORY 428 / MIDEAST 413: The Rise of IslamHISTORY 429 / MIDEAST 432 / RELIGION 496 / WGS 471 (WOMENSTD 471): Gender & Sexuality in Pre-Modern IslamHISTORY 487 / MIDEAST 422 / RELIGION 467: Shi’ism: The History of Messianism and the Pursuit of Justice in IslamdomHISTART 285 / MIDEAST 285: Islamic Visual CultureMENAS 243 / HISTORY 243: Islamic World HistoryMUSICOL 343: Music and IslamMIDEAST 216 / RELIGION 204: Introduction to IslamMIDEAST 285 / HISTART 285: Islamic Visual CultureMIDEAST 321: Jihad in HistoryMIDEAST 322 / RELIGION 363: The Qur’an and Its InterpretationsMIDEAST 323: The Prophet Muhammad in IslamMIDEAST 413 / HISTORY 428: The Rise of IslamMIDEAST 421 / RELIGION 465: Islamic MysticismMIDEAST 422 RELIGION 467: Shi’ism: The History of Messianism and the Pursuit of Justice in IslamdomMIDEAST 423: Islamic LawMIDEAST 424: Islamic Intellectual HistoryMIDEAST 432 / HISTORY 429 / RELIGION 496 / WGS 471 (WOMENSTD 471): Gender & Sexuality in Pre-Modern IslamMIDEAST 520: Readings in Classical Islamic TextsREEES / SOC 490 / WOMENSTD 492: Women & IslamRELIGION 204 / MIDEAST 216: Introduction to IslamRELIGION 363 / MIDEAST 322: The Qur’an and Its InterpretationsRELIGION 465 / MIDEAST 421: Islamic MysticismRELIGION 467 / MIDEAST 422 / HISTORY 487: Shi’ism: The History of Messianism and the Pursuit of Justice in IslamdomRELIGION 496 / MIDEAST 432 / HISTORY 429 / WGS 471 (WOMENSTD 471): Gender & Sexuality in Pre-Modern IslamSOC 490 / REEES 490 / WOMENSTD 492: Women & IslamWGS 471 (WOMENSTD 471) / MIDEAST 432 / HISTORY 429 / RELIGION 496: Gender & Sexuality in Pre-Modern IslamWOMENSTD 492 / SOC / REEES 490: Women & IslamMiddle East & North AfricaAMCULT 368 / ARABAM 363 / MIDEAST 378 / WOMENSTD 368: Women and War in the Middle EastARABAM 363 / MIDEAST 378 / AMCULT 368 / WOMENSTD 36... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/islamic-studies-minor.html"
+}

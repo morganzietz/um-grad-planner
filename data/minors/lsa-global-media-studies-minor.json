@@ -1,0 +1,18 @@
+{
+  "id": "lsa-global-media-studies-minor",
+  "name": "Global Media Studies Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 16 At least 16 credits (and five courses), with at least two courses at the 300-level or above:Required Core Courses: seven credits from the following:FTVM / RCHUMS 150 (FTVM / RCHUMS 236): Introduction to Film, Television, and MediaOne of the following: FTVM 351, 352, or 353.Electives. 3 electives, at least 2 of which must be from the approved list of Non-US, Transnational, Comparative Film/Media courses. A third course may be from Non U.S., Transnational, Comparative Film/Media or U.S. Media.Non U.S., Transnational, Comparative Film/MediaAMCULT 356, 380, 346, 420ASIAN 245,440, 458, 475AAS 232, 440, 442, 470COMM 251CZECH 315GERMAN 172, 330, 333, 346JUDAIC 250MIDEAST 331 (only if elected FA21 or later)POLISH 314RCHUMS 312, 313SLAVIC 312, 313SPANISH 420FTVM 232, 245, 250, 312, 313, 314, 315, 316, 320, 321 (only if elected FA21 or later), 324, 332, 333, 346, 350, 358, 361, 379 (only if elected WN20 or later), 380, 420, 422, 440, 441, 442, 458, 470, 475, 485FTVM 366, sections titled:\"Science Fiction in Film, TV & Popular Culture\";\"Recent US Wars in Film & TV\";\"Adaptations\";\"Amateur Cinema\";\"Nazi Cinema\";\"Documentaries: From Vietnam to Iraq\";\"East Asian Horror\";\"Hollywood, Vietnam, & the Gulf\";\"Television Genres\";\"Race, Ethnicity, and the Media\";\"Authorship in Film and Media\";\"Magic and Moving Image\";\"Documentary Cinema\";\"Subtitling\";\"Cinema Babel: Subtitling & Dubbing\";\"Television Cities, Spaces & People\";\"Sex and Media\";\"Sex in Media\"\"Suburban Dads and Mad Men: Televising Masculinity from the 1950s to the Present\"FTVM 441, section titled \"Kino: German Film\"FTVM 455 sections titled:\"Dialogue of Violence\";\"TV Genres\";\"Religion in Film\";\"Philosophy of Film\";\"Hollywood, Vietnam, Gulf Wars\";\"The War Film\";\"Cult, Camp, and Exploitation Cinema\";\"Speaking with Ghosts: Mediums and New Media\";\"Media Cultural Theory\";\"Cinema of the Pacific War\";\"Dialogues of Violence: WWII and Cinema\"PHIL 440WGS / FTVM 361 (FTVM / WOMENSTD 361) U.S. mediaAMCULT 334, 351, 490FTVM 202, 316, 325, 330, 331, 334, 354, 355, 365, 367, 368, 381, 435 (335), 451, 460, 461FTVM 366 sections titled:\"Sex, Society & Censorship in Classical Hollywood\";\"Fan Cultures and Popular Media\";\"Self as Subject\";\"TV Sports Programming\";\"The Road Movie & American Culture\";\"Media Spaces\";\"Stardom & Ethnicity in US Cinema\";\"Race, Ethnicity, & Stardom in US Cinema\";\"The Situation Comedy\";... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/global-media-studies-minor.html"
+}

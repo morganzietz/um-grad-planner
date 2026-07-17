@@ -1,0 +1,1271 @@
+{
+  "generatedAt": "2026-07-08T19:28:17.854Z",
+  "source": "https://lsa.umich.edu/lsa/academics/majors-minors.html",
+  "counts": {
+    "majors": 72,
+    "minors": 117,
+    "subs": 21
+  },
+  "programs": [
+    {
+      "slug": "actuarial_mathematics",
+      "name": "Actuarial Mathematics",
+      "kind": "sub-major",
+      "description": ""
+    },
+    {
+      "slug": "afroamerican_and_african_studies",
+      "name": "Afroamerican and African Studies",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "afroamerican_and_african_studies",
+      "name": "Afroamerican and African Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "american_culture",
+      "name": "American Culture",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "american_culture",
+      "name": "American Culture",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "anthropology",
+      "name": "Anthropology",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "anthropology",
+      "name": "Anthropology",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "arab_and_muslim_american_studies",
+      "name": "Arab and Muslim American Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "arabic_studies",
+      "name": "Arabic Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "archaeology",
+      "name": "Archaeology",
+      "kind": "sub-major",
+      "description": ""
+    },
+    {
+      "slug": "archaeology_of_the_ancient_mediterranean",
+      "name": "Archaeology of the Ancient Mediterranean",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "archaeology_of_the_ancient_mediterranean",
+      "name": "Archaeology of the Ancient Mediterranean",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "architecture",
+      "name": "Architecture",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "art_and_design",
+      "name": "Art & Design",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "arts_and_ideas_in_the_humanities",
+      "name": "Arts & Ideas in the Humanities",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "asian_languages_and_cultures",
+      "name": "Asian Languages and Cultures",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "asian_studies",
+      "name": "Asian Studies",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "asian_studies",
+      "name": "Asian Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "asian_pacific_islander_american_studies",
+      "name": "Asian/Pacific Islander American Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "astronomy_and_astrophysics",
+      "name": "Astronomy and Astrophysics",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "astronomy_and_astrophysics",
+      "name": "Astronomy and Astrophysics",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "biochemistry",
+      "name": "Biochemistry",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "biochemistry_bs",
+      "name": "Biochemistry [B.S.]",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "biological_anthropology",
+      "name": "Biological Anthropology",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "biology",
+      "name": "Biology",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "biology",
+      "name": "Biology",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "general_biology",
+      "name": "Biology, Health, and Society",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "biomolecular_science_ab_or_bs",
+      "name": "Biomolecular Science [A.B. or B.S.]",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "biophysics",
+      "name": "Biophysics",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "biophysics_bs",
+      "name": "Biophysics [B.S.]",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "biophyschology_cognition_and_neuroscience_bcn",
+      "name": "Biopsychology, Cognition, and Neuroscience (BCN)",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "biotechnology-and-bioenvironmental-sciences",
+      "name": "Biotechnology and Bioenvironmental Sciences",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "bosnian_croatian_serbian_literature_and_culture",
+      "name": "Bosnian/Croatian/Serbian, Literature and Culture",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "business",
+      "name": "Business",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "cell_and_molecular_biology_and_biomedical_engineering",
+      "name": "Cellular and Molecular Biomedical Science",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "chemistry",
+      "name": "Chemistry",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "chemistry",
+      "name": "Chemistry",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "civil_engineering",
+      "name": "Civil Engineering",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "classical_civilization",
+      "name": "Classical Civilization",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "classical_civilization",
+      "name": "Classical Civilization",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "classical_languages",
+      "name": "Classical Languages",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "classical_languages_and_literatures",
+      "name": "Classical Languages and Literatures",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "climate_and_space_sciences_and_engineering",
+      "name": "Climate and Space Sciences and Engineering",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "cognitive_science",
+      "name": "Cognitive Science",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "communication_studies",
+      "name": "Communication and Media",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "community_action_and_social_change",
+      "name": "Community Action and Social Change",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "comparative_culture_and_identity_cci",
+      "name": "Comparative Culture & Identity (CCI)",
+      "kind": "sub-major",
+      "description": ""
+    },
+    {
+      "slug": "comparative_literature_arts_and_media",
+      "name": "Comparative Literature, Arts, and Media",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "complex_systems",
+      "name": "Complex Systems",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "computer_science",
+      "name": "Computer Science",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "computer_science",
+      "name": "Computer Science",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "computing_for_expression",
+      "name": "Computing for Expression",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "computing_for_scientific_discovery",
+      "name": "Computing for Scientific Discovery",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "creative_writing",
+      "name": "Creative Writing",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "creative_writing_and_literature",
+      "name": "Creative Writing and Literature",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "crime_and_justice",
+      "name": "Crime and Justice",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "culture_and_media",
+      "name": "Culture and Media",
+      "kind": "sub-major",
+      "description": ""
+    },
+    {
+      "slug": "cultures_and_literatures_of_eastern_europe",
+      "name": "Cultures and Literatures of Eastern Europe",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "czech_language_literature_and_culture",
+      "name": "Czech Language, Literature, and Culture",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "dance",
+      "name": "Dance",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "data_science",
+      "name": "Data Science",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "data_science",
+      "name": "Data Science",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "digital_studies",
+      "name": "Digital Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "disability-studies",
+      "name": "Disability Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "drama",
+      "name": "Drama",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "drama",
+      "name": "Drama",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "dutch_language_and_culture",
+      "name": "Dutch Language and Culture",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "earth_and_environmental_sciences",
+      "name": "Earth and Environmental Sciences",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "earth_sciences",
+      "name": "Earth Sciences",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "east_european_studies",
+      "name": "East European and Eurasian Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "ecology_and_evolutionary_biology",
+      "name": "Ecology and Evolutionary Biology (EEB)",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "ecology_and_evolutionary_biology_eeb",
+      "name": "Ecology, Evolution, and Biodiversity (EEB)",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "economics",
+      "name": "Economics",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "economics",
+      "name": "Economics",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "education_for_empowerment",
+      "name": "Education for Empowerment",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "electrical_engineering",
+      "name": "Electrical Engineering",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "energy_and_science_policy",
+      "name": "Energy Science and Policy Minor",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "english",
+      "name": "English",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "english",
+      "name": "English",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "entrepreneurship",
+      "name": "Entrepreneurship",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "environment",
+      "name": "Environment",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "environment",
+      "name": "Environment",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "environment_and_conservation",
+      "name": "Environment and Conservation",
+      "kind": "sub-major",
+      "description": ""
+    },
+    {
+      "slug": "environmental_justice",
+      "name": "Environmental Justice",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "epistemology_and_philosophy_of_science",
+      "name": "Epistemology and Philosophy of Science",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "ethnic_studies",
+      "name": "Ethnic Studies",
+      "kind": "sub-major",
+      "description": ""
+    },
+    {
+      "slug": "screen_arts_and_cultures",
+      "name": "Film, Television, and Media",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "food_and_the_environment",
+      "name": "Food and the Environment",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "french_and_francophone_studies",
+      "name": "French and Francophone Studies",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "french_and_francophone_studies",
+      "name": "French and Francophone Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "gender_and_health",
+      "name": "Gender and Health",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "gender_and_health",
+      "name": "Gender and Health",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "gender_race_and_nation",
+      "name": "Gender, Race, and Nation",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "general_studies",
+      "name": "General Studies",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "geology",
+      "name": "Geology",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "geospatial_science",
+      "name": "Geospatial Science",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "german",
+      "name": "German",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "german_studies",
+      "name": "German Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "global_environment_and_health_geh",
+      "name": "Global Environment & Health (GEH)",
+      "kind": "sub-major",
+      "description": ""
+    },
+    {
+      "slug": "global_history",
+      "name": "Global History",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "global_media_studies",
+      "name": "Global Media Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "global_theatre_and_ethnic_studies",
+      "name": "Global Theatre and Ethnic Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "greek_ancient_language_and_literature",
+      "name": "Greek (Ancient) Language and Literature",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "greek_modern_language_and_culture",
+      "name": "Greek (Modern) Language and Culture",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "greek_modern_language_and_culture",
+      "name": "Greek (Modern) Language and Culture",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "history",
+      "name": "History",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "history",
+      "name": "History",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "history_of_art",
+      "name": "History of Art",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "history_of_art",
+      "name": "History of Art",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "history_of_law_and_policy",
+      "name": "History of Law and Policy",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "history_of_medicine_and_health",
+      "name": "History of Medicine and Health",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "honors_mathematics",
+      "name": "Honors Mathematics",
+      "kind": "sub-major",
+      "description": ""
+    },
+    {
+      "slug": "human_anatomy_and_physiology",
+      "name": "Human Anatomy and Physiology",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "human_origins_biology_and_behavior",
+      "name": "Human Origins, Biology, and Behavior",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "interdisciplinary_astronomy",
+      "name": "Interdisciplinary Astronomy",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "interdisciplinary_astronomy_ba_or_bs",
+      "name": "Interdisciplinary Astronomy (B.A. or B.S.)",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "interdisciplinary_chemical_sciences_ics_ab_or_bs",
+      "name": "Interdisciplinary Chemical Sciences (ICS) [A.B. or B.S.]",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "interdiscplinary_physics_ab_or_bs",
+      "name": "Interdisciplinary Physics (A.B. or B.S.)",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "intergroup_relations_education",
+      "name": "Intergroup Relations Education",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "international_security_norms_and_cooperation_isnc",
+      "name": "International Security, Norms & Cooperation (ISNC)",
+      "kind": "sub-major",
+      "description": ""
+    },
+    {
+      "slug": "international_studies",
+      "name": "International Studies",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "international_studies",
+      "name": "International Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "islamic_studies",
+      "name": "Islamic Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "italian",
+      "name": "Italian",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "italian",
+      "name": "Italian",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "judaic_studies",
+      "name": "Judaic Studies",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "judaic_studies",
+      "name": "Judaic Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "latin_american_and_caribbean_studies",
+      "name": "Latin American and Caribbean Studies",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "latin_american_and_caribbean_studies",
+      "name": "Latin American and Caribbean Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "latin_language_and_literature",
+      "name": "Latin Language and Literature",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "latina_latino_studies",
+      "name": "Latina/Latino Studies",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "latina_o_studies",
+      "name": "Latina/o Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "law_justice_and_social_change",
+      "name": "Law, Justice, and Social Change",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "law_justics_and_social_change",
+      "name": "Law, Justice, and Social Change",
+      "kind": "sub-major",
+      "description": ""
+    },
+    {
+      "slug": "lesbian_gay_bisexual_transgender_queer_sexuality_studies",
+      "name": "Lesbian Gay Bisexual Transgender Queer Sexuality Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "linguistics",
+      "name": "Linguistics",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "linguistics",
+      "name": "Linguistics",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "mathematical_sciences",
+      "name": "Mathematical Sciences",
+      "kind": "sub-major",
+      "description": ""
+    },
+    {
+      "slug": "mathematics",
+      "name": "Mathematics",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "mathematics",
+      "name": "Mathematics",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "mathematics_of_finance_and_risk_management",
+      "name": "Mathematics of Finance and Risk Management",
+      "kind": "sub-major",
+      "description": ""
+    },
+    {
+      "slug": "medical_anthropology",
+      "name": "Medical Anthropology",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "medical_anthropology",
+      "name": "Medical Anthropology",
+      "kind": "sub-major",
+      "description": ""
+    },
+    {
+      "slug": "medieval_and_early_modern_studies",
+      "name": "Medieval and Early Modern Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "microbiology",
+      "name": "Microbiology",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "near_eastern_studies",
+      "name": "Middle East Studies",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "near_eastern_languages_and_cultures",
+      "name": "Middle East Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "middle_eastern_and_north_african_studies",
+      "name": "Middle Eastern and North African Studies",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "modern_middle_eastern_and_north_african_studies",
+      "name": "Modern Middle Eastern and North African Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "cell_and_molecular_biology",
+      "name": "Molecular, Cellular, and Developmental Biology",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "moral_and_political_philosophy",
+      "name": "Moral and Political Philosophy",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "multidisciplinary_design",
+      "name": "Multidisciplinary Design",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "museum_studies",
+      "name": "Museum Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "music",
+      "name": "Music",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "native_american_studies",
+      "name": "Native American Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "neuroscience",
+      "name": "Neuroscience",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "oceanography",
+      "name": "Oceanography",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "organizational_studies",
+      "name": "Organizational Studies",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "paleontology",
+      "name": "Paleontology",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "performing_arts_management",
+      "name": "Performing Arts Management and Entrepreneurship",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "pharmacology",
+      "name": "Pharmacology",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "philosophy",
+      "name": "Philosophy",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "general_philosophy",
+      "name": "Philosophy",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "philosophy_political_science_economics",
+      "name": "Philosophy, Politics, and Economics",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "physics",
+      "name": "Physics",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "physics",
+      "name": "Physics",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "playwriting",
+      "name": "Playwriting",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "polish",
+      "name": "Polish",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "polish_language_literature_and_culture",
+      "name": "Polish Language, Literature and Culture",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "political_economy_and_development_ped",
+      "name": "Political Economy & Development (PED)",
+      "kind": "sub-major",
+      "description": ""
+    },
+    {
+      "slug": "political_science",
+      "name": "Political Science",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "political_science",
+      "name": "Political Science",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "politics_law_and_economy",
+      "name": "Politics, Law, and Economy",
+      "kind": "sub-major",
+      "description": ""
+    },
+    {
+      "slug": "portuguese",
+      "name": "Portuguese",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "power_identity_and_inequality",
+      "name": "Power, Identity, and Inequality",
+      "kind": "sub-major",
+      "description": ""
+    },
+    {
+      "slug": "psychology_general_social_science",
+      "name": "Psychology",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "public_policy",
+      "name": "Public Policy",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "pure_mathematics",
+      "name": "Pure Mathematics",
+      "kind": "sub-major",
+      "description": ""
+    },
+    {
+      "slug": "quantitative_methods_social_sciences",
+      "name": "Quantitative Methods in the Social Sciences",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "religion",
+      "name": "Religion",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "romance_languages_and_literatures",
+      "name": "Romance Languages and Literatures",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "russian",
+      "name": "Russian",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "russian_language_literature_and_culture",
+      "name": "Russian Language, Literature, and Culture",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "russian_studies",
+      "name": "Russian Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "russian_east_european_and_eurasian_studies",
+      "name": "Russian, East European and Eurasian Studies",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "scandinavian_studies",
+      "name": "Scandinavian Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "science_technology_and_society_sts",
+      "name": "Science, Technology, and Society (STS)",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "screenwriting",
+      "name": "Screenwriting",
+      "kind": "sub-major",
+      "description": ""
+    },
+    {
+      "slug": "secondary_mathematics_teaching_certificate",
+      "name": "Secondary Mathematics Teaching Certificate",
+      "kind": "sub-major",
+      "description": ""
+    },
+    {
+      "slug": "social_class_and_inequality_studies",
+      "name": "Social Class and Inequality Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "social_media_analysis_and_design",
+      "name": "Social Media Analysis and Design",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "social_theory_and_practice",
+      "name": "Social Theory and Practice",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "sociology",
+      "name": "Sociology",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "sociology_and_social_work",
+      "name": "Sociology and Social Work",
+      "kind": "sub-major",
+      "description": ""
+    },
+    {
+      "slug": "health-and-society",
+      "name": "Sociology of Health & Medicine",
+      "kind": "sub-major",
+      "description": ""
+    },
+    {
+      "slug": "spanish",
+      "name": "Spanish",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "spanish_language_literature_and_culture",
+      "name": "Spanish Language, Literature, and Culture",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "statistics",
+      "name": "Statistics",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "statistics",
+      "name": "Statistics",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "sustainability",
+      "name": "Sustainability",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "design_and_production",
+      "name": "Theatre Design and Production",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "translation",
+      "name": "Translation",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "translation_studies",
+      "name": "Translation Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "ukrainian_language_literature_and_culture",
+      "name": "Ukrainian Language, Literature, and Culture",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "urban_studies",
+      "name": "Urban Studies",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "user_experience_design",
+      "name": "User Experience Design",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "water_and_the_environment",
+      "name": "Water and the Environment",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "womens_studies",
+      "name": "Women's and Gender Studies",
+      "kind": "major",
+      "description": ""
+    },
+    {
+      "slug": "wrtiting",
+      "name": "Writing",
+      "kind": "minor",
+      "description": ""
+    },
+    {
+      "slug": "yiddish_studies",
+      "name": "Yiddish Studies",
+      "kind": "minor",
+      "description": ""
+    }
+  ]
+}

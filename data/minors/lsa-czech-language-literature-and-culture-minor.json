@@ -1,0 +1,18 @@
+{
+  "id": "lsa-czech-language-literature-and-culture-minor",
+  "name": "Czech Language, Literature, and Culture Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 16 16 credits of courses, including CZECH 242 (4 credits) and 12 credits in courses selected from the following two categories, with at least 6 credits from category B.Category A: Courses on Central European Slavic Culture (no more than 6 credits from Category A may count in the minor):SLAVIC 225: Arts and Cultures of Central EuropeSLAVIC / RCHUMS 312: Central European CinemaSLAVIC 423: Central European Literature in the Twentieth CenturyStudents may count up to 3 credits of Third-Year Czech (CZECH 341 and 342) toward the minor.Category B: Courses on Czech culture, literature, and cinema (at least 6 credits are required from Category B):CZECH / FTVM 315: Czech CinemaCZECH 480: Supervised Czech ReadingCZECH 483: Czech Literature from the Middle Ages to the EnlightenmentCZECH 484: Modern Czech LiteratureSLAVIC 470: Topics in Cultural Studies of Central, Eastern, and Southern Europe (appropriate sections)SLAVIC 490: Issues of the Cultures of Eastern Europe (appropriate sections) Information for Prospective Students Current Students Faculty and Staff Alumni and Friends More about LSA About LSA How Do I Apply? News LSA Magazine Give Maps Student Resources Courses Academic Advising Majors and Minors Departments and Units Global Studies LSA Opportunity Hub Connect Social Media Update",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/czech-language-literature-and-culture-minor.html"
+}

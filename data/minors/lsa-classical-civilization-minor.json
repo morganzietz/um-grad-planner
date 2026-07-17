@@ -1,0 +1,18 @@
+{
+  "id": "lsa-classical-civilization-minor",
+  "name": "Classical Civilization Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 16 At least five additional courses (minimum 16 credits) in Classical Civilization. One of these must be another course from the prerequisite list above in the culture not chosen to fulfill the prerequisite. The remaining four must be (a) at the 300-level or above and (b) one must be at the 400-level.One of the 300-level courses in Classical Civilization may be substituted with any of the following:One 300-level course (minimum 3 credits) in Archaeology of the Ancient Mediterranean (ARCHAM)One course (minimum 3 credits) in Greek or Roman History (other than one taken as a prerequisite)One course in ancient Greek or Latin at the third-semester level or aboveGREEKMOD 325: Athens Present and PastOne CLCIV First-Year Seminar (either 120 or 121) Classical Civilization (Minor) (Fall 2024 - Summer 2026) Effective Fall 2024 Exclusions: The Academic minor in Classical Civilization is not open to students with a major in Classical Civilization or any other academic minor in the Department of Classical Studies. Advising Students interested in the Department's majors in Greek, Latin, Classical Languages and Literatures, Archaeology of the Ancient Mediterranean, Classical Civilization or Modern Greek major should check with the Department office for the name of the current advisor. Students interested in obtaining Teacher Certification in Latin should see the Elementary Latin Coordinator.The Department recommends that interested students see the department advisors as early as possible in order to plan their programs and avoid unnecessary scheduling conflicts.Students wishing to pursue a minor in Classical Studies must develop a specific plan for its completion in consultation with the Department's designated advisor . Grade Policies The department requires that a student earn a grade of at least C– in all language courses which are prerequisite for subsequent elections. A student should repeat any language course in which a D+ or lower grade is earned and which serves as a prerequisite to other courses which are to be elected. A grade of D+ signifies some achievement but denotes too weak a foundation for subsequent courses. Prerequisites Choose one broad introductory course (4 credits) on Greek or Roman culture from the following:CLCIV 101: The Ancient Greek WorldCLCIV 202: The Ancient Roman WorldHISTORY 200: Greece to 201 B.C.HISTORY 201:... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/classical-civilization-minor.html"
+}

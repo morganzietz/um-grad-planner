@@ -1,0 +1,18 @@
+{
+  "id": "lsa-native-american-studies-minor",
+  "name": "Native American Studies Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 At least 5 courses totaling 15 credits, at the 200-level or above. At least two courses (6 credits) must be elected at the 300-level or above.General Surveys: One course chosen from:AMCULT 216: Introduction to Native American Studies – Social ScienceNATIVEAM 217 / AMCULT 217: Introduction to Native American Studies – HumanitiesNATIVEAM 316 / AMCULT 316 / ANTHRCUL 315: Native American Peoples of North AmericaNATIVEAM 367 / AMCULT 367 / HISTORY 367: American Indian HistoryElectives: Additional credits in Native American Studies to bring minor total to 15 [Courses from Requirement 1 may not be used to meet Requirement 2]. Electives may be chosen from the following list:AMCULT 262 / RELIGION 262: Introductory Study of Native Religious TraditionsAMCULT 372: Hula (F17)AMCULT 301: Topics in American Culture, section subtitled “Native American Feminism”AMCULT 310: Topics in Ethnic Studies, section subtitled “Blacks, Indians, and the Making of America”AMCULT 333: Green Indigeneities (F17)AMCULT 428: Native American LiteratureAMCULT 496: Social Science Approaches to American Culture, section subtitled “Native American Mental Health”AMCULT 498: Capstone Seminar in American Culture, sections subtitled “Native American Autobiography,” “African American and Native American Women Writers”ANTHRARC 490: Ancient North America (F17)ENGLISH 407: Topics in English Language and Literature, section subtitled “Contemporary Native American Women Writers”HISTORY 496: Indians and Empires in North America (F17)NATIVEAM 322 / AMCULT 322: Intermediate OjibweNATIVEAM 323 / AMCULT 323: Intermediate OjibweNATIVEAM 328 / AMCULT 328 / ENGLISH 382: Native American LiteratureNATIVEAM 422 / AMCULT 422: Advanced OjibweNATIVEAM 423 / AMCULT 423: Advanced OjibweNATIVEAM 461 / AMCULT 461 / ANTHRCUL 461 / LING 461: Language, Culture, and Society in Native North AmericaRELIGION 262 / AMCULT 262: Introductory Study of Native Religious TraditionsSPANISH 472: Indigenous Peoples of the Americas (F17)Other courses, such as courses in other departments and special topics courses not listed above, may be taken with the approval of the Director of Native American Studies. These may include“Histories of Native American Women,”“19th-Century Native American Literature,”“Contemporary Native American Literature,”“Contemporary Literature by Native Americans.” Native American Studies... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/native-american-studies-minor.html"
+}

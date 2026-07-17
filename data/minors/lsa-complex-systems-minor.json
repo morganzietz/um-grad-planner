@@ -1,0 +1,18 @@
+{
+  "id": "lsa-complex-systems-minor",
+  "name": "Complex Systems Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 Students are required to elect 15 credits (typically 5 courses) as outlined below.A. Core Courses. We require students to take at least one of the following. CMPLXSYS 270: Introduction to Agent-Based ModelingCMPLXSYS 391 / POLSCI 391: Modeling Political ProcessesCMPLXSYS 401: History and Philosophy of Complex SystemsCMPLXSYS 511 / MATH 511: Theory of Complex SystemsB. Complex Systems Courses. Students must select at least two additional courses from the following list:CMPLXSYS 100: Complexity: From Simple Rules to Complex BehaviorCMPLXSYS 251 / SOC 251: Computational Social SciencesCMPLXSYS 270: Introduction to Agent-Based ModelingCMPLXSYS 325 / EEB 325: Memes, Measles and MisinformationCMPLXSYS 335: Introduction to Network ScienceCMPLXSYS 351: Introduction to Social Science DataCMPLXSYS 391 / POLSCI 391: Modeling Political ProcessesCMPLXSYS 401: History and Philosophy of Complex SystemsCMPLXSYS 425: Evolution in SilicoCMPLXSYS 430 / EEB 430: Modeling Infectious DiseasesCMPLXSYS 435 / EEB 435: Ecological NetworksCMPLXSYS 445 / BIOPHYS 445 / MATH 445 / PHYSICS 445: Entropy and Information: Concepts and ApplicationsCMPLXSYS 470 / PHYSICS 470: Experiments in Nonlinear DynamicsCMPLXSYS 489: Advanced Topics in Complex SystemsCMPLXSYS 511 / MATH 511: Theory of Complex SystemsCMPLXSYS 510 / MATH 550: Introduction to Adaptive SystemsCMPLXSYS 520 / PHYSICS 580 / MATH 552: Empirical Analysis of Nonlinear SystemsCMPLXSYS 530 / EPID 638: Computer Modeling of Complex SystemsCMPLXSYS 535 / PHYSICS 508: Network TheoryCMPLXSYS 541 / PHYSICS 413: Introduction to Nonlinear Dynamics and the Physics of ComplexityEEB 466 / CMPLXSYS 466/ MATH 466: Mathematical EcologyMO 410: Collective IntelligenceSOC 260 / CMPLXSYS 260: Tipping Points, Bandwagons and Cascades: From Individual Behavior to Social DynamicsC. Elective Courses. Students may select additional courses from Sections A or B or the following list to bring their minor credits to 15. One course not on this list may be counted with permission of the CSCS Director.BIOINF 540: Mathematics of Biological NetworksEEB 315 / ENVIRON 315: Ecology and Evolution of Infectious DiseasesEEB 480: Interrogating Data with ModelsEECS 492: Introduction to Artificial IntelligenceEPID 633: Introduction to mathematical modeling in epidemiology and public healthEPID 637: Systems modeling of behavior, social proces... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/complex-systems-minor.html"
+}

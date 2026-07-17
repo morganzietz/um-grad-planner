@@ -1,0 +1,18 @@
+{
+  "id": "lsa-computing-for-expression-minor",
+  "name": "Computing for Expression Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 17 Introductory Requirements (6 credits)COMPFOR 111: Computing’s Impact on Justice: From Text to the Web (3 credits)COMPFOR 121: Computing for Creative Expression (3 credits)Foundational Requirement (3 credits)COMPFOR 221: Python for Digital Media (3 credits)Depth Electives (at least two courses; a minimum of 5 credit hours) ALA 470: Applied Liberal Arts Topics, section titled \"Data Visualization\" (3 credits)COMPFOR 301: Topics in Computing for Humanities (3 credits)COMPFOR 302: Topics in Computing for Social Sciences (3 credits)COMPFOR 304: Topics in Computing for the Arts and Sciences (2-4 credits; variable) COMPFOR 325: Synthesis to Streaming: Music in Digital Culture (3 credits)DIGITAL 411 / ARCH 411 / UT 411: Becoming Digital (3 credits)PAT 204: Creative Coding for Music (3 credits) PAT 305: Video Game Music (2 credits) RCMUSIC 353: Fundamentals of Electronic Music (4 credits)UARTS 250: Interdisciplinary Innovation and Creative Thinking (4 credits)With advisor approval, COMPFOR 399: Independent Study in Computing for the Arts and Sciences may be used towards this requirement. If using COMPFOR 399, it must be elected for a minimum of 3 credits and cannot be used more than once. Capstone Requirement (3 credits)Students complete a capstone project where they learn about effective techniques for managing data or digital assets, and for managing large code projects. They will learn testing and validation techniques to make sure that they are building the right things in the right way. The goal is to manage computing integrated into their major field of study. This requirement is to be fulfilled within a student's junior or senior year. COMPFOR 451: Capstone in Computing for the Arts and Sciences (3 credits)Other coursework not represented here may be able to count towards the requirements of the minor. Students wishing to take alternative courses are encouraged to speak with an advisor to gain approval.",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/computing-for-expression-minor.html"
+}

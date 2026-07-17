@@ -1,0 +1,18 @@
+{
+  "id": "lsa-medieval-and-early-modern-studies-minor",
+  "name": "Medieval and Early Modern Studies Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 15 credit hours (and five courses), including at least two upper-division courses, in the medieval and early modern periods, chosen in consultation with the MEMS department advisor. These courses must includeGeographic area courses. Select one course from two of these five areas:African culturesAmerican culturesAsian culturesEuropean culturesMiddle Eastern culturesDisciplinary courses. Select one course from three of these four disciplines:historical studiesart historical or archaeological studieslanguage or literary studiesmusicological studiesA single course may count toward both geographic and disciplinary distribution requirements. With the approval of the department advisor, students whose major includes a medieval and early modern studies course in one of these disciplinary categories may substitute one course from a discipline different from that of the major. Information for Prospective Students Current Students Faculty and Staff Alumni and Friends More about LSA About LSA How Do I Apply? News LSA Magazine Give Maps Student Resources Courses Academic Advising Majors and Minors Departments and Units Global Studies LSA Opportunity Hub Connect Social Media Update",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/medieval-and-early-modern-studies-minor.html"
+}

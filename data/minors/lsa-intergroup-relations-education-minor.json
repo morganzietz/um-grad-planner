@@ -1,0 +1,18 @@
+{
+  "id": "lsa-intergroup-relations-education-minor",
+  "name": "Intergroup Relations Education Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 I. Introductory CourseALA 221: Introduction to Social Justice EducationII. Awareness and Knowledge (a minimum of one course required)ALA/EDUC/PSYCH/SOC 122: Intergroup DialoguesALA 170: Applied Liberal Arts Topics, section titled \"Social Identity, Social Inequality and Social Media\"ALA 220/PSYCH 213/SOC 218: Foundations of Intergroup RelationsALA 228/PSYCH 312/SOC 375: Intergroup Conflict and Coexistence: Religion, Ethnicity and CultureALA 284: Topics in Understanding Conflict through International DialogueThis category is designed to give students an opportunity to learn deeply about the beginning tools for working across difference. In each class, they learn introductory social science concepts about inequality and experience conflict by working across difference. Students will deepen their awareness and knowledge with an overview of historical and contemporary structures of inequality, and examines the theory behind how social identity groups form, and how bias develops (prejudice, stereotyping, and discrimination). The courses also explore how people develop an understanding of their own social identity group membership, how groups are impacted by privilege and power dynamics, and how to develop advocacy for groups to which one does not belong. III. Skill Building (a minimum of one course required)ALA/SOC 320/PSYCH 310: Processes of Intergroup Dialogue FacilitationALA 329: Qualitative and Quantitative Approaches in Research on Intergroup RelationsSOC 225: Project Community: Sociology in ActionSW 752: Intergroup Dialogues/Diversity, Dialogues and Social JusticeAn elective from another department pre-approved by an IGR advisorThese courses aim to develop specific skills for students who are interested in either developing their facilitation skills or their research skills.IV. Praxis (a minimum of one course required)ALA 270: Applied Liberal Arts Topics, section titled \"Intergroup Dialogue Facilitation\"ALA/SOC 321/EDUC 329/PSYCH 311: Practicum in Facilitating Intergroup Dialogues ALA 322/PSYCH/SOC 324: Advanced Practicum in Intergroup RelationsALA 323: IGR Directed Study (independent study)ALA 324/EDUC 325: Facilitation in Community SettingsALA 471: Leadership and Facilitation in Community BuildingThese courses emphasize praxis, the engagement of theory with practice and reflection.V. CapstoneALA 429/PSYCH 411/SOC 471: IGR C... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/intergroup-relations-education-minor.html"
+}

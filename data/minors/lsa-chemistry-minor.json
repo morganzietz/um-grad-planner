@@ -1,0 +1,18 @@
+{
+  "id": "lsa-chemistry-minor",
+  "name": "Chemistry Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 18 Core: CHEM 210/211.Electives: CHEM 215, CHEM 216, CHEM 241, CHEM 242, [CHEM 230 OR CHEM 260 OR BIOPHYS 370/CHEM 370 OR CHE 330* OR BIOMEDE 221*], CHEM 302 OR 303, CHEM 399 (3 credit max), CHEM 402, CHEM 419 OR 420 OR 421, CHEM 436, CHEM 447, CHEM 461, CHEM 463, CHEM 474, CHEM 482, CHEM 483, CHEM 511, CHEM 538 *CHE 330 or BIOMEDE 221 only fulfill this requirement for students in the College of Engineering. Students from all other schools/colleges may choose (CHEM 230, CHEM 260, or BIOPHYS 370/CHEM 370). If an Engineering student wishes to use CHE 330 or BIOMEDE 221 to complete this requirement, they should speak to a Chemistry advisor so that approval of the course can be noted on the audit. Constraints No more than one course counted toward the 18-credit Chemistry minor may also be used to meet a requirement for a major. (Requirements for a major, in this instance, include both the major requirements and major prerequisites.) If students have completed more than one Chemistry minor course (core or elective) that is also part of their majors, then they should share only one of these courses and must complete unique Chemistry minor electives to reach the 18 credit minimum for the minor. Chemistry (Minor) (Winter 2023 - Summer 2025) Effective Winter 2023 Exclusions: The Chemistry Academic Minor is not open to students concentrating in Biochemistry, Biomolecular Science, Interdisciplinary Chemical Sciences, Chemistry, Cell and Molecular Biology, Biology, General Biology, Neuroscience, Ecology and Evolutionary Biology, Plant Biology, and MicrobiologyStudents electing a minor within the Department of Chemistry may only elect ONE of the five minors offered by the Department. Advising Students develop a plan for the major in consultation with a program advisor. Those interested in a B.S. degree with a major in Chemical Science (120 credits) or the specialized program leading to the Bachelor of Science in Chemistry (124 credits) are urged to consult a program advisor during the freshman and/or sophomore years. Prospective majors are advised that further study in chemistry requires adequate performance in early chemistry courses (preferably B- or better) as well as in the mathematics and physics prerequisites. Students interested in an Honors degree should see the Chemistry Honors advisor. Appointments are scheduled online at www.lsa.u... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/chemistry-minor.html"
+}

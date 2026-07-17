@@ -1,0 +1,18 @@
+{
+  "id": "lsa-social-class-and-inequality-studies-minor",
+  "name": "Social Class and Inequality Studies Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 Foundational Course: WGS / SOC 216 — Thinking Class: Inequality in Media, Bodies, Environment, and More or SOC 242 — The Experience of Social Class in College and the CommunityOf the total 15 credits, at least six credits must be taken in Women's and Gender Studies.Electives: Four electives (12 credits) from a list of approved courses. At least two courses must be at the 300 level or above, with at least one at the 400 level. Courses in Women's StudiesWGS (WOMENSTD) / SOC 216: Thinking Class: Inequality in Media, Bodies, Environment, and MoreWGS 217 / ENGLISH 215: Intro to Women & Literature, section titled \"Narratives of Girlhood\"WGS (WOMENSTD) / NURS 220: Perspectives in Women's HealthWGS 222/ENGLISH 212: Narratives of GirlhoodWGS 250 (WOMENSTD 250): Race, Gender and NationWGS 265: Intro Transgender StudiesWGS (WOMENSTD) / PSYCH 297: Promoting Equity and Inclusion in the Academy and the WorkplaceWGS 304 / AAS 304: Gender & ImmigrationWGS 305/ALA 306: Interdisciplinary and Intersectional LGBTQ HealthWGS (WOMENSTD) / PSYCH 309: Psychology of Social Change: Gender and Global FeminismWGS (WOMENSTD) / ENGLISH 314: Gender and Sexuality Studies in Literature, section titled \"Narratives of Girlhood\"WGS (WOMENSTD) / ENGLISH 315: Women and Literature, section titled, \"Working-Class Women's Literature\"WGS 319 (WOMENSTD 319): Race, Class, and Women's Reproductive HealthWGS / AAS 323 / HISTORY 388: Black Feminist Thought and PracticeWGS 331 (WOMENSTD 331): Feminist Theoretical Perspectives in Gender and HealthWGS 335 (WOMENSTD 335): Gender and GlobalizationWGS (WOMENSTD) / AAS / HISTORY 337: Black Women in the U.S., Part II: Contemporary Perspective in the 20th and 21st CenturiesWGS 347/AAS 317/ENGLISH 307: Threads: What Does Clothing Have to Do with Race, Culture, Politics, and the Environment? (FA22 or later)WGS 348 / SOC 345: Sociology of SexualitiesWGS (WOMENSTD) / AAS 365: Global Perspectives on Gender, Health, and ReproductionWGS 374 (WOMENSTD 374): Race, Gender and IncarcerationWGS (WOMENSTD) / PSYCH 394: Sex, Sexuality and Public PolicyWGS 410 (WOMENSTD 410): Reproductive Justice: Legal and Ethical IssuesWGS (WOMENSTD) / AMCULT 411: Rednecks, Queers, and Country MusicWGS 417 (WOMENSTD 417): Race, Gender, & Mental Health in the 19th CenturyWGS 422/POLSCI 401: Feminist Political TheoryWGS (WOMENSTD) / ANTHRO 428: Sex Panics in the... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/social-class-and-inequality-studies.html"
+}

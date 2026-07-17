@@ -1,0 +1,18 @@
+{
+  "id": "lsa-polish-language-literature-and-culture-minor",
+  "name": "Polish Language, Literature and Culture Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 16 Polish language: POLISH 222, or equivalentPolish literature and culture: 6 credits in POLISH 214, 215, 314, 325, 326, 432, 450, SLAVIC 490*Electives:6 credits in SLAVIC 225, 240, 270, 312, 396, 423, 490 (appropriate sections*)HISTORY 330, 331Up to three credits of Third-Year Polish (POLISH 321 and 322) may be counted.See department for additional course options* (appropriate sections of SLAVIC 490 include “Rocks Kill Communism” and “Revolution in the Attic”)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/polish-language-literature-and-culture-minor.html"
+}

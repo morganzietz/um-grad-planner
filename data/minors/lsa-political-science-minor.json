@@ -1,0 +1,18 @@
+{
+  "id": "lsa-political-science-minor",
+  "name": "Political Science Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 In addition to the prerequisite courses, students who wish to complete the minor in Political Science must complete five POLSCI courses at the 300 level or above for a minimum of 15 credits.The minor in Political Science is a structured course of study. A sustained focus on two disciplinary subfields makes it possible for students to acquire this structure without completing a full major. Therefore, core courses in the minor must be taken in the same subfield (political theory, American politics, comparative politics, or world politics) as the prerequisite courses.Only three credits of Experiential and Independent Study credit may be included in the minor.",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/political-science-minor.html"
+}

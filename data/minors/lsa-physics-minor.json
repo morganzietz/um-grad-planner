@@ -1,0 +1,18 @@
+{
+  "id": "lsa-physics-minor",
+  "name": "Physics Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 18 1. Introductory Course Sequence:One of the following 100-level mechanics lectures: PHYSICS 140, PHYSICS 150, or PHYSICS 160One of the following 100-level mechanics labs: PHYSICS 141, PHYSICS 151, or PHYSICS 161One of the following 200-level E&M lectures: PHYSICS 240, PHYSICS 250, or PHYSICS 260One of the following 200-level E&M labs: PHYSICS 241, PHYSICS 251, or PHYSICS 2612. PHYSICS 340 or PHYSICS 3603. PHYSICS 390 and PHYSICS 391 Constraints Test Credit and the Physics MinorAlthough PHYSICS course credit may be awarded on Advanced Placement (AP) Physics or International Baccalaureate (IB) exams, LSA policy does not allow test credits to be counted toward the requirements of a minor. Students with physics test credit may have certain coursework waived, but must complete additional courses within the Physics department to total the minor's required minimum credits. Additional course selection(s) may include PHYSICS courses at the 300-level or above and are subject to approval by a department advisor.",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/physics-minor.html"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lsa-paleontology-minor",
+  "name": "Paleontology Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 Entry courses (3-6 credits required). The \"entry point\" into the minor may include paleontology-oriented courses (EARTH 103, 106, 125, 150) or geology-related courses (EARTH 116, 118&119, 120, 149, 201, 205, 206, 207).Core courses (4 credits required). EARTH 418 and 419 are required.Elective courses (remaining 5-8 credits). Students may choose from:EARTH 313, 431, 437, 438, 439, 444, 445, 498 (for 1-3, but no more than 3 credits), 506, 510, 511, 513, 536 (no more than 1 credit)ENVIRON 431EEB 390, 445or permission of advisor Paleontology (Minor) (Fall 2014 - Summer 2018) Effective Fall 2014 Exclusions: Not open to students electing the minor in Earth Sciences. Advising Students wishing to pursue a minor in the Department of Earth and Environmental Sciences must develop a specific plan for its completion in consultation with the department's designated advisor. Appointments are scheduled online www.lsa.umich.edu/earth/undergraduate Prerequisites None. Requirements Minimum Credits: 15 Entry courses (3-6 credits required). The \"entry point\" into the minor may include paleontology-oriented courses (EARTH 103, 106, 125, 150) or geology-related courses (EARTH 116, 118&119, 120, 149, 201, 205, 206, 207).Core courses (4 credits required). EARTH 418 and 419 are required.Elective courses (remaining 5-8 credits). Students may choose from:EARTH 313, 431, 437, 438, 439, 445, 498 (for 1-3, but no more than 3 credits), 506, 510, 511, 513, 536 (no more than 1 credit)ENVIRON 431EEB 390, 445or permission of advisor Paleontology Minor (Fall 2012-Summer 2014) Effective Fall 2012 - Summer 2014 A minor in Paleontology not open to students with any other minor in the Department of Earth and Environmental Sciences. The minor in Paleontology is designed for students interested in the history of life on Earth. Entry and core courses will provide students with insight into the major features of the fossil record, the methods used in historical sciences, and the theoretical issues dealt with by paleontologists. The advanced courses are meant to satisfy more specific interests. Prerequisites to the Minor None. Academic Minor Program At least 15 credits of courses, to be chosen from the following three categories as stated: Entry courses (3-6 credits required). The \"entry point\" into the minor may include paleontology-oriented courses (EARTH 103, 106, 125,... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/paleontology-minor.html"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lsa-italian-minor",
+  "name": "Italian Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 18 18 credits of courses in ITALIAN numbered ITALIAN 235 or higher, of which nine credits must be conducted in the Italian language.The 18 credits must include at least one course each at the 200-level beyond ITALIAN 233, the 300-level, and the 400-level.Three credits may be accepted from courses in a cognate field, selected in consultation with and approved by the department's advisor. Constraints ITALIAN 410 (Italian for Spanish Speakers) does not count toward the Italian minor requirements.",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/italian-minor.html"
+}

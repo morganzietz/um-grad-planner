@@ -1,0 +1,18 @@
+{
+  "id": "lsa-ukrainian-language-literature-and-culture-minor",
+  "name": "Ukrainian Language, Literature, and Culture Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 16 UKR 252: Second-Year Ukrainian12 credits in courses selected from the following two categories, with at least 6 credits from Category A.Category A: Ukrainian Language, Literature, and CultureUKR 320: Ukrainian PoetryUKR 351: 3rd Year Ukrainian IUKR 352: 3rd Year Ukrainian IIUKR 421: Directed Readings in Ukrainian LiteratureSLAVIC 290: Studies in E European Culture, section titled \"Cultures of Ukraine\" (F17)SLAVIC 490: Issues in the Cultures of Eastern Europe, section titled: \"Introduction to Ukrainian Culture\"UKR 320: Introduction to Ukrainian PoetryCategory B: Eastern European Slavic Culture (No more than 6 credits from this category)HISTORY 432: Medieval and Early Modern RussiaRUSSIAN 435: Cultural History of Russian JewsSLAVIC 240: Slavic FolkloreSLAVIC 261: Introduction to Baltic CulturesSLAVIC 270 / JUDAIC 271:",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/ukrainian-language-literature-and-culture-minor.html"
+}

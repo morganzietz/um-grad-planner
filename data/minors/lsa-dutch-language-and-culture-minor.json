@@ -1,0 +1,18 @@
+{
+  "id": "lsa-dutch-language-and-culture-minor",
+  "name": "Dutch Language and Culture Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 16 Required Dutch Language and Culture courses (10 credits):DUTCH 232: Second Year Dutch, or equivalent, 4 cr.DUTCH 325: Speaking (of) Flemish: the language and culture of Flanders, or equivalent, 3 cr. DUTCH/JUDAIC 351: Anne Frank in Context, 3 cr.Electives (6 credits): Two or more courses chosen from among:a. Netherlandic arts:DUTCH 491: section titled, \"Whose Style? Art, Culture, and Lifestyle Trends in Belgium.\", 3 cr.CARILLON 150: Performance for non SMTD students, 2 cr.HISTART 260: European Painting and Sculpture of the Seventeenth Century or alternative course covering Netherlandic art, 3 cr.DUTCH 339: Independent Study, 2-4 cr.b. Study abroad, not more than one course from, 3 cr.:STDABRD 356 (European Union Summer Program in Brussels and Leuven, Belgium)STDABRD 399 (European Union Summer Program in Amsterdam, Netherlands)STDABRD 400 (Social Sciences in Amsterdam, Netherlands)c. Diaspora studies and Race theory (the following courses link to Dutch and Belgian colonial history and Dutch Jewry):DUTCH 340: Amsterdam: Negotiating Tolerance, 3 cr.AAS 202: Introduction to African Diasporic Studies, 3 cr.HISTORY 357: Topics in African History, 3 cr.ANTHRCUL 414: Introduction to Caribbean Societies and Cultures, 3 cr.JUDAIC 360/MIDEAST 386: A Global History of the Jews of Spain, 3 cr. Information for Prospective Students Current Students Faculty and Staff Alumni and Friends More about LSA About LSA How Do I Apply? News LSA Magazine Give Maps Student Resources Courses Academic Advising Majors and Minors Departments and Units Global Studies LSA Opportunity Hub Connect Social Media Update",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/dutch_language_and_culture.html"
+}

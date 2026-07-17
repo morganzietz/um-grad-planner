@@ -1,0 +1,18 @@
+{
+  "id": "lsa-earth-sciences-minor",
+  "name": "Earth Sciences Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 One introductory Geology course must be taken from one of the following two groups:Group 1. Courses with laboratory: EARTH 116, 118&119, 120, 201, 218&219, 222&223.Group 2. Courses without laboratory (EARTH 119, 125, 135, 175, 205+206, 219)One General Interest course. Up to four additional credits may be elected from 200-level and up courses in Earth and Environmental Sciences, including 200-level courses listed in Category 1 (above).Upper-level Electives: The remainder of the credits for the minor must be elected from 300- and 400-level courses in Earth and Environmental Sciences. Earth Sciences (Minor) (Fall 2018 - Fall 2020) Effective Fall 2018 Exclusions: A minor in Earth Sciences is not open to students with any major or any other minor in the Department of Earth and Environmental Sciences. Advising Students wishing to pursue a minor in the Department of Earth and Environmental Sciences must develop a specific plan for its completion in consultation with the department's designated advisor. Appointments are scheduled online www.lsa.umich.edu/earth/undergraduate Prerequisites None. Requirements Minimum Credits: 15 One introductory Geology course must be taken from one of the following two groups:Group 1. Courses with laboratory: EARTH 116, 118&119, 120, 201, 219, 222&223.Group 2. Courses without laboratory (EARTH 119, 125, 135, 175, 205+206)One General Interest course. Up to four additional credits may be elected from 200-level and up courses in Earth and Environmental Sciences, including 200-level courses listed in Category 1 (above).Upper-level Electives: The remainder of the credits for the minor must be elected from 300- and 400-level courses in Earth and Environmental Sciences. Earth Sciences (Minor) (Fall 2012 - Summer 2018) Effective Fall 2012 Exclusions: A minor in Earth Sciences is not open to students with any major or any other minor in the Department of Earth and Environmental Sciences. Advising Students wishing to pursue a minor in the Department of Earth and Environmental Sciences must develop a specific plan for its completion in consultation with the department's designated advisor. Appointments are scheduled online www.lsa.umich.edu/earth/undergraduate Prerequisites None. Requirements Minimum Credits: 15 One introductory Geology course must be taken from one of the following two groups:Group 1. Courses wi... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/earth-sciences-minor.html"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lsa-arab-and-muslim-american-studies-minor",
+  "name": "Arab and Muslim American Studies Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 At least one course must be at the 300- or 400-level, and at least three courses must be taken in American Culture (AMCULT) or Arab American Studies (ARABAM).Survey courses: Any 200-level ARABAM course.Electives. At least two additional courses (6 credits) offered by American Culture/Arab American Studies providing interdisciplinary study of Arab and/or Muslim American histories, literatures, and cultures, chosen from the list below or selected in consultation with and approved by the Arab and Muslim American Studies minor advisor:AMCULT 311: Topics in Ethnic Studies, section titled “Camels, Kabobs and Kahlil: Arab American Cultural Studies”AMCULT 498: Capstone Seminar in American Culture, section titled “Why Do They Hate Us: Perspectives on 9/11”ARABAM 236 / AMCULT 236: Muslims in AmericaARABAM / AMCULT 248: Arab America: Art, Cultural Politics, and ActivismARABAM 290 / AMCULT 290: Arab American LiteratureARABAM 311: Arab American Studies and the Humanities, section titled “Camels, Kabobs and Kahlil: Arab American Cultural Studies”ARABAM / AMCULT 330: Camels, Kabobs, and Kahlil Gibran: Arab American Cultural StudiesARABAM 390 / AMCULT 390: Internship in Arab and Muslim American StudiesARABAM 498: Capstone Seminar in Arab American Studies, section titled “Why Do They Hate Us: Perspectives on 9/11”Electives. Two additional courses (6 credits) in American Culture/Arab American Studies, or in another department. These electives may be chosen from the list below or selected in consultation with and approved by an American Culture advisor.Courses in other departments providing comparative, transnational, or broader perspectives on Arab and Muslim Americans.ANTHRCUL 409: Peoples and Cultures of the Near East and North AfricaASIAN 324 / HISTORY 325 / MIDEAST 375 / MEMS 325 / RELIGION 325: The History of Islam in South AsiaENGLISH 280: Introduction to Digital Cultures, section titled “Writing Islam”ENGLISH 317: Literature and Culture, section titled “Arab American Literature”HISTART 285 / MIDEAST 285: Visual Culture Islam HISTORY 241: America and Middle Eastern WarsHISTORY 243 / MENAS 243: Islamic World HistoryHISTORY 324: Muslims in Contemporary EuropeHISTORY 325 / MIDEAST 375 / ASIAN 324 / MEMS 325 / RELIGION 325: The History of Islam in South AsiaHISTORY 443 / MIDEAST 487: Modern Middle East HistoryHISTORY 449: Topics in Middle Ea... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/arab-and-muslim-american-studies-minor.html"
+}

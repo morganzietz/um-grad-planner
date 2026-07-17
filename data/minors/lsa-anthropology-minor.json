@@ -1,0 +1,18 @@
+{
+  "id": "lsa-anthropology-minor",
+  "name": "Anthropology Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 16 At least five courses (no fewer than 16 credits) in one \"track\" to be chosen from the following tracks, as described below.Sociocultural Anthropology One general introduction to anthropology: ANTHRCUL 101 or 222.One upper-level course in anthropological theory from those designated Sociocultural Anthropology- Theory/Method.Three anthropology courses, chosen in consultation with the advisor. At least one must be at the 400-level, one must be a regional course.Linguistic Anthropology One general introduction to anthropology; ANTHRCUL 101 is recommended.ANTHRCUL 272.At least three upper-level courses from those listed under Linguistic Anthropology.Anthropological ArchaeologyANTHRARC 282.ANTHRARC 385 or 386.Three additional regularly offered courses in anthropological archaeology, two of which must be 300-level or above, chosen from ANTHRARC 258, 285, 283, 284, 381, 382, 383, 385, 386, 392, 394, 407, 442, 482, 484, 490, or 495.Other less regularly taught courses in anthropological archaeology may also be used. Consult the department advisor for more information. Field courses (ANTHRARC 400 or 487) and Independent Reading and Research (ANTHRARC 499) may not be used toward the minor. Information for Prospective Students Current Students Faculty and Staff Alumni and Friends More about LSA About LSA How Do I Apply? News LSA Magazine Give Maps Student Resources Courses Academic Advising Majors and Minors Departments and Units Global Studies LSA Opportunity Hub Connect Social Media Update",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/anthropology-minor.html"
+}

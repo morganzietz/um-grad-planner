@@ -1,0 +1,18 @@
+{
+  "id": "lsa-asian-pacific-islander-american-studies-minor",
+  "name": "Asian/Pacific Islander American Studies Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 Core Course: ASIANPAM 214 / AMCULT 214: Introduction to Asian/Pacific American StudiesElectives: Four courses (minimum of 12 credits). These courses may be taken from within, or from across, any of the three areas of specialty listed below that are regularly offered in A/PIA, as well as other 200- and 300-level courses occasionally offered in A/PIA. One of these four courses may be a 100-level course (e.g., Freshman Seminar on an A/PIA topic), while 200 and 300 level courses with A/PIA content offered in other departments can count if approved by the A/PIA Director:Historical Experience:ASIANPAM 314 / AMCULT 314 / HISTORY 378: History of Asian Americans in the U.S.ASIANPAM 317 / AMCULT 317.History of the Pacific Islands.appropriate sections of AMCULT 310: Topics in Ethnic Studies or AMCULT 496: Social Science Approaches to American Culture, chosen in consultation with, and approved by, the advisor.Cultural Expression:ASIANPAM 324 / AMCULT 324 / ENGLISH 381: Asian American Literature.ASIANPAM 325 / AMCULT 325 / ENGLISH 388: Pacific Literacy and Cultural Studies.appropriate sections of AMCULT 311: Topics in Ethnic Studies or AMCULT 498: Capstone Seminar in American Culture, chosen in consultation with, and approved by, the advisor.Contemporary Communities:ASIANPAM 305 / AMCULT 305: Asian Pacific American Community Service and LearningASIANPAM 346 / AMCULT 346: Asian American Communities and Social IssuesASIANPAM 347 / AMCULT 347: Pacific Islander American Communitiesappropriate sections of AMCULT 301: Topics in American Culture or 310: Topics in Ethnic Studies, chosen in consultation with, and approved by, the advisor. Asian/Pacific Islander American Studies Minor (Fall 2010-Fall 2012) Effective Date: Fall 2010-Fall 2012 A minor in Asian/Pacific American Studies is not open to students with any minor in the Department of American Culture. The minor in Asian/pacific Islander American Studies is intended for students who wish to develop a coherent understanding of the contributions of the Asian/Pacific Islander American presence in American life, history, and thought. Students wishing to pursue a minor in Asian/Pacific American Studies must develop a specific plan for its completion in consultation with the Program's designated advisor. Appointments are scheduled online athttp://www.lsa.umich.edu/ac/undergraduate/. Prerequisites... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/asian-pacific-islander-american-studies-minor.html"
+}

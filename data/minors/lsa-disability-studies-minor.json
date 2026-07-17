@@ -1,0 +1,18 @@
+{
+  "id": "lsa-disability-studies-minor",
+  "name": "Disability Studies Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 Required Courses (6 credits)ENGLISH 216: Introduction to Disability StudiesENGLISH 480: Advanced Topics in Disability Studies Electives (9 credits) Courses taken at the 200-level and above from an approved list. Students interested in taking a course not on the list should first speak with a program advisor.",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/disability-studies-min.html"
+}

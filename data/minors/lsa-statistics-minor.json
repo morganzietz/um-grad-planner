@@ -1,0 +1,18 @@
+{
+  "id": "lsa-statistics-minor",
+  "name": "Statistics Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 Core courses: Introductory Statistics (DATASCI 101 or STATS 206 or STATS 250 or STATS 280 or STATS 412)Statistical Computing (STATS 306 or STATS 406) Linear Regression (STATS 401 or STATS 413).Elective statistics courses: At least two advanced electives. Approved electives include STATS 315, 406, 415, 425, 426, 430, 449, 451, 470, 480. Constraints One elective may be a quantitative methods course with advanced statistical content offered by another department, either from a pre-approved list or with approval from a Statistics Department undergraduate advisor.The following courses may not be used as electives for the Statistics Minor: STATS 404, 489 and 499.STATS 412 may be used as a core course, but not as an elective.",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/statistics-minor.html"
+}

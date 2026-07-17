@@ -1,0 +1,423 @@
+{
+  "id": "lsa-cell-and-molecular-biology",
+  "name": "Molecular, Cellular, and Developmental Biology",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 120,
+  "requirements": [
+    {
+      "id": "whatif-rq-1843",
+      "label": "120 Total Credits",
+      "hint": "All credits completed at U-M plus posted transfer credit.",
+      "need": 120,
+      "countMode": "credits",
+      "category": "lsa-credit-min",
+      "matchAll": true
+    },
+    {
+      "id": "whatif-rq-5600",
+      "label": "100 LSA Credits",
+      "hint": "Credits from courses recognized by LSA (most U-M courses except some SI offerings and other school-specific courses).",
+      "need": 100,
+      "countMode": "credits",
+      "category": "lsa-credit-min",
+      "excludeTags": [
+        "non-lsa"
+      ],
+      "matchAll": true
+    },
+    {
+      "id": "whatif-rq-1842",
+      "label": "60 BS-Eligible Credits (for BS students only)",
+      "hint": "Only counts for students pursuing a Bachelor of Science.",
+      "need": 60,
+      "countMode": "credits",
+      "category": "lsa-credit-min",
+      "matchTag": "lsa-bs"
+    },
+    {
+      "id": "whatif-rq-6715",
+      "label": "90 Credits Excluding Experiential and Independent Study Courses",
+      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "need": 90,
+      "countMode": "credits",
+      "category": "lsa-credit-min",
+      "excludeTags": [
+        "experiential",
+        "independent-study"
+      ],
+      "matchAll": true
+    },
+    {
+      "id": "whatif-rq-1850",
+      "label": "60 Credits outside Biology",
+      "hint": "Credits earned in courses outside the Biology department(s).",
+      "need": 60,
+      "countMode": "credits",
+      "category": "lsa-credit-min",
+      "excludeTags": [
+        "subj-biology",
+        "subj-eeb",
+        "subj-mcdb"
+      ],
+      "matchAll": true
+    },
+    {
+      "id": "whatif-rq-4955",
+      "label": "90 Credits of Graded Course Work, Including Transfer and Test",
+      "hint": "At least 90 credits must carry a letter grade (transfer and test credit included).",
+      "need": 90,
+      "countMode": "credits",
+      "category": "lsa-credit-min",
+      "matchAll": true
+    },
+    {
+      "id": "whatif-rq-1802",
+      "label": "60 Credits of In-Residence Course Work (AA Campus and U-M Study Abroad)",
+      "hint": "Credits taken on the Ann Arbor campus or through an approved U-M study abroad program.",
+      "need": 60,
+      "countMode": "credits",
+      "category": "lsa-credit-min",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "matchAll": true
+    },
+    {
+      "id": "whatif-rq-18022",
+      "label": "30 Credits Taken While Enrolled in LSA",
+      "hint": "Credits earned while officially enrolled in LSA (as opposed to another U-M college).",
+      "need": 30,
+      "countMode": "credits",
+      "category": "lsa-credit-min",
+      "excludeTags": [
+        "ap-credit",
+        "non-lsa"
+      ],
+      "matchAll": true
+    },
+    {
+      "id": "whatif-rq-5347",
+      "label": "First Year Writing Requirement",
+      "hint": "one course required",
+      "need": 1,
+      "countMode": "count",
+      "category": "lsa-college-wide",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "matchTag": "lsa-fywr"
+    },
+    {
+      "id": "whatif-rq-5348",
+      "label": "Upper Level Writing Requirement",
+      "hint": "one course required",
+      "need": 1,
+      "countMode": "count",
+      "category": "lsa-college-wide",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "matchTag": "lsa-ulwr"
+    },
+    {
+      "id": "whatif-rq-5349",
+      "label": "Race and Ethnicity Requirement",
+      "hint": "one course required",
+      "need": 1,
+      "countMode": "count",
+      "category": "lsa-college-wide",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "matchTag": "lsa-race-ethnicity"
+    },
+    {
+      "id": "whatif-rq-5351",
+      "label": "Quantitative Reasoning Requirement",
+      "hint": "1 QR1 or 2 QR2 courses required",
+      "need": 1,
+      "countMode": "count",
+      "category": "lsa-college-wide",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "matchTag": "lsa-qr"
+    },
+    {
+      "id": "whatif-rq-5350",
+      "label": "Language Requirement",
+      "hint": "one 4th term course required, C- minimum, or one course where proficiency is presumed",
+      "need": 1,
+      "countMode": "count",
+      "category": "lsa-college-wide",
+      "matchTag": "lsa-language"
+    },
+    {
+      "id": "lsa-dist-humanities",
+      "label": "Area Distribution: 7 Credits in Humanities",
+      "hint": "From approved HU-designated courses.",
+      "need": 7,
+      "countMode": "credits",
+      "category": "lsa-distribution",
+      "matchTag": "lsa-humanities",
+      "excludeTags": [
+        "ap-credit"
+      ]
+    },
+    {
+      "id": "lsa-dist-natural-sciences",
+      "label": "Area Distribution: 7 Credits in Natural Sciences",
+      "hint": "From approved NS-designated courses.",
+      "need": 7,
+      "countMode": "credits",
+      "category": "lsa-distribution",
+      "matchTag": "lsa-natural-sciences",
+      "excludeTags": [
+        "ap-credit"
+      ]
+    },
+    {
+      "id": "lsa-dist-social-sciences",
+      "label": "Area Distribution: 7 Credits in Social Sciences",
+      "hint": "From approved SS-designated courses.",
+      "need": 7,
+      "countMode": "credits",
+      "category": "lsa-distribution",
+      "matchTag": "lsa-social-sciences",
+      "excludeTags": [
+        "ap-credit"
+      ]
+    },
+    {
+      "id": "lsa-add-dist-choose-3",
+      "label": "Additional Distribution: complete 3 areas",
+      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "need": 3,
+      "countMode": "count",
+      "category": "lsa-add-distribution",
+      "pickFromGroups": [
+        "lsa-add-dist-humanities",
+        "lsa-add-dist-natural-sciences",
+        "lsa-add-dist-social-sciences",
+        "lsa-add-dist-math-symbolic",
+        "lsa-add-dist-creative-expression",
+        "lsa-add-dist-interdisciplinary"
+      ]
+    },
+    {
+      "id": "lsa-add-dist-humanities",
+      "label": "Additional 3 Credits in Humanities",
+      "hint": "Beyond the initial 7 cr Humanities.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-humanities",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 7
+    },
+    {
+      "id": "lsa-add-dist-natural-sciences",
+      "label": "Additional 3 Credits in Natural Sciences",
+      "hint": "Beyond the initial 7 cr Natural Sciences.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-natural-sciences",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 7
+    },
+    {
+      "id": "lsa-add-dist-social-sciences",
+      "label": "Additional 3 Credits in Social Sciences",
+      "hint": "Beyond the initial 7 cr Social Sciences.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-social-sciences",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 7
+    },
+    {
+      "id": "lsa-add-dist-math-symbolic",
+      "label": "3 Credits in Mathematical & Symbolic Analysis",
+      "hint": "From approved MSA-designated courses.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-math-symbolic",
+      "excludeTags": [
+        "ap-credit"
+      ]
+    },
+    {
+      "id": "lsa-add-dist-creative-expression",
+      "label": "3 Credits in Creative Expression",
+      "hint": "From approved CE-designated courses.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-creative-expression",
+      "excludeTags": [
+        "ap-credit"
+      ]
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary",
+      "label": "3 Credits in Interdisciplinary",
+      "hint": "From approved ID-designated courses.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ]
+    },
+    {
+      "id": "whatif-rq-900011",
+      "label": "Sequence A: BIOLOGY 171, (172 or 174), & 173",
+      "hint": "",
+      "need": 3,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "BIOLOGY 171",
+        "BIOLOGY 172",
+        "BIOLOGY 174",
+        "BIOLOGY 173"
+      ]
+    },
+    {
+      "id": "whatif-rq-900012",
+      "label": "Sequence B: BIOLOGY 195 (AP) & 173",
+      "hint": "",
+      "need": 2,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "BIOLOGY 195",
+        "BIOLOGY 173"
+      ]
+    },
+    {
+      "id": "whatif-rq-900013",
+      "label": "Sequence C: BIOLOGY 191 (transfer credit), 192, & 173",
+      "hint": "",
+      "need": 3,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "BIOLOGY 191",
+        "BIOLOGY 192",
+        "BIOLOGY 173"
+      ]
+    },
+    {
+      "id": "whatif-rq-900014",
+      "label": "CHEM 210 & 211",
+      "hint": "",
+      "need": 2,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "CHEM 210",
+        "CHEM 211"
+      ]
+    },
+    {
+      "id": "whatif-rq-900015",
+      "label": "CHEM 215 & 216",
+      "hint": "",
+      "need": 2,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "CHEM 215",
+        "CHEM 216"
+      ]
+    },
+    {
+      "id": "whatif-rq-900016",
+      "label": "Fundamentals of Cell Biology",
+      "hint": "Choose 1 of: BIOLOGY 272, BIOLOGY 205, or BIOLOGY 290",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "BIOLOGY 272",
+        "BIOLOGY 205",
+        "BIOLOGY 290"
+      ]
+    },
+    {
+      "id": "whatif-rq-900017",
+      "label": "BIOLOGY 305: Genetics",
+      "hint": "",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "BIOLOGY 305"
+      ]
+    },
+    {
+      "id": "whatif-rq-900018",
+      "label": "Introductory Biochemistry",
+      "hint": "Choose 1 of: MCDB 310, BIOLCHEM 415, or CHEM 351",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "MCDB 310",
+        "BIOLCHEM 415",
+        "CHEM 351"
+      ]
+    },
+    {
+      "id": "whatif-rq-900019",
+      "label": "Molecular Biology",
+      "hint": "Choose 1 of: MCDB 427 or MCDB 428",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "MCDB 427",
+        "MCDB 428"
+      ]
+    },
+    {
+      "id": "whatif-rq-900020",
+      "label": "Group I",
+      "hint": "Advanced MCDB Laboratory Courses: 2 courses",
+      "need": 2,
+      "countMode": "count",
+      "category": "core",
+      "matchAll": true
+    },
+    {
+      "id": "whatif-rq-900021",
+      "label": "Group II",
+      "hint": "Advanced MCDB Courses: 2 courses",
+      "need": 2,
+      "countMode": "count",
+      "category": "core",
+      "matchAll": true
+    },
+    {
+      "id": "whatif-rq-10572",
+      "label": "Major Credits: minimum 31 credits",
+      "hint": "",
+      "need": 31,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchAll": true
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/molecular-cellular-and-developmental-biology-major.html"
+}

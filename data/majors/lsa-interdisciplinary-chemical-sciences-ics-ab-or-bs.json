@@ -1,0 +1,143 @@
+{
+  "id": "lsa-interdisciplinary-chemical-sciences-ics-ab-or-bs",
+  "name": "Interdisciplinary Chemical Sciences (ICS) [A.B. or B.S.]",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 120,
+  "requirements": [
+    {
+      "id": "whatif-rq-1843",
+      "label": "120 Total Credits",
+      "hint": "All credits completed at U-M plus posted transfer credit.",
+      "need": 120,
+      "countMode": "credits",
+      "category": "lsa-credit-min",
+      "matchAll": true
+    },
+    {
+      "id": "whatif-rq-5600",
+      "label": "100 LSA Credits",
+      "hint": "Credits from courses recognized by LSA (most U-M courses except some SI offerings and other school-specific courses).",
+      "need": 100,
+      "countMode": "credits",
+      "category": "lsa-credit-min",
+      "excludeTags": [
+        "non-lsa"
+      ],
+      "matchAll": true
+    },
+    {
+      "id": "whatif-rq-1842",
+      "label": "60 BS-Eligible Credits (for BS students only)",
+      "hint": "Only counts for students pursuing a Bachelor of Science.",
+      "need": 60,
+      "countMode": "credits",
+      "category": "lsa-credit-min",
+      "matchTag": "lsa-bs"
+    },
+    {
+      "id": "whatif-rq-6715",
+      "label": "90 Credits Excluding Experiential and Independent Study Courses",
+      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "need": 90,
+      "countMode": "credits",
+      "category": "lsa-credit-min",
+      "excludeTags": [
+        "experiential",
+        "independent-study"
+      ],
+      "matchAll": true
+    },
+    {
+      "id": "whatif-rq-4955",
+      "label": "90 Credits of Graded Course Work, Including Transfer and Test",
+      "hint": "At least 90 credits must carry a letter grade (transfer and test credit included).",
+      "need": 90,
+      "countMode": "credits",
+      "category": "lsa-credit-min",
+      "matchAll": true
+    },
+    {
+      "id": "whatif-rq-1802",
+      "label": "60 Credits of In-Residence Course Work (AA Campus and U-M Study Abroad)",
+      "hint": "Credits taken on the Ann Arbor campus or through an approved U-M study abroad program.",
+      "need": 60,
+      "countMode": "credits",
+      "category": "lsa-credit-min",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "matchAll": true
+    },
+    {
+      "id": "whatif-rq-18022",
+      "label": "30 Credits Taken While Enrolled in LSA",
+      "hint": "Credits earned while officially enrolled in LSA (as opposed to another U-M college).",
+      "need": 30,
+      "countMode": "credits",
+      "category": "lsa-credit-min",
+      "excludeTags": [
+        "ap-credit",
+        "non-lsa"
+      ],
+      "matchAll": true
+    },
+    {
+      "id": "whatif-rq-5347",
+      "label": "First Year Writing Requirement",
+      "hint": "one course required",
+      "need": 1,
+      "countMode": "count",
+      "category": "lsa-college-wide",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "matchTag": "lsa-fywr"
+    },
+    {
+      "id": "whatif-rq-900000",
+      "label": "Upper Level Writing Requirement",
+      "hint": "one course required · C- or",
+      "need": 1,
+      "countMode": "count",
+      "category": "lsa-college-wide",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "matchTag": "lsa-ulwr"
+    },
+    {
+      "id": "whatif-rq-5349",
+      "label": "Race and Ethnicity Requirement",
+      "hint": "one course required",
+      "need": 1,
+      "countMode": "count",
+      "category": "lsa-college-wide",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "matchTag": "lsa-race-ethnicity"
+    },
+    {
+      "id": "whatif-rq-5351",
+      "label": "Quantitative Reasoning Requirement",
+      "hint": "1 QR1 or 2 QR2 courses required",
+      "need": 1,
+      "countMode": "count",
+      "category": "lsa-college-wide",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "matchTag": "lsa-qr"
+    },
+    {
+      "id": "whatif-rq-5350",
+      "label": "Language Requirement",
+      "hint": "one 4th term course required, C- minimum, or one course where proficiency is presumed",
+      "need": 1,
+      "countMode": "count",
+      "category": "lsa-college-wide",
+      "matchTag": "lsa-language"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/interdisciplinary-chemical-sciences-major.html"
+}

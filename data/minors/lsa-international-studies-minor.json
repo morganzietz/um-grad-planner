@@ -1,0 +1,18 @@
+{
+  "id": "lsa-international-studies-minor",
+  "name": "International Studies Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 18 Students are required to complete a minimum of 18 credits of coursework, exclusive of language study. These courses must include the following:A geographic emphasis composed of three courses devoted to a single world region or country. At least two of the three geographic courses must be 300-level or above.A thematic emphasis composed of three courses devoted to a given theme or topic (e.g., international conflict and security, human rights, music and ethnomusicology). At least two of the three thematic courses must be 300-level or above.Geographic and thematic course selections must be approved by an International Studies advisor. Each three-course set must possess intellectual coherence, and there must also be a clear and logical connection between the focus of the selected geographic and thematic courses.INTLSTD 401: International Studies Advanced Topics Seminar is a variable content course designed to bring an interdisciplinary perspective to the study of a topic of international significance. This course should be taken after junior year and is considered a capstone course for the minor.PICS Language Requirement for the Minor. Sixth-term proficiency in a language other than English must be obtained prior to graduation; therefore, students should begin the language sequence early.Language study is a vital part of any liberal arts education and students who major in International Studies should be well prepared to work in environments overseas, or in companies or organizations that interact regularly with people from other countries. The PICS language requirement will benefit students in broadening their skills and their vision of the world. Language fluency signals a deep level of expertise and commitment to international affairs to potential employers and graduate admissions committees.Please see PICS website for further information about the sixth-term language requirement.Education Abroad. An international experience, either in the form of a study abroad, research project, or internship program is strongly encouraged. An International Studies advisor, in cooperation with the Center for Global and Intercultural Study (CGIS), will assist students in identifying education abroad opportunities consistent with their needs and interests.Limited funding will be made available to students in the International Studies minor to... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/international-studies-minor.html"
+}

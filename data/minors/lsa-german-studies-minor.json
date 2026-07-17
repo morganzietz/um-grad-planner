@@ -1,0 +1,18 @@
+{
+  "id": "lsa-german-studies-minor",
+  "name": "German Studies Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 18 18 credits of courses at the level of GERMAN 230 or 232 or higher are required.12 of the 18 credits must be taught in German and must include either GERMAN 325 or 326 (or RCLANG 321).At least one of the courses must be numbered 400 or above. Constraints AP/IB credits will count as prerequisites only and cannot count toward the 18 credits of the German minor.4 credits from GERMAN 230/RCLANG 291 will count toward the German minor.Independent studies should not count for German-language credit.Translation courses (GERMAN 470 and 472) should count as if taught in the German language. German Studies (Minor) (Winter 2017 - Fall 2018) Effective Winter 2017 Exclusions: A minor in German Studies is not open to students with a German major . Advising Students wishing to pursue a minor in German Studies must develop a specific plan for its completion in consultation with Kalli Federhofer or Andrew Mills, the department advisors. Appointments are scheduled online at www.lsa.umich.edu/german/undergrad/advising. Grade Policies Students must earn a grade of C- or better in all required courses. Prerequisites GERMAN 221, 231, RCLANG 191, or the equivalent (AP/IB score, placement test, transfer credits). Requirements Minimum Credits: 18 18 credits of courses at the level of GERMAN 230 or 232 or higher are required.The 18 credits must include either GERMAN 325 or 326 (or RCLANG 321), and at least four courses within the 18 credits must be taught in German. At least one of the courses must be numbered 400 or above. Constraints AP/IB credits will count as prerequisites only and cannot count toward the 18 credits of the German minor.4 credits from GERMAN 230/RCLANG 291 will count toward the German minor. German Studies Minor (Winter 2014 - Fall 2016) Effective Winter 2014 A minor in German Studies is not open to students with a German major The minor in German Studies provides students with an opportunity to gain and demonstrate competence in the German language above and beyond the level specified by the College language requirement. It also provides an opportunity for students to gain a deeper knowledge of a specific topic within the overarching discipline of German studies. Prerequisites to the Minor GERMAN 231 or equivalent, as determined by the Departmental placement examination. Requirements for the Minor 18 credits of courses at the level... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/german-studies-minor.html"
+}

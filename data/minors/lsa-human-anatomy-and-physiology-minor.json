@@ -1,0 +1,18 @@
+{
+  "id": "lsa-human-anatomy-and-physiology-minor",
+  "name": "Human Anatomy and Physiology Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 16 CORE REQUIREMENTANATOMY 403 PHYSIOLOGY 201 or 502 Choose one lab:ANATOMY 503 ANATOMY 510 PHYSIOLOGY 404 PHYSIOLOGY 505 ELECTIVES REQUIREMENTChoose one Anatomy elective: ANATOMY 303, 498, 499, 503, 510; ANTHRBIO 366; CDB 450/550; NEURO 470; NEUROSCI 570Choose one Physiology elective: PHYSIOL 306, 404, 405, 406/506, 415, 502, 505, 541; BIOLOGY 225 or 226; BIOMEDE 419Courses may only count once within the minor. If a student takes a course to meet a Core Requirement, they cannot use it to also meet the Electives Requirement. One of the two electives can be independent study through a research laboratory, directed reading, or project-based work in ANATOMY 498, 499; PHYSIOL 306, 405 The following courses will only count toward the minor if taken in this order: ANATOMY 303 before 403; PHYSIOL 201 before 502; PHYSIOL 404 before 505",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/human-anatomy-and-physiology-minor.html"
+}

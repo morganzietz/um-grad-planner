@@ -1,0 +1,18 @@
+{
+  "id": "lsa-geospatial-science-minor",
+  "name": "Geospatial Science Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 Introductory Courses Choose two of the following:EARTH 118 (1 credit)EARTH 119 (3 credits)EARTH 201 (4 credits)EARTH 202 (6 credits)EARTH 219 (3 credits)EARTH 225 (3 credits)EARTH 230 (3 credits)EARTH 240 (4 credits)Upper-Level Courses (1) EARTH 408 (4 credits)(2) One or more of the following to reach a minimum of 15 total credits:EARTH 314 (4 credits)EARTH 368 (4 credits)EARTH 440 (6 credits)EARTH 468 (3 credits)EARTH 484 (4 credits)Alternatives to the courses listed above may exist. Students should speak with a department advisor if interested in taking an alternative course to meet a minor requirement.",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/geospatial-science-minor.html"
+}

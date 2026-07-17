@@ -1,0 +1,18 @@
+{
+  "id": "lsa-gender-and-health-minor",
+  "name": "Gender and Health Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 Five courses totaling at least 15 credits, to be chosen from the following categories as stated:Foundational Course: WGS 220 (WOMENSTD) /NURS 220: Perspectives in Women's HealthElectives: Four electives from the listing below (at least two courses must be upper-level courses, with at least one at the 400-level). One of these courses must be an upper-level seminar and one must be from a transnational, global, or historical perspective as indicated below. (A single course may satisfy more than one of these requirements).WOMENSTD 212 / HS 225: Global Perspectives on the HIV and AIDS EpidemicWGS 222/ENGLISH 212: Narratives of GirlhoodWGS 225 (WOMENSTD) / PSYCH 225: Psychology of Human SexualityWGS 233 (WOMENSTD) / AMCULT 233: Genes and SocietyWGS 239 (WOMENSTD) / AMCULT 239: Gender, Sexuality, and Health in AmericaWGS 242 (WOMENSTD) / AMCULT 242: Gender Violence in a Global Context WGS 252: Special Topics, section titled \"Feminist Research Methods\"WGS 291 (WOMENSTD) / PSYCH 291: Introduction to the Psychology of Women and GenderWGS 296 (WOMENSTD) / HISTORY / PSYCH 296: Gender, Sex Differences, and Addiction: Girls Gone WildWGS 300 (WOMENSTD 300): Men's HealthWGS 305 (WOMENSTD 305) / ALA 306: Interdisciplinary & Intersectional LGBTQ HealthWGS 307 (WOMENSTD 307) / ANTHRCUL / RCSSCI 327: Critical Theory in Medicine and HealingWOMENSTD 320: Gender and Mental HealthWGS 324 (WOMENSTD 324) / ANTHRCUL 325: Childbirth and CultureWGS 328 (WOMENSTD) / AAS 328: Women, Agency and Sexual SafetyWGS 342 (WOMENSTD 342): Special Topics in Gender and HealthWGS 356 (WOMENSTD) / HISTORY 356 / AMCULT 331: Health in America: Patterns, Experiences, Inequalities WGS 365 (WOMENSTD) / AAS 365: Global Perspectives on Gender, Health, and ReproductionWGS 377: Topics in Gender and Social Science, section titled \"In Sickness and in Health: Medical Anthropologies of Kinship, Relatedness, and the Human\"WGS 394 (WOMENSTD) / PSYCH 394: Adolescent Sexuality WGS 400 (WOMENSTD 400): Women's Reproductive HealthWGS 402 (WOMENSTD 402): Gender and Health PolicyWOMENSTD / HS 404: Gender Based Violence: From Theory to ActionWGS 405 (WOMENSTD 405): Pharma, Pills, & PolicyWGS 407 (WOMENSTD 407): IntersexualitiesWGS 408 Gender and Health in East Asia: Historical and Contemporary PerspectivesWGS 410 (WOMENSTD 410): Reproductive Justice: Legal and Ethical IssuesWGS 412 (WOMENSTD... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/gender-and-health-minor.html"
+}

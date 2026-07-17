@@ -1,0 +1,18 @@
+{
+  "id": "lsa-wrtiting-minor",
+  "name": "Writing Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 WRITING 220: Intro to the Minor in Writing – gateway course, which must be taken in the student's first or second full semester after being accepted into the minor.One of the following courses:DIGITAL / WRITING 200: Writing with Digital and Social MediaENGLISH 225: Academic ArgumentationENGLISH 229: Professional WritingENGLISH 325: Art of the EssayLSWA 230: Writing and the Arts IITwo Upper-Level Writing Requirement courses, one of which may be shared with a majorWRITING 420: Minor in Writing Capstone – capstone course Writing (Minor) (Winter 2018 - Fall 2025) Effective Winter 2018 Advising Students must apply to and be accepted by the Sweetland Center for Writing in order to declare the Minor in Writing. Applications are accepted twice a year, in March and October.General questions about the minor should be sent to sweetlandwritingminor@umich. edu. To meet with an advisor regarding course selections, progress-to-degree and your minor release, schedule an appointment online by selecting Minor in Wrtg from the drop down menu in Sweetland's scheduling system.Sweetland Center for Writing Departmental InformationLearn more about this center’s undergraduate course offerings and the various types of writing support available to all student writers at the University of Michigan. Grade Policies Students must have completed their First-Year Writing Requirement with a grade of C or higher.Engineering students must have completed Engineering 100 with a grade of C or higher.Students must complete the courses applied toward the minor with an average minimum GPA of 3.3. Prerequisites Students must have completed their First-Year Writing Requirement with a grade of C or higher. Engineering students must have completed Engineering 100 with a grade of C or higher. Transfer students can complete the FYWR with a transfer course approved by Sweetland.Students must have at least three full terms remaining in their academic program.Students must be able to enroll in WRITING 220: Introduction to the Minor in their first semester in the Minor.Applications will be considered twice a year, in March and October. Students must apply to and be accepted by the Sweetland Center for Writing in order to declare the Minor in Writing. Requirements Minimum Credits: 15 WRITING 220: Intro to the Minor in Writing – gateway course, which must be taken in the student... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/writing-minor.html"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lsa-cultures-and-literatures-of-eastern-europe-minor",
+  "name": "Cultures and Literatures of Eastern Europe Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 At least fifteen credits elected in the following courses in Eastern European Literatures and Cultures, of which only one course may be below the 300-level. Students may take as many courses as they like in one of the two groups, but must elect a minimum of six credits in the other group:Group A:POLISH 214, 215, 314, 325, 326;CZECH 315, 484;BCS 436;SLAVIC 225, 240, 245 (W19), 261 (W19), 270, 281, 312, 470, 471 (W19), 481, 488, 490.Group B:SLAVIC 313, 315, 316;RUSSIAN 231, 322, 346, 347, 348, 356, 358, 361, 375 (W19), 444, 450, 453, 454, 460, 462, 463, 464, 466, 467, 468, 469, 473, 474. Cultures and Literatures of Eastern Europe Minor (Fall 2012) The minor in Cultures and Literatures of Eastern Europe is not open to those electing any other academic minor in the department of Slavic Languages and Literatures. Students may concurrently pursue an academic minor in both REES and Slavic with the following restrictions: REES minors may not count any courses for which Slavic is the home unit Slavic minors may not count REES 397 or any courses for which REES is the home unit, which includes SLAVIC 395 and 396. Cultures and Literatures of Eastern Europe Effective Fall 2012 The academic minor in Cultures and Literatures of Central Europe is intended for students interested in developing their knowledge and understanding of Slavic studies but who are unable to dedicate time to language study to complete a rigorous program of study. This academic minor affords such students the opportunity to build their new interest into a recognized program of academic study with a framework that would enable coordinated study over several terms. This program has been designed specifically for students who have either: become interested in Slavic studies later in their academic careers and are thus unable to complete a language requirement; or demanding concentration programs that do not include flexibility to take on an extensive course of language study but are interested in the literatures and culture of Eastern Europe. The academic minor is divided between Russian Studies, and Polish, BCS, Czech, Eastern-European Jewish studies, and cross-cultural Slavic studies (reflecting the overall distribution of course offerings in the Dept). Students must take courses from both of these groups, and may choose to specialize in Russian studies, or in one or mo... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/cultures-and-literatures-of-eastern-europe-minor.html"
+}

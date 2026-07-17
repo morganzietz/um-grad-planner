@@ -1,0 +1,18 @@
+{
+  "id": "lsa-modern-middle-eastern-and-north-african-studies-minor",
+  "name": "Modern Middle Eastern and North African Studies Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 At least 15 credits of courses, chosen in consultation with and approved by advisor:A 400-level history courseA 400-level social science course in either Anthropology, Political Science, or SociologyMENAS 493Courses must be distributed over three of the following disciplines: 3rd year of middle eastern language, anthropology, history, history of art, middle eastern literature, political science, religion, sociology or women's studies. Constraints Elementary and intermediate-level language courses in Middle East Studies may not count toward the minor.",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/modern-middle-eastern-and-north-african-studies-minor.html"
+}

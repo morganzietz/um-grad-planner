@@ -1,0 +1,18 @@
+{
+  "id": "lsa-dance-minor",
+  "name": "Dance Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements text not yet loaded. See the sponsoring department for the authoritative list.",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://smtd.umich.edu/department/department-of-dance/"
+}

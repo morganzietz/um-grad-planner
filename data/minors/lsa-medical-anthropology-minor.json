@@ -1,0 +1,18 @@
+{
+  "id": "lsa-medical-anthropology-minor",
+  "name": "Medical Anthropology Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 16 At least five courses (no fewer than 16 credits), to be chosen from the following categories as stated. The minor must include at least two courses at the 300-level or above.Core: ANTHRCUL 244, Introduction to Medical Anthropology: Systems of Health and HealingArea and topical courses. Choose four courses from the following list:ANTHRBIO 297: Topics in Biological Anthropology, section titled, \"The Ghost in Your Genes: Epigenetics\" (F18)ANTHRBIO 342 / ANTHRCUL 342: Nature/Culture Now!ANTHRCUL 254: The Anthropology of Food (only if elected FA21 or later)ANTHRCUL 341: The Globalization of Biomedicine (only if elected FA20 or later)ANTHRBIO 363: Genes, Disease, CultureANTHRBIO 364: Nutrition & EvolutionANTHRBIO 462: Human Growth and Development across the Life CycleANTHRCUL 232: Genes, Genealogies, Identities: Anthropological PerspectivesANTHRCUL 256: Culture, Adaptation and EnvironmentANTHRCUL 258: Honors Seminar in Anthropology. section subtitled \"Culture & Medicine\"ANTHRCUL 325 / WGS 324 (WOMENSTD 324): Childbirth & CultureANTHRCUL / RCSSCI 327: Critical Theory in Medicine and HealthANTHRCUL 341: The Globalization of Biomedicine (F18)ANTHRCUL / ANTHRBIO 342: Nature/Culture Now!ANTHRCUL 352: Anthropology of the BodyANTHRCUL / HISTART 354. Art: Science, and TechnologyANTHRCUL / HISTORY / AAS 355: Health & Illness in African WorldsANTHRCUL 408 / AAS 409: Maternal/Child Health & Environmental Pollution in AfricaANTHRCUL 337 (437): The Anthropology of Death, Dying, and the Afterlife ANTHRCUL 458: Topics in Sociocultural and Linguistic Anthropology, sections titled \"Contested Illness&Anthro Theories of the Body\" or \"Environmental Health & Inequality in Mexico City\" (F18)AAS / HISTORY / ANTHRCUL 355: Health & Illness in African WorldsAAS / WGS 365 (WOMENSTD 365): Global Perspectives on Gender, Health, & ReproductionAAS 409 / ANTHRCUL 408: Maternal/Child Health & Environmental Pollution in AfricaHISTART / ANTHRCUL 354: Art, Science, and TechnologyHISTORY / AAS / ANTHRCUL 355: Health & Illness in African WorldsNURSING 225 / WGS (WOMENSTD) 212: The Global HIV/AIDS Epidemic (only if elected before FA21)RCSSCI / ANTHRCUL 327: Critical Theory in Medicine and HealthWGS (WOMENSTD) / ANTHRCUL / NURSING 225: The Global HIV/AIDS EpidemicWGS 324 (WOMENSTD 324) / ANTHRCUL 325: Childbirth & CultureWGS (WOMENSTD) / AAS 365: Global Perspectives on G... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/medical-anthropology-minor.html"
+}

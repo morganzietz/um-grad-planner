@@ -1,0 +1,18 @@
+{
+  "id": "lsa-russian-language-literature-and-culture-minor",
+  "name": "Russian Language, Literature, and Culture Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 16 RUSSIAN 202 or 203 or 223 or RCLANG 293, and12 additional credits in courses selected from among the following, with at least 6 credits elected at the upper level:RUSSIAN 231, 301, 302, 303, 322, 323, 333, 346, 347, 348, 358, 361, 365, 375, 391, 450, 451, 453, 462, 463, 464, 466, 469, 474, 475, 478, 479, 480, 499SLAVIC 240, 313, 315, and 316. Russian Language, Literature, and Culture (Minor) (Winter 2013 - Fall 2019) Effective Winter 2013 Exclusions: Not open to those who are electing a concentration in Russian, East European, and Eurasian Studies. Students could concurrently pursue this academic minor with one in REES with the following restrictions: (1). REES academic minors may not count any course for which Slavic is the home unit. (2). Slavic academic minors may not count REEES 397 or any course for which REES is the home unit, which includes SLAVIC 395 and 396. Advising Students wishing to pursue an academic minor in the Department of Slavic Languages and Literatures must develop a specific plan for its completion in consultation with the department's designated advisor, Michael Makin. Appointments are scheduled online at www.lsa.umich.edu/slavic/undergraduate/advising Prerequisites RUSSIAN 201 or equivalent. Requirements Minimum Credits: 17 RUSSIAN 202 or 203 or 223 or RCLANG 293, and12 additional credits in courses selected from among the following, with at least 6 credits elected at the upper level:RUSSIAN 231, 301, 302, 303, 322, 323, 333, 346, 347, 348, 358, 361, 365, 375, 391, 450, 451, 453, 462, 463, 464, 466, 469, 474, 475, 478, 479, 480, 499SLAVIC 240, 313, 315, and 316. Russian Language, Literature, and Culture Minor (Fall 2012) The minor in Russian Language, Literature, and Culture is not open to those electing any other minor in the department of Slavic Languages and Literatures. Students may concurrently pursue a minor in both REES and Slavic with the following restrictions: REES minors may not count any courses for which Slavic is the home unit Slavic minors may not count REES 397 or any courses for which REES is the home unit, which includes SLAVIC 395 and 396. Russian Language, Literature and Culture Effective Fall 2012 The minor in Russian Language, Literature, and Culture is designed to give students a fundamental competence in Russian language upon which they can build, as well as a knowledge of some... (see LSA for full text)",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/russian-language-literature-and-culture-minor.html"
+}

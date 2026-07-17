@@ -1,0 +1,18 @@
+{
+  "id": "lsa-yiddish-studies-minor",
+  "name": "Yiddish Studies Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 A minimum of 15 credits, to be chosen from the following categories as stated below, with at least three courses at the 300- level or above:Core Language: YIDDISH 201 and 202 (or JUDAIC 201 and 202), Intermediate Yiddish.Electives: A minimum of 9 credits selected from the list of approved electives, below.LanguageYIDDISH / JUDAIC 301: Advanced Yiddish IYIDDISH / JUDAIC 302: Advanced Yiddish IIJUDAIC 401: Readings in Yiddish Texts, section titled “Yiddish Culture Between Tradition and Modernity”LiteratureYIDDISH / JUDAIC 332: Yiddish Classics and ModernityYIDDISH / JUDAIC 433: Yiddish Classics and ModernityJUDAIC 205 / MIDEAST 276: What is Judaism?JUDAIC 218: Humanities Topics in Judaism, sections titled “Jewish American Short Stories”, and “Urban Cafes and Modern Jewish Culture”JUDAIC 271 / SLAVIC 270:",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/yiddish-studies-minor.html"
+}

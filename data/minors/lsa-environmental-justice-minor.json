@@ -1,0 +1,18 @@
+{
+  "id": "lsa-environmental-justice-minor",
+  "name": "Environmental Justice Minor",
+  "school": "College of Literature, Science, and the Arts",
+  "goalCredits": 15,
+  "requirements": [
+    {
+      "id": "minor-specific",
+      "label": "Minor requirements (from LSA)",
+      "hint": "Requirements Minimum Credits: 15 Foundational Course Requirement (choose one): ENVIRON 222: Introduction to Environmental JusticeENVIRON 242: Topics in Environmental Social Science with the topic, \"Indigenous Environmental Justice\"Students may use the course not taken to meet the Foundational Course Requirement as one of their Interdisciplinary Electives courses. Interdisciplinary Electives (at least 12 credits): Students elect interdisciplinary courses from a pre-approved course list that address environmental inequities from a disciplinary perspective (e.g. social sciences, humanities, geography) or a topical approach (e.g. water, land use, climate change). At least 6 credits must be 300-level or above.",
+      "need": 1,
+      "matchAll": true,
+      "countMode": "count",
+      "category": "minor-specific"
+    }
+  ],
+  "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/environmental-justice-minor.html"
+}
