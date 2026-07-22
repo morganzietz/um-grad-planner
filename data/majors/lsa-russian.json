@@ -372,47 +372,52 @@
       "matchCodes": [
         "RUSSIAN 347",
         "RUSSIAN 348",
-        "RUSSIAN 375"
+        "RUSSIAN 375",
+        "RCHUMS 347"
       ]
     },
     {
       "id": "whatif-rq-3793",
       "label": "Upper-Level Elective: Russian Literature & Culture Outside of the 19th Century",
-      "hint": "1 course. Options include RUSSIAN 315, 333, 361, 371, 391, or 551; other approved courses on Russian literature and culture outside the 19th century also count.",
+      "hint": "1 course on Russian literature or culture outside the 19th century. The bulletin's examples: RUSSIAN 333, 352, 361, 365, 391, 450, 467, 468, 469, 470, 471, 472, 475, SLAVIC 313, or SLAVIC 470. Other courses on Russian literature and culture outside the 19th century may count with advisor approval. Per the LSA bulletin Russian Major page, effective Winter 2022.",
       "need": 1,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
-        "RUSSIAN 315",
         "RUSSIAN 333",
+        "RUSSIAN 352",
         "RUSSIAN 361",
-        "RUSSIAN 371",
+        "RUSSIAN 365",
         "RUSSIAN 391",
-        "RUSSIAN 551"
+        "MEMS 391",
+        "RUSSIAN 450",
+        "RUSSIAN 467",
+        "RUSSIAN 468",
+        "RUSSIAN 469",
+        "RUSSIAN 470",
+        "RUSSIAN 471",
+        "RUSSIAN 472",
+        "RUSSIAN 475",
+        "SLAVIC 313",
+        "SLAVIC 470"
+      ],
+      "sources": [
+        "lsa.umich.edu/lsa/academics/majors-minors/russian-major.html"
       ]
     },
     {
       "id": "whatif-rq-10019",
       "label": "Cognate Requirement",
-      "hint": "Minimum 3 credits of advisor-approved advanced courses (300-level or above) outside the Slavic department that relate to the major.",
+      "hint": "Still building automatic checking for this rule. The major requires 3 or more credits in advanced courses (300-level or above) from one of three areas: a course studying some other aspect of Russia (the department points especially to Russian, East European, and Eurasian Studies offerings), another Slavic language (Czech, Bosnian, Croatian, and Serbian, Ukrainian, or Polish), or another foreign language. Per the LSA bulletin Russian Major page, effective Winter 2022. Until then, confirm progress with your advisor.",
       "need": 3,
       "countMode": "credits",
       "category": "core",
-      "matchTag": "upper-level",
-      "excludeTags": [
-        "subj-russian",
-        "subj-slavic",
-        "subj-polish",
-        "subj-czech",
-        "subj-ukr",
-        "subj-bcs",
-        "subj-armenian"
-      ]
+      "manual": true
     },
     {
       "id": "whatif-rq-3794",
       "label": "Major Total Credits",
-      "hint": "Minimum 27 credits. Includes all courses used toward the major requirements, including those from other departments (approved cognates count). Does not include any prerequisites.",
+      "hint": "Minimum 27 credits. Includes all courses used toward the major requirements, including those from other departments. Does not include any prerequisites. The planner counts the Russian Language and Literature track's core and elective courses from the LSA bulletin (effective Winter 2022); cognate credits and other advisor-approved courses from outside departments also count toward the 27 even though the planner cannot list them.",
       "need": 27,
       "countMode": "credits",
       "category": "major-credit-min",
@@ -420,25 +425,31 @@
         "RUSSIAN 301",
         "RUSSIAN 302",
         "RUSSIAN 303",
-        "RUSSIAN 315",
+        "RCLANG 323",
         "RUSSIAN 333",
-        "RUSSIAN 346",
         "RUSSIAN 347",
+        "RCHUMS 347",
         "RUSSIAN 348",
+        "RUSSIAN 352",
         "RUSSIAN 361",
-        "RUSSIAN 371",
+        "RUSSIAN 365",
         "RUSSIAN 375",
         "RUSSIAN 391",
+        "MEMS 391",
         "RUSSIAN 401",
         "RUSSIAN 402",
-        "RUSSIAN 430",
         "RUSSIAN 450",
         "RUSSIAN 451",
-        "RUSSIAN 491",
-        "RUSSIAN 492",
+        "RUSSIAN 467",
+        "RUSSIAN 468",
+        "RUSSIAN 469",
+        "RUSSIAN 470",
+        "RUSSIAN 471",
+        "RUSSIAN 472",
+        "RUSSIAN 475",
         "RUSSIAN 499",
-        "RUSSIAN 551",
-        "RCLANG 323"
+        "SLAVIC 313",
+        "SLAVIC 470"
       ]
     }
   ],

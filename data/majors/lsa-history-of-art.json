@@ -407,7 +407,9 @@
         "HISTART 402",
         "HISTART 480",
         "MUSEUMS 498",
-        "RCIDIV 272"
+        "RCIDIV 272",
+        "AAS 208",
+        "HISTART 208"
       ]
     },
     {
@@ -459,17 +461,22 @@
         "HISTART 345",
         "HISTART 347",
         "HISTART 426",
-        "MEMS 345"
+        "MEMS 345",
+        "ARCHAM 228",
+        "HISTART 228"
       ]
     },
     {
       "id": "histart-geo-sub-saharan-africa",
       "label": "Region: Sub-Saharan Africa",
-      "hint": "No current catalog offering carries this HISTART concentration distribution; check the department's course list for the term you plan to take it.",
+      "hint": "Per the department's HISTART distribution designations printed in the LSA Course Guide, HISTART 208 / AAS 208 (Introduction to African Art) carries the Sub-Saharan Africa designation. Some HISTART 393, 394, and 395 seminar topics also carry it in certain terms; check the department's course listings (hartgalleries.lsa.umich.edu) for the term you plan.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchCodes": []
+      "matchCodes": [
+        "AAS 208",
+        "HISTART 208"
+      ]
     },
     {
       "id": "histart-geo-asia",
@@ -487,7 +494,8 @@
         "HISTART 335",
         "HISTART 392",
         "HISTART 395",
-        "HISTART 497"
+        "HISTART 497",
+        "HISTART 294"
       ]
     },
     {
@@ -533,7 +541,9 @@
       "matchCodes": [
         "HISTART 241",
         "HISTART 320",
-        "HISTART 334"
+        "HISTART 334",
+        "AAS 208",
+        "HISTART 208"
       ]
     },
     {
@@ -554,7 +564,7 @@
     {
       "id": "histart-studio-course",
       "label": "Studio Course: 3 Credits",
-      "hint": "May be 100 level. Advisor approved only. Planner matches ARTDES and RCARTS studio courses; other advisor-approved studio work also counts.",
+      "hint": "One studio course of at least 3 credits at the 100 level or higher, taken at the School of Art & Design (Stamps), the Residential College, or the Taubman College of Architecture and Urban Planning, and approved by an advisor, per the LSA Bulletin History of Art major requirements (effective Fall 2023). The planner matches Stamps (ARTDES) and Residential College (RCARTS) studio courses in the catalog; Taubman studio courses and other advisor-approved studio work also count.",
       "need": 3,
       "countMode": "credits",
       "category": "core",
@@ -573,9 +583,6 @@
         "ARTDES 210",
         "ARTDES 220",
         "ARTDES 377",
-        "ARTDES 389",
-        "ARTDES 399",
-        "ARTDES 406",
         "RCARTS 210",
         "RCARTS 240",
         "RCARTS 250",
@@ -596,18 +603,24 @@
         "RCARTS 389",
         "RCARTS 390",
         "RCARTS 399"
+      ],
+      "sources": [
+        "lsa.umich.edu/lsa/academics/majors-minors/history-of-art-major.html"
       ]
     },
     {
       "id": "histart-cognate-courses",
       "label": "Cognate Courses: 3 Credits",
-      "hint": "Advisor approved only. 3 credits in a related department outside History of Art; planner approximates with humanities courses outside HISTART.",
+      "hint": "One additional advisor-approved course of at least 3 credits, selected from any discipline related to your particular interest in art history, per the LSA Bulletin History of Art major requirements (effective Fall 2023). The planner counts any 3 credits outside History of Art; confirm your choice with a History of Art advisor.",
       "need": 3,
       "countMode": "credits",
       "category": "core",
-      "matchTag": "lsa-humanities",
+      "matchAll": true,
       "excludeTags": [
         "subj-histart"
+      ],
+      "sources": [
+        "lsa.umich.edu/lsa/academics/majors-minors/history-of-art-major.html"
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "id": "lsa-computer-science",
+  "id": "lsa-computer-science-2",
   "name": "Computer Science",
   "school": "College of Literature, Science, and the Arts",
   "goalCredits": 120,
@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -55,7 +55,7 @@
       "countMode": "credits",
       "category": "lsa-credit-min",
       "excludeTags": [
-        "subj-eecs"
+        "cs-dept"
       ],
       "matchAll": true
     },
@@ -189,7 +189,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -199,7 +199,9 @@
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -278,9 +280,35 @@
       ]
     },
     {
-      "id": "whatif-rq-900011",
-      "label": "Discrete Math",
-      "hint": "Choose 1 of: EECS 203, MATH 465, or MATH 565",
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
+      "id": "whatif-rq-12593",
+      "label": "Pre-Declaration: Discrete Math",
+      "hint": "Choose 1 of: EECS 203, MATH 465, MATH 565. C or better.",
       "need": 1,
       "countMode": "count",
       "category": "prerequisites",
@@ -291,9 +319,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900012",
+      "id": "whatif-rq-12594",
       "label": "EECS 280: Programming and Introductory Data Structures",
-      "hint": "",
+      "hint": "Pre-declaration requirement. C or better.",
       "need": 1,
       "countMode": "count",
       "category": "prerequisites",
@@ -304,7 +332,7 @@
     {
       "id": "whatif-rq-12595",
       "label": "2 Approved MATH Courses",
-      "hint": "Calculus I, Calculus II, Linear Algebra, Multivariable Calculus, or Differential Equations. 1 approved math course must be completed prior to declaration, while the second approved math course may be completed after declaration",
+      "hint": "Calculus I, Calculus II, Linear Algebra, Multivariable Calculus, or Differential Equations. C or better. 1 approved math course must be completed prior to declaration; the second may be completed after declaration. AP calculus credit counts via its MATH 115/116 equivalency.",
       "need": 2,
       "countMode": "count",
       "category": "prerequisites",
@@ -313,24 +341,24 @@
         "MATH 116",
         "MATH 156",
         "MATH 186",
-        "MATH 217",
         "MATH 214",
-        "MATH 420",
-        "MATH 571",
         "MATH 215",
-        "MATH 285",
-        "MATH 316",
         "MATH 216",
+        "MATH 217",
+        "MATH 285",
         "MATH 286",
-        "MATH 404",
-        "MATH 454",
-        "MATH 572"
+        "MATH 295",
+        "MATH 296",
+        "MATH 316",
+        "MATH 417",
+        "MATH 419",
+        "MATH 420"
       ]
     },
     {
-      "id": "whatif-rq-900013",
+      "id": "cs-core-eecs-281",
       "label": "EECS 281: Data Structures and Algorithms",
-      "hint": "",
+      "hint": "Core course. C or better.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -339,9 +367,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900014",
+      "id": "cs-core-eecs-370",
       "label": "EECS 370: Introduction to Computer Organization",
-      "hint": "",
+      "hint": "Core course. C or better.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -350,9 +378,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900015",
+      "id": "cs-core-eecs-376",
       "label": "EECS 376: Foundations of Computer Science",
-      "hint": "",
+      "hint": "Core course. C or better.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -361,9 +389,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900016",
-      "label": "Probability & Statistics",
-      "hint": "Choose 1 of: STATS 206, STATS 250, STATS 280, STATS 412, STATS 426, STATS 265, IOE 265, ECON 451, or TO 301",
+      "id": "whatif-rq-12597",
+      "label": "Probability and Statistics",
+      "hint": "Choose 1 of: STATS 206, STATS 250, STATS 280, STATS 412, STATS 426, STATS 265, IOE 265, ECON 451, TO 301. C or better.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -380,40 +408,157 @@
       ]
     },
     {
-      "id": "whatif-rq-900017",
-      "label": "1 Capstone Course",
-      "hint": "",
+      "id": "whatif-rq-12599",
+      "label": "Capstone Course",
+      "hint": "One approved CS capstone (MDE) course, C or better. May not also be counted as a CS upper level technical elective. Approved: EECS 440, 441, 443 (Honors thesis), 447 (begins Winter 2027), 448, 449, 467, 472 (replaces EECS 470 as capstone starting Winter 2026), 473, 480, 494, 495, 497, CSE 596, and AEROSP 388 (CS approved projects only). EECS 498 counts only in sections CSE marks as MDE/Capstone. Per the CS course lists spreadsheet linked from the CS-LSA Program Guide, Fall 2025-Winter 2026.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchTag": "subj-eecs-upper"
+      "matchCodes": [
+        "EECS 440",
+        "EECS 441",
+        "EECS 443",
+        "EECS 447",
+        "EECS 448",
+        "EECS 449",
+        "EECS 467",
+        "EECS 472",
+        "EECS 473",
+        "EECS 480",
+        "EECS 494",
+        "EECS 495",
+        "EECS 497",
+        "EECS 498",
+        "CSE 596",
+        "AEROSP 388"
+      ],
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I"
+      ]
     },
     {
-      "id": "whatif-rq-3450",
-      "label": "Technical Electives for Computer Science: 15 Total Credits Required",
-      "hint": "",
-      "need": 15,
+      "id": "cs-ulcs-electives",
+      "label": "Upper-Level CS Technical Electives: 12 Credits",
+      "hint": "Minimum 12 credits from the approved upper level CS (ULCS) technical elective list, C or better per course. EECS 498 counts only in sections CSE marks as ULCS; EECS 404 begins Winter 2027. Per the CS course lists spreadsheet linked from the CS-LSA Program Guide, Fall 2025-Winter 2026.",
+      "need": 12,
       "countMode": "credits",
       "category": "core",
-      "matchTag": "subj-eecs-upper"
+      "matchCodes": [
+        "EECS 367",
+        "ROB 380",
+        "EECS 373",
+        "EECS 388",
+        "EECS 390",
+        "EECS 404",
+        "EECS 427",
+        "EECS 442",
+        "EECS 445",
+        "EECS 470",
+        "EECS 471",
+        "EECS 474",
+        "EECS 475",
+        "EECS 476",
+        "EECS 477",
+        "EECS 478",
+        "EECS 479",
+        "EECS 481",
+        "EECS 482",
+        "EECS 483",
+        "EECS 484",
+        "EECS 485",
+        "EECS 486",
+        "EECS 487",
+        "EECS 489",
+        "EECS 490",
+        "EECS 491",
+        "EECS 492",
+        "EECS 493",
+        "EECS 498"
+      ],
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I"
+      ]
     },
     {
       "id": "whatif-rq-12880",
-      "label": "15 Total ULCS Elective Credits Required",
-      "hint": "",
+      "label": "15 Total ULCS Elective Credits",
+      "hint": "15 total ULCS elective credits required, C or better per course. At least 12 credits must come from the ULCS list; the remaining 3 may come from the Expanded ULCS list: CSE 572, 574, 575, 577, EECS 444/ECE 544, EECS 453, 460, 461, 465/ROB 422, 553, and, beginning Winter 2026, any 500 level EECS or CSE course (the planner matches the 500 level courses in its catalog). Special topics EECS 498 and CSE 598 count only in sections CSE marks as ULCS or Expanded ULCS. Per the CS course lists spreadsheet linked from the CS-LSA Program Guide, Fall 2025-Winter 2026.",
       "need": 15,
       "countMode": "credits",
       "category": "core",
-      "matchTag": "subj-eecs-upper"
+      "matchCodes": [
+        "EECS 367",
+        "ROB 380",
+        "EECS 373",
+        "EECS 388",
+        "EECS 390",
+        "EECS 404",
+        "EECS 427",
+        "EECS 442",
+        "EECS 445",
+        "EECS 470",
+        "EECS 471",
+        "EECS 474",
+        "EECS 475",
+        "EECS 476",
+        "EECS 477",
+        "EECS 478",
+        "EECS 479",
+        "EECS 481",
+        "EECS 482",
+        "EECS 483",
+        "EECS 484",
+        "EECS 485",
+        "EECS 486",
+        "EECS 487",
+        "EECS 489",
+        "EECS 490",
+        "EECS 491",
+        "EECS 492",
+        "EECS 493",
+        "EECS 498",
+        "EECS 444",
+        "ECE 544",
+        "EECS 453",
+        "EECS 460",
+        "EECS 461",
+        "EECS 465",
+        "ROB 422",
+        "EECS 553",
+        "CSE 572",
+        "CSE 574",
+        "CSE 575",
+        "CSE 577",
+        "CSE 598",
+        "CSE 543",
+        "CSE 583",
+        "CSE 584",
+        "CSE 586",
+        "CSE 588",
+        "CSE 589",
+        "CSE 590",
+        "CSE 594",
+        "CSE 595",
+        "CSE 596",
+        "CSE 599",
+        "EECS 507",
+        "EECS 522",
+        "EECS 542",
+        "EECS 567",
+        "EECS 570"
+      ],
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I"
+      ]
     },
     {
-      "id": "whatif-rq-900018",
-      "label": "Upper-Level Major Credits",
-      "hint": "minimum 26 credits",
+      "id": "whatif-rq-3460",
+      "label": "Upper-Level Major Credits: 26",
+      "hint": "At least 26 credits of upper level (300 or above) EECS course work counted toward the major.",
       "need": 26,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchTag": "subj-eecs-upper"
+      "matchTag": "cs-major-upper"
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/computer-science-major.html"

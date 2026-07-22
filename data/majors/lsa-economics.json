@@ -369,17 +369,21 @@
     {
       "id": "whatif-rq-1876-3",
       "label": "Statistics",
-      "hint": "1 course from the department's approved list, C- or better. Approved options include STATS 250, STATS 280, STATS 412, STATS 426, ECON 451, and IOE 265.",
+      "hint": "1 course, C- or better: DATASCI 101, STATS 206, STATS 250, or STATS 280 (basic); STATS 426 or ECON 451 (intermediate); or ECON 453 (advanced). Per the Core Statistics and Econometrics list on the LSA bulletin Economics major page, which the Economics department's requirements page links to as the official list.",
       "need": 1,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
+        "DATASCI 101",
+        "STATS 206",
         "STATS 250",
         "STATS 280",
-        "STATS 412",
         "STATS 426",
         "ECON 451",
-        "IOE 265"
+        "ECON 453"
+      ],
+      "sources": [
+        "lsa.umich.edu/lsa/academics/majors-minors/economics-major.html"
       ]
     },
     {

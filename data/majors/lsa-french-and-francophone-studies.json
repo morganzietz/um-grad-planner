@@ -359,7 +359,7 @@
     {
       "id": "whatif-rq-10441",
       "label": "Major Total: 33 Credits",
-      "hint": "Includes all courses used toward the major requirements, with additional FRENCH 240 or above to reach 33 credits. Does not include prerequisites. Approved cognates from other departments can also count with advisor review. No more than 2 French taught in English courses may be used toward the major.",
+      "hint": "FRENCH 235 (Residential College students may substitute RCLANG 320) plus 30 credits of FRENCH courses numbered 240 and above, per the Romance Languages and Literatures department's French Major Worksheet, as of Fall 2025 (Undergraduate Program handouts: French Major Worksheet (as of FA25).pdf). Prerequisites do not count. No more than 2 French taught in English courses (FRENCH 240, 241, 244, 340, 341, 342, 343, 344, 345, 346, 444, 453) may count toward the major, and at most 9 credits from FRENCH 278, 281, 380, and 381. There is no general cognate option; RCLANG 320 is the only course outside FRENCH that counts.",
       "need": 33,
       "countMode": "credits",
       "category": "major-credit-min",
@@ -377,17 +377,28 @@
         "FRENCH 333",
         "FRENCH 335",
         "FRENCH 336",
+        "FRENCH 340",
+        "FRENCH 341",
+        "FRENCH 342",
+        "FRENCH 343",
+        "FRENCH 344",
         "FRENCH 345",
         "FRENCH 346",
         "FRENCH 347",
         "FRENCH 350",
         "FRENCH 363",
         "FRENCH 374",
+        "FRENCH 380",
         "FRENCH 381",
         "FRENCH 399",
+        "FRENCH 402",
         "FRENCH 444",
+        "FRENCH 453",
         "FRENCH 491",
         "FRENCH 492"
+      ],
+      "sources": [
+        "lsa.umich.edu/rll"
       ]
     },
     {
@@ -427,7 +438,7 @@
     {
       "id": "whatif-rq-10441-3",
       "label": "Ann Arbor Campus Residency: 1 Course",
-      "hint": "Minimum 1 course from FRENCH 350-379, FRENCH 402, or FRENCH 450-499, taken on the Ann Arbor campus.",
+      "hint": "One course from FRENCH 350 to 379 or FRENCH 450 to 499, taken on the Ann Arbor campus, per the department worksheet effective Fall 2025.",
       "need": 1,
       "countMode": "count",
       "category": "major-credit-min",
@@ -435,9 +446,9 @@
         "FRENCH 350",
         "FRENCH 363",
         "FRENCH 374",
-        "FRENCH 402",
         "FRENCH 491",
-        "FRENCH 492"
+        "FRENCH 492",
+        "FRENCH 453"
       ]
     }
   ],

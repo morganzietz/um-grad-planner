@@ -384,29 +384,111 @@
     {
       "id": "whatif-rq-11403",
       "label": "Physics Electives: 4 Courses",
-      "hint": "4 additional upper-level PHYSICS courses, C- or better. At most one independent study course (up to 3 credits) may count toward the electives, by advisor exception only.",
+      "hint": "4 elective courses totaling at least 12 credits, C- or better, per the LSA bulletin Physics Major page (Effective Fall 2026): PHYSICS 340, PHYSICS 360, PHYSICS 380 (only the Introduction to Quantum Computing topic; other PHYSICS 380 topics need advisor approval), CMPLXSYS 335, or any PHYSICS course at the 400 or 500 level except PHYSICS 501, 517, 518, and 590. Courses used for the Intermediate or Advanced requirements cannot double count. Independent study (PHYSICS 415, 495, 496, 497) is not counted automatically; up to 3 credits may be applied here by advisor exception only. Pass/fail courses do not count.",
       "need": 4,
       "countMode": "count",
       "category": "core",
-      "matchTag": "subj-physics-upper"
+      "matchCodes": [
+        "PHYSICS 340",
+        "PHYSICS 360",
+        "PHYSICS 380",
+        "CMPLXSYS 335",
+        "PHYSICS 402",
+        "PHYSICS 411",
+        "PHYSICS 413",
+        "PHYSICS 417",
+        "PHYSICS 430",
+        "PHYSICS 433",
+        "PHYSICS 435",
+        "PHYSICS 440",
+        "PHYSICS 442",
+        "PHYSICS 445",
+        "PHYSICS 450",
+        "PHYSICS 457",
+        "PHYSICS 460",
+        "PHYSICS 463"
+      ],
+      "sources": [
+        "lsa.umich.edu/lsa/academics/majors-minors/physics-major.html):"
+      ]
     },
     {
       "id": "whatif-rq-3360",
       "label": "Major Total Credits",
-      "hint": "Minimum 35 credits across courses used toward the major (prerequisites excluded). Approved courses from other departments used for the major also count.",
+      "hint": "Minimum 35 credits across all courses that can apply to the major requirements (intermediate, advanced, and elective courses, including CMPLXSYS 335 from outside the department). Prerequisites do not count. Course list per the LSA bulletin Physics Major page (Effective Fall 2026). Independent study (PHYSICS 415, 495, 496, 497) counts only by advisor exception, up to 3 credits.",
       "need": 35,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchTag": "subj-physics-upper"
+      "matchCodes": [
+        "PHYSICS 316",
+        "PHYSICS 390",
+        "PHYSICS 391",
+        "PHYSICS 401",
+        "PHYSICS 405",
+        "PHYSICS 406",
+        "PHYSICS 441",
+        "PHYSICS 453",
+        "PHYSICS 340",
+        "PHYSICS 360",
+        "PHYSICS 380",
+        "CMPLXSYS 335",
+        "PHYSICS 402",
+        "PHYSICS 411",
+        "PHYSICS 413",
+        "PHYSICS 417",
+        "PHYSICS 430",
+        "PHYSICS 433",
+        "PHYSICS 435",
+        "PHYSICS 440",
+        "PHYSICS 442",
+        "PHYSICS 445",
+        "PHYSICS 450",
+        "PHYSICS 457",
+        "PHYSICS 460",
+        "PHYSICS 463"
+      ],
+      "sources": [
+        "lsa.umich.edu/lsa/academics/majors-minors/physics-major.html"
+      ]
     },
     {
       "id": "physics-residency-15",
       "label": "Major Residency Requirement",
-      "hint": "Minimum 15 credits at the 300 level or above, taken in residence at U-M.",
+      "hint": "Minimum 15 of the major's credits at the 300 level or above taken in residence at U-M (per the What-If audit's Physics Total Credits and GPA section). Every course that applies to the major is 300 level or above, so this counts the same major course list; AP and test credit are not in residence and are excluded.",
       "need": 15,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchTag": "subj-physics-upper"
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "matchCodes": [
+        "PHYSICS 316",
+        "PHYSICS 390",
+        "PHYSICS 391",
+        "PHYSICS 401",
+        "PHYSICS 405",
+        "PHYSICS 406",
+        "PHYSICS 441",
+        "PHYSICS 453",
+        "PHYSICS 340",
+        "PHYSICS 360",
+        "PHYSICS 380",
+        "CMPLXSYS 335",
+        "PHYSICS 402",
+        "PHYSICS 411",
+        "PHYSICS 413",
+        "PHYSICS 417",
+        "PHYSICS 430",
+        "PHYSICS 433",
+        "PHYSICS 435",
+        "PHYSICS 440",
+        "PHYSICS 442",
+        "PHYSICS 445",
+        "PHYSICS 450",
+        "PHYSICS 457",
+        "PHYSICS 460",
+        "PHYSICS 463"
+      ]
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/physics-major.html"

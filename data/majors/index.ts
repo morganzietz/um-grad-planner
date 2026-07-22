@@ -21,7 +21,6 @@ import p18 from './lsa-classical-languages-and-literatures.json';
 import p19 from './lsa-cognitive-science.json';
 import p20 from './lsa-communication-studies.json';
 import p21 from './lsa-comparative-literature-arts-and-media.json';
-import p22 from './lsa-computer-science.json';
 import p23 from './lsa-creative-writing-and-literature.json';
 import p24 from './lsa-data-science.json';
 import p25 from './lsa-drama.json';
@@ -72,6 +71,7 @@ import p69 from './lsa-spanish.json';
 import p70 from './lsa-statistics.json';
 import p71 from './lsa-translation.json';
 import p72 from './lsa-womens-studies.json';
+import p73 from './lsa-computer-science-2.json';
 
 export const all: Major[] = [
   p1 as Major,
@@ -95,7 +95,6 @@ export const all: Major[] = [
   p19 as Major,
   p20 as Major,
   p21 as Major,
-  p22 as Major,
   p23 as Major,
   p24 as Major,
   p25 as Major,
@@ -146,4 +145,5 @@ export const all: Major[] = [
   p70 as Major,
   p71 as Major,
   p72 as Major,
+  p73 as Major,
 ];

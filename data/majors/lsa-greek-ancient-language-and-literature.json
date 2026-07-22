@@ -376,84 +376,33 @@
     {
       "id": "greek-civ-intro",
       "label": "Introductory Greek Civilization Course",
-      "hint": "Choose 1 of: CLARCH 221 or HISTORY 200.",
+      "hint": "Choose 1 of: CLARCH 221 or HISTORY 200. ARCHAM 221 is the current catalog code for CLARCH 221 per the department checklist.",
       "need": 1,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
         "CLARCH 221",
-        "HISTORY 200"
+        "HISTORY 200",
+        "ARCHAM 221"
       ]
     },
     {
       "id": "greek-civ-upper",
       "label": "Upper-Level Greek Civilization, Archaeology, or History Course",
-      "hint": "One 300- through 400-level course in Greek civilization, archaeology, or history, minimum 3 credits. Closest auditable match: upper-level CLCIV courses; approved Greek-focused courses from other departments (for example HISTORY or CLARCH) also count.",
+      "hint": "Still building automatic checking for this rule. One upper-level (300- or 400-level) course in Greek civilization, archaeology, or history, minimum 3 credits. The department defines this by topic rather than a fixed course list; the Greek Major Checklist (Classical Studies, effective Fall 2024) shows one blank line each for a Greek Civilization, Greek Archaeology, or Greek History course, typically from CLCIV, ARCHAM (formerly CLARCH), or HISTORY offerings. Until then, confirm progress with your advisor.",
       "need": 3,
       "countMode": "credits",
       "category": "core",
-      "matchCodes": [
-        "CLCIV 314",
-        "CLCIV 328",
-        "CLCIV 341",
-        "CLCIV 350",
-        "CLCIV 354",
-        "CLCIV 358",
-        "CLCIV 365",
-        "CLCIV 368",
-        "CLCIV 371",
-        "CLCIV 375",
-        "CLCIV 376",
-        "CLCIV 383",
-        "CLCIV 385",
-        "CLCIV 392",
-        "CLCIV 470",
-        "CLCIV 480",
-        "CLCIV 495",
-        "CLCIV 499"
-      ]
+      "manual": true
     },
     {
       "id": "whatif-rq-2946",
       "label": "Major Total: 24 Credits",
-      "hint": "Minimum 24 credits from courses used toward the major requirements, including approved cognates from other departments. Prerequisites (GREEK 101, 102, 103) do not count.",
+      "hint": "Still building automatic checking for this rule. Minimum 24 credits from all courses used toward the major (Greek language courses, the intro civilization course, and one upper level Greek civilization, archaeology, or history course; prerequisites excluded). The civilization course has no published list, so this total cannot be counted automatically. Until then, confirm progress with your advisor.",
       "need": 24,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchCodes": [
-        "GREEK 301",
-        "GREEK 302",
-        "GREEK 307",
-        "GREEK 401",
-        "GREEK 402",
-        "GREEK 410",
-        "GREEK 437",
-        "GREEK 462",
-        "GREEK 495",
-        "GREEK 499",
-        "GREEK 506",
-        "GREEK 556",
-        "CLARCH 221",
-        "HISTORY 200",
-        "CLCIV 314",
-        "CLCIV 328",
-        "CLCIV 341",
-        "CLCIV 350",
-        "CLCIV 354",
-        "CLCIV 358",
-        "CLCIV 365",
-        "CLCIV 368",
-        "CLCIV 371",
-        "CLCIV 375",
-        "CLCIV 376",
-        "CLCIV 383",
-        "CLCIV 385",
-        "CLCIV 392",
-        "CLCIV 470",
-        "CLCIV 480",
-        "CLCIV 495",
-        "CLCIV 499"
-      ]
+      "manual": true
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/greek-ancient-language-and-literature-major.html"

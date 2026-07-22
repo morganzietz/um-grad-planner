@@ -353,12 +353,11 @@
     {
       "id": "italian-core-400-level",
       "label": "1 400-Level Course Conducted in Italian",
-      "hint": "One 400-level ITALIAN course conducted in Italian. In the current catalog: ITALIAN 410, or the honors thesis sequence ITALIAN 491 or 492. Courses taught in English (such as ITALIAN 450) do not qualify.",
+      "hint": "One 400-level ITALIAN course conducted in Italian. In the current catalog: ITALIAN 410, or the honors thesis sequence ITALIAN 491 or 492. Courses taught in English (such as ITALIAN 450) do not qualify. ITALIAN 410 does not count toward the major per the Winter 2026 bulletin.",
       "need": 1,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
-        "ITALIAN 410",
         "ITALIAN 491",
         "ITALIAN 492"
       ]
@@ -366,18 +365,16 @@
     {
       "id": "italian-core-additional-233-499",
       "label": "1 Additional 233-499 Course Conducted in Italian",
-      "hint": "One more ITALIAN course numbered 233 to 499 conducted in Italian, beyond the three level requirements. In the current catalog: ITALIAN 235, 300, 340, 350, 374, 410, 491, or 492.",
+      "hint": "One more ITALIAN course numbered 233 to 499 conducted in Italian, beyond the three level requirements. In the current catalog: ITALIAN 235, 300, 340, 350, 374, 410, 491, or 492. ITALIAN 410 does not count toward the major per the Winter 2026 bulletin.",
       "need": 1,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
-        "ITALIAN 233",
         "ITALIAN 235",
         "ITALIAN 300",
         "ITALIAN 340",
         "ITALIAN 350",
         "ITALIAN 374",
-        "ITALIAN 410",
         "ITALIAN 491",
         "ITALIAN 492"
       ]
@@ -385,18 +382,16 @@
     {
       "id": "italian-core-12-credits",
       "label": "12 Credits Conducted in Italian",
-      "hint": "12 credits total from the courses above (ITALIAN courses numbered 233 to 499 conducted in Italian).",
+      "hint": "12 credits total from the courses above (ITALIAN courses numbered 233 to 499 conducted in Italian). ITALIAN 410 does not count toward the major per the Winter 2026 bulletin.",
       "need": 12,
       "countMode": "credits",
       "category": "core",
       "matchCodes": [
-        "ITALIAN 233",
         "ITALIAN 235",
         "ITALIAN 300",
         "ITALIAN 340",
         "ITALIAN 350",
         "ITALIAN 374",
-        "ITALIAN 410",
         "ITALIAN 491",
         "ITALIAN 492"
       ]
@@ -404,12 +399,11 @@
     {
       "id": "whatif-rq-2723",
       "label": "Major Total Credits: minimum 30 credits",
-      "hint": "Includes all courses used toward the major requirements, including approved cognates from other departments; does not include prerequisites. Additional ITALIAN courses numbered 233 to 499 can be used to reach the total. Italian departmental credits must be reviewed by a major advisor before applying to major requirements.",
+      "hint": "Per the LSA Bulletin Italian Major page, effective Winter 2026: minimum 30 credits in ITALIAN courses numbered 235 and above, including courses taught in English (only the 12-credit rule requires the Italian language). ITALIAN 410 (Italian for Spanish Speakers) does not count toward the major, and prerequisites do not count. Up to 3 credits from a cognate field may count if approved by the department advisor; cognates and any departmental credits must be reviewed by a major advisor before they apply.",
       "need": 30,
       "countMode": "credits",
       "category": "major-credit-min",
       "matchCodes": [
-        "ITALIAN 233",
         "ITALIAN 235",
         "ITALIAN 240",
         "ITALIAN 300",
@@ -421,23 +415,24 @@
         "ITALIAN 350",
         "ITALIAN 358",
         "ITALIAN 374",
-        "ITALIAN 410",
         "ITALIAN 415",
         "ITALIAN 450",
         "ITALIAN 491",
         "ITALIAN 492",
         "ITALIAN 499"
+      ],
+      "sources": [
+        "lsa.umich.edu/lsa/academics/majors-minors/italian-major.html):"
       ]
     },
     {
       "id": "whatif-rq-2723-2",
       "label": "Major Residency: minimum 15 credits",
-      "hint": "At least 15 credits of the major must be taken in residence at U-M.",
+      "hint": "At least 15 credits of the major must be taken in residence at U-M. ITALIAN 410 does not count toward the major per the Winter 2026 bulletin.",
       "need": 15,
       "countMode": "credits",
       "category": "major-credit-min",
       "matchCodes": [
-        "ITALIAN 233",
         "ITALIAN 235",
         "ITALIAN 240",
         "ITALIAN 300",
@@ -449,7 +444,6 @@
         "ITALIAN 350",
         "ITALIAN 358",
         "ITALIAN 374",
-        "ITALIAN 410",
         "ITALIAN 415",
         "ITALIAN 450",
         "ITALIAN 491",
@@ -460,7 +454,7 @@
     {
       "id": "whatif-rq-2723-3",
       "label": "1 300- or 400-Level Course Taught in Italian, Taken in RLL on the Ann Arbor Campus",
-      "hint": "Must be taught in Italian and taken in the Romance Languages and Literatures department on the Ann Arbor campus (study abroad does not count). In the current catalog: ITALIAN 300, 340, 350, 374, 410, 491, or 492.",
+      "hint": "Must be taught in Italian and taken in the Romance Languages and Literatures department on the Ann Arbor campus (study abroad does not count). In the current catalog: ITALIAN 300, 340, 350, 374, 410, 491, or 492. ITALIAN 410 does not count toward the major per the Winter 2026 bulletin.",
       "need": 1,
       "countMode": "count",
       "category": "major-credit-min",
@@ -469,7 +463,6 @@
         "ITALIAN 340",
         "ITALIAN 350",
         "ITALIAN 374",
-        "ITALIAN 410",
         "ITALIAN 491",
         "ITALIAN 492"
       ]

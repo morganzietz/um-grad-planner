@@ -40,6 +40,8 @@ const MATCH_ALL_WHITELIST = new Set([
   'whatif-rq-8887-2', // Gender & Health cognate courses (outside WGS)
   'whatif-rq-6779', // ICS cognate credits (outside CHEM)
   'whatif-rq-7702', // Interdisciplinary Astronomy cognates (outside ASTRO)
+  'iphys-cognates', // Interdisciplinary Physics cognates (outside PHYSICS)
+  'histart-cognate-courses', // History of Art cognate course (any discipline outside HISTART)
   // Major-total buckets whose PDF text explicitly counts cognates from any
   // department (a dept-only matcher could never reach the total):
   'whatif-rq-6890', // Interdisciplinary Astronomy 31-credit total
@@ -159,6 +161,18 @@ function validateMajor(major: Major): Issue[] {
       r.matchCodes !== undefined ? 'matchCodes' : null,
       r.pickFromGroups && r.pickFromGroups.length > 0 ? 'pickFromGroups' : null,
     ].filter(Boolean);
+    if (r.manual) {
+      // "Still building": deliberately matcher-less until an authoritative
+      // list is sourced or the user overrides it. A matcher alongside the
+      // flag is a contradiction.
+      if (kinds.length > 0) {
+        push('ERROR', r.id, `manual requirement must not carry a matcher (has ${kinds.join('+')})`);
+      }
+      if (!/still building/i.test(r.hint ?? '')) {
+        push('WARN', r.id, 'manual requirement hint should say automatic checking is still being built');
+      }
+      continue;
+    }
     if (kinds.length === 0) {
       push('ERROR', r.id, 'no matcher (matchTag/matchCodes/matchAll/pickFromGroups)');
       continue;
@@ -227,6 +241,7 @@ function validateMajor(major: Major): Issue[] {
   for (const r of major.requirements) {
     if (r.pickFromGroups) continue;
     if (r.matchAll) continue; // trivially satisfiable; skip
+    if (r.manual) continue; // deliberately unsatisfiable until sourced/overridden
     const target = r.need + (r.offset ?? 0);
     const picked: Course[] = [];
     let total = 0;

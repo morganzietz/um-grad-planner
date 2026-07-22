@@ -395,12 +395,11 @@
     {
       "id": "iphys-electives",
       "label": "PHYSICS Electives: 2 Courses, 6 Credits",
-      "hint": "Two additional PHYSICS courses totaling at least 6 credits, beyond the prerequisites and PHYSICS 390/391. C- or better per course. See your departmental advisor before beginning your course of study.",
+      "hint": "Two additional PHYSICS courses at the 400 level, beyond PHYSICS 390/391. C- or better in each, and a cumulative average of C or higher across PHYSICS 390/391 and these courses. Rule per the LSA bulletin (effective Winter 2026) and the Physics department's Interdisciplinary Physics checklist (effective September 2025); the list below is every 400 level PHYSICS course in the LSA Course Guide. See your departmental advisor before beginning your course of study.",
       "need": 6,
       "countMode": "credits",
       "category": "core",
       "matchCodes": [
-        "PHYSICS 370",
         "PHYSICS 401",
         "PHYSICS 402",
         "PHYSICS 405",
@@ -429,11 +428,11 @@
     {
       "id": "iphys-cognates",
       "label": "Cognate Courses: 15 Credits",
-      "hint": "15 credits of advisor approved courses outside Physics that form a coherent plan with your physics electives. C- or better per course. See your departmental advisor before beginning your course of study. The planner approximates this as 300 level or above courses outside Physics.",
+      "hint": "15 credits of non-Physics courses chosen as part of an interdisciplinary plan designed with the approval of a department advisor; the courses should form a coherent program of study (examples include statistics, astrophysics, medical physics, science policy). C- or better per course. There is no fixed course list or level rule, so any course outside Physics can count once your advisor approves it. Per the LSA bulletin (effective Winter 2026) and the Physics department's Interdisciplinary Physics checklist. See your departmental advisor before beginning your course of study.",
       "need": 15,
       "countMode": "credits",
       "category": "core",
-      "matchTag": "upper-level",
+      "matchAll": true,
       "excludeTags": [
         "subj-physics"
       ]
@@ -441,7 +440,7 @@
     {
       "id": "whatif-rq-4094",
       "label": "Major Total Credits: minimum 26 credits",
-      "hint": "Includes all courses used toward the major requirements, including the 15 credits of approved non-Physics cognates. The audit counts any course here, so rely on the individual requirement rows for precision.",
+      "hint": "Minimum 26 credits across all courses used toward the major, including the 15 credits of cognates from other departments, with at least 11 credits in PHYSICS courses numbered 390/391 and above. Prerequisites do not count. C- or better for all courses. This total counts every course applied to the major, so rely on the individual requirement rows for what applies. Per the LSA bulletin (effective Winter 2026).",
       "need": 26,
       "countMode": "credits",
       "category": "major-credit-min",
@@ -455,7 +454,6 @@
       "countMode": "credits",
       "category": "major-credit-min",
       "matchCodes": [
-        "PHYSICS 370",
         "PHYSICS 390",
         "PHYSICS 391",
         "PHYSICS 401",

@@ -152,20 +152,58 @@
     {
       "id": "intlstd-prereq-language-4th-term",
       "label": "4th Term Language Proficiency",
-      "hint": "One course completing 4th term proficiency in a language other than English.",
+      "hint": "One course completing or presuming 4th term proficiency in a language other than English. PICS requires students to be enrolled in or to have completed the fourth term of a language (or placed out) before declaring, per the PICS FAQ, the same standard as the LSA language requirement.",
       "need": 1,
       "countMode": "count",
       "category": "prerequisites",
-      "matchTag": "lsa-language"
+      "matchTag": "lsa-language",
+      "sources": [
+        "ii.umich.edu/pics/undergraduates/frequently-asked-questions.html"
+      ]
     },
     {
       "id": "whatif-rq-9647",
       "label": "Sixth-Term Proficiency in a Language Other Than English",
-      "hint": "One course demonstrating sixth-term (third-year) proficiency. The planner counts any 4th-term-or-above language course as the closest approximation; confirm the exact sixth-term course with your advisor.",
+      "hint": "One course carrying sixth-term (third-year) standing, per the approved sixth-term course list in the PICS Undergraduate Student Handbook (updated May 2026, linked from the PICS FAQ). Spanish, Portuguese, Italian, and German finish at a level rather than one listed course: one language course above SPANISH 277 or 278, one course above PORTUG 287, two courses above ITALIAN 232 taught in Italian, or two 300 level courses taught in German. The planner cannot check those paths automatically, and PICS advisors can also approve waivers and 4 plus 2 two-language combinations, so confirm any unlisted path with a PICS advisor. This coursework does not count toward the 34 major credits.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchTag": "lsa-language"
+      "matchCodes": [
+        "ARABIC 402",
+        "ASIANLAN 302",
+        "ASIANLAN 304",
+        "ASIANLAN 326",
+        "ASIANLAN 336",
+        "ASIANLAN 412",
+        "ASIANLAN 418",
+        "ASIANLAN 420",
+        "ASIANLAN 462",
+        "ASIANLAN 472",
+        "ASIANLAN 476",
+        "ASIANLAN 486",
+        "BCS 332",
+        "FRENCH 270",
+        "FRENCH 272",
+        "FRENCH 274",
+        "FRENCH 276",
+        "FRENCH 280",
+        "HEBREW 302",
+        "POLISH 322",
+        "RCLANG 320",
+        "RCLANG 321",
+        "RCLANG 323",
+        "RCLANG 324",
+        "RUSSIAN 302",
+        "SCAND 325",
+        "SPANISH 280",
+        "TURKISH 401",
+        "TURKISH 504",
+        "UKR 352",
+        "YIDDISH 302"
+      ],
+      "sources": [
+        "ii.umich.edu/pics/undergraduates/frequently-asked-questions.html"
+      ]
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/international-studies-major.html"

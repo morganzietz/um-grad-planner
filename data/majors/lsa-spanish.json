@@ -326,11 +326,12 @@
     {
       "id": "spanish-279-to-399",
       "label": "279 to 399-Level SPANISH: 4 Courses",
-      "hint": "4 courses of at least 3 credits each, SPANISH 279 to 399. Spanish departmental credit must be reviewed by a major advisor before it can apply to major requirements.",
+      "hint": "4 courses of at least 3 credits each. Any SPANISH course numbered 279 to 399 counts; this list is every catalog course in that range (no SPANISH 279 course currently exists, 279 is just the floor of the range). Up to three terms of RCLANG 324 (Readings in Spanish) may also be used, per the LSA Bulletin Spanish major requirements, effective Winter 2026. Departmental credit such as SPANISH 279X and advisor approved cognates can also apply here, but only after review by a Spanish major advisor.",
       "need": 4,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
+        "RCLANG 324",
         "SPANISH 280",
         "SPANISH 283",
         "SPANISH 289",
@@ -346,6 +347,9 @@
         "SPANISH 373",
         "SPANISH 381",
         "SPANISH 385"
+      ],
+      "sources": [
+        "lsa.umich.edu/lsa/academics/majors-minors/spanish-major.html"
       ]
     },
     {
@@ -430,7 +434,8 @@
         "SPANISH 487",
         "SPANISH 488",
         "SPANISH 491",
-        "SPANISH 492"
+        "SPANISH 492",
+        "RCLANG 324"
       ]
     },
     {
@@ -480,7 +485,8 @@
         "SPANISH 487",
         "SPANISH 488",
         "SPANISH 491",
-        "SPANISH 492"
+        "SPANISH 492",
+        "RCLANG 324"
       ]
     },
     {
@@ -533,7 +539,8 @@
         "SPANISH 487",
         "SPANISH 488",
         "SPANISH 491",
-        "SPANISH 492"
+        "SPANISH 492",
+        "RCLANG 324"
       ]
     },
     {
@@ -586,7 +593,8 @@
         "SPANISH 487",
         "SPANISH 488",
         "SPANISH 491",
-        "SPANISH 492"
+        "SPANISH 492",
+        "RCLANG 324"
       ]
     },
     {
@@ -639,7 +647,8 @@
         "SPANISH 487",
         "SPANISH 488",
         "SPANISH 491",
-        "SPANISH 492"
+        "SPANISH 492",
+        "RCLANG 324"
       ]
     }
   ],

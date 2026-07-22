@@ -87,6 +87,18 @@ export interface Requirement {
    * E.g. 'credit-minimums', 'prerequisites', 'core', 'capstone', 'electives'.
    */
   category?: string;
+  /**
+   * True when automatic checking for this rule is not implemented yet: no
+   * authoritative course list could be sourced, so the requirement carries no
+   * matcher (it never auto-satisfies) and the hint says checking is still
+   * being built. Resolved manually until requirement overrides ship.
+   */
+  manual?: boolean;
+  /**
+   * Provenance URLs for the matcher (bulletin pages, department worksheets,
+   * approved-list docs). Maintenance metadata only; never rendered in the UI.
+   */
+  sources?: string[];
 }
 
 export interface Major {

@@ -402,11 +402,14 @@
     {
       "id": "env-specialization",
       "label": "Specialization: 3 Courses at 300-Level or Above",
-      "hint": "Three related courses at the 300-level or above, approved by the specialization committee, in Environmental Science, Environmental Social Science, or Culture and the Environment. Advisor-approved cognates outside ENVIRON can also count.",
+      "hint": "Three related courses at the 300 level or above, from any department, that form an approved specialization in Environmental Science, Environmental Social Science, or Culture and the Environment. Any course numbered 300 or above can count once the PitE specialization committee approves your plan (submit the specialization form by the end of junior year). Specialization courses cannot overlap with core requirements. Per the LSA bulletin page for the Environment major (Effective Fall 2025) and the PitE Specialization page,.",
       "need": 3,
       "countMode": "count",
       "category": "core",
-      "matchTag": "subj-environ-upper"
+      "matchTag": "upper-level",
+      "sources": [
+        "lsa.umich.edu/pite/majors/specialization.html"
+      ]
     },
     {
       "id": "env-general-ecology",
@@ -441,7 +444,7 @@
     {
       "id": "env-culture-environment",
       "label": "Culture and Environment",
-      "hint": "One course from the approved list or chosen in consultation with a department advisor. Some options only count in specific topic sections.",
+      "hint": "One course from the approved list on the LSA bulletin page for the Environment major (Effective Fall 2025, checked July 2026), or chosen in consultation with a department advisor. Some options only count in specific topic sections.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -523,12 +526,15 @@
         "UP 423",
         "WGS 344",
         "WOMENSTD 344"
+      ],
+      "sources": [
+        "lsa.umich.edu/lsa/academics/majors-minors/the-environment-major.html"
       ]
     },
     {
       "id": "env-natural-earth-systems",
       "label": "Natural and Earth Systems Science",
-      "hint": "One Natural Science course at the 200-level or above, or chosen in consultation with the department advisor. ENVIRON 201 and EARTH 219 do NOT count for this requirement.",
+      "hint": "One Natural Science course at the 200 level or above, or chosen in consultation with the department advisor, per the LSA bulletin page for the Environment major (Effective Fall 2025, checked July 2026). ENVIRON 201 and its cross-list RCNSCI 202, plus EARTH 219 and its cross-list ENVIRON 229, do NOT count (LSA bulletin, PitE Student Handbook, and the What-If audit). The list here is every NS-designated course numbered 200 to 499 in the LSA Course Guide data.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -599,7 +605,6 @@
         "ENVIRON 206",
         "ENVIRON 210",
         "ENVIRON 228",
-        "ENVIRON 229",
         "ENVIRON 230",
         "ENVIRON 232",
         "ENVIRON 233",
@@ -660,14 +665,13 @@
         "PSYCH 352",
         "PSYCH 355",
         "PSYCH 363",
-        "RCNSCI 202",
         "RCNSCI 301"
       ]
     },
     {
       "id": "env-social-science-300",
       "label": "Social Science: 1 Course at 300-Level",
-      "hint": "One Social Science course at the 300-level or above from the approved list.",
+      "hint": "One Social Science course at the 300 level or above from the approved list on the LSA bulletin page for the Environment major (Effective Fall 2025, checked July 2026). Advisor-approved alternatives can also count.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -725,12 +729,15 @@
         "RCIDIV 390",
         "SOC 380",
         "UP 423"
+      ],
+      "sources": [
+        "lsa.umich.edu/lsa/academics/majors-minors/the-environment-major.html"
       ]
     },
     {
       "id": "env-social-science-additional",
       "label": "Social Science: 1 Additional Course",
-      "hint": "One additional Social Science course from the approved list (any level).",
+      "hint": "One additional Social Science course, at any level, from the approved list on the LSA bulletin page for the Environment major (Effective Fall 2025, checked July 2026). Advisor-approved alternatives can also count.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -807,16 +814,53 @@
         "SOC 222",
         "SOC 380",
         "UP 423"
+      ],
+      "sources": [
+        "lsa.umich.edu/lsa/academics/majors-minors/the-environment-major.html"
       ]
     },
     {
       "id": "env-senior-capstone",
       "label": "Senior Capstone",
-      "hint": "One course chosen in consultation with the department advisor.",
+      "hint": "One course chosen in consultation with the department advisor (LSA bulletin, Effective Fall 2025). The options listed here are the capstone-designated courses from the PitE course guides for Fall 2025 and Spring/Summer 2026, linked from the PitE Environment Major page The approved capstone list changes every term and some options count only in specific sections (for example ENVIRON 302), so confirm your choice with a PitE advisor.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchTag": "subj-environ-upper"
+      "matchCodes": [
+        "ENVIRON 302",
+        "ENVIRON 303",
+        "ENVIRON 306",
+        "ENVIRON 308",
+        "STS 308",
+        "ENVIRON 320",
+        "ENGLISH 344",
+        "ENVIRON 333",
+        "EARTH 333",
+        "ENVIRON 335",
+        "AAS 322",
+        "ANTHRBIO 368",
+        "EARTH 368",
+        "ENVIRON 380",
+        "EARTH 380",
+        "ENVIRON 403",
+        "EARTH 408",
+        "ENVIRON 406",
+        "ENVIRON 408",
+        "ENVIRON 411",
+        "EAS 531",
+        "ENVIRON 419",
+        "ORGSTUDY 419",
+        "ENVIRON 421",
+        "ENVIRON 425",
+        "ENVIRON 427",
+        "ENVIRON 434",
+        "EAS 581",
+        "WRITING 405",
+        "ENGLISH 396"
+      ],
+      "sources": [
+        "lsa.umich.edu/pite/majors/environment-major.html"
+      ]
     },
     {
       "id": "env-practical-experience",

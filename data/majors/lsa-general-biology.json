@@ -374,7 +374,7 @@
     {
       "id": "whatif-rq-10607",
       "label": "Quantitative Analysis Sequence",
-      "hint": "3 courses from the approved list: Calculus I (MATH 115, 120, 185, 275, or 295), Calculus II (MATH 116, 121, 156, 186, 276, or 296), Physics I or II, programming (EECS 183, 203, or 280), statistics (STATS 180, 250, 280, or 400-level and above, min 3 credits), BIOLOGY 202, BIOLOGY 131, COMPFOR 131, BIOPHYS 131, DATASCI 101, BIOPHYS or PHYSICS 290, or EARTH 468. Courses used here cannot double count as major electives.",
+      "hint": "3 courses from the approved list per the Program in Biology's official BHS major guide (BHS-MAJOR.pdf, updated 8/19/25): Calculus I (MATH 115, 120 (AP), 185, 275, or 295), Calculus II (MATH 116, 121 (AP), 156, 186, 276, or 296), Physics I (PHYSICS 125, 135, 139 (AP), 140, 150, or 160), Physics II (PHYSICS 126, 235, 239 (AP), 240, 250, or 260), programming (EECS 183, 203, and/or 280), statistics (STATS 180 (AP), 250, or 280, and/or STATS 400-level or above for min 3 credits), BIOLOGY 202, BIOLOGY 131 (or its cross-lists COMPFOR 131 and BIOPHYS 131), DATASCI 101, BIOPHYS or PHYSICS 290, or EARTH 468. The STATS 400-level option is matched against every 400-level and above STATS course in the current LSA course list. Courses used here cannot double count as major electives.",
       "need": 3,
       "countMode": "count",
       "category": "prerequisites",
@@ -431,6 +431,9 @@
         "BIOPHYS 290",
         "PHYSICS 290",
         "EARTH 468"
+      ],
+      "sources": [
+        "https://lsa.umich.edu/content/dam/biology-assets/biology-documents/BHS-MAJOR.pdf):"
       ]
     },
     {

@@ -427,19 +427,22 @@
     {
       "id": "whatif-rq-7702",
       "label": "Individualized Cognate Courses: 15 Credits",
-      "hint": "Counts any non-Astronomy course; the audit cannot check advisor approval, so confirm your individualized cognate plan with an advisor.",
+      "hint": "A minimum of 15 credits of cognate (non-Astronomy) courses as part of an interdisciplinary plan designed with the approval of the department advisor. There is no fixed cognate list; the Astronomy department publishes only example plans (physics, math, science writing, communications, earth sciences, philosophy, public policy, chemistry) so any non-Astronomy course can count once your advisor approves your plan.",
       "need": 15,
       "countMode": "credits",
       "category": "core",
       "matchAll": true,
       "excludeTags": [
         "subj-astro"
+      ],
+      "sources": [
+        "lsa.umich.edu/astro/undergraduates/interdisciplinary-track.html"
       ]
     },
     {
       "id": "whatif-rq-6890",
       "label": "Total Major Credits",
-      "hint": "Includes all courses used toward the major requirements, including approved cognates from other departments. The audit counts any course here, so rely on the individual requirement rows for precision.",
+      "hint": "Minimum 31 credits total across all courses used toward the major requirements, including approved cognates from other departments; prerequisites do not count toward this total. Per the LSA bulletin, Interdisciplinary Astronomy Major page (effective Fall 2026).",
       "need": 31,
       "countMode": "credits",
       "category": "major-credit-min",

@@ -356,17 +356,41 @@
     {
       "id": "phil-history-additional",
       "label": "Additional History of Philosophy",
-      "hint": "A second history of philosophy course, C- or better. Approved options per the Bulletin; closest auditable list: PHIL 288, 289, 388, 389.",
+      "hint": "A second history of philosophy course, C- or better, from the Bulletin's list for the Philosophy major (effective Winter 2022): PHIL 288, 289, 323, 371, 385, 386, 388, 389, 391, 392, 393 (also listed as CLCIV 369), 405, 406, 433, 458, 460, 461, 462, 463, 464, 466, 467, 474, or 492. PHIL 288 or 289 may be used as the prerequisite or toward a requirement, but not both.",
       "need": 1,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
         "PHIL 288",
         "PHIL 289",
+        "PHIL 323",
+        "PHIL 371",
+        "PHIL 385",
+        "PHIL 386",
         "PHIL 388",
-        "PHIL 389"
+        "PHIL 389",
+        "PHIL 391",
+        "PHIL 392",
+        "PHIL 393",
+        "CLCIV 369",
+        "PHIL 405",
+        "PHIL 406",
+        "PHIL 433",
+        "PHIL 458",
+        "PHIL 460",
+        "PHIL 461",
+        "PHIL 462",
+        "PHIL 463",
+        "PHIL 464",
+        "PHIL 466",
+        "PHIL 467",
+        "PHIL 474",
+        "PHIL 492"
       ],
-      "offset": 1
+      "offset": 1,
+      "sources": [
+        "https://lsa.umich.edu/lsa/academics/majors-minors/philosophy-major.html"
+      ]
     },
     {
       "id": "phil-value",

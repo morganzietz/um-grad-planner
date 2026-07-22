@@ -321,56 +321,77 @@
     {
       "id": "wgs-feminist-theory",
       "label": "Feminist Theory Course",
-      "hint": "Minimum 1 course, C- or better. Must come from the department's approved feminist theory list, for example WGS 330 Feminist Thought; WGS 323, 331, and 422 are also theory offerings.",
+      "hint": "WGS 330 (formerly WOMENSTD 330): Feminist Thought, C- or better. This is the one course that satisfies the feminist theory requirement, per the LSA bulletin Women's and Gender Studies major page.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchTag": "subj-wgs"
+      "matchCodes": [
+        "WGS 330",
+        "WOMENSTD 330"
+      ],
+      "sources": [
+        "lsa.umich.edu/lsa/academics/majors-minors/womens-and-gender-studies-major.html"
+      ]
     },
     {
       "id": "wgs-practicum",
       "label": "Practicum Course",
-      "hint": "Minimum 1 course, C- or better. Must be a department-designated practicum course (the eligible list varies by term; confirm with a WGS advisor).",
+      "hint": "One course, C- or better, from the practice course list on the LSA bulletin Women's and Gender Studies major page: WGS 350, WGS 351, WGS/HS 404, WGS 425, WGS 313 (topic 14, Health, Gender, and Performance, only), or SOC 225 (specific approved topics only). For WGS 313 and SOC 225, only the listed topics count; confirm the topic with a WGS advisor before relying on them. WOMENSTD is the older code for WGS courses.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchTag": "subj-wgs"
+      "matchCodes": [
+        "WGS 313",
+        "WGS 350",
+        "WOMENSTD 350",
+        "WGS 351",
+        "WOMENSTD 351",
+        "WGS 404",
+        "HS 404",
+        "WOMENSTD 404",
+        "WGS 425",
+        "WOMENSTD 425",
+        "SOC 225"
+      ],
+      "sources": [
+        "lsa.umich.edu/lsa/academics/majors-minors/womens-and-gender-studies-major.html):"
+      ]
     },
     {
       "id": "wgs-core-lgbtq-sexuality",
       "label": "Core Area: LGBTQ & Sexuality Studies",
-      "hint": "Minimum 3 credits, C- or better per course, from courses designated for this area (for example WGS 245, 265, 341, or 431).",
+      "hint": "Still building automatic checking for this rule. The audit requires a minimum of 3 credits, C- or better per course, from courses the WGS department designates for the LGBTQ and Sexuality Studies area. The department publishes which courses (and sometimes which specific sections) count each term, and no current list is posted publicly. Until then, confirm progress with your advisor.",
       "need": 3,
       "countMode": "credits",
       "category": "core",
-      "matchTag": "subj-wgs"
+      "manual": true
     },
     {
       "id": "wgs-core-gender-race-ethnicity-us",
       "label": "Core Area: Gender, Race, & Ethnicity in the US",
-      "hint": "Minimum 3 credits, C- or better per course, from courses designated for this area (for example WGS 243, 343, or 433).",
+      "hint": "Still building automatic checking for this rule. The audit requires a minimum of 3 credits, C- or better per course, from courses the WGS department designates for the Gender, Race, and Ethnicity in the US area. The department publishes which courses (and sometimes which specific sections) count each term, and no current list is posted publicly. Until then, confirm progress with your advisor.",
       "need": 3,
       "countMode": "credits",
       "category": "core",
-      "matchTag": "subj-wgs"
+      "manual": true
     },
     {
       "id": "wgs-core-gender-culture-representation",
       "label": "Core Area: Gender, Culture, & Representation",
-      "hint": "Minimum 3 credits, C- or better per course, from courses designated for this area (for example WGS 344 or 434).",
+      "hint": "Still building automatic checking for this rule. The audit requires a minimum of 3 credits, C- or better per course, from courses the WGS department designates for the Gender, Culture, and Representation area. The department publishes which courses (and sometimes which specific sections) count each term, and no current list is posted publicly. Until then, confirm progress with your advisor.",
       "need": 3,
       "countMode": "credits",
       "category": "core",
-      "matchTag": "subj-wgs"
+      "manual": true
     },
     {
       "id": "wgs-core-gender-global-context",
       "label": "Core Area: Gender in a Global Context",
-      "hint": "Minimum 3 credits, C- or better per course, from courses designated for this area (for example WGS 345 or 435).",
+      "hint": "Still building automatic checking for this rule. The audit requires a minimum of 3 credits, C- or better per course, from courses the WGS department designates for the Gender in a Global Context area. The department publishes which courses (and sometimes which specific sections) count each term, and no current list is posted publicly. Until then, confirm progress with your advisor.",
       "need": 3,
       "countMode": "credits",
       "category": "core",
-      "matchTag": "subj-wgs"
+      "manual": true
     },
     {
       "id": "whatif-rq-9878",
@@ -385,7 +406,7 @@
     {
       "id": "whatif-rq-2834",
       "label": "Upper Level Cognate Courses: 6 Credits",
-      "hint": "Minimum 6 credits of 300-level or above courses outside WGS, C- or better per course. Cognates must be approved by an advisor.",
+      "hint": "Two upper level courses totaling 6 credits, C- or better per course, neither in WGS (WOMENSTD) nor cross-listed with it. Per the LSA bulletin, the two courses will normally be in the same department and should provide supporting skills or contexts for the study of women and gender rather than being courses on women and gender. Cognates must be approved by an advisor.",
       "need": 6,
       "countMode": "credits",
       "category": "core",

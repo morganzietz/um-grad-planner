@@ -308,17 +308,11 @@
     {
       "id": "whatif-rq-3403",
       "label": "Social Science Gateway Course",
-      "hint": "One social science gateway course, minimum 3 credits. Options include RCSTP 230, 250, 255, 261, or RCSSCI 275; confirm your gateway course with an STP advisor.",
+      "hint": "Still building automatic checking for this rule. One social science gateway course, minimum 3 credits: RCSTP 101, or a 200-level introductory course in any social science discipline. Common examples include 200-level courses from RCSTP, WGS, PSYCH, AAS, AMCULT, ENVIRON, and SOC, and the options are not exclusive; confirm your selection with the STP advisor. Per the RC's STP Major Checklist and the LSA bulletin STP major page (effective Winter 2026). Until then, confirm progress with your advisor.",
       "need": 3,
       "countMode": "credits",
       "category": "prerequisites",
-      "matchCodes": [
-        "RCSTP 230",
-        "RCSTP 250",
-        "RCSTP 255",
-        "RCSTP 261",
-        "RCSSCI 275"
-      ]
+      "manual": true
     },
     {
       "id": "whatif-rq-3403-2",
@@ -357,7 +351,7 @@
     {
       "id": "stp-research-methods",
       "label": "Research Methods Course",
-      "hint": "Choose 1 of: STATS 250, QMSS 201, SOC 210, or SOC 310. Other courses may count in consultation with an STP advisor.",
+      "hint": "Choose 1. Quantitative: STATS 250, SOC 210, or QMSS 201. Mixed methods: SOC 310. Qualitative: ANTHRCUL 359 or AMCULT 300. Per the RC's STP Major Checklist (linked from the RC Social Theory and Practice page). Other courses may count in consultation with an STP advisor.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -365,64 +359,89 @@
         "STATS 250",
         "QMSS 201",
         "SOC 210",
-        "SOC 310"
+        "SOC 310",
+        "ANTHRCUL 359",
+        "AMCULT 300"
+      ],
+      "sources": [
+        "docs.google.com/document/d/12UpY1aP7JPmmBKRtmPYNsVyxDRIEuaxpH2vdza_auzo"
       ]
     },
     {
       "id": "stp-thematic-social-theory",
       "label": "Thematic: Social Theory Course",
-      "hint": "At least 3 credits, must be approved by advisor. One of the 6 thematic courses (18 credits total). Advisor-approved cognates from other departments can also count.",
+      "hint": "A second theory course beyond RCSTP 301/302, at least 3 credits, one of the 6 thematic courses (18 credits total, 300 or 400 level with limited exceptions). Matched against the RC's published list of theory focused courses STP students commonly select (Common STP Courses doc, linked from the RC STP Major Checklist). That list is not exhaustive; other courses can count with STP advisor approval. RCSTP 350 must be the Gender, Race, and Education in Feminist Thought topic.",
       "need": 3,
       "countMode": "credits",
       "category": "core",
-      "matchTag": "subj-rcstp"
+      "matchCodes": [
+        "AAS 321",
+        "AAS 482",
+        "POLSCI 406",
+        "POLSCI 449",
+        "RCSID 350",
+        "RCSTP 320",
+        "RCSTP 327",
+        "RCSTP 350",
+        "RCSTP 356",
+        "RCSTP 357",
+        "RCSTP 408",
+        "SOC 305",
+        "SOC 326",
+        "SOC 345",
+        "SOC 354",
+        "SOC 368",
+        "SOC 461",
+        "SOC 465",
+        "WGS 323"
+      ],
+      "sources": [
+        "docs.google.com/document/d/1mEgWYFnrAR8JU8_9zGcTKW-15B2Fp4WhgW_C7NEmZ3o"
+      ]
     },
     {
       "id": "stp-thematic-practicum",
       "label": "Thematic: Community Engaged-Learning or Practicum Course",
-      "hint": "At least 3 credits, must be approved by advisor. One of the 6 thematic courses (18 credits total). Advisor-approved cognates from other departments can also count.",
+      "hint": "At least 3 credits, one of the 6 thematic courses (18 credits total). Matched against the RC's published list of community engaged/practicum courses STP students commonly select: PCAP, Telling It, SLIP, Semester in Detroit, PALMA, Project Community, and Project Outreach classes, among others (Common STP Courses doc, linked from the RC STP Major Checklist). That list is not exhaustive; other courses and student identified community based internships can count with STP advisor approval. RCSTP 101, 300, 350, and 360 count only as their specific community engaged topics sections.",
       "need": 3,
       "countMode": "credits",
       "category": "core",
-      "matchTag": "subj-rcstp"
+      "matchCodes": [
+        "RCDRAMA 332",
+        "THTREMUS 334",
+        "RCHUMS 335",
+        "THTREMUS 335",
+        "RCSTP 360",
+        "RCSTP 300",
+        "RCHUMS 334",
+        "HISTART 393",
+        "ENS 451",
+        "ENGLISH 221",
+        "RCSTP 341",
+        "RCSTP 307",
+        "RCSID 301",
+        "RCSID 302",
+        "RCSTP 350",
+        "SOC 225",
+        "PSYCH 211",
+        "RCSTP 101",
+        "RCSTP 390",
+        "RCSTP 489",
+        "RCSTP 488",
+        "WGS 351"
+      ],
+      "sources": [
+        "docs.google.com/document/d/1mEgWYFnrAR8JU8_9zGcTKW-15B2Fp4WhgW_C7NEmZ3o"
+      ]
     },
     {
       "id": "stp-thematic-electives",
       "label": "Thematic Electives",
-      "hint": "Minimum 4 courses; RCSTP 490 cannot be used. Together the 6 thematic courses must total at least 18 credits. Advisor-approved cognates from other departments can also count.",
+      "hint": "Still building automatic checking for this rule. Minimum 4 elective courses within the 18 credit thematic block (6 courses, 18 credits total, 300 or 400 level with limited exceptions); RCSTP 490 cannot be used. Electives are self selected around your social justice focus, from any department, planned in RCSTP 290 and adjustable with the STP advisor. Until then, confirm progress with your advisor.",
       "need": 4,
       "countMode": "count",
       "category": "core",
-      "matchCodes": [
-        "RCSTP 102",
-        "RCSTP 230",
-        "RCSTP 250",
-        "RCSTP 255",
-        "RCSTP 261",
-        "RCSTP 300",
-        "RCSTP 301",
-        "RCSTP 302",
-        "RCSTP 303",
-        "RCSTP 307",
-        "RCSTP 320",
-        "RCSTP 327",
-        "RCSTP 330",
-        "RCSTP 341",
-        "RCSTP 342",
-        "RCSTP 343",
-        "RCSTP 350",
-        "RCSTP 351",
-        "RCSTP 356",
-        "RCSTP 357",
-        "RCSTP 362",
-        "RCSTP 365",
-        "RCSTP 386",
-        "RCSTP 390",
-        "RCSTP 408",
-        "RCSTP 423",
-        "RCSTP 488",
-        "RCSTP 489"
-      ]
+      "manual": true
     },
     {
       "id": "whatif-rq-13459",
@@ -438,41 +457,11 @@
     {
       "id": "whatif-rq-3405",
       "label": "Major Total Credits",
-      "hint": "Minimum 30 credits. Includes all courses used toward the major requirements, including cognates from other departments. Does not include any prerequisites. Research methods options from other departments count toward the 30; gateway and other prerequisites do not.",
+      "hint": "Still building automatic checking for this rule. Minimum 30 credits from all courses used toward the major (gateway, RCSTP 260 and 290, theory, methods, thematic electives, and capstone; prerequisites excluded). The gateway and thematic portions are self designed with no published list, so this total cannot be counted automatically. Until then, confirm progress with your advisor.",
       "need": 30,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchCodes": [
-        "RCSTP 102",
-        "RCSTP 300",
-        "RCSTP 301",
-        "RCSTP 302",
-        "RCSTP 303",
-        "RCSTP 307",
-        "RCSTP 320",
-        "RCSTP 327",
-        "RCSTP 330",
-        "RCSTP 341",
-        "RCSTP 342",
-        "RCSTP 343",
-        "RCSTP 350",
-        "RCSTP 351",
-        "RCSTP 356",
-        "RCSTP 357",
-        "RCSTP 362",
-        "RCSTP 365",
-        "RCSTP 386",
-        "RCSTP 390",
-        "RCSTP 408",
-        "RCSTP 423",
-        "RCSTP 488",
-        "RCSTP 489",
-        "RCSTP 490",
-        "STATS 250",
-        "QMSS 201",
-        "SOC 210",
-        "SOC 310"
-      ]
+      "manual": true
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/social-theory-and-practice-major.html"

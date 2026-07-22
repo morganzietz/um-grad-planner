@@ -515,19 +515,22 @@
     {
       "id": "whatif-rq-6779",
       "label": "Cognates: 15 Credits at 200-Level or Above",
-      "hint": "15 credits of 200-level or above cognate courses outside chemistry, approved by an advisor. Cognates are chosen with advisor approval, so track this one manually. Counts any non-CHEM course; the 200-level minimum and advisor approval cannot be checked automatically, so confirm your cognate plan with an advisor.",
+      "hint": "15 credits of cognate courses outside chemistry at the 200-level or above, as part of a plan approved in advance by a Chemistry department advisor. There is no restricted course list: any non-CHEM course can qualify, and the department's posted cognate plans (Health and Life Sciences, Philosophy, Chemical Physics, science and public policy) are examples only. Per the LSA bulletin ICS major page and the Chemistry department's ICS worksheet (Fall 2021, worksheet, FA 21.pdf). The planner counts every non-CHEM course here and cannot check the 200-level floor or advisor approval, so keep 100-level courses out of your cognate plan and confirm it with your advisor.",
       "need": 15,
       "countMode": "credits",
       "category": "core",
       "matchAll": true,
       "excludeTags": [
         "subj-chem"
+      ],
+      "sources": [
+        "lsa.umich.edu/content/dam/chem-assets/chem-docs/underGrad/ICS"
       ]
     },
     {
       "id": "ics-cognates-300-credits",
       "label": "Cognates: 6 Credits at 300-Level or Above",
-      "hint": "At least 6 of the 15 cognate credits (2 courses) must be at the 300-level or above. Track this one manually alongside the cognate credits row. Counts any non-CHEM course at the 300 level or above; confirm advisor approval.",
+      "hint": "At least 6 of the 15 cognate credits must come from courses at the 300-level or above. Any non-CHEM course at the 300 level or above qualifies; there is no restricted list, per the Chemistry department's ICS worksheet (Fall 2021). Cognate plans require prior advisor approval, so confirm yours with your advisor.",
       "need": 6,
       "countMode": "credits",
       "category": "core",
@@ -539,7 +542,7 @@
     {
       "id": "ics-cognates-300-courses",
       "label": "Cognates: 2 Courses at 300-Level or Above",
-      "hint": "The 6 upper-level cognate credits must come from at least 2 courses. Track this one manually. Counts any non-CHEM course at the 300 level or above; confirm advisor approval.",
+      "hint": "The 6 upper-level cognate credits must come from at least 2 courses. Any non-CHEM course at the 300 level or above qualifies; there is no restricted list, per the Chemistry department's ICS worksheet (Fall 2021). Cognate plans require prior advisor approval, so confirm yours with your advisor.",
       "need": 2,
       "countMode": "count",
       "category": "core",

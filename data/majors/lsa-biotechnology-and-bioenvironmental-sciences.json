@@ -388,7 +388,7 @@
     {
       "id": "whatif-rq-13598",
       "label": "Quantitative Analysis Sequence",
-      "hint": "3 courses from the approved list: Calculus I (MATH 115, 120, 175, 185, or 295), Calculus II (MATH 116, 121, 156, 176, 186, or 296), Physics I (PHYSICS 125, 135, 139, 140, 150, or 160), Physics II (PHYSICS 126, 235, 239, 240, 250, or 260), Computer Programming (EECS 180 or 183; EECS 203; EECS 280), Statistics (STATS 180 or 250; STATS 280; DATASCI 101; STATS 400-level or above, min 3 credits), BIOLOGY 202, BIOLOGY/BIOPHYS/COMPFOR 131, or BIOPHYS/PHYSICS 290. A course used here cannot also count as a major elective.",
+      "hint": "3 courses from the approved list, per the LSA bulletin page for the BBS major (effective Fall 2026): Calculus I (MATH 115, 120 AP, 175, 185, or 295), Calculus II (MATH 116, 121 AP, 156, 176, 186, or 296), Physics I (PHYSICS 125, 139 AP, 140, 150, or 160), Physics II (PHYSICS 126, 239 AP, 240, 250, or 260), Computer Programming (EECS 180 AP, 183, 203, and/or 280), Statistics (STATS 180 AP, 250, or 280; or DATASCI 101; and/or any STATS or DATASCI course at the 300 level or above, min 3 credits), BIOLOGY 202, BIOLOGY/BIOPHYS/COMPFOR 131, or BIOPHYS/PHYSICS 290. A course used here cannot also count as a major elective.",
       "need": 3,
       "countMode": "count",
       "category": "prerequisites",
@@ -405,13 +405,11 @@
         "MATH 186",
         "MATH 296",
         "PHYSICS 125",
-        "PHYSICS 135",
         "PHYSICS 139",
         "PHYSICS 140",
         "PHYSICS 150",
         "PHYSICS 160",
         "PHYSICS 126",
-        "PHYSICS 235",
         "PHYSICS 239",
         "PHYSICS 240",
         "PHYSICS 250",
@@ -424,6 +422,14 @@
         "STATS 250",
         "STATS 280",
         "DATASCI 101",
+        "DATASCI 306",
+        "DATASCI 315",
+        "DATASCI 403",
+        "DATASCI 406",
+        "DATASCI 415",
+        "DATASCI 451",
+        "DATASCI 470",
+        "DATASCI 531",
         "STATS 401",
         "STATS 412",
         "STATS 413",
@@ -445,6 +451,9 @@
         "COMPFOR 131",
         "BIOPHYS 290",
         "PHYSICS 290"
+      ],
+      "sources": [
+        "lsa.umich.edu/lsa/academics/majors-minors/biotechnology-and-bioenvironmental-sciences-maj.html):"
       ]
     },
     {

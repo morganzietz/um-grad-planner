@@ -430,15 +430,14 @@
     {
       "id": "stats-elective",
       "label": "1 Course from Electives",
-      "hint": "Closest auditable approximation: any STATS or DATASCI course numbered 300 or above not already used for a core requirement. Approved cognates from other departments may also count, check with an advisor.",
+      "hint": "Per the Statistics department's approved elective list (Major in Statistics page, checked via the September 2025 snapshot, and the LSA bulletin, effective Fall 2023): STATS 404, any 500 level or higher STATS or DATASCI course, or any additional course from the advanced statistics list beyond the three already required. Advisor approved 400 level MATH courses (except MATH 417 and 419) and advisor approved 300 level or higher EECS courses can also count; confirm those with your advisor before relying on them.",
       "need": 1,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
+        "STATS 404",
         "STATS 315",
         "DATASCI 315",
-        "STATS 401",
-        "DATASCI 403",
         "STATS 406",
         "DATASCI 406",
         "STATS 415",
@@ -450,14 +449,16 @@
         "STATS 470",
         "DATASCI 470",
         "STATS 480",
-        "STATS 489",
-        "STATS 499",
         "STATS 525",
         "STATS 526",
+        "MATH 526",
         "STATS 531",
         "DATASCI 531",
         "STATS 547",
         "STATS 570"
+      ],
+      "sources": [
+        "lsa.umich.edu/stats"
       ]
     },
     {

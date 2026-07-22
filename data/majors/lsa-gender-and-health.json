@@ -321,59 +321,154 @@
     {
       "id": "gh-core-feminist-theory",
       "label": "Feminist Theory Seminar",
-      "hint": "Minimum 1 course, C- or better. Planner counts WGS 330 (Feminist Thought) or WGS 331 (Feminist Theoretical Perspectives in Gender and Health); other approved feminist theory seminars may also count, confirm with an advisor.",
+      "hint": "Minimum 1 course, C- or better. One of WGS 330 (Feminist Thought) or WGS 331 (Feminist Theoretical Perspectives in Gender and Health), per the LSA bulletin Gender and Health major requirements, effective Summer 2024.",
       "need": 1,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
         "WGS 330",
         "WGS 331"
+      ],
+      "sources": [
+        "lsa.umich.edu/lsa/academics/majors-minors/gender-and-health-major.html"
       ]
     },
     {
       "id": "gh-core-practicum",
       "label": "Practicum",
-      "hint": "Minimum 1 course, C- or better. Qualifying practicum courses are designated by the Women's and Gender Studies department each term, so check the department list and track this one manually. Qualifying courses are designated by the department each term; confirm your pick is on the approved list for this area.",
+      "hint": "Minimum 1 course, C- or better. Counts the practicum courses named in the LSA bulletin Gender and Health major requirements, effective Summer 2024: WGS 310 (only if elected FA 2023 or later), WGS 350, WGS 351, WGS 353, WGS 384 (independent research, by department advisor approval), WGS 404 / HS 404, and specifically approved SOC 225 Project Community topics. The bulletin list is not exhaustive; other immersive gender and health experiences can qualify with instructor and department approval.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchTag": "subj-wgs"
+      "matchCodes": [
+        "WGS 310",
+        "WGS 350",
+        "WGS 351",
+        "WGS 353",
+        "WGS 384",
+        "WGS 404",
+        "HS 404",
+        "SOC 225"
+      ],
+      "sources": [
+        "lsa.umich.edu/lsa/academics/majors-minors/gender-and-health-major.html):"
+      ]
     },
     {
       "id": "gh-thematic-lgbtq-sexuality",
       "label": "Thematic Area: LGBTQ and Sexuality Studies in Health",
-      "hint": "Minimum 1 course, C- or better. Qualifying courses are designated by the Women's and Gender Studies department each term, so check the department list and track this one manually. Qualifying courses are designated by the department each term; confirm your pick is on the approved list for this area.",
+      "hint": "Minimum 1 course, C- or better, from the LGBTQ and Sexuality Studies in Health list in the LSA bulletin Gender and Health major requirements, effective Summer 2024. Some entries count only for specific sections or terms, such as WGS 314 (The Culture of AIDS), WGS 415 (only if elected FA 2023 or later), WGS 432 (Diagnosis, Sex and Society or LGBTQ Reproductive Health), and SOC 495 (Diagnosis, Sex and Society). A course cannot double count across thematic areas.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchTag": "subj-wgs"
+      "matchCodes": [
+        "WGS 239",
+        "WGS 305",
+        "WGS 314",
+        "ENGLISH 314",
+        "WGS 348",
+        "SOC 345",
+        "WGS 352",
+        "WGS 394",
+        "WGS 407",
+        "WGS 415",
+        "WGS 432",
+        "WGS 449",
+        "SOC 445",
+        "WGS 452",
+        "WGS 494",
+        "SOC 495"
+      ],
+      "sources": [
+        "lsa.umich.edu/lsa/academics/majors-minors/gender-and-health-major.html"
+      ]
     },
     {
       "id": "gh-thematic-critical-race",
       "label": "Thematic Area: Critical Race and Ethnic Studies in Gender & Health",
-      "hint": "Minimum 1 course, C- or better. Qualifying courses are designated by the Women's and Gender Studies department each term, so check the department list and track this one manually. Qualifying courses are designated by the department each term; confirm your pick is on the approved list for this area.",
+      "hint": "Minimum 1 course, C- or better, from the Critical Race and Ethnic Studies in Gender and Health list in the LSA bulletin Gender and Health major requirements, effective Summer 2024. Some entries count only for specific sections, such as WGS 341 (Black Queer Histories) and certain WGS 343 topics. A course cannot double count across thematic areas.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchTag": "subj-wgs"
+      "matchCodes": [
+        "WGS 222",
+        "WGS 233",
+        "WGS 239",
+        "WGS 291",
+        "PSYCH 291",
+        "WGS 305",
+        "WGS 341",
+        "WGS 343",
+        "WGS 356",
+        "HISTORY 356",
+        "WGS 365",
+        "WGS 392",
+        "WGS 443"
+      ],
+      "sources": [
+        "lsa.umich.edu/lsa/academics/majors-minors/gender-and-health-major.html"
+      ]
     },
     {
       "id": "gh-thematic-bioscience",
       "label": "Thematic Area: Gender & Health in Bioscience",
-      "hint": "Minimum 1 course, C- or better. Qualifying courses are designated by the Women's and Gender Studies department each term, so check the department list and track this one manually. Qualifying courses are designated by the department each term; confirm your pick is on the approved list for this area.",
+      "hint": "Minimum 1 course, C- or better, from the Gender and Health in Bioscience list in the LSA bulletin Gender and Health major requirements, effective Summer 2024. Some entries count only for specific sections or terms, such as WGS 333 (only if elected SP 2023 or later), WGS 342 (Biomedical Knowledge: Behavior, Science and Gender), and WGS 432 (Gender and Contested Illness). A course cannot double count across thematic areas.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchTag": "subj-wgs"
+      "matchCodes": [
+        "WGS 233",
+        "WGS 296",
+        "WGS 300",
+        "WGS 333",
+        "WGS 342",
+        "WGS 400",
+        "WGS 407",
+        "WGS 432",
+        "WGS 452"
+      ],
+      "sources": [
+        "lsa.umich.edu/lsa/academics/majors-minors/gender-and-health-major.html"
+      ]
     },
     {
       "id": "gh-thematic-global-historical",
       "label": "Thematic Area: Gender & Health in Global, Transnational, or Historical Perspectives",
-      "hint": "Minimum 1 course, C- or better. Qualifying courses are designated by the Women's and Gender Studies department each term, so check the department list and track this one manually. Qualifying courses are designated by the department each term; confirm your pick is on the approved list for this area.",
+      "hint": "Minimum 1 course, C- or better, from the Gender and Health in Global, Transnational, or Historical Perspectives list in the LSA bulletin Gender and Health major requirements, effective Summer 2024. Some entries count only for specific sections or terms, such as WGS 213 (War, Gender, Masculinity, Violence), WGS 342 (named sections), WGS 345 (Sexual Violence and the State), WGS 377 (In Sickness and in Health), and WGS 432 (named sections). A course cannot double count across thematic areas.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchTag": "subj-wgs"
+      "matchCodes": [
+        "WGS 212",
+        "WGS 213",
+        "WGS 233",
+        "WGS 239",
+        "WGS 242",
+        "WGS 296",
+        "WGS 306",
+        "WGS 307",
+        "ANTHRCUL 327",
+        "WGS 312",
+        "WGS 324",
+        "ANTHRCUL 325",
+        "WGS 328",
+        "WGS 333",
+        "WGS 342",
+        "WGS 345",
+        "WGS 352",
+        "WGS 356",
+        "HISTORY 356",
+        "WGS 365",
+        "AAS 365",
+        "WGS 377",
+        "WGS 408",
+        "WGS 432",
+        "WOMENSTD 438",
+        "NURS 420"
+      ],
+      "sources": [
+        "lsa.umich.edu/lsa/academics/majors-minors/gender-and-health-major.html"
+      ]
     },
     {
       "id": "whatif-rq-8885",
@@ -475,19 +570,36 @@
     {
       "id": "whatif-rq-8886",
       "label": "Gender, Culture, and Representation",
-      "hint": "1 course from the Thematic Areas or Electives must meet this requirement, C- or better. Planner counts WGS 344 or WGS 434; other courses carrying the Gender, Culture, and Representation designation also count, confirm with an advisor.",
+      "hint": "1 course from the Thematic Areas or Electives must meet this requirement, C- or better. Counts the Gender, Culture and Representation list in the LSA bulletin Gender and Health major requirements, effective Summer 2024. Some entries count only for specific sections or terms, such as ENGLISH 317 (Disability Culture), WGS 310 and WGS 484 (only if elected FA 2023 or later), and named WGS 313, WGS 314, WGS 342, and WGS 432 sections.",
       "need": 1,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
-        "WGS 344",
-        "WGS 434"
+        "ENGLISH 317",
+        "WGS 213",
+        "WGS 222",
+        "WGS 233",
+        "WGS 239",
+        "WGS 296",
+        "WGS 310",
+        "WGS 313",
+        "WGS 314",
+        "ENGLISH 314",
+        "WGS 342",
+        "WGS 352",
+        "WGS 392",
+        "WGS 408",
+        "WGS 432",
+        "WGS 484"
+      ],
+      "sources": [
+        "lsa.umich.edu/lsa/academics/majors-minors/gender-and-health-major.html"
       ]
     },
     {
       "id": "whatif-rq-8887",
       "label": "Cognate: 6 Credits outside WGS",
-      "hint": "6 credits (2 courses) outside Women's and Gender Studies, C- or better per course. May NOT use WGS or any course crosslisted with WGS. Cognates are chosen with department approval, so track this one manually. Counts any non-WGS course; the audit cannot check advisor approval or the no-crosslist rule, so confirm your cognates with an advisor.",
+      "hint": "6 credits (2 courses) outside Women's and Gender Studies, C- or better per course. May NOT use WGS or any course crosslisted with WGS, should sit in a single discipline, and requires WGS advisor approval. The planner counts any non-WGS course; it cannot check the no-crosslist rule or advisor approval, so confirm your cognates with an advisor.",
       "need": 6,
       "countMode": "credits",
       "category": "core",
@@ -499,7 +611,7 @@
     {
       "id": "whatif-rq-8887-2",
       "label": "Cognate: 2 Courses",
-      "hint": "The 6 cognate credits must come from at least 2 courses, C- or better per course. Track this one manually alongside the cognate credits row. Counts any non-WGS course; the audit cannot check advisor approval or the no-crosslist rule, so confirm your cognates with an advisor.",
+      "hint": "The 6 cognate credits must come from at least 2 courses, C- or better per course. The planner counts any non-WGS course; it cannot check the no-crosslist rule or advisor approval, so confirm your cognates with an advisor.",
       "need": 2,
       "countMode": "count",
       "category": "core",

@@ -330,19 +330,36 @@
     {
       "id": "comm-in-action",
       "label": "Communication in Action: 1 Course",
-      "hint": "1 course, 3 credits. Choose 1 of: a COMM course at the 350 through 399 level, COMM 290, 291, or 292 (Public Speaking), COMM 452, COMM 492, or a course from an approved list.",
+      "hint": "1 course, 3 credits. Counts: a COMM course at the 350 through 399 level, COMM 290, 291, or 292 (Public Speaking), the senior thesis seminar COMM 452 or 492, any COMM ULWR course, or a course from the department's approved list: COMM 230, 305, 307, 317, 332, 342, 343, 345, 402, 408, 409, 413, 417, 427. For the topics courses COMM 305, 307, and 408 only the topics named on the department list count, and COMM 417 counts only when taught for 3 credits. Must be taken in the Communication and Media department at U-M; transfer credit and other departments' courses do not count. Approved list per the department's Major Requirements page, (retrieved February 2026).",
       "need": 1,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
+        "COMM 230",
         "COMM 290",
         "COMM 291",
         "COMM 292",
+        "COMM 305",
+        "COMM 307",
+        "COMM 317",
+        "COMM 332",
+        "COMM 342",
+        "COMM 343",
+        "COMM 345",
         "COMM 350",
         "COMM 365",
         "COMM 375",
+        "COMM 402",
+        "COMM 408",
+        "COMM 409",
+        "COMM 413",
+        "COMM 417",
+        "COMM 427",
         "COMM 452",
         "COMM 492"
+      ],
+      "sources": [
+        "lsa.umich.edu/comm/undergraduates/major/major-requirements.html"
       ]
     },
     {
@@ -408,7 +425,7 @@
     {
       "id": "comm-400-seminars",
       "label": "2 400-Level Seminar Courses",
-      "hint": "Minimum 6 credits of Additional Advanced COMM: 2 seminar courses at the 400 level for 6 credits, taken in residence.",
+      "hint": "Minimum 6 credits of Additional Advanced COMM: 2 seminar courses at the 400 level for 6 credits, taken in residence in the department. The department publishes no separate seminar list; its Major Requirements page (retrieved February 2026) states the rule as 6 of the 25 elective credits at the 400 level, and the LSA bulletin says COMM 441 and 442 do not meet this requirement. So any 400 level COMM course counts except COMM 441 and 442.",
       "need": 2,
       "countMode": "count",
       "category": "core",
@@ -417,15 +434,15 @@
         "COMM 404",
         "COMM 405",
         "COMM 408",
+        "COMM 409",
         "COMM 413",
         "COMM 417",
         "COMM 423",
         "COMM 427",
         "COMM 431",
         "COMM 439",
-        "COMM 441",
-        "COMM 442",
         "COMM 448",
+        "COMM 451",
         "COMM 452",
         "COMM 458",
         "COMM 461",
@@ -434,7 +451,11 @@
         "COMM 474",
         "COMM 476",
         "COMM 490",
+        "COMM 491",
         "COMM 492"
+      ],
+      "sources": [
+        "lsa.umich.edu/comm/undergraduates/major/major-requirements.html"
       ]
     },
     {

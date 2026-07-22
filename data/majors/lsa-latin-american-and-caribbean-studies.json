@@ -321,70 +321,59 @@
     {
       "id": "lacs-subfield-anthropology",
       "label": "Anthropology: 1 course",
-      "hint": "One LACS-approved anthropology course on Latin America or the Caribbean, such as ANTHRARC 284 or ANTHRCUL 319. Other approved courses also count, check with an advisor.",
+      "hint": "ANTHRCUL 319 (Latin American Society and Culture) or ANTHRCUL 414 (Introduction to Caribbean Societies and Cultures, I). An upper-level Anthropology course on Latin America approved by an advisor also counts. Per the LSA bulletin LACS major page (lsa.umich.edu) and the LACS Center, 2025-2026.",
       "need": 1,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
-        "ANTHRARC 284",
-        "ANTHRCUL 319"
+        "ANTHRCUL 319",
+        "ANTHRCUL 414"
+      ],
+      "sources": [
+        "ii.umich.edu/lacs"
       ]
     },
     {
       "id": "lacs-subfield-history",
       "label": "History: 1 course",
-      "hint": "One LACS-approved history course on Latin America or the Caribbean, such as HISTORY 304, 348, 349, or 363 (or their cross-listings). Other approved courses also count, check with an advisor.",
+      "hint": "HISTORY 347 (Latin America: The Colonial Period) or HISTORY 348 (Latin America: The National Period, also listed as INTLSTD 348). An upper-level HISTORY course on Latin America approved by an advisor also counts. Per the LSA bulletin LACS major page (lsa.umich.edu) and the LACS Center, 2025-2026.",
       "need": 1,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
-        "HISTORY 304",
+        "HISTORY 347",
         "HISTORY 348",
-        "HISTORY 349",
-        "HISTORY 363",
-        "LACS 304",
-        "LACS 349",
-        "LACS 363",
-        "INTLSTD 304",
-        "INTLSTD 348",
-        "POLSCI 346",
-        "WGS 306",
-        "SPANISH 443"
+        "INTLSTD 348"
+      ],
+      "sources": [
+        "ii.umich.edu/lacs"
       ]
     },
     {
       "id": "lacs-subfield-literature",
       "label": "Literature: 1 course",
-      "hint": "One LACS-approved literature course on Latin America or the Caribbean, such as SPANISH 332, 381, 425, 467, 473, or 475, PORTUG 301 or 474, or a Caribbean literature course (AAS 384, AMCULT 376, ENGLISH 384, FRENCH 363). Other approved courses also count, check with an advisor.",
+      "hint": "SPANISH 381 (Survey of Latin American Literature, I) or SPANISH 382 (Survey of Latin American Literature, II). An upper-level course in Latin American literature approved by an advisor also counts. Per the LSA bulletin LACS major page (lsa.umich.edu) and the LACS Center, 2025-2026.",
       "need": 1,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
-        "SPANISH 332",
         "SPANISH 381",
-        "SPANISH 425",
-        "SPANISH 467",
-        "SPANISH 473",
-        "SPANISH 475",
-        "PORTUG 301",
-        "PORTUG 474",
-        "AAS 384",
-        "AMCULT 376",
-        "ENGLISH 384",
-        "FRENCH 363"
+        "SPANISH 382"
+      ],
+      "sources": [
+        "ii.umich.edu/lacs"
       ]
     },
     {
       "id": "lacs-subfield-politics-economy",
       "label": "Politics & Economy: 1 course",
-      "hint": "One LACS-approved politics or economy course on Latin America or the Caribbean, such as POLSCI 347, LACS 321, or SPANISH 314. Other approved courses also count, check with an advisor.",
+      "hint": "Still building automatic checking for this rule. One course in Latin American politics and/or economy: SPANISH 438 (Economy and Politics in Latin America/Spain, a variable topics course not offered in currently loaded terms) or an upper-level course approved by an advisor, usually found in Political Science, Sociology, and Spanish, per the LSA bulletin LACS major page (lsa.umich.edu) and the LACS Center. Until then, confirm progress with your advisor.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchCodes": [
-        "POLSCI 347",
-        "LACS 321",
-        "SPANISH 314"
+      "manual": true,
+      "sources": [
+        "ii.umich.edu/lacs"
       ]
     },
     {

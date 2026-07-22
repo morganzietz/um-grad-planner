@@ -368,7 +368,7 @@
     {
       "id": "greekmod-structure-course",
       "label": "1 Approved Structure Course",
-      "hint": "One approved structure course from CLCIV, ARCHAM/CLARCH, COMPLIT, HISTORY, HISTART, or POLSCI. The department approves specific courses: confirm your choice with an advisor.",
+      "hint": "One course selected from CLCIV, ARCHAM (formerly CLARCH), COMPLIT, HISTORY, HISTART, or POLSCI, chosen in consultation with and approved by the department advisor. The department publishes no fixed course list; any course in these subjects can be planned here, and the advisor gives final approval. Per the LSA bulletin major page and the Classical Studies Greek (Modern) Language & Culture major checklist, revised 9/5/2024 (F24.pdf).",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -669,6 +669,9 @@
         "POLSCI 496",
         "POLSCI 498",
         "POLSCI 514"
+      ],
+      "sources": [
+        "lsa.umich.edu/content/dam/classics-assets/classicsdocuments/f24-major-minor-checklists/MODGREEK_Major_checklist"
       ]
     },
     {

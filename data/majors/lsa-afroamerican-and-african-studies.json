@@ -308,7 +308,7 @@
     {
       "id": "aas-gateway",
       "label": "Gateway: 2 Courses",
-      "hint": "Choose 2 of the DAAS gateway courses: AAS 200, AAS 201, AAS 202.",
+      "hint": "Choose 2 of the 3 DAAS gateway courses: AAS 200 (Introduction to African Studies), AAS 201 (Introduction to African American Studies), AAS 202 (Introduction to African Diasporic Studies). Per the LSA bulletin's Afroamerican and African Studies major page, effective Fall 2025.",
       "need": 2,
       "countMode": "count",
       "category": "core",
@@ -316,21 +316,53 @@
         "AAS 200",
         "AAS 201",
         "AAS 202"
+      ],
+      "sources": [
+        "lsa.umich.edu/lsa/academics/majors-minors/afroamerican-and-african-studies-major.html"
       ]
     },
     {
       "id": "aas-comparative-global",
       "label": "Comparative or Global Courses: 2 Courses",
-      "hint": "2 AAS courses at the 300 level or higher with a comparative or global focus. Confirm the comparative or global designation with a department advisor.",
+      "hint": "Choose 2 from the approved comparative or global list: AAS 304, 309, 322, 323, 324, 346, 357, 359, 362, 365, 381, 384, or 441. Cross-listed sections count. Per the LSA bulletin's Afroamerican and African Studies major page, effective Fall 2025.",
       "need": 2,
       "countMode": "count",
       "category": "core",
-      "matchTag": "subj-aas-upper"
+      "matchCodes": [
+        "AAS 304",
+        "WGS 304",
+        "AAS 309",
+        "AAS 322",
+        "ENVIRON 335",
+        "AAS 323",
+        "WGS 323",
+        "HISTORY 388",
+        "AAS 324",
+        "AAS 346",
+        "AAS 357",
+        "AAS 359",
+        "POLSCI 359",
+        "AAS 362",
+        "HISTART 362",
+        "AAS 365",
+        "ANTHRCUL 365",
+        "WGS 365",
+        "AAS 381",
+        "AAS 384",
+        "AMCULT 376",
+        "ENGLISH 384",
+        "AAS 441",
+        "INTLSTD 441",
+        "POLSCI 441"
+      ],
+      "sources": [
+        "lsa.umich.edu/lsa/academics/majors-minors/afroamerican-and-african-studies-major.html"
+      ]
     },
     {
       "id": "aas-electives-300-400",
       "label": "300 or 400 Level Electives: 2 Courses",
-      "hint": "2 AAS courses at the 300 or 400 level, chosen in consultation with a department advisor.",
+      "hint": "2 of the major's 4 electives must be AAS courses at the 300 or 400 level, chosen in consultation with a DAAS advisor or faculty. Any upper-level AAS course can count here with advisor approval. Per the LSA bulletin's Afroamerican and African Studies major page, effective Fall 2025.",
       "need": 2,
       "countMode": "count",
       "category": "electives",
@@ -339,7 +371,7 @@
     {
       "id": "aas-electives-additional",
       "label": "Additional Electives: 2 Courses",
-      "hint": "2 additional AAS courses, chosen in consultation with a department advisor.",
+      "hint": "2 additional AAS electives at any level, chosen in consultation with a DAAS advisor or faculty. Any AAS course can count here with advisor approval. Per the LSA bulletin's Afroamerican and African Studies major page, effective Fall 2025.",
       "need": 2,
       "countMode": "count",
       "category": "electives",

@@ -308,60 +308,135 @@
     {
       "id": "english-fm-200",
       "label": "Foundations & Methods: One 200-Level Course",
-      "hint": "Choose 1 from the department's approved 200-level Foundations & Methods list, C- or better. Approximated here by all 200-level ENGLISH courses; confirm your pick is on the approved list.",
+      "hint": "Choose 1 course, C- or better, from the department's 200-level Foundations and Methods list. Codes here are from the English Course Requirements Lists for Winter 2025 and Fall 2025. The list changes each term and some topics courses count only for specific sections, so confirm your section is on the current term's list (2026 lists are posted there as Google Sheets, U-M login required).",
       "need": 1,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
-        "ENGLISH 201",
         "ENGLISH 203",
         "ENGLISH 215",
-        "ENGLISH 216",
-        "ENGLISH 221",
-        "ENGLISH 223",
-        "ENGLISH 225",
-        "ENGLISH 226",
-        "ENGLISH 227",
-        "ENGLISH 229",
-        "ENGLISH 234",
         "ENGLISH 235",
         "ENGLISH 240",
         "ENGLISH 244",
-        "ENGLISH 266",
-        "ENGLISH 267",
-        "ENGLISH 274",
-        "ENGLISH 275",
-        "ENGLISH 290",
-        "ENGLISH 292",
-        "ENGLISH 293"
+        "ENGLISH 258",
+        "ENGLISH 260",
+        "ENGLISH 290"
+      ],
+      "sources": [
+        "lsa.umich.edu/english/undergraduate/english-major/program-requirements/course-requirements-lists-by-term.html"
       ]
     },
     {
       "id": "english-fm-300-400",
       "label": "Foundations & Methods: One 300- or 400-Level Course",
-      "hint": "Choose 1 from the department's approved 300- or 400-level Foundations & Methods list, C- or better. Approximated here by all ENGLISH courses at the 300 level or above; confirm your pick is on the approved list.",
+      "hint": "Choose 1 course, C- or better, from the department's 300/400-level Foundations and Methods list. Codes here are from the English Course Requirements Lists for Winter 2025 and Fall 2025. The list changes each term and some topics courses count only for specific sections, so confirm your section is on the current term's list (2026 lists are posted there as Google Sheets, U-M login required).",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchTag": "subj-english-upper"
+      "matchCodes": [
+        "ENGLISH 304",
+        "ENGLISH 305",
+        "ENGLISH 313",
+        "ENGLISH 314",
+        "ENGLISH 315",
+        "ENGLISH 316",
+        "ENGLISH 317",
+        "ENGLISH 319",
+        "ENGLISH 320",
+        "ENGLISH 322",
+        "ENGLISH 332",
+        "ENGLISH 340",
+        "ENGLISH 363",
+        "ENGLISH 372",
+        "ENGLISH 379",
+        "ENGLISH 390",
+        "ENGLISH 398",
+        "ENGLISH 403",
+        "ENGLISH 405",
+        "ENGLISH 407",
+        "ENGLISH 408",
+        "ENGLISH 414",
+        "ENGLISH 415",
+        "ENGLISH 442",
+        "ENGLISH 452",
+        "ENGLISH 467"
+      ],
+      "sources": [
+        "lsa.umich.edu/english/undergraduate/english-major/program-requirements/course-requirements-lists-by-term.html"
+      ]
     },
     {
       "id": "english-regions-africa-asia",
       "label": "Regions: Africa, Asia, the Middle East, or Pacific Islands",
-      "hint": "1 course from the department's approved Regions list for Africa, Asia, the Middle East, or Pacific Islands, C- or better. Any ENGLISH course counts here as the closest auditable match; confirm your pick is on the approved list.",
+      "hint": "1 course, C- or better, from the department's Regions list for Africa, Asia, the Middle East, and the Pacific Islands. Codes here are from the English Course Requirements Lists for Winter 2025 and Fall 2025. The list changes each term and some topics courses count only for specific sections, so confirm your section is on the current term's list (2026 lists are posted there as Google Sheets, U-M login required).",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchTag": "subj-english"
+      "matchCodes": [
+        "ENGLISH 215",
+        "ENGLISH 317",
+        "ENGLISH 332",
+        "ENGLISH 340",
+        "ENGLISH 378",
+        "ENGLISH 385",
+        "ENGLISH 390",
+        "ENGLISH 407",
+        "COMPLIT 382"
+      ],
+      "sources": [
+        "lsa.umich.edu/english/undergraduate/english-major/program-requirements/course-requirements-lists-by-term.html"
+      ]
     },
     {
       "id": "english-regions-americas-uk",
       "label": "Regions: the Americas, the United Kingdom, Australia, New Zealand, or Ireland",
-      "hint": "1 course from the department's approved Regions list for the Americas, the United Kingdom, Australia, New Zealand, or Ireland, C- or better. Any ENGLISH course counts here as the closest auditable match; confirm your pick is on the approved list.",
+      "hint": "1 course, C- or better, from the department's Regions list for the Americas, the United Kingdom, Australia, New Zealand, and Ireland. Codes here are from the English Course Requirements Lists for Winter 2025 and Fall 2025. The list changes each term and some topics courses count only for specific sections, so confirm your section is on the current term's list (2026 lists are posted there as Google Sheets, U-M login required).",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchTag": "subj-english"
+      "matchCodes": [
+        "ENGLISH 215",
+        "ENGLISH 216",
+        "ENGLISH 244",
+        "ENGLISH 290",
+        "ENGLISH 304",
+        "ENGLISH 313",
+        "ENGLISH 314",
+        "ENGLISH 315",
+        "ENGLISH 317",
+        "ENGLISH 318",
+        "ENGLISH 319",
+        "ENGLISH 320",
+        "ENGLISH 328",
+        "ENGLISH 332",
+        "ENGLISH 340",
+        "ENGLISH 341",
+        "ENGLISH 346",
+        "ENGLISH 350",
+        "ENGLISH 362",
+        "ENGLISH 367",
+        "ENGLISH 370",
+        "ENGLISH 373",
+        "ENGLISH 378",
+        "ENGLISH 379",
+        "ENGLISH 381",
+        "ENGLISH 384",
+        "ENGLISH 390",
+        "ENGLISH 398",
+        "ENGLISH 403",
+        "ENGLISH 407",
+        "ENGLISH 411",
+        "ENGLISH 414",
+        "ENGLISH 415",
+        "ENGLISH 418",
+        "ENGLISH 452",
+        "ENGLISH 460",
+        "ENGLISH 464",
+        "ENGLISH 467"
+      ],
+      "sources": [
+        "lsa.umich.edu/english/undergraduate/english-major/program-requirements/course-requirements-lists-by-term.html"
+      ]
     },
     {
       "id": "whatif-rq-1943",
@@ -379,29 +454,95 @@
     {
       "id": "english-time-medieval-early-modern",
       "label": "Time: Medieval and Early Modern",
-      "hint": "1 course from the department's approved Medieval and Early Modern list, C- or better. Any ENGLISH course counts here as the closest auditable match; confirm your pick is on the approved list.",
+      "hint": "1 course, C- or better, from the department's Time list for Medieval and Early Modern. Codes here are from the English Course Requirements Lists for Winter 2025 and Fall 2025. The list changes each term and some topics courses count only for specific sections, so confirm your section is on the current term's list (2026 lists are posted there as Google Sheets, U-M login required).",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchTag": "subj-english"
+      "matchCodes": [
+        "ENGLISH 317",
+        "ENGLISH 350",
+        "ENGLISH 367",
+        "ENGLISH 409",
+        "ENGLISH 415",
+        "ENGLISH 465",
+        "ENGLISH 467"
+      ],
+      "sources": [
+        "lsa.umich.edu/english/undergraduate/english-major/program-requirements/course-requirements-lists-by-term.html"
+      ]
     },
     {
       "id": "english-time-18th-19th",
       "label": "Time: 18th and 19th Centuries",
-      "hint": "1 course from the department's approved 18th and 19th Centuries list, C- or better. Any ENGLISH course counts here as the closest auditable match; confirm your pick is on the approved list.",
+      "hint": "1 course, C- or better, from the department's Time list for the 18th and 19th Centuries. Codes here are from the English Course Requirements Lists for Winter 2025 and Fall 2025. The list changes each term and some topics courses count only for specific sections, so confirm your section is on the current term's list (2026 lists are posted there as Google Sheets, U-M login required).",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchTag": "subj-english"
+      "matchCodes": [
+        "ENGLISH 260",
+        "ENGLISH 314",
+        "ENGLISH 317",
+        "ENGLISH 319",
+        "ENGLISH 320",
+        "ENGLISH 370",
+        "ENGLISH 403",
+        "ENGLISH 452"
+      ],
+      "sources": [
+        "lsa.umich.edu/english/undergraduate/english-major/program-requirements/course-requirements-lists-by-term.html"
+      ]
     },
     {
       "id": "english-time-modern-contemporary",
       "label": "Time: Modern and Contemporary",
-      "hint": "1 course from the department's approved Modern and Contemporary list, C- or better. Any ENGLISH course counts here as the closest auditable match; confirm your pick is on the approved list.",
+      "hint": "1 course, C- or better, from the department's Time list for Modern and Contemporary. Codes here are from the English Course Requirements Lists for Winter 2025 and Fall 2025. The list changes each term and some topics courses count only for specific sections, so confirm your section is on the current term's list (2026 lists are posted there as Google Sheets, U-M login required).",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchTag": "subj-english"
+      "matchCodes": [
+        "ENGLISH 215",
+        "ENGLISH 232",
+        "ENGLISH 235",
+        "ENGLISH 242",
+        "ENGLISH 244",
+        "ENGLISH 290",
+        "ENGLISH 313",
+        "ENGLISH 314",
+        "ENGLISH 315",
+        "ENGLISH 316",
+        "ENGLISH 317",
+        "ENGLISH 320",
+        "ENGLISH 328",
+        "ENGLISH 332",
+        "ENGLISH 340",
+        "ENGLISH 341",
+        "ENGLISH 342",
+        "ENGLISH 346",
+        "ENGLISH 362",
+        "ENGLISH 363",
+        "ENGLISH 372",
+        "ENGLISH 373",
+        "ENGLISH 378",
+        "ENGLISH 379",
+        "ENGLISH 381",
+        "ENGLISH 384",
+        "ENGLISH 385",
+        "ENGLISH 390",
+        "ENGLISH 398",
+        "ENGLISH 403",
+        "ENGLISH 407",
+        "ENGLISH 411",
+        "ENGLISH 414",
+        "ENGLISH 415",
+        "ENGLISH 418",
+        "ENGLISH 440",
+        "ENGLISH 442",
+        "ENGLISH 460",
+        "ENGLISH 464"
+      ],
+      "sources": [
+        "lsa.umich.edu/english/undergraduate/english-major/program-requirements/course-requirements-lists-by-term.html"
+      ]
     },
     {
       "id": "whatif-rq-10952",
