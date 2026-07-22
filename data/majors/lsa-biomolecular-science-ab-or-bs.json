@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -49,7 +49,7 @@
     },
     {
       "id": "whatif-rq-1850",
-      "label": "60 Credits Outside Chemistry",
+      "label": "60 Credits outside Chemistry",
       "hint": "Credits earned in courses outside the Chemistry department(s).",
       "need": 60,
       "countMode": "credits",
@@ -189,7 +189,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -199,7 +199,9 @@
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -278,7 +280,68 @@
       ]
     },
     {
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
       "id": "whatif-rq-11681",
+      "label": "Introductory Biology",
+      "hint": "BIOLOGY 171 and 172, or BIOLOGY 195.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "pickFromGroups": [
+        "bms-bio-171-172",
+        "bms-bio-195"
+      ]
+    },
+    {
+      "id": "bms-bio-171-172",
+      "label": "BIOLOGY 171 & 172",
+      "hint": "Introductory Biology: Ecology and Evolution, plus Introductory Biology: Molecular, Cellular, and Developmental.",
+      "need": 2,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "BIOLOGY 171",
+        "BIOLOGY 172"
+      ]
+    },
+    {
+      "id": "bms-bio-195",
+      "label": "BIOLOGY 195: Introductory Biology",
+      "hint": "Single-course alternative to BIOLOGY 171 and 172.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "BIOLOGY 195"
+      ]
+    },
+    {
+      "id": "whatif-rq-11681-2",
       "label": "BIOLOGY 173: Introductory Biology Laboratory",
       "hint": "",
       "need": 1,
@@ -289,9 +352,21 @@
       ]
     },
     {
-      "id": "whatif-rq-900011",
-      "label": "CHEM 125, 126, & 130",
-      "hint": "",
+      "id": "whatif-rq-11682",
+      "label": "Chemistry Prerequisites",
+      "hint": "Complete one of the following sequences: CHEM 125, 126, and 130, or CHEM 245, 246, and 247.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "pickFromGroups": [
+        "bms-chem-125-126-130",
+        "bms-chem-245-246-247"
+      ]
+    },
+    {
+      "id": "bms-chem-125-126-130",
+      "label": "CHEM 125, 126 & 130",
+      "hint": "General Chemistry Laboratory I and II, plus General Chemistry: Macroscopic Investigations and Reaction Principles.",
       "need": 3,
       "countMode": "count",
       "category": "prerequisites",
@@ -302,26 +377,75 @@
       ]
     },
     {
-      "id": "whatif-rq-900012",
-      "label": "CHEM 245, 246, & 247 for students with AP credit for CHEM 125, 126 & 130",
-      "hint": "",
+      "id": "bms-chem-245-246-247",
+      "label": "CHEM 245, 246 & 247",
+      "hint": "Biomedical Analytical Chemistry sequence, for students with AP credit for CHEM 125, 126, and 130.",
       "need": 3,
       "countMode": "count",
       "category": "prerequisites",
       "matchCodes": [
         "CHEM 245",
         "CHEM 246",
-        "CHEM 247",
-        "CHEM 125",
-        "CHEM 126",
-        "CHEM 130"
+        "CHEM 247"
       ]
     },
     {
-      "id": "whatif-rq-900013",
-      "label": "Physics I: 1 combination of lecture & lab or PHYSICS 139",
+      "id": "bms-math-115",
+      "label": "MATH 115: Calculus I",
       "hint": "",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "MATH 115"
+      ]
+    },
+    {
+      "id": "bms-math-116-or-stats",
+      "label": "Calculus II or Statistics",
+      "hint": "Choose 1 of: MATH 116, STATS 250, or STATS 280",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "MATH 116",
+        "STATS 250",
+        "STATS 280"
+      ]
+    },
+    {
+      "id": "bms-physics-1",
+      "label": "Physics I",
+      "hint": "One lecture and lab combination, or PHYSICS 139.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "pickFromGroups": [
+        "bms-physics-1-lecture-lab",
+        "bms-physics-1-139"
+      ]
+    },
+    {
+      "id": "bms-physics-1-lecture-lab",
+      "label": "Physics I Lecture & Lab",
+      "hint": "One Physics I lecture plus its lab: PHYSICS 140 & 141, 150 & 151, or 160 & 161.",
       "need": 2,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "PHYSICS 140",
+        "PHYSICS 141",
+        "PHYSICS 150",
+        "PHYSICS 151",
+        "PHYSICS 160",
+        "PHYSICS 161"
+      ]
+    },
+    {
+      "id": "bms-physics-1-139",
+      "label": "PHYSICS 139",
+      "hint": "Single-course alternative to the Physics I lecture and lab combination.",
+      "need": 1,
       "countMode": "count",
       "category": "prerequisites",
       "matchCodes": [
@@ -329,10 +453,38 @@
       ]
     },
     {
-      "id": "whatif-rq-900014",
-      "label": "Physics II: 1 combination of lecture & lab or PHYSICS 239",
-      "hint": "",
+      "id": "bms-physics-2",
+      "label": "Physics II",
+      "hint": "One lecture and lab combination, or PHYSICS 239.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "pickFromGroups": [
+        "bms-physics-2-lecture-lab",
+        "bms-physics-2-239"
+      ]
+    },
+    {
+      "id": "bms-physics-2-lecture-lab",
+      "label": "Physics II Lecture & Lab",
+      "hint": "One Physics II lecture plus its lab: PHYSICS 240 & 241, 250 & 251, or 260 & 261.",
       "need": 2,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "PHYSICS 240",
+        "PHYSICS 241",
+        "PHYSICS 250",
+        "PHYSICS 251",
+        "PHYSICS 260",
+        "PHYSICS 261"
+      ]
+    },
+    {
+      "id": "bms-physics-2-239",
+      "label": "PHYSICS 239",
+      "hint": "Single-course alternative to the Physics II lecture and lab combination.",
+      "need": 1,
       "countMode": "count",
       "category": "prerequisites",
       "matchCodes": [
@@ -340,9 +492,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900015",
+      "id": "bms-chem-210-211",
       "label": "CHEM 210 & 211",
-      "hint": "",
+      "hint": "Structure and Reactivity I, plus Investigations in Chemistry.",
       "need": 2,
       "countMode": "count",
       "category": "core",
@@ -352,9 +504,20 @@
       ]
     },
     {
-      "id": "whatif-rq-900016",
-      "label": "Physical Chemical Principles and Applications",
-      "hint": "Choose 1 of: CHEM 230 or CHEM 260",
+      "id": "bms-chem-215",
+      "label": "CHEM 215: Structure and Reactivity II",
+      "hint": "",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "CHEM 215"
+      ]
+    },
+    {
+      "id": "bms-chem-230-or-260",
+      "label": "Physical Chemistry: CHEM 230 or 260",
+      "hint": "Choose 1 of: CHEM 230 (Physical Chemical Principles and Applications) or CHEM 260 (Chemical Principles)",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -364,9 +527,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900017",
-      "label": "CHEM 351, and one of CHEM 352 or 353",
-      "hint": "",
+      "id": "bms-chem-351-plus-lab",
+      "label": "Biochemistry: CHEM 351 plus Lab",
+      "hint": "CHEM 351 (Fundamentals of Biochemistry), and one of CHEM 352 or 353.",
       "need": 2,
       "countMode": "count",
       "category": "core",
@@ -377,31 +540,200 @@
       ]
     },
     {
-      "id": "whatif-rq-900018",
+      "id": "whatif-rq-11695",
+      "label": "Electives: 9 Credits from List A and List B",
+      "hint": "9 credits and 3 courses total from the List A and List B electives below; at least one course from each list and at least one at the 400 level. Lists per the Chemistry department worksheet.",
+      "need": 9,
+      "countMode": "credits",
+      "category": "electives",
+      "matchCodes": [
+        "CHEM 303",
+        "CHEM 419",
+        "CHEM 420",
+        "CHEM 425",
+        "CHEM 436",
+        "CHEM 451",
+        "CHEM 452",
+        "CHEM 453",
+        "CHEM 455",
+        "CHEM 465",
+        "CHEM 440",
+        "BIOPHYS 440",
+        "BIOPHYS 420",
+        "BIOPHYS 421",
+        "BIOLOGY 305",
+        "MCDB 405",
+        "MCDB 411",
+        "MCDB 422",
+        "MCDB 427",
+        "MCDB 428",
+        "MCDB 433",
+        "MCDB 436",
+        "MICRBIOL 405",
+        "PHRMACOL 310",
+        "PHRMACOL 425",
+        "PHYSIOL 502"
+      ]
+    },
+    {
+      "id": "bms-elective-list-a",
       "label": "List A Elective",
-      "hint": "",
+      "hint": "Choose 1 of: CHEM 303, 419, 420, 425, 436, 451, 452, 453, 455, or 465",
       "need": 1,
       "countMode": "count",
-      "category": "core",
-      "matchAll": true
+      "category": "electives",
+      "matchCodes": [
+        "CHEM 303",
+        "CHEM 419",
+        "CHEM 420",
+        "CHEM 425",
+        "CHEM 436",
+        "CHEM 451",
+        "CHEM 452",
+        "CHEM 453",
+        "CHEM 455",
+        "CHEM 465"
+      ]
     },
     {
-      "id": "whatif-rq-900019",
+      "id": "bms-elective-list-b",
       "label": "List B Elective",
-      "hint": "",
+      "hint": "Choose 1 of: CHEM 440 or BIOPHYS 440, BIOPHYS 420, BIOPHYS 421, BIOLOGY 305, MCDB 405, 411, 422, 427, 428, 433, or 436, MICRBIOL 405, PHRMACOL 310, PHRMACOL 425, or PHYSIOL 502",
       "need": 1,
       "countMode": "count",
-      "category": "core",
-      "matchAll": true
+      "category": "electives",
+      "matchCodes": [
+        "CHEM 440",
+        "BIOPHYS 440",
+        "BIOPHYS 420",
+        "BIOPHYS 421",
+        "BIOLOGY 305",
+        "MCDB 405",
+        "MCDB 411",
+        "MCDB 422",
+        "MCDB 427",
+        "MCDB 428",
+        "MCDB 433",
+        "MCDB 436",
+        "MICRBIOL 405",
+        "PHRMACOL 310",
+        "PHRMACOL 425",
+        "PHYSIOL 502"
+      ]
     },
     {
-      "id": "whatif-rq-900020",
+      "id": "bms-elective-additional",
       "label": "Additional Elective from List A or B",
-      "hint": "",
+      "hint": "A third course from either list, 3 elective courses total.",
       "need": 1,
       "countMode": "count",
-      "category": "core",
-      "matchAll": true
+      "category": "electives",
+      "offset": 2,
+      "matchCodes": [
+        "CHEM 303",
+        "CHEM 419",
+        "CHEM 420",
+        "CHEM 425",
+        "CHEM 436",
+        "CHEM 451",
+        "CHEM 452",
+        "CHEM 453",
+        "CHEM 455",
+        "CHEM 465",
+        "CHEM 440",
+        "BIOPHYS 440",
+        "BIOPHYS 420",
+        "BIOPHYS 421",
+        "BIOLOGY 305",
+        "MCDB 405",
+        "MCDB 411",
+        "MCDB 422",
+        "MCDB 427",
+        "MCDB 428",
+        "MCDB 433",
+        "MCDB 436",
+        "MICRBIOL 405",
+        "PHRMACOL 310",
+        "PHRMACOL 425",
+        "PHYSIOL 502"
+      ]
+    },
+    {
+      "id": "bms-elective-400-level",
+      "label": "400-Level Elective",
+      "hint": "At least one of the three electives must be at the 400 level.",
+      "need": 1,
+      "countMode": "count",
+      "category": "electives",
+      "matchCodes": [
+        "CHEM 419",
+        "CHEM 420",
+        "CHEM 425",
+        "CHEM 436",
+        "CHEM 451",
+        "CHEM 452",
+        "CHEM 453",
+        "CHEM 455",
+        "CHEM 465",
+        "CHEM 440",
+        "BIOPHYS 440",
+        "BIOPHYS 420",
+        "BIOPHYS 421",
+        "MCDB 405",
+        "MCDB 411",
+        "MCDB 422",
+        "MCDB 427",
+        "MCDB 428",
+        "MCDB 433",
+        "MCDB 436",
+        "MICRBIOL 405",
+        "PHRMACOL 425",
+        "PHYSIOL 502"
+      ]
+    },
+    {
+      "id": "whatif-rq-11698",
+      "label": "Major Total Credits: minimum 25",
+      "hint": "Includes all courses used toward the major requirements, including those from other departments. Does not include any prerequisites.",
+      "need": 25,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchCodes": [
+        "CHEM 210",
+        "CHEM 211",
+        "CHEM 215",
+        "CHEM 230",
+        "CHEM 260",
+        "CHEM 351",
+        "CHEM 352",
+        "CHEM 353",
+        "CHEM 303",
+        "CHEM 419",
+        "CHEM 420",
+        "CHEM 425",
+        "CHEM 436",
+        "CHEM 451",
+        "CHEM 452",
+        "CHEM 453",
+        "CHEM 455",
+        "CHEM 465",
+        "CHEM 440",
+        "BIOPHYS 440",
+        "BIOPHYS 420",
+        "BIOPHYS 421",
+        "BIOLOGY 305",
+        "MCDB 405",
+        "MCDB 411",
+        "MCDB 422",
+        "MCDB 427",
+        "MCDB 428",
+        "MCDB 433",
+        "MCDB 436",
+        "MICRBIOL 405",
+        "PHRMACOL 310",
+        "PHRMACOL 425",
+        "PHYSIOL 502"
+      ]
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/biomolecular-science-major.html"

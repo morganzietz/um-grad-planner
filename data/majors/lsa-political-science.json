@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -189,7 +189,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -199,7 +199,9 @@
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -278,9 +280,35 @@
       ]
     },
     {
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
       "id": "whatif-rq-10391",
-      "label": "Introductory Courses: 2 courses from POLSCI 101, 111, 140, 160",
-      "hint": "",
+      "label": "Introductory Courses: 2 of POLSCI 101, 111, 140, 160",
+      "hint": "Choose 2 of: POLSCI 101, POLSCI 111, POLSCI 140, POLSCI 160. Prerequisites do not count toward the 30 major credits.",
       "need": 2,
       "countMode": "count",
       "category": "prerequisites",
@@ -292,106 +320,231 @@
       ]
     },
     {
-      "id": "whatif-rq-900011",
-      "label": "American Government",
-      "hint": "",
-      "need": 1,
+      "id": "whatif-rq-10437",
+      "label": "Breadth: 1 course in 4 of 5 subfields",
+      "hint": "Complete 1 course in 4 of these 5 subfields: American Government, Comparative Politics, Political Theory, Methods, World Politics.",
+      "need": 4,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
-    },
-    {
-      "id": "whatif-rq-900012",
-      "label": "Comparative Politics",
-      "hint": "",
-      "need": 1,
-      "countMode": "count",
-      "category": "core",
-      "matchAll": true
-    },
-    {
-      "id": "whatif-rq-900013",
-      "label": "Political Theory",
-      "hint": "",
-      "need": 1,
-      "countMode": "count",
-      "category": "core",
-      "matchAll": true
-    },
-    {
-      "id": "whatif-rq-900014",
-      "label": "World Politics",
-      "hint": "",
-      "need": 1,
-      "countMode": "count",
-      "category": "core",
-      "matchAll": true
-    },
-    {
-      "id": "whatif-rq-10460",
-      "label": "Depth: 2 400-Level POLSCI courses or 1 400-Level POLSCI course & 1 ULWR POLSCI course",
-      "hint": "",
-      "need": 2,
-      "countMode": "count",
-      "category": "core",
-      "matchCodes": [
-        "POLSCI 400"
+      "pickFromGroups": [
+        "polsci-breadth-american",
+        "polsci-breadth-comparative",
+        "polsci-breadth-theory",
+        "polsci-breadth-methods",
+        "polsci-breadth-world"
       ]
     },
     {
-      "id": "whatif-rq-900015",
-      "label": "400-Level POLSCI: 2 courses",
-      "hint": "",
+      "id": "polsci-breadth-american",
+      "label": "Subfield: American Government",
+      "hint": "1 course such as POLSCI 313, 314, 315, 317, 322, 375, 432, 485, 486, or 496. Subfield lists are approximated from catalog titles and descriptions; confirm with the department's subfield list.",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "POLSCI 313",
+        "POLSCI 314",
+        "POLSCI 315",
+        "POLSCI 317",
+        "POLSCI 322",
+        "POLSCI 375",
+        "POLSCI 432",
+        "POLSCI 485",
+        "POLSCI 486",
+        "POLSCI 496"
+      ]
+    },
+    {
+      "id": "polsci-breadth-comparative",
+      "label": "Subfield: Comparative Politics",
+      "hint": "1 course such as POLSCI 340, 341, 346, 347, 348, 357, 359, 387, 395, 434, 441, or 457. Subfield lists are approximated from catalog titles and descriptions; confirm with the department's subfield list.",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "POLSCI 340",
+        "POLSCI 341",
+        "POLSCI 346",
+        "POLSCI 347",
+        "POLSCI 348",
+        "POLSCI 357",
+        "POLSCI 359",
+        "POLSCI 387",
+        "POLSCI 395",
+        "POLSCI 434",
+        "POLSCI 441",
+        "POLSCI 457"
+      ]
+    },
+    {
+      "id": "polsci-breadth-theory",
+      "label": "Subfield: Political Theory",
+      "hint": "1 course such as POLSCI 301, 303, 304, 306, 401, 402, 406, 407, 409, 426, 449, or 495. Subfield lists are approximated from catalog titles and descriptions; confirm with the department's subfield list.",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "POLSCI 301",
+        "POLSCI 303",
+        "POLSCI 304",
+        "POLSCI 306",
+        "POLSCI 401",
+        "POLSCI 402",
+        "POLSCI 406",
+        "POLSCI 407",
+        "POLSCI 409",
+        "POLSCI 426",
+        "POLSCI 449",
+        "POLSCI 495"
+      ]
+    },
+    {
+      "id": "polsci-breadth-methods",
+      "label": "Subfield: Methods",
+      "hint": "1 course such as POLSCI 300, 325, 373, 381, 391, 485, or 514. Subfield lists are approximated from catalog titles and descriptions; confirm with the department's subfield list.",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "POLSCI 300",
+        "POLSCI 325",
+        "POLSCI 373",
+        "POLSCI 381",
+        "POLSCI 391",
+        "POLSCI 485",
+        "POLSCI 514"
+      ]
+    },
+    {
+      "id": "polsci-breadth-world",
+      "label": "Subfield: World Politics",
+      "hint": "1 course such as POLSCI 344, 353, 360, 362, 364, 368, 370, 372, 378, or 498. Subfield lists are approximated from catalog titles and descriptions; confirm with the department's subfield list.",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "POLSCI 344",
+        "POLSCI 353",
+        "POLSCI 360",
+        "POLSCI 362",
+        "POLSCI 364",
+        "POLSCI 368",
+        "POLSCI 370",
+        "POLSCI 372",
+        "POLSCI 378",
+        "POLSCI 498"
+      ]
+    },
+    {
+      "id": "whatif-rq-10460",
+      "label": "Depth: 400-Level POLSCI Course",
+      "hint": "At least 1 400-level POLSCI course is required in any depth combination.",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "POLSCI 401",
+        "POLSCI 402",
+        "POLSCI 406",
+        "POLSCI 407",
+        "POLSCI 409",
+        "POLSCI 426",
+        "POLSCI 432",
+        "POLSCI 434",
+        "POLSCI 441",
+        "POLSCI 449",
+        "POLSCI 457",
+        "POLSCI 482",
+        "POLSCI 485",
+        "POLSCI 486",
+        "POLSCI 488",
+        "POLSCI 489",
+        "POLSCI 493",
+        "POLSCI 494",
+        "POLSCI 495",
+        "POLSCI 496",
+        "POLSCI 498"
+      ]
+    },
+    {
+      "id": "whatif-rq-10460-2",
+      "label": "Depth: 2 Courses Total, 400-Level or ULWR POLSCI",
+      "hint": "Complete 2 400-level POLSCI courses, or 1 400-level POLSCI course plus 1 ULWR POLSCI course (ULWR options: POLSCI 340, 348, 364, 381, 401, 402, 407, 409, 482, 498). Both depth courses count here.",
       "need": 2,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
-    },
-    {
-      "id": "whatif-rq-900016",
-      "label": "400-Level POLSCI: 1 course",
-      "hint": "",
-      "need": 1,
-      "countMode": "count",
-      "category": "core",
-      "matchAll": true
-    },
-    {
-      "id": "whatif-rq-900017",
-      "label": "ULWR POLSCI: 1 course",
-      "hint": "",
-      "need": 1,
-      "countMode": "count",
-      "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "POLSCI 401",
+        "POLSCI 402",
+        "POLSCI 406",
+        "POLSCI 407",
+        "POLSCI 409",
+        "POLSCI 426",
+        "POLSCI 432",
+        "POLSCI 434",
+        "POLSCI 441",
+        "POLSCI 449",
+        "POLSCI 457",
+        "POLSCI 482",
+        "POLSCI 485",
+        "POLSCI 486",
+        "POLSCI 488",
+        "POLSCI 489",
+        "POLSCI 493",
+        "POLSCI 494",
+        "POLSCI 495",
+        "POLSCI 496",
+        "POLSCI 498",
+        "POLSCI 340",
+        "POLSCI 348",
+        "POLSCI 364",
+        "POLSCI 381"
+      ]
     },
     {
       "id": "whatif-rq-10465",
-      "label": "Residency Requirement: minimum 12 credits taken on the Ann Arbor Campus",
-      "hint": "",
+      "label": "Major Total Credits: 30 at the 300-Level or Above",
+      "hint": "Minimum 30 credits at the 300 level or above. Includes all courses used toward the major, including approved courses from other departments (audited here as POLSCI courses only). Prerequisites do not count. Additional 300 level or above POLSCI courses can be used to reach this total.",
+      "need": 30,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchTag": "subj-polsci-upper"
+    },
+    {
+      "id": "whatif-rq-10465-2",
+      "label": "Major Residency: 12 Credits on the Ann Arbor Campus",
+      "hint": "Minimum 12 major credits taken on the Ann Arbor campus.",
       "need": 12,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchAll": true
+      "matchTag": "subj-polsci-upper",
+      "excludeTags": [
+        "ap-credit"
+      ]
     },
     {
-      "id": "whatif-rq-104652",
-      "label": "Non-Independent Study or Experiential Coursework: minimum 22 credits",
-      "hint": "",
+      "id": "whatif-rq-10465-3",
+      "label": "Non-Independent Study or Experiential Coursework: 22 Credits",
+      "hint": "At least 22 major credits from standard coursework; independent study and experiential courses (such as POLSCI 383, 384, 398, 399) do not count.",
       "need": 22,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchAll": true
+      "matchTag": "subj-polsci-upper",
+      "excludeTags": [
+        "independent-study",
+        "experiential"
+      ]
     },
     {
-      "id": "whatif-rq-104653",
-      "label": "POLSCI 399: Advanced Internship in Political Science",
-      "hint": "",
+      "id": "whatif-rq-10465-4",
+      "label": "Non-Internship (POLSCI 399) Coursework: 26 Credits",
+      "hint": "At least 26 major credits from courses other than the POLSCI 399 internship.",
       "need": 26,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchCodes": [
-        "POLSCI 399"
+      "matchTag": "subj-polsci-upper",
+      "excludeTags": [
+        "experiential"
       ]
     }
   ],

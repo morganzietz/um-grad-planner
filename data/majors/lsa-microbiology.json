@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -191,7 +191,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -201,7 +201,9 @@
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -280,9 +282,48 @@
       ]
     },
     {
-      "id": "whatif-rq-900011",
-      "label": "Sequence A: BIOLOGY 171, (172 or 174), & 173",
-      "hint": "",
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
+      "id": "whatif-rq-10637",
+      "label": "Introductory Biology Sequence",
+      "hint": "Choose Sequence A, B, or C. No optional pass/fail.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "pickFromGroups": [
+        "micro-intro-bio-seq-a",
+        "micro-intro-bio-seq-b",
+        "micro-intro-bio-seq-c"
+      ]
+    },
+    {
+      "id": "micro-intro-bio-seq-a",
+      "label": "Sequence A: BIOLOGY 171, 172 or 174, and 173",
+      "hint": "BIOLOGY 171, one of BIOLOGY 172 or BIOLOGY 174, and BIOLOGY 173. 3 courses total.",
       "need": 3,
       "countMode": "count",
       "category": "prerequisites",
@@ -294,9 +335,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900012",
-      "label": "Sequence B: BIOLOGY 195 (AP) & 173",
-      "hint": "",
+      "id": "micro-intro-bio-seq-b",
+      "label": "Sequence B: BIOLOGY 195 (AP) and 173",
+      "hint": "BIOLOGY 195 (AP credit) plus BIOLOGY 173. 2 courses total.",
       "need": 2,
       "countMode": "count",
       "category": "prerequisites",
@@ -306,9 +347,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900013",
-      "label": "Sequence C: BIOLOGY 191 (transfer credit), 192, & 173",
-      "hint": "",
+      "id": "micro-intro-bio-seq-c",
+      "label": "Sequence C: BIOLOGY 191 (transfer), 192, and 173",
+      "hint": "BIOLOGY 191 (transfer credit), BIOLOGY 192, and BIOLOGY 173. 3 courses total.",
       "need": 3,
       "countMode": "count",
       "category": "prerequisites",
@@ -319,9 +360,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900014",
-      "label": "CHEM 210 & 211",
-      "hint": "",
+      "id": "micro-chem-210-211",
+      "label": "Chemistry Sequence: CHEM 210 & 211",
+      "hint": "CHEM 210 (Structure and Reactivity I) and CHEM 211 (Investigations in Chemistry).",
       "need": 2,
       "countMode": "count",
       "category": "prerequisites",
@@ -331,9 +372,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900015",
-      "label": "CHEM 215 & 216",
-      "hint": "",
+      "id": "micro-chem-215-216",
+      "label": "Chemistry Sequence: CHEM 215 & 216",
+      "hint": "CHEM 215 (Structure and Reactivity II) and CHEM 216 (Synthesis and Characterization of Organic Compounds).",
       "need": 2,
       "countMode": "count",
       "category": "prerequisites",
@@ -343,7 +384,34 @@
       ]
     },
     {
-      "id": "whatif-rq-900016",
+      "id": "whatif-rq-10640",
+      "label": "Quantitative Analysis Sequence",
+      "hint": "4 courses from the approved list of calculus, statistics, and computing courses. This planner checks a partial list; other courses on the department's approved list also count.",
+      "need": 4,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "MATH 115",
+        "MATH 116",
+        "MATH 120",
+        "MATH 121",
+        "MATH 156",
+        "MATH 186",
+        "MATH 214",
+        "MATH 215",
+        "MATH 216",
+        "MATH 217",
+        "STATS 250",
+        "STATS 280",
+        "STATS 412",
+        "STATS 426",
+        "EECS 183",
+        "EECS 203",
+        "EECS 280"
+      ]
+    },
+    {
+      "id": "micro-core-microbiology",
       "label": "BIOLOGY 207: Microbiology",
       "hint": "",
       "need": 1,
@@ -354,7 +422,7 @@
       ]
     },
     {
-      "id": "whatif-rq-900017",
+      "id": "micro-core-genetics",
       "label": "BIOLOGY 305: Genetics",
       "hint": "",
       "need": 1,
@@ -365,8 +433,8 @@
       ]
     },
     {
-      "id": "whatif-rq-900018",
-      "label": "Introductory Biochemistry",
+      "id": "micro-core-biochem",
+      "label": "Biochemistry",
       "hint": "Choose 1 of: MCDB 310, BIOLCHEM 415, or CHEM 351",
       "need": 1,
       "countMode": "count",
@@ -378,49 +446,158 @@
       ]
     },
     {
-      "id": "whatif-rq-900019",
-      "label": "Microbiology\" Section",
-      "hint": "",
+      "id": "micro-adv-lab-1",
+      "label": "Advanced Lab 1: MCDB 429 or EEB 447/401",
+      "hint": "MCDB 429 (Laboratory in Cell and Molecular Biology), EEB 447, or the Environmental Microbiology section of EEB 401.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "MCDB 429",
+        "EEB 447",
+        "EEB 401"
+      ]
     },
     {
-      "id": "whatif-rq-900020",
-      "label": "1 not used above",
-      "hint": "",
+      "id": "micro-adv-lab-2",
+      "label": "Advanced Lab 2: 1 course from approved list",
+      "hint": "1 course from the approved advanced lab list, or an additional Lab 1 course not already used for Lab 1. This planner checks MICRBIOL 350 and the catalog's advanced MCDB and EEB lab courses; other approved labs also count.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "MICRBIOL 350",
+        "MCDB 306",
+        "MCDB 423",
+        "MCDB 424",
+        "MCDB 429",
+        "EEB 447",
+        "EEB 401"
+      ]
     },
     {
-      "id": "whatif-rq-900021",
-      "label": "Group 1",
-      "hint": "Specified Electives: 4 courses from approved list",
+      "id": "micro-electives-group-1",
+      "label": "Group 1: Specified Electives, 4 courses",
+      "hint": "4 courses from the department's approved list. This planner checks the catalog's microbiology-focused courses (MICRBIOL plus microbial MCDB and EEB offerings); other approved electives also count.",
       "need": 4,
       "countMode": "count",
-      "category": "core",
-      "matchAll": true
-    },
-    {
-      "id": "whatif-rq-10643",
-      "label": "Group 2",
-      "hint": "Additional Electives: courses from approved list needed to reach minimum 31 credits required for the major",
-      "need": 2,
-      "countMode": "count",
-      "category": "core",
-      "matchAll": true
+      "category": "electives",
+      "matchCodes": [
+        "MICRBIOL 405",
+        "MICRBIOL 415",
+        "MICRBIOL 430",
+        "MICRBIOL 440",
+        "MICRBIOL 450",
+        "MICRBIOL 460",
+        "INTMED 460",
+        "MCDB 415",
+        "MCDB 436",
+        "MCDB 489",
+        "EEB 315",
+        "EEB 430",
+        "EEB 446"
+      ]
     },
     {
       "id": "whatif-rq-10669",
       "label": "Major Credits: minimum 31 credits",
-      "hint": "",
+      "hint": "Core, advanced labs, and Group 1 electives count; Group 2 additional electives from the approved list fill in the rest to reach 31 credits. This planner counts BIOLOGY, EEB, and MCDB courses at the 200 level or above plus MICRBIOL, INTMED, and EPID offerings and the biochemistry options.",
       "need": 31,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchAll": true
+      "matchCodes": [
+        "BIOLOGY 200",
+        "BIOLOGY 201",
+        "BIOLOGY 202",
+        "BIOLOGY 205",
+        "BIOLOGY 207",
+        "BIOLOGY 212",
+        "BIOLOGY 225",
+        "BIOLOGY 226",
+        "BIOLOGY 230",
+        "BIOLOGY 256",
+        "BIOLOGY 272",
+        "BIOLOGY 281",
+        "BIOLOGY 288",
+        "BIOLOGY 290",
+        "BIOLOGY 299",
+        "BIOLOGY 305",
+        "BIOLOGY 312",
+        "BIOLOGY 525",
+        "BIOLOGY 526",
+        "EEB 300",
+        "EEB 313",
+        "EEB 315",
+        "EEB 325",
+        "EEB 335",
+        "EEB 349",
+        "EEB 362",
+        "EEB 372",
+        "EEB 375",
+        "EEB 380",
+        "EEB 390",
+        "EEB 391",
+        "EEB 400",
+        "EEB 401",
+        "EEB 410",
+        "EEB 420",
+        "EEB 430",
+        "EEB 436",
+        "EEB 440",
+        "EEB 441",
+        "EEB 442",
+        "EEB 445",
+        "EEB 446",
+        "EEB 447",
+        "EEB 451",
+        "EEB 468",
+        "EEB 476",
+        "EEB 492",
+        "EEB 494",
+        "EEB 496",
+        "EEB 499",
+        "MCDB 300",
+        "MCDB 306",
+        "MCDB 310",
+        "MCDB 322",
+        "MCDB 396",
+        "MCDB 400",
+        "MCDB 401",
+        "MCDB 411",
+        "MCDB 412",
+        "MCDB 415",
+        "MCDB 420",
+        "MCDB 421",
+        "MCDB 422",
+        "MCDB 423",
+        "MCDB 424",
+        "MCDB 427",
+        "MCDB 428",
+        "MCDB 429",
+        "MCDB 430",
+        "MCDB 435",
+        "MCDB 436",
+        "MCDB 445",
+        "MCDB 451",
+        "MCDB 452",
+        "MCDB 463",
+        "MCDB 475",
+        "MCDB 489",
+        "MCDB 494",
+        "MICRBIOL 350",
+        "MICRBIOL 405",
+        "MICRBIOL 415",
+        "MICRBIOL 430",
+        "MICRBIOL 440",
+        "MICRBIOL 450",
+        "MICRBIOL 460",
+        "INTMED 300",
+        "INTMED 400",
+        "INTMED 460",
+        "EPID 638",
+        "CHEM 351",
+        "BIOLCHEM 415"
+      ]
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/microbiology-major.html"

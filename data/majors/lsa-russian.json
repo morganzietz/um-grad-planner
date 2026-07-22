@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -54,6 +54,15 @@
       "need": 60,
       "countMode": "credits",
       "category": "lsa-credit-min",
+      "excludeTags": [
+        "subj-russian",
+        "subj-slavic",
+        "subj-polish",
+        "subj-czech",
+        "subj-ukr",
+        "subj-bcs",
+        "subj-armenian"
+      ],
       "matchAll": true
     },
     {
@@ -186,7 +195,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -196,7 +205,9 @@
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -275,21 +286,62 @@
       ]
     },
     {
-      "id": "whatif-rq-900011",
-      "label": "RUSSIAN 302, or RUSSIAN 303",
-      "hint": "",
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
+      "id": "whatif-rq-3789",
+      "label": "Russian Language Prerequisite",
+      "hint": "One 4th term Russian course with a C- or better: RUSSIAN 202, RUSSIAN 203 (intensive), or RUSSIAN 225 (heritage speakers). Also satisfiable by placement exam or demonstrated language proficiency.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "RUSSIAN 202",
+        "RUSSIAN 203",
+        "RUSSIAN 225"
+      ]
+    },
+    {
+      "id": "russian-core-third-year",
+      "label": "Third-Year Russian Combination",
+      "hint": "1 combination selected from RUSSIAN 301 & 302, RCLANG 323 & RUSSIAN 302, or RUSSIAN 303 (intensive; covers the full combination on its own).",
       "need": 2,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
+        "RUSSIAN 301",
         "RUSSIAN 302",
-        "RUSSIAN 303"
+        "RUSSIAN 303",
+        "RCLANG 323"
       ]
     },
     {
-      "id": "whatif-rq-900012",
-      "label": "RUSSIAN 401 & 402",
-      "hint": "",
+      "id": "russian-core-fourth-year",
+      "label": "RUSSIAN 401 & 402: Fourth-Year Russian",
+      "hint": "Both RUSSIAN 401 and RUSSIAN 402 required.",
       "need": 2,
       "countMode": "count",
       "category": "core",
@@ -299,9 +351,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900013",
+      "id": "russian-core-451-499",
       "label": "RUSSIAN 451 or 499",
-      "hint": "",
+      "hint": "Choose 1 of: RUSSIAN 451 or RUSSIAN 499.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -311,9 +363,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900014",
-      "label": "RUSSIAN 347 & either 348 or 375",
-      "hint": "",
+      "id": "russian-core-survey",
+      "label": "Russian Literature Survey",
+      "hint": "RUSSIAN 347 plus either RUSSIAN 348 or RUSSIAN 375.",
       "need": 2,
       "countMode": "count",
       "category": "core",
@@ -324,22 +376,70 @@
       ]
     },
     {
-      "id": "whatif-rq-900015",
-      "label": "Russian Literature & Culture Outside of the 19th Century: 1 course",
-      "hint": "",
+      "id": "whatif-rq-3793",
+      "label": "Upper-Level Elective: Russian Literature & Culture Outside of the 19th Century",
+      "hint": "1 course. Options include RUSSIAN 315, 333, 361, 371, 391, or 551; other approved courses on Russian literature and culture outside the 19th century also count.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "RUSSIAN 315",
+        "RUSSIAN 333",
+        "RUSSIAN 361",
+        "RUSSIAN 371",
+        "RUSSIAN 391",
+        "RUSSIAN 551"
+      ]
     },
     {
-      "id": "whatif-rq-900016",
-      "label": "300-Level or above advanced courses; minimum 3 credits",
-      "hint": "",
+      "id": "whatif-rq-10019",
+      "label": "Cognate Requirement",
+      "hint": "Minimum 3 credits of advisor-approved advanced courses (300-level or above) outside the Slavic department that relate to the major.",
       "need": 3,
       "countMode": "credits",
       "category": "core",
-      "matchAll": true
+      "matchTag": "upper-level",
+      "excludeTags": [
+        "subj-russian",
+        "subj-slavic",
+        "subj-polish",
+        "subj-czech",
+        "subj-ukr",
+        "subj-bcs",
+        "subj-armenian"
+      ]
+    },
+    {
+      "id": "whatif-rq-3794",
+      "label": "Major Total Credits",
+      "hint": "Minimum 27 credits. Includes all courses used toward the major requirements, including those from other departments (approved cognates count). Does not include any prerequisites.",
+      "need": 27,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchCodes": [
+        "RUSSIAN 301",
+        "RUSSIAN 302",
+        "RUSSIAN 303",
+        "RUSSIAN 315",
+        "RUSSIAN 333",
+        "RUSSIAN 346",
+        "RUSSIAN 347",
+        "RUSSIAN 348",
+        "RUSSIAN 361",
+        "RUSSIAN 371",
+        "RUSSIAN 375",
+        "RUSSIAN 391",
+        "RUSSIAN 401",
+        "RUSSIAN 402",
+        "RUSSIAN 430",
+        "RUSSIAN 450",
+        "RUSSIAN 451",
+        "RUSSIAN 491",
+        "RUSSIAN 492",
+        "RUSSIAN 499",
+        "RUSSIAN 551",
+        "RCLANG 323"
+      ]
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/russian-major.html"

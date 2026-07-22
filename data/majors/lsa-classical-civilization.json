@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -54,6 +54,15 @@
       "need": 60,
       "countMode": "credits",
       "category": "lsa-credit-min",
+      "excludeTags": [
+        "subj-clciv",
+        "subj-clarch",
+        "subj-archam",
+        "subj-greek",
+        "subj-latin",
+        "subj-greekmod",
+        "subj-gtbooks"
+      ],
       "matchAll": true
     },
     {
@@ -186,7 +195,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -196,7 +205,9 @@
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -275,9 +286,35 @@
       ]
     },
     {
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
       "id": "whatif-rq-10393",
-      "label": "4 credits from: CLCIV 101, 202, HISTORY 200, 201, GTBOOKS 191, or CLARCH/ARCHAM 221, 222",
-      "hint": "",
+      "label": "Prerequisite: 4 Credits of Introductory Coursework",
+      "hint": "4 credits from: CLCIV 101, CLCIV 202, HISTORY 200, HISTORY 201, GTBOOKS 191, CLARCH/ARCHAM 221, or CLARCH/ARCHAM 222.",
       "need": 4,
       "countMode": "credits",
       "category": "prerequisites",
@@ -287,23 +324,30 @@
         "HISTORY 200",
         "HISTORY 201",
         "GTBOOKS 191",
+        "CLARCH 221",
+        "CLARCH 222",
         "ARCHAM 221",
         "ARCHAM 222"
       ]
     },
     {
-      "id": "whatif-rq-900011",
-      "label": "200-Level CLCIV: 1 course",
-      "hint": "Minimum 3 credits",
+      "id": "clciv-core-200-level",
+      "label": "1 200-Level CLCIV Course",
+      "hint": "One CLCIV course at the 200 level, minimum 3 credits.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "CLCIV 217",
+        "CLCIV 250",
+        "CLCIV 253",
+        "CLCIV 288"
+      ]
     },
     {
-      "id": "whatif-rq-900012",
-      "label": "CLCIV 480: Studying Antiquity",
-      "hint": "Minimum 2 credits",
+      "id": "clciv-capstone-seminar",
+      "label": "CLCIV 480: Studying Antiquity (Capstone Seminar)",
+      "hint": "Capstone Seminar, CLCIV 480 Section 1. Minimum 2 credits.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -312,9 +356,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900013",
-      "label": "CLCIV 480: Studying Antiquity",
-      "hint": "",
+      "id": "clciv-capstone-research-seminar",
+      "label": "CLCIV 480: Capstone Research Seminar",
+      "hint": "CLCIV 480 Section 2, Topic 10. This is a second enrollment in CLCIV 480, separate from the Capstone Seminar; plan CLCIV 480 twice, once per section.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -324,48 +368,137 @@
     },
     {
       "id": "whatif-rq-10394",
-      "label": "3 courses from one of the following clusters A, B, or C:",
-      "hint": "",
+      "label": "Cluster Requirement: 3 Courses from One Cluster",
+      "hint": "Take 3 courses from a single cluster: A) Language, Literature, and Reception; B) History and Archaeology; or C) Religion and Philosophy. The audit report does not list cluster courses, so the planner counts 200-level or above CLCIV courses; confirm cluster assignments with an advisor.",
       "need": 3,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "CLCIV 217",
+        "CLCIV 250",
+        "CLCIV 253",
+        "CLCIV 288",
+        "CLCIV 314",
+        "CLCIV 328",
+        "CLCIV 341",
+        "CLCIV 350",
+        "CLCIV 354",
+        "CLCIV 358",
+        "CLCIV 365",
+        "CLCIV 368",
+        "CLCIV 371",
+        "CLCIV 375",
+        "CLCIV 376",
+        "CLCIV 383",
+        "CLCIV 385",
+        "CLCIV 392",
+        "CLCIV 470",
+        "CLCIV 480",
+        "CLCIV 495",
+        "CLCIV 499"
+      ]
     },
     {
-      "id": "whatif-rq-900014",
-      "label": "A) Language, Literature, & Reception",
-      "hint": "",
+      "id": "clciv-electives-300-level",
+      "label": "3 300-Level CLCIV Courses",
+      "hint": "Minimum 3 credits each course. Can include courses used in the cluster requirement.",
       "need": 3,
       "countMode": "count",
-      "category": "core",
-      "matchAll": true
+      "category": "electives",
+      "matchCodes": [
+        "CLCIV 314",
+        "CLCIV 328",
+        "CLCIV 341",
+        "CLCIV 350",
+        "CLCIV 354",
+        "CLCIV 358",
+        "CLCIV 365",
+        "CLCIV 368",
+        "CLCIV 371",
+        "CLCIV 375",
+        "CLCIV 376",
+        "CLCIV 383",
+        "CLCIV 385",
+        "CLCIV 392"
+      ]
     },
     {
-      "id": "whatif-rq-900015",
-      "label": "B) History & Archaeology",
-      "hint": "",
-      "need": 3,
+      "id": "clciv-electives-400-level",
+      "label": "2 400-Level CLCIV Courses",
+      "hint": "Minimum 3 credits each course. Can include courses used in the cluster requirement.",
+      "need": 2,
       "countMode": "count",
-      "category": "core",
-      "matchAll": true
+      "category": "electives",
+      "matchCodes": [
+        "CLCIV 470",
+        "CLCIV 480",
+        "CLCIV 495",
+        "CLCIV 499"
+      ]
     },
     {
-      "id": "whatif-rq-900016",
-      "label": "C) Religion & Philosophy",
-      "hint": "",
-      "need": 3,
-      "countMode": "count",
-      "category": "core",
-      "matchAll": true
-    },
-    {
-      "id": "whatif-rq-900017",
-      "label": "Can include courses used in cluster above",
-      "hint": "",
+      "id": "clciv-electives-200-plus",
+      "label": "1 Additional 200-Level or Above CLCIV Course",
+      "hint": "Minimum 3 credits. Can include courses used in the cluster requirement.",
       "need": 1,
       "countMode": "count",
-      "category": "core",
-      "matchAll": true
+      "category": "electives",
+      "matchCodes": [
+        "CLCIV 217",
+        "CLCIV 250",
+        "CLCIV 253",
+        "CLCIV 288",
+        "CLCIV 314",
+        "CLCIV 328",
+        "CLCIV 341",
+        "CLCIV 350",
+        "CLCIV 354",
+        "CLCIV 358",
+        "CLCIV 365",
+        "CLCIV 368",
+        "CLCIV 371",
+        "CLCIV 375",
+        "CLCIV 376",
+        "CLCIV 383",
+        "CLCIV 385",
+        "CLCIV 392",
+        "CLCIV 470",
+        "CLCIV 480",
+        "CLCIV 495",
+        "CLCIV 499"
+      ]
+    },
+    {
+      "id": "whatif-rq-2971",
+      "label": "Major Total: 24 Credits",
+      "hint": "Minimum 24 credits, including all courses used toward the major requirements, even those from other departments. Does not include any prerequisites. The planner counts 200-level or above CLCIV courses; approved courses from other departments also count.",
+      "need": 24,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchCodes": [
+        "CLCIV 217",
+        "CLCIV 250",
+        "CLCIV 253",
+        "CLCIV 288",
+        "CLCIV 314",
+        "CLCIV 328",
+        "CLCIV 341",
+        "CLCIV 350",
+        "CLCIV 354",
+        "CLCIV 358",
+        "CLCIV 365",
+        "CLCIV 368",
+        "CLCIV 371",
+        "CLCIV 375",
+        "CLCIV 376",
+        "CLCIV 383",
+        "CLCIV 385",
+        "CLCIV 392",
+        "CLCIV 470",
+        "CLCIV 480",
+        "CLCIV 495",
+        "CLCIV 499"
+      ]
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/classical-civilization-major.html"

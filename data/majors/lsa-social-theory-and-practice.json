@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -54,6 +54,9 @@
       "need": 60,
       "countMode": "credits",
       "category": "lsa-credit-min",
+      "excludeTags": [
+        "subj-rcstp"
+      ],
       "matchAll": true
     },
     {
@@ -186,14 +189,19 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
       "pickFromGroups": [
         "lsa-add-dist-humanities",
+        "lsa-add-dist-natural-sciences",
         "lsa-add-dist-social-sciences",
-        "lsa-add-dist-math-symbolic"
+        "lsa-add-dist-math-symbolic",
+        "lsa-add-dist-creative-expression",
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -204,6 +212,19 @@
       "countMode": "credits",
       "category": "lsa-add-distribution",
       "matchTag": "lsa-humanities",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 7
+    },
+    {
+      "id": "lsa-add-dist-natural-sciences",
+      "label": "Additional 3 Credits in Natural Sciences",
+      "hint": "Beyond the initial 7 cr Natural Sciences.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-natural-sciences",
       "excludeTags": [
         "ap-credit"
       ],
@@ -235,29 +256,85 @@
       ]
     },
     {
+      "id": "lsa-add-dist-creative-expression",
+      "label": "3 Credits in Creative Expression",
+      "hint": "From approved CE-designated courses.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-creative-expression",
+      "excludeTags": [
+        "ap-credit"
+      ]
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary",
+      "label": "3 Credits in Interdisciplinary",
+      "hint": "From approved ID-designated courses.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ]
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
       "id": "whatif-rq-3403",
-      "label": "Social Science Gateway Course: minimum 3 credits",
-      "hint": "",
+      "label": "Social Science Gateway Course",
+      "hint": "One social science gateway course, minimum 3 credits. Options include RCSTP 230, 250, 255, 261, or RCSSCI 275; confirm your gateway course with an STP advisor.",
       "need": 3,
       "countMode": "credits",
       "category": "prerequisites",
-      "matchAll": true
+      "matchCodes": [
+        "RCSTP 230",
+        "RCSTP 250",
+        "RCSTP 255",
+        "RCSTP 261",
+        "RCSSCI 275"
+      ]
     },
     {
-      "id": "whatif-rq-34032",
+      "id": "whatif-rq-3403-2",
       "label": "RCSTP 260: Theorizing Knowledge in the Social Sciences",
-      "hint": "",
-      "need": 3,
-      "countMode": "credits",
+      "hint": "3 credits",
+      "need": 1,
+      "countMode": "count",
       "category": "prerequisites",
       "matchCodes": [
         "RCSTP 260"
       ]
     },
     {
-      "id": "whatif-rq-34033",
+      "id": "whatif-rq-3403-3",
       "label": "RCSTP 290: Designing Your STP Major Proposal",
-      "hint": "",
+      "hint": "1 credit",
       "need": 1,
       "countMode": "count",
       "category": "prerequisites",
@@ -266,8 +343,8 @@
       ]
     },
     {
-      "id": "whatif-rq-900006",
-      "label": "Social Theory for Social Change",
+      "id": "stp-theory-course",
+      "label": "RCSTP Theory Course",
       "hint": "Choose 1 of: RCSTP 301 or RCSTP 302",
       "need": 1,
       "countMode": "count",
@@ -278,31 +355,80 @@
       ]
     },
     {
-      "id": "whatif-rq-900007",
-      "label": "Introduction to Statistics for Social Science",
-      "hint": "Choose 1 of: SOC 210 or SOC 310",
+      "id": "stp-research-methods",
+      "label": "Research Methods Course",
+      "hint": "Choose 1 of: STATS 250, QMSS 201, SOC 210, or SOC 310. Other courses may count in consultation with an STP advisor.",
       "need": 1,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
+        "STATS 250",
+        "QMSS 201",
         "SOC 210",
         "SOC 310"
       ]
     },
     {
-      "id": "whatif-rq-3822",
-      "label": "Social Theory & Practice Thematic Courses: 6 courses,18 credits",
-      "hint": "",
-      "need": 18,
+      "id": "stp-thematic-social-theory",
+      "label": "Thematic: Social Theory Course",
+      "hint": "At least 3 credits, must be approved by advisor. One of the 6 thematic courses (18 credits total). Advisor-approved cognates from other departments can also count.",
+      "need": 3,
       "countMode": "credits",
       "category": "core",
-      "matchAll": true
+      "matchTag": "subj-rcstp"
     },
     {
-      "id": "whatif-rq-900008",
-      "label": "RCSTP 490: STP Capstone: Senior Project Seminar",
-      "hint": "",
+      "id": "stp-thematic-practicum",
+      "label": "Thematic: Community Engaged-Learning or Practicum Course",
+      "hint": "At least 3 credits, must be approved by advisor. One of the 6 thematic courses (18 credits total). Advisor-approved cognates from other departments can also count.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "core",
+      "matchTag": "subj-rcstp"
+    },
+    {
+      "id": "stp-thematic-electives",
+      "label": "Thematic Electives",
+      "hint": "Minimum 4 courses; RCSTP 490 cannot be used. Together the 6 thematic courses must total at least 18 credits. Advisor-approved cognates from other departments can also count.",
       "need": 4,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "RCSTP 102",
+        "RCSTP 230",
+        "RCSTP 250",
+        "RCSTP 255",
+        "RCSTP 261",
+        "RCSTP 300",
+        "RCSTP 301",
+        "RCSTP 302",
+        "RCSTP 303",
+        "RCSTP 307",
+        "RCSTP 320",
+        "RCSTP 327",
+        "RCSTP 330",
+        "RCSTP 341",
+        "RCSTP 342",
+        "RCSTP 343",
+        "RCSTP 350",
+        "RCSTP 351",
+        "RCSTP 356",
+        "RCSTP 357",
+        "RCSTP 362",
+        "RCSTP 365",
+        "RCSTP 386",
+        "RCSTP 390",
+        "RCSTP 408",
+        "RCSTP 423",
+        "RCSTP 488",
+        "RCSTP 489"
+      ]
+    },
+    {
+      "id": "whatif-rq-13459",
+      "label": "RCSTP 490: STP Capstone, Senior Project Seminar",
+      "hint": "",
+      "need": 1,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
@@ -310,14 +436,42 @@
       ]
     },
     {
-      "id": "whatif-rq-900009",
-      "label": "RCSTP 490: STP Capstone: Senior Project Seminar",
-      "hint": "Senior Project Seminar",
-      "need": 1,
-      "countMode": "count",
-      "category": "core",
+      "id": "whatif-rq-3405",
+      "label": "Major Total Credits",
+      "hint": "Minimum 30 credits. Includes all courses used toward the major requirements, including cognates from other departments. Does not include any prerequisites. Research methods options from other departments count toward the 30; gateway and other prerequisites do not.",
+      "need": 30,
+      "countMode": "credits",
+      "category": "major-credit-min",
       "matchCodes": [
-        "RCSTP 490"
+        "RCSTP 102",
+        "RCSTP 300",
+        "RCSTP 301",
+        "RCSTP 302",
+        "RCSTP 303",
+        "RCSTP 307",
+        "RCSTP 320",
+        "RCSTP 327",
+        "RCSTP 330",
+        "RCSTP 341",
+        "RCSTP 342",
+        "RCSTP 343",
+        "RCSTP 350",
+        "RCSTP 351",
+        "RCSTP 356",
+        "RCSTP 357",
+        "RCSTP 362",
+        "RCSTP 365",
+        "RCSTP 386",
+        "RCSTP 390",
+        "RCSTP 408",
+        "RCSTP 423",
+        "RCSTP 488",
+        "RCSTP 489",
+        "RCSTP 490",
+        "STATS 250",
+        "QMSS 201",
+        "SOC 210",
+        "SOC 310"
       ]
     }
   ],

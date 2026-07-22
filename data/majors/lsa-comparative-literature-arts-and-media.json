@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -54,6 +54,9 @@
       "need": 60,
       "countMode": "credits",
       "category": "lsa-credit-min",
+      "excludeTags": [
+        "subj-complit"
+      ],
       "matchAll": true
     },
     {
@@ -184,161 +187,259 @@
       ]
     },
     {
-      "id": "lsa-dist-humanities",
-      "label": "Area Distribution: 7 Credits in Humanities",
-      "hint": "From approved HU-designated courses.",
+      "id": "lsa-add-dist-choose-3",
+      "label": "Additional Distribution: complete 3 areas",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
+      "need": 3,
+      "countMode": "count",
+      "category": "lsa-add-distribution",
+      "pickFromGroups": [
+        "lsa-add-dist-humanities",
+        "lsa-add-dist-natural-sciences",
+        "lsa-add-dist-social-sciences",
+        "lsa-add-dist-math-symbolic",
+        "lsa-add-dist-creative-expression",
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
+      ]
+    },
+    {
+      "id": "lsa-add-dist-humanities",
+      "label": "Additional 3 Credits in Humanities",
+      "hint": "Beyond the initial 7 cr Humanities.",
       "need": 3,
       "countMode": "credits",
-      "category": "lsa-distribution",
+      "category": "lsa-add-distribution",
       "matchTag": "lsa-humanities",
       "excludeTags": [
         "ap-credit"
-      ]
+      ],
+      "offset": 7
     },
     {
-      "id": "lsa-dist-natural-sciences",
-      "label": "Area Distribution: 7 Credits in Natural Sciences",
-      "hint": "From approved NS-designated courses.",
+      "id": "lsa-add-dist-natural-sciences",
+      "label": "Additional 3 Credits in Natural Sciences",
+      "hint": "Beyond the initial 7 cr Natural Sciences.",
       "need": 3,
       "countMode": "credits",
-      "category": "lsa-distribution",
+      "category": "lsa-add-distribution",
       "matchTag": "lsa-natural-sciences",
       "excludeTags": [
         "ap-credit"
-      ]
+      ],
+      "offset": 7
     },
     {
-      "id": "lsa-dist-social-sciences",
-      "label": "Area Distribution: 7 Credits in Social Sciences",
-      "hint": "From approved SS-designated courses.",
+      "id": "lsa-add-dist-social-sciences",
+      "label": "Additional 3 Credits in Social Sciences",
+      "hint": "Beyond the initial 7 cr Social Sciences.",
       "need": 3,
       "countMode": "credits",
-      "category": "lsa-distribution",
+      "category": "lsa-add-distribution",
       "matchTag": "lsa-social-sciences",
       "excludeTags": [
         "ap-credit"
-      ]
+      ],
+      "offset": 7
     },
     {
-      "id": "lsa-dist-math-symbolic",
-      "label": "Area Distribution: 7 Credits in Mathematical & Symbolic Analysis",
+      "id": "lsa-add-dist-math-symbolic",
+      "label": "3 Credits in Mathematical & Symbolic Analysis",
       "hint": "From approved MSA-designated courses.",
       "need": 3,
       "countMode": "credits",
-      "category": "lsa-distribution",
+      "category": "lsa-add-distribution",
       "matchTag": "lsa-math-symbolic",
       "excludeTags": [
         "ap-credit"
       ]
     },
     {
-      "id": "lsa-dist-creative-expression",
-      "label": "Area Distribution: 7 Credits in Creative Expression",
+      "id": "lsa-add-dist-creative-expression",
+      "label": "3 Credits in Creative Expression",
       "hint": "From approved CE-designated courses.",
       "need": 3,
       "countMode": "credits",
-      "category": "lsa-distribution",
+      "category": "lsa-add-distribution",
       "matchTag": "lsa-creative-expression",
       "excludeTags": [
         "ap-credit"
       ]
     },
     {
-      "id": "lsa-dist-interdisciplinary",
-      "label": "Area Distribution: 7 Credits in Interdisciplinary",
+      "id": "lsa-add-dist-interdisciplinary",
+      "label": "3 Credits in Interdisciplinary",
       "hint": "From approved ID-designated courses.",
       "need": 3,
       "countMode": "credits",
-      "category": "lsa-distribution",
+      "category": "lsa-add-distribution",
       "matchTag": "lsa-interdisciplinary",
       "excludeTags": [
         "ap-credit"
       ]
     },
     {
-      "id": "lsa-dist-interdisciplinary",
-      "label": "Area Distribution: 7 Credits in Interdisciplinary",
-      "hint": "From approved ID-designated courses.",
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
       "need": 3,
       "countMode": "credits",
-      "category": "lsa-distribution",
+      "category": "lsa-add-distribution",
       "matchTag": "lsa-interdisciplinary",
       "excludeTags": [
         "ap-credit"
-      ]
+      ],
+      "offset": 3
     },
     {
-      "id": "whatif-rq-900011",
-      "label": "COMPLIT 200: Translation Across Disciplines",
-      "hint": "",
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
+      "id": "whatif-rq-13297",
+      "label": "Prerequisite: LSA Language Requirement",
+      "hint": "Completion of the LSA Language Requirement: one 4th term course required, C- minimum, or one course where proficiency is presumed.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchTag": "lsa-language"
+    },
+    {
+      "id": "whatif-rq-13298",
+      "label": "Comparative Literature Core: 12 Credits of COMPLIT 200-Level or Above",
+      "hint": "C- or better. 4 of these courses must be taken while in residence.",
       "need": 12,
       "countMode": "credits",
       "category": "core",
       "matchCodes": [
-        "COMPLIT 200"
+        "COMPLIT 200",
+        "COMPLIT 222",
+        "COMPLIT 240",
+        "COMPLIT 241",
+        "COMPLIT 250",
+        "COMPLIT 300",
+        "COMPLIT 311",
+        "COMPLIT 313",
+        "COMPLIT 322",
+        "COMPLIT 323",
+        "COMPLIT 340",
+        "COMPLIT 341",
+        "COMPLIT 350",
+        "COMPLIT 362",
+        "COMPLIT 374",
+        "COMPLIT 382",
+        "COMPLIT 422",
+        "COMPLIT 492",
+        "COMPLIT 494",
+        "COMPLIT 495",
+        "COMPLIT 496",
+        "COMPLIT 497",
+        "COMPLIT 498"
       ]
     },
     {
-      "id": "whatif-rq-900012",
-      "label": "4 Courses Must be Taken While in Residence",
-      "hint": "",
+      "id": "complam-core-in-residence",
+      "label": "Core: 4 Courses Taken While in Residence",
+      "hint": "4 of the COMPLIT 200-level or above core courses must be taken in residence (test and transfer credit do not count).",
       "need": 4,
       "countMode": "count",
       "category": "core",
       "excludeTags": [
         "ap-credit"
       ],
-      "matchAll": true
+      "matchCodes": [
+        "COMPLIT 200",
+        "COMPLIT 222",
+        "COMPLIT 240",
+        "COMPLIT 241",
+        "COMPLIT 250",
+        "COMPLIT 300",
+        "COMPLIT 311",
+        "COMPLIT 313",
+        "COMPLIT 322",
+        "COMPLIT 323",
+        "COMPLIT 340",
+        "COMPLIT 341",
+        "COMPLIT 350",
+        "COMPLIT 362",
+        "COMPLIT 374",
+        "COMPLIT 382",
+        "COMPLIT 422",
+        "COMPLIT 492",
+        "COMPLIT 494",
+        "COMPLIT 495",
+        "COMPLIT 496",
+        "COMPLIT 497",
+        "COMPLIT 498"
+      ]
     },
     {
       "id": "whatif-rq-13299",
-      "label": "Focus: 12 departmental advisor-approved credits focused on 1 language, medium, discipline, or coherent combination",
-      "hint": "Minimum 3 credits must be at the 400 or 500-Level · Minimum 3 credits must be taken in residence",
+      "label": "Focus: 12 Advisor-Approved Credits",
+      "hint": "12 departmental advisor-approved credits focused on 1 language, medium, discipline, or coherent combination. C- or better. Approved focus courses from other departments also count; the planner approximates with COMPLIT courses.",
       "need": 12,
       "countMode": "credits",
       "category": "core",
-      "matchAll": true
+      "matchTag": "subj-complit"
     },
     {
-      "id": "whatif-rq-900013",
-      "label": "3 Credits at the 400 or 500-Level",
-      "hint": "",
+      "id": "complam-focus-400-level",
+      "label": "Focus: Minimum 3 Credits at the 400 or 500-Level",
+      "hint": "C- or better. Advisor-approved 400 or 500-level focus courses from other departments also count; the planner approximates with COMPLIT courses.",
       "need": 3,
       "countMode": "credits",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "COMPLIT 422",
+        "COMPLIT 492",
+        "COMPLIT 494",
+        "COMPLIT 495",
+        "COMPLIT 496",
+        "COMPLIT 497",
+        "COMPLIT 498"
+      ]
     },
     {
       "id": "whatif-rq-13332",
-      "label": "3.00 B+ 12 Total Focus Requirement Credits Required",
-      "hint": "",
-      "need": 12,
-      "countMode": "credits",
-      "category": "core",
-      "matchAll": true
-    },
-    {
-      "id": "whatif-rq-133322",
-      "label": "3 Focus Credits Must be Taken While in Residence",
-      "hint": "",
+      "label": "Focus: 3 Credits Taken While in Residence",
+      "hint": "At least 3 focus credits must be taken in residence (test and transfer credit do not count). The planner approximates with COMPLIT courses.",
       "need": 3,
       "countMode": "credits",
       "category": "core",
       "excludeTags": [
         "ap-credit"
       ],
-      "matchAll": true
+      "matchTag": "subj-complit"
     },
     {
-      "id": "whatif-rq-900014",
+      "id": "whatif-rq-13300",
       "label": "COMPLIT 495: Capstone Seminar in Comparative Literature",
-      "hint": "",
+      "hint": "3 credits. C- or better.",
       "need": 3,
       "countMode": "credits",
-      "category": "core",
+      "category": "capstone",
       "matchCodes": [
         "COMPLIT 495"
       ]
+    },
+    {
+      "id": "whatif-rq-13301",
+      "label": "Major Total: Minimum 27 Credits",
+      "hint": "Includes all courses used toward the major requirements, including those from other departments (cognates). Does not include prerequisites. The planner approximates with COMPLIT courses.",
+      "need": 27,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchTag": "subj-complit"
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/comparative_literature_arts_and_media-maj.html"

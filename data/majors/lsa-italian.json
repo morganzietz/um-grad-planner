@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -54,6 +54,15 @@
       "need": 60,
       "countMode": "credits",
       "category": "lsa-credit-min",
+      "excludeTags": [
+        "subj-italian",
+        "subj-spanish",
+        "subj-french",
+        "subj-portug",
+        "subj-romlang",
+        "subj-romling",
+        "subj-catalan"
+      ],
       "matchAll": true
     },
     {
@@ -186,7 +195,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -196,7 +205,9 @@
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -275,9 +286,35 @@
       ]
     },
     {
-      "id": "whatif-rq-900011",
-      "label": "ITALIAN 230, 232, 233, or 410",
-      "hint": "",
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
+      "id": "italian-prereq",
+      "label": "Italian Prerequisite",
+      "hint": "Choose 1 of: ITALIAN 230, 232, 233, or 410.",
       "need": 1,
       "countMode": "count",
       "category": "prerequisites",
@@ -289,67 +326,153 @@
       ]
     },
     {
-      "id": "whatif-rq-900012",
-      "label": "1 200-Level above 233 course conducted in Italian",
-      "hint": "",
+      "id": "italian-core-200-level",
+      "label": "1 200-Level Course above 233 Conducted in Italian",
+      "hint": "One ITALIAN course numbered 234 to 299 conducted in Italian. In the current catalog: ITALIAN 235. Courses taught in English (such as ITALIAN 240) do not qualify.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "ITALIAN 235"
+      ]
     },
     {
-      "id": "whatif-rq-900013",
-      "label": "1 300-Level course conducted in Italian",
-      "hint": "",
+      "id": "italian-core-300-level",
+      "label": "1 300-Level Course Conducted in Italian",
+      "hint": "One 300-level ITALIAN course conducted in Italian. In the current catalog: ITALIAN 300, 340, 350, or 374. Courses taught in English (such as ITALIAN 310, 317, or 333) do not qualify.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "ITALIAN 300",
+        "ITALIAN 340",
+        "ITALIAN 350",
+        "ITALIAN 374"
+      ]
     },
     {
-      "id": "whatif-rq-900014",
-      "label": "1 400-Level course conducted in Italian",
-      "hint": "",
+      "id": "italian-core-400-level",
+      "label": "1 400-Level Course Conducted in Italian",
+      "hint": "One 400-level ITALIAN course conducted in Italian. In the current catalog: ITALIAN 410, or the honors thesis sequence ITALIAN 491 or 492. Courses taught in English (such as ITALIAN 450) do not qualify.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "ITALIAN 410",
+        "ITALIAN 491",
+        "ITALIAN 492"
+      ]
     },
     {
-      "id": "whatif-rq-900015",
-      "label": "1 additional 233-499 course conducted in Italian",
-      "hint": "",
+      "id": "italian-core-additional-233-499",
+      "label": "1 Additional 233-499 Course Conducted in Italian",
+      "hint": "One more ITALIAN course numbered 233 to 499 conducted in Italian, beyond the three level requirements. In the current catalog: ITALIAN 235, 300, 340, 350, 374, 410, 491, or 492.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "ITALIAN 233",
+        "ITALIAN 235",
+        "ITALIAN 300",
+        "ITALIAN 340",
+        "ITALIAN 350",
+        "ITALIAN 374",
+        "ITALIAN 410",
+        "ITALIAN 491",
+        "ITALIAN 492"
+      ]
     },
     {
-      "id": "whatif-rq-900016",
-      "label": "12 credits conducted in Italian from above courses",
-      "hint": "",
+      "id": "italian-core-12-credits",
+      "label": "12 Credits Conducted in Italian",
+      "hint": "12 credits total from the courses above (ITALIAN courses numbered 233 to 499 conducted in Italian).",
       "need": 12,
       "countMode": "credits",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "ITALIAN 233",
+        "ITALIAN 235",
+        "ITALIAN 300",
+        "ITALIAN 340",
+        "ITALIAN 350",
+        "ITALIAN 374",
+        "ITALIAN 410",
+        "ITALIAN 491",
+        "ITALIAN 492"
+      ]
     },
     {
       "id": "whatif-rq-2723",
-      "label": "Residency Requirement: minimum 15 credits",
-      "hint": "",
+      "label": "Major Total Credits: minimum 30 credits",
+      "hint": "Includes all courses used toward the major requirements, including approved cognates from other departments; does not include prerequisites. Additional ITALIAN courses numbered 233 to 499 can be used to reach the total. Italian departmental credits must be reviewed by a major advisor before applying to major requirements.",
+      "need": 30,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchCodes": [
+        "ITALIAN 233",
+        "ITALIAN 235",
+        "ITALIAN 240",
+        "ITALIAN 300",
+        "ITALIAN 310",
+        "ITALIAN 316",
+        "ITALIAN 317",
+        "ITALIAN 333",
+        "ITALIAN 340",
+        "ITALIAN 350",
+        "ITALIAN 358",
+        "ITALIAN 374",
+        "ITALIAN 410",
+        "ITALIAN 415",
+        "ITALIAN 450",
+        "ITALIAN 491",
+        "ITALIAN 492",
+        "ITALIAN 499"
+      ]
+    },
+    {
+      "id": "whatif-rq-2723-2",
+      "label": "Major Residency: minimum 15 credits",
+      "hint": "At least 15 credits of the major must be taken in residence at U-M.",
       "need": 15,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchAll": true
+      "matchCodes": [
+        "ITALIAN 233",
+        "ITALIAN 235",
+        "ITALIAN 240",
+        "ITALIAN 300",
+        "ITALIAN 310",
+        "ITALIAN 316",
+        "ITALIAN 317",
+        "ITALIAN 333",
+        "ITALIAN 340",
+        "ITALIAN 350",
+        "ITALIAN 358",
+        "ITALIAN 374",
+        "ITALIAN 410",
+        "ITALIAN 415",
+        "ITALIAN 450",
+        "ITALIAN 491",
+        "ITALIAN 492",
+        "ITALIAN 499"
+      ]
     },
     {
-      "id": "whatif-rq-27232",
-      "label": "300- or 400-Lvl, Taught in Italian, Taken in RLL on the Ann Arbor Campus: minimum 1 course",
-      "hint": "",
+      "id": "whatif-rq-2723-3",
+      "label": "1 300- or 400-Level Course Taught in Italian, Taken in RLL on the Ann Arbor Campus",
+      "hint": "Must be taught in Italian and taken in the Romance Languages and Literatures department on the Ann Arbor campus (study abroad does not count). In the current catalog: ITALIAN 300, 340, 350, 374, 410, 491, or 492.",
       "need": 1,
       "countMode": "count",
       "category": "major-credit-min",
-      "matchAll": true
+      "matchCodes": [
+        "ITALIAN 300",
+        "ITALIAN 340",
+        "ITALIAN 350",
+        "ITALIAN 374",
+        "ITALIAN 410",
+        "ITALIAN 491",
+        "ITALIAN 492"
+      ]
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/italian-major.html"

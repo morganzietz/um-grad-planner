@@ -37,13 +37,29 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
       "excludeTags": [
         "experiential",
         "independent-study"
+      ],
+      "matchAll": true
+    },
+    {
+      "id": "whatif-rq-1850",
+      "label": "60 Credits outside Classical Studies",
+      "hint": "Credits earned in courses outside the Classical Studies department(s).",
+      "need": 60,
+      "countMode": "credits",
+      "category": "lsa-credit-min",
+      "excludeTags": [
+        "subj-latin",
+        "subj-greek",
+        "subj-greekmod",
+        "subj-clciv",
+        "subj-clarch"
       ],
       "matchAll": true
     },
@@ -94,9 +110,9 @@
       "matchTag": "lsa-fywr"
     },
     {
-      "id": "whatif-rq-900000",
+      "id": "whatif-rq-5348",
       "label": "Upper Level Writing Requirement",
-      "hint": "one course required · C- or",
+      "hint": "one course required",
       "need": 1,
       "countMode": "count",
       "category": "lsa-college-wide",
@@ -137,6 +153,273 @@
       "countMode": "count",
       "category": "lsa-college-wide",
       "matchTag": "lsa-language"
+    },
+    {
+      "id": "lsa-dist-humanities",
+      "label": "Area Distribution: 7 Credits in Humanities",
+      "hint": "From approved HU-designated courses.",
+      "need": 7,
+      "countMode": "credits",
+      "category": "lsa-distribution",
+      "matchTag": "lsa-humanities",
+      "excludeTags": [
+        "ap-credit"
+      ]
+    },
+    {
+      "id": "lsa-dist-natural-sciences",
+      "label": "Area Distribution: 7 Credits in Natural Sciences",
+      "hint": "From approved NS-designated courses.",
+      "need": 7,
+      "countMode": "credits",
+      "category": "lsa-distribution",
+      "matchTag": "lsa-natural-sciences",
+      "excludeTags": [
+        "ap-credit"
+      ]
+    },
+    {
+      "id": "lsa-dist-social-sciences",
+      "label": "Area Distribution: 7 Credits in Social Sciences",
+      "hint": "From approved SS-designated courses.",
+      "need": 7,
+      "countMode": "credits",
+      "category": "lsa-distribution",
+      "matchTag": "lsa-social-sciences",
+      "excludeTags": [
+        "ap-credit"
+      ]
+    },
+    {
+      "id": "lsa-add-dist-choose-3",
+      "label": "Additional Distribution: complete 3 areas",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
+      "need": 3,
+      "countMode": "count",
+      "category": "lsa-add-distribution",
+      "pickFromGroups": [
+        "lsa-add-dist-humanities",
+        "lsa-add-dist-natural-sciences",
+        "lsa-add-dist-social-sciences",
+        "lsa-add-dist-math-symbolic",
+        "lsa-add-dist-creative-expression",
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
+      ]
+    },
+    {
+      "id": "lsa-add-dist-humanities",
+      "label": "Additional 3 Credits in Humanities",
+      "hint": "Beyond the initial 7 cr Humanities.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-humanities",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 7
+    },
+    {
+      "id": "lsa-add-dist-natural-sciences",
+      "label": "Additional 3 Credits in Natural Sciences",
+      "hint": "Beyond the initial 7 cr Natural Sciences.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-natural-sciences",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 7
+    },
+    {
+      "id": "lsa-add-dist-social-sciences",
+      "label": "Additional 3 Credits in Social Sciences",
+      "hint": "Beyond the initial 7 cr Social Sciences.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-social-sciences",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 7
+    },
+    {
+      "id": "lsa-add-dist-math-symbolic",
+      "label": "3 Credits in Mathematical & Symbolic Analysis",
+      "hint": "From approved MSA-designated courses.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-math-symbolic",
+      "excludeTags": [
+        "ap-credit"
+      ]
+    },
+    {
+      "id": "lsa-add-dist-creative-expression",
+      "label": "3 Credits in Creative Expression",
+      "hint": "From approved CE-designated courses.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-creative-expression",
+      "excludeTags": [
+        "ap-credit"
+      ]
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary",
+      "label": "3 Credits in Interdisciplinary",
+      "hint": "From approved ID-designated courses.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ]
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
+      "id": "whatif-rq-2910",
+      "label": "Latin Prerequisite",
+      "hint": "Choose 1 of: LATIN 231 (honors section), LATIN 232, LATIN 233, or LATIN 294.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "LATIN 231",
+        "LATIN 232",
+        "LATIN 233",
+        "LATIN 294"
+      ]
+    },
+    {
+      "id": "latin-course-above-410",
+      "label": "1 Course above LATIN 410",
+      "hint": "Any LATIN course numbered above 410, minimum 3 credits. Current catalog options: LATIN 421, 435, 462, 495, 499, 506, or 599.",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "LATIN 421",
+        "LATIN 435",
+        "LATIN 462",
+        "LATIN 495",
+        "LATIN 499",
+        "LATIN 506",
+        "LATIN 599"
+      ]
+    },
+    {
+      "id": "latin-5-additional-300-plus",
+      "label": "5 Additional LATIN Courses at the 300-Level or Above",
+      "hint": "Beyond the course above LATIN 410. Each course must be a minimum of 3 credits.",
+      "need": 5,
+      "countMode": "count",
+      "category": "core",
+      "matchTag": "subj-latin-upper"
+    },
+    {
+      "id": "latin-intro-civ-course",
+      "label": "Introductory Course in Roman Civilization, Archaeology, or History",
+      "hint": "Choose 1 of: CLCIV 202 or 302, CLARCH 222 (offered in the catalog as ARCHAM 222 or HISTART 222), or HISTORY 201. Minimum 3 credits.",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "CLCIV 202",
+        "CLCIV 302",
+        "CLARCH 222",
+        "ARCHAM 222",
+        "HISTART 222",
+        "HISTORY 201"
+      ]
+    },
+    {
+      "id": "latin-upper-roman-course",
+      "label": "Upper-Level Course in Roman Civilization, Archaeology, or History",
+      "hint": "One 300-level or above course on Roman civilization, archaeology, or history, minimum 3 credits. Catalog examples: CLCIV 375, 376, or 392, ARCHAM 424 or 427, HISTART 424 or 426, HISTORY 351, STS 392. Other approved Roman-focused courses also count.",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "CLCIV 375",
+        "CLCIV 376",
+        "CLCIV 392",
+        "ARCHAM 424",
+        "ARCHAM 427",
+        "HISTART 424",
+        "HISTART 426",
+        "HISTORY 351",
+        "STS 392"
+      ]
+    },
+    {
+      "id": "whatif-rq-2912",
+      "label": "Major Total: 24 Credits",
+      "hint": "Includes all courses used toward the major requirements, including those from other departments (cognates). Does not include prerequisites.",
+      "need": 24,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchCodes": [
+        "LATIN 301",
+        "LATIN 401",
+        "LATIN 402",
+        "LATIN 403",
+        "LATIN 421",
+        "LATIN 426",
+        "LATIN 435",
+        "LATIN 462",
+        "LATIN 495",
+        "LATIN 499",
+        "LATIN 506",
+        "LATIN 599",
+        "CLCIV 202",
+        "CLCIV 302",
+        "CLARCH 222",
+        "ARCHAM 222",
+        "HISTART 222",
+        "HISTORY 201",
+        "CLCIV 375",
+        "CLCIV 376",
+        "CLCIV 392",
+        "ARCHAM 424",
+        "ARCHAM 427",
+        "HISTART 424",
+        "HISTART 426",
+        "HISTORY 351",
+        "STS 392"
+      ]
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/latin-language-and-literature-major.html"

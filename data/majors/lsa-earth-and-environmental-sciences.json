@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -54,6 +54,9 @@
       "need": 60,
       "countMode": "credits",
       "category": "lsa-credit-min",
+      "excludeTags": [
+        "subj-earth"
+      ],
       "matchAll": true
     },
     {
@@ -186,7 +189,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -196,7 +199,9 @@
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -275,36 +280,166 @@
       ]
     },
     {
-      "id": "whatif-rq-3107",
-      "label": "Earth & Environmental Sciences Prerequisites: 1 course from each category",
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
+      "id": "ees-prereq-intro-lab",
+      "label": "Category I: Introductory Course with Laboratory",
+      "hint": "Choose 1 of: EARTH 116, EARTH 119 (with lab EARTH 118), or EARTH 120. Must include a laboratory.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "EARTH 116",
+        "EARTH 119",
+        "EARTH 120"
+      ]
+    },
+    {
+      "id": "ees-prereq-env-ocean-lab",
+      "label": "Category II: Introductory Environmental Science or Oceanography with Laboratory",
+      "hint": "Choose 1 of: EARTH 202, EARTH 219 (with lab EARTH 218), or EARTH 222 (with lab EARTH 223). Must include a laboratory.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "EARTH 202",
+        "EARTH 219",
+        "EARTH 222"
+      ]
+    },
+    {
+      "id": "ees-prereq-math",
+      "label": "EARTH 132, or MATH 115 or Equivalent",
+      "hint": "EARTH 132 (Earth and Environmental Math), or MATH 115 (Calculus I) or equivalent calculus credit (AP or transfer counts).",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "EARTH 132",
+        "MATH 115"
+      ]
+    },
+    {
+      "id": "ees-prereq-earth-295",
+      "label": "EARTH 295: Navigating an Earth and Environmental Sciences Undergraduate Career",
       "hint": "",
       "need": 1,
       "countMode": "count",
       "category": "prerequisites",
-      "matchAll": true
+      "matchCodes": [
+        "EARTH 295"
+      ]
     },
     {
-      "id": "whatif-rq-900011",
-      "label": "Writing Program Coordinator: 1 course",
-      "hint": "",
+      "id": "ees-prereq-science-2-of-4",
+      "label": "Chemistry, Physics, and Biology: 2 of 4 Options",
+      "hint": "Fulfill 2 of the department's 4 science prerequisite options. The audit shows the chemistry and biology options below; physics options also count, ask an advisor if planning the physics route. Any 2 of the science options satisfy this group.",
+      "need": 2,
+      "countMode": "count",
+      "category": "prerequisites",
+      "pickFromGroups": [
+        "whatif-rq-6051",
+        "whatif-rq-6053",
+        "ees-prereq-physics-option"
+      ]
+    },
+    {
+      "id": "whatif-rq-6051",
+      "label": "Prerequisite Option I: Chemistry",
+      "hint": "CHEM 130 (with labs CHEM 125 and CHEM 126) or EARTH 131.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "CHEM 130",
+        "EARTH 131"
+      ]
+    },
+    {
+      "id": "whatif-rq-6053",
+      "label": "Prerequisite Option 3: Biology",
+      "hint": "Choose 1 of: BIOLOGY 171, 172, 174, or 195.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "BIOLOGY 171",
+        "BIOLOGY 172",
+        "BIOLOGY 174",
+        "BIOLOGY 195"
+      ]
+    },
+    {
+      "id": "ees-prereq-physics-option",
+      "label": "Science Option: Introductory Physics with Lab",
+      "hint": "One intro physics lecture with its lab (e.g. PHYSICS 140 and 141). This option was hidden on the audit because the science group was already satisfied; approximated from the standard intro physics pairs, confirm with an advisor.",
+      "need": 2,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "PHYSICS 140",
+        "PHYSICS 141",
+        "PHYSICS 150",
+        "PHYSICS 151",
+        "PHYSICS 160",
+        "PHYSICS 161",
+        "PHYSICS 240",
+        "PHYSICS 241",
+        "PHYSICS 250",
+        "PHYSICS 251",
+        "PHYSICS 260",
+        "PHYSICS 261"
+      ]
+    },
+    {
+      "id": "whatif-rq-3631",
+      "label": "Upper Level Writing Requirement from EARTH",
+      "hint": "EARTH 380 or EARTH 333, or a Program of Writing with approval of the Writing Program Coordinator. 1 course, C- or better.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "EARTH 380",
+        "EARTH 333"
+      ]
     },
     {
-      "id": "whatif-rq-900012",
-      "label": "EES Core: 4 courses",
-      "hint": "",
+      "id": "whatif-rq-3116",
+      "label": "EES Core: 4 Courses",
+      "hint": "4 courses from the department's approved EES core list. The audit does not list the options; approximated here as EARTH courses at the 300 level or above, confirm choices with the department.",
       "need": 4,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchTag": "subj-earth-upper"
     },
     {
-      "id": "whatif-rq-900013",
-      "label": "EARTH 440 or EARTH 450",
-      "hint": "",
+      "id": "whatif-rq-9701",
+      "label": "Field Experience",
+      "hint": "EARTH 440 or EARTH 450.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -314,14 +449,109 @@
       ]
     },
     {
-      "id": "whatif-rq-900014",
-      "label": "EARTH Electives at the 300-Level or Higher: 9 credits",
-      "hint": "",
+      "id": "whatif-rq-3117",
+      "label": "EARTH Electives at the 300 Level or Higher",
+      "hint": "9 credits of EARTH courses numbered 300 or above. Counted beyond the EES core courses (a 12 credit offset approximates the 4 core courses).",
       "need": 9,
       "countMode": "credits",
       "category": "core",
+      "matchTag": "subj-earth-upper",
+      "offset": 12
+    },
+    {
+      "id": "whatif-rq-3118",
+      "label": "Major Total Credits: minimum 30",
+      "hint": "Includes all courses used toward the major requirements, including approved cognates from other departments. Does not include prerequisites. Approximated here as EARTH credits. Prerequisite EARTH courses are excluded from this count; approved cognates also count in the official audit.",
+      "need": 30,
+      "countMode": "credits",
+      "category": "major-credit-min",
       "matchCodes": [
-        "EARTH 300"
+        "EARTH 100",
+        "EARTH 101",
+        "EARTH 102",
+        "EARTH 103",
+        "EARTH 104",
+        "EARTH 105",
+        "EARTH 106",
+        "EARTH 107",
+        "EARTH 108",
+        "EARTH 109",
+        "EARTH 110",
+        "EARTH 112",
+        "EARTH 113",
+        "EARTH 114",
+        "EARTH 115",
+        "EARTH 117",
+        "EARTH 122",
+        "EARTH 134",
+        "EARTH 142",
+        "EARTH 144",
+        "EARTH 147",
+        "EARTH 148",
+        "EARTH 151",
+        "EARTH 156",
+        "EARTH 158",
+        "EARTH 171",
+        "EARTH 172",
+        "EARTH 178",
+        "EARTH 201",
+        "EARTH 205",
+        "EARTH 206",
+        "EARTH 225",
+        "EARTH 230",
+        "EARTH 262",
+        "EARTH 299",
+        "EARTH 305",
+        "EARTH 309",
+        "EARTH 310",
+        "EARTH 313",
+        "EARTH 314",
+        "EARTH 315",
+        "EARTH 320",
+        "EARTH 321",
+        "EARTH 323",
+        "EARTH 325",
+        "EARTH 331",
+        "EARTH 333",
+        "EARTH 350",
+        "EARTH 351",
+        "EARTH 352",
+        "EARTH 370",
+        "EARTH 380",
+        "EARTH 381",
+        "EARTH 401",
+        "EARTH 405",
+        "EARTH 408",
+        "EARTH 409",
+        "EARTH 411",
+        "EARTH 414",
+        "EARTH 418",
+        "EARTH 419",
+        "EARTH 422",
+        "EARTH 432",
+        "EARTH 437",
+        "EARTH 442",
+        "EARTH 445",
+        "EARTH 449",
+        "EARTH 451",
+        "EARTH 454",
+        "EARTH 468",
+        "EARTH 478",
+        "EARTH 480",
+        "EARTH 483",
+        "EARTH 489",
+        "EARTH 490",
+        "EARTH 494",
+        "EARTH 495",
+        "EARTH 496",
+        "EARTH 498",
+        "EARTH 499",
+        "EARTH 531",
+        "EARTH 532",
+        "EARTH 533",
+        "EARTH 534",
+        "EARTH 536",
+        "EARTH 581"
       ]
     }
   ],

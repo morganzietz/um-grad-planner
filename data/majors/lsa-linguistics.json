@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -189,7 +189,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -199,7 +199,9 @@
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -268,7 +270,7 @@
     {
       "id": "lsa-add-dist-interdisciplinary",
       "label": "3 Credits in Interdisciplinary",
-      "hint": "From approved ID-designated courses.",
+      "hint": "From approved ID-designated courses. ID credit can count toward 1, 2, or all 3 of your chosen areas.",
       "need": 3,
       "countMode": "credits",
       "category": "lsa-add-distribution",
@@ -278,15 +280,124 @@
       ]
     },
     {
-      "id": "whatif-rq-10119",
-      "label": "LING 209 & 210 can be used in place of an upper-level elective",
-      "hint": "A maximum of 9 EXP/IND LING credits are allowed",
-      "need": 9,
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
       "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
+      "id": "ling-core-313",
+      "label": "LING 313: Sound Patterns",
+      "hint": "",
+      "need": 1,
+      "countMode": "count",
       "category": "core",
       "matchCodes": [
+        "LING 313"
+      ]
+    },
+    {
+      "id": "ling-core-315",
+      "label": "LING 315: Introduction to Syntax",
+      "hint": "",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "LING 315"
+      ]
+    },
+    {
+      "id": "ling-core-316",
+      "label": "LING 316: Aspects of Meaning",
+      "hint": "",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "LING 316"
+      ]
+    },
+    {
+      "id": "ling-core-497",
+      "label": "LING 497: Capstone Seminar",
+      "hint": "",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "LING 497"
+      ]
+    },
+    {
+      "id": "whatif-rq-10123",
+      "label": "Major Total Credits",
+      "hint": "minimum 30 credits. Includes all courses used toward the major requirements, including approved courses from other departments. Beyond the core, take additional upper level LING elective courses to reach 30 credits; one course between LING 209 and LING 210 can be used in place of an upper level elective. A maximum of 9 experiential or independent study LING credits are allowed.",
+      "need": 30,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchCodes": [
         "LING 209",
-        "LING 210"
+        "LING 210",
+        "LING 302",
+        "LING 303",
+        "LING 313",
+        "LING 315",
+        "LING 316",
+        "LING 317",
+        "LING 321",
+        "LING 335",
+        "LING 336",
+        "LING 340",
+        "LING 341",
+        "LING 342",
+        "LING 343",
+        "LING 345",
+        "LING 347",
+        "LING 349",
+        "LING 352",
+        "LING 370",
+        "LING 374",
+        "LING 375",
+        "LING 390",
+        "LING 395",
+        "LING 398",
+        "LING 413",
+        "LING 432",
+        "LING 441",
+        "LING 445",
+        "LING 492",
+        "LING 493",
+        "LING 494",
+        "LING 495",
+        "LING 496",
+        "LING 497",
+        "LING 512",
+        "LING 513",
+        "LING 515",
+        "LING 516",
+        "LING 541",
+        "LING 542"
       ]
     }
   ],

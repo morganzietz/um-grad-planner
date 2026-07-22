@@ -37,13 +37,25 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
       "excludeTags": [
         "experiential",
         "independent-study"
+      ],
+      "matchAll": true
+    },
+    {
+      "id": "whatif-rq-1850",
+      "label": "60 Credits outside Residential College Arts & Ideas Major",
+      "hint": "Credits earned in courses outside the Residential College Arts & Ideas Major department(s).",
+      "need": 60,
+      "countMode": "credits",
+      "category": "lsa-credit-min",
+      "excludeTags": [
+        "subj-rchums"
       ],
       "matchAll": true
     },
@@ -177,7 +189,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -187,7 +199,9 @@
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -266,18 +280,35 @@
       ]
     },
     {
-      "id": "whatif-rq-3368",
-      "label": "How to think in the Arts and Humanities",
-      "hint": "",
-      "need": 6,
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
       "countMode": "credits",
-      "category": "core",
-      "matchAll": true
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
     },
     {
-      "id": "whatif-rq-900011",
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
+      "id": "artsideas-how-to-think-humanities",
       "label": "RCHUMS 201: How to Think (Humanities)",
-      "hint": "RCHUMS 201",
+      "hint": "How to Think in the Arts and Humanities, Humanities course.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -286,9 +317,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900012",
+      "id": "artsideas-how-to-think-arts",
       "label": "RCHUMS 202: How to Think (Arts)",
-      "hint": "RCHUMS 202",
+      "hint": "How to Think in the Arts and Humanities, Arts course.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -297,40 +328,52 @@
       ]
     },
     {
-      "id": "whatif-rq-900013",
-      "label": "Core Humanities: 6 credits",
-      "hint": "",
+      "id": "artsideas-core-humanities",
+      "label": "Core Humanities: 6 Credits",
+      "hint": "Core coursework in the humanities, normally RCHUMS courses. Approved courses from other departments may also count, see your advisor.",
       "need": 6,
       "countMode": "credits",
       "category": "core",
-      "matchAll": true
+      "matchTag": "subj-rchums"
     },
     {
-      "id": "whatif-rq-900014",
-      "label": "Core Arts: 6 credits",
-      "hint": "",
+      "id": "artsideas-core-arts",
+      "label": "Core Arts: 6 Credits",
+      "hint": "Core coursework in the arts, normally RCHUMS courses. Approved courses from other departments may also count, see your advisor.",
       "need": 6,
       "countMode": "credits",
       "category": "core",
-      "matchAll": true
+      "matchTag": "subj-rchums"
     },
     {
-      "id": "whatif-rq-900015",
-      "label": "Focus: 15 credits",
-      "hint": "",
+      "id": "artsideas-focus",
+      "label": "Focus: 15 Credits",
+      "hint": "15 credits in a focus area planned with the major advisor, normally RCHUMS courses. Approved courses from other departments may also count.",
       "need": 15,
       "countMode": "credits",
       "category": "core",
-      "matchAll": true
+      "matchTag": "subj-rchums"
     },
     {
       "id": "whatif-rq-3374",
-      "label": "Residency Requirement: minimum 20 credits",
-      "hint": "",
+      "label": "Major Total Credits",
+      "hint": "minimum 33 credits. Includes all courses used toward the major requirements, including those from other departments. The planner counts RCHUMS credits as the closest approximation.",
+      "need": 33,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchTag": "subj-rchums"
+    },
+    {
+      "id": "whatif-rq-3374-2",
+      "label": "Major Residency Requirement",
+      "hint": "minimum 20 credits of major coursework taken in residence at U-M.",
       "need": 20,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchAll": true
+      "matchTag": "subj-rchums",
+      "excludeTags": [
+        "ap-credit"
+      ]
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/arts-ideas-in-the-humanities-major.html"

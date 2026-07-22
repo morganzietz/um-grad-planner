@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -191,7 +191,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -201,7 +201,9 @@
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -280,9 +282,48 @@
       ]
     },
     {
-      "id": "whatif-rq-900011",
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
+      "id": "whatif-rq-13596",
+      "label": "Introductory Biology Sequence",
+      "hint": "Complete Sequence A, B, or C. No optional pass/fail. Students may declare the major after completing the Introductory Biology sequence with a C average.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "pickFromGroups": [
+        "bbs-intro-bio-seq-a",
+        "bbs-intro-bio-seq-b",
+        "bbs-intro-bio-seq-c"
+      ]
+    },
+    {
+      "id": "bbs-intro-bio-seq-a",
       "label": "Sequence A: BIOLOGY 171, 172 or 174, and BIOLOGY 173 or 196",
-      "hint": "",
+      "hint": "BIOLOGY 171, then 172 or 174, then the 173 lab (or AP/IB credit for BIOLOGY 196).",
       "need": 2,
       "countMode": "count",
       "category": "prerequisites",
@@ -295,9 +336,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900012",
+      "id": "bbs-intro-bio-seq-b",
       "label": "Sequence B: BIOLOGY 195, and 173 or 196",
-      "hint": "",
+      "hint": "AP/IB credit for BIOLOGY 195 plus the 173 lab (or AP/IB credit for BIOLOGY 196).",
       "need": 2,
       "countMode": "count",
       "category": "prerequisites",
@@ -308,9 +349,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900013",
+      "id": "bbs-intro-bio-seq-c",
       "label": "Sequence C: BIOLOGY 191, 192 & 173",
-      "hint": "",
+      "hint": "Transfer credit for BIOLOGY 191, then BIOLOGY 192 and the 173 lab.",
       "need": 3,
       "countMode": "count",
       "category": "prerequisites",
@@ -321,9 +362,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900014",
-      "label": "CHEM 210 & 211",
-      "hint": "",
+      "id": "bbs-chem-210-211",
+      "label": "Chemistry Sequence: CHEM 210 & 211",
+      "hint": "Organic Chemistry I lecture and lab.",
       "need": 2,
       "countMode": "count",
       "category": "prerequisites",
@@ -333,9 +374,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900015",
-      "label": "CHEM 215 & 216",
-      "hint": "",
+      "id": "bbs-chem-215-216",
+      "label": "Chemistry Sequence: CHEM 215 & 216",
+      "hint": "Organic Chemistry II lecture and lab.",
       "need": 2,
       "countMode": "count",
       "category": "prerequisites",
@@ -345,9 +386,71 @@
       ]
     },
     {
-      "id": "whatif-rq-900016",
+      "id": "whatif-rq-13598",
+      "label": "Quantitative Analysis Sequence",
+      "hint": "3 courses from the approved list: Calculus I (MATH 115, 120, 175, 185, or 295), Calculus II (MATH 116, 121, 156, 176, 186, or 296), Physics I (PHYSICS 125, 135, 139, 140, 150, or 160), Physics II (PHYSICS 126, 235, 239, 240, 250, or 260), Computer Programming (EECS 180 or 183; EECS 203; EECS 280), Statistics (STATS 180 or 250; STATS 280; DATASCI 101; STATS 400-level or above, min 3 credits), BIOLOGY 202, BIOLOGY/BIOPHYS/COMPFOR 131, or BIOPHYS/PHYSICS 290. A course used here cannot also count as a major elective.",
+      "need": 3,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "MATH 115",
+        "MATH 120",
+        "MATH 175",
+        "MATH 185",
+        "MATH 295",
+        "MATH 116",
+        "MATH 121",
+        "MATH 156",
+        "MATH 176",
+        "MATH 186",
+        "MATH 296",
+        "PHYSICS 125",
+        "PHYSICS 135",
+        "PHYSICS 139",
+        "PHYSICS 140",
+        "PHYSICS 150",
+        "PHYSICS 160",
+        "PHYSICS 126",
+        "PHYSICS 235",
+        "PHYSICS 239",
+        "PHYSICS 240",
+        "PHYSICS 250",
+        "PHYSICS 260",
+        "EECS 180",
+        "EECS 183",
+        "EECS 203",
+        "EECS 280",
+        "STATS 180",
+        "STATS 250",
+        "STATS 280",
+        "DATASCI 101",
+        "STATS 401",
+        "STATS 412",
+        "STATS 413",
+        "STATS 425",
+        "STATS 426",
+        "STATS 449",
+        "STATS 480",
+        "STATS 485",
+        "STATS 489",
+        "STATS 499",
+        "STATS 525",
+        "STATS 526",
+        "STATS 531",
+        "STATS 547",
+        "STATS 570",
+        "BIOLOGY 202",
+        "BIOLOGY 131",
+        "BIOPHYS 131",
+        "COMPFOR 131",
+        "BIOPHYS 290",
+        "PHYSICS 290"
+      ]
+    },
+    {
+      "id": "whatif-rq-13600",
       "label": "BIOLOGY 290: Biotechnology and Bioenvironmental Science",
-      "hint": "",
+      "hint": "Required core course.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -356,7 +459,20 @@
       ]
     },
     {
-      "id": "whatif-rq-900017",
+      "id": "whatif-rq-13601",
+      "label": "Additional Core Courses",
+      "hint": "Complete two of the following three options: Genetics, Biochemistry, or General Ecology.",
+      "need": 2,
+      "countMode": "count",
+      "category": "core",
+      "pickFromGroups": [
+        "bbs-core-genetics",
+        "bbs-core-biochemistry",
+        "bbs-core-ecology"
+      ]
+    },
+    {
+      "id": "bbs-core-genetics",
       "label": "BIOLOGY 305: Genetics",
       "hint": "",
       "need": 1,
@@ -367,7 +483,7 @@
       ]
     },
     {
-      "id": "whatif-rq-900018",
+      "id": "bbs-core-biochemistry",
       "label": "Introductory Biochemistry",
       "hint": "Choose 1 of: MCDB 310, BIOLCHEM 415, or CHEM 351",
       "need": 1,
@@ -380,7 +496,7 @@
       ]
     },
     {
-      "id": "whatif-rq-900019",
+      "id": "bbs-core-ecology",
       "label": "General Ecology",
       "hint": "Choose 1 of: BIOLOGY 281 or BIOLOGY 282",
       "need": 1,
@@ -392,70 +508,197 @@
       ]
     },
     {
-      "id": "whatif-rq-900020",
-      "label": "Group I",
-      "hint": "Gateway: 2 courses",
+      "id": "bbs-group-1-gateway",
+      "label": "Group I: Gateway Courses",
+      "hint": "Choose 2 of: BIOLOGY 207, 225, 230, 256, or 288",
       "need": 2,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "BIOLOGY 207",
+        "BIOLOGY 225",
+        "BIOLOGY 230",
+        "BIOLOGY 256",
+        "BIOLOGY 288"
+      ]
     },
     {
-      "id": "whatif-rq-900021",
-      "label": "Group II",
-      "hint": "Biotechnology: 1 course",
+      "id": "bbs-group-2-biotechnology",
+      "label": "Group II: Biotechnology Elective",
+      "hint": "Choose 1 of: MCDB 408, 411, 415, 430, 472, 489, or BIOPHYS 440",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "MCDB 408",
+        "MCDB 411",
+        "MCDB 415",
+        "MCDB 430",
+        "MCDB 472",
+        "MCDB 489",
+        "BIOPHYS 440"
+      ]
     },
     {
-      "id": "whatif-rq-900022",
-      "label": "Group III",
-      "hint": "Bioenvironmental Sciences: 1 course",
+      "id": "bbs-group-3-bioenvironmental",
+      "label": "Group III: Bioenvironmental Sciences Elective",
+      "hint": "Choose 1 of: EEB 313 or EARTH 313, EEB 315 or ENVIRON 315, EEB 349, EEB 380, EEB 390 or 391, EEB 436, EEB 446, EEB 468, or EEB 498",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "EEB 313",
+        "EARTH 313",
+        "EEB 315",
+        "ENVIRON 315",
+        "EEB 349",
+        "EEB 380",
+        "EEB 390",
+        "EEB 391",
+        "EEB 436",
+        "EEB 446",
+        "EEB 468",
+        "EEB 498"
+      ]
     },
     {
-      "id": "whatif-rq-900023",
-      "label": "Group IV",
-      "hint": "Advanced Laboratory: 1 course",
+      "id": "bbs-group-4-advanced-lab",
+      "label": "Group IV: Advanced Laboratory Course",
+      "hint": "Choose 1 of: MCDB 306, MCDB 429, EEB 372 or ENVIRON 372, EEB 373, EEB 401, EEB 429, EEB 496, or MCDB 400 or EEB 400 (Advanced Research must be taken for 3 or more credits in a single term; at most 3 credits of independent research count toward the major).",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
-    },
-    {
-      "id": "whatif-rq-13603",
-      "label": "Additional courses, as needed to reach the required 30 credits in the major",
-      "hint": "",
-      "need": 30,
-      "countMode": "credits",
-      "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "MCDB 306",
+        "MCDB 429",
+        "EEB 372",
+        "ENVIRON 372",
+        "EEB 373",
+        "EEB 401",
+        "EEB 429",
+        "EEB 496",
+        "MCDB 400",
+        "EEB 400"
+      ]
     },
     {
       "id": "whatif-rq-13605",
       "label": "Major Credits: minimum 30 credits",
-      "hint": "",
+      "hint": "Core courses, Groups I to IV, and additional approved courses as needed to reach 30 credits (extra Group II, III, or IV courses, CHEM 230 or 260, PUBHLTH 305, BIOPHYS 370, BIOMEDE 504, EARTH 331 or ENVIRON 332). Departmental transfer courses are excluded, and at most 3 credits of independent research (MCDB/EEB 400) count.",
       "need": 30,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchAll": true
+      "matchCodes": [
+        "BIOLOGY 290",
+        "BIOLOGY 305",
+        "MCDB 310",
+        "BIOLCHEM 415",
+        "CHEM 351",
+        "BIOLOGY 281",
+        "BIOLOGY 282",
+        "BIOLOGY 207",
+        "BIOLOGY 225",
+        "BIOLOGY 230",
+        "BIOLOGY 256",
+        "BIOLOGY 288",
+        "MCDB 408",
+        "MCDB 411",
+        "MCDB 415",
+        "MCDB 430",
+        "MCDB 472",
+        "MCDB 489",
+        "BIOPHYS 440",
+        "EEB 313",
+        "EARTH 313",
+        "EEB 315",
+        "ENVIRON 315",
+        "EEB 349",
+        "EEB 380",
+        "EEB 390",
+        "EEB 391",
+        "EEB 436",
+        "EEB 446",
+        "EEB 468",
+        "EEB 498",
+        "MCDB 306",
+        "MCDB 429",
+        "EEB 372",
+        "ENVIRON 372",
+        "EEB 373",
+        "EEB 401",
+        "EEB 429",
+        "EEB 496",
+        "MCDB 400",
+        "EEB 400",
+        "CHEM 230",
+        "CHEM 260",
+        "PUBHLTH 305",
+        "BIOPHYS 370",
+        "BIOMEDE 504",
+        "EARTH 331",
+        "ENVIRON 332"
+      ]
     },
     {
-      "id": "whatif-rq-136052",
+      "id": "whatif-rq-13605-2",
       "label": "Credits Taken In-Residence: minimum 20 credits",
-      "hint": "",
+      "hint": "At least 20 of the 30 major credits must be taken in residence at U-M.",
       "need": 20,
       "countMode": "credits",
       "category": "major-credit-min",
       "excludeTags": [
         "ap-credit"
       ],
-      "matchAll": true
+      "matchCodes": [
+        "BIOLOGY 290",
+        "BIOLOGY 305",
+        "MCDB 310",
+        "BIOLCHEM 415",
+        "CHEM 351",
+        "BIOLOGY 281",
+        "BIOLOGY 282",
+        "BIOLOGY 207",
+        "BIOLOGY 225",
+        "BIOLOGY 230",
+        "BIOLOGY 256",
+        "BIOLOGY 288",
+        "MCDB 408",
+        "MCDB 411",
+        "MCDB 415",
+        "MCDB 430",
+        "MCDB 472",
+        "MCDB 489",
+        "BIOPHYS 440",
+        "EEB 313",
+        "EARTH 313",
+        "EEB 315",
+        "ENVIRON 315",
+        "EEB 349",
+        "EEB 380",
+        "EEB 390",
+        "EEB 391",
+        "EEB 436",
+        "EEB 446",
+        "EEB 468",
+        "EEB 498",
+        "MCDB 306",
+        "MCDB 429",
+        "EEB 372",
+        "ENVIRON 372",
+        "EEB 373",
+        "EEB 401",
+        "EEB 429",
+        "EEB 496",
+        "MCDB 400",
+        "EEB 400",
+        "CHEM 230",
+        "CHEM 260",
+        "PUBHLTH 305",
+        "BIOPHYS 370",
+        "BIOMEDE 504",
+        "EARTH 331",
+        "ENVIRON 332"
+      ]
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/biotechnology-and-bioenvironmental-sciences-maj.html"

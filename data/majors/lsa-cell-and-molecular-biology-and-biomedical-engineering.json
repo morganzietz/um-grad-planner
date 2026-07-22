@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -94,9 +94,9 @@
       "matchTag": "lsa-fywr"
     },
     {
-      "id": "whatif-rq-900000",
+      "id": "whatif-rq-5348",
       "label": "Upper Level Writing Requirement",
-      "hint": "one course required · C- or",
+      "hint": "one course required",
       "need": 1,
       "countMode": "count",
       "category": "lsa-college-wide",

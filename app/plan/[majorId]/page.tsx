@@ -3,7 +3,7 @@
 import { use, useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { auditDegree, checkMinors, projectGraduation } from '@/lib/audit';
+import { auditDegree, checkMinors, countableProgress, projectGraduation } from '@/lib/audit';
 import { courseCatalog, minors as minorLibrary } from '@/lib/data';
 import { listBundledMajors, loadBundledMajor } from '@/lib/majors';
 import { useAppState, useMajorPlans, usePlannerState } from '@/lib/state';
@@ -183,15 +183,7 @@ export default function PlanPage({
   const takenPct = Math.min(100, (takenCredits / goalCredits) * 100);
   const plannedPct = Math.min(100 - takenPct, (plannedCredits / goalCredits) * 100);
 
-  const childIds = new Set<string>();
-  for (const r of primary.audit.requirements) {
-    if (r.requirement.pickFromGroups) {
-      for (const id of r.requirement.pickFromGroups) childIds.add(id);
-    }
-  }
-  const countableReqs = primary.audit.requirements.filter(
-    (r) => !childIds.has(r.requirement.id),
-  );
+  const countableReqs = countableProgress(primary.audit.requirements);
   const reqsMet = countableReqs.filter((r) => r.met).length;
   const reqsTotal = countableReqs.length;
 

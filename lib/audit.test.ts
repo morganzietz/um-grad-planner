@@ -1,11 +1,19 @@
 import { describe, it, expect } from 'vitest';
-import { auditDegree, projectGraduation, checkMinors } from './audit';
+import {
+  auditDegree,
+  checkMinors,
+  countableProgress,
+  countableRequirements,
+  pickGroupChildIds,
+  projectGraduation,
+} from './audit';
 import type {
   Course,
   Major,
   Minor,
   PlannedTerm,
   Profile,
+  Requirement,
   TakenCourse,
 } from './types';
 
@@ -427,5 +435,66 @@ describe('requirement matching by matchCodes', () => {
     const r = result.requirements[0];
     expect(r.taken).toBe(1);
     expect(r.planned).toBe(0);
+  });
+});
+
+describe('countable requirement helpers', () => {
+  const reqs: Requirement[] = [
+    {
+      id: 'parent',
+      label: 'Pick 1 of 2',
+      hint: '',
+      need: 1,
+      countMode: 'count',
+      pickFromGroups: ['child-a', 'child-b'],
+    },
+    {
+      id: 'child-a',
+      label: 'Option A',
+      hint: '',
+      need: 1,
+      countMode: 'count',
+      matchCodes: ['AAA 100'],
+    },
+    {
+      id: 'child-b',
+      label: 'Option B',
+      hint: '',
+      need: 1,
+      countMode: 'count',
+      matchCodes: ['BBB 100'],
+    },
+    {
+      id: 'standalone',
+      label: 'Standalone',
+      hint: '',
+      need: 1,
+      countMode: 'count',
+      matchCodes: ['CCC 100'],
+    },
+  ];
+
+  it('pickGroupChildIds collects every referenced child id', () => {
+    expect(Array.from(pickGroupChildIds(reqs)).sort()).toEqual(['child-a', 'child-b']);
+  });
+
+  it('countableRequirements keeps parents and standalones, drops children', () => {
+    expect(countableRequirements(reqs).map((r) => r.id)).toEqual(['parent', 'standalone']);
+  });
+
+  it('countableProgress matches the plan-page ledger definition', () => {
+    const major: Major = {
+      id: 'm',
+      name: 'M',
+      school: 'S',
+      goalCredits: 120,
+      requirements: reqs,
+    };
+    const profile: Profile = { takenCourses: [], plannedTerms: [], majorId: 'm' };
+    const audit = auditDegree(profile, major, []);
+    const countable = countableProgress(audit.requirements);
+    expect(countable.map((p) => p.requirement.id)).toEqual(['parent', 'standalone']);
+    // Home-card "unmet" over countable rows equals the ledger's unmet total.
+    expect(countable.filter((p) => !p.met && !p.satisfiedByParent).length).toBe(2);
   });
 });

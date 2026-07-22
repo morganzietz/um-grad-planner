@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -189,7 +189,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -199,7 +199,9 @@
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -268,7 +270,7 @@
     {
       "id": "lsa-add-dist-interdisciplinary",
       "label": "3 Credits in Interdisciplinary",
-      "hint": "From approved ID-designated courses.",
+      "hint": "From approved ID-designated courses. ID credit can count toward 1, 2, or all 3 areas.",
       "need": 3,
       "countMode": "credits",
       "category": "lsa-add-distribution",
@@ -278,9 +280,35 @@
       ]
     },
     {
-      "id": "whatif-rq-900011",
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
+      "id": "whatif-rq-1875",
       "label": "ECON 101: Principles of Economics I",
-      "hint": "",
+      "hint": "C or better.",
       "need": 1,
       "countMode": "count",
       "category": "prerequisites",
@@ -289,9 +317,9 @@
       ]
     },
     {
-      "id": "whatif-rq-1875",
+      "id": "whatif-rq-1875-2",
       "label": "ECON 102: Principles of Economics II",
-      "hint": "",
+      "hint": "C or better.",
       "need": 1,
       "countMode": "count",
       "category": "prerequisites",
@@ -300,20 +328,26 @@
       ]
     },
     {
-      "id": "whatif-rq-900012",
-      "label": "MATH 115: Calculus I",
-      "hint": "",
+      "id": "whatif-rq-1875-3",
+      "label": "MATH 115: Calculus I (or Equivalent per A&R)",
+      "hint": "C or better. AP or transfer calculus credit counts per Admissions and Records; a higher calculus course also satisfies this.",
       "need": 1,
       "countMode": "count",
       "category": "prerequisites",
       "matchCodes": [
-        "MATH 115"
+        "MATH 115",
+        "MATH 116",
+        "MATH 156",
+        "MATH 186",
+        "MATH 215",
+        "MATH 295",
+        "MATH 296"
       ]
     },
     {
       "id": "whatif-rq-1876",
       "label": "ECON 401: Intermediate Microeconomic Theory",
-      "hint": "Must be taken at U-M Ann Arbor campus",
+      "hint": "C- or better. Must be taken at U-M Ann Arbor campus.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -322,9 +356,9 @@
       ]
     },
     {
-      "id": "whatif-rq-18762",
+      "id": "whatif-rq-1876-2",
       "label": "ECON 402: Intermediate Macroeconomic Theory",
-      "hint": "Must be taken at U-M Ann Arbor campus",
+      "hint": "C- or better. Must be taken at U-M Ann Arbor campus.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -333,18 +367,25 @@
       ]
     },
     {
-      "id": "whatif-rq-18763",
-      "label": "Statistics: 1 course from approved list",
-      "hint": "",
+      "id": "whatif-rq-1876-3",
+      "label": "Statistics",
+      "hint": "1 course from the department's approved list, C- or better. Approved options include STATS 250, STATS 280, STATS 412, STATS 426, ECON 451, and IOE 265.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "STATS 250",
+        "STATS 280",
+        "STATS 412",
+        "STATS 426",
+        "ECON 451",
+        "IOE 265"
+      ]
     },
     {
-      "id": "whatif-rq-18764",
-      "label": "Introduction to Statistics and Econometrics II",
-      "hint": "Choose 1 of: ECON 251, ECON 452, or ECON 454",
+      "id": "whatif-rq-1876-4",
+      "label": "Econometrics",
+      "hint": "Choose 1 of: ECON 251, ECON 452, or ECON 454. C- or better.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -355,43 +396,178 @@
       ]
     },
     {
-      "id": "whatif-rq-18765",
-      "label": "Electives: 9 credits of 400-level ECON",
-      "hint": "Must have ECON 401 or 402 as a prerequisite",
+      "id": "whatif-rq-1876-5",
+      "label": "Electives: 9 Credits of 400-Level ECON",
+      "hint": "Must have ECON 401 or 402 as a prerequisite.",
       "need": 9,
       "countMode": "credits",
       "category": "core",
+      "matchCodes": [
+        "ECON 407",
+        "ECON 409",
+        "ECON 412",
+        "ECON 414",
+        "ECON 420",
+        "ECON 427",
+        "ECON 431",
+        "ECON 432",
+        "ECON 435",
+        "ECON 437",
+        "ECON 441",
+        "ECON 442",
+        "ECON 461",
+        "ECON 471",
+        "ECON 481",
+        "ECON 482",
+        "ECON 483",
+        "ECON 485",
+        "ECON 487",
+        "ECON 490",
+        "ECON 491",
+        "ECON 495"
+      ]
+    },
+    {
+      "id": "whatif-rq-1876-6",
+      "label": "Electives: 12 Credits of Non-Independent Study Coursework",
+      "hint": "300- and 400-level ECON electives excluding independent research (ECON 498 and 499).",
+      "need": 12,
+      "countMode": "credits",
+      "category": "core",
+      "excludeTags": [
+        "independent-study"
+      ],
+      "matchCodes": [
+        "ECON 310",
+        "ECON 320",
+        "ECON 325",
+        "ECON 340",
+        "ECON 370",
+        "ECON 380",
+        "ECON 395",
+        "ECON 396",
+        "ECON 398",
+        "ECON 407",
+        "ECON 409",
+        "ECON 412",
+        "ECON 414",
+        "ECON 420",
+        "ECON 427",
+        "ECON 431",
+        "ECON 432",
+        "ECON 435",
+        "ECON 437",
+        "ECON 441",
+        "ECON 442",
+        "ECON 461",
+        "ECON 471",
+        "ECON 481",
+        "ECON 482",
+        "ECON 483",
+        "ECON 485",
+        "ECON 487",
+        "ECON 490",
+        "ECON 491",
+        "ECON 495",
+        "ECON 497"
+      ]
+    },
+    {
+      "id": "whatif-rq-1876-7",
+      "label": "Total Upper-Level Electives: 15 Credits of 300- and 400-Level ECON",
+      "hint": "Includes the 400-level courses and non-independent study courses used above. At most 3 of the 15 credits may come from independent study (ECON 498 or 499).",
+      "need": 15,
+      "countMode": "credits",
+      "category": "core",
+      "matchCodes": [
+        "ECON 310",
+        "ECON 320",
+        "ECON 325",
+        "ECON 340",
+        "ECON 370",
+        "ECON 380",
+        "ECON 395",
+        "ECON 396",
+        "ECON 398",
+        "ECON 407",
+        "ECON 409",
+        "ECON 412",
+        "ECON 414",
+        "ECON 420",
+        "ECON 427",
+        "ECON 431",
+        "ECON 432",
+        "ECON 435",
+        "ECON 437",
+        "ECON 441",
+        "ECON 442",
+        "ECON 461",
+        "ECON 471",
+        "ECON 481",
+        "ECON 482",
+        "ECON 483",
+        "ECON 485",
+        "ECON 487",
+        "ECON 490",
+        "ECON 491",
+        "ECON 495",
+        "ECON 497",
+        "ECON 498",
+        "ECON 499"
+      ]
+    },
+    {
+      "id": "econ-residency-401-402",
+      "label": "ECON 401 and 402 Taken in Residence",
+      "hint": "Both courses must be taken on the U-M Ann Arbor campus (not including STDABRD courses).",
+      "need": 2,
+      "countMode": "count",
+      "category": "major-credit-min",
       "matchCodes": [
         "ECON 401",
         "ECON 402"
       ]
     },
     {
-      "id": "whatif-rq-900013",
-      "label": "Campus (not including STDABRD courses)",
-      "hint": "",
-      "need": 2,
-      "countMode": "count",
-      "category": "major-credit-min",
-      "matchAll": true
-    },
-    {
-      "id": "whatif-rq-900014",
-      "label": "STDABRD courses)",
-      "hint": "minimum 4 credits",
+      "id": "econ-residency-400-electives",
+      "label": "4 Credits of 400-Level Electives Taken in Residence",
+      "hint": "400-level electives with ECON 401 or 402 as a prerequisite, taken on the U-M Ann Arbor campus (not including STDABRD courses), minimum 4 credits.",
       "need": 4,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchAll": true
+      "matchCodes": [
+        "ECON 407",
+        "ECON 409",
+        "ECON 412",
+        "ECON 414",
+        "ECON 420",
+        "ECON 427",
+        "ECON 431",
+        "ECON 432",
+        "ECON 435",
+        "ECON 437",
+        "ECON 441",
+        "ECON 442",
+        "ECON 461",
+        "ECON 471",
+        "ECON 481",
+        "ECON 482",
+        "ECON 483",
+        "ECON 485",
+        "ECON 487",
+        "ECON 490",
+        "ECON 491",
+        "ECON 495"
+      ]
     },
     {
-      "id": "whatif-rq-900015",
-      "label": "Major Credits",
-      "hint": "minimum 30 credits",
+      "id": "whatif-rq-7431",
+      "label": "Major Credits: minimum 30 credits",
+      "hint": "Credits in ECON courses. Other courses used to fulfill major requirements (such as an approved statistics course) also count toward the total.",
       "need": 30,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchAll": true
+      "matchTag": "subj-econ"
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/economics-major.html"

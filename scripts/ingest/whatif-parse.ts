@@ -1086,6 +1086,18 @@ function wipeMajorsWithPdf(pdfSlugs: string[], overrides: Record<string, string 
 // --- Main --------------------------------------------------------------
 
 async function main() {
+  // The regex-based parse below produced phantom/missing/matchAll requirements
+  // and was superseded on 2026-07-21 by a hand-verified re-extraction of every
+  // data/majors/*.json (validated by scripts/validate-majors.ts). Re-running
+  // this script would WIPE that verified data. Hard-stop unless forced.
+  if (!process.argv.includes('--force-clobber-verified-data')) {
+    console.error(
+      'REFUSING TO RUN: data/majors/*.json is hand-verified from the What-If PDFs.\n' +
+        'This legacy parser would overwrite it with lower-quality output.\n' +
+        'Pass --force-clobber-verified-data only if you really mean to.',
+    );
+    process.exit(1);
+  }
   const overrides: Record<string, string | null> = existsSync(OVERRIDES_PATH)
     ? JSON.parse(readFileSync(OVERRIDES_PATH, 'utf-8'))
     : {};

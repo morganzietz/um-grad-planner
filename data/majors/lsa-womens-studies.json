@@ -37,13 +37,26 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
       "excludeTags": [
         "experiential",
         "independent-study"
+      ],
+      "matchAll": true
+    },
+    {
+      "id": "whatif-rq-1850",
+      "label": "60 Credits outside Women's and Gender Studies",
+      "hint": "Credits earned in courses outside the Women's and Gender Studies department(s).",
+      "need": 60,
+      "countMode": "credits",
+      "category": "lsa-credit-min",
+      "excludeTags": [
+        "subj-wgs",
+        "subj-womenstd"
       ],
       "matchAll": true
     },
@@ -94,9 +107,9 @@
       "matchTag": "lsa-fywr"
     },
     {
-      "id": "whatif-rq-900000",
+      "id": "whatif-rq-5348",
       "label": "Upper Level Writing Requirement",
-      "hint": "one course required · C- or",
+      "hint": "one course required",
       "need": 1,
       "countMode": "count",
       "category": "lsa-college-wide",
@@ -137,6 +150,279 @@
       "countMode": "count",
       "category": "lsa-college-wide",
       "matchTag": "lsa-language"
+    },
+    {
+      "id": "lsa-dist-humanities",
+      "label": "Area Distribution: 7 Credits in Humanities",
+      "hint": "From approved HU-designated courses.",
+      "need": 7,
+      "countMode": "credits",
+      "category": "lsa-distribution",
+      "matchTag": "lsa-humanities",
+      "excludeTags": [
+        "ap-credit"
+      ]
+    },
+    {
+      "id": "lsa-dist-natural-sciences",
+      "label": "Area Distribution: 7 Credits in Natural Sciences",
+      "hint": "From approved NS-designated courses.",
+      "need": 7,
+      "countMode": "credits",
+      "category": "lsa-distribution",
+      "matchTag": "lsa-natural-sciences",
+      "excludeTags": [
+        "ap-credit"
+      ]
+    },
+    {
+      "id": "lsa-dist-social-sciences",
+      "label": "Area Distribution: 7 Credits in Social Sciences",
+      "hint": "From approved SS-designated courses.",
+      "need": 7,
+      "countMode": "credits",
+      "category": "lsa-distribution",
+      "matchTag": "lsa-social-sciences",
+      "excludeTags": [
+        "ap-credit"
+      ]
+    },
+    {
+      "id": "lsa-add-dist-choose-3",
+      "label": "Additional Distribution: complete 3 areas",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
+      "need": 3,
+      "countMode": "count",
+      "category": "lsa-add-distribution",
+      "pickFromGroups": [
+        "lsa-add-dist-humanities",
+        "lsa-add-dist-natural-sciences",
+        "lsa-add-dist-social-sciences",
+        "lsa-add-dist-math-symbolic",
+        "lsa-add-dist-creative-expression",
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
+      ]
+    },
+    {
+      "id": "lsa-add-dist-humanities",
+      "label": "Additional 3 Credits in Humanities",
+      "hint": "Beyond the initial 7 cr Humanities.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-humanities",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 7
+    },
+    {
+      "id": "lsa-add-dist-natural-sciences",
+      "label": "Additional 3 Credits in Natural Sciences",
+      "hint": "Beyond the initial 7 cr Natural Sciences.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-natural-sciences",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 7
+    },
+    {
+      "id": "lsa-add-dist-social-sciences",
+      "label": "Additional 3 Credits in Social Sciences",
+      "hint": "Beyond the initial 7 cr Social Sciences.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-social-sciences",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 7
+    },
+    {
+      "id": "lsa-add-dist-math-symbolic",
+      "label": "3 Credits in Mathematical & Symbolic Analysis",
+      "hint": "From approved MSA-designated courses.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-math-symbolic",
+      "excludeTags": [
+        "ap-credit"
+      ]
+    },
+    {
+      "id": "lsa-add-dist-creative-expression",
+      "label": "3 Credits in Creative Expression",
+      "hint": "From approved CE-designated courses.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-creative-expression",
+      "excludeTags": [
+        "ap-credit"
+      ]
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary",
+      "label": "3 Credits in Interdisciplinary",
+      "hint": "From approved ID-designated courses.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ]
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
+      "id": "whatif-rq-2826",
+      "label": "WGS 240: Introduction to Women's and Gender Studies",
+      "hint": "C- or better. Listed as WGS/WOMENSTD 240 on the audit; older transcripts may show WOMENSTD 240.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "WGS 240",
+        "WOMENSTD 240"
+      ]
+    },
+    {
+      "id": "wgs-feminist-theory",
+      "label": "Feminist Theory Course",
+      "hint": "Minimum 1 course, C- or better. Must come from the department's approved feminist theory list, for example WGS 330 Feminist Thought; WGS 323, 331, and 422 are also theory offerings.",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchTag": "subj-wgs"
+    },
+    {
+      "id": "wgs-practicum",
+      "label": "Practicum Course",
+      "hint": "Minimum 1 course, C- or better. Must be a department-designated practicum course (the eligible list varies by term; confirm with a WGS advisor).",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchTag": "subj-wgs"
+    },
+    {
+      "id": "wgs-core-lgbtq-sexuality",
+      "label": "Core Area: LGBTQ & Sexuality Studies",
+      "hint": "Minimum 3 credits, C- or better per course, from courses designated for this area (for example WGS 245, 265, 341, or 431).",
+      "need": 3,
+      "countMode": "credits",
+      "category": "core",
+      "matchTag": "subj-wgs"
+    },
+    {
+      "id": "wgs-core-gender-race-ethnicity-us",
+      "label": "Core Area: Gender, Race, & Ethnicity in the US",
+      "hint": "Minimum 3 credits, C- or better per course, from courses designated for this area (for example WGS 243, 343, or 433).",
+      "need": 3,
+      "countMode": "credits",
+      "category": "core",
+      "matchTag": "subj-wgs"
+    },
+    {
+      "id": "wgs-core-gender-culture-representation",
+      "label": "Core Area: Gender, Culture, & Representation",
+      "hint": "Minimum 3 credits, C- or better per course, from courses designated for this area (for example WGS 344 or 434).",
+      "need": 3,
+      "countMode": "credits",
+      "category": "core",
+      "matchTag": "subj-wgs"
+    },
+    {
+      "id": "wgs-core-gender-global-context",
+      "label": "Core Area: Gender in a Global Context",
+      "hint": "Minimum 3 credits, C- or better per course, from courses designated for this area (for example WGS 345 or 435).",
+      "need": 3,
+      "countMode": "credits",
+      "category": "core",
+      "matchTag": "subj-wgs"
+    },
+    {
+      "id": "whatif-rq-9878",
+      "label": "Required Courses & Electives: 27 Credits",
+      "hint": "27 credits of WGS coursework beyond the WGS 240 prerequisite (prerequisites and cognates excluded), C- or better.",
+      "need": 27,
+      "countMode": "credits",
+      "category": "core",
+      "matchTag": "subj-wgs",
+      "offset": 4
+    },
+    {
+      "id": "whatif-rq-2834",
+      "label": "Upper Level Cognate Courses: 6 Credits",
+      "hint": "Minimum 6 credits of 300-level or above courses outside WGS, C- or better per course. Cognates must be approved by an advisor.",
+      "need": 6,
+      "countMode": "credits",
+      "category": "core",
+      "matchTag": "upper-level",
+      "excludeTags": [
+        "subj-wgs"
+      ]
+    },
+    {
+      "id": "wgs-total-33-credits",
+      "label": "Major Credits",
+      "hint": "minimum 33 credits. Approved cognate credits also count toward this total.",
+      "need": 33,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchTag": "subj-wgs"
+    },
+    {
+      "id": "wgs-upper-25-credits",
+      "label": "Credits 300-Level or Above",
+      "hint": "minimum 25 credits. Upper level cognates also count toward this total.",
+      "need": 25,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchTag": "subj-wgs-upper"
+    },
+    {
+      "id": "wgs-residence-14-credits",
+      "label": "14 Credits of Women's and Gender Studies Courses Taken in Residence",
+      "hint": "At least 14 WGS credits must be taken in residence at U-M.",
+      "need": 14,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchTag": "subj-wgs",
+      "excludeTags": [
+        "ap-credit"
+      ]
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/womens-and-gender-studies-major.html"

@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -55,7 +55,8 @@
       "countMode": "credits",
       "category": "lsa-credit-min",
       "excludeTags": [
-        "subj-stats"
+        "subj-stats",
+        "subj-datasci"
       ],
       "matchAll": true
     },
@@ -189,7 +190,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -199,7 +200,9 @@
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -278,8 +281,34 @@
       ]
     },
     {
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
       "id": "whatif-rq-3328",
-      "label": "Calculus of Several Variables",
+      "label": "Multivariable Calculus",
       "hint": "Choose 1 of: MATH 205, MATH 215, or MATH 285",
       "need": 1,
       "countMode": "count",
@@ -291,8 +320,8 @@
       ]
     },
     {
-      "id": "whatif-rq-33282",
-      "label": "Applied Linear Algebra",
+      "id": "whatif-rq-3328-2",
+      "label": "Linear Algebra",
       "hint": "Choose 1 of: MATH 214 or MATH 217",
       "need": 1,
       "countMode": "count",
@@ -303,9 +332,35 @@
       ]
     },
     {
-      "id": "whatif-rq-900011",
-      "label": "STATS 413: Applied Regression Analysis",
+      "id": "whatif-rq-3328-3",
+      "label": "EECS 183: Elementary Programming Concepts",
       "hint": "",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "EECS 183"
+      ]
+    },
+    {
+      "id": "whatif-rq-3328-4",
+      "label": "Introductory Statistics",
+      "hint": "Choose 1 of: STATS 206 (now offered as DATASCI 101), STATS 250, STATS 280, or STATS 412",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "STATS 206",
+        "DATASCI 101",
+        "STATS 250",
+        "STATS 280",
+        "STATS 412"
+      ]
+    },
+    {
+      "id": "stats-core-applied",
+      "label": "STATS 413: Applied Regression Analysis",
+      "hint": "Core Applied Statistics.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -314,9 +369,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900012",
-      "label": "Core Theoretical Statistics: STATS 425 & 426",
-      "hint": "",
+      "id": "stats-core-theoretical",
+      "label": "Core Theoretical Statistics: STATS 425 and STATS 426",
+      "hint": "Both courses required: STATS 425 (Introduction to Probability) and STATS 426 (Introduction to Theoretical Statistics).",
       "need": 2,
       "countMode": "count",
       "category": "core",
@@ -326,39 +381,45 @@
       ]
     },
     {
-      "id": "whatif-rq-900013",
-      "label": "Core Statistical Computing: STATS 306",
-      "hint": "",
+      "id": "stats-core-computing",
+      "label": "STATS 306: Introduction to Statistical Computing",
+      "hint": "Core Statistical Computing. Now offered as DATASCI 306.",
       "need": 1,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
-        "STATS 306"
+        "STATS 306",
+        "DATASCI 306"
       ]
     },
     {
-      "id": "whatif-rq-900014",
-      "label": "3 courses from STATS 315, 406, 415, 430, 449, 451, 470, 480, 526",
-      "hint": "",
+      "id": "stats-core-advanced-3",
+      "label": "3 Advanced Statistics Courses",
+      "hint": "Choose 3 of: STATS 315, 406, 415, 430, 449, 451, 470, 480, or 526. Several are now offered under DATASCI numbers (315, 406, 415, 451, 470).",
       "need": 3,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
         "STATS 315",
+        "DATASCI 315",
         "STATS 406",
+        "DATASCI 406",
         "STATS 415",
+        "DATASCI 415",
         "STATS 430",
         "STATS 449",
         "STATS 451",
+        "DATASCI 451",
         "STATS 470",
+        "DATASCI 470",
         "STATS 480",
         "STATS 526"
       ]
     },
     {
-      "id": "whatif-rq-900015",
+      "id": "stats-capstone",
       "label": "STATS 485: Capstone Seminar",
-      "hint": "",
+      "hint": "Capstone Course.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -367,22 +428,115 @@
       ]
     },
     {
-      "id": "whatif-rq-900016",
-      "label": "1 course from Electives",
-      "hint": "",
+      "id": "stats-elective",
+      "label": "1 Course from Electives",
+      "hint": "Closest auditable approximation: any STATS or DATASCI course numbered 300 or above not already used for a core requirement. Approved cognates from other departments may also count, check with an advisor.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "STATS 315",
+        "DATASCI 315",
+        "STATS 401",
+        "DATASCI 403",
+        "STATS 406",
+        "DATASCI 406",
+        "STATS 415",
+        "DATASCI 415",
+        "STATS 430",
+        "STATS 449",
+        "STATS 451",
+        "DATASCI 451",
+        "STATS 470",
+        "DATASCI 470",
+        "STATS 480",
+        "STATS 489",
+        "STATS 499",
+        "STATS 525",
+        "STATS 526",
+        "STATS 531",
+        "DATASCI 531",
+        "STATS 547",
+        "STATS 570"
+      ]
     },
     {
       "id": "whatif-rq-3332",
-      "label": "Residency Requirement: minimum 15 credits",
-      "hint": "",
+      "label": "Major Total Credits: minimum 29",
+      "hint": "Includes all courses used toward the major requirements, including approved cognates from other departments. Prerequisites do not count. Audited here as STATS and DATASCI courses at the 300 level or above, excluding the STATS 412 prerequisite.",
+      "need": 29,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchCodes": [
+        "STATS 306",
+        "DATASCI 306",
+        "STATS 315",
+        "DATASCI 315",
+        "STATS 401",
+        "DATASCI 403",
+        "STATS 406",
+        "DATASCI 406",
+        "STATS 413",
+        "STATS 415",
+        "DATASCI 415",
+        "STATS 425",
+        "STATS 426",
+        "STATS 430",
+        "STATS 449",
+        "STATS 451",
+        "DATASCI 451",
+        "STATS 470",
+        "DATASCI 470",
+        "STATS 480",
+        "STATS 485",
+        "STATS 489",
+        "STATS 499",
+        "STATS 525",
+        "STATS 526",
+        "STATS 531",
+        "DATASCI 531",
+        "STATS 547",
+        "STATS 570"
+      ]
+    },
+    {
+      "id": "whatif-rq-3332-2",
+      "label": "Major Residency: minimum 15 credits",
+      "hint": "At least 15 credits of the major must be taken in residence at U-M. Audited here as STATS and DATASCI courses at the 300 level or above, excluding the STATS 412 prerequisite.",
       "need": 15,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchAll": true
+      "matchCodes": [
+        "STATS 306",
+        "DATASCI 306",
+        "STATS 315",
+        "DATASCI 315",
+        "STATS 401",
+        "DATASCI 403",
+        "STATS 406",
+        "DATASCI 406",
+        "STATS 413",
+        "STATS 415",
+        "DATASCI 415",
+        "STATS 425",
+        "STATS 426",
+        "STATS 430",
+        "STATS 449",
+        "STATS 451",
+        "DATASCI 451",
+        "STATS 470",
+        "DATASCI 470",
+        "STATS 480",
+        "STATS 485",
+        "STATS 489",
+        "STATS 499",
+        "STATS 525",
+        "STATS 526",
+        "STATS 531",
+        "DATASCI 531",
+        "STATS 547",
+        "STATS 570"
+      ]
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/statistics-major.html"

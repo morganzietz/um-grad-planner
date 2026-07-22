@@ -2,10 +2,12 @@
 
 import { useState } from 'react';
 import type { Major, Minor } from '@/lib/types';
+import { countableRequirements } from '@/lib/audit';
 
 function describeMinor(m: Minor): string {
   if (m.requirements && m.requirements.length > 0) {
-    return `${m.requirements.length} requirement${m.requirements.length === 1 ? '' : 's'}`;
+    const n = countableRequirements(m.requirements).length;
+    return `${n} requirement${n === 1 ? '' : 's'}`;
   }
   const n = m.requiredCodes?.length ?? 0;
   return `${n} required course${n === 1 ? '' : 's'}`;

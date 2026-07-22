@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -54,6 +54,9 @@
       "need": 60,
       "countMode": "credits",
       "category": "lsa-credit-min",
+      "excludeTags": [
+        "subj-lacs"
+      ],
       "matchAll": true
     },
     {
@@ -186,7 +189,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -196,7 +199,9 @@
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -275,58 +280,130 @@
       ]
     },
     {
-      "id": "whatif-rq-3620",
-      "label": "LACS Requirements: 30 credits",
-      "hint": "",
-      "need": 30,
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
       "countMode": "credits",
-      "category": "core",
-      "matchAll": true
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
     },
     {
-      "id": "whatif-rq-900011",
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
+      "id": "whatif-rq-4404",
+      "label": "LACS Language: Competency in Spanish or Portuguese",
+      "hint": "Choose 1 of: SPANISH 277, PORTUG 232, or RCLANG 294. Language requirement courses are not included in the minimum 30 credits required for the major nor in the major GPA.",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "SPANISH 277",
+        "PORTUG 232",
+        "RCLANG 294"
+      ]
+    },
+    {
+      "id": "lacs-subfield-anthropology",
       "label": "Anthropology: 1 course",
-      "hint": "",
+      "hint": "One LACS-approved anthropology course on Latin America or the Caribbean, such as ANTHRARC 284 or ANTHRCUL 319. Other approved courses also count, check with an advisor.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "ANTHRARC 284",
+        "ANTHRCUL 319"
+      ]
     },
     {
-      "id": "whatif-rq-900012",
+      "id": "lacs-subfield-history",
       "label": "History: 1 course",
-      "hint": "",
+      "hint": "One LACS-approved history course on Latin America or the Caribbean, such as HISTORY 304, 348, 349, or 363 (or their cross-listings). Other approved courses also count, check with an advisor.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "HISTORY 304",
+        "HISTORY 348",
+        "HISTORY 349",
+        "HISTORY 363",
+        "LACS 304",
+        "LACS 349",
+        "LACS 363",
+        "INTLSTD 304",
+        "INTLSTD 348",
+        "POLSCI 346",
+        "WGS 306",
+        "SPANISH 443"
+      ]
     },
     {
-      "id": "whatif-rq-900013",
+      "id": "lacs-subfield-literature",
       "label": "Literature: 1 course",
-      "hint": "",
+      "hint": "One LACS-approved literature course on Latin America or the Caribbean, such as SPANISH 332, 381, 425, 467, 473, or 475, PORTUG 301 or 474, or a Caribbean literature course (AAS 384, AMCULT 376, ENGLISH 384, FRENCH 363). Other approved courses also count, check with an advisor.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "SPANISH 332",
+        "SPANISH 381",
+        "SPANISH 425",
+        "SPANISH 467",
+        "SPANISH 473",
+        "SPANISH 475",
+        "PORTUG 301",
+        "PORTUG 474",
+        "AAS 384",
+        "AMCULT 376",
+        "ENGLISH 384",
+        "FRENCH 363"
+      ]
     },
     {
-      "id": "whatif-rq-900014",
+      "id": "lacs-subfield-politics-economy",
       "label": "Politics & Economy: 1 course",
-      "hint": "",
+      "hint": "One LACS-approved politics or economy course on Latin America or the Caribbean, such as POLSCI 347, LACS 321, or SPANISH 314. Other approved courses also count, check with an advisor.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "POLSCI 347",
+        "LACS 321",
+        "SPANISH 314"
+      ]
     },
     {
       "id": "whatif-rq-3621",
       "label": "300- & 400-Level Course Work: 20 credits",
-      "hint": "",
+      "hint": "20 credits of major course work at the 300 or 400 level. Approved cognate courses from other departments that relate to Latin America and the Caribbean also count.",
       "need": 20,
       "countMode": "credits",
-      "category": "electives",
-      "matchAll": true
+      "category": "major-credit-min",
+      "matchTag": "subj-lacs-upper"
+    },
+    {
+      "id": "whatif-rq-3621-2",
+      "label": "Total Credits: minimum 30 credits",
+      "hint": "Includes all courses used toward the major requirements, including those from other departments (e.g. cognates) and electives that relate to Latin America and the Caribbean. Does not include any prerequisites (the language competency courses do not count).",
+      "need": 30,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchTag": "subj-lacs"
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/latin-american-and-caribbean-studies-major.html"

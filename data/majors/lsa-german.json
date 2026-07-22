@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -54,6 +54,12 @@
       "need": 60,
       "countMode": "credits",
       "category": "lsa-credit-min",
+      "excludeTags": [
+        "subj-german",
+        "subj-dutch",
+        "subj-scand",
+        "subj-yiddish"
+      ],
       "matchAll": true
     },
     {
@@ -186,7 +192,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -196,7 +202,9 @@
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -275,18 +283,48 @@
       ]
     },
     {
-      "id": "whatif-rq-2809",
-      "label": "German Requirements",
-      "hint": "minimum 30 credits",
-      "need": 30,
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
       "countMode": "credits",
-      "category": "core",
-      "matchAll": true
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
     },
     {
-      "id": "whatif-rq-900011",
-      "label": "Intermediate German",
-      "hint": "Choose 1 of: GERMAN 325 or GERMAN 326",
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
+      "id": "whatif-rq-2808",
+      "label": "German Prerequisite: Fourth-Term Proficiency",
+      "hint": "Choose 1 of: GERMAN 230, GERMAN 232, or RCLANG 291, or equivalent.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "GERMAN 230",
+        "GERMAN 232",
+        "RCLANG 291"
+      ]
+    },
+    {
+      "id": "german-core-325-326",
+      "label": "GERMAN 325 or 326: Intermediate German",
+      "hint": "Choose 1 of: GERMAN 325 or GERMAN 326. C- or better.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -296,18 +334,45 @@
       ]
     },
     {
-      "id": "whatif-rq-900012",
-      "label": "3 courses at 300-Level in German",
-      "hint": "",
+      "id": "german-core-300-level",
+      "label": "3 Courses at the 300 Level in German",
+      "hint": "C- or better.",
       "need": 3,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "GERMAN 300",
+        "GERMAN 303",
+        "GERMAN 304",
+        "GERMAN 306",
+        "GERMAN 310",
+        "GERMAN 312",
+        "GERMAN 315",
+        "GERMAN 322",
+        "GERMAN 325",
+        "GERMAN 326",
+        "GERMAN 327",
+        "GERMAN 328",
+        "GERMAN 329",
+        "GERMAN 335",
+        "GERMAN 346",
+        "GERMAN 350",
+        "GERMAN 351",
+        "GERMAN 357",
+        "GERMAN 358",
+        "GERMAN 361",
+        "GERMAN 364",
+        "GERMAN 375",
+        "GERMAN 386",
+        "GERMAN 388",
+        "GERMAN 391",
+        "GERMAN 396"
+      ]
     },
     {
-      "id": "whatif-rq-900013",
-      "label": "Advanced German",
-      "hint": "Choose 1 of: GERMAN 425 or GERMAN 426",
+      "id": "german-core-425-426",
+      "label": "GERMAN 425 or 426: Advanced German",
+      "hint": "Choose 1 of: GERMAN 425 or GERMAN 426. C- or better.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -317,40 +382,56 @@
       ]
     },
     {
-      "id": "whatif-rq-900014",
-      "label": "3 courses at 400-Level or Above in German",
-      "hint": "",
+      "id": "german-core-400-level",
+      "label": "3 Courses at the 400 Level or Above in German",
+      "hint": "C- or better.",
       "need": 3,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "GERMAN 401",
+        "GERMAN 402",
+        "GERMAN 416",
+        "GERMAN 425",
+        "GERMAN 426",
+        "GERMAN 449",
+        "GERMAN 470",
+        "GERMAN 491",
+        "GERMAN 492",
+        "GERMAN 531",
+        "GERMAN 540"
+      ]
     },
     {
-      "id": "whatif-rq-900015",
-      "label": "GERMAN",
-      "hint": "",
+      "id": "german-core-additional-300-plus",
+      "label": "2 Additional Courses at the 300 Level or Higher in German",
+      "hint": "Beyond the 8 German courses above. C- or better.",
       "need": 2,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchTag": "subj-german-upper",
+      "offset": 8
     },
     {
-      "id": "whatif-rq-900016",
-      "label": "Study Abroad Program",
-      "hint": "minimum 15 credits",
+      "id": "german-residency-15-credits",
+      "label": "15 German Credits Taken in Residence",
+      "hint": "German credits taken at U-M or through a U-M study abroad program.",
       "need": 15,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchAll": true
+      "matchTag": "subj-german",
+      "excludeTags": [
+        "ap-credit"
+      ]
     },
     {
-      "id": "whatif-rq-900017",
-      "label": "300-Level or Higher German Credits",
-      "hint": "minimum 30 credits",
+      "id": "german-300-plus-30-credits",
+      "label": "30 Credits of 300-Level or Higher German",
+      "hint": "Minimum 30 credits in GERMAN courses numbered 300 or above.",
       "need": 30,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchAll": true
+      "matchTag": "subj-german-upper"
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/german-major.html"

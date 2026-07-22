@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from 'react';
 import Link from 'next/link';
-import { auditDegree, projectGraduation } from '@/lib/audit';
+import { auditDegree, countableProgress, projectGraduation } from '@/lib/audit';
 import { courseCatalog } from '@/lib/data';
 import { listBundledMajors, loadBundledMajor } from '@/lib/majors';
 import { useMajorPlans, useTranscript } from '@/lib/state';
@@ -99,7 +99,7 @@ export function PlansAndPicker() {
               100,
               Math.round((totalCredits / primary.audit.credits.goalCredits) * 100),
             );
-            const unmet = primary.audit.requirements.filter(
+            const unmet = countableProgress(primary.audit.requirements).filter(
               (r) => !r.met && !r.satisfiedByParent,
             ).length;
             const title = joinMajorNames(majors.map((m) => m.name));

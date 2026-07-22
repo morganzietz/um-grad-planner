@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -189,7 +189,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -199,7 +199,9 @@
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -278,9 +280,35 @@
       ]
     },
     {
-      "id": "whatif-rq-900011",
-      "label": "General Physics I",
-      "hint": "Choose 1 of: PHYSICS 140 or PHYSICS 160",
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
+      "id": "physics-intro-lecture-100",
+      "label": "100-level PHYSICS Lecture",
+      "hint": "Choose 1 of: PHYSICS 140 or PHYSICS 160. C- or better.",
       "need": 1,
       "countMode": "count",
       "category": "prerequisites",
@@ -290,9 +318,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900012",
-      "label": "Elementary Laboratory I",
-      "hint": "Choose 1 of: PHYSICS 141 or PHYSICS 161",
+      "id": "physics-intro-lab-100",
+      "label": "100-level PHYSICS Lab",
+      "hint": "Choose 1 of: PHYSICS 141 or PHYSICS 161. C- or better.",
       "need": 1,
       "countMode": "count",
       "category": "prerequisites",
@@ -302,9 +330,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900013",
-      "label": "General Physics II",
-      "hint": "Choose 1 of: PHYSICS 240 or PHYSICS 260",
+      "id": "physics-intro-lecture-200",
+      "label": "200-level PHYSICS Lecture",
+      "hint": "Choose 1 of: PHYSICS 240 or PHYSICS 260. C- or better.",
       "need": 1,
       "countMode": "count",
       "category": "prerequisites",
@@ -314,9 +342,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900014",
-      "label": "Elementary Laboratory II",
-      "hint": "Choose 1 of: PHYSICS 241 or PHYSICS 261",
+      "id": "physics-intro-lab-200",
+      "label": "200-level PHYSICS Lab",
+      "hint": "Choose 1 of: PHYSICS 241 or PHYSICS 261. C- or better.",
       "need": 1,
       "countMode": "count",
       "category": "prerequisites",
@@ -326,10 +354,10 @@
       ]
     },
     {
-      "id": "whatif-rq-900015",
-      "label": "Mathematical Methods for Physics and Engineering",
-      "hint": "Choose 1 of: PHYSICS 316, PHYSICS 390, or PHYSICS 391",
-      "need": 1,
+      "id": "whatif-rq-3357",
+      "label": "Intermediate Courses",
+      "hint": "All 3 of: PHYSICS 316, PHYSICS 390, and PHYSICS 391. C- or better.",
+      "need": 3,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
@@ -339,22 +367,46 @@
       ]
     },
     {
+      "id": "whatif-rq-3357-2",
+      "label": "Advanced Courses",
+      "hint": "All 5 of: PHYSICS 401, PHYSICS 405, PHYSICS 406, PHYSICS 441, and PHYSICS 453. C- or better.",
+      "need": 5,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "PHYSICS 401",
+        "PHYSICS 405",
+        "PHYSICS 406",
+        "PHYSICS 441",
+        "PHYSICS 453"
+      ]
+    },
+    {
       "id": "whatif-rq-11403",
-      "label": "Electives: 4 courses",
-      "hint": "",
+      "label": "Physics Electives: 4 Courses",
+      "hint": "4 additional upper-level PHYSICS courses, C- or better. At most one independent study course (up to 3 credits) may count toward the electives, by advisor exception only.",
       "need": 4,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchTag": "subj-physics-upper"
     },
     {
-      "id": "whatif-rq-900016",
-      "label": "Residency Requirement: minimum 15 credits, 300 level or above",
-      "hint": "",
+      "id": "whatif-rq-3360",
+      "label": "Major Total Credits",
+      "hint": "Minimum 35 credits across courses used toward the major (prerequisites excluded). Approved courses from other departments used for the major also count.",
+      "need": 35,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchTag": "subj-physics-upper"
+    },
+    {
+      "id": "physics-residency-15",
+      "label": "Major Residency Requirement",
+      "hint": "Minimum 15 credits at the 300 level or above, taken in residence at U-M.",
       "need": 15,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchAll": true
+      "matchTag": "subj-physics-upper"
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/physics-major.html"

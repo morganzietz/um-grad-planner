@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -189,7 +189,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -199,7 +199,9 @@
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -278,72 +280,142 @@
       ]
     },
     {
-      "id": "whatif-rq-900011",
-      "label": "Islands",
-      "hint": "",
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
       "need": 3,
       "countMode": "credits",
-      "category": "core",
-      "matchAll": true
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
     },
     {
-      "id": "whatif-rq-900012",
-      "label": "Australia, New Zealand, or Ireland",
-      "hint": "",
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
       "need": 3,
       "countMode": "credits",
-      "category": "core",
-      "matchAll": true
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
     },
     {
-      "id": "whatif-rq-1943",
-      "label": "Time: Students must take one course from two of the following subcategories",
-      "hint": "",
+      "id": "english-fm-200",
+      "label": "Foundations & Methods: One 200-Level Course",
+      "hint": "Choose 1 from the department's approved 200-level Foundations & Methods list, C- or better. Approximated here by all 200-level ENGLISH courses; confirm your pick is on the approved list.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "ENGLISH 201",
+        "ENGLISH 203",
+        "ENGLISH 215",
+        "ENGLISH 216",
+        "ENGLISH 221",
+        "ENGLISH 223",
+        "ENGLISH 225",
+        "ENGLISH 226",
+        "ENGLISH 227",
+        "ENGLISH 229",
+        "ENGLISH 234",
+        "ENGLISH 235",
+        "ENGLISH 240",
+        "ENGLISH 244",
+        "ENGLISH 266",
+        "ENGLISH 267",
+        "ENGLISH 274",
+        "ENGLISH 275",
+        "ENGLISH 290",
+        "ENGLISH 292",
+        "ENGLISH 293"
+      ]
     },
     {
-      "id": "whatif-rq-900013",
-      "label": "1 course from Medieval and Early Modern",
-      "hint": "",
-      "need": 3,
-      "countMode": "credits",
+      "id": "english-fm-300-400",
+      "label": "Foundations & Methods: One 300- or 400-Level Course",
+      "hint": "Choose 1 from the department's approved 300- or 400-level Foundations & Methods list, C- or better. Approximated here by all ENGLISH courses at the 300 level or above; confirm your pick is on the approved list.",
+      "need": 1,
+      "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchTag": "subj-english-upper"
     },
     {
-      "id": "whatif-rq-900014",
-      "label": "1 course from 18th and 19th Centuries",
-      "hint": "",
-      "need": 3,
-      "countMode": "credits",
+      "id": "english-regions-africa-asia",
+      "label": "Regions: Africa, Asia, the Middle East, or Pacific Islands",
+      "hint": "1 course from the department's approved Regions list for Africa, Asia, the Middle East, or Pacific Islands, C- or better. Any ENGLISH course counts here as the closest auditable match; confirm your pick is on the approved list.",
+      "need": 1,
+      "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchTag": "subj-english"
     },
     {
-      "id": "whatif-rq-900015",
-      "label": "1 course from Modern and Contemporary",
-      "hint": "",
-      "need": 3,
-      "countMode": "credits",
+      "id": "english-regions-americas-uk",
+      "label": "Regions: the Americas, the United Kingdom, Australia, New Zealand, or Ireland",
+      "hint": "1 course from the department's approved Regions list for the Americas, the United Kingdom, Australia, New Zealand, or Ireland, C- or better. Any ENGLISH course counts here as the closest auditable match; confirm your pick is on the approved list.",
+      "need": 1,
+      "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchTag": "subj-english"
+    },
+    {
+      "id": "whatif-rq-1943",
+      "label": "Time: One Course from Two of Three Subcategories",
+      "hint": "Take 1 course from 2 of these subcategories: Medieval and Early Modern, 18th and 19th Centuries, Modern and Contemporary. C- or better.",
+      "need": 2,
+      "countMode": "count",
+      "category": "core",
+      "pickFromGroups": [
+        "english-time-medieval-early-modern",
+        "english-time-18th-19th",
+        "english-time-modern-contemporary"
+      ]
+    },
+    {
+      "id": "english-time-medieval-early-modern",
+      "label": "Time: Medieval and Early Modern",
+      "hint": "1 course from the department's approved Medieval and Early Modern list, C- or better. Any ENGLISH course counts here as the closest auditable match; confirm your pick is on the approved list.",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchTag": "subj-english"
+    },
+    {
+      "id": "english-time-18th-19th",
+      "label": "Time: 18th and 19th Centuries",
+      "hint": "1 course from the department's approved 18th and 19th Centuries list, C- or better. Any ENGLISH course counts here as the closest auditable match; confirm your pick is on the approved list.",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchTag": "subj-english"
+    },
+    {
+      "id": "english-time-modern-contemporary",
+      "label": "Time: Modern and Contemporary",
+      "hint": "1 course from the department's approved Modern and Contemporary list, C- or better. Any ENGLISH course counts here as the closest auditable match; confirm your pick is on the approved list.",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchTag": "subj-english"
     },
     {
       "id": "whatif-rq-10952",
-      "label": "Electives Needed to Meet 27 Credit Minimum: a maximum of 2 Creative/Expository Writing courses and one (1) 200-level course can be used toward electives",
-      "hint": "",
+      "label": "Electives to Meet 27 Credit Minimum",
+      "hint": "Core requirement credits plus electives must total 27 credits, C- or better. A maximum of 2 Creative/Expository Writing courses and one 200-level course can be used toward electives. Approved cognates from other departments may also count.",
       "need": 27,
       "countMode": "credits",
       "category": "electives",
-      "matchAll": true
+      "matchTag": "subj-english"
     },
     {
-      "id": "whatif-rq-900016",
-      "label": "Art of the Essay",
-      "hint": "Choose 1 of: ENGLISH 325, ENGLISH 398, ENGLISH 401, ENGLISH 425, ENGLISH 428, or ENGLISH 496",
+      "id": "english-ulwr-majors",
+      "label": "ULWR for English Majors",
+      "hint": "Choose 1 of: ENGLISH 325, 398, 401, 425, 428, or 496. C- or better.",
       "need": 1,
       "countMode": "count",
       "category": "major-credit-min",
@@ -358,12 +430,33 @@
     },
     {
       "id": "whatif-rq-10969",
-      "label": "3.00 B+ Residency Requirement: minimum 15 credits",
-      "hint": "",
+      "label": "Major Total Credits: 27 Minimum",
+      "hint": "Includes all courses used toward the major requirements, including approved cognates from other departments. Does not include ULWR for English Majors unless used toward Core Requirements or Electives.",
+      "need": 27,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchTag": "subj-english"
+    },
+    {
+      "id": "whatif-rq-10969-2",
+      "label": "Major Residency: 15 Credits Minimum",
+      "hint": "At least 15 credits of the major must be taken in residence at U-M.",
       "need": 15,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchAll": true
+      "matchTag": "subj-english"
+    },
+    {
+      "id": "whatif-rq-10969-3",
+      "label": "Non-Independent Study Coursework: 21 Credits Minimum",
+      "hint": "At least 21 major credits must come from courses other than independent study.",
+      "need": 21,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchTag": "subj-english",
+      "excludeTags": [
+        "independent-study"
+      ]
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/english-major.html"

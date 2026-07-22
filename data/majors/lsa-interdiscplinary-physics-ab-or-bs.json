@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -49,11 +49,14 @@
     },
     {
       "id": "whatif-rq-1850",
-      "label": "60 Credits Outside of Physics",
-      "hint": "Credits earned in courses outside the of Physics department(s).",
+      "label": "60 Credits outside Physics",
+      "hint": "Credits earned in courses outside the Physics department(s).",
       "need": 60,
       "countMode": "credits",
       "category": "lsa-credit-min",
+      "excludeTags": [
+        "subj-physics"
+      ],
       "matchAll": true
     },
     {
@@ -186,7 +189,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -196,7 +199,9 @@
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -275,9 +280,35 @@
       ]
     },
     {
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
       "id": "whatif-rq-3365",
-      "label": "General Physics I",
-      "hint": "Choose 1 of: PHYSICS 140, PHYSICS 150, or PHYSICS 160",
+      "label": "Intro Physics I",
+      "hint": "Choose 1 of: PHYSICS 140, PHYSICS 150, or PHYSICS 160. C- or better.",
       "need": 1,
       "countMode": "count",
       "category": "prerequisites",
@@ -288,9 +319,9 @@
       ]
     },
     {
-      "id": "whatif-rq-33652",
-      "label": "Elementary Laboratory I",
-      "hint": "Choose 1 of: PHYSICS 141, PHYSICS 151, or PHYSICS 161",
+      "id": "whatif-rq-3365-2",
+      "label": "Intro Physics I Lab",
+      "hint": "Choose 1 of: PHYSICS 141, PHYSICS 151, or PHYSICS 161. C- or better.",
       "need": 1,
       "countMode": "count",
       "category": "prerequisites",
@@ -301,9 +332,9 @@
       ]
     },
     {
-      "id": "whatif-rq-33653",
-      "label": "General Physics II",
-      "hint": "Choose 1 of: PHYSICS 240, PHYSICS 250, or PHYSICS 260",
+      "id": "whatif-rq-3365-3",
+      "label": "Intro Physics II",
+      "hint": "Choose 1 of: PHYSICS 240, PHYSICS 250, or PHYSICS 260. C- or better.",
       "need": 1,
       "countMode": "count",
       "category": "prerequisites",
@@ -314,9 +345,9 @@
       ]
     },
     {
-      "id": "whatif-rq-33654",
-      "label": "Elementary Laboratory II",
-      "hint": "Choose 1 of: PHYSICS 241, PHYSICS 251, or PHYSICS 261",
+      "id": "whatif-rq-3365-4",
+      "label": "Intro Physics II Lab",
+      "hint": "Choose 1 of: PHYSICS 241, PHYSICS 251, or PHYSICS 261. C- or better.",
       "need": 1,
       "countMode": "count",
       "category": "prerequisites",
@@ -327,9 +358,9 @@
       ]
     },
     {
-      "id": "whatif-rq-33655",
+      "id": "whatif-rq-3365-5",
       "label": "Waves, Heat, and Light",
-      "hint": "Choose 1 of: PHYSICS 340 or PHYSICS 360",
+      "hint": "Choose 1 of: PHYSICS 340 or PHYSICS 360. C- or better.",
       "need": 1,
       "countMode": "count",
       "category": "prerequisites",
@@ -339,9 +370,9 @@
       ]
     },
     {
-      "id": "whatif-rq-33656",
+      "id": "whatif-rq-3365-6",
       "label": "PHYSICS 316: Mathematical Methods for Physics and Engineering",
-      "hint": "",
+      "hint": "C- or better.",
       "need": 1,
       "countMode": "count",
       "category": "prerequisites",
@@ -350,9 +381,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900011",
-      "label": "PHYSICS 390 & 391: C- or better per course",
-      "hint": "",
+      "id": "whatif-rq-6803",
+      "label": "PHYSICS 390 & 391: Introduction to Modern Physics and Lab",
+      "hint": "Both PHYSICS 390 and PHYSICS 391 required. C- or better per course.",
       "need": 2,
       "countMode": "count",
       "category": "core",
@@ -362,13 +393,95 @@
       ]
     },
     {
-      "id": "whatif-rq-900012",
-      "label": "Departmental Advisor Before Beginning Your Course of Study",
-      "hint": "",
+      "id": "iphys-electives",
+      "label": "PHYSICS Electives: 2 Courses, 6 Credits",
+      "hint": "Two additional PHYSICS courses totaling at least 6 credits, beyond the prerequisites and PHYSICS 390/391. C- or better per course. See your departmental advisor before beginning your course of study.",
+      "need": 6,
+      "countMode": "credits",
+      "category": "core",
+      "matchCodes": [
+        "PHYSICS 370",
+        "PHYSICS 401",
+        "PHYSICS 402",
+        "PHYSICS 405",
+        "PHYSICS 406",
+        "PHYSICS 411",
+        "PHYSICS 413",
+        "PHYSICS 415",
+        "PHYSICS 417",
+        "PHYSICS 430",
+        "PHYSICS 433",
+        "PHYSICS 435",
+        "PHYSICS 440",
+        "PHYSICS 441",
+        "PHYSICS 442",
+        "PHYSICS 445",
+        "PHYSICS 450",
+        "PHYSICS 453",
+        "PHYSICS 457",
+        "PHYSICS 460",
+        "PHYSICS 463",
+        "PHYSICS 495",
+        "PHYSICS 496",
+        "PHYSICS 497"
+      ]
+    },
+    {
+      "id": "iphys-cognates",
+      "label": "Cognate Courses: 15 Credits",
+      "hint": "15 credits of advisor approved courses outside Physics that form a coherent plan with your physics electives. C- or better per course. See your departmental advisor before beginning your course of study. The planner approximates this as 300 level or above courses outside Physics.",
       "need": 15,
       "countMode": "credits",
       "category": "core",
+      "matchTag": "upper-level",
+      "excludeTags": [
+        "subj-physics"
+      ]
+    },
+    {
+      "id": "whatif-rq-4094",
+      "label": "Major Total Credits: minimum 26 credits",
+      "hint": "Includes all courses used toward the major requirements, including the 15 credits of approved non-Physics cognates. The audit counts any course here, so rely on the individual requirement rows for precision.",
+      "need": 26,
+      "countMode": "credits",
+      "category": "major-credit-min",
       "matchAll": true
+    },
+    {
+      "id": "whatif-rq-4094-2",
+      "label": "Major Residency: minimum 12 credits",
+      "hint": "At least 12 credits of the major must be taken in residence at U-M. C- or better for all courses.",
+      "need": 12,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchCodes": [
+        "PHYSICS 370",
+        "PHYSICS 390",
+        "PHYSICS 391",
+        "PHYSICS 401",
+        "PHYSICS 402",
+        "PHYSICS 405",
+        "PHYSICS 406",
+        "PHYSICS 411",
+        "PHYSICS 413",
+        "PHYSICS 415",
+        "PHYSICS 417",
+        "PHYSICS 430",
+        "PHYSICS 433",
+        "PHYSICS 435",
+        "PHYSICS 440",
+        "PHYSICS 441",
+        "PHYSICS 442",
+        "PHYSICS 445",
+        "PHYSICS 450",
+        "PHYSICS 453",
+        "PHYSICS 457",
+        "PHYSICS 460",
+        "PHYSICS 463",
+        "PHYSICS 495",
+        "PHYSICS 496",
+        "PHYSICS 497"
+      ]
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/interdisciplinary-physics-major.html"

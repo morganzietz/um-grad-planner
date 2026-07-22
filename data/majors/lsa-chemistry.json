@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -189,7 +189,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -199,7 +199,9 @@
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -278,18 +280,66 @@
       ]
     },
     {
-      "id": "whatif-rq-900011",
-      "label": "(NO AP or REP accepted)",
-      "hint": "",
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
+      "id": "whatif-rq-12044",
+      "label": "Chemistry Prerequisites: 5 Credits of Intro Chemistry",
+      "hint": "5 credits of CHEM 125, 126, 130, or approved CHEM electives. No AP or REP credit accepted.",
       "need": 5,
       "countMode": "credits",
       "category": "prerequisites",
-      "matchAll": true
+      "matchTag": "subj-chem",
+      "excludeTags": [
+        "ap-credit"
+      ]
     },
     {
-      "id": "whatif-rq-900012",
-      "label": "PHYSICS (240 & 241) or (250 & 251) or (260 & 261) or 239",
-      "hint": "",
+      "id": "whatif-rq-12045",
+      "label": "Physics Prerequisites: Intro Physics I with Lab",
+      "hint": "5 credits from PHYSICS (125 and 127), (140 and 141), (150 and 151), (160 and 161), or 139.",
+      "need": 5,
+      "countMode": "credits",
+      "category": "prerequisites",
+      "matchCodes": [
+        "PHYSICS 125",
+        "PHYSICS 127",
+        "PHYSICS 140",
+        "PHYSICS 141",
+        "PHYSICS 150",
+        "PHYSICS 151",
+        "PHYSICS 160",
+        "PHYSICS 161",
+        "PHYSICS 139"
+      ]
+    },
+    {
+      "id": "whatif-rq-12045-2",
+      "label": "Physics Prerequisites: Intro Physics II with Lab",
+      "hint": "5 credits from PHYSICS (240 and 241), (250 and 251), (260 and 261), or 239.",
       "need": 5,
       "countMode": "credits",
       "category": "prerequisites",
@@ -304,36 +354,148 @@
       ]
     },
     {
-      "id": "whatif-rq-900013",
-      "label": "CHEM 262; OR MATH 215 & 1 of MATH 216, 217 or Equivalent",
+      "id": "whatif-rq-12046",
+      "label": "Calculus I",
+      "hint": "MATH 115 (or 120) or equivalent.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "MATH 115",
+        "MATH 120"
+      ]
+    },
+    {
+      "id": "whatif-rq-12046-2",
+      "label": "Calculus II",
+      "hint": "MATH 116 (or 121) or equivalent.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "MATH 116",
+        "MATH 121"
+      ]
+    },
+    {
+      "id": "whatif-rq-12047",
+      "label": "Advanced Math: CHEM 262 or MATH Sequence",
+      "hint": "Complete either CHEM 262, or MATH 215 plus one of MATH 216 or 217 (or equivalent).",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "pickFromGroups": [
+        "chem-adv-math-chem262",
+        "chem-adv-math-sequence"
+      ]
+    },
+    {
+      "id": "chem-adv-math-chem262",
+      "label": "CHEM 262: Mathematical Methods for Physical Scientists",
       "hint": "",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "CHEM 262"
+      ]
+    },
+    {
+      "id": "chem-adv-math-sequence",
+      "label": "MATH 215 and one of MATH 216 or 217",
+      "hint": "2 courses: must include MATH 215 (Multivariable and Vector Calculus) plus MATH 216 (Differential Equations) or MATH 217 (Linear Algebra).",
       "need": 2,
       "countMode": "count",
       "category": "prerequisites",
       "matchCodes": [
-        "CHEM 262",
         "MATH 215",
         "MATH 216",
         "MATH 217"
       ]
     },
     {
-      "id": "whatif-rq-900014",
-      "label": "Physical Chemical Principles and Applications",
-      "hint": "Choose 1 of: CHEM 230, CHEM 261, or CHEM 260",
+      "id": "chem-intro-210",
+      "label": "CHEM 210: Structure and Reactivity I",
+      "hint": "",
       "need": 1,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
-        "CHEM 230",
-        "CHEM 261",
+        "CHEM 210"
+      ]
+    },
+    {
+      "id": "chem-intro-211",
+      "label": "CHEM 211: Investigations in Chemistry",
+      "hint": "",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "CHEM 211"
+      ]
+    },
+    {
+      "id": "chem-intro-241",
+      "label": "CHEM 241: Introduction to Chemical Analysis",
+      "hint": "",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "CHEM 241"
+      ]
+    },
+    {
+      "id": "chem-intro-242",
+      "label": "CHEM 242: Introduction to Chemical Analysis Laboratory",
+      "hint": "",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "CHEM 242"
+      ]
+    },
+    {
+      "id": "chem-intro-physchem",
+      "label": "Physical Chemistry Intro: CHEM (230 and 261) or 260",
+      "hint": "Complete either CHEM 260, or both CHEM 230 and CHEM 261.",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "pickFromGroups": [
+        "chem-intro-260",
+        "chem-intro-230-261"
+      ]
+    },
+    {
+      "id": "chem-intro-260",
+      "label": "CHEM 260: Chemical Principles",
+      "hint": "",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
         "CHEM 260"
       ]
     },
     {
-      "id": "whatif-rq-900016",
-      "label": "Inorganic Chemistry: Molecules, Materials and Applications in Energy",
-      "hint": "Choose 1 of: CHEM 302 or CHEM 303",
+      "id": "chem-intro-230-261",
+      "label": "CHEM 230 and CHEM 261",
+      "hint": "Both CHEM 230 (Physical Chemical Principles and Applications) and CHEM 261 (Introduction to Quantum Chemistry).",
+      "need": 2,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "CHEM 230",
+        "CHEM 261"
+      ]
+    },
+    {
+      "id": "chem-intro-302-303",
+      "label": "Inorganic Chemistry: CHEM 302 or 303",
+      "hint": "Choose 1 of: CHEM 302 (Inorganic Chemistry: Molecules, Materials and Applications in Energy) or CHEM 303 (Introductory Bioinorganic Chemistry).",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -343,9 +505,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900017",
-      "label": "3 of the following: CHEM 215, 351, 402, 447, (CHEM 461 or 463)",
-      "hint": "",
+      "id": "whatif-rq-12053",
+      "label": "Advanced Lecture Courses",
+      "hint": "3 of the following: CHEM 215, 351, 402, 447, and CHEM 461 or 463 (only one of 461 and 463 may count).",
       "need": 3,
       "countMode": "count",
       "category": "core",
@@ -359,9 +521,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900018",
-      "label": "3 of the following: CHEM 216, 436, 462, 482, 483",
-      "hint": "",
+      "id": "whatif-rq-12054",
+      "label": "Advanced Laboratory Courses",
+      "hint": "3 of the following: CHEM 216, 436, 462, 482, 483.",
       "need": 3,
       "countMode": "count",
       "category": "core",
@@ -374,13 +536,64 @@
       ]
     },
     {
-      "id": "whatif-rq-12055",
-      "label": "Additional Electives Needed to Reach 40 Total Core Credits",
-      "hint": "",
+      "id": "whatif-rq-12059",
+      "label": "Major Total: 40 Credits",
+      "hint": "Includes all courses used toward the major requirements; prerequisites do not count. Reach 40 with additional approved 300-level or higher CHEM electives, including undergrad research (CHEM 399/499) and honors thesis. No more than 4 credits of CHEM 398/399 may be used, and electives may not repeat courses used for advanced lecture or lab.",
       "need": 40,
       "countMode": "credits",
-      "category": "core",
-      "matchAll": true
+      "category": "major-credit-min",
+      "matchCodes": [
+        "CHEM 210",
+        "CHEM 211",
+        "CHEM 215",
+        "CHEM 216",
+        "CHEM 230",
+        "CHEM 241",
+        "CHEM 242",
+        "CHEM 260",
+        "CHEM 261",
+        "CHEM 302",
+        "CHEM 303",
+        "CHEM 351",
+        "CHEM 352",
+        "CHEM 353",
+        "CHEM 370",
+        "CHEM 398",
+        "CHEM 399",
+        "CHEM 402",
+        "CHEM 417",
+        "CHEM 419",
+        "CHEM 420",
+        "CHEM 436",
+        "CHEM 440",
+        "CHEM 447",
+        "CHEM 451",
+        "CHEM 452",
+        "CHEM 453",
+        "CHEM 455",
+        "CHEM 461",
+        "CHEM 462",
+        "CHEM 463",
+        "CHEM 465",
+        "CHEM 474",
+        "CHEM 482",
+        "CHEM 483",
+        "CHEM 498",
+        "CHEM 499",
+        "CHEM 507",
+        "CHEM 511",
+        "CHEM 520",
+        "CHEM 521",
+        "CHEM 525",
+        "CHEM 526",
+        "CHEM 538",
+        "CHEM 540",
+        "CHEM 541",
+        "CHEM 550",
+        "CHEM 570",
+        "CHEM 575",
+        "CHEM 673"
+      ]
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/chemistry-maj"

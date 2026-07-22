@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -54,6 +54,9 @@
       "need": 60,
       "countMode": "credits",
       "category": "lsa-credit-min",
+      "excludeTags": [
+        "subj-judaic"
+      ],
       "matchAll": true
     },
     {
@@ -186,7 +189,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -196,7 +199,9 @@
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -275,8 +280,34 @@
       ]
     },
     {
-      "id": "whatif-rq-900011",
-      "label": "What is Judaism?",
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
+      "id": "judaic-intro-course",
+      "label": "Introductory Judaic Studies Course",
       "hint": "Choose 1 of: JUDAIC 205, JUDAIC 210, or JUDAIC 281",
       "need": 1,
       "countMode": "count",
@@ -288,49 +319,166 @@
       ]
     },
     {
-      "id": "whatif-rq-900012",
-      "label": "One 400-Level elective",
-      "hint": "",
+      "id": "judaic-elective-400-level",
+      "label": "One 400-Level Elective",
+      "hint": "One JUDAIC course at the 400 level. Current catalog options: JUDAIC 417, 495, 496, 497, or 498.",
       "need": 1,
       "countMode": "count",
-      "category": "core",
-      "matchAll": true
+      "category": "electives",
+      "matchCodes": [
+        "JUDAIC 417",
+        "JUDAIC 495",
+        "JUDAIC 496",
+        "JUDAIC 497",
+        "JUDAIC 498"
+      ]
     },
     {
-      "id": "whatif-rq-900013",
-      "label": "15 credits of 300- & 400-Level electives",
-      "hint": "",
+      "id": "judaic-electives-300-400",
+      "label": "15 Credits of 300- and 400-Level Electives",
+      "hint": "JUDAIC courses at the 300 level or above.",
       "need": 15,
       "countMode": "credits",
-      "category": "core",
-      "matchAll": true
+      "category": "electives",
+      "matchTag": "subj-judaic-upper"
     },
     {
-      "id": "whatif-rq-900014",
-      "label": "24 credits of 200-Level or above electives",
-      "hint": "",
+      "id": "judaic-electives-200-plus",
+      "label": "24 Credits of 200-Level or Above Electives",
+      "hint": "JUDAIC courses at the 200 level or above.",
       "need": 24,
       "countMode": "credits",
-      "category": "core",
-      "matchAll": true
-    },
-    {
-      "id": "whatif-rq-900015",
-      "label": "Total Credits: minimum 28 credits",
-      "hint": "Includes all courses used toward",
-      "need": 28,
-      "countMode": "credits",
-      "category": "major-credit-min",
-      "matchAll": true
+      "category": "electives",
+      "matchCodes": [
+        "JUDAIC 201",
+        "JUDAIC 202",
+        "JUDAIC 205",
+        "JUDAIC 210",
+        "JUDAIC 218",
+        "JUDAIC 222",
+        "JUDAIC 225",
+        "JUDAIC 234",
+        "JUDAIC 240",
+        "JUDAIC 244",
+        "JUDAIC 260",
+        "JUDAIC 262",
+        "JUDAIC 271",
+        "JUDAIC 280",
+        "JUDAIC 281",
+        "JUDAIC 301",
+        "JUDAIC 302",
+        "JUDAIC 318",
+        "JUDAIC 322",
+        "JUDAIC 326",
+        "JUDAIC 331",
+        "JUDAIC 334",
+        "JUDAIC 340",
+        "JUDAIC 341",
+        "JUDAIC 351",
+        "JUDAIC 353",
+        "JUDAIC 379",
+        "JUDAIC 386",
+        "JUDAIC 387",
+        "JUDAIC 388",
+        "JUDAIC 417",
+        "JUDAIC 495",
+        "JUDAIC 496",
+        "JUDAIC 497",
+        "JUDAIC 498"
+      ]
     },
     {
       "id": "whatif-rq-3628",
-      "label": "Residency Requirement: minimum 15 credits",
-      "hint": "",
+      "label": "Major Total Credits",
+      "hint": "Minimum 28 credits. Includes all courses used toward the major requirements, including approved cognates from other departments. Does not include any prerequisites.",
+      "need": 28,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchCodes": [
+        "JUDAIC 201",
+        "JUDAIC 202",
+        "JUDAIC 205",
+        "JUDAIC 210",
+        "JUDAIC 218",
+        "JUDAIC 222",
+        "JUDAIC 225",
+        "JUDAIC 234",
+        "JUDAIC 240",
+        "JUDAIC 244",
+        "JUDAIC 260",
+        "JUDAIC 262",
+        "JUDAIC 271",
+        "JUDAIC 280",
+        "JUDAIC 281",
+        "JUDAIC 301",
+        "JUDAIC 302",
+        "JUDAIC 318",
+        "JUDAIC 322",
+        "JUDAIC 326",
+        "JUDAIC 331",
+        "JUDAIC 334",
+        "JUDAIC 340",
+        "JUDAIC 341",
+        "JUDAIC 351",
+        "JUDAIC 353",
+        "JUDAIC 379",
+        "JUDAIC 386",
+        "JUDAIC 387",
+        "JUDAIC 388",
+        "JUDAIC 417",
+        "JUDAIC 495",
+        "JUDAIC 496",
+        "JUDAIC 497",
+        "JUDAIC 498"
+      ]
+    },
+    {
+      "id": "whatif-rq-3628-2",
+      "label": "Major Residency Requirement",
+      "hint": "Minimum 15 credits of the major taken in residence (Ann Arbor campus or U-M study abroad).",
       "need": 15,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchAll": true
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "matchCodes": [
+        "JUDAIC 201",
+        "JUDAIC 202",
+        "JUDAIC 205",
+        "JUDAIC 210",
+        "JUDAIC 218",
+        "JUDAIC 222",
+        "JUDAIC 225",
+        "JUDAIC 234",
+        "JUDAIC 240",
+        "JUDAIC 244",
+        "JUDAIC 260",
+        "JUDAIC 262",
+        "JUDAIC 271",
+        "JUDAIC 280",
+        "JUDAIC 281",
+        "JUDAIC 301",
+        "JUDAIC 302",
+        "JUDAIC 318",
+        "JUDAIC 322",
+        "JUDAIC 326",
+        "JUDAIC 331",
+        "JUDAIC 334",
+        "JUDAIC 340",
+        "JUDAIC 341",
+        "JUDAIC 351",
+        "JUDAIC 353",
+        "JUDAIC 379",
+        "JUDAIC 386",
+        "JUDAIC 387",
+        "JUDAIC 388",
+        "JUDAIC 417",
+        "JUDAIC 495",
+        "JUDAIC 496",
+        "JUDAIC 497",
+        "JUDAIC 498"
+      ]
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/judaic-studies-major.html"

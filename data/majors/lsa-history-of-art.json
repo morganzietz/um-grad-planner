@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -54,6 +54,9 @@
       "need": 60,
       "countMode": "credits",
       "category": "lsa-credit-min",
+      "excludeTags": [
+        "subj-histart"
+      ],
       "matchAll": true
     },
     {
@@ -186,15 +189,33 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
       "pickFromGroups": [
+        "lsa-add-dist-humanities",
         "lsa-add-dist-natural-sciences",
         "lsa-add-dist-social-sciences",
-        "lsa-add-dist-math-symbolic"
+        "lsa-add-dist-math-symbolic",
+        "lsa-add-dist-creative-expression",
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
+    },
+    {
+      "id": "lsa-add-dist-humanities",
+      "label": "Additional 3 Credits in Humanities",
+      "hint": "Beyond the initial 7 cr Humanities.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-humanities",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 7
     },
     {
       "id": "lsa-add-dist-natural-sciences",
@@ -235,132 +256,441 @@
       ]
     },
     {
-      "id": "whatif-rq-900006",
-      "label": "Seminar: 1 course. 300- or Higher Level",
-      "hint": "",
+      "id": "lsa-add-dist-creative-expression",
+      "label": "3 Credits in Creative Expression",
+      "hint": "From approved CE-designated courses.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-creative-expression",
+      "excludeTags": [
+        "ap-credit"
+      ]
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary",
+      "label": "3 Credits in Interdisciplinary",
+      "hint": "From approved ID-designated courses.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ]
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
+      "id": "whatif-rq-7043",
+      "label": "Seminar: 1 Course, 300-Level or Higher",
+      "hint": "One History of Art seminar at the 300 level or above. Current catalog seminars: HISTART 393, HISTART 395, HISTART 497, HISTART 498. Other HISTART seminars count as offered.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "HISTART 393",
+        "HISTART 395",
+        "HISTART 497",
+        "HISTART 498"
+      ]
     },
     {
-      "id": "whatif-rq-900007",
-      "label": "Early Modern",
-      "hint": "",
+      "id": "whatif-rq-3008",
+      "label": "Chronological Distribution: 3 Time Periods",
+      "hint": "1 course in each of 3 time periods, chosen from Ancient, Medieval, Early Modern, Modern and Contemporary, and Transhistorical.",
+      "need": 3,
+      "countMode": "count",
+      "category": "core",
+      "pickFromGroups": [
+        "histart-chrono-ancient",
+        "histart-chrono-medieval",
+        "histart-chrono-early-modern",
+        "histart-chrono-modern-contemporary",
+        "histart-chrono-transhistorical"
+      ]
+    },
+    {
+      "id": "histart-chrono-ancient",
+      "label": "Time Period: Ancient",
+      "hint": "1 course covering the Ancient period. Current catalog matches by HISTART concentration distribution.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "ARCHAM 427",
+        "ASIAN 292",
+        "HISTART 201",
+        "HISTART 292",
+        "HISTART 345",
+        "HISTART 393",
+        "HISTART 426",
+        "MEMS 345"
+      ]
     },
     {
-      "id": "whatif-rq-900008",
-      "label": "Modern & Contemporary",
-      "hint": "",
+      "id": "histart-chrono-medieval",
+      "label": "Time Period: Medieval",
+      "hint": "1 course covering the Medieval period. Current catalog matches by HISTART concentration distribution.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "ASIAN 292",
+        "HISTART 201",
+        "HISTART 242",
+        "HISTART 292",
+        "HISTART 345",
+        "HISTART 347",
+        "HISTART 348",
+        "HISTART 395",
+        "MEMS 345",
+        "MEMS 348"
+      ]
     },
     {
-      "id": "whatif-rq-900009",
-      "label": "Transhistorical",
-      "hint": "",
+      "id": "histart-chrono-early-modern",
+      "label": "Time Period: Early Modern",
+      "hint": "1 course covering the Early Modern period. Current catalog matches by HISTART concentration distribution.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "HISTART 310",
+        "HISTART 395",
+        "HISTART 497",
+        "ITALIAN 310"
+      ]
     },
     {
-      "id": "whatif-rq-900010",
-      "label": "The Middle East (includes Western & Central Asia & North Africa)",
-      "hint": "",
+      "id": "histart-chrono-modern-contemporary",
+      "label": "Time Period: Modern & Contemporary",
+      "hint": "1 course covering the Modern and Contemporary period. Current catalog matches by HISTART concentration distribution.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "ASIAN 394",
+        "FRENCH 241",
+        "HISTART 241",
+        "HISTART 271",
+        "HISTART 272",
+        "HISTART 320",
+        "HISTART 334",
+        "HISTART 371",
+        "HISTART 376",
+        "HISTART 392",
+        "HISTART 402",
+        "HISTART 480",
+        "MUSEUMS 498",
+        "RCIDIV 272"
+      ]
     },
     {
-      "id": "whatif-rq-900011",
-      "label": "Sub-Saharan Africa",
-      "hint": "",
+      "id": "histart-chrono-transhistorical",
+      "label": "Time Period: Transhistorical",
+      "hint": "1 course designated Transhistorical. Current catalog matches by HISTART concentration distribution.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "ASIAN 304",
+        "ASIAN 335",
+        "HISTART 219",
+        "HISTART 241",
+        "HISTART 265",
+        "HISTART 304",
+        "HISTART 334",
+        "HISTART 335",
+        "HISTART 347",
+        "ITALIAN 310"
+      ]
     },
     {
-      "id": "whatif-rq-900012",
-      "label": "Europe & The U.S",
-      "hint": "",
+      "id": "whatif-rq-3009",
+      "label": "Geographical Distribution: 3 Regions",
+      "hint": "1 course in each of 3 regions, chosen from The Middle East, Sub-Saharan Africa, Asia, Europe & the U.S., Latin America & the Caribbean, and Transregional.",
+      "need": 3,
+      "countMode": "count",
+      "category": "core",
+      "pickFromGroups": [
+        "histart-geo-middle-east",
+        "histart-geo-sub-saharan-africa",
+        "histart-geo-asia",
+        "histart-geo-europe-us",
+        "histart-geo-latin-america",
+        "histart-geo-transregional"
+      ]
+    },
+    {
+      "id": "histart-geo-middle-east",
+      "label": "Region: The Middle East",
+      "hint": "Includes Western and Central Asia and North Africa. Current catalog matches by HISTART concentration distribution.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "ARCHAM 427",
+        "HISTART 201",
+        "HISTART 345",
+        "HISTART 347",
+        "HISTART 426",
+        "MEMS 345"
+      ]
     },
     {
-      "id": "whatif-rq-900013",
-      "label": "Latin America & The Caribbean",
-      "hint": "",
+      "id": "histart-geo-sub-saharan-africa",
+      "label": "Region: Sub-Saharan Africa",
+      "hint": "No current catalog offering carries this HISTART concentration distribution; check the department's course list for the term you plan to take it.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": []
     },
     {
-      "id": "whatif-rq-900014",
-      "label": "Transregional",
-      "hint": "",
+      "id": "histart-geo-asia",
+      "label": "Region: Asia",
+      "hint": "Includes China, Japan, India, South and Southeast Asia, and the Pacific. Current catalog matches by HISTART concentration distribution.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "ASIAN 292",
+        "ASIAN 335",
+        "ASIAN 394",
+        "HISTART 219",
+        "HISTART 292",
+        "HISTART 335",
+        "HISTART 392",
+        "HISTART 395",
+        "HISTART 497"
+      ]
     },
     {
-      "id": "whatif-rq-900015",
-      "label": "Studio Course: 3 credits",
-      "hint": "May be 100 level · Advisor approved only",
+      "id": "histart-geo-europe-us",
+      "label": "Region: Europe & The U.S.",
+      "hint": "Current catalog matches by HISTART concentration distribution.",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "ARCHAM 427",
+        "ASIAN 335",
+        "FRENCH 241",
+        "HISTART 201",
+        "HISTART 241",
+        "HISTART 242",
+        "HISTART 271",
+        "HISTART 272",
+        "HISTART 334",
+        "HISTART 335",
+        "HISTART 345",
+        "HISTART 347",
+        "HISTART 348",
+        "HISTART 371",
+        "HISTART 376",
+        "HISTART 402",
+        "HISTART 426",
+        "HISTART 480",
+        "ITALIAN 310",
+        "MEMS 345",
+        "MEMS 348",
+        "MUSEUMS 498",
+        "RCIDIV 272"
+      ]
+    },
+    {
+      "id": "histart-geo-latin-america",
+      "label": "Region: Latin America & The Caribbean",
+      "hint": "Current catalog matches by HISTART concentration distribution.",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "HISTART 241",
+        "HISTART 320",
+        "HISTART 334"
+      ]
+    },
+    {
+      "id": "histart-geo-transregional",
+      "label": "Region: Transregional",
+      "hint": "1 course designated Transregional. Current catalog matches by HISTART concentration distribution.",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "ASIAN 304",
+        "HISTART 265",
+        "HISTART 304",
+        "HISTART 310",
+        "HISTART 393"
+      ]
+    },
+    {
+      "id": "histart-studio-course",
+      "label": "Studio Course: 3 Credits",
+      "hint": "May be 100 level. Advisor approved only. Planner matches ARTDES and RCARTS studio courses; other advisor-approved studio work also counts.",
       "need": 3,
       "countMode": "credits",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "ARTDES 100",
+        "ARTDES 105",
+        "ARTDES 120",
+        "ARTDES 170",
+        "ARTDES 172",
+        "ARTDES 173",
+        "ARTDES 174",
+        "ARTDES 175",
+        "ARTDES 176",
+        "ARTDES 178",
+        "ARTDES 181",
+        "ARTDES 210",
+        "ARTDES 220",
+        "ARTDES 377",
+        "ARTDES 389",
+        "ARTDES 399",
+        "ARTDES 406",
+        "RCARTS 210",
+        "RCARTS 240",
+        "RCARTS 250",
+        "RCARTS 260",
+        "RCARTS 270",
+        "RCARTS 280",
+        "RCARTS 290",
+        "RCARTS 300",
+        "RCARTS 320",
+        "RCARTS 334",
+        "RCARTS 350",
+        "RCARTS 359",
+        "RCARTS 360",
+        "RCARTS 369",
+        "RCARTS 370",
+        "RCARTS 379",
+        "RCARTS 380",
+        "RCARTS 389",
+        "RCARTS 390",
+        "RCARTS 399"
+      ]
     },
     {
-      "id": "whatif-rq-900016",
-      "label": "Cognate Courses: 3 credits",
-      "hint": "Advisor approved only",
+      "id": "histart-cognate-courses",
+      "label": "Cognate Courses: 3 Credits",
+      "hint": "Advisor approved only. 3 credits in a related department outside History of Art; planner approximates with humanities courses outside HISTART.",
       "need": 3,
       "countMode": "credits",
       "category": "core",
-      "matchAll": true
+      "matchTag": "lsa-humanities",
+      "excludeTags": [
+        "subj-histart"
+      ]
     },
     {
       "id": "whatif-rq-12163",
       "label": "HISTART Credit Checks: Minimum 24 Credits",
-      "hint": "",
+      "hint": "Minimum 24 HISTART credits at the 200 level or above; at least 12 of these must be at the 300 level or higher, with additional 200-level HISTART credits as needed to reach 24.",
       "need": 24,
       "countMode": "credits",
       "category": "core",
-      "matchAll": true
-    },
-    {
-      "id": "whatif-rq-900017",
-      "label": "HISTART Credits at the 300-Level or Higher: Minimum 12 credits",
-      "hint": "",
-      "need": 12,
-      "countMode": "credits",
-      "category": "core",
       "matchCodes": [
-        "HISTART 300"
+        "HISTART 201",
+        "HISTART 208",
+        "HISTART 210",
+        "HISTART 211",
+        "HISTART 212",
+        "HISTART 219",
+        "HISTART 221",
+        "HISTART 222",
+        "HISTART 228",
+        "HISTART 241",
+        "HISTART 242",
+        "HISTART 250",
+        "HISTART 265",
+        "HISTART 271",
+        "HISTART 272",
+        "HISTART 292",
+        "HISTART 294",
+        "HISTART 299",
+        "HISTART 304",
+        "HISTART 310",
+        "HISTART 320",
+        "HISTART 334",
+        "HISTART 335",
+        "HISTART 345",
+        "HISTART 347",
+        "HISTART 348",
+        "HISTART 362",
+        "HISTART 370",
+        "HISTART 371",
+        "HISTART 376",
+        "HISTART 379",
+        "HISTART 392",
+        "HISTART 393",
+        "HISTART 394",
+        "HISTART 395",
+        "HISTART 399",
+        "HISTART 402",
+        "HISTART 424",
+        "HISTART 426",
+        "HISTART 440",
+        "HISTART 480",
+        "HISTART 489",
+        "HISTART 497",
+        "HISTART 498",
+        "HISTART 499"
       ]
     },
     {
+      "id": "histart-upper-level-12",
+      "label": "HISTART Credits at the 300-Level or Higher: Minimum 12 Credits",
+      "hint": "At least 12 of the 24 HISTART credits must be at the 300 level or higher.",
+      "need": 12,
+      "countMode": "credits",
+      "category": "core",
+      "matchTag": "subj-histart-upper"
+    },
+    {
       "id": "whatif-rq-3011",
-      "label": "Residency Requirement: minimum 15 credits",
-      "hint": "",
+      "label": "Total Credits: Minimum 30 Credits",
+      "hint": "Includes all courses used toward the major requirements, including those from other departments (e.g. cognates). Does not include any prerequisites. Planner counts HISTART credits; approved cognate and studio credits also count.",
+      "need": 30,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchTag": "subj-histart"
+    },
+    {
+      "id": "whatif-rq-3011-2",
+      "label": "Residency Requirement: Minimum 15 Credits",
+      "hint": "At least 15 major credits taken in residence at U-M. Planner counts HISTART credits.",
       "need": 15,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchAll": true
+      "matchTag": "subj-histart"
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/history-of-art-major.html"

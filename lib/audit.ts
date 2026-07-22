@@ -65,6 +65,32 @@ export interface MinorProgress {
   requirements?: RequirementProgress[];
 }
 
+/**
+ * Ids of requirements referenced as pickFromGroups children. For display
+ * totals, the parent is the single countable row and its children are the
+ * options behind it, so every "N requirements" count must exclude these or
+ * different screens disagree on the total.
+ */
+export function pickGroupChildIds(requirements: Requirement[]): Set<string> {
+  const out = new Set<string>();
+  for (const r of requirements) {
+    for (const id of r.pickFromGroups ?? []) out.add(id);
+  }
+  return out;
+}
+
+/** The requirements that count as top-level rows for display totals. */
+export function countableRequirements(requirements: Requirement[]): Requirement[] {
+  const children = pickGroupChildIds(requirements);
+  return requirements.filter((r) => !children.has(r.id));
+}
+
+/** Progress rows for top-level requirements only (see countableRequirements). */
+export function countableProgress(progress: RequirementProgress[]): RequirementProgress[] {
+  const children = pickGroupChildIds(progress.map((p) => p.requirement));
+  return progress.filter((p) => !children.has(p.requirement.id));
+}
+
 function contribution(course: Course, mode: CountMode): number {
   return mode === 'credits' ? course.credits : 1;
 }

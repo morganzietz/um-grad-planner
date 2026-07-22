@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -50,10 +50,13 @@
     {
       "id": "whatif-rq-1850",
       "label": "60 Credits outside Cognitive Science",
-      "hint": "This includes all COGSCI courses",
+      "hint": "Credits earned in courses outside the Cognitive Science department(s). This includes all COGSCI courses.",
       "need": 60,
       "countMode": "credits",
       "category": "lsa-credit-min",
+      "excludeTags": [
+        "subj-cogsci"
+      ],
       "matchAll": true
     },
     {
@@ -186,7 +189,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -196,7 +199,9 @@
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -275,9 +280,35 @@
       ]
     },
     {
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
       "id": "whatif-rq-7588",
       "label": "COGSCI 200: Introduction to Cognitive Science",
-      "hint": "",
+      "hint": "Gateway course. C- or better.",
       "need": 1,
       "countMode": "count",
       "category": "prerequisites",
@@ -286,13 +317,34 @@
       ]
     },
     {
+      "id": "whatif-rq-7590",
+      "label": "Additional Electives: 2 Courses from Approved Lists",
+      "hint": "2 courses from the approved Cognitive Science elective lists, C- or better. The planner counts COGSCI courses; approved courses from other departments on the published lists also count. Up to two electives may be fulfilled by independent study (3 cr of IND each), applied by exception through a Cog Sci advisor.",
+      "need": 2,
+      "countMode": "count",
+      "category": "core",
+      "matchTag": "subj-cogsci"
+    },
+    {
       "id": "whatif-rq-7672",
-      "label": "Ann Arbor campus or at off-campus sites directed by Ann Arbor faculty",
-      "hint": "",
+      "label": "Major Total: 27 Credits",
+      "hint": "Minimum 27 credits from all courses used toward the major requirements, including those from other departments. Prerequisites do not count. The planner counts COGSCI courses.",
+      "need": 27,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchTag": "subj-cogsci"
+    },
+    {
+      "id": "whatif-rq-7672-2",
+      "label": "Major Residency: 5 Courses In-Residence",
+      "hint": "Minimum 5 major courses taken on the Ann Arbor campus or at off-campus sites directed by Ann Arbor faculty. The planner counts COGSCI courses.",
       "need": 5,
       "countMode": "count",
       "category": "major-credit-min",
-      "matchAll": true
+      "matchTag": "subj-cogsci",
+      "excludeTags": [
+        "ap-credit"
+      ]
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/cognitive-science-major.html"

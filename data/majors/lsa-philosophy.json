@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -189,7 +189,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -200,7 +200,8 @@
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
         "lsa-add-dist-interdisciplinary",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -279,36 +280,54 @@
       ]
     },
     {
-      "id": "lsa-add-dist-interdisciplinary",
-      "label": "3 Credits in Interdisciplinary",
-      "hint": "From approved ID-designated courses.",
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
       "need": 3,
       "countMode": "credits",
       "category": "lsa-add-distribution",
       "matchTag": "lsa-interdisciplinary",
       "excludeTags": [
         "ap-credit"
-      ]
+      ],
+      "offset": 3
     },
     {
-      "id": "whatif-rq-900011",
-      "label": "100- or 200-Level PHIL: 1 course",
-      "hint": "Excludes PHIL 180, 201, 288, 289, & 296",
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
+      "id": "whatif-rq-3246",
+      "label": "Philosophy Prerequisite: one 100- or 200-level PHIL course",
+      "hint": "1 course, C- or better. Excludes PHIL 180, 201, 288, 289, and 296. Options include: PHIL 101, 110, 183, 196, 215, 230, 263, 297, 298",
       "need": 1,
       "countMode": "count",
       "category": "prerequisites",
       "matchCodes": [
-        "PHIL 180",
-        "PHIL 201",
-        "PHIL 288",
-        "PHIL 289",
-        "PHIL 296"
+        "PHIL 101",
+        "PHIL 110",
+        "PHIL 183",
+        "PHIL 196",
+        "PHIL 215",
+        "PHIL 230",
+        "PHIL 263",
+        "PHIL 297",
+        "PHIL 298"
       ]
     },
     {
-      "id": "whatif-rq-900012",
-      "label": "Introduction to Symbolic Logic",
-      "hint": "Choose 1 of: PHIL 303, PHIL 305, PHIL 296, PHIL 413, or PHIL 414",
+      "id": "phil-formal-methods",
+      "label": "Formal Methods",
+      "hint": "Choose 1 of: PHIL 303, 305, 296, 413, or 414. C- or better.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -321,9 +340,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900013",
-      "label": "Ancient Greek and Roman Philosophy",
-      "hint": "Choose 1 of: PHIL 288, PHIL 289, PHIL 388, or PHIL 389",
+      "id": "phil-history",
+      "label": "History of Philosophy",
+      "hint": "Choose 1 of: PHIL 288, 289, 388, or 389. C- or better.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -335,18 +354,24 @@
       ]
     },
     {
-      "id": "whatif-rq-900014",
-      "label": "Additional History of Philosophy: 1 course",
-      "hint": "",
+      "id": "phil-history-additional",
+      "label": "Additional History of Philosophy",
+      "hint": "A second history of philosophy course, C- or better. Approved options per the Bulletin; closest auditable list: PHIL 288, 289, 388, 389.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "PHIL 288",
+        "PHIL 289",
+        "PHIL 388",
+        "PHIL 389"
+      ],
+      "offset": 1
     },
     {
-      "id": "whatif-rq-900015",
-      "label": "Ethics",
-      "hint": "Choose 1 of: PHIL 361, PHIL 362, PHIL 366, PHIL 367, or PPE 300",
+      "id": "phil-value",
+      "label": "Value",
+      "hint": "Choose 1 of: PHIL 361, 362, 366, 367, or PPE 300. C- or better.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -359,9 +384,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900016",
-      "label": "Language and Mind",
-      "hint": "Choose 1 of: PHIL 345, PHIL 381, or PHIL 383",
+      "id": "phil-mind-reality",
+      "label": "Mind & Reality",
+      "hint": "Choose 1 of: PHIL 345, 381, or 383. C- or better.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -372,36 +397,61 @@
       ]
     },
     {
-      "id": "whatif-rq-900017",
-      "label": "Additional 400-Level: 2 courses",
-      "hint": "Excludes PHIL 419, 455, 498, & 499 · Must be taken in-residence",
+      "id": "phil-400-level",
+      "label": "Additional 400-Level Philosophy: 2 courses",
+      "hint": "2 courses at the 400 level, C- or better. Excludes PHIL 419, 455, 498, and 499. Must be taken in-residence.",
       "need": 2,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
-        "PHIL 419",
-        "PHIL 455",
-        "PHIL 498",
-        "PHIL 499"
+        "PHIL 401",
+        "PHIL 402",
+        "PHIL 413",
+        "PHIL 421",
+        "PHIL 424",
+        "PHIL 440",
+        "PHIL 441",
+        "PHIL 442",
+        "PHIL 444",
+        "PHIL 446",
+        "PHIL 450",
+        "PHIL 458",
+        "PHIL 463",
+        "PHIL 475",
+        "PHIL 482",
+        "PHIL 485",
+        "PHIL 414"
       ]
     },
     {
-      "id": "whatif-rq-900018",
+      "id": "phil-300-plus",
+      "label": "Additional 300-Level or Above Philosophy: 1 course",
+      "hint": "1 more PHIL course at the 300 level or above, C- or better. Exclusions listed on the Bulletin.",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchTag": "subj-phil-upper"
+    },
+    {
+      "id": "phil-major-credits",
       "label": "Credits in the Major",
-      "hint": "minimum 25 credits",
+      "hint": "minimum 25 credits. Counted from PHIL courses; other courses used to fulfill major requirements (such as PPE 300) also count.",
       "need": 25,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchAll": true
+      "matchTag": "subj-phil"
     },
     {
-      "id": "whatif-rq-900019",
-      "label": "Residency",
-      "hint": "minimum 16 credits taken in-residence",
+      "id": "phil-major-residency",
+      "label": "Major Residency",
+      "hint": "minimum 16 credits of the major taken in-residence.",
       "need": 16,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchAll": true
+      "matchTag": "subj-phil",
+      "excludeTags": [
+        "ap-credit"
+      ]
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/philosophy-major.html"

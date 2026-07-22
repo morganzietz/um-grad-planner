@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -54,6 +54,9 @@
       "need": 60,
       "countMode": "credits",
       "category": "lsa-credit-min",
+      "excludeTags": [
+        "subj-orgstudy"
+      ],
       "matchAll": true
     },
     {
@@ -186,7 +189,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -196,7 +199,9 @@
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -275,8 +280,45 @@
       ]
     },
     {
-      "id": "whatif-rq-900011",
-      "label": "Introduction to Psychology",
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
+      "id": "os-prereq-econ",
+      "label": "ECON 101: Principles of Economics I",
+      "hint": "Economics prerequisite.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "ECON 101"
+      ]
+    },
+    {
+      "id": "os-prereq-psych",
+      "label": "Psychology Prerequisite",
       "hint": "Choose 1 of: PSYCH 111, PSYCH 112, PSYCH 114, or PSYCH 115",
       "need": 1,
       "countMode": "count",
@@ -289,8 +331,8 @@
       ]
     },
     {
-      "id": "whatif-rq-900012",
-      "label": "Introduction to Sociology",
+      "id": "os-prereq-soc",
+      "label": "Sociology Prerequisite",
       "hint": "Choose 1 of: SOC 100, SOC 102, SOC 195, or SOC 300",
       "need": 1,
       "countMode": "count",
@@ -303,43 +345,142 @@
       ]
     },
     {
-      "id": "whatif-rq-900013",
+      "id": "whatif-rq-2779",
+      "label": "ORGSTUDY 305 & 310",
+      "hint": "Both ORGSTUDY 305 (Inside Organizations) and ORGSTUDY 310 (Formal Organizations and Environments) required: minimum 2 courses and minimum 6 credits.",
+      "need": 2,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "ORGSTUDY 305",
+        "ORGSTUDY 310"
+      ]
+    },
+    {
+      "id": "whatif-rq-2781",
       "label": "Quantitative Skills",
-      "hint": "1 course, minimum 3 credits",
-      "need": 3,
-      "countMode": "credits",
-      "category": "core",
-      "matchAll": true
-    },
-    {
-      "id": "whatif-rq-2780",
-      "label": "Organizational Studies Cluster Requirement",
-      "hint": "No more than 2 cluster courses can be at the 200-level",
-      "need": 2,
-      "countMode": "count",
-      "category": "core",
-      "matchAll": true
-    },
-    {
-      "id": "whatif-rq-900014",
-      "label": "May overlap with Cluster A/B/C requirements",
-      "hint": "",
-      "need": 2,
-      "countMode": "count",
-      "category": "core",
-      "matchAll": true
-    },
-    {
-      "id": "whatif-rq-900015",
-      "label": "Senior Honors Research I",
-      "hint": "Choose 1 of: ORGSTUDY 497 or ORGSTUDY 498",
+      "hint": "1 course, minimum 3 credits, from the OS approved quantitative skills list. Commonly approved options include: STATS 250, STATS 280, STATS 412, STATS 426, SOC 210, ECON 251, ECON 451, or IOE 265. Confirm your course with an OS advisor.",
       "need": 1,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
+        "STATS 250",
+        "STATS 280",
+        "STATS 412",
+        "STATS 426",
+        "SOC 210",
+        "ECON 251",
+        "ECON 451",
+        "IOE 265"
+      ]
+    },
+    {
+      "id": "os-cluster-a",
+      "label": "Cluster A: Organizations & Individuals",
+      "hint": "Minimum 2 courses and minimum 6 credits from the approved Cluster A list. Approved cluster courses from other departments also count; the planner matches ORGSTUDY courses. No more than 2 cluster courses across Clusters A, B, and C can be at the 200 level. Core, capstone, and prerequisite courses are excluded; each cluster bucket needs distinct courses (offsets applied).",
+      "need": 2,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "ORGSTUDY 201",
+        "ORGSTUDY 208",
+        "ORGSTUDY 218",
+        "ORGSTUDY 295",
+        "ORGSTUDY 391",
+        "ORGSTUDY 402",
+        "ORGSTUDY 405",
+        "ORGSTUDY 418",
+        "ORGSTUDY 419",
+        "ORGSTUDY 445",
+        "ORGSTUDY 455",
+        "ORGSTUDY 460",
+        "ORGSTUDY 492",
+        "ORGSTUDY 495",
+        "ORGSTUDY 499"
+      ]
+    },
+    {
+      "id": "os-cluster-b",
+      "label": "Cluster B: Organizations & Society",
+      "hint": "Minimum 2 courses and minimum 6 credits from the approved Cluster B list. Approved cluster courses from other departments also count; the planner matches ORGSTUDY courses. No more than 2 cluster courses across Clusters A, B, and C can be at the 200 level. Core, capstone, and prerequisite courses are excluded; each cluster bucket needs distinct courses (offsets applied).",
+      "need": 2,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "ORGSTUDY 201",
+        "ORGSTUDY 208",
+        "ORGSTUDY 218",
+        "ORGSTUDY 295",
+        "ORGSTUDY 391",
+        "ORGSTUDY 402",
+        "ORGSTUDY 405",
+        "ORGSTUDY 418",
+        "ORGSTUDY 419",
+        "ORGSTUDY 445",
+        "ORGSTUDY 455",
+        "ORGSTUDY 460",
+        "ORGSTUDY 492",
+        "ORGSTUDY 495",
+        "ORGSTUDY 499"
+      ],
+      "offset": 2
+    },
+    {
+      "id": "os-cluster-additional",
+      "label": "Additional Cluster Courses (A, B, or C)",
+      "hint": "Minimum 3 more courses and minimum 9 credits chosen from Cluster A, B, or C. Approved cluster courses from other departments also count; the planner matches ORGSTUDY courses. No more than 2 cluster courses across Clusters A, B, and C can be at the 200 level. Core, capstone, and prerequisite courses are excluded; each cluster bucket needs distinct courses (offsets applied).",
+      "need": 3,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "ORGSTUDY 201",
+        "ORGSTUDY 208",
+        "ORGSTUDY 218",
+        "ORGSTUDY 295",
+        "ORGSTUDY 391",
+        "ORGSTUDY 402",
+        "ORGSTUDY 405",
+        "ORGSTUDY 418",
+        "ORGSTUDY 419",
+        "ORGSTUDY 445",
+        "ORGSTUDY 455",
+        "ORGSTUDY 460",
+        "ORGSTUDY 492",
+        "ORGSTUDY 495",
+        "ORGSTUDY 499"
+      ],
+      "offset": 4
+    },
+    {
+      "id": "os-orgstudy-upper",
+      "label": "2 Upper-Level ORGSTUDY Courses",
+      "hint": "Minimum 2 ORGSTUDY courses at the 300/400 level, taken on the Ann Arbor campus, for a minimum of 3 credits each. May overlap with Cluster A/B/C requirements.",
+      "need": 2,
+      "countMode": "count",
+      "category": "core",
+      "matchTag": "subj-orgstudy-upper"
+    },
+    {
+      "id": "whatif-rq-7346",
+      "label": "Senior Research Capstone",
+      "hint": "Field Research: ORGSTUDY 410 required. Honors students take ORGSTUDY 497 and ORGSTUDY 498 instead.",
+      "need": 1,
+      "countMode": "count",
+      "category": "capstone",
+      "matchCodes": [
+        "ORGSTUDY 410",
         "ORGSTUDY 497",
         "ORGSTUDY 498"
       ]
+    },
+    {
+      "id": "whatif-rq-9849",
+      "label": "Major Total Credits: 34",
+      "hint": "Includes all courses used toward the major requirements, including cognates from other departments; does not include prerequisites. The planner matches ORGSTUDY courses. Residency: maximum 2 courses taken off the U-M Ann Arbor campus (study abroad courses count toward this limit, even through a U-M program).",
+      "need": 34,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchTag": "subj-orgstudy"
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/organizational-studies-major.html"

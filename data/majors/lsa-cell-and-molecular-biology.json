@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -56,8 +56,8 @@
       "category": "lsa-credit-min",
       "excludeTags": [
         "subj-biology",
-        "subj-eeb",
-        "subj-mcdb"
+        "subj-mcdb",
+        "subj-eeb"
       ],
       "matchAll": true
     },
@@ -191,7 +191,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -201,7 +201,9 @@
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -280,9 +282,48 @@
       ]
     },
     {
-      "id": "whatif-rq-900011",
-      "label": "Sequence A: BIOLOGY 171, (172 or 174), & 173",
-      "hint": "",
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
+      "id": "whatif-rq-10564",
+      "label": "Introductory Biology Sequence",
+      "hint": "Choose Sequence A, B, or C. No optional pass/fail.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "pickFromGroups": [
+        "mcdb-intro-bio-seq-a",
+        "mcdb-intro-bio-seq-b",
+        "mcdb-intro-bio-seq-c"
+      ]
+    },
+    {
+      "id": "mcdb-intro-bio-seq-a",
+      "label": "Sequence A: BIOLOGY 171, 172 or 174, and 173",
+      "hint": "BIOLOGY 171, one of BIOLOGY 172 or BIOLOGY 174, and BIOLOGY 173.",
       "need": 3,
       "countMode": "count",
       "category": "prerequisites",
@@ -294,9 +335,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900012",
-      "label": "Sequence B: BIOLOGY 195 (AP) & 173",
-      "hint": "",
+      "id": "mcdb-intro-bio-seq-b",
+      "label": "Sequence B: BIOLOGY 195 (AP) and 173",
+      "hint": "BIOLOGY 195 (AP credit) plus BIOLOGY 173.",
       "need": 2,
       "countMode": "count",
       "category": "prerequisites",
@@ -306,9 +347,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900013",
-      "label": "Sequence C: BIOLOGY 191 (transfer credit), 192, & 173",
-      "hint": "",
+      "id": "mcdb-intro-bio-seq-c",
+      "label": "Sequence C: BIOLOGY 191 (transfer), 192, and 173",
+      "hint": "BIOLOGY 191 (transfer credit), BIOLOGY 192, and BIOLOGY 173.",
       "need": 3,
       "countMode": "count",
       "category": "prerequisites",
@@ -319,9 +360,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900014",
+      "id": "mcdb-chem-210-211",
       "label": "CHEM 210 & 211",
-      "hint": "",
+      "hint": "Chemistry Sequence: Structure and Reactivity I (CHEM 210) with its lab, Investigations in Chemistry (CHEM 211).",
       "need": 2,
       "countMode": "count",
       "category": "prerequisites",
@@ -331,9 +372,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900015",
+      "id": "mcdb-chem-215-216",
       "label": "CHEM 215 & 216",
-      "hint": "",
+      "hint": "Chemistry Sequence: Structure and Reactivity II (CHEM 215) with its lab, Synthesis and Characterization of Organic Compounds (CHEM 216).",
       "need": 2,
       "countMode": "count",
       "category": "prerequisites",
@@ -343,9 +384,36 @@
       ]
     },
     {
-      "id": "whatif-rq-900016",
-      "label": "Fundamentals of Cell Biology",
-      "hint": "Choose 1 of: BIOLOGY 272, BIOLOGY 205, or BIOLOGY 290",
+      "id": "whatif-rq-10566",
+      "label": "Quantitative Analysis Sequence",
+      "hint": "4 courses from the approved list of calculus, statistics, and computing courses. This planner checks a partial list; other courses on the department's approved list also count.",
+      "need": 4,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "MATH 115",
+        "MATH 116",
+        "MATH 120",
+        "MATH 121",
+        "MATH 156",
+        "MATH 186",
+        "MATH 214",
+        "MATH 215",
+        "MATH 216",
+        "MATH 217",
+        "STATS 250",
+        "STATS 280",
+        "STATS 412",
+        "STATS 426",
+        "EECS 183",
+        "EECS 203",
+        "EECS 280"
+      ]
+    },
+    {
+      "id": "mcdb-core-cell-dev",
+      "label": "Fundamentals of Cell Biology or Developmental Biology",
+      "hint": "Choose 1 of: BIOLOGY 272, 205, or 290",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -356,7 +424,7 @@
       ]
     },
     {
-      "id": "whatif-rq-900017",
+      "id": "mcdb-core-genetics",
       "label": "BIOLOGY 305: Genetics",
       "hint": "",
       "need": 1,
@@ -367,8 +435,8 @@
       ]
     },
     {
-      "id": "whatif-rq-900018",
-      "label": "Introductory Biochemistry",
+      "id": "mcdb-core-biochem",
+      "label": "Biochemistry",
       "hint": "Choose 1 of: MCDB 310, BIOLCHEM 415, or CHEM 351",
       "need": 1,
       "countMode": "count",
@@ -380,9 +448,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900019",
-      "label": "Molecular Biology",
-      "hint": "Choose 1 of: MCDB 427 or MCDB 428",
+      "id": "mcdb-core-cell-molec",
+      "label": "Cellular or Molecular Biology",
+      "hint": "Choose 1 of: MCDB 427 (Molecular Biology) or MCDB 428 (Cell Biology)",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -392,31 +460,115 @@
       ]
     },
     {
-      "id": "whatif-rq-900020",
-      "label": "Group I",
-      "hint": "Advanced MCDB Laboratory Courses: 2 courses",
+      "id": "mcdb-electives-group-1",
+      "label": "Group I: Advanced MCDB Laboratory Courses",
+      "hint": "2 courses from the approved advanced laboratory list. This planner checks the catalog's MCDB lab courses: MCDB 306, 423, 424, 429; other approved labs also count.",
       "need": 2,
       "countMode": "count",
-      "category": "core",
-      "matchAll": true
+      "category": "electives",
+      "matchCodes": [
+        "MCDB 306",
+        "MCDB 423",
+        "MCDB 424",
+        "MCDB 429"
+      ]
     },
     {
-      "id": "whatif-rq-900021",
-      "label": "Group II",
-      "hint": "Advanced MCDB Courses: 2 courses",
+      "id": "mcdb-electives-group-2",
+      "label": "Group II: Advanced MCDB Courses",
+      "hint": "2 MCDB courses at the 300 level or above.",
       "need": 2,
       "countMode": "count",
-      "category": "core",
-      "matchAll": true
+      "category": "electives",
+      "matchTag": "subj-mcdb-upper"
     },
     {
       "id": "whatif-rq-10572",
       "label": "Major Credits: minimum 31 credits",
-      "hint": "",
+      "hint": "Core plus Group I, II, and III electives. Group III draws from an approved list of Biology & Chemistry electives to reach 31 credits; exclusions apply. This planner counts BIOLOGY, MCDB, and EEB courses at the 200 level or above plus the biochemistry options.",
       "need": 31,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchAll": true
+      "matchCodes": [
+        "BIOLOGY 200",
+        "BIOLOGY 201",
+        "BIOLOGY 202",
+        "BIOLOGY 205",
+        "BIOLOGY 207",
+        "BIOLOGY 212",
+        "BIOLOGY 225",
+        "BIOLOGY 226",
+        "BIOLOGY 230",
+        "BIOLOGY 256",
+        "BIOLOGY 272",
+        "BIOLOGY 281",
+        "BIOLOGY 288",
+        "BIOLOGY 290",
+        "BIOLOGY 299",
+        "BIOLOGY 305",
+        "BIOLOGY 312",
+        "BIOLOGY 525",
+        "BIOLOGY 526",
+        "EEB 300",
+        "EEB 313",
+        "EEB 315",
+        "EEB 325",
+        "EEB 335",
+        "EEB 349",
+        "EEB 362",
+        "EEB 372",
+        "EEB 375",
+        "EEB 380",
+        "EEB 390",
+        "EEB 391",
+        "EEB 400",
+        "EEB 410",
+        "EEB 420",
+        "EEB 430",
+        "EEB 436",
+        "EEB 440",
+        "EEB 441",
+        "EEB 442",
+        "EEB 445",
+        "EEB 446",
+        "EEB 451",
+        "EEB 468",
+        "EEB 476",
+        "EEB 492",
+        "EEB 494",
+        "EEB 496",
+        "EEB 499",
+        "MCDB 300",
+        "MCDB 306",
+        "MCDB 310",
+        "MCDB 322",
+        "MCDB 396",
+        "MCDB 400",
+        "MCDB 401",
+        "MCDB 411",
+        "MCDB 412",
+        "MCDB 415",
+        "MCDB 420",
+        "MCDB 421",
+        "MCDB 422",
+        "MCDB 423",
+        "MCDB 424",
+        "MCDB 427",
+        "MCDB 428",
+        "MCDB 429",
+        "MCDB 430",
+        "MCDB 435",
+        "MCDB 436",
+        "MCDB 445",
+        "MCDB 451",
+        "MCDB 452",
+        "MCDB 463",
+        "MCDB 475",
+        "MCDB 489",
+        "MCDB 494",
+        "CHEM 351",
+        "BIOLCHEM 415"
+      ]
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/molecular-cellular-and-developmental-biology-major.html"

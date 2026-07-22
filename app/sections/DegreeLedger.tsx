@@ -1,6 +1,7 @@
 'use client';
 
 import type { DegreeAudit, RequirementProgress } from '@/lib/audit';
+import { countableProgress } from '@/lib/audit';
 import type { Course, Major, TakenCourse } from '@/lib/types';
 
 interface DegreeLedgerProps {
@@ -12,15 +13,7 @@ interface DegreeLedgerProps {
 
 export function DegreeLedger({ major, audit, onRemove, canRemove = true }: DegreeLedgerProps) {
   const buckets = groupRequirements(audit.requirements);
-  const childIds = new Set<string>();
-  for (const r of audit.requirements) {
-    if (r.requirement.pickFromGroups) {
-      for (const id of r.requirement.pickFromGroups) childIds.add(id);
-    }
-  }
-  const countableReqs = audit.requirements.filter(
-    (r) => !childIds.has(r.requirement.id),
-  );
+  const countableReqs = countableProgress(audit.requirements);
   const allRequirementsMet = countableReqs.every((r) => r.met);
   const isComplete = audit.overallMet;
   const requirementsOnlyComplete = allRequirementsMet && !isComplete;

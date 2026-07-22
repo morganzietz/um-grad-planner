@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -49,11 +49,14 @@
     },
     {
       "id": "whatif-rq-1850",
-      "label": "60 Credits outside Studies in Theatre & Drama",
-      "hint": "Credits earned in courses outside the Studies in Theatre & Drama department(s).",
+      "label": "60 Credits outside Residential College Drama Major",
+      "hint": "Credits earned in courses outside the Residential College Drama Major department(s).",
       "need": 60,
       "countMode": "credits",
       "category": "lsa-credit-min",
+      "excludeTags": [
+        "subj-rcdrama"
+      ],
       "matchAll": true
     },
     {
@@ -184,154 +187,183 @@
       ]
     },
     {
-      "id": "lsa-dist-humanities",
-      "label": "Area Distribution: 7 Credits in Humanities",
-      "hint": "From approved HU-designated courses.",
+      "id": "lsa-add-dist-choose-3",
+      "label": "Additional Distribution: complete 3 areas",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
+      "need": 3,
+      "countMode": "count",
+      "category": "lsa-add-distribution",
+      "pickFromGroups": [
+        "lsa-add-dist-humanities",
+        "lsa-add-dist-natural-sciences",
+        "lsa-add-dist-social-sciences",
+        "lsa-add-dist-math-symbolic",
+        "lsa-add-dist-creative-expression",
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
+      ]
+    },
+    {
+      "id": "lsa-add-dist-humanities",
+      "label": "Additional 3 Credits in Humanities",
+      "hint": "Beyond the initial 7 cr Humanities.",
       "need": 3,
       "countMode": "credits",
-      "category": "lsa-distribution",
+      "category": "lsa-add-distribution",
       "matchTag": "lsa-humanities",
       "excludeTags": [
         "ap-credit"
-      ]
+      ],
+      "offset": 7
     },
     {
-      "id": "lsa-dist-natural-sciences",
-      "label": "Area Distribution: 7 Credits in Natural Sciences",
-      "hint": "From approved NS-designated courses.",
+      "id": "lsa-add-dist-natural-sciences",
+      "label": "Additional 3 Credits in Natural Sciences",
+      "hint": "Beyond the initial 7 cr Natural Sciences.",
       "need": 3,
       "countMode": "credits",
-      "category": "lsa-distribution",
+      "category": "lsa-add-distribution",
       "matchTag": "lsa-natural-sciences",
       "excludeTags": [
         "ap-credit"
-      ]
+      ],
+      "offset": 7
     },
     {
-      "id": "lsa-dist-social-sciences",
-      "label": "Area Distribution: 7 Credits in Social Sciences",
-      "hint": "From approved SS-designated courses.",
+      "id": "lsa-add-dist-social-sciences",
+      "label": "Additional 3 Credits in Social Sciences",
+      "hint": "Beyond the initial 7 cr Social Sciences.",
       "need": 3,
       "countMode": "credits",
-      "category": "lsa-distribution",
+      "category": "lsa-add-distribution",
       "matchTag": "lsa-social-sciences",
       "excludeTags": [
         "ap-credit"
-      ]
+      ],
+      "offset": 7
     },
     {
-      "id": "lsa-dist-math-symbolic",
-      "label": "Area Distribution: 7 Credits in Mathematical & Symbolic Analysis",
+      "id": "lsa-add-dist-math-symbolic",
+      "label": "3 Credits in Mathematical & Symbolic Analysis",
       "hint": "From approved MSA-designated courses.",
       "need": 3,
       "countMode": "credits",
-      "category": "lsa-distribution",
+      "category": "lsa-add-distribution",
       "matchTag": "lsa-math-symbolic",
       "excludeTags": [
         "ap-credit"
       ]
     },
     {
-      "id": "lsa-dist-creative-expression",
-      "label": "Area Distribution: 7 Credits in Creative Expression",
+      "id": "lsa-add-dist-creative-expression",
+      "label": "3 Credits in Creative Expression",
       "hint": "From approved CE-designated courses.",
       "need": 3,
       "countMode": "credits",
-      "category": "lsa-distribution",
+      "category": "lsa-add-distribution",
       "matchTag": "lsa-creative-expression",
       "excludeTags": [
         "ap-credit"
       ]
     },
     {
-      "id": "lsa-dist-interdisciplinary",
-      "label": "Area Distribution: 7 Credits in Interdisciplinary",
+      "id": "lsa-add-dist-interdisciplinary",
+      "label": "3 Credits in Interdisciplinary",
       "hint": "From approved ID-designated courses.",
       "need": 3,
       "countMode": "credits",
-      "category": "lsa-distribution",
+      "category": "lsa-add-distribution",
       "matchTag": "lsa-interdisciplinary",
       "excludeTags": [
         "ap-credit"
       ]
     },
     {
-      "id": "lsa-dist-interdisciplinary",
-      "label": "Area Distribution: 7 Credits in Interdisciplinary",
-      "hint": "From approved ID-designated courses.",
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
       "need": 3,
       "countMode": "credits",
-      "category": "lsa-distribution",
+      "category": "lsa-add-distribution",
       "matchTag": "lsa-interdisciplinary",
       "excludeTags": [
         "ap-credit"
-      ]
+      ],
+      "offset": 3
     },
     {
-      "id": "whatif-rq-900011",
-      "label": "Introduction to Acting I",
-      "hint": "Choose 1 of: THTREMUS 101 or THTREMUS 233",
-      "need": 1,
-      "countMode": "count",
-      "category": "core",
-      "matchCodes": [
-        "THTREMUS 101",
-        "THTREMUS 233"
-      ]
-    },
-    {
-      "id": "whatif-rq-900012",
-      "label": "Additional Introduction Courses",
-      "hint": "minimum 3 courses",
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
       "need": 3,
-      "countMode": "count",
-      "category": "core",
-      "matchAll": true
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
     },
     {
-      "id": "whatif-rq-900013",
-      "label": "Intro to Acting II",
-      "hint": "Choose 1 of: THTREMUS 102 or THTREMUS 240",
+      "id": "drama-foundational",
+      "label": "Foundational Course",
+      "hint": "Choose 1 of: RCDRAMA 281 or RCDRAMA 282",
       "need": 1,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
-        "THTREMUS 102",
-        "THTREMUS 240"
+        "RCDRAMA 281",
+        "RCDRAMA 282"
       ]
     },
     {
-      "id": "whatif-rq-900014",
-      "label": "THTREMUS 252, 321, 322, 323, & 402",
-      "hint": "minimum 5 courses",
-      "need": 5,
+      "id": "drama-capstone",
+      "label": "Capstone Course",
+      "hint": "Choose 1 of: RCDRAMA 481, RCCORE 307, RCCORE 406, or RCDRAMA 483",
+      "need": 1,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
-        "THTREMUS 252",
-        "THTREMUS 321",
-        "THTREMUS 322",
-        "THTREMUS 323",
-        "THTREMUS 402"
+        "RCDRAMA 481",
+        "RCCORE 307",
+        "RCCORE 406",
+        "RCDRAMA 483"
       ]
     },
     {
-      "id": "whatif-rq-900015",
-      "label": "Drama course)",
-      "hint": "minimum 2 courses",
-      "need": 2,
-      "countMode": "count",
-      "category": "core",
-      "matchAll": true
-    },
-    {
-      "id": "whatif-rq-900016",
-      "label": "Major Credits",
-      "hint": "minimum 40 credits",
-      "need": 40,
+      "id": "drama-electives",
+      "label": "Drama Electives",
+      "hint": "Minimum 27 credits of RCDRAMA coursework beyond the foundational and capstone courses; approved cognates from other departments may also count. Additional credits may be required to reach 35 total in the major.",
+      "need": 27,
       "countMode": "credits",
       "category": "core",
-      "matchAll": true
+      "matchTag": "subj-rcdrama"
+    },
+    {
+      "id": "whatif-rq-3400",
+      "label": "Total Major Credits",
+      "hint": "Minimum 35 credits. Includes all courses used toward the major requirements, including approved cognates from other departments. Does not include any prerequisites.",
+      "need": 35,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchCodes": [
+        "RCDRAMA 102",
+        "RCDRAMA 281",
+        "RCDRAMA 282",
+        "RCDRAMA 301",
+        "RCDRAMA 332",
+        "RCDRAMA 335",
+        "RCDRAMA 336",
+        "RCDRAMA 381",
+        "RCDRAMA 390",
+        "RCDRAMA 481",
+        "RCDRAMA 482",
+        "RCDRAMA 483",
+        "RCDRAMA 485",
+        "RCCORE 307",
+        "RCCORE 406"
+      ]
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/drama-major.html"

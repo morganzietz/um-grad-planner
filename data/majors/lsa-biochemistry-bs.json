@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -54,6 +54,10 @@
       "need": 60,
       "countMode": "credits",
       "category": "lsa-credit-min",
+      "excludeTags": [
+        "subj-chem",
+        "subj-biolchem"
+      ],
       "matchAll": true
     },
     {
@@ -186,7 +190,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -196,7 +200,9 @@
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -275,9 +281,73 @@
       ]
     },
     {
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
+      "id": "whatif-rq-10274",
+      "label": "Introductory Biology",
+      "hint": "Complete either the two-course intro sequence or BIOLOGY 195.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "pickFromGroups": [
+        "biochem-intro-bio-seq",
+        "biochem-intro-bio-195"
+      ]
+    },
+    {
+      "id": "biochem-intro-bio-seq",
+      "label": "Intro Biology two-course sequence",
+      "hint": "One of BIOLOGY 171 or 191, plus one of BIOLOGY 172, 174, or 192.",
+      "need": 2,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "BIOLOGY 171",
+        "BIOLOGY 191",
+        "BIOLOGY 172",
+        "BIOLOGY 174",
+        "BIOLOGY 192"
+      ]
+    },
+    {
+      "id": "biochem-intro-bio-195",
+      "label": "BIOLOGY 195: Introductory Biology",
+      "hint": "Single-course alternative to the two-course sequence.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "BIOLOGY 195"
+      ]
+    },
+    {
       "id": "whatif-rq-2374",
       "label": "CHEM 210 & 211",
-      "hint": "",
+      "hint": "CHEM 210 (Structure and Reactivity I) and CHEM 211 (Investigations in Chemistry).",
       "need": 2,
       "countMode": "count",
       "category": "prerequisites",
@@ -287,9 +357,44 @@
       ]
     },
     {
+      "id": "whatif-rq-2374-2",
+      "label": "CHEM 215: Structure and Reactivity II",
+      "hint": "",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "CHEM 215"
+      ]
+    },
+    {
       "id": "whatif-rq-10275",
-      "label": "Multivariable and Vector Calculus",
-      "hint": "Choose 1 of: MATH 215 or CHEM 262",
+      "label": "Calculus I",
+      "hint": "Choose 1 of: MATH 115, MATH 120",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "MATH 115",
+        "MATH 120"
+      ]
+    },
+    {
+      "id": "whatif-rq-10275-2",
+      "label": "Calculus II",
+      "hint": "Choose 1 of: MATH 116, MATH 121",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "MATH 116",
+        "MATH 121"
+      ]
+    },
+    {
+      "id": "whatif-rq-10275-3",
+      "label": "Multivariable Calculus or Math Methods",
+      "hint": "Choose 1 of: MATH 215 (Multivariable and Vector Calculus), CHEM 262 (Mathematical Methods for Physical Scientists)",
       "need": 1,
       "countMode": "count",
       "category": "prerequisites",
@@ -299,7 +404,85 @@
       ]
     },
     {
-      "id": "whatif-rq-900011",
+      "id": "whatif-rq-10277",
+      "label": "Physics I",
+      "hint": "1 combination of lecture and lab, or PHYSICS 139.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "pickFromGroups": [
+        "biochem-physics1-lecture-lab",
+        "biochem-physics1-139"
+      ]
+    },
+    {
+      "id": "biochem-physics1-lecture-lab",
+      "label": "Physics I lecture and lab",
+      "hint": "One lecture (PHYSICS 140, 150, or 160) plus its matching lab (PHYSICS 141, 151, or 161).",
+      "need": 2,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "PHYSICS 140",
+        "PHYSICS 141",
+        "PHYSICS 150",
+        "PHYSICS 151",
+        "PHYSICS 160",
+        "PHYSICS 161"
+      ]
+    },
+    {
+      "id": "biochem-physics1-139",
+      "label": "PHYSICS 139",
+      "hint": "Combined lecture and lab alternative for Physics I.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "PHYSICS 139"
+      ]
+    },
+    {
+      "id": "whatif-rq-10277-2",
+      "label": "Physics II",
+      "hint": "1 combination of lecture and lab, or PHYSICS 239.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "pickFromGroups": [
+        "biochem-physics2-lecture-lab",
+        "biochem-physics2-239"
+      ]
+    },
+    {
+      "id": "biochem-physics2-lecture-lab",
+      "label": "Physics II lecture and lab",
+      "hint": "One lecture (PHYSICS 240, 250, or 260) plus its matching lab (PHYSICS 241, 251, or 261).",
+      "need": 2,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "PHYSICS 240",
+        "PHYSICS 241",
+        "PHYSICS 250",
+        "PHYSICS 251",
+        "PHYSICS 260",
+        "PHYSICS 261"
+      ]
+    },
+    {
+      "id": "biochem-physics2-239",
+      "label": "PHYSICS 239",
+      "hint": "Combined lecture and lab alternative for Physics II.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "PHYSICS 239"
+      ]
+    },
+    {
+      "id": "biochem-core-biology-305",
       "label": "BIOLOGY 305: Genetics",
       "hint": "",
       "need": 1,
@@ -310,9 +493,20 @@
       ]
     },
     {
-      "id": "whatif-rq-900012",
-      "label": "Introduction to Chemical Analysis",
-      "hint": "Choose 1 of: CHEM 241, CHEM 245, CHEM 302, or CHEM 303",
+      "id": "biochem-core-chem-260",
+      "label": "CHEM 260: Chemical Principles",
+      "hint": "",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "CHEM 260"
+      ]
+    },
+    {
+      "id": "biochem-core-analytical-inorganic",
+      "label": "Analytical or Inorganic Chemistry",
+      "hint": "Choose 1 of: CHEM 241, CHEM 245, CHEM 302, CHEM 303",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -324,9 +518,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900013",
-      "label": "Synthesis and Characterization of Organic Compounds",
-      "hint": "Choose 1 of: CHEM 216, CHEM 242, CHEM 246, or CHEM 247",
+      "id": "biochem-core-analytical-lab",
+      "label": "Analytical or Organic Lab",
+      "hint": "Choose 1 of: CHEM 216, CHEM 242, or the CHEM 246 & 247 pair (the pair together fills this one-course option).",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -338,9 +532,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900014",
+      "id": "biochem-core-chem-351",
       "label": "CHEM 351: Fundamentals of Biochemistry",
-      "hint": "",
+      "hint": "Or approved substitutes.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -349,9 +543,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900015",
-      "label": "Introduction to Biochemical Research Techniques",
-      "hint": "Choose 1 of: CHEM 352 or CHEM 353",
+      "id": "biochem-core-chem-352-353",
+      "label": "CHEM 352 or 353",
+      "hint": "Choose 1 of: CHEM 352, CHEM 353 (Introduction to Biochemical Research Techniques, with or without Scientific Writing)",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -361,9 +555,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900016",
+      "id": "biochem-core-chem-451-452",
       "label": "CHEM 451 & 452",
-      "hint": "",
+      "hint": "Advanced Biochemistry: Macromolecular Structure and Function, plus Cellular Processes.",
       "need": 2,
       "countMode": "count",
       "category": "core",
@@ -373,31 +567,173 @@
       ]
     },
     {
-      "id": "whatif-rq-900017",
-      "label": "6 credits from approved list",
-      "hint": "",
-      "need": 6,
-      "countMode": "credits",
-      "category": "core",
-      "matchAll": true
-    },
-    {
-      "id": "whatif-rq-900018",
-      "label": "Advanced Lab: 1 course",
-      "hint": "",
+      "id": "biochem-core-chem-453",
+      "label": "CHEM 453: Biophysical Chemistry I",
+      "hint": "Thermodynamics and Kinetics.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "CHEM 453"
+      ]
     },
     {
-      "id": "whatif-rq-900019",
+      "id": "whatif-rq-2378",
+      "label": "Electives: 6 credits from approved list",
+      "hint": "6 credits from the department's approved electives list (upper-level CHEM and BIOLCHEM beyond the core; approved cognates from other departments may also count, check the department list).",
+      "need": 6,
+      "countMode": "credits",
+      "category": "electives",
+      "matchCodes": [
+        "BIOLCHEM 415",
+        "BIOLCHEM 673",
+        "BIOLCHEM 690",
+        "CHEM 370",
+        "CHEM 402",
+        "CHEM 417",
+        "CHEM 419",
+        "CHEM 420",
+        "CHEM 436",
+        "CHEM 440",
+        "CHEM 447",
+        "CHEM 455",
+        "CHEM 461",
+        "CHEM 462",
+        "CHEM 463",
+        "CHEM 465",
+        "CHEM 474",
+        "CHEM 482",
+        "CHEM 483",
+        "CHEM 507",
+        "CHEM 511",
+        "CHEM 520",
+        "CHEM 521",
+        "CHEM 525",
+        "CHEM 526",
+        "CHEM 538",
+        "CHEM 540",
+        "CHEM 541",
+        "CHEM 550",
+        "CHEM 570",
+        "CHEM 575",
+        "CHEM 673"
+      ]
+    },
+    {
+      "id": "whatif-rq-11583",
+      "label": "Advanced Lab or Undergraduate Research",
+      "hint": "Complete 1 of the 2 requirement lines below.",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "pickFromGroups": [
+        "biochem-advanced-lab",
+        "biochem-ugrad-research"
+      ]
+    },
+    {
+      "id": "biochem-advanced-lab",
+      "label": "Advanced Lab: 1 course",
+      "hint": "1 course from the approved advanced lab list, such as CHEM 436, 447, 462, 482, or 483; confirm the current list with the department.",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "CHEM 436",
+        "CHEM 447",
+        "CHEM 462",
+        "CHEM 482",
+        "CHEM 483"
+      ]
+    },
+    {
+      "id": "biochem-ugrad-research",
       "label": "Approved Undergraduate Research: 4 credits over 2 semesters",
-      "hint": "",
+      "hint": "4 credits of approved research taken over 2 semesters (2 enrollments), e.g. CHEM 398, 399, 498, 499 or BIOLCHEM 298, 398, 499.",
       "need": 4,
       "countMode": "credits",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "CHEM 398",
+        "CHEM 399",
+        "CHEM 498",
+        "CHEM 499",
+        "BIOLCHEM 298",
+        "BIOLCHEM 398",
+        "BIOLCHEM 499"
+      ]
+    },
+    {
+      "id": "whatif-rq-2375",
+      "label": "Major Total Credits: minimum 37",
+      "hint": "Includes all courses used toward the major requirements, including those from other departments. Does not include any prerequisites.",
+      "need": 37,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchCodes": [
+        "BIOLCHEM 298",
+        "BIOLCHEM 398",
+        "BIOLCHEM 415",
+        "BIOLCHEM 451",
+        "BIOLCHEM 452",
+        "BIOLCHEM 499",
+        "BIOLCHEM 673",
+        "BIOLCHEM 690",
+        "CHEM 216",
+        "CHEM 218",
+        "CHEM 219",
+        "CHEM 220",
+        "CHEM 230",
+        "CHEM 241",
+        "CHEM 242",
+        "CHEM 245",
+        "CHEM 246",
+        "CHEM 247",
+        "CHEM 260",
+        "CHEM 261",
+        "CHEM 302",
+        "CHEM 303",
+        "CHEM 351",
+        "CHEM 352",
+        "CHEM 353",
+        "CHEM 370",
+        "CHEM 398",
+        "CHEM 399",
+        "CHEM 402",
+        "CHEM 417",
+        "CHEM 419",
+        "CHEM 420",
+        "CHEM 436",
+        "CHEM 440",
+        "CHEM 447",
+        "CHEM 451",
+        "CHEM 452",
+        "CHEM 453",
+        "CHEM 455",
+        "CHEM 461",
+        "CHEM 462",
+        "CHEM 463",
+        "CHEM 465",
+        "CHEM 474",
+        "CHEM 482",
+        "CHEM 483",
+        "CHEM 498",
+        "CHEM 499",
+        "CHEM 507",
+        "CHEM 511",
+        "CHEM 520",
+        "CHEM 521",
+        "CHEM 525",
+        "CHEM 526",
+        "CHEM 538",
+        "CHEM 540",
+        "CHEM 541",
+        "CHEM 550",
+        "CHEM 570",
+        "CHEM 575",
+        "CHEM 673",
+        "BIOLOGY 305"
+      ]
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/biochemistry-major.html"

@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -94,9 +94,9 @@
       "matchTag": "lsa-fywr"
     },
     {
-      "id": "whatif-rq-900000",
+      "id": "whatif-rq-5348",
       "label": "Upper Level Writing Requirement",
-      "hint": "one course required · C- or",
+      "hint": "one course required",
       "need": 1,
       "countMode": "count",
       "category": "lsa-college-wide",
@@ -139,9 +139,9 @@
       "matchTag": "lsa-language"
     },
     {
-      "id": "whatif-rq-900001",
+      "id": "whatif-rq-9646",
       "label": "INTLSTD 101: Introduction to International Studies",
-      "hint": "",
+      "hint": "C- or better required.",
       "need": 1,
       "countMode": "count",
       "category": "prerequisites",
@@ -150,13 +150,22 @@
       ]
     },
     {
-      "id": "whatif-rq-900002",
+      "id": "intlstd-prereq-language-4th-term",
+      "label": "4th Term Language Proficiency",
+      "hint": "One course completing 4th term proficiency in a language other than English.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchTag": "lsa-language"
+    },
+    {
+      "id": "whatif-rq-9647",
       "label": "Sixth-Term Proficiency in a Language Other Than English",
-      "hint": "",
+      "hint": "One course demonstrating sixth-term (third-year) proficiency. The planner counts any 4th-term-or-above language course as the closest approximation; confirm the exact sixth-term course with your advisor.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchTag": "lsa-language"
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/international-studies-major.html"

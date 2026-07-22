@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -49,11 +49,18 @@
     },
     {
       "id": "whatif-rq-1850",
-      "label": "60 Credits outside course work in Neuroscience",
-      "hint": "This excludes all Biology and all Natural Science PSYCH courses",
+      "label": "60 Credits outside Neuroscience",
+      "hint": "Credits earned in courses outside course work in Neuroscience. This excludes all Biology and all Natural Science PSYCH courses.",
       "need": 60,
       "countMode": "credits",
       "category": "lsa-credit-min",
+      "excludeTags": [
+        "subj-biology",
+        "subj-mcdb",
+        "subj-eeb",
+        "subj-psych",
+        "subj-neurosci"
+      ],
       "matchAll": true
     },
     {
@@ -186,7 +193,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -196,7 +203,9 @@
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -275,9 +284,48 @@
       ]
     },
     {
-      "id": "whatif-rq-900011",
-      "label": "BIOLOGY 171, (172 or 174), & 173",
-      "hint": "",
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
+      "id": "whatif-rq-4072",
+      "label": "Biology Prerequisites",
+      "hint": "Only 1 of the intro biology sequences below needs to be satisfied.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "pickFromGroups": [
+        "neuro-bio-seq-171",
+        "neuro-bio-seq-195",
+        "neuro-bio-seq-191"
+      ]
+    },
+    {
+      "id": "neuro-bio-seq-171",
+      "label": "Intro Biology Sequence: BIOLOGY 171, 172 or 174, and 173",
+      "hint": "BIOLOGY 171, one of BIOLOGY 172 or 174, and BIOLOGY 173 (3 courses).",
       "need": 3,
       "countMode": "count",
       "category": "prerequisites",
@@ -289,9 +337,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900012",
-      "label": "BIOLOGY 195 & 173",
-      "hint": "",
+      "id": "neuro-bio-seq-195",
+      "label": "Intro Biology Sequence: BIOLOGY 195 and 173",
+      "hint": "BIOLOGY 195 and BIOLOGY 173 (2 courses).",
       "need": 2,
       "countMode": "count",
       "category": "prerequisites",
@@ -301,9 +349,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900013",
-      "label": "BIOLOGY 191, 192, & 173",
-      "hint": "",
+      "id": "neuro-bio-seq-191",
+      "label": "Intro Biology Sequence: BIOLOGY 191, 192, and 173",
+      "hint": "BIOLOGY 191, 192, and 173 (3 courses).",
       "need": 3,
       "countMode": "count",
       "category": "prerequisites",
@@ -314,9 +362,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900014",
-      "label": "CHEM 210, 211, 215, & 216",
-      "hint": "",
+      "id": "whatif-rq-10557",
+      "label": "Chemistry Prerequisites",
+      "hint": "CHEM 210, 211, 215, and 216 (4 courses).",
       "need": 4,
       "countMode": "count",
       "category": "prerequisites",
@@ -328,9 +376,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900015",
-      "label": "Introduction to Statistics and Data Analysis",
-      "hint": "Choose 1 of: STATS 250 or STATS 280",
+      "id": "whatif-rq-10558",
+      "label": "Statistics Prerequisite",
+      "hint": "Choose 1 of: STATS 250 or STATS 280.",
       "need": 1,
       "countMode": "count",
       "category": "prerequisites",
@@ -340,18 +388,37 @@
       ]
     },
     {
-      "id": "whatif-rq-7249",
-      "label": "Quantitative Prerequisites: 2 courses from the following options",
-      "hint": "",
-      "need": 2,
+      "id": "neuro-quant-calculus",
+      "label": "Quantitative Prerequisite: Calculus I",
+      "hint": "MATH 115, 120, 185, or equivalent.",
+      "need": 1,
       "countMode": "count",
       "category": "prerequisites",
-      "matchAll": true
+      "matchCodes": [
+        "MATH 115",
+        "MATH 120",
+        "MATH 185"
+      ]
     },
     {
-      "id": "whatif-rq-900016",
-      "label": "Principles of Cellular and Molecular Neuroscience",
-      "hint": "Choose 1 of: MCDB 322 or BIOLOGY 222",
+      "id": "neuro-quant-programming",
+      "label": "Quantitative Prerequisite: Elementary Programming Concepts",
+      "hint": "Choose 1 of: EECS 183, DATASCI 101/STATS 206, BIOLOGY 131, or BIOLOGY 202.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
+        "EECS 183",
+        "DATASCI 101",
+        "STATS 206",
+        "BIOLOGY 131",
+        "BIOLOGY 202"
+      ]
+    },
+    {
+      "id": "neuro-core-cellular-molecular",
+      "label": "MCDB 322: Principles of Cellular and Molecular Neuroscience",
+      "hint": "Cellular and Molecular Biology core. MCDB 322 (also offered as BIOLOGY 222).",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -361,7 +428,7 @@
       ]
     },
     {
-      "id": "whatif-rq-900017",
+      "id": "neuro-core-behavioral-neuro",
       "label": "PSYCH 230: Introduction to Behavioral Neuroscience",
       "hint": "",
       "need": 1,
@@ -372,7 +439,7 @@
       ]
     },
     {
-      "id": "whatif-rq-900018",
+      "id": "neuro-core-physiology",
       "label": "BIOLOGY 225: Principles of Human and Animal Physiology",
       "hint": "",
       "need": 1,
@@ -383,7 +450,7 @@
       ]
     },
     {
-      "id": "whatif-rq-900019",
+      "id": "neuro-core-genetics",
       "label": "BIOLOGY 305: Genetics",
       "hint": "",
       "need": 1,
@@ -394,9 +461,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900020",
-      "label": "Introductory Biochemistry",
-      "hint": "Choose 1 of: MCDB 310, BIOLCHEM 415, or CHEM 351",
+      "id": "neuro-core-biochemistry",
+      "label": "Biochemistry",
+      "hint": "Choose 1 of: MCDB 310, BIOLCHEM 415, or CHEM 351.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -407,31 +474,204 @@
       ]
     },
     {
-      "id": "whatif-rq-900021",
-      "label": "Additional Elective: 1 course from Group A, B, or C",
-      "hint": "",
+      "id": "neuro-elective-group-a",
+      "label": "Group A: Molecular and Cellular Neuroscience Elective",
+      "hint": "1 course from the department's approved Group A list. Approximated here as upper level MCDB courses; confirm your pick against the approved list.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchTag": "subj-mcdb-upper"
     },
     {
-      "id": "whatif-rq-900022",
-      "label": "Group D",
-      "hint": "Methods-Based Lab: 1 course",
+      "id": "neuro-elective-group-b",
+      "label": "Group B: Behavioral and Cognitive Neuroscience Electives",
+      "hint": "2 courses from the department's approved Group B list. Approximated here as upper level PSYCH courses; confirm your picks against the approved list.",
+      "need": 2,
+      "countMode": "count",
+      "category": "core",
+      "matchTag": "subj-psych-upper"
+    },
+    {
+      "id": "neuro-elective-additional",
+      "label": "Additional Elective: 1 course from Group A, B, or C",
+      "hint": "1 more course from the approved Group A, B, or C lists. Approximated here as upper level MCDB, PSYCH, and NEUROSCI courses; approved Group C cognates from other departments also count.",
       "need": 1,
       "countMode": "count",
       "category": "core",
-      "matchAll": true
+      "matchTag": "subj-psych-upper",
+      "matchCodes": [
+        "MCDB 300",
+        "MCDB 306",
+        "MCDB 310",
+        "MCDB 322",
+        "MCDB 396",
+        "MCDB 400",
+        "MCDB 401",
+        "MCDB 411",
+        "MCDB 412",
+        "MCDB 415",
+        "MCDB 420",
+        "MCDB 421",
+        "MCDB 422",
+        "MCDB 423",
+        "MCDB 424",
+        "MCDB 427",
+        "MCDB 428",
+        "MCDB 429",
+        "MCDB 430",
+        "MCDB 435",
+        "MCDB 436",
+        "MCDB 445",
+        "MCDB 451",
+        "MCDB 452",
+        "MCDB 463",
+        "MCDB 475",
+        "MCDB 489",
+        "MCDB 494",
+        "NEUROSCI 470",
+        "NEUROSCI 525"
+      ]
+    },
+    {
+      "id": "neuro-lab-methods",
+      "label": "Group D: Methods-Based Lab",
+      "hint": "1 course from the department's approved Group D list. Approximated here as MCDB and PSYCH lab and research-methods courses; confirm your pick against the approved list.",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "MCDB 306",
+        "MCDB 424",
+        "MCDB 429",
+        "PSYCH 300",
+        "PSYCH 331",
+        "PSYCH 341",
+        "PSYCH 342"
+      ]
+    },
+    {
+      "id": "neuro-lab-second",
+      "label": "Group D: Additional Methods-Based or Research-Based Lab",
+      "hint": "1 more methods-based or research-based lab course. Approximated here as MCDB and PSYCH lab, research-methods, and supervised-research courses; confirm your pick against the approved list.",
+      "need": 1,
+      "countMode": "count",
+      "category": "core",
+      "matchCodes": [
+        "MCDB 306",
+        "MCDB 424",
+        "MCDB 429",
+        "PSYCH 300",
+        "PSYCH 331",
+        "PSYCH 341",
+        "PSYCH 342",
+        "MCDB 300",
+        "MCDB 400",
+        "MCDB 423",
+        "PSYCH 322",
+        "PSYCH 326",
+        "PSYCH 422",
+        "PSYCH 424",
+        "PSYCH 426",
+        "PSYCH 428",
+        "PSYCH 429"
+      ]
     },
     {
       "id": "whatif-rq-4087",
-      "label": "Non-Independent Study: minimum 29 credits",
-      "hint": "",
+      "label": "Major Total Credits",
+      "hint": "Minimum 32 credits. Includes all courses used toward the major requirements, including those from other departments. Does not include any prerequisites. Approximated here as major-eligible MCDB, PSYCH (upper level plus PSYCH 230), BIOLOGY, NEUROSCI, and biochemistry option courses.",
+      "need": 32,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchTag": "subj-psych-upper",
+      "matchCodes": [
+        "MCDB 300",
+        "MCDB 306",
+        "MCDB 310",
+        "MCDB 322",
+        "MCDB 396",
+        "MCDB 400",
+        "MCDB 401",
+        "MCDB 411",
+        "MCDB 412",
+        "MCDB 415",
+        "MCDB 420",
+        "MCDB 421",
+        "MCDB 422",
+        "MCDB 423",
+        "MCDB 424",
+        "MCDB 427",
+        "MCDB 428",
+        "MCDB 429",
+        "MCDB 430",
+        "MCDB 435",
+        "MCDB 436",
+        "MCDB 445",
+        "MCDB 451",
+        "MCDB 452",
+        "MCDB 463",
+        "MCDB 475",
+        "MCDB 489",
+        "MCDB 494",
+        "NEUROSCI 470",
+        "NEUROSCI 525",
+        "PSYCH 230",
+        "BIOLOGY 222",
+        "BIOLOGY 225",
+        "BIOLOGY 305",
+        "BIOLCHEM 415",
+        "CHEM 351"
+      ]
+    },
+    {
+      "id": "whatif-rq-4087-2",
+      "label": "Major Non-Independent Study Credits",
+      "hint": "Minimum 29 of the 32 major credits must come from non-independent-study coursework.",
       "need": 29,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchAll": true
+      "excludeTags": [
+        "independent-study"
+      ],
+      "matchTag": "subj-psych-upper",
+      "matchCodes": [
+        "MCDB 300",
+        "MCDB 306",
+        "MCDB 310",
+        "MCDB 322",
+        "MCDB 396",
+        "MCDB 400",
+        "MCDB 401",
+        "MCDB 411",
+        "MCDB 412",
+        "MCDB 415",
+        "MCDB 420",
+        "MCDB 421",
+        "MCDB 422",
+        "MCDB 423",
+        "MCDB 424",
+        "MCDB 427",
+        "MCDB 428",
+        "MCDB 429",
+        "MCDB 430",
+        "MCDB 435",
+        "MCDB 436",
+        "MCDB 445",
+        "MCDB 451",
+        "MCDB 452",
+        "MCDB 463",
+        "MCDB 475",
+        "MCDB 489",
+        "MCDB 494",
+        "NEUROSCI 470",
+        "NEUROSCI 525",
+        "PSYCH 230",
+        "BIOLOGY 222",
+        "BIOLOGY 225",
+        "BIOLOGY 305",
+        "BIOLCHEM 415",
+        "CHEM 351"
+      ]
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/neuroscience-major.html"

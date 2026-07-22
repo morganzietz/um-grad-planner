@@ -28,7 +28,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -121,22 +121,25 @@
       "matchTag": "lsa-qr"
     },
     {
-      "id": "whatif-rq-900000",
+      "id": "whatif-rq-5382",
       "label": "60 Upper-Level Credits",
-      "hint": "",
+      "hint": "Credits from courses numbered 300 or above, in any subject. No more than 20 upper-level credits per subject may count toward the 60 (non-LSA coursework counts as one subject for this cap).",
       "need": 60,
       "countMode": "credits",
       "category": "core",
-      "matchAll": true
+      "matchTag": "upper-level"
     },
     {
-      "id": "whatif-rq-900001",
+      "id": "whatif-rq-1887",
       "label": "40 Upper-Level LSA Credits",
-      "hint": "",
+      "hint": "Credits from LSA courses numbered 300 or above. At most 20 of the 60 upper-level credits may come from non-LSA courses.",
       "need": 40,
       "countMode": "credits",
       "category": "core",
-      "matchAll": true
+      "matchTag": "upper-level",
+      "excludeTags": [
+        "non-lsa"
+      ]
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/advising/degrees-majors/bachelor-of-general-studies.html"

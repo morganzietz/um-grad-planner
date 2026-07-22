@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -49,11 +49,18 @@
     },
     {
       "id": "whatif-rq-1850",
-      "label": "60 Credits Outside Classical Studies",
+      "label": "60 Credits outside Classical Studies",
       "hint": "Credits earned in courses outside the Classical Studies department(s).",
       "need": 60,
       "countMode": "credits",
       "category": "lsa-credit-min",
+      "excludeTags": [
+        "subj-greek",
+        "subj-latin",
+        "subj-clciv",
+        "subj-clarch",
+        "subj-greekmod"
+      ],
       "matchAll": true
     },
     {
@@ -186,7 +193,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -196,7 +203,9 @@
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
         "lsa-add-dist-creative-expression",
-        "lsa-add-dist-interdisciplinary"
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -275,53 +284,99 @@
       ]
     },
     {
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
       "id": "whatif-rq-2943",
-      "label": "GREEK 101 & 102, or GREEK 103",
-      "hint": "",
+      "label": "Elementary Greek",
+      "hint": "GREEK 101 and GREEK 102, or GREEK 103 (intensive). Complete one of the two paths below.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "pickFromGroups": [
+        "greek-prereq-101-102",
+        "greek-prereq-103"
+      ]
+    },
+    {
+      "id": "greek-prereq-101-102",
+      "label": "GREEK 101 and 102: Elementary Greek",
+      "hint": "Both GREEK 101 and GREEK 102.",
       "need": 2,
       "countMode": "count",
       "category": "prerequisites",
       "matchCodes": [
         "GREEK 101",
-        "GREEK 102",
+        "GREEK 102"
+      ]
+    },
+    {
+      "id": "greek-prereq-103",
+      "label": "GREEK 103: Intensive Elementary Greek I",
+      "hint": "One intensive course covering the elementary Greek sequence.",
+      "need": 1,
+      "countMode": "count",
+      "category": "prerequisites",
+      "matchCodes": [
         "GREEK 103"
       ]
     },
     {
-      "id": "whatif-rq-900011",
-      "label": "GREEK Courses at the 400-Level or Above",
-      "hint": "minimum 4 courses",
+      "id": "greek-lang-400-level",
+      "label": "4 GREEK Courses at the 400-Level or Above",
+      "hint": "Any GREEK courses numbered 400 or above, such as GREEK 401, 402, 410, 437, 462, 495, 499, 506, or 556.",
       "need": 4,
       "countMode": "count",
       "category": "core",
       "matchCodes": [
-        "GREEK 400"
+        "GREEK 401",
+        "GREEK 402",
+        "GREEK 410",
+        "GREEK 437",
+        "GREEK 462",
+        "GREEK 495",
+        "GREEK 499",
+        "GREEK 506",
+        "GREEK 556"
       ]
     },
     {
-      "id": "whatif-rq-900012",
-      "label": "GREEK Courses at the 300-Level or Above",
-      "hint": "minimum 2 courses",
+      "id": "greek-lang-300-level",
+      "label": "2 GREEK Courses at the 300-Level or Above",
+      "hint": "2 GREEK courses numbered 300 or above (for example GREEK 301, 302, or 307), beyond the 4 courses used for the 400-level requirement.",
       "need": 2,
       "countMode": "count",
       "category": "core",
-      "matchCodes": [
-        "GREEK 300"
-      ]
+      "matchTag": "subj-greek-upper",
+      "offset": 4
     },
     {
-      "id": "whatif-rq-2945",
-      "label": "Greek (Ancient) Civilization Courses: 1 Introductory & 1 Upper-Level Course",
-      "hint": "",
-      "need": 1,
-      "countMode": "count",
-      "category": "core",
-      "matchAll": true
-    },
-    {
-      "id": "whatif-rq-900013",
-      "label": "1 course from CLARCH 221 or HISTORY 200",
-      "hint": "",
+      "id": "greek-civ-intro",
+      "label": "Introductory Greek Civilization Course",
+      "hint": "Choose 1 of: CLARCH 221 or HISTORY 200.",
       "need": 1,
       "countMode": "count",
       "category": "core",
@@ -331,22 +386,74 @@
       ]
     },
     {
-      "id": "whatif-rq-900014",
-      "label": "1 Upper-Level (300- through 400-level) Course in Greek",
-      "hint": "",
+      "id": "greek-civ-upper",
+      "label": "Upper-Level Greek Civilization, Archaeology, or History Course",
+      "hint": "One 300- through 400-level course in Greek civilization, archaeology, or history, minimum 3 credits. Closest auditable match: upper-level CLCIV courses; approved Greek-focused courses from other departments (for example HISTORY or CLARCH) also count.",
       "need": 3,
       "countMode": "credits",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "CLCIV 314",
+        "CLCIV 328",
+        "CLCIV 341",
+        "CLCIV 350",
+        "CLCIV 354",
+        "CLCIV 358",
+        "CLCIV 365",
+        "CLCIV 368",
+        "CLCIV 371",
+        "CLCIV 375",
+        "CLCIV 376",
+        "CLCIV 383",
+        "CLCIV 385",
+        "CLCIV 392",
+        "CLCIV 470",
+        "CLCIV 480",
+        "CLCIV 495",
+        "CLCIV 499"
+      ]
     },
     {
-      "id": "whatif-rq-900015",
-      "label": "Civilization, Archaeology, or History",
-      "hint": "minimum 3 credits",
-      "need": 1,
-      "countMode": "count",
-      "category": "core",
-      "matchAll": true
+      "id": "whatif-rq-2946",
+      "label": "Major Total: 24 Credits",
+      "hint": "Minimum 24 credits from courses used toward the major requirements, including approved cognates from other departments. Prerequisites (GREEK 101, 102, 103) do not count.",
+      "need": 24,
+      "countMode": "credits",
+      "category": "major-credit-min",
+      "matchCodes": [
+        "GREEK 301",
+        "GREEK 302",
+        "GREEK 307",
+        "GREEK 401",
+        "GREEK 402",
+        "GREEK 410",
+        "GREEK 437",
+        "GREEK 462",
+        "GREEK 495",
+        "GREEK 499",
+        "GREEK 506",
+        "GREEK 556",
+        "CLARCH 221",
+        "HISTORY 200",
+        "CLCIV 314",
+        "CLCIV 328",
+        "CLCIV 341",
+        "CLCIV 350",
+        "CLCIV 354",
+        "CLCIV 358",
+        "CLCIV 365",
+        "CLCIV 368",
+        "CLCIV 371",
+        "CLCIV 375",
+        "CLCIV 376",
+        "CLCIV 383",
+        "CLCIV 385",
+        "CLCIV 392",
+        "CLCIV 470",
+        "CLCIV 480",
+        "CLCIV 495",
+        "CLCIV 499"
+      ]
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/greek-ancient-language-and-literature-major.html"

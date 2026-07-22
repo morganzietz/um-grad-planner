@@ -37,7 +37,7 @@
     {
       "id": "whatif-rq-6715",
       "label": "90 Credits Excluding Experiential and Independent Study Courses",
-      "hint": "At least 90 credits must come from standard coursework — internships and independent study don't count.",
+      "hint": "At least 90 credits must come from standard coursework; internships and independent study don't count.",
       "need": 90,
       "countMode": "credits",
       "category": "lsa-credit-min",
@@ -54,6 +54,14 @@
       "need": 60,
       "countMode": "credits",
       "category": "lsa-credit-min",
+      "excludeTags": [
+        "subj-polish",
+        "subj-slavic",
+        "subj-russian",
+        "subj-czech",
+        "subj-ukr",
+        "subj-bcs"
+      ],
       "matchAll": true
     },
     {
@@ -186,7 +194,7 @@
     {
       "id": "lsa-add-dist-choose-3",
       "label": "Additional Distribution: complete 3 areas",
-      "hint": "Pick any 3 of the 6 area buckets below and hit 3 cr in each.",
+      "hint": "Pick any 3 of the area buckets below and hit 3 cr in each. ID credit can count toward 1, 2, or all 3 areas, so the extra ID buckets can stand in for additional areas.",
       "need": 3,
       "countMode": "count",
       "category": "lsa-add-distribution",
@@ -195,7 +203,10 @@
         "lsa-add-dist-natural-sciences",
         "lsa-add-dist-social-sciences",
         "lsa-add-dist-math-symbolic",
-        "lsa-add-dist-creative-expression"
+        "lsa-add-dist-creative-expression",
+        "lsa-add-dist-interdisciplinary",
+        "lsa-add-dist-interdisciplinary-2",
+        "lsa-add-dist-interdisciplinary-3"
       ]
     },
     {
@@ -262,9 +273,47 @@
       ]
     },
     {
-      "id": "whatif-rq-900011",
-      "label": "POLISH 121, 122, 221, & 222",
-      "hint": "minimum 4 courses",
+      "id": "lsa-add-dist-interdisciplinary",
+      "label": "3 Credits in Interdisciplinary",
+      "hint": "From approved ID-designated courses.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ]
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-2",
+      "label": "3 Additional Credits in Interdisciplinary (Second Area)",
+      "hint": "A second 3 cr of ID credit may stand in for a second area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 3
+    },
+    {
+      "id": "lsa-add-dist-interdisciplinary-3",
+      "label": "3 Additional Credits in Interdisciplinary (Third Area)",
+      "hint": "A third 3 cr of ID credit may stand in for a third area.",
+      "need": 3,
+      "countMode": "credits",
+      "category": "lsa-add-distribution",
+      "matchTag": "lsa-interdisciplinary",
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "offset": 6
+    },
+    {
+      "id": "whatif-rq-5316",
+      "label": "Prerequisites: POLISH 121, 122, 221, and 222",
+      "hint": "All 4 courses required: First-Year Polish (POLISH 121 and 122) and Second-Year Polish (POLISH 221 and 222).",
       "need": 4,
       "countMode": "count",
       "category": "prerequisites",
@@ -276,18 +325,23 @@
       ]
     },
     {
-      "id": "whatif-rq-5317",
-      "label": "Polish: Language, Literature & Culture",
-      "hint": "minimum 27 credits",
-      "need": 27,
+      "id": "polish-advanced-language",
+      "label": "Advanced Polish Language: 6 Credits",
+      "hint": "Minimum 6 credits, maximum 12 credits from POLISH 321, 322, 421, 422 (Third- and Fourth-Year Polish).",
+      "need": 6,
       "countMode": "credits",
       "category": "core",
-      "matchAll": true
+      "matchCodes": [
+        "POLISH 321",
+        "POLISH 322",
+        "POLISH 421",
+        "POLISH 422"
+      ]
     },
     {
-      "id": "whatif-rq-900012",
-      "label": "POLISH 325, 326, 432",
-      "hint": "minimum 6 credits, maximum 9 credits",
+      "id": "polish-literature",
+      "label": "Polish Literature: 6 Credits",
+      "hint": "Minimum 6 credits, maximum 9 credits from POLISH 325, 326, 432.",
       "need": 6,
       "countMode": "credits",
       "category": "core",
@@ -298,9 +352,9 @@
       ]
     },
     {
-      "id": "whatif-rq-900013",
-      "label": "Polish Culture: POLISH 214, 215, 314, 450, or specific topics of",
-      "hint": "",
+      "id": "polish-culture",
+      "label": "Polish Culture: 6 Credits",
+      "hint": "Minimum 6 credits, maximum 9 credits from POLISH 214, 215, 314, 450, or specific topics of SLAVIC 490.",
       "need": 6,
       "countMode": "credits",
       "category": "core",
@@ -308,26 +362,94 @@
         "POLISH 214",
         "POLISH 215",
         "POLISH 314",
-        "POLISH 450"
+        "POLISH 450",
+        "SLAVIC 490"
       ]
     },
     {
-      "id": "whatif-rq-900014",
-      "label": "Residency Credits Required in the Major",
-      "hint": "minimum 15 credits",
+      "id": "polish-electives",
+      "label": "Polish Electives: 3 Credits",
+      "hint": "Minimum 3 credits, maximum 9 credits from HISTORY 330, 331, 482, POLISH 314, 432, 450, SLAVIC 225, 240, 270, 312, 396, 490 (Dismantling Totalitarianism), 490 (Revolution in the Attic).",
+      "need": 3,
+      "countMode": "credits",
+      "category": "core",
+      "matchCodes": [
+        "HISTORY 330",
+        "HISTORY 331",
+        "HISTORY 482",
+        "POLISH 314",
+        "POLISH 432",
+        "POLISH 450",
+        "SLAVIC 225",
+        "SLAVIC 240",
+        "SLAVIC 270",
+        "SLAVIC 312",
+        "SLAVIC 396",
+        "SLAVIC 490"
+      ]
+    },
+    {
+      "id": "whatif-rq-7879",
+      "label": "Polish Residency Requirement: 15 Credits",
+      "hint": "Minimum 15 credits in the major must be taken in residence at U-M.",
       "need": 15,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchAll": true
+      "excludeTags": [
+        "ap-credit"
+      ],
+      "matchCodes": [
+        "POLISH 214",
+        "POLISH 215",
+        "POLISH 314",
+        "POLISH 321",
+        "POLISH 322",
+        "POLISH 325",
+        "POLISH 326",
+        "POLISH 421",
+        "POLISH 422",
+        "POLISH 432",
+        "POLISH 450",
+        "SLAVIC 225",
+        "SLAVIC 240",
+        "SLAVIC 270",
+        "SLAVIC 312",
+        "SLAVIC 396",
+        "SLAVIC 490",
+        "HISTORY 330",
+        "HISTORY 331",
+        "HISTORY 482"
+      ]
     },
     {
-      "id": "whatif-rq-900015",
-      "label": "Major Credits",
-      "hint": "minimum 27 credits",
+      "id": "whatif-rq-5346",
+      "label": "Major Credits: 27 Credits",
+      "hint": "Minimum 27 credits of Polish language, literature, and culture coursework beyond the prerequisites.",
       "need": 27,
       "countMode": "credits",
       "category": "major-credit-min",
-      "matchAll": true
+      "matchCodes": [
+        "POLISH 214",
+        "POLISH 215",
+        "POLISH 314",
+        "POLISH 321",
+        "POLISH 322",
+        "POLISH 325",
+        "POLISH 326",
+        "POLISH 421",
+        "POLISH 422",
+        "POLISH 432",
+        "POLISH 450",
+        "SLAVIC 225",
+        "SLAVIC 240",
+        "SLAVIC 270",
+        "SLAVIC 312",
+        "SLAVIC 396",
+        "SLAVIC 490",
+        "HISTORY 330",
+        "HISTORY 331",
+        "HISTORY 482"
+      ]
     }
   ],
   "sourceUrl": "https://lsa.umich.edu/lsa/academics/majors-minors/polish-major.html"
