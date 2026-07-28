@@ -5,11 +5,13 @@ import type {
   Course,
   PlannedTerm,
   Profile,
+  RequirementOverride,
   TakenCourse,
   TermKind,
 } from './types';
 import { courseCatalog } from './data';
 import { formatTermId, formatTermName } from './scheduling';
+import { removeOverride, upsertOverride } from './overrides';
 
 // ── Storage shape ────────────────────────────────────────────────────────
 
@@ -38,6 +40,12 @@ export interface MajorPlan {
    * are [key, ...additionalMajorIds] and get audited independently.
    */
   additionalMajorIds?: string[];
+  /**
+   * Student corrections to requirement matching, per credential on this
+   * plan (see RequirementOverride). Force a course into a requirement the
+   * matcher rejects, or out of one it wrongly accepts.
+   */
+  requirementOverrides?: RequirementOverride[];
 }
 
 const STORAGE_KEY = 'grad-planner.state.v4';
@@ -504,6 +512,17 @@ export interface PlannerStateApi {
   addMajorToPlan: (majorId: string) => void;
   /** Remove a tracked major from this plan. Removing the primary is a no-op. */
   removeMajorFromPlan: (majorId: string) => void;
+  /**
+   * Force a course into or out of one requirement of one credential on this
+   * plan. Replaces any existing override for the same course+requirement.
+   */
+  setRequirementOverride: (override: RequirementOverride) => void;
+  /** Remove the override for a course+requirement, restoring automatic matching. */
+  clearRequirementOverride: (key: {
+    credentialId: string;
+    requirementId: string;
+    courseCode: string;
+  }) => void;
 }
 
 /**
@@ -526,6 +545,7 @@ export function usePlannerState(majorId: string): PlannerStateApi {
     minorIds: plan.minorIds,
     startYear: state.transcript.startYear,
     gradYear: plan.gradYear,
+    requirementOverrides: plan.requirementOverrides ?? [],
   };
 
   function withPlan(updater: (prev: MajorPlan) => MajorPlan): void {
@@ -642,6 +662,26 @@ export function usePlannerState(majorId: string): PlannerStateApi {
     [majorId],
   );
 
+  const setRequirementOverride = useCallback(
+    (override: RequirementOverride) =>
+      withPlan((p) => ({
+        ...p,
+        requirementOverrides: upsertOverride(p.requirementOverrides ?? [], override),
+      })),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [majorId],
+  );
+
+  const clearRequirementOverride = useCallback(
+    (key: { credentialId: string; requirementId: string; courseCode: string }) =>
+      withPlan((p) => ({
+        ...p,
+        requirementOverrides: removeOverride(p.requirementOverrides ?? [], key),
+      })),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [majorId],
+  );
+
   return {
     profile,
     hydrated,
@@ -655,6 +695,8 @@ export function usePlannerState(majorId: string): PlannerStateApi {
     removeMinor,
     addMajorToPlan,
     removeMajorFromPlan,
+    setRequirementOverride,
+    clearRequirementOverride,
   };
 }
 

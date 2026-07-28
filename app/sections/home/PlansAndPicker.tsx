@@ -2,7 +2,12 @@
 
 import { useMemo, useState } from 'react';
 import Link from 'next/link';
-import { auditDegree, countableProgress, projectGraduation } from '@/lib/audit';
+import {
+  auditDegree,
+  countableProgress,
+  projectGraduation,
+  requirementCompletionPct,
+} from '@/lib/audit';
 import { courseCatalog } from '@/lib/data';
 import { listBundledMajors, loadBundledMajor } from '@/lib/majors';
 import { useMajorPlans, useTranscript } from '@/lib/state';
@@ -95,10 +100,9 @@ export function PlansAndPicker() {
           {savedPlanEntries.map(({ id, majors, primary, projection, starred }, i) => {
             const totalCredits =
               primary.audit.credits.takenCredits + primary.audit.credits.plannedCredits;
-            const pct = Math.min(
-              100,
-              Math.round((totalCredits / primary.audit.credits.goalCredits) * 100),
-            );
+            // Percent complete = share of top-level requirements met, not
+            // credits: finishing 120 generic credits is not finishing a major.
+            const pct = requirementCompletionPct(primary.audit.requirements);
             const unmet = countableProgress(primary.audit.requirements).filter(
               (r) => !r.met && !r.satisfiedByParent,
             ).length;

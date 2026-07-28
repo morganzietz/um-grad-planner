@@ -1,16 +1,19 @@
 'use client';
 
 import type { MinorProgress } from '@/lib/audit';
-import { RequirementRow } from './DegreeLedger';
+import { RequirementRow, type OverrideUi } from './DegreeLedger';
 
 interface MinorCardProps {
   progress: MinorProgress;
   onRemove?: () => void;
+  overrideUi?: OverrideUi;
 }
 
-export function MinorCard({ progress, onRemove }: MinorCardProps) {
+export function MinorCard({ progress, onRemove, overrideUi }: MinorCardProps) {
   if (progress.requirements && progress.requirements.length > 0) {
-    return <RequirementMinorCard progress={progress} onRemove={onRemove} />;
+    return (
+      <RequirementMinorCard progress={progress} onRemove={onRemove} overrideUi={overrideUi} />
+    );
   }
   return <LegacyMinorCard progress={progress} onRemove={onRemove} />;
 }
@@ -71,7 +74,7 @@ function CardShell({
   );
 }
 
-function RequirementMinorCard({ progress, onRemove }: MinorCardProps) {
+function RequirementMinorCard({ progress, onRemove, overrideUi }: MinorCardProps) {
   const reqs = progress.requirements!;
   const metCount = reqs.filter((r) => r.met).length;
   return (
@@ -83,7 +86,7 @@ function RequirementMinorCard({ progress, onRemove }: MinorCardProps) {
       <ul className="space-y-2">
         {reqs.map((r) => (
           <li key={r.requirement.id}>
-            <RequirementRow progress={r} />
+            <RequirementRow progress={r} overrideUi={overrideUi} />
           </li>
         ))}
       </ul>

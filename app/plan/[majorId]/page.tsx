@@ -4,6 +4,7 @@ import { use, useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { auditDegree, checkMinors, countableProgress, projectGraduation } from '@/lib/audit';
+import { countsTowardRequirements } from '@/lib/grades';
 import { courseCatalog, minors as minorLibrary } from '@/lib/data';
 import { listBundledMajors, loadBundledMajor } from '@/lib/majors';
 import { useAppState, useMajorPlans, usePlannerState } from '@/lib/state';
@@ -38,6 +39,8 @@ export default function PlanPage({
     removeMinor,
     addMajorToPlan,
     removeMajorFromPlan,
+    setRequirementOverride,
+    clearRequirementOverride,
   } = usePlannerState(majorId);
 
   const everSawPlan = useRef(false);
@@ -86,6 +89,36 @@ export default function PlanPage({
     () => checkMinors(profile, trackedMinors, courseCatalog),
     [profile, trackedMinors],
   );
+
+  // Every course on this plan (transcript + planned), offered as override
+  // candidates for "count this course here" controls. Courses whose grade
+  // earns no credit (withdrawal, below C-) are not offered: the audit would
+  // ignore them even if forced in.
+  const overrideCourseOptions = useMemo(() => {
+    const byCatalog = new Map(courseCatalog.map((c) => [c.code, c]));
+    const seen = new Set<string>();
+    const out: { code: string; title: string; status: 'taken' | 'planned' }[] = [];
+    for (const c of profile.takenCourses) {
+      if (seen.has(c.code) || !countsTowardRequirements(c.grade)) continue;
+      seen.add(c.code);
+      out.push({ code: c.code, title: c.title, status: 'taken' });
+    }
+    for (const term of profile.plannedTerms) {
+      for (const code of term.courseCodes) {
+        if (seen.has(code)) continue;
+        seen.add(code);
+        out.push({ code, title: byCatalog.get(code)?.title ?? code, status: 'planned' });
+      }
+    }
+    return out.sort((a, b) => a.code.localeCompare(b.code));
+  }, [profile.takenCourses, profile.plannedTerms]);
+
+  const overrideUiFor = (credentialId: string) => ({
+    credentialId,
+    courseOptions: overrideCourseOptions,
+    setOverride: setRequirementOverride,
+    clearOverride: clearRequirementOverride,
+  });
 
   const trackedMajorIds = useMemo(
     () => new Set(profile.majorIds ?? [profile.majorId]),
@@ -426,6 +459,7 @@ export default function PlanPage({
                 audit={audit}
                 onRemove={() => handleRemoveMajor(major)}
                 canRemove
+                overrideUi={overrideUiFor(major.id)}
               />
             ))}
             {minorProgress.map((p) => (
@@ -433,6 +467,7 @@ export default function PlanPage({
                 key={p.minor.id}
                 progress={p}
                 onRemove={() => removeMinor(p.minor.id)}
+                overrideUi={overrideUiFor(p.minor.id)}
               />
             ))}
           </div>

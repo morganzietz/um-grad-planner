@@ -95,6 +95,13 @@ export interface Requirement {
    */
   manual?: boolean;
   /**
+   * Letter-grade floor for taken courses to count toward THIS requirement,
+   * when the program states one that differs from the default C- gate.
+   * "C" for departments demanding C or better; "D" where a D is accepted.
+   * Non-letter passing marks and in-progress courses always count.
+   */
+  minGrade?: string;
+  /**
    * Provenance URLs for the matcher (bulletin pages, department worksheets,
    * approved-list docs). Maintenance metadata only; never rendered in the UI.
    */
@@ -125,6 +132,27 @@ export interface PlannedTerm {
   courseCodes: string[];
 }
 
+/**
+ * A student correction to the audit engine's automatic matching, scoped to
+ * one requirement of one credential (major or minor):
+ *   - 'include': the course counts toward the requirement even though the
+ *     matcher does not accept it (or the requirement is `manual` and has no
+ *     matcher at all).
+ *   - 'exclude': the course never counts toward the requirement even though
+ *     the matcher accepts it.
+ * At most one override exists per (credentialId, requirementId, courseCode);
+ * setting a new action replaces the old one.
+ */
+export interface RequirementOverride {
+  /** Major or minor id the requirement belongs to. */
+  credentialId: string;
+  requirementId: string;
+  courseCode: string;
+  action: 'include' | 'exclude';
+  /** Optional user note on why the override exists. */
+  note?: string;
+}
+
 export interface Profile {
   takenCourses: TakenCourse[];
   plannedTerms: PlannedTerm[];
@@ -138,4 +166,6 @@ export interface Profile {
   startYear?: number;
   /** Calendar year of the Winter term the student plans to graduate in. */
   gradYear?: number;
+  /** Student corrections to requirement matching for this plan. */
+  requirementOverrides?: RequirementOverride[];
 }

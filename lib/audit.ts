@@ -6,9 +6,16 @@ import type {
   PlannedTerm,
   Profile,
   Requirement,
+  RequirementOverride,
   TakenCourse,
 } from './types';
 import { compareTermIds } from './scheduling';
+import { countsTowardRequirements, meetsGradeFloor } from './grades';
+import {
+  overrideSetsByRequirement,
+  overridesForCredential,
+  type OverrideSets,
+} from './overrides';
 
 export interface RequirementProgress {
   requirement: Requirement;
@@ -26,6 +33,16 @@ export interface RequirementProgress {
    * but doesn't block overallMet.
    */
   satisfiedByParent?: boolean;
+  /**
+   * Codes of contributing courses that only count because the student
+   * force-included them (the matcher alone would have rejected them).
+   */
+  forcedIn?: string[];
+  /**
+   * Codes of courses the matcher accepted but the student force-excluded,
+   * so they were not counted.
+   */
+  forcedOut?: string[];
 }
 
 export interface CreditSummary {
@@ -91,6 +108,23 @@ export function countableProgress(progress: RequirementProgress[]): RequirementP
   return progress.filter((p) => !children.has(p.requirement.id));
 }
 
+/**
+ * Degree completion as a percentage of top-level requirements met, e.g.
+ * 2 of 20 requirements met = 10. This is the number shown as "% complete";
+ * credit totals are one requirement among many, not the whole story.
+ */
+export function requirementCompletionPct(progress: RequirementProgress[]): number {
+  const countable = countableProgress(progress);
+  if (countable.length === 0) return 0;
+  const met = countable.filter((r) => r.met).length;
+  return Math.round((met / countable.length) * 100);
+}
+
+/** Taken courses whose grade actually earns credit (see lib/grades.ts). */
+function creditedTaken(takenCourses: TakenCourse[]): TakenCourse[] {
+  return takenCourses.filter((c) => countsTowardRequirements(c.grade));
+}
+
 function contribution(course: Course, mode: CountMode): number {
   return mode === 'credits' ? course.credits : 1;
 }
@@ -112,6 +146,28 @@ function matchesRequirement(course: Course | TakenCourse, req: Requirement): boo
     if (codes.some((c) => req.matchCodes!.includes(c))) return true;
   }
   return false;
+}
+
+type MatchVerdict = 'match' | 'no-match' | 'forced-in' | 'forced-out';
+
+/**
+ * Matcher result with student overrides applied. Exclude beats everything
+ * (even a matching matcher); include beats everything else (even a `manual`
+ * requirement with no matcher, and the requirement's excludeTags).
+ */
+function matchVerdict(
+  course: Course | TakenCourse,
+  req: Requirement,
+  sets: OverrideSets | undefined,
+): MatchVerdict {
+  const codes = sets ? courseCodes(course) : [];
+  if (sets && codes.some((c) => sets.exclude.has(c))) {
+    return matchesRequirement(course, req) ? 'forced-out' : 'no-match';
+  }
+  const naturally = matchesRequirement(course, req);
+  if (naturally) return 'match';
+  if (sets && codes.some((c) => sets.include.has(c))) return 'forced-in';
+  return 'no-match';
 }
 
 function takenIdentitySet(takenCourses: TakenCourse[]): Set<string> {
@@ -147,7 +203,10 @@ function auditRequirements(
   requirements: Requirement[],
   profile: Profile,
   plannedCourses: Course[],
+  overrides: RequirementOverride[] = [],
 ): RequirementProgress[] {
+  const overrideSets = overrideSetsByRequirement(overrides);
+
   // Pass 1: compute course-matched requirements. pickFromGroups parents get
   // placeholders that pass 2 fills in.
   const progress: RequirementProgress[] = requirements.map((req) => {
@@ -162,20 +221,33 @@ function auditRequirements(
         plannedContributors: [],
       };
     }
+    const sets = overrideSets.get(req.id);
     let rawTaken = 0;
     let rawPlanned = 0;
     const takenContributors: TakenCourse[] = [];
     const plannedContributors: Course[] = [];
-    for (const c of profile.takenCourses) {
-      if (matchesRequirement(c, req)) {
+    const forcedIn: string[] = [];
+    const forcedOut: string[] = [];
+    // Per-row grade gate: the default C- floor, or the requirement's own
+    // stated floor (some departments accept a D here, others demand a C).
+    for (const c of profile.takenCourses.filter((t) => meetsGradeFloor(t.grade, req.minGrade))) {
+      const verdict = matchVerdict(c, req, sets);
+      if (verdict === 'match' || verdict === 'forced-in') {
         rawTaken += contribution(c, req.countMode);
         takenContributors.push(c);
+        if (verdict === 'forced-in') forcedIn.push(c.code);
+      } else if (verdict === 'forced-out') {
+        forcedOut.push(c.code);
       }
     }
     for (const c of plannedCourses) {
-      if (matchesRequirement(c, req)) {
+      const verdict = matchVerdict(c, req, sets);
+      if (verdict === 'match' || verdict === 'forced-in') {
         rawPlanned += contribution(c, req.countMode);
         plannedContributors.push(c);
+        if (verdict === 'forced-in') forcedIn.push(c.code);
+      } else if (verdict === 'forced-out') {
+        forcedOut.push(c.code);
       }
     }
     const offset = req.offset ?? 0;
@@ -191,6 +263,8 @@ function auditRequirements(
       met: taken + planned >= req.need,
       takenContributors,
       plannedContributors,
+      ...(forcedIn.length > 0 ? { forcedIn } : {}),
+      ...(forcedOut.length > 0 ? { forcedOut } : {}),
     };
   });
 
@@ -235,16 +309,26 @@ export function auditDegree(
   major: Major,
   courseLibrary: Course[],
 ): DegreeAudit {
-  const takenIdentities = takenIdentitySet(profile.takenCourses);
+  // Only credited courses claim an identity: a withdrawn or failed attempt
+  // must not block a planned retake from counting.
+  const takenIdentities = takenIdentitySet(creditedTaken(profile.takenCourses));
   const plannedCourses = resolvePlannedCourses(
     profile.plannedTerms,
     courseLibrary,
     takenIdentities,
   );
 
-  const requirements = auditRequirements(major.requirements, profile, plannedCourses);
+  const requirements = auditRequirements(
+    major.requirements,
+    profile,
+    plannedCourses,
+    overridesForCredential(profile.requirementOverrides, major.id),
+  );
 
-  const takenCredits = profile.takenCourses.reduce((sum, c) => sum + c.credits, 0);
+  const takenCredits = creditedTaken(profile.takenCourses).reduce(
+    (sum, c) => sum + c.credits,
+    0,
+  );
   const plannedCredits = plannedCourses.reduce((sum, c) => sum + c.credits, 0);
   const remainingCredits = Math.max(
     0,
@@ -309,7 +393,7 @@ export function checkMinors(
   minors: Minor[],
   courseLibrary: Course[] = [],
 ): MinorProgress[] {
-  const takenIdentities = takenIdentitySet(profile.takenCourses);
+  const takenIdentities = takenIdentitySet(creditedTaken(profile.takenCourses));
   const plannedCourses = resolvePlannedCourses(
     profile.plannedTerms,
     courseLibrary,
@@ -318,7 +402,12 @@ export function checkMinors(
   return minors.map((minor) => {
     // Requirement-style minor (HCAI, etc.)
     if (minor.requirements && minor.requirements.length > 0) {
-      const reqProgress = auditRequirements(minor.requirements, profile, plannedCourses);
+      const reqProgress = auditRequirements(
+        minor.requirements,
+        profile,
+        plannedCourses,
+        overridesForCredential(profile.requirementOverrides, minor.id),
+      );
       const metReqs = reqProgress.filter((r) => r.met);
       const unmetReqs = reqProgress.filter((r) => !r.met);
       const complete = unmetReqs.length === 0;

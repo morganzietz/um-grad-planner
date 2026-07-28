@@ -1,17 +1,41 @@
 'use client';
 
+import { useState } from 'react';
 import type { DegreeAudit, RequirementProgress } from '@/lib/audit';
 import { countableProgress } from '@/lib/audit';
-import type { Course, Major, TakenCourse } from '@/lib/types';
+import type { Course, Major, RequirementOverride, TakenCourse } from '@/lib/types';
+
+/** A course the student can force into a requirement. */
+export interface OverrideCourseOption {
+  code: string;
+  title: string;
+  status: 'taken' | 'planned';
+}
+
+/**
+ * Everything a requirement row needs to edit overrides for one credential
+ * (major or minor). When absent, rows render read-only.
+ */
+export interface OverrideUi {
+  credentialId: string;
+  courseOptions: OverrideCourseOption[];
+  setOverride: (override: RequirementOverride) => void;
+  clearOverride: (key: {
+    credentialId: string;
+    requirementId: string;
+    courseCode: string;
+  }) => void;
+}
 
 interface DegreeLedgerProps {
   major: Major;
   audit: DegreeAudit;
   onRemove?: () => void;
   canRemove?: boolean;
+  overrideUi?: OverrideUi;
 }
 
-export function DegreeLedger({ major, audit, onRemove, canRemove = true }: DegreeLedgerProps) {
+export function DegreeLedger({ major, audit, onRemove, canRemove = true, overrideUi }: DegreeLedgerProps) {
   const buckets = groupRequirements(audit.requirements);
   const countableReqs = countableProgress(audit.requirements);
   const allRequirementsMet = countableReqs.every((r) => r.met);
@@ -73,7 +97,7 @@ export function DegreeLedger({ major, audit, onRemove, canRemove = true }: Degre
             <ul className="space-y-2">
               {bucket.items.map((r) => (
                 <li key={r.requirement.id}>
-                  <RequirementRow progress={r} />
+                  <RequirementRow progress={r} overrideUi={overrideUi} />
                 </li>
               ))}
             </ul>
@@ -84,11 +108,18 @@ export function DegreeLedger({ major, audit, onRemove, canRemove = true }: Degre
   );
 }
 
-export function RequirementRow({ progress }: { progress: RequirementProgress }) {
+export function RequirementRow({
+  progress,
+  overrideUi,
+}: {
+  progress: RequirementProgress;
+  overrideUi?: OverrideUi;
+}) {
   const { requirement: req, taken, planned, met, takenContributors, plannedContributors, satisfiedByParent } = progress;
   const isCreditBucket = req.countMode === 'credits';
   const isMultiCount = req.countMode === 'count' && req.need > 1;
   const optional = !!satisfiedByParent;
+  const canOverride = !!overrideUi && !req.pickFromGroups;
 
   if (!isCreditBucket && req.need === 1) {
     return (
@@ -108,7 +139,10 @@ export function RequirementRow({ progress }: { progress: RequirementProgress }) 
           {met ? '✓' : ''}
         </span>
         <div className="min-w-0 flex-1">
-          <div className="text-[13px] font-semibold text-ink">{req.label}</div>
+          <div className="flex flex-wrap items-center gap-1.5">
+            <span className="text-[13px] font-semibold text-ink">{req.label}</span>
+            {req.manual && <StillBuildingChip />}
+          </div>
           {req.hint && (
             <div className="mt-0.5 text-[11px] leading-relaxed text-ink-3">{req.hint}</div>
           )}
@@ -122,7 +156,13 @@ export function RequirementRow({ progress }: { progress: RequirementProgress }) 
               Planned. Pending term completion.
             </div>
           )}
-          <Contributors taken={takenContributors} planned={plannedContributors} />
+          <Contributors
+            taken={takenContributors}
+            planned={plannedContributors}
+            progress={progress}
+            overrideUi={canOverride ? overrideUi : undefined}
+          />
+          {canOverride && <OverridePanel progress={progress} overrideUi={overrideUi!} />}
         </div>
       </div>
     );
@@ -141,8 +181,9 @@ export function RequirementRow({ progress }: { progress: RequirementProgress }) 
     >
       <div className="flex items-baseline justify-between gap-3">
         <div className="min-w-0">
-          <div className="truncate text-[13px] font-semibold text-ink">
-            {req.label}
+          <div className="flex flex-wrap items-center gap-1.5">
+            <span className="truncate text-[13px] font-semibold text-ink">{req.label}</span>
+            {req.manual && <StillBuildingChip />}
           </div>
           {req.hint && (
             <div className="mt-0.5 text-[11px] leading-relaxed text-ink-3">{req.hint}</div>
@@ -187,7 +228,13 @@ export function RequirementRow({ progress }: { progress: RequirementProgress }) 
         )}
         {met && <span className="font-bold text-success">Met</span>}
       </div>
-      <Contributors taken={takenContributors} planned={plannedContributors} />
+      <Contributors
+        taken={takenContributors}
+        planned={plannedContributors}
+        progress={progress}
+        overrideUi={canOverride ? overrideUi : undefined}
+      />
+      {canOverride && <OverridePanel progress={progress} overrideUi={overrideUi!} />}
       {isMultiCount && req.matchCodes && (
         <div className="mono mt-1 text-[10px] text-ink-4">
           From: {req.matchCodes.join(', ')}
@@ -197,15 +244,60 @@ export function RequirementRow({ progress }: { progress: RequirementProgress }) 
   );
 }
 
+function StillBuildingChip() {
+  return (
+    <span
+      className="rounded border-[1.5px] border-ink bg-maize px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-[0.12em] text-blue"
+      title="Automatic checking for this rule is still being built. Use Adjust to count qualifying courses yourself."
+    >
+      Still building
+    </span>
+  );
+}
+
 function Contributors({
   taken,
   planned,
+  progress,
+  overrideUi,
 }: {
   taken: TakenCourse[];
   planned: Course[];
+  progress: RequirementProgress;
+  overrideUi?: OverrideUi;
 }) {
   const total = taken.length + planned.length;
   if (total === 0) return null;
+  const forcedIn = new Set(progress.forcedIn ?? []);
+  const reqId = progress.requirement.id;
+
+  const controls = (code: string) => {
+    if (!overrideUi) return null;
+    const key = { credentialId: overrideUi.credentialId, requirementId: reqId, courseCode: code };
+    if (forcedIn.has(code)) {
+      return (
+        <>
+          <ForcedChip label="Forced in" />
+          <RowButton
+            label="Undo"
+            title="Remove your override so this course stops counting here"
+            onClick={() => overrideUi.clearOverride(key)}
+          />
+        </>
+      );
+    }
+    return (
+      <RowButton
+        label="Don't count"
+        title="Force this course out of this requirement"
+        danger
+        onClick={() =>
+          overrideUi.setOverride({ ...key, action: 'exclude' })
+        }
+      />
+    );
+  };
+
   return (
     <details className="group mt-1.5">
       <summary className="cursor-pointer list-none select-none text-[11px] font-medium text-ink-3 hover:text-ink">
@@ -214,20 +306,155 @@ function Contributors({
       </summary>
       <ul className="mono mt-1 space-y-0.5 pl-3">
         {taken.map((c) => (
-          <li key={`t-${c.code}`} className="text-[11px] leading-snug text-ink-2">
-            <span className="font-bold">{c.code}</span>
-            <span className="text-ink-3"> · {c.title}</span>
-            <span className="text-ink-4"> · {c.credits} cr · {c.grade}</span>
+          <li key={`t-${c.code}`} className="flex items-center gap-1.5 text-[11px] leading-snug text-ink-2">
+            <span>
+              <span className="font-bold">{c.code}</span>
+              <span className="text-ink-3"> · {c.title}</span>
+              <span className="text-ink-4"> · {c.credits} cr · {c.grade}</span>
+            </span>
+            {controls(c.code)}
           </li>
         ))}
         {planned.map((c) => (
-          <li key={`p-${c.code}`} className="text-[11px] leading-snug text-warn">
-            <span className="font-bold">{c.code}</span>
-            <span className="text-warn/70"> · {c.title}</span>
-            <span className="text-warn/60"> · {c.credits} cr · planned</span>
+          <li key={`p-${c.code}`} className="flex items-center gap-1.5 text-[11px] leading-snug text-warn">
+            <span>
+              <span className="font-bold">{c.code}</span>
+              <span className="text-warn/70"> · {c.title}</span>
+              <span className="text-warn/60"> · {c.credits} cr · planned</span>
+            </span>
+            {controls(c.code)}
           </li>
         ))}
       </ul>
+    </details>
+  );
+}
+
+function ForcedChip({ label }: { label: string }) {
+  return (
+    <span className="shrink-0 rounded border border-ink bg-maize px-1 text-[9px] font-bold uppercase tracking-[0.1em] text-blue">
+      {label}
+    </span>
+  );
+}
+
+function RowButton({
+  label,
+  title,
+  onClick,
+  danger = false,
+}: {
+  label: string;
+  title: string;
+  onClick: () => void;
+  danger?: boolean;
+}) {
+  return (
+    <button
+      type="button"
+      title={title}
+      onClick={onClick}
+      className={`shrink-0 rounded border border-ink px-1.5 py-0.5 text-[10px] font-semibold ${
+        danger
+          ? 'text-ink hover:bg-danger hover:text-white'
+          : 'text-ink hover:bg-blue hover:text-white'
+      }`}
+    >
+      {label}
+    </button>
+  );
+}
+
+/**
+ * Adjust panel for one requirement: force-count another course, and restore
+ * courses that were forced out.
+ */
+function OverridePanel({
+  progress,
+  overrideUi,
+}: {
+  progress: RequirementProgress;
+  overrideUi: OverrideUi;
+}) {
+  const [selected, setSelected] = useState('');
+  const reqId = progress.requirement.id;
+  const forcedOut = progress.forcedOut ?? [];
+  const contributing = new Set([
+    ...progress.takenContributors.map((c) => c.code),
+    ...progress.plannedContributors.map((c) => c.code),
+  ]);
+  const candidates = overrideUi.courseOptions.filter(
+    (c) => !contributing.has(c.code) && !forcedOut.includes(c.code),
+  );
+
+  if (candidates.length === 0 && forcedOut.length === 0) return null;
+
+  return (
+    <details className="group mt-1.5">
+      <summary className="cursor-pointer list-none select-none text-[11px] font-medium text-blue hover:text-ink">
+        <span className="inline-block transition-transform group-open:rotate-90">▸</span> Adjust
+      </summary>
+      <div className="mt-1.5 space-y-1.5 rounded-md border border-line bg-surface px-2.5 py-2">
+        {forcedOut.length > 0 && (
+          <ul className="space-y-0.5">
+            {forcedOut.map((code) => (
+              <li key={code} className="mono flex items-center gap-1.5 text-[11px] text-ink-3">
+                <span className="font-bold line-through">{code}</span>
+                <ForcedChip label="Forced out" />
+                <RowButton
+                  label="Count again"
+                  title="Remove your override so this course counts here again"
+                  onClick={() =>
+                    overrideUi.clearOverride({
+                      credentialId: overrideUi.credentialId,
+                      requirementId: reqId,
+                      courseCode: code,
+                    })
+                  }
+                />
+              </li>
+            ))}
+          </ul>
+        )}
+        {candidates.length > 0 && (
+          <div className="flex flex-wrap items-center gap-1.5">
+            <label className="text-[11px] font-medium text-ink-3" htmlFor={`ovr-${overrideUi.credentialId}-${reqId}`}>
+              Count a course here:
+            </label>
+            <select
+              id={`ovr-${overrideUi.credentialId}-${reqId}`}
+              value={selected}
+              onChange={(e) => setSelected(e.target.value)}
+              className="mono max-w-[260px] rounded border border-ink bg-paper px-1.5 py-0.5 text-[11px] text-ink"
+            >
+              <option value="">Pick a course...</option>
+              {candidates.map((c) => (
+                <option key={c.code} value={c.code}>
+                  {c.code} · {c.title}
+                  {c.status === 'planned' ? ' (planned)' : ''}
+                </option>
+              ))}
+            </select>
+            <RowButton
+              label="Count it"
+              title="Force this course to count toward this requirement"
+              onClick={() => {
+                if (!selected) return;
+                overrideUi.setOverride({
+                  credentialId: overrideUi.credentialId,
+                  requirementId: reqId,
+                  courseCode: selected,
+                  action: 'include',
+                });
+                setSelected('');
+              }}
+            />
+          </div>
+        )}
+        <div className="text-[10px] leading-snug text-ink-4">
+          Overrides are your call and stay on this plan. Confirm anything uncertain with your advisor.
+        </div>
+      </div>
     </details>
   );
 }
