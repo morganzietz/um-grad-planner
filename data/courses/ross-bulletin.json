@@ -1,0 +1,185 @@
+{
+ "source": "Ross BBA Bulletin 2026-2027 core and capstone tables (rossweb.bus.umich.edu)",
+ "courses": [
+  {
+   "code": "BA 100",
+   "title": "Introduction to Ross: Foundations in Learning Business",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BA 102",
+   "title": "Introduction to Ross for Sophomore Entrants",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "ACC 300",
+   "title": "Financial Accounting",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BCOM 250",
+   "title": "Introduction to Business Communication",
+   "credits": 1.5,
+   "tags": []
+  },
+  {
+   "code": "BA 200",
+   "title": "Businesses and Leaders: The Positive Difference",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "TO 301",
+   "title": "Business Statistics and Analytics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ACC 301",
+   "title": "Managerial Accounting",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "STRATEGY 290",
+   "title": "Business Strategy",
+   "credits": 1.5,
+   "tags": []
+  },
+  {
+   "code": "BCOM 350",
+   "title": "Professional Communication Strategies",
+   "credits": 1.5,
+   "tags": []
+  },
+  {
+   "code": "BL 300",
+   "title": "Business Law and Ethics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MO 300",
+   "title": "Behavioral Theory in Management",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "TO 313",
+   "title": "Operations Management",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "STRATEGY 390",
+   "title": "Corporate Strategy",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BE 300",
+   "title": "Applied Economics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "FIN 300",
+   "title": "Financial Management",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MKT 300",
+   "title": "Marketing Management",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "TO 300",
+   "title": "Business Information Systems",
+   "credits": 1.5,
+   "tags": []
+  },
+  {
+   "code": "ACC 418",
+   "title": "Capstone: Financial Statement Analysis",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BL 404",
+   "title": "Capstone: Business Law",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BL 405",
+   "title": "Capstone: Business Law and Ethics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ES 414",
+   "title": "Capstone: Entrepreneurship",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "FIN 430",
+   "title": "Capstone: Finance",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MKT 470",
+   "title": "Capstone: Marketing",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MO 437",
+   "title": "Capstone: Management and Organizations",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "TO 412",
+   "title": "Capstone: Technology and Operations",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "TO 433",
+   "title": "Capstone: Technology and Operations",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "TO 435",
+   "title": "Capstone: Technology and Operations",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BE 435",
+   "title": "Capstone: Business Economics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "TO 465",
+   "title": "Capstone: Technology and Operations",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BA 480",
+   "title": "Senior Thesis Seminar",
+   "credits": 6,
+   "tags": []
+  }
+ ]
+}

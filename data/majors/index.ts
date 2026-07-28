@@ -90,6 +90,7 @@ import c15 from './coe-naval-architecture-and-marine-engineering.json';
 import c16 from './coe-nuclear-engineering-and-radiological-sciences.json';
 import c17 from './coe-robotics.json';
 import c18 from './coe-space-sciences-and-engineering.json';
+import r1 from './ross-business-administration.json';
 
 export const all: Major[] = [
   p1 as Major,
@@ -182,4 +183,5 @@ export const all: Major[] = [
   c16 as Major,
   c17 as Major,
   c18 as Major,
+  r1 as Major,
 ];

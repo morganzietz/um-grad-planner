@@ -2,6 +2,7 @@ import type { Course, Minor } from './types';
 import lsaData from '../data/courses/lsa.json';
 import socData from '../data/courses/soc.json';
 import coeBulletinData from '../data/courses/coe-bulletin.json';
+import rossBulletinData from '../data/courses/ross-bulletin.json';
 import { all as bundledMinors } from '../data/minors';
 import {
   manualCourses,
@@ -32,6 +33,10 @@ const socCourses = (socData as unknown as { courses: Course[] }).courses ?? [];
  */
 const coeBulletinCourses =
   (coeBulletinData as unknown as { courses: Course[] }).courses ?? [];
+
+/** Ross BBA core + capstone courses from the Ross bulletin tables. */
+const rossBulletinCourses =
+  (rossBulletinData as unknown as { courses: Course[] }).courses ?? [];
 
 // ─── Merge scraped + manual + programmatic tags → courseCatalog ───────────
 
@@ -143,6 +148,14 @@ const LSA_DIST_TAGS = new Set([
   'lsa-creative-expression',
 ]);
 
+/**
+ * Ross School of Business subjects. The BBA requires a minimum of 62
+ * business credits and 54 non-business credits; membership is by subject.
+ */
+const ROSS_SUBJECTS: ReadonlySet<string> = new Set([
+  'ACC', 'BA', 'BCOM', 'BE', 'BL', 'ES', 'FIN', 'MKT', 'MO', 'STRATEGY', 'TO',
+]);
+
 // CoE Intellectual Breadth: a Liberal Arts Course is marked HU or SS and not
 // also marked BS, NS, or QR. ECON 101 and 102 count by explicit exception in
 // the CoE Bulletin (they are SS + QR and would otherwise be excluded).
@@ -165,6 +178,23 @@ function applyProgrammaticTags(c: Course): Course {
     const num = parseInt(c.code.split(/\s+/)[1] ?? '', 10);
     if (Number.isFinite(num) && num >= 300) extras.push('coe-liberal-arts-upper');
   }
+  // Ross BBA: business-credit membership by subject; NS/MSA distribution is
+  // the union of the LSA Natural Science and Math & Symbolic Analysis marks.
+  if (ROSS_SUBJECTS.has(c.code.split(/\s+/)[0] ?? '')) {
+    extras.push('ross-business');
+  }
+  if (c.tags.includes('lsa-natural-sciences') || c.tags.includes('lsa-math-symbolic')) {
+    extras.push('ross-ns-msa');
+  }
+  // Ross SS distribution counts LSA Social Science courses except ECON 101
+  // and 102 (excluded by name in the BBA bulletin).
+  if (
+    c.tags.includes('lsa-social-sciences') &&
+    c.code !== 'ECON 101' &&
+    c.code !== 'ECON 102'
+  ) {
+    extras.push('ross-ss-dist');
+  }
   if (extras.length === 0) return c;
   return {
     ...c,
@@ -180,7 +210,7 @@ function buildCatalog(): Course[] {
   // NOT list is not approved for LSA credit, so SOC-only entries get the
   // non-lsa tag; without it, every Ross/CoE/SPH course would wrongly count
   // toward the LSA "100 LSA credits" college rules.
-  for (const c of [...socCourses, ...coeBulletinCourses]) {
+  for (const c of [...socCourses, ...coeBulletinCourses, ...rossBulletinCourses]) {
     if (byCode.has(c.code)) continue;
     const tags = c.tags.includes(NON_LSA) ? c.tags : [...c.tags, NON_LSA];
     byCode.set(c.code, { ...c, tags });

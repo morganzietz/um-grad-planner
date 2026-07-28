@@ -1,0 +1,491 @@
+{
+ "id": "ross-business-administration",
+ "name": "Business Administration",
+ "school": "Ross School of Business",
+ "goalCredits": 120,
+ "requirements": [
+  {
+   "id": "ross-total-credits",
+   "label": "120 Total Credits",
+   "hint": "The BBA requires a minimum of 120 credits. At most 30 non graded credits count toward the total.",
+   "need": 120,
+   "countMode": "credits",
+   "category": "ross-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf"
+   ]
+  },
+  {
+   "id": "ross-business-credits",
+   "label": "Business credits (62)",
+   "hint": "At least 62 of the 120 credits must be business credits, meaning Ross coursework across the fixed core, floating core, capstone, and business electives. Courses offered specifically for non business students do not count.",
+   "need": 62,
+   "countMode": "credits",
+   "category": "ross-credit-min",
+   "matchTag": "ross-business",
+   "minGrade": "D-",
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf"
+   ]
+  },
+  {
+   "id": "ross-non-business-credits",
+   "label": "Non business credits (54)",
+   "hint": "At least 54 of the 120 credits must be non business coursework, including the credits used for distribution. Physical education, vocational, and military officer education courses do not count.",
+   "need": 54,
+   "countMode": "credits",
+   "category": "ross-credit-min",
+   "matchAll": true,
+   "excludeTags": [
+    "ross-business"
+   ],
+   "minGrade": "D-",
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf"
+   ]
+  },
+  {
+   "id": "ross-fy-writing",
+   "label": "First year writing",
+   "hint": "A Sweetland approved LSA first year writing course with a C- or better, completed by the end of the first year.",
+   "need": 1,
+   "countMode": "count",
+   "category": "ross-first-year",
+   "matchTag": "lsa-fywr",
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf"
+   ]
+  },
+  {
+   "id": "ross-fy-econ-101",
+   "label": "ECON 101: Principles of Microeconomics",
+   "hint": "C- or better required. AP credit does not satisfy this, though IB, A level, and transfer credit can. ECON 401 with a C- or better may substitute.",
+   "need": 1,
+   "countMode": "count",
+   "category": "ross-first-year",
+   "matchCodes": [
+    "ECON 101",
+    "ECON 401"
+   ],
+   "excludeTags": [
+    "ap-credit"
+   ],
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf"
+   ]
+  },
+  {
+   "id": "ross-fy-calculus",
+   "label": "Calculus I",
+   "hint": "MATH 115 or MATH 120 with a C- or better by the end of the first year. Higher level calculus courses are also accepted per the BBA bulletin.",
+   "need": 1,
+   "countMode": "count",
+   "category": "ross-first-year",
+   "matchCodes": [
+    "MATH 115",
+    "MATH 120",
+    "MATH 116",
+    "MATH 121",
+    "MATH 215"
+   ],
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf"
+   ]
+  },
+  {
+   "id": "ross-fy-ba-100",
+   "label": "BA 100: Introduction to Ross",
+   "hint": "BA 100 in the first fall for direct admits. Sophomore entrants take BA 102 before matriculating instead.",
+   "need": 1,
+   "countMode": "count",
+   "category": "ross-first-year",
+   "matchCodes": [
+    "BA 100",
+    "BA 102"
+   ],
+   "minGrade": "D-",
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf",
+    "https://rossweb.bus.umich.edu/academics/curriculum/core-curriculum/bba/"
+   ]
+  },
+  {
+   "id": "ross-core-acc-300",
+   "label": "ACC 300: Financial Accounting",
+   "hint": "Fixed core, taken in the prescribed sequence. Winter of year one, or fall of sophomore year for sophomore entrants.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "ACC 300"
+   ],
+   "minGrade": "D-",
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf",
+    "https://rossweb.bus.umich.edu/academics/curriculum/core-curriculum/bba/"
+   ]
+  },
+  {
+   "id": "ross-core-bcom-250",
+   "label": "BCOM 250: Introduction to Business Communication",
+   "hint": "Fixed core, taken in the prescribed sequence. Winter of year one, or fall of sophomore year for sophomore entrants.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "BCOM 250"
+   ],
+   "minGrade": "D-",
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf",
+    "https://rossweb.bus.umich.edu/academics/curriculum/core-curriculum/bba/"
+   ]
+  },
+  {
+   "id": "ross-core-ba-200",
+   "label": "BA 200: Businesses and Leaders: The Positive Difference",
+   "hint": "Fixed core, taken in the prescribed sequence. Sophomore fall.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "BA 200"
+   ],
+   "minGrade": "D-",
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf",
+    "https://rossweb.bus.umich.edu/academics/curriculum/core-curriculum/bba/"
+   ]
+  },
+  {
+   "id": "ross-core-to-301",
+   "label": "TO 301: Business Statistics and Analytics",
+   "hint": "Fixed core, taken in the prescribed sequence. Sophomore fall.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "TO 301"
+   ],
+   "minGrade": "D-",
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf",
+    "https://rossweb.bus.umich.edu/academics/curriculum/core-curriculum/bba/"
+   ]
+  },
+  {
+   "id": "ross-core-acc-301",
+   "label": "ACC 301: Managerial Accounting",
+   "hint": "Fixed core, taken in the prescribed sequence. Sophomore winter.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "ACC 301"
+   ],
+   "minGrade": "D-",
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf",
+    "https://rossweb.bus.umich.edu/academics/curriculum/core-curriculum/bba/"
+   ]
+  },
+  {
+   "id": "ross-core-strategy-290",
+   "label": "STRATEGY 290: Business Strategy",
+   "hint": "Fixed core, taken in the prescribed sequence. Sophomore winter.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "STRATEGY 290"
+   ],
+   "minGrade": "D-",
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf",
+    "https://rossweb.bus.umich.edu/academics/curriculum/core-curriculum/bba/"
+   ]
+  },
+  {
+   "id": "ross-core-bcom-350",
+   "label": "BCOM 350: Professional Communication Strategies",
+   "hint": "Fixed core, taken in the prescribed sequence. Junior fall, part of the Ross Integrative Semester.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "BCOM 350"
+   ],
+   "minGrade": "D-",
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf",
+    "https://rossweb.bus.umich.edu/academics/curriculum/core-curriculum/bba/"
+   ]
+  },
+  {
+   "id": "ross-core-bl-300",
+   "label": "BL 300: Business Law and Ethics",
+   "hint": "Fixed core, taken in the prescribed sequence. Junior fall, part of the Ross Integrative Semester.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "BL 300"
+   ],
+   "minGrade": "D-",
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf",
+    "https://rossweb.bus.umich.edu/academics/curriculum/core-curriculum/bba/"
+   ]
+  },
+  {
+   "id": "ross-core-mo-300",
+   "label": "MO 300: Behavioral Theory in Management",
+   "hint": "Fixed core, taken in the prescribed sequence. Junior fall, part of the Ross Integrative Semester.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MO 300"
+   ],
+   "minGrade": "D-",
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf",
+    "https://rossweb.bus.umich.edu/academics/curriculum/core-curriculum/bba/"
+   ]
+  },
+  {
+   "id": "ross-core-to-313",
+   "label": "TO 313: Operations Management",
+   "hint": "Fixed core, taken in the prescribed sequence. Junior fall, part of the Ross Integrative Semester.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "TO 313"
+   ],
+   "minGrade": "D-",
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf",
+    "https://rossweb.bus.umich.edu/academics/curriculum/core-curriculum/bba/"
+   ]
+  },
+  {
+   "id": "ross-core-strategy-390",
+   "label": "STRATEGY 390: Corporate Strategy",
+   "hint": "Fixed core, taken in the prescribed sequence. Senior fall.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "STRATEGY 390"
+   ],
+   "minGrade": "D-",
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf",
+    "https://rossweb.bus.umich.edu/academics/curriculum/core-curriculum/bba/"
+   ]
+  },
+  {
+   "id": "ross-econ-102",
+   "label": "ECON 102: Principles of Macroeconomics",
+   "hint": "Must be completed and posted to the U-M Ann Arbor transcript before the junior fall core semester. Graded basis if taken at Michigan. ECON 402 may substitute.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "ECON 102",
+    "ECON 402"
+   ],
+   "minGrade": "D-",
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf"
+   ]
+  },
+  {
+   "id": "ross-core-be-300",
+   "label": "BE 300: Applied Economics",
+   "hint": "Floating core, any term from sophomore fall through senior fall, at most one floating core course in sophomore fall. The only waivable core course, via ECON 401 at Michigan with an A- or higher and a waiver form; a waiver grants no credit.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "BE 300"
+   ],
+   "minGrade": "D-",
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf",
+    "https://rossweb.bus.umich.edu/academics/curriculum/core-curriculum/bba/"
+   ]
+  },
+  {
+   "id": "ross-core-fin-300",
+   "label": "FIN 300: Financial Management",
+   "hint": "Floating core, any term from sophomore fall through senior fall, at most one floating core course in sophomore fall.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "FIN 300"
+   ],
+   "minGrade": "D-",
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf",
+    "https://rossweb.bus.umich.edu/academics/curriculum/core-curriculum/bba/"
+   ]
+  },
+  {
+   "id": "ross-core-mkt-300",
+   "label": "MKT 300: Marketing Management",
+   "hint": "Floating core, any term from sophomore fall through senior fall, at most one floating core course in sophomore fall.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MKT 300"
+   ],
+   "minGrade": "D-",
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf",
+    "https://rossweb.bus.umich.edu/academics/curriculum/core-curriculum/bba/"
+   ]
+  },
+  {
+   "id": "ross-core-to-300",
+   "label": "TO 300: Business Information Systems",
+   "hint": "Floating core, any term from sophomore fall through senior fall, at most one floating core course in sophomore fall.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "TO 300"
+   ],
+   "minGrade": "D-",
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf",
+    "https://rossweb.bus.umich.edu/academics/curriculum/core-curriculum/bba/"
+   ]
+  },
+  {
+   "id": "ross-capstone",
+   "label": "BBA capstone course",
+   "hint": "One Ross capstone taken in the winter of your final year, after all fixed and floating core courses. Approved courses per the published capstone list, including the Capstone MAP and the senior thesis seminar.",
+   "need": 1,
+   "countMode": "count",
+   "category": "capstone",
+   "matchCodes": [
+    "ACC 418",
+    "BL 404",
+    "BL 405",
+    "ES 414",
+    "FIN 430",
+    "MKT 470",
+    "MO 437",
+    "TO 412",
+    "TO 433",
+    "TO 435",
+    "BE 435",
+    "TO 465",
+    "BA 453",
+    "BA 480",
+    "ES 402"
+   ],
+   "minGrade": "D-",
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf",
+    "https://rossweb.bus.umich.edu/academics/curriculum/elective-options/bba-capstone-requirement/"
+   ]
+  },
+  {
+   "id": "ross-ilp",
+   "label": "Inclusive Leaders Pathway",
+   "hint": "Still building automatic checking for this rule. The Inclusive Leaders Pathway has four non course milestones embedded in BA 100 or 102, BA 200, the junior integrative semester, and a senior year experience.",
+   "need": 1,
+   "countMode": "count",
+   "category": "other",
+   "manual": true,
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf"
+   ]
+  },
+  {
+   "id": "ross-distribution",
+   "label": "Distribution (complete 3 of 4)",
+   "hint": "Complete three of the four distribution requirements: foreign language, humanities, natural science or math and symbolic analysis, and social science. Ross uses LSA distribution designations.",
+   "need": 3,
+   "countMode": "count",
+   "category": "ross-distribution",
+   "pickFromGroups": [
+    "ross-dist-language",
+    "ross-dist-humanities",
+    "ross-dist-ns-msa",
+    "ross-dist-social-science"
+   ],
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf"
+   ]
+  },
+  {
+   "id": "ross-dist-language",
+   "label": "Foreign language (fourth term proficiency)",
+   "hint": "Fourth term proficiency in a language other than English, shown by completing a fourth term language course. The final course in the sequence must be taken graded.",
+   "need": 1,
+   "countMode": "count",
+   "category": "ross-distribution",
+   "matchTag": "lsa-language",
+   "minGrade": "D-",
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf"
+   ]
+  },
+  {
+   "id": "ross-dist-humanities",
+   "label": "Humanities (9 credits)",
+   "hint": "Nine credits of humanities as designated in the LSA course guide. A fourth or fifth semester of an additional foreign language can also count. AP credit does not count toward distribution.",
+   "need": 9,
+   "countMode": "credits",
+   "category": "ross-distribution",
+   "matchTag": "lsa-humanities",
+   "excludeTags": [
+    "ap-credit"
+   ],
+   "minGrade": "D-",
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf"
+   ]
+  },
+  {
+   "id": "ross-dist-ns-msa",
+   "label": "Natural science or math and symbolic analysis (9 credits)",
+   "hint": "Nine credits of natural science and or mathematical and symbolic analysis courses as designated in the LSA course guide. Calculus counts here. AP credit does not count toward distribution.",
+   "need": 9,
+   "countMode": "credits",
+   "category": "ross-distribution",
+   "matchTag": "ross-ns-msa",
+   "excludeTags": [
+    "ap-credit"
+   ],
+   "minGrade": "D-",
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf"
+   ]
+  },
+  {
+   "id": "ross-dist-social-science",
+   "label": "Social science (9 credits)",
+   "hint": "Nine credits of social science courses as designated in the LSA course guide, excluding ECON 101 and ECON 102. AP credit does not count toward distribution.",
+   "need": 9,
+   "countMode": "credits",
+   "category": "ross-distribution",
+   "matchTag": "ross-ss-dist",
+   "excludeTags": [
+    "ap-credit"
+   ],
+   "minGrade": "D-",
+   "sources": [
+    "https://rossweb.bus.umich.edu/academics/wp-content/uploads/sites/2/2026/05/bbabulletin-2026-2027.pdf"
+   ]
+  }
+ ],
+ "sourceUrl": "https://rossweb.bus.umich.edu/academics/curriculum/core-curriculum/bba/"
+}

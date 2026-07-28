@@ -50,6 +50,9 @@ const MATCH_ALL_WHITELIST = new Set([
   // College of Engineering shared credit totals (RG 9948 boilerplate).
   'coe-total-credits', // 128 total credits, any coursework
   'coe-general-electives', // credits to 128 beyond named requirements
+  // Ross BBA credit splits (matchAll with the business tag excluded IS the rule)
+  'ross-total-credits',
+  'ross-non-business-credits',
 ]);
 
 const VALID_CATEGORIES = new Set([
@@ -68,6 +71,10 @@ const VALID_CATEGORIES = new Set([
   'coe-core',
   'coe-intellectual-breadth',
   'coe-general-electives',
+  // Ross School of Business
+  'ross-credit-min',
+  'ross-first-year',
+  'ross-distribution',
 ]);
 
 /**
