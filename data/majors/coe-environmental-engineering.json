@@ -1,0 +1,531 @@
+{
+ "id": "coe-environmental-engineering",
+ "name": "Environmental Engineering",
+ "school": "College of Engineering",
+ "goalCredits": 128,
+ "requirements": [
+  {
+   "id": "coe-total-credits",
+   "label": "128 Total Credits",
+   "hint": "All College of Engineering BSE programs require 128 credit hours.",
+   "need": 128,
+   "countMode": "credits",
+   "category": "coe-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/rules/graduation/"
+   ]
+  },
+  {
+   "id": "coe-math-115",
+   "label": "MATH 115: Calculus I",
+   "hint": "Part of the 16 credit CoE mathematics core. AP calculus credit counts here automatically. Honors math sequences also satisfy this per the CoE Bulletin, use the adjust control if your credit posted under a different course number.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 115"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-math-116",
+   "label": "MATH 116: Calculus II",
+   "hint": "Part of the 16 credit CoE mathematics core. AP calculus credit counts here automatically. Honors math sequences also satisfy this per the CoE Bulletin, use the adjust control if your credit posted under a different course number.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 116"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-math-215",
+   "label": "MATH 215: Multivariable Calculus",
+   "hint": "Part of the 16 credit CoE mathematics core.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 215"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-math-216",
+   "label": "MATH 216: Differential Equations",
+   "hint": "Part of the 16 credit CoE mathematics core. Some programs substitute a different fourth math course, see your program rows below.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 216"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-chem-130",
+   "label": "CHEM 130: General Chemistry",
+   "hint": "CoE chemistry core. Satisfactory AP chemistry credit or placement into CHEM 210 also meets this per the CoE Bulletin, use the adjust control if that is your case.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "CHEM 130"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-chem-125",
+   "label": "CHEM 125: General Chemistry Lab I",
+   "hint": "CoE chemistry core laboratory.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "CHEM 125"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-chem-126",
+   "label": "CHEM 126: General Chemistry Lab II",
+   "hint": "CoE chemistry core laboratory.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "CHEM 126"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-chem-210",
+   "label": "CHEM 210: Structure and Reactivity I",
+   "hint": "Environmental Engineering requires organic chemistry beyond the CoE chemistry core. This course also appears in the major's technical core in the degree audit.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "CHEM 210"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-chem-211",
+   "label": "CHEM 211: Investigations in Chemistry",
+   "hint": "Organic chemistry laboratory accompanying CHEM 210, required for Environmental Engineering per the CoE Bulletin.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "CHEM 211"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-140",
+   "label": "PHYSICS 140: General Physics I",
+   "hint": "CoE physics core. The honors sequence PHYSICS 160 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 140",
+    "PHYSICS 160"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-141",
+   "label": "PHYSICS 141: Elementary Lab I",
+   "hint": "CoE physics core laboratory. The honors lab PHYSICS 161 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 141",
+    "PHYSICS 161"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-240",
+   "label": "PHYSICS 240: General Physics II",
+   "hint": "CoE physics core. The honors sequence PHYSICS 260 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 240",
+    "PHYSICS 260"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-241",
+   "label": "PHYSICS 241: Elementary Lab II",
+   "hint": "CoE physics core laboratory. The honors lab PHYSICS 261 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 241",
+    "PHYSICS 261"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-engr-100",
+   "label": "ENGR 100: Introduction to Engineering",
+   "hint": "A grade of C or better is required. Transfer students may substitute a course meeting the LSA first year writing requirement.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "ENGR 100"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-engr-101",
+   "label": "ENGR 101: Introduction to Computers and Programming",
+   "hint": "A grade of C or better is required. ENGR 151 is an approved alternative for all CoE programs.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "ENGR 101",
+    "ENGR 151"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-ib-total",
+   "label": "Intellectual Breadth (16 credits)",
+   "hint": "16 credits of liberal arts courses, meaning courses marked HU or SS that are not also marked BS, NS, or QR. ECON 101 and 102 count by explicit exception. Up to 4 credits of approved professional development courses from other U-M schools may also count, use the adjust control to include those.",
+   "need": 16,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "coe-liberal-arts",
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-ib-humanities",
+   "label": "Humanities minimum (3 credits)",
+   "hint": "At least 3 of the 16 Intellectual Breadth credits must be humanities courses. Credit by test cannot be used for this minimum.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "lsa-humanities",
+   "excludeTags": [
+    "lsa-bs",
+    "lsa-natural-sciences",
+    "lsa-qr"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-ib-upper",
+   "label": "Upper level liberal arts minimum (3 credits)",
+   "hint": "At least 3 of the 16 Intellectual Breadth credits must be liberal arts courses at the 300 level or higher. One course may satisfy both this and the humanities minimum.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "coe-liberal-arts-upper",
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-environmental-engineering-economics",
+   "label": "Economics course",
+   "hint": "Environmental Engineering requires one course in economics per the CoE Bulletin. The course may also count toward Intellectual Breadth.",
+   "need": 1,
+   "countMode": "count",
+   "category": "other",
+   "matchTag": "subj-econ",
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-general-electives",
+   "label": "General electives (12 credits)",
+   "hint": "Free elective credits that bring the program to 128 total. Any U-M course counts.",
+   "need": 12,
+   "countMode": "credits",
+   "category": "coe-general-electives",
+   "matchAll": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-residency",
+   "label": "Residency (50 credits at U-M Ann Arbor)",
+   "hint": "Still building automatic checking for this rule. At least 50 credits must be U-M Ann Arbor coursework, including at least 30 credits of 300 level or higher technical courses offered by the College of Engineering in Ann Arbor.",
+   "need": 1,
+   "countMode": "count",
+   "manual": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/rules/graduation/"
+   ]
+  },
+  {
+   "id": "coe-environmental-engineering-cee-373",
+   "label": "CEE 373: Statistical Methods for Data Analysis and Uncertainty Modeling",
+   "hint": "Advanced mathematics requirement for the Environmental Engineering major.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CEE 373"
+   ]
+  },
+  {
+   "id": "coe-environmental-engineering-cee-303",
+   "label": "CEE 303: Computational Methods for Engineers and Scientists",
+   "hint": "Advanced mathematics requirement for the Environmental Engineering major.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CEE 303"
+   ]
+  },
+  {
+   "id": "coe-environmental-engineering-cee-200",
+   "label": "CEE 200: Introduction to Civil and Environmental Engineering",
+   "hint": "Technical core course for the Environmental Engineering major.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CEE 200"
+   ]
+  },
+  {
+   "id": "coe-environmental-engineering-cee-211",
+   "label": "CEE 211: Statics and Dynamics",
+   "hint": "Technical core course for the Environmental Engineering major.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CEE 211"
+   ]
+  },
+  {
+   "id": "coe-environmental-engineering-cee-230",
+   "label": "CEE 230: Thermodynamics and the Environment",
+   "hint": "Technical core course for the Environmental Engineering major.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CEE 230"
+   ]
+  },
+  {
+   "id": "coe-environmental-engineering-cee-265",
+   "label": "CEE 265: Sustainable Engineering Principles",
+   "hint": "Technical core course for the Environmental Engineering major.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CEE 265"
+   ]
+  },
+  {
+   "id": "coe-environmental-engineering-cee-325",
+   "label": "CEE 325: Fluid Mechanics",
+   "hint": "Technical core course for the Environmental Engineering major.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CEE 325"
+   ]
+  },
+  {
+   "id": "coe-environmental-engineering-cee-365",
+   "label": "CEE 365: Environmental Engineering Principles",
+   "hint": "Technical core course for the Environmental Engineering major.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CEE 365"
+   ]
+  },
+  {
+   "id": "coe-environmental-engineering-cee-366",
+   "label": "CEE 366: Environmental Engineering Laboratory",
+   "hint": "Technical core course for the Environmental Engineering major.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CEE 366"
+   ]
+  },
+  {
+   "id": "coe-environmental-engineering-cee-421",
+   "label": "CEE 421: Hydrology and Hydraulics",
+   "hint": "Technical core course for the Environmental Engineering major.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CEE 421"
+   ]
+  },
+  {
+   "id": "coe-environmental-engineering-cee-465",
+   "label": "CEE 465: Environmental Process Engineering",
+   "hint": "Technical core course for the Environmental Engineering major.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CEE 465"
+   ]
+  },
+  {
+   "id": "coe-environmental-engineering-earth-science-elective",
+   "label": "Earth Science Elective",
+   "hint": "One earth science course chosen from the approved CLIMATE and EARTH list in the degree audit.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CLIMATE 320",
+    "CLIMATE 410",
+    "CLIMATE 463",
+    "CLIMATE 475",
+    "EARTH 305",
+    "EARTH 315",
+    "EARTH 321",
+    "EARTH 323",
+    "EARTH 427",
+    "EARTH 442",
+    "EARTH 451",
+    "EARTH 477"
+   ]
+  },
+  {
+   "id": "coe-environmental-engineering-cee-481",
+   "label": "CEE 481: Aquatic Chemistry",
+   "hint": "Environmental sciences requirement. CEE 581 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CEE 481",
+    "CEE 581"
+   ]
+  },
+  {
+   "id": "coe-environmental-engineering-cee-482",
+   "label": "CEE 482: Environmental Microbiology",
+   "hint": "Environmental sciences requirement. CEE 582 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CEE 482",
+    "CEE 582"
+   ]
+  },
+  {
+   "id": "whatif-rq-6790",
+   "label": "CEE 402: Professional Issues and Design",
+   "hint": "Environmental engineering design course required for the major.",
+   "need": 1,
+   "countMode": "count",
+   "category": "capstone",
+   "matchCodes": [
+    "CEE 402"
+   ]
+  },
+  {
+   "id": "whatif-rq-6791",
+   "label": "Technical electives (9 credits)",
+   "hint": "Still building automatic checking for this rule. Nine credits of technical electives are required from department approved lists in Earth Systems, Energy and Sustainable Infrastructure, Environmental Fluid Dynamics, Environmental Policy and Entrepreneurship, or Water Quality and Health.",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "manual": true,
+   "sources": [
+    "https://cee.engin.umich.edu/academics/undergraduate/"
+   ]
+  },
+  {
+   "id": "coe-environmental-engineering-te-cee-minimum",
+   "label": "Technical electives: two of three from CEE",
+   "hint": "Still building automatic checking for this rule. At least two of the three technical elective courses must be CEE courses.",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "manual": true,
+   "sources": [
+    "https://cee.engin.umich.edu/academics/undergraduate/"
+   ]
+  },
+  {
+   "id": "coe-environmental-engineering-te-design",
+   "label": "Technical elective design course",
+   "hint": "One of the three technical electives must be a design course, chosen from CEE 428, 480, 526, 563, or 564 elected in Fall 2023 or later.",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "matchCodes": [
+    "CEE 428",
+    "CEE 480",
+    "CEE 526",
+    "CEE 563",
+    "CEE 564"
+   ]
+  }
+ ],
+ "sourceUrl": "https://cee.engin.umich.edu/academics/undergraduate/"
+}

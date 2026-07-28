@@ -47,6 +47,9 @@ const MATCH_ALL_WHITELIST = new Set([
   'whatif-rq-6890', // Interdisciplinary Astronomy 31-credit total
   'whatif-rq-4094', // Interdisciplinary Physics 26-credit total
   'whatif-rq-2845', // Environment 32-credit total
+  // College of Engineering shared credit totals (RG 9948 boilerplate).
+  'coe-total-credits', // 128 total credits, any coursework
+  'coe-general-electives', // credits to 128 beyond named requirements
 ]);
 
 const VALID_CATEGORIES = new Set([
@@ -60,6 +63,11 @@ const VALID_CATEGORIES = new Set([
   'electives',
   'major-credit-min',
   'other',
+  // College of Engineering
+  'coe-credit-min',
+  'coe-core',
+  'coe-intellectual-breadth',
+  'coe-general-electives',
 ]);
 
 /**
@@ -74,6 +82,23 @@ const KNOWN_CATALOG_GAPS = new Set([
   'polish-literature', // POLISH 325/326/432 not offered FA26/WN26
   'whatif-rq-5346', // Polish 27cr total; 2cr short with current term offerings
   'russian-core-451-499', // RUSSIAN 451/499 not offered FA26/WN26
+  'coe-engr-100', // ENGR 100 absent from the LSA CG scrape (CoE-only intro course)
+  // Space Sciences & Engineering program subjects absent from the LSA CG scrape
+  'coe-space-sciences-and-engineering-space-462',
+  'coe-space-sciences-and-engineering-space-478',
+  'coe-space-sciences-and-engineering-space-405',
+  // Robotics core courses absent from the LSA CG scrape (ROB subject barely covered)
+  'whatif-rq-11860', // ROB 204
+  'whatif-rq-11861', // ROB 310/311/314/320/330/340 core
+  // Climate & Meteorology courses absent from the FA26/WN26 LSA CG scrape
+  // (alternate-year and CoE-only CLIMATE offerings, verified on CLaSP + bulletin)
+  'coe-climate-and-meteorology-climate-324',
+  'coe-climate-and-meteorology-climate-423',
+  'coe-climate-and-meteorology-climate-455',
+  'coe-climate-and-meteorology-met-climate-463',
+  'coe-climate-and-meteorology-met-climate-485',
+  'coe-climate-and-meteorology-csi-climate-473',
+  'coe-climate-and-meteorology-csi-climate-change',
 ]);
 
 const allTags = new Set<string>();
@@ -153,6 +178,9 @@ function validateMajor(major: Major): Issue[] {
     }
     if (r.category && !VALID_CATEGORIES.has(r.category)) {
       push('WARN', r.id, `unknown category '${r.category}'`);
+    }
+    if (r.minGrade !== undefined && !/^[A-D][+-]?$/.test(r.minGrade)) {
+      push('ERROR', r.id, `minGrade '${r.minGrade}' is not a letter grade`);
     }
 
     const kinds = [

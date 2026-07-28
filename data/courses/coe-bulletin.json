@@ -1,0 +1,8663 @@
+{
+ "source": "bulletin.engin.umich.edu/courses via Internet Archive",
+ "courses": [
+  {
+   "code": "AERO 101",
+   "title": "Heritage and Values of the United States Air Force I",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "AERO 102",
+   "title": "Heritage and Values of the United States Air Force II",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "AERO 201",
+   "title": "Team and Leadership Fundamentals I",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "AERO 202",
+   "title": "Team and Leadership Fundamentals II",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "AERO 310",
+   "title": "Leading People and Effective Communication I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AERO 311",
+   "title": "Leading People and Effective Communication II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AERO 410",
+   "title": "National Security Affairs/Preparation for Active Duty I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AERO 411",
+   "title": "National Security Affairs/Preparation for Active Duty II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 200",
+   "title": "Introduction to the Aerospace Enterprise",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 201",
+   "title": "Introduction to Aerospace Engineering",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 205",
+   "title": "Introduction to Aerospace Engineering Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 215",
+   "title": "Introduction to Solid Mechanics and Aerospace Structures",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 225",
+   "title": "Introduction to Gas Dynamics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 290",
+   "title": "Directed Study",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 305",
+   "title": "Aerospace Engineering Laboratory I",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 315",
+   "title": "Aircraft/Spacecraft Structures",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 325",
+   "title": "Aerodynamics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 335",
+   "title": "Aircraft and Spacecraft Propulsion",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 341",
+   "title": "Aircraft Dynamics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 343",
+   "title": "Spacecraft Dynamics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 350",
+   "title": "Fundamentals of Aerospace Computing",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 384",
+   "title": "Introduction to Solid Modeling and CAD",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 388",
+   "title": "Systems Engineering Processes and Digital Tools (MBSE)",
+   "credits": 7,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 390",
+   "title": "Directed Study",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 405",
+   "title": "Aerospace Laboratory II",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 416",
+   "title": "Theory of Plates and Shells",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 421",
+   "title": "Engineering Aerodynamics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 423",
+   "title": "Computational Methods for Aerospace Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 445",
+   "title": "Flight Dynamics of Aerospace Vehicles",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 447",
+   "title": "Flight Testing",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 450",
+   "title": "Flight Software Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 470",
+   "title": "Control of Aerospace Vehicles",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 481",
+   "title": "Aircraft Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 483",
+   "title": "Space System Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 484",
+   "title": "Computer Aided Des",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 488",
+   "title": "Product Development Leadership",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 490",
+   "title": "Directed Study",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 495",
+   "title": "Special Topics in Aerospace Engineering",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 501",
+   "title": "Aerospace Economics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 502",
+   "title": "Aerospace Leadership Capstone",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 505",
+   "title": "Engineering Tools & Methods",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 510",
+   "title": "Finite Elements in Mechanical and Structural Analysis I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 511",
+   "title": "Finite Elements in Mechanical and Structural Analysis II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 512",
+   "title": "Experimental Solid Mechanics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 513",
+   "title": "Foundations of Solid and Structural Mechanics I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 514",
+   "title": "Foundations of Solid and Structural Mechanics II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 515",
+   "title": "Mechanics of Composite and Microstructured Media",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 516",
+   "title": "Mechanics of Fibrous Composites",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 518",
+   "title": "Theory of Elastic Stability I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 520",
+   "title": "Compressible Flow I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 521",
+   "title": "Experimental Methods in Fluid Mechanics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 522",
+   "title": "Viscous Flow",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 523",
+   "title": "Computational Fluid Dynamics I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 524",
+   "title": "Aerodynamics II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 525",
+   "title": "Introduction to Turbulent Flows",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 526",
+   "title": "Hypersonic Aerothermodynamics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 527",
+   "title": "Unsteady Aerodynamics and Aeroacoustics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 530",
+   "title": "Gas-Turbine Propulsion",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 532",
+   "title": "Molecular Gas Dynamics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 535",
+   "title": "Rocket Propulsion",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 536",
+   "title": "Electric Propulsion",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 540",
+   "title": "Intermediate Dynamics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 543",
+   "title": "Structural Dynamics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 544",
+   "title": "Introduction to Aeroelasticity",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 545",
+   "title": "Aeromechanics of Rotary Wing Vehicles",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 548",
+   "title": "Astrodynamics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 549",
+   "title": "Orbital Analysis",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 550",
+   "title": "(ECE 560) (MECHENG 564). Linear Systems Theory",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 551",
+   "title": "Nonlinear Systems and Control",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 552",
+   "title": "Aerospace Information Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 566",
+   "title": "Data Analysis and System Identification",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 567",
+   "title": "Inference, Estimation, and Learning",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 568",
+   "title": "Computational Methods for Engineered Systems Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 573",
+   "title": "Spacecraft Attitude Dynamics and Control",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 574",
+   "title": "Introduction to Space Physics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 577",
+   "title": "Data-driven & Reduced Complexity Modeling",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 579",
+   "title": "Control of Structures and Fluids",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 580",
+   "title": "Linear-Quadratic Feedback Control",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 581",
+   "title": "Space Policy and Management",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 582",
+   "title": "Spacecraft Technology",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 583",
+   "title": "Management of Space Systems Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 584",
+   "title": "Avionics, Navigation and Guidance of Aerospace Vehicles",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 585",
+   "title": "Aerospace Engineering Seminar",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 586",
+   "title": "Air Transportation Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 588",
+   "title": "Multidisciplinary Design Optimization",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 590",
+   "title": "Directed Study",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 597",
+   "title": "Fundamentals of Space Plasma Physics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 611",
+   "title": "Advanced Topics in Finite Element Structural Analysis",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 614",
+   "title": "Advanced Theory of Plates and Shells",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 618",
+   "title": "Theory of Elastic Stability II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 623",
+   "title": "Computational Fluid Dynamics II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 625",
+   "title": "Advanced Topics in Turbulent Flow",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 627",
+   "title": "Advanced Gas Dynamics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 633",
+   "title": "Advanced Combustion",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 638",
+   "title": "Aerodynamic Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 650",
+   "title": "Aerospace Enterprise Leadership",
+   "credits": 1.5,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 656",
+   "title": "Technical Project Management & Leadership Skills for Engineers",
+   "credits": 1.5,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 690",
+   "title": "Financial Analysis for Non-Finance Managers",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 714",
+   "title": "Special Topics in Structural Mechanics",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 729",
+   "title": "Special Topics in Gas Dynamics",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 740",
+   "title": "Special Topics in Flight Dynamics and Control Systems",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 800",
+   "title": "Seminar",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 820",
+   "title": "Seminar in Aerodynamics",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 840",
+   "title": "Dynamics and Control Systems",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 990",
+   "title": "Dissertation/Pre-Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "AEROSP 995",
+   "title": "Dissertation/Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "AMES 495",
+   "title": "Introduction to Bioengineering",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "ANTHRARC 281",
+   "title": "Making Things: Three Million Years of Materials and Culture",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "APPPHYS 514",
+   "title": "Applied Physics Seminar",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "APPPHYS 524",
+   "title": "Organic Electronic Devices and Applications",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "APPPHYS 530",
+   "title": "Electromagnetic Theory I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "APPPHYS 537",
+   "title": "Classical Optics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "APPPHYS 540",
+   "title": "Applied Quantum Mechanics I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "APPPHYS 541",
+   "title": "Applied Quantum Mechanics II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "APPPHYS 546",
+   "title": "Ultrafast Optics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "APPPHYS 552",
+   "title": "Fiber Optical Communications",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "APPPHYS 601",
+   "title": "Advanced Condensed Matter",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "APPPHYS 619",
+   "title": "Advanced Solid State Physics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "APPPHYS 633",
+   "title": "Fluid Dynamics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "APPPHYS 639",
+   "title": "Heat Transfer Physics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "APPPHYS 644",
+   "title": "Advanced Atomic Physics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "APPPHYS 672",
+   "title": "Intermediate Plasma Physics II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "APPPHYS 674",
+   "title": "High-Intensity Laser Plasma Interactions",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ASTRO 183",
+   "title": "Intro Space Weather",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ASTRO 261",
+   "title": "Navigation",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AUTO 503",
+   "title": "Automotive Engineering Project",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "AUTO 512",
+   "title": "Lean Program Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AUTO 514",
+   "title": "Vehicle Crashworthiness and Occupant Protection",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AUTO 522",
+   "title": "Systems Engineering Architecture and Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AUTO 533",
+   "title": "Advanced Energy Solutions",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AUTO 541",
+   "title": "Fundamentals of Vehicle Dynamics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AUTO 562",
+   "title": "Modeling Analysis of Vehicle Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AUTO 563",
+   "title": "Dynamics and Controls of Automatic Transmissions",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AUTO 566",
+   "title": "Modeling, Analysis, and Control of Hybrid Electric Vehicles",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AUTO 599",
+   "title": "Special Topics in Automotive Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 211",
+   "title": "Circuits and Systems for Biomedical Engineering.",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 221",
+   "title": "Biophysical Chemistry and Thermodynamics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 231",
+   "title": "Introduction to Biomechanics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 241",
+   "title": "Statistics, Computation, and Data Analysis for Biomedical Engineers",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 295",
+   "title": "Biomedical Engineering Seminar",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 311",
+   "title": "Biomedical Signals and Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 321",
+   "title": "Bioreaction Engineering and Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 331",
+   "title": "Introduction to Biofluid Mechanics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 332",
+   "title": "Introduction to Biosolid Mechanics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 350",
+   "title": "Introduction to Biomedical Engineering Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 417",
+   "title": "Electrical Biophysics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 418",
+   "title": "Quantitative Cell Biology",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 419",
+   "title": "Quantitative Physiology",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 424",
+   "title": "Engineering Acoustics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 430",
+   "title": "Rehabilitation Engineering and Assistive Technology",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 442",
+   "title": "Introduction to Biomedical Imaging",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 450",
+   "title": "Biomedical Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 451",
+   "title": "Biomedical Engineering Design, Part I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 452",
+   "title": "Biomedical Engineering Design, Part II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 456",
+   "title": "Modeling in Biosolid Mechanics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 458",
+   "title": "Biomedical Instrumentation and Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 464",
+   "title": "Inverse Problems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 474",
+   "title": "Introduction to Tissue Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 476",
+   "title": "Biofluid Mechanics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 479",
+   "title": "Biotransport",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 484",
+   "title": "Radiological Health Engineering Fundamentals",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 490",
+   "title": "Directed Research",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 495",
+   "title": "Introduction to Bioengineering",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 499",
+   "title": "Special Topics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 500",
+   "title": "Biomedical Engineering Seminar",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 502",
+   "title": "Professional Skills for Graduate Success",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 503",
+   "title": "Statistical Methods for Biomedical Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 506",
+   "title": "Computational Modeling of Biological Tissues",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 510",
+   "title": "Medical Imaging Laboratory",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 514",
+   "title": "Systems Biology of Human Disease",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 516",
+   "title": "Medical Imaging Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 517",
+   "title": "Sensing & Machine Learning for Neural Interfaces",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 519",
+   "title": "Quantitative Physiology",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 522",
+   "title": "Biomembranes: Transport and Signaling",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 525",
+   "title": "Cellular and Molecular Networks",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 527",
+   "title": "Current Topics in Neuromodulation",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 530",
+   "title": "Rehabilitation Engineering and Assistive Technology Laboratory",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 533",
+   "title": "Neuromechanics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 537",
+   "title": "Computational Tools for Genomic Technologies",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 550",
+   "title": "Ethics and Enterprise",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 552",
+   "title": "Biomedical Optics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 556",
+   "title": "Molecular and Cellular Biomechanics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 561",
+   "title": "Biological Micro-and Nanotechnology",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 563",
+   "title": "(MATSCIE 563) Biomolecular Engineering of Interfaces",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 574",
+   "title": "Cells in Their Environment",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 580",
+   "title": "Computation Projects in Radiation Imaging",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 582",
+   "title": "Medical Radiological Health Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 588",
+   "title": "Global Quality Systems and Regulatory Innovation",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 590",
+   "title": "Directed Research",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 591",
+   "title": "Thesis",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 594",
+   "title": "Recent Advances in Polymer Therapeutics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 599",
+   "title": "Special Topics I, II",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 616",
+   "title": "Analysis of Chemical Signaling",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 651",
+   "title": "Biomedical Engineering Product Realization Practicum I",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 652",
+   "title": "Biomedical Engineering Product Realization Practicum II",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 653",
+   "title": "Quality Systems, Risk Management, & Regulatory Structures I",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 654",
+   "title": "Quality Systems, Risk Management, & Regulatory Structures II",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 655",
+   "title": "Professional & Leadership Development I",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 656",
+   "title": "Professional & Leadership Development II",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 657",
+   "title": "Advanced Topics in Medical Product Development I",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 658",
+   "title": "Advanced Topics in Medical Product Development II",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 990",
+   "title": "Dissertation/Pre-Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "BIOMEDE 995",
+   "title": "Dissertation/Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "CEE 200",
+   "title": "Introduction to Civil and Environmental Engineering",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "CEE 211",
+   "title": "Statics and Dynamics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CEE 212",
+   "title": "Solid and Structural Mechanics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 230",
+   "title": "Thermodynamics and the Environment",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 265",
+   "title": "Sustainable Engineering Principles",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 303",
+   "title": "Computational Methods of Engineering and Scientists",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CEE 307",
+   "title": "Sustainable Cities",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 312",
+   "title": "Structural Engineering",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CEE 325",
+   "title": "Fluid Mechanics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CEE 331",
+   "title": "Construction Management",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CEE 345",
+   "title": "Geotechnical Engineering",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CEE 351",
+   "title": "Civil Engineering Materials",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CEE 365",
+   "title": "Environmental Engineering Principles",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CEE 366",
+   "title": "Environmental Engineering Laboratory",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 373",
+   "title": "Statistical Methods for Data Analysis and Uncertainty Modeling",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 375",
+   "title": "Sensors, Circuits, and Signals",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 402",
+   "title": "Professional Issues and Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CEE 412",
+   "title": "Matrix Structural Analysis",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 413",
+   "title": "Design of Metal Structures",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 415",
+   "title": "Design of Reinforced Concrete Structures",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 421",
+   "title": "Hydrology and Floodplain Hydraulics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CEE 428",
+   "title": "Groundwater Hydrology",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 430",
+   "title": "Special Problems in Construction Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 435",
+   "title": "Building Information Modeling",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 446",
+   "title": "Engineering Geology & Site Characterization",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 450",
+   "title": "Introduction to Transportation Engineering",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CEE 465",
+   "title": "Environmental Process Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 480",
+   "title": "Design of Environmental Engineering Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 481",
+   "title": "Aquatic Chemistry",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 482",
+   "title": "Environmental Microbiology",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 490",
+   "title": "Independent Study in Civil and Environmental Engineering",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CEE 500",
+   "title": "Environmental Systems and Processes I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 503",
+   "title": "Infrastructure Project Finance",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 504",
+   "title": "Engineering Economics and Finance",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 505",
+   "title": "Infrastructure Finance Internship",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "CEE 509",
+   "title": "Theory of Elasticity",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 510",
+   "title": "Finite Element Methods in Solid and Structural Mechanics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 511",
+   "title": "Dynamics of Structures",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 512",
+   "title": "Nonlinear Analysis of Structures",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 513",
+   "title": "Plastic Analysis and Design of Frames",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 514",
+   "title": "Prestressed Concrete",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 515",
+   "title": "Advanced Design of Reinforced Concrete Structures",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 516",
+   "title": "Bridge Structures",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 517",
+   "title": "Reliability of Structures",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 518",
+   "title": "Deployable and Reconfigurable Structures",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 519",
+   "title": "Hybrid and Composite Structures",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 520",
+   "title": "Physical Processes of Land-Surface Hydrology",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 521",
+   "title": "Flow in Open Channels",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 522",
+   "title": "Sediment Transport",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 524",
+   "title": "Restoration Fundamentals and Practice in Aquatic Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 525",
+   "title": "Environmental Turbulence",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 526",
+   "title": "Design of Hydraulic Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 527",
+   "title": "Flood, Tsunami, and Hurricane Hydraulics, Damage, and Countermeasures",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 530",
+   "title": "Construction Professional Practice",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 531",
+   "title": "Construction Cost Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 532",
+   "title": "Advanced Construction Project Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 533",
+   "title": "Engineering Process Modeling and Risk Analysis",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 534",
+   "title": "Construction Engineering, Equipment, and Methods",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 535",
+   "title": "Excavation and Tunneling",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 536",
+   "title": "Project Planning Scheduling and Control",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 537",
+   "title": "Construction of Buildings",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 538",
+   "title": "Computer-aided Project Management",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "CEE 539",
+   "title": "Modern Construction Management",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 540",
+   "title": "Advanced Soil Mechanics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 541",
+   "title": "Soil Sampling and Testing",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 543",
+   "title": "Numerical Modeling in Geotechnical Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 544",
+   "title": "Rock Mechanics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 545",
+   "title": "Foundation Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 546",
+   "title": "Slopes, Dams and Retaining Structures",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 547",
+   "title": "Soils Engineering and Pavement Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 548",
+   "title": "Geotechnical Earthquake Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 549",
+   "title": "Geoenvironmental Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 550",
+   "title": "Quality Control of Construction Materials",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 551",
+   "title": "Traffic Science",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 552",
+   "title": "Travel Behavior Analysis and Forecasting",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 553",
+   "title": "Infrastructure Systems Optimization",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 554",
+   "title": "Machine Learning for Infrastructure Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 555",
+   "title": "Sustainability of Civil Infrastructure Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 556",
+   "title": "Economics of Transportation Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 557",
+   "title": "Large-scale Transportation Systems Optimization",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 558",
+   "title": "Urban Traffic Operations",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 559",
+   "title": "Transportation Network Modeling",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 563",
+   "title": "Air Quality Engineering Fundamentals",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 565",
+   "title": "(ESENG 501) Seminars on Energy Systems Technology and Policy",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 567",
+   "title": "Energy Infrastructure Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 568",
+   "title": "Decentralized Water Supply, Hygiene and Sanitation",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 571",
+   "title": "(ECE 560) (MECHENG 564). Linear Systems Theory",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CEE 572",
+   "title": "Dynamic Infrastructure Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 573",
+   "title": "Data Analysis in Civil and Environmental Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 575",
+   "title": "Sensors, Data, and Automation",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 576",
+   "title": "Stochastic Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 577",
+   "title": "Dynamics and Control of Connected Vehicles",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 580",
+   "title": "Physicochemical Processes in Environmental Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 581",
+   "title": "Aquatic Chemistry",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 582",
+   "title": "Environmental Microbiology",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 586",
+   "title": "Industrial Ecology",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CEE 588",
+   "title": "Resiliency Finance: Financing Models and Risk Management for Green Transition Strategies",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 589",
+   "title": "Risk and Benefit Analysis in Environmental Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 590",
+   "title": "Stream, Lake, and Estuary Analysis",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 591",
+   "title": "Environmental Fluid Mechanics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 592",
+   "title": "Biological Processes in Environmental Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 593",
+   "title": "Environmental Soil Physics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 594",
+   "title": "Environmental Soil Chemistry",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 596",
+   "title": "Chemical Fate and Transport",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 597",
+   "title": "Environmental Organic Chemistry",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 611",
+   "title": "Performance-Based Earthquake Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 613",
+   "title": "Metal Structural Members",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 614",
+   "title": "Advanced Prestressed Concrete",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 615",
+   "title": "Reinforced Concrete Members",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 616",
+   "title": "Passive Control of Structural Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 621",
+   "title": "Free Surface Flow",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 622",
+   "title": "Special Problems in Hydraulic Engineering or Hydrology",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "CEE 630",
+   "title": "Directed Studies in Construction Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 631",
+   "title": "Construction Decisions Under Uncertainty",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 645",
+   "title": "Theoretical Soil Mechanics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 648",
+   "title": "Dynamics of Soils and Foundations",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 649",
+   "title": "Civil Engineering Vibrations Laboratory",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "CEE 650",
+   "title": "Advanced Fiber Reinforced Concrete for Sustainable Infrastructure",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 651",
+   "title": "Directed Studies in Civil Engineering Materials",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 679",
+   "title": "Infrastructure Systems Project",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 682",
+   "title": "Special Problems in Environmental Engineering",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "CEE 693",
+   "title": "Environmental Molecular Biology",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CEE 810",
+   "title": "Special Topics in Structures and Materials",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "CEE 812",
+   "title": "Structural Engineering Graduate Seminar",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "CEE 830",
+   "title": "Construction Engineering and Management Seminar",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "CEE 840",
+   "title": "Geotechnical Engineering Seminar",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "CEE 850",
+   "title": "Next-Generation Transportation Systems Seminar",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "CEE 880",
+   "title": "Seminar in Environmental and Water Resources Engineering",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "CEE 881",
+   "title": "Environmental and Water Resources Engineering Seminar",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "CEE 910",
+   "title": "Structural Engineering Research",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "CEE 921",
+   "title": "Hydraulic and Hydrological Engineering Research",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "CEE 930",
+   "title": "Construction Engineering Research",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "CEE 946",
+   "title": "Soil Mechanics Research",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "CEE 950",
+   "title": "Structural Materials Research",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "CEE 955",
+   "title": "Transportation Systems Engineering Research",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "CEE 970",
+   "title": "Infrastructure Systems Engineering Research",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "CEE 975",
+   "title": "Hazards, Risk, and Resilience",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "CEE 980",
+   "title": "Research in Environmental Engineering",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "CEE 990",
+   "title": "Dissertation/Pre-Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "CEE 995",
+   "title": "Dissertation/Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "CHE 200",
+   "title": "Chemical Engineering: What, Why, How",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "CHE 230",
+   "title": "Introduction to Material and Energy Balances",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CHE 290",
+   "title": "Directed Study, Research, and Special Problems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CHE 296",
+   "title": "Special Topics in Chemical Engineering",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CHE 330",
+   "title": "Chemical and Engineering Thermodynamics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CHE 341",
+   "title": "Fluid Mechanics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CHE 342",
+   "title": "Mass and Heat Transfer",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CHE 343",
+   "title": "Separation Processes",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CHE 344",
+   "title": "Reaction Engineering and Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CHE 360",
+   "title": "Chemical Engineering Laboratory I",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CHE 407",
+   "title": "Process Safety Risk",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "CHE 431",
+   "title": "Engineering Statistics and Problem Solving",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 444",
+   "title": "Applied Chemical Kinetics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 460",
+   "title": "Chemical Engineering Laboratory II",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CHE 466",
+   "title": "Process Dynamics and Control",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 470",
+   "title": "Colloids and Interfaces",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 472",
+   "title": "Polymer Science and Engineering",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CHE 485",
+   "title": "Chemical Engineering Process Economics",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "CHE 487",
+   "title": "Process Simulation and Design",
+   "credits": 5,
+   "tags": []
+  },
+  {
+   "code": "CHE 488",
+   "title": "Chemical Product Design I",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "CHE 489",
+   "title": "Chemical Product Design II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 490",
+   "title": "Advanced Directed Study, Research and Special Problems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CHE 496",
+   "title": "Advanced Special Topics in Chemical Engineering",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "CHE 497",
+   "title": "Special Topics in Chemical Engineering",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "CHE 501",
+   "title": "(ESENG 501) Seminars on Energy Systems Technology and Policy",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 504",
+   "title": "Fuel Cells and Fuel Processors",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 505",
+   "title": "Applied Mathematics for Chemical Engineers",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 510",
+   "title": "Mathematical Methods in Chemical Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 511",
+   "title": "(MATSCIE 511). Rheology of Polymeric Materials",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 512",
+   "title": "(MATSCIE 512). Physical Polymers",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 516",
+   "title": "Applied Pharmacokinetics and Toxicokinetics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 517",
+   "title": "Biopharmaceutical Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 519",
+   "title": "Pharmaceutical Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 520",
+   "title": "Population Pharmacokinetics",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "CHE 527",
+   "title": "Fluid Flow",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 528",
+   "title": "Chemical Reactor Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 531",
+   "title": "Introduction to Chemoinformatics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 538",
+   "title": "Statistical and Irreversible Thermodynamics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 540",
+   "title": "Mathematical Methods for Biological Network Analysis",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 542",
+   "title": "Intermediate Transport Phenomena",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 543",
+   "title": "Advanced Separation Processes",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 548",
+   "title": "Electrochemical Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 554",
+   "title": "Computational Methods in MATSCIE and CHE",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 557",
+   "title": "Computational Nanoscience of Soft Matter",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 563",
+   "title": "(MATSCIE 563) Biomolecular Engineering of Interfaces",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 568",
+   "title": "Fuel Cells and Fuel Processors",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 574",
+   "title": "Engineering Principles in Drug Delivery and Targeting",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 578",
+   "title": "Molecular Heterogeneous Catalysis and Electro-Catalysis",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 588",
+   "title": "Global Quality Systems and Regulatory Innovation",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "CHE 590",
+   "title": "Resiliency Finance: Financing Models and Risk Management for Green Transition Strategies",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 595",
+   "title": "Chemical Engineering Research Survey",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "CHE 597",
+   "title": "Regulatory Issues for Scientists, Engineers, and Managers",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "CHE 598",
+   "title": "Advanced Special Topics in Chemical Engineering",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CHE 601",
+   "title": "Chemical Engineering Seminar",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "CHE 606",
+   "title": "Microfluidic Science and Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 616",
+   "title": "Analysis of Chemical Signaling",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 617",
+   "title": "Advanced Biochemical Technology",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 628",
+   "title": "Industrial Catalysis",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 629",
+   "title": "Complex Fluids",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHE 695",
+   "title": "Research Problems in Chemical Engineering",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "CHE 696",
+   "title": "Selected Topics in Chemical Engineering",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "CHE 697",
+   "title": "Problems in Chemical Engineering",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "CHE 698",
+   "title": "Directed Study in Chemical Engineering",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "CHE 990",
+   "title": "Dissertation/Pre-Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "CHE 995",
+   "title": "Dissertation/Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "CHEM 511",
+   "title": "Materials Chemistry",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHEM 518",
+   "title": "Organometallic Chemistry",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHEM 535",
+   "title": "Physical Chemistry of Macromolecules",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHEM 536",
+   "title": "Laboratory in Macromolecular Chemistry",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "CHEM 538",
+   "title": "Organic Chemistry of Macromolecules",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CHEM 567",
+   "title": "Chemical Dynamics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 110",
+   "title": "Climate and Space Science and Engineering Seminar",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 205",
+   "title": "Special Topics in Climate and Space",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 324",
+   "title": "Instrumentation for Atmospheric and Space Science",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 401",
+   "title": "Geophysical Fluid Dynamics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 405",
+   "title": "Special Topics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 407",
+   "title": "Mathematical Methods in Geophysics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 410",
+   "title": "Earth System Modeling",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 411",
+   "title": "Cloud and Precipitation Processes",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 414",
+   "title": "Weather Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 421",
+   "title": "(ENVIRON 426). Introduction of Physical Oceanography",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 422",
+   "title": "Boundary Layer Meteorology",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 423",
+   "title": "Data Analysis and Visualization for Geoscientists",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 440",
+   "title": "Meteorological Analysis Laboratory",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 455",
+   "title": "Senior Capstone Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 463",
+   "title": "Air Pollution Meteorology",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 466",
+   "title": "Carbon-Climate Interaction",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 473",
+   "title": "Climate Physics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 474",
+   "title": "Ice Sheets, Glaciers and Climate Change",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 479",
+   "title": "Atmospheric Chemistry",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 480",
+   "title": "Climate Change: A Multidisciplinary Approach to Problem Solving",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 485",
+   "title": "Principles and Applications of Remote Sensing",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 498",
+   "title": "Practicum in Climate and Space Science",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 499",
+   "title": "Directed Study",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 501",
+   "title": "Seminars in Climate, Atmospheres and Space Sciences",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 524",
+   "title": "General Circulation",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 530",
+   "title": "Using Climate-Change Knowledge in Planning and Design",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 532",
+   "title": "Radiative Transfer",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 551",
+   "title": "Fluid Dynamics for Climate and Space Sciences",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 565",
+   "title": "Planetary Science",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 567",
+   "title": "Chemical Dynamics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 585",
+   "title": "Inverse Methods for Remote Sensing",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 586",
+   "title": "Advanced Data Analysis Techniques",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 588",
+   "title": "Regional Scale Climate",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 589",
+   "title": "The Art of Climate Modeling",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 591",
+   "title": "Climate Practicum I",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 592",
+   "title": "Climate Practicum II",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 605",
+   "title": "Current Topics in Climate and Space Sciences and Engineering",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 690",
+   "title": "Thesis/Master of Science",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 701",
+   "title": "Special Problems in Climate and Space Sciences",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 746",
+   "title": "CLaSP Graduate Professional Development",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 747",
+   "title": "Proposal Development",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 748",
+   "title": "Student Presentation",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 749",
+   "title": "CLaSP Seminar",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 990",
+   "title": "Dissertation/Pre-Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "CLIMATE 995",
+   "title": "Dissertation/Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "CSE 543",
+   "title": "Ethics for AI and Robotics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CSE 547",
+   "title": "Incentives and Strategic Behavior in Computational Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CSE 548",
+   "title": "Information Visualization",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CSE 549",
+   "title": "Information Retrieval",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CSE 572",
+   "title": "Randomness and Computation",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CSE 574",
+   "title": "Computational Complexity",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CSE 575",
+   "title": "Advanced Cryptography",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CSE 576",
+   "title": "Advanced Data Mining",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CSE 577",
+   "title": "Formal Verification of Hardware and Software Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CSE 582",
+   "title": "Advanced Operating Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CSE 583",
+   "title": "Advanced Compilers",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CSE 584",
+   "title": "Advanced Database Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CSE 585",
+   "title": "Advanced Scalable Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CSE 586",
+   "title": "Design and Analysis of Algorithms",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CSE 588",
+   "title": "Computer and Network Security",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CSE 589",
+   "title": "Advanced Computer Networks",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CSE 590",
+   "title": "Advanced Programming Languages",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CSE 591",
+   "title": "Distributed Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CSE 592",
+   "title": "Foundations of Artificial Intelligence",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CSE 593",
+   "title": "Human-Computer Interaction",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CSE 594",
+   "title": "Human-AI Interaction & Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CSE 596",
+   "title": "Engineering Interactive Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CSE 598",
+   "title": "Special Topics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CSE 599",
+   "title": "Directed Study",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CSE 601",
+   "title": "Introduction to CSE Graduate Research",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "CSE 643",
+   "title": "Theory of Neural Computation",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CSE 644",
+   "title": "Computational Modeling of Cognition",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CSE 670",
+   "title": "Special Topics in Computer Architecture",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CSE 692",
+   "title": "Advanced Artificial Intelligence",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "CSE 695",
+   "title": "Neural Models and Psychological Processes",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "CSE 698",
+   "title": "Master's Thesis",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "CSE 699",
+   "title": "Research Work in CSE",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "CSE 990",
+   "title": "Dissertation/Pre-Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "CSE 995",
+   "title": "Dissertation/Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "EARTH 370",
+   "title": "Solar-Terrestrial Relations",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EARTH 401",
+   "title": "Geophysical Fluid Dynamics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EARTH 409",
+   "title": "Earth System Modeling",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EARTH 411",
+   "title": "Cloud and Precipitation Processes",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EARTH 414",
+   "title": "Weather Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EARTH 421",
+   "title": "(ENVIRON 426). Introduction of Physical Oceanography",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EARTH 423",
+   "title": "Boundary Layer Meteorology",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EARTH 454",
+   "title": "Meteorological Analysis Laboratory",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EARTH 474",
+   "title": "Ice Sheets, Glaciers and Climate Change",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EARTH 581",
+   "title": "Aquatic Chemistry",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EAS 480",
+   "title": "Climate Change: A Multidisciplinary Approach to Problem Solving",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EAS 557",
+   "title": "Industrial Ecology",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ECE 500",
+   "title": "Tutorial System Science",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "ECE 501",
+   "title": "Probability and Random Processes",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ECE 502",
+   "title": "Stochastic Processes",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 503",
+   "title": "Introduction to Numerical Electromagnetics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 505",
+   "title": "Computational Data Science and Machine Learning",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ECE 506",
+   "title": "Design of Power Electronics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 509",
+   "title": "BioMEMS",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 510",
+   "title": "Plasma Chemistry and Plasma Surface Interactions",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 511",
+   "title": "Integrated Analog/Digital Interface Circuits",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ECE 512",
+   "title": "Amorphous and Microcrystalline Semiconductor Thin Film Devices",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 513",
+   "title": "Flat Panel Displays",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 514",
+   "title": "Advanced MEMS Devices and Technologies",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ECE 515",
+   "title": "Integrated Microsystems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ECE 516",
+   "title": "Medical Imaging Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 517",
+   "title": "Low Temperature Plasmas",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 518",
+   "title": "Magnetosphere and Solar Wind",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 519",
+   "title": "Plasma Laboratory",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ECE 520",
+   "title": "Solid State Physics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ECE 521",
+   "title": "Solid State Devices",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 524",
+   "title": "Organic Electronic Devices and Applications",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 525",
+   "title": "Advanced Solid State Microwave Circuits",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 526",
+   "title": "Plasmonics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 527",
+   "title": "Power Semiconductor Devices",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ECE 528",
+   "title": "Principles of Microelectronics Process Technology",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 529",
+   "title": "Semiconductor Lasers and LEDs",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 530",
+   "title": "Electromagnetic Theory I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 531",
+   "title": "Antenna Theory and Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 533",
+   "title": "Microwave Measurements Laboratory",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 534",
+   "title": "Analysis of Electric Power Distribution Systems and Loads",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 535",
+   "title": "Power System Dynamics and Control",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 536",
+   "title": "Power System Markets & Optimization",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 537",
+   "title": "Classical Optics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 540",
+   "title": "Applied Quantum Mechanics I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 541",
+   "title": "Applied Quantum Mechanics II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 544",
+   "title": "Analysis of Societal Networks",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 546",
+   "title": "Ultrafast Optics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 550",
+   "title": "Information Theory",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 551",
+   "title": "Matrix Methods for Signal Processing, Data Analysis and Machine Learning",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ECE 552",
+   "title": "Fiber Optical Communications",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 554",
+   "title": "Introduction to Digital Communication and Coding",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 555",
+   "title": "Digital Communication Theory",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 556",
+   "title": "Image Processing",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 557",
+   "title": "Communication Networks",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 558",
+   "title": "Stochastic Control",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 559",
+   "title": "Optimization Methods in Signal Processing and Machine Learning",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 561",
+   "title": "Design of Digital Control Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 562",
+   "title": "Nonlinear Systems and Control",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 563",
+   "title": "Hybrid Systems, Analysis, and Control",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 564",
+   "title": "Estimation, Filtering, and Detection",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 565",
+   "title": "Linear Feedback Control Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 566",
+   "title": "Discrete Event Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 567",
+   "title": "Reinforcement Learning Theory",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 569",
+   "title": "Production Systems Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 590",
+   "title": "Skills for Success in Graduate Studies",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "ECE 596",
+   "title": "Master of Engineering Team Project",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "ECE 598",
+   "title": "Special Topics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ECE 599",
+   "title": "Directed Study",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ECE 600",
+   "title": "Function Space Methods in System Theory",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 605",
+   "title": "Data Science and Machine Learning Design Laboratory",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ECE 620",
+   "title": "Electronic and Optical Properties of Semiconductors",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ECE 631",
+   "title": "Electromagnetic Scattering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 633",
+   "title": "Numerical Methods in Electromagnetics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 638",
+   "title": "Quantum Optics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 650",
+   "title": "Channel Coding Theory",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 659",
+   "title": "Adaptive Signal Processing",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 698",
+   "title": "Master's Thesis",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "ECE 699",
+   "title": "Research Work in ECE",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "ECE 700",
+   "title": "Special Topics in System Theory",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "ECE 720",
+   "title": "Special Topics in Solid-State Devices, Integrated Circuits, and Physical Electronics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ECE 730",
+   "title": "Special Topics in Electromagnetics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ECE 735",
+   "title": "Special Topics in the Optical Sciences",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ECE 750",
+   "title": "Special Topics in Communication and Information Theory",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "ECE 755",
+   "title": "Special Topics in Signal Processing",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ECE 760",
+   "title": "Special Topics in Control Theory",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "ECE 765",
+   "title": "Special Topics in Stochastic Systems and Control",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ECE 820",
+   "title": "Seminar in Solid-State Electronics",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "ECE 990",
+   "title": "Dissertation/Pre-Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "ECE 995",
+   "title": "Dissertation/Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "EECS 110",
+   "title": "Discover Computer Science",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "EECS 180",
+   "title": "Exam/Transfer Introductory Computer Programming Credit",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 183",
+   "title": "Elementary Programming Concepts",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 198",
+   "title": "Special Topics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 200",
+   "title": "Electrical Engineering Systems Design I",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "EECS 201",
+   "title": "Computer Science Pragmatics",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "EECS 215",
+   "title": "Introduction to Electronic Circuits",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 216",
+   "title": "Introduction to Signals and Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 230",
+   "title": "Electromagnetics I",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 250",
+   "title": "Electronic Sensing Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EECS 270",
+   "title": "Introduction to Logic Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 280",
+   "title": "Programming and Introductory Data Structures",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 281",
+   "title": "Data Structures and Algorithms",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 285",
+   "title": "Practical Programming in Java",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "EECS 291",
+   "title": "Applied Data Structures and Algorithms",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 295",
+   "title": "Empathetic Leadership and the Social Context of Computing",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "EECS 298",
+   "title": "Special Topics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 300",
+   "title": "Electrical Engineering Systems Design II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EECS 301",
+   "title": "Probabilistic Methods in Engineering",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 311",
+   "title": "Analog Circuits",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 312",
+   "title": "Digital Integrated Circuits",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 314",
+   "title": "Electrical Circuits, Systems, and Applications",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 320",
+   "title": "Introduction to Semiconductor Devices",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 330",
+   "title": "Introduction to Antennas and Wireless Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 334",
+   "title": "Principles of Optics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 351",
+   "title": "Introduction to Digital Signal Processing",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 353",
+   "title": "Introduction to Communication Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 370",
+   "title": "Introduction to Computer Organization",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 373",
+   "title": "Introduction to Embedded System Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 376",
+   "title": "Foundations of Computer Science",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 388",
+   "title": "Introduction to Computer Security",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 390",
+   "title": "Programming Paradigms",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 398",
+   "title": "Special Topics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 399",
+   "title": "Directed Study",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 400",
+   "title": "ECE Major Design Experience",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "EECS 401",
+   "title": "Special Topics Capstone Project",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 402",
+   "title": "Computer Programming For Scientists and Engineers",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 403",
+   "title": "Graduate Foundations of Data Structures and Algorithms",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 404",
+   "title": "Game Engine Architecture and Data-Oriented Programming",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 406",
+   "title": "High-Tech Entrepreneurship",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 408",
+   "title": "Advanced Operating Systems Projects",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "EECS 409",
+   "title": "Data Science Seminar",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "EECS 410",
+   "title": "Patent Fundamentals for Engineers",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 411",
+   "title": "Microwave Circuits I",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 413",
+   "title": "Monolithic Amplifier Circuits",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 414",
+   "title": "Introduction to MEMS",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 415",
+   "title": "Introduction to Plasmas and Fusion",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EECS 416",
+   "title": "Elec for Bio",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 417",
+   "title": "Electrical Biophysics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 418",
+   "title": "Power Electronics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 419",
+   "title": "Electric Machinery and Drives",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 421",
+   "title": "Properties of Transistors",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 423",
+   "title": "Micro/Nano Device Fabrication and Characterization",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 425",
+   "title": "Integrated Microsystems Laboratory",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 427",
+   "title": "Very Large Scale Integrated (VLSI) Design I",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 428",
+   "title": "Introduction to Quantum Nanotechnology",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EECS 429",
+   "title": "Semiconductor Optoelectronic Devices",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 434",
+   "title": "Principles of Photonics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 435",
+   "title": "Fourier Optics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EECS 438",
+   "title": "Advanced Lasers and Optics Laboratory",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 440",
+   "title": "Extended Reality for Social Impact",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 441",
+   "title": "Mobile App Development for Entrepreneurs",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 442",
+   "title": "Computer Vision",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 443",
+   "title": "Senior Thesis",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EECS 444",
+   "title": "Analysis of Societal Networks",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 445",
+   "title": "Introduction to Machine Learning",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 447",
+   "title": "Machine Learning Research Experience",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 448",
+   "title": "Applied Machine Learning for Modeling Human Behavior",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 449",
+   "title": "Conversational Artificial Intelligence",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 452",
+   "title": "Digital Signal Processing Design Laboratory",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 453",
+   "title": "Principles of Machine Learning",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 455",
+   "title": "Wireless Communications Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 456",
+   "title": "Internet Foundations",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 458",
+   "title": "Biomedical Instrumentation and Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 460",
+   "title": "Control Systems Analysis and Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 461",
+   "title": "Embedded Control Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 463",
+   "title": "Power Systems Design and Operation",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 464",
+   "title": "Hands-on Robotics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 465",
+   "title": "Introduction to Algorithmic Robotics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EECS 467",
+   "title": "Autonomous Robotics Design Experience",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 470",
+   "title": "Computer Architecture",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 471",
+   "title": "Applied Parallel Programming with GPUs",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 472",
+   "title": "Computer Architecture Project",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 473",
+   "title": "Advanced Embedded Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 474",
+   "title": "Algorithms for Data Science",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 475",
+   "title": "Introduction to Cryptography",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 476",
+   "title": "Data Mining",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 477",
+   "title": "Introduction to Algorithms",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 478",
+   "title": "Logic Circuit Synthesis and Optimization",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 479",
+   "title": "Introduction to Quantum Computing",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 480",
+   "title": "Social Computing Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 481",
+   "title": "Software Engineering",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 482",
+   "title": "Introduction to Operating Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 483",
+   "title": "Compiler Construction",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 484",
+   "title": "Database Management Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 485",
+   "title": "Web Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 486",
+   "title": "Informational Retrieval and Web Search",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 489",
+   "title": "Computer Networks",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 490",
+   "title": "Programming Languages",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 491",
+   "title": "Introduction to Distributed Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 492",
+   "title": "Introduction to Artificial Intelligence",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 493",
+   "title": "User Interface Development",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 494",
+   "title": "Computer Game Design and Development",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 495",
+   "title": "Accessible Computing",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 496",
+   "title": "Major Design Experience Professionalism",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "EECS 497",
+   "title": "Human-Centered Software and Design and Development",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 498",
+   "title": "Special Topics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 499",
+   "title": "Directed Study",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 504",
+   "title": "(3 credits)",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EECS 507",
+   "title": "Introduction to Embedded System Research",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 522",
+   "title": "Analog Integrated Circuits",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 523",
+   "title": "Digital Integrated Technology",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 542",
+   "title": "Advanced Topics in Computer Vision",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EECS 545",
+   "title": "Machine Learning (CSE)",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EECS 553",
+   "title": "Machine Learning (ECE)",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EECS 570",
+   "title": "Parallel Computer Architecture",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 571",
+   "title": "Principles of Real-Time Computing",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 573",
+   "title": "Microarchitecture",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EECS 578",
+   "title": "Correct Operation for Processors and Embedded Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 579",
+   "title": "Digital Systems Testing",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 627",
+   "title": "VLSI Design II",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EECS 628",
+   "title": "Advanced High Performance VLSI Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EER 390",
+   "title": "Undergraduate Independent/Directed Study",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EER 490",
+   "title": "Undergraduate Advanced Independent/Directed Study",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EER 498",
+   "title": "Special Topics in Engineering Education Research",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EER 598",
+   "title": "Special Topics in Engineering Education Research",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EER 601",
+   "title": "Foundation of Engineering Education Research",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EER 602",
+   "title": "Theoretical and Conceptual Frameworks in Engineering Education Research",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EER 603",
+   "title": "Research Design in Engineering Education Research",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EER 610",
+   "title": "Practicum - Immersive Learning Experience",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EER 690",
+   "title": "Graduate Independent/Directed Study",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EER 990",
+   "title": "Dissertation Research/Pre-Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "EER 995",
+   "title": "Dissertation Research/Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "EIHLTH 755",
+   "title": "Work Related Upper Limb Disorders",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "ENGR 100",
+   "title": "Introduction to Engineering",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ENGR 101",
+   "title": "Introduction to Computers and Programming",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ENGR 110",
+   "title": "Design Your Engineering Experience",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "ENGR 151",
+   "title": "Accelerated Introduction to Computers and Programming",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ENGR 161",
+   "title": "MATLAB Applications for Engineers",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "ENGR 190",
+   "title": "Special Topics",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "ENGR 196",
+   "title": "Outreach Internship",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "ENGR 230",
+   "title": "Honors Seminar I",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "ENGR 255",
+   "title": "Introductory Multidisciplinary Engineering Project",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ENGR 256",
+   "title": "Peer Mentorship in Engineering Design",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "ENGR 260",
+   "title": "Engineering Across Cultures I",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "ENGR 280",
+   "title": "Undergraduate Research",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ENGR 290",
+   "title": "Special Topics in Engineering",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "ENGR 301",
+   "title": "Engineering Undergraduate Study Abroad",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "ENGR 330",
+   "title": "Honors Seminar II",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "ENGR 350",
+   "title": "International Laboratory Experience for Engineers",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ENGR 355",
+   "title": "Intermediate Multidisciplinary Engineering Project",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ENGR 371",
+   "title": "Numerical Methods for Engineers and Scientists",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ENGR 390",
+   "title": "Special Topics in Engineering",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "ENGR 391",
+   "title": "Directed Overseas Study",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ENGR 399",
+   "title": "Directed Study in Science and Technology Policy",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ENGR 400",
+   "title": "Engineering Cooperative Education",
+   "credits": 0,
+   "tags": []
+  },
+  {
+   "code": "ENGR 406",
+   "title": "High-Tech Entrepreneurship",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ENGR 410",
+   "title": "Patent Fundamentals for Engineers",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ENGR 430",
+   "title": "Honors Seminar III",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "ENGR 450",
+   "title": "Multidisciplinary Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ENGR 455",
+   "title": "Advanced Multidisciplinary Engineering Project",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ENGR 456",
+   "title": "Mentorship-Leadership in Multidisciplinary Design",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "ENGR 460",
+   "title": "Engineering Across Cultures II",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "ENGR 480",
+   "title": "Global Synthesis Project",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ENGR 490",
+   "title": "Special Topics in Engineering",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "ENGR 499",
+   "title": "Designing Your Engineering Future",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "ENGR 520",
+   "title": "Entrepreneurial Business Fundamentals for Engineers & Scientists",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ENGR 521",
+   "title": "Clean Tech Entrepreneurship",
+   "credits": 1.5,
+   "tags": []
+  },
+  {
+   "code": "ENGR 555",
+   "title": "Graduate Multidisciplinary Engineering Project",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ENGR 570",
+   "title": "Methods and Practice of Scientific Computing",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ENGR 580",
+   "title": "Teaching Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ENGR 590",
+   "title": "International Experience in Engineering",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "ENGR 591",
+   "title": "Engineering Graduate Study Abroad",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "ENGR 599",
+   "title": "Special Topics in Engineering",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ENGR 600",
+   "title": "Engineering Practicum Projects",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "ENGR 996",
+   "title": "Responsible Research Practices",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "ENGR 998",
+   "title": "Curriculum Practical Project",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "ENSCEN 211",
+   "title": "Introduction to Nuclear Engineering and Radiological Sciences",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ENSCEN 428",
+   "title": "Groundwater Hydrology",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ENSCEN 880",
+   "title": "Seminar in Environmental and Water Resources Engineering",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "ENTR 390",
+   "title": "Special Topics in Entrepreneurship",
+   "credits": 15,
+   "tags": []
+  },
+  {
+   "code": "ENTR 404",
+   "title": "Starting Your Side Gig: E-Commerce Entrepreneurship",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "ENTR 405",
+   "title": "Digital Product Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ENTR 407",
+   "title": "Entrepreneurship Hour",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "ENTR 408",
+   "title": "Patent Law",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "ENTR 409",
+   "title": "Intro to Venture Capital",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "ENTR 410",
+   "title": "Finding Your Venture",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "ENTR 411",
+   "title": "Entrepreneurship Practicum",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ENTR 412",
+   "title": "Advanced Entrepreneurship Practicum",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ENTR 413",
+   "title": "Entrepreneurial Marketing",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "ENTR 414",
+   "title": "Startup Sales",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "ENTR 415",
+   "title": "Entrepreneurship Ownership",
+   "credits": 1.5,
+   "tags": []
+  },
+  {
+   "code": "ENTR 417",
+   "title": "Entrepreneurship Hour Discussion Session",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "ENTR 419",
+   "title": "Innovation for Urban Impact",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ENTR 420",
+   "title": "Re-imagining Companies Through Innovation",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ENTR 422",
+   "title": "Organizational Values and Ethics in Startups",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "ENTR 423",
+   "title": "Leading an Entrepreneurial Team",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "ENTR 490",
+   "title": "Special Topics in Entrepreneurship",
+   "credits": 15,
+   "tags": []
+  },
+  {
+   "code": "ENTR 500",
+   "title": "An Introduction to Innovation: Tools for Career Success",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ENTR 510",
+   "title": "Compensation, Funding, and Ownership",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ENTR 520",
+   "title": "Technology-Inspired Business Models",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ENTR 530",
+   "title": "Innovation and Intellectual Property Strategy",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ENTR 540",
+   "title": "Business Math for Innovators",
+   "credits": 1.5,
+   "tags": []
+  },
+  {
+   "code": "ENTR 550",
+   "title": "Interpersonal Skills: Leveling Up to Leadership",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ENTR 560",
+   "title": "Project Management and Consulting",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ENTR 570",
+   "title": "Creativity and Product Development",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ENTR 599",
+   "title": "Special Topics for Entrepreneurship",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ENVIRON 407",
+   "title": "Sustainable Cities",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ESENG 504",
+   "title": "Fuel Cells and Fuel Processors",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ESENG 567",
+   "title": "Energy Infrastructure Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ESENG 590",
+   "title": "Study or Research in ESENG Topics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ESENG 599",
+   "title": "Special Topics in Energy Systems Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 101",
+   "title": "IOE Career Seminars",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "IOE 201",
+   "title": "Economic Decision Making",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "IOE 202",
+   "title": "Operations Engineering & Analytics",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "IOE 265",
+   "title": "Probability and Statistics for Engineers",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 310",
+   "title": "Optimization and Computational Methods",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 316",
+   "title": "Introduction to Markov Processes",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 333",
+   "title": "Human Factors and Ergonomics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 366",
+   "title": "Introduction to Engineering Data Analytics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 373",
+   "title": "Data Analytics Tools and Techniques",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "IOE 410",
+   "title": "Advanced Optimization and Computational Methods",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 413",
+   "title": "Optimization Modeling in Health Care",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 416",
+   "title": "Queueing Systems",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "IOE 419",
+   "title": "Service Operations Management",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 421",
+   "title": "Work Organizations",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 424",
+   "title": "Practicum in Production and Service",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "IOE 425",
+   "title": "Lean Manufacturing and Services",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "IOE 430",
+   "title": "Global Cultural Systems Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 431",
+   "title": "Human-Centered and User Experience Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 434",
+   "title": "Human Error and Complex System Failures",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 435",
+   "title": "Quantifying Human Motion Through Wearable Sensors",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 436",
+   "title": "Human Factors in Computer Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 437",
+   "title": "Automotive Human Factors",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 438",
+   "title": "Occupational Safety Management",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "IOE 440",
+   "title": "Operations Analysis and Management",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 441",
+   "title": "Production and Inventory Control",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 447",
+   "title": "Facility Planning",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 449",
+   "title": "Material Handling Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 452",
+   "title": "Corporate Finance",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 453",
+   "title": "Derivative Instruments",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 460",
+   "title": "Decision Analysis and Bounded Rationality",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 461",
+   "title": "Quality Engineering Principles and Analysis",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 463",
+   "title": "Measurement and Design of Work",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 465",
+   "title": "Design of Experiments.",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 466",
+   "title": "Statistical Quality Control",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 473",
+   "title": "Advanced Data Analytics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 474",
+   "title": "Discrete-Event Simulation",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "IOE 481",
+   "title": "Practicum in Hospital Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "IOE 490",
+   "title": "Undergraduate Directed Study, Research, and Special Problems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "IOE 491",
+   "title": "Special Topics in Industrial and Operations Engineering",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "IOE 499",
+   "title": "Senior Design Project",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "IOE 500",
+   "title": "IOE MS Seminar",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "IOE 511",
+   "title": "Continuous Optimization Methods",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 512",
+   "title": "Dynamic Programming",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 513",
+   "title": "Healthcare Operations Research: Theory and Applications",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 515",
+   "title": "Stochastic Processes",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 516",
+   "title": "Stochastic Processes II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 517",
+   "title": "Game Theory and Operations Applications",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 524",
+   "title": "Master's Practicum in Industrial and Operations Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 525",
+   "title": "Lean Principles and Scientific Thinking in Organizations",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 533",
+   "title": "Human Motor Behavior and Engineering Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 535",
+   "title": "Quantifying Human Motion Through Wearable Sensors",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 536",
+   "title": "Cognitive Ergonomics and Human System Integration",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 539",
+   "title": "Safety Engineering Methods",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 541",
+   "title": "Optimization Methods in Supply Chain Management",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 543",
+   "title": "Scheduling",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 545",
+   "title": "Stochastic Networks and Operations",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 547",
+   "title": "Supply Chain Facilities",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 548",
+   "title": "Integrated Product Development",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 549",
+   "title": "Plant Flow Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 551",
+   "title": "Benchmarking, Productivity Analysis and Performance Measurement",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 552",
+   "title": "Financial Engineering I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 553",
+   "title": "Financial Engineering II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 561",
+   "title": "Risk Analysis I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 562",
+   "title": "Statistical Models and Analysis for Data Science",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 563",
+   "title": "Advanced Work Design: Volunteer Work",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 565",
+   "title": "Time Series Modeling, Analysis, Forecasting",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 567",
+   "title": "Bayesian Data Science – Computation & Applications",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 568",
+   "title": "Statistical Learning & Applications in Quality Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 574",
+   "title": "Simulation Design and Analysis",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 586",
+   "title": "Air Transportation Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 588",
+   "title": "Assembly Modeling for Design and Manufacturing",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 590",
+   "title": "Masters Directed Study, Research, and Special Problems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "IOE 591",
+   "title": "Special Topics",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "IOE 593",
+   "title": "Ergonomics Professional Project",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "IOE 600",
+   "title": "Function Space Methods in System Theory",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 610",
+   "title": "Linear Programming II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 611",
+   "title": "Nonlinear Programming",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 612",
+   "title": "Network Flows",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 614",
+   "title": "Integer Programming",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 616",
+   "title": "Queueing Theory",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 618",
+   "title": "Stochastic Optimization",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 634",
+   "title": "Work Related Upper Limb Disorders",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "IOE 635",
+   "title": "Research Methods Laboratory for Human Subjects",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 641",
+   "title": "Supply Chain Management",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 667",
+   "title": "Bayesian Data Science – Theory & Applications",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 691",
+   "title": "Special Topics",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "IOE 800",
+   "title": "First-Year Doctoral Seminar",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "IOE 801",
+   "title": "First-Year Doctoral Directed Research",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "IOE 802",
+   "title": "Written and Oral Academic Presentations",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "IOE 813",
+   "title": "Seminars in Healthcare Systems Engineering",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "IOE 836",
+   "title": "Seminar in Human Performance",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "IOE 837",
+   "title": "Interprofessional Perspectives in Occupational Health and Safety",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "IOE 899",
+   "title": "Seminar in Industrial and Operations Engineering",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "IOE 990",
+   "title": "Dissertation Research: Pre-Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "IOE 995",
+   "title": "Dissertation Research: Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "ISD 503",
+   "title": "Integrative Systems + Design Practicum",
+   "credits": 9,
+   "tags": []
+  },
+  {
+   "code": "ISD 520",
+   "title": "Introduction to Systems Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ISD 521",
+   "title": "Development and Verification of Systems Design Requirements",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ISD 523",
+   "title": "Risk Analysis I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ISD 527",
+   "title": "Designing Quality: Six Sigma",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ISD 562",
+   "title": "Modeling Analysis of Vehicle Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ISD 590",
+   "title": "Directed Study and Research",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ISD 599",
+   "title": "Selected Topics in Chemical Engineering",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "MACROMOL 511",
+   "title": "(MATSCIE 511). Rheology of Polymeric Materials",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MACROMOL 512",
+   "title": "(MATSCIE 512). Physical Polymers",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MACROMOL 515",
+   "title": "Mechanical Behavior of Solid Polymeric Materials",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MACROMOL 517",
+   "title": "Mechanics of Soft Materials",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MACROMOL 518",
+   "title": "Organometallic Chemistry",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MACROMOL 530",
+   "title": "Advanced Functional Polymers: Molecular Design and Applications",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MACROMOL 535",
+   "title": "Physical Chemistry of Macromolecules",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MACROMOL 536",
+   "title": "Laboratory in Macromolecular Chemistry",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "MACROMOL 538",
+   "title": "Organic Chemistry of Macromolecules",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MACROMOL 690",
+   "title": "Macromolecular Research Rotation",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MACROMOL 790",
+   "title": "Faculty Activities Research Survey",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MACROMOL 800",
+   "title": "Macromolecular Seminar I, II",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "MACROMOL 890",
+   "title": "Introduction to Research Techniques",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "MACROMOL 990",
+   "title": "Dissertation Research Precandidacy",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "MACROMOL 995",
+   "title": "Dissertation Research/Candidacy",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "MATH 371",
+   "title": "Numerical Methods for Engineers and Scientists",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATH 464",
+   "title": "Inverse Problems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATH 562",
+   "title": "Continuous Optimization Methods",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATH 660",
+   "title": "Linear Programming II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATH 663",
+   "title": "Nonlinear Programming",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 193",
+   "title": "Special Topics in Materials Science and Engineering",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 220",
+   "title": "Introduction to Materials and Manufacturing",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 242",
+   "title": "Physics of Materials",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 250",
+   "title": "Principles of Engineering Materials",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 280",
+   "title": "Materials Science and Engineering Undergraduate Research Opportunity",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 281",
+   "title": "Making Things: Three Million Years of Materials and Culture",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 293",
+   "title": "Special Topics in Materials Science and Engineering",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 330",
+   "title": "Thermodynamics of Materials",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 335",
+   "title": "Kinetics and Transport in Materials Engineering",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 350",
+   "title": "Structures of Materials",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 360",
+   "title": "Materials Laboratory I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 365",
+   "title": "Materials Laboratory II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 400",
+   "title": "Electronic, Magnetic and Optical Materials for Modern Device Technology",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 420",
+   "title": "Mechanical Behavior of Materials",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 440",
+   "title": "Ceramic Materials",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 454",
+   "title": "Computational Approaches in MSE",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 465",
+   "title": "Structural and Chemical Characterization of Materials",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 470",
+   "title": "Physical Metallurgy",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 481",
+   "title": "Designing Sustainable Products and Processes",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 482",
+   "title": "Product Design and Manufacturing",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 485",
+   "title": "Design Problems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 490",
+   "title": "Research Problems in Materials Science and Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 493",
+   "title": "Special Topics",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 500",
+   "title": "Materials Physics and Chemistry",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 502",
+   "title": "Materials Issues in Electronics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 505",
+   "title": "Materials Science of Thin Films",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 510",
+   "title": "Materials Chemistry",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 515",
+   "title": "Mechanical Behavior of Solid Polymeric Materials",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 516",
+   "title": "Fracture and Adhesion of Interfaces, and the Mechanics of Layered Materials",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 517",
+   "title": "Advanced Functional Polymers: Molecular Design and Applications",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 518",
+   "title": "Surface and Interfacial Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 520",
+   "title": "Advanced Mechanical Behavior",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 521",
+   "title": "Use of Materials and their Selection in Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 532",
+   "title": "Advanced Thermodynamics of Materials",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 535",
+   "title": "Kinetics, Phase Transformations, and Transport",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 545",
+   "title": "Fundamentals of Battery Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 550",
+   "title": "Fundamentals of Materials Science and Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 554",
+   "title": "Computational Methods in MATSCIE and CHE",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 555",
+   "title": "Materials Energy Conversion",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 556",
+   "title": "Molecular Simulation of Materials",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 557",
+   "title": "Computational Nanoscience of Soft Matter",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 560",
+   "title": "Structure of Materials",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 562",
+   "title": "Electron Microscopy I",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 563",
+   "title": "(CHE 563) Biomolecular Engineering of Interfaces",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 574",
+   "title": "High-Temperature Materials",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 577",
+   "title": "Failure Analysis of Materials",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 585",
+   "title": "Materials or Metallurgical Design Problem",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 590",
+   "title": "Material Met Res Survey",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 593",
+   "title": "Special Topics in Materials Science & Engineering",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 621",
+   "title": "Nuclear Waste Forms",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 662",
+   "title": "Electron Microscopy II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 690",
+   "title": "Research Problems in Materials Science and Engineering",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 693",
+   "title": "Special Topics",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 890",
+   "title": "Colloquium in Materials Science and Engineering",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 990",
+   "title": "Dissertation/Pre-Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "MATSCIE 995",
+   "title": "Dissertation/Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 211",
+   "title": "Introduction to Solid Mechanics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 235",
+   "title": "Thermodynamics I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 240",
+   "title": "Introduction to Dynamics and Vibrations",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 250",
+   "title": "Design and Manufacturing I",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 290",
+   "title": "RISE 2 - Research, Innovation, Service and Entrepreneurship",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 305",
+   "title": "Introduction to Finite Elements in Mechanical Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 311",
+   "title": "Strength of Materials",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 320",
+   "title": "Introduction to Fluid Mechanics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 335",
+   "title": "Heat Transfer",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 336",
+   "title": "Thermodynamics II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 350",
+   "title": "Design and Manufacturing II",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 360",
+   "title": "Modeling, Analysis and Control of Dynamic Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 382",
+   "title": "Mechanical Behavior of Materials",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 390",
+   "title": "RISE 3 - Research, Innovation, Service, Entrepreneurship",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 395",
+   "title": "Laboratory I",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 400",
+   "title": "Mechanical Engineering Analysis",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 401",
+   "title": "Statistical Quality Control and Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 406",
+   "title": "Biomechanics for Engineering Students.",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 412",
+   "title": "Advanced Strength of Materials",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 420",
+   "title": "Fluid Mechanics II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 424",
+   "title": "Engineering Acoustics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 432",
+   "title": "Combustion",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 433",
+   "title": "Advanced Energy Solutions",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 438",
+   "title": "Internal Combustion Engines",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 440",
+   "title": "Intermediate Dynamics and Vibrations",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 450",
+   "title": "Design and Manufacturing III",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 451",
+   "title": "Properties of Advanced Materials for Design Engineers",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 452",
+   "title": "Design for Manufacturability",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 455",
+   "title": "Analytical Product Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 456",
+   "title": "Modeling in Biosolid Mechanics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 457",
+   "title": "Front-End Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 458",
+   "title": "Automotive Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 461",
+   "title": "Automatic Control",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 476",
+   "title": "Biofluid Mechanics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 481",
+   "title": "Manufacturing Processes",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 482",
+   "title": "Machining Processes",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 483",
+   "title": "Manufacturing System Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 487",
+   "title": "Welding",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 489",
+   "title": "Sustainable Engineering and Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 490",
+   "title": "RISE 4 - Research, Innovation, Service, Entrepreneurship",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 491",
+   "title": "Independent Study",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 495",
+   "title": "Laboratory II",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 499",
+   "title": "Special Topics in Mechanical Engineering",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 500",
+   "title": "Professional Skills for Graduate Student Success",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 501",
+   "title": "Mathematical Methods in Mechanical Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 502",
+   "title": "Methods of Differential Equations in Mechanics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 505",
+   "title": "Finite Element Methods in Mechanical Engineering and Applied Mechanics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 506",
+   "title": "Computational Modeling of Biological Tissues",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 507",
+   "title": "Atomistic Computer Modeling of Materials",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 511",
+   "title": "Solid Continua",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 512",
+   "title": "Theory of Elasticity",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 513",
+   "title": "Automotive Body Structures",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 515",
+   "title": "Contact Mechanics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 516",
+   "title": "Fracture and Adhesion of Interfaces, and the Mechanics of Layered Materials",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 517",
+   "title": "Mechanics of Soft Materials",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 519",
+   "title": "Theory of Plasticity I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 520",
+   "title": "Advanced Fluid Mechanics I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 521",
+   "title": "Advanced Fluid Mechanics II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 523",
+   "title": "Computational Fluid Dynamics I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 524",
+   "title": "Advanced Engineering Acoustics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 527",
+   "title": "Multiphase Flow",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 530",
+   "title": "Advanced Heat Transfer",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 533",
+   "title": "Radiative Heat Transfer",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 535",
+   "title": "Thermodynamics III",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 537",
+   "title": "Advanced Combustion",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 538",
+   "title": "Advanced Internal Combustion Engines",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 539",
+   "title": "Heat Transfer Physics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 540",
+   "title": "Intermediate Dynamics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 541",
+   "title": "Mechanical Vibrations",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 542",
+   "title": "Vehicle Dynamics and Automation",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 543",
+   "title": "Analytical and Computational Dynamics I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 545",
+   "title": "Dynamics and Control of Connected Vehicles",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 547",
+   "title": "Bio-Inspired Robot Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 548",
+   "title": "Applied Nonlinear Dynamics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 549",
+   "title": "Stochastic Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 551",
+   "title": "Mechanisms Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 552",
+   "title": "Mechatronic Systems Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 553",
+   "title": "Microelectromechanical Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 555",
+   "title": "Design Optimization",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 557",
+   "title": "Front-End Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 558",
+   "title": "Discrete Design Optimization",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 559",
+   "title": "Smart Materials and Structures",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 560",
+   "title": "Modeling Dynamic Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 561",
+   "title": "Design of Digital Control Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 563",
+   "title": "Time Series Modeling and System Analysis",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 565",
+   "title": "Battery Systems and Control",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 566",
+   "title": "Modeling, Analysis, and Control of Hybrid Electric Vehicles",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 568",
+   "title": "Vehicle Control Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 569",
+   "title": "Control of Advanced Powertrain Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 570",
+   "title": "Fundamentals of Defects in Materials and Applications of Atomistic Modeling",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 572",
+   "title": "Rheology and Fracture",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 574",
+   "title": "Nano/Micro Structure Evolution",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 576",
+   "title": "Fatigue in Mechanical Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 577",
+   "title": "Use of Materials and their Selection in Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 580",
+   "title": "Transport Phenomena in Materials Processing",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 584",
+   "title": "Advanced Mechatronics for Manufacturing",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 585",
+   "title": "Machining and Machine Tools",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 586",
+   "title": "Laser Materials Processing",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 587",
+   "title": "Global Manufacturing",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 588",
+   "title": "Assembly Modeling for Design and Manufacturing",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 589",
+   "title": "Sustainable Design of Technology Systems.",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 590",
+   "title": "Study of Research in Selected Mechanical Engineering Topics",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 605",
+   "title": "Advanced Finite Element Methods in Mechanics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 623",
+   "title": "Hydrodynamic Stability",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 624",
+   "title": "Turbulent Flow",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 625",
+   "title": "Nonhomogeneous Fluids",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 626",
+   "title": "Perturbation Methods for Fluids",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 627",
+   "title": "Wave Motion in Fluids",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 631",
+   "title": "Statistical Thermodynamics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 641",
+   "title": "Advanced Vibrations of Structures",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 645",
+   "title": "Wave Propagation in Elastic Solids",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 695",
+   "title": "Master's Thesis Research",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "MECHENG 995",
+   "title": "Dissertation/Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "MFG 410",
+   "title": "Marine Structures II",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MFG 426",
+   "title": "Lean Manufacturing and Services",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "MFG 440",
+   "title": "Operations Analysis and Management",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 441",
+   "title": "Production and Inventory Control",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 447",
+   "title": "Facility Planning",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 449",
+   "title": "Material Handling Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 453",
+   "title": "Properties of Advanced Materials for Design Engineers",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 455",
+   "title": "Corporate Finance",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 456",
+   "title": "Derivative Instruments",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 458",
+   "title": "Design Problems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MFG 461",
+   "title": "Quality Engineering Principles and Analysis",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 462",
+   "title": "Marine Structures Construction",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 463",
+   "title": "Measurement and Design of Work",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 466",
+   "title": "Statistical Quality Control",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 470",
+   "title": "Foundations of Ship Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MFG 488",
+   "title": "Welding",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 492",
+   "title": "Machining Processes",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 501",
+   "title": "Topics in Global Operations",
+   "credits": 1.5,
+   "tags": []
+  },
+  {
+   "code": "MFG 502",
+   "title": "Manufacturing Systems Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 503",
+   "title": "Manufacturing Project",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 504",
+   "title": "Tauber Institute Project",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 515",
+   "title": "Fatigue of Structures",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 517",
+   "title": "Biopharmaceutical Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 527",
+   "title": "Designing Quality: Six Sigma",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 528",
+   "title": "Advanced Design for Manufacturability",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 535",
+   "title": "Human Motor Behavior and Engineering Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 536",
+   "title": "Project Planning Scheduling and Control",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 539",
+   "title": "Safety Engineering Methods",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 543",
+   "title": "Scheduling",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 545",
+   "title": "Stochastic Networks and Operations",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 547",
+   "title": "Supply Chain Facilities",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 549",
+   "title": "Plant Flow Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 552",
+   "title": "Mechatronic Systems Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MFG 554",
+   "title": "Computer Aided Design Methods",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 558",
+   "title": "Discrete Design Optimization",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 559",
+   "title": "Smart Materials and Structures",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 560",
+   "title": "Mechanisms Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 561",
+   "title": "Time Series Modeling, Analysis, Forecasting",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 562",
+   "title": "Modeling Dynamic Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 563",
+   "title": "Marine Systems Production: Business Strategy and Operations Management",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 564",
+   "title": "Production Systems Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 571",
+   "title": "Ship Design Project",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "MFG 572",
+   "title": "Advanced Marine Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MFG 574",
+   "title": "Global Product Development",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 575",
+   "title": "Computer-Aided Marine Design Project",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "MFG 577",
+   "title": "Failure Analysis of Materials",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 578",
+   "title": "Optimization and Management of Marine Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 579",
+   "title": "Reliability, Risk and Safety Analysis",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 580",
+   "title": "Optimization and Management of Marine Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MFG 599",
+   "title": "Special Topics in Manufacturing",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MFG 605",
+   "title": "Manufacturing and Supply Operations",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 617",
+   "title": "Advanced Biochemical Technology",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MFG 990",
+   "title": "Dissertation/Pre-Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "MFG 995",
+   "title": "Dissertation/Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "MICRBIOL 525",
+   "title": "Cellular and Molecular Networks",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MILSCI 101",
+   "title": "Introduction to Officership",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "MILSCI 102",
+   "title": "Introduction to Leadership",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "MILSCI 201",
+   "title": "Innovative Tactical Leadership",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "MILSCI 202",
+   "title": "Leadership in Changing Environments",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "MILSCI 301",
+   "title": "Leading Small Organizations I",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "MILSCI 302",
+   "title": "Leading Small Organizations II",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "MILSCI 401",
+   "title": "Leadership and Management",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "MILSCI 402",
+   "title": "Military Professionalism and Professional Ethics",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "MILSCI 499",
+   "title": "Independent Study-Directed Readings",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 533",
+   "title": "Neuromechanics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 102",
+   "title": "Introduction to Ship Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 203",
+   "title": "The Physics of Sailing",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 210",
+   "title": "Introduction to Solid Mechanics and Marine Structures",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 235",
+   "title": "Marine Thermodynamics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 270",
+   "title": "Introduction to Vessel/Platform Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 280",
+   "title": "Introduction to Probability for Marine Engineers",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 310",
+   "title": "Marine Structures I",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 320",
+   "title": "Introduction to Fluid Mechanics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 321",
+   "title": "Marine Hydrodynamics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 331",
+   "title": "Marine Power and Energy I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 332",
+   "title": "Marine Power and Energy II",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 340",
+   "title": "Marine Dynamics I",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 370",
+   "title": "Conceptual Vessel/Platform Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 401",
+   "title": "Small Craft Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 403",
+   "title": "Sailing Craft Design Principles",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 410",
+   "title": "Marine Structures II",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 416",
+   "title": "Theory of Plates and Shells",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 423",
+   "title": "Introduction to Numerical Hydrodynamics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 424",
+   "title": "Hydrofoils, Propellers and Turbines",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 431",
+   "title": "Marine Engineering II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 440",
+   "title": "Marine Dynamics II",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 461",
+   "title": "Marine Structures Construction",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 470",
+   "title": "Foundations of Ship Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 471",
+   "title": "Advanced Ship Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 475",
+   "title": "Capstone Design Project",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 483",
+   "title": "Marine Control Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 491",
+   "title": "Marine Engineering Laboratory I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 492",
+   "title": "Marine Engineering Laboratory II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 499",
+   "title": "Special Topics in Naval Architecture and Marine Engineering",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 500",
+   "title": "Mathematics for Naval",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 510",
+   "title": "Marine Structural Mechanics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 512",
+   "title": "Finite Element Methods in Solid and Structural Mechanics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 513",
+   "title": "Defect Assessment for Marine Structures",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 514",
+   "title": "Fatigue of Structures",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 515",
+   "title": "Residual Stresses & Distortions in Modern Manufacturing",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 520",
+   "title": "Intermediate Hydrodynamics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 523",
+   "title": "Numerical Marine Hydrodynamics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 525",
+   "title": "Drag Reduction Techniques",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 540",
+   "title": "Marine Dynamics II",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 551",
+   "title": "Offshore Engineering I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 552",
+   "title": "Offshore Engineering II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 562",
+   "title": "Marine Systems Production: Business Strategy and Operations Management",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 565",
+   "title": "Self Driving Cars: Perception and Control",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 569",
+   "title": "Advanced Marine Robotics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 570",
+   "title": "Advanced Marine Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 571",
+   "title": "Ship Design Project",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 575",
+   "title": "Computer-Aided Marine Design Project",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 580",
+   "title": "Optimization and Management of Marine Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 582",
+   "title": "Reliability, Risk and Safety Analysis",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 583",
+   "title": "Adaptive Control",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 590",
+   "title": "Directed Study, Research and Special Problems",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 592",
+   "title": "Master's Thesis",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 599",
+   "title": "Special Topics in Naval Architecture and Marine Engineering",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 620",
+   "title": "Computational Fluid Dynamics for Ship Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 627",
+   "title": "Wave Motion in Fluids",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 792",
+   "title": "Professional Degree Thesis",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 990",
+   "title": "Dissertation/Pre-Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "NAVARCH 995",
+   "title": "Dissertation/Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "NAVSCI 101",
+   "title": "Introduction to Naval Science",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "NAVSCI 102",
+   "title": "Seapower and Maritime Affairs",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "NAVSCI 201",
+   "title": "Introduction to Ship Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVSCI 202",
+   "title": "Electronic Sensing Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVSCI 203",
+   "title": "Leadership and Management",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVSCI 301",
+   "title": "Navigation",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVSCI 302",
+   "title": "Seamanship and Naval Operations",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVSCI 310",
+   "title": "Fundamentals of Warfare",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NAVSCI 402",
+   "title": "Leadership and Ethics",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "NAVSCI 410",
+   "title": "Amphibious Warfare",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 190",
+   "title": "Special Topics in Nuclear Engineering and Radiological Sciences",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NERS 201",
+   "title": "Survey of Nuclear Engineering and Radiological Sciences",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "NERS 211",
+   "title": "Introduction to Nuclear Engineering and Radiological Sciences",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NERS 250",
+   "title": "Fundamentals of Nuclear Engineering and Radiological Sciences",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NERS 290",
+   "title": "Special Topics for Nuclear Engineering and Radiological Sciences",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 299",
+   "title": "Directed Study in Nuclear Engineering and Radiological Sciences",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 311",
+   "title": "Elements of Nuclear Engineering and Radiological Sciences I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 312",
+   "title": "Elements of Nuclear Engineering and Radiological Sciences II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 315",
+   "title": "Nuclear Instrumentation Laboratory",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NERS 320",
+   "title": "Applied Mathematics for Engineering Physics I",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NERS 344",
+   "title": "Fluid Mechanics for Nuclear Engineers",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 421",
+   "title": "Nuclear Engineering Materials",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 425",
+   "title": "Application of Radiation",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NERS 441",
+   "title": "Nuclear Reactor Theory I",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NERS 442",
+   "title": "Nuclear Power Reactors",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "NERS 444",
+   "title": "Fundamentals of Heat and Mass Transfer",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 462",
+   "title": "Reactor Safety Analysis",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 471",
+   "title": "Introduction to Plasmas and Fusion",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 472",
+   "title": "Fusion Reactor Technology",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 484",
+   "title": "Radiological Health Engineering Fundamentals",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NERS 490",
+   "title": "Special Topics in Nuclear Engineering and Radiological Sciences",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NERS 492",
+   "title": "Nuclear Engineering and Radiological Sciences Design 2",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 499",
+   "title": "Research in Nuclear Engineering and Radiological Sciences",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 511",
+   "title": "Quantum Mechanics in Neutron-Nuclear Reactions",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 512",
+   "title": "Interaction of Radiation and Matter",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 515",
+   "title": "Nuclear Measurements Laboratory",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NERS 518",
+   "title": "Advanced Radiation Measurements and Imaging",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "NERS 521",
+   "title": "Radiation Materials Science I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 522",
+   "title": "Radiation Materials Science II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 524",
+   "title": "Nuclear Fuels",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 532",
+   "title": "Nuclear Safeguards",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 535",
+   "title": "Detection Techniques of Nuclear Non-proliferation",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NERS 543",
+   "title": "Nuclear Reactor Theory II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 544",
+   "title": "Monte Carlo Methods",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 546",
+   "title": "Thermal Fluids for Nuclear Reactor Safety Analysis",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 551",
+   "title": "Nuclear Reactor Kinetics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 554",
+   "title": "Radiation Shielding",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "NERS 555",
+   "title": "Radiological Physics and Dosimetry",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "NERS 561",
+   "title": "Nuclear Core Design and Analysis I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 562",
+   "title": "Nuclear Core Design and Analysis II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 570",
+   "title": "Methods and Practice of Scientific Computing",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NERS 571",
+   "title": "Intermediate Plasma Physics I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 572",
+   "title": "Intermediate Plasma Physics II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 573",
+   "title": "Plasma Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 574",
+   "title": "Introduction to Computational Plasma Physics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 575",
+   "title": "Plasma Laboratory",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NERS 576",
+   "title": "Charged Particle Accelerators and Beams",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 577",
+   "title": "Plasma Spectroscopy",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 578",
+   "title": "Low Temperature Plasmas",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 579",
+   "title": "Introduction to the Science and Technology of Space Nuclear Power and Propulsion",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 580",
+   "title": "Computation Projects in Radiation Imaging",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "NERS 581",
+   "title": "Radiation Therapy Physics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 582",
+   "title": "Medical Radiological Health Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 583",
+   "title": "Radiological Dose Assessment and Response",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 584",
+   "title": "Radiation Biology",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 585",
+   "title": "Physics of Medical Imaging",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 588",
+   "title": "Radiation Safety and Medical Physics Practicum",
+   "credits": 12,
+   "tags": []
+  },
+  {
+   "code": "NERS 590",
+   "title": "Special Topics in Nuclear Engineering and Radiological Sciences II",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "NERS 599",
+   "title": "Master's Project",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 621",
+   "title": "Nuclear Waste Forms",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 644",
+   "title": "Transport Theory",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 671",
+   "title": "Theory of Plasma Confinement in Fusion Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 672",
+   "title": "High Energy Density Physics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 673",
+   "title": "Electrons and Coherent Radiation",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 674",
+   "title": "High-Intensity Laser Plasma Interactions",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 675",
+   "title": "Plasma Chemistry and Plasma Surface Interactions",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "NERS 799",
+   "title": "Special Projects",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "NERS 990",
+   "title": "Dissertation/Pre-Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "NERS 995",
+   "title": "Dissertation/Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "PHARMACY 597",
+   "title": "Regulatory Issues for Scientists, Engineers, and Managers",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "PHARMSCI 519",
+   "title": "Pharmaceutical Engineering",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "PHARMSCI 761",
+   "title": "Population Pharmacokinetics",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "PHYSICS 540",
+   "title": "Advanced Condensed Matter",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "PHYSICS 542",
+   "title": "Quantum Optics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "PHYSICS 619",
+   "title": "Advanced Solid State Physics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "PHYSICS 629",
+   "title": "Complex Fluids",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "PHYSICS 633",
+   "title": "Fluid Dynamics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "PHYSICS 644",
+   "title": "Advanced Atomic Physics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "PHYSIOL 519",
+   "title": "Quantitative Physiology",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "PSYCH 643",
+   "title": "Theory of Neural Computation",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "PSYCH 644",
+   "title": "Computational Modeling of Cognition",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "PSYCH 740",
+   "title": "Neural Models and Psychological Processes",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ROB 101",
+   "title": "Computational Linear Algebra",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ROB 102",
+   "title": "Introduction to Algorithms and Programming",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ROB 201",
+   "title": "Calculus for the Modern Engineer",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ROB 203",
+   "title": "Robotics Mechanisms",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "ROB 204",
+   "title": "Introduction to Human-Robot Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ROB 215",
+   "title": "Robot Dynamics and Simulation",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ROB 290",
+   "title": "Directed Study",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "ROB 298",
+   "title": "Special Topics in Robotics",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "ROB 310",
+   "title": "Robot Sensors and Signals",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ROB 311",
+   "title": "How to Build Robots and Make Them Move",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ROB 320",
+   "title": "Robot Operating Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ROB 330",
+   "title": "Localization, Mapping, and Navigation",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ROB 340",
+   "title": "Human Evaluation of Robots",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ROB 415",
+   "title": "Robot Control",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ROB 416",
+   "title": "Multi-Robot Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ROB 422",
+   "title": "Introduction to Algorithmic Robotics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ROB 430",
+   "title": "Deep Learning for Robot Perception and Manipulation",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ROB 435",
+   "title": "Quantifying Human Motion Through Wearable Sensors",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ROB 450",
+   "title": "Robotics Capstone",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ROB 464",
+   "title": "Hands-on Robotics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ROB 472",
+   "title": "Marine Robotics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ROB 490",
+   "title": "Directed Study",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "ROB 498",
+   "title": "Special Topics in Robotics",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "ROB 501",
+   "title": "Mathematics for Robotics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ROB 502",
+   "title": "Programming for Robotics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ROB 511",
+   "title": "Mobile Manipulation Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ROB 516",
+   "title": "Advanced Multi-Robot Systems",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ROB 517",
+   "title": "Sensing & Machine Learning for Neural Interfaces",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ROB 520",
+   "title": "Motion Planning",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ROB 535",
+   "title": "Self Driving Cars: Perception and Control",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ROB 543",
+   "title": "Ethics for AI and Robotics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ROB 550",
+   "title": "Robotic Systems Laboratory",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ROB 560",
+   "title": "Bio-Inspired Robot Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "ROB 572",
+   "title": "Advanced Marine Robotics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ROB 590",
+   "title": "Directed Study",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "ROB 599",
+   "title": "Special Topics in Robotics",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "ROB 690",
+   "title": "Master's Advanced Research",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "ROB 990",
+   "title": "Dissertation/Pre-Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "ROB 995",
+   "title": "Dissertation/Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "SI 649",
+   "title": "Information Visualization",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 650",
+   "title": "Information Retrieval",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 652",
+   "title": "Incentives and Strategic Behavior in Computational Systems",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SPACE 101",
+   "title": "Rocket Science",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SPACE 103",
+   "title": "Intro Space Weather",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SPACE 110",
+   "title": "Climate and Space Science and Engineering Seminar",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "SPACE 205",
+   "title": "Special Topics in Climate and Space",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SPACE 310",
+   "title": "Introduction to Satellite Mission Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SPACE 324",
+   "title": "Instrumentation for Atmospheric and Space Science",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SPACE 370",
+   "title": "Solar-Terrestrial Relations",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SPACE 371",
+   "title": "Introduction to Optical Remote Sensing",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SPACE 405",
+   "title": "Special Topics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SPACE 407",
+   "title": "Mathematical Methods in Geophysics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SPACE 423",
+   "title": "Data Analysis and Visualization for Geoscientists",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SPACE 455",
+   "title": "Senior Capstone Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SPACE 471",
+   "title": "Space Instrumentation",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SPACE 477",
+   "title": "Space Weather Modeling",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SPACE 478",
+   "title": "Engineering for Space Environment",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SPACE 485",
+   "title": "Principles and Applications of Remote Sensing",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SPACE 495",
+   "title": "Upper Atmosphere and Ionosphere",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SPACE 498",
+   "title": "Practicum in Climate and Space Science",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "SPACE 499",
+   "title": "Directed Study",
+   "credits": 16,
+   "tags": []
+  },
+  {
+   "code": "SPACE 501",
+   "title": "Seminars in Climate, Atmospheres and Space Sciences",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "SPACE 532",
+   "title": "Radiative Transfer",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SPACE 545",
+   "title": "High Energy Density Physics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SPACE 551",
+   "title": "Fluid Dynamics for Climate and Space Sciences",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SPACE 565",
+   "title": "Planetary Science",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SPACE 571",
+   "title": "Space Plasma Measurement Techniques",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SPACE 574",
+   "title": "Introduction to Space Physics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SPACE 581",
+   "title": "Space Policy and Management",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SPACE 582",
+   "title": "Spacecraft Technology",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SPACE 583",
+   "title": "Management of Space Systems Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SPACE 584",
+   "title": "Space Mission Design and Implementation on a High-Altitude Balloon",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SPACE 585",
+   "title": "Inverse Methods for Remote Sensing",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SPACE 586",
+   "title": "Advanced Data Analysis Techniques",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SPACE 590",
+   "title": "Space Systems Projects",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SPACE 595",
+   "title": "Magnetosphere and Solar Wind",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SPACE 596",
+   "title": "Gaskinetic Theory",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SPACE 597",
+   "title": "Fundamentals of Space Plasma Physics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SPACE 598",
+   "title": "The Sun and the Heliosphere",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SPACE 605",
+   "title": "Current Topics in Climate and Space Sciences and Engineering",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SPACE 690",
+   "title": "Thesis/Master of Science",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "SPACE 746",
+   "title": "CLaSP Graduate Professional Development",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "SPACE 747",
+   "title": "Proposal Development",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "SPACE 748",
+   "title": "Student Presentation",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "SPACE 749",
+   "title": "CLaSP Seminar",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "SPACE 990",
+   "title": "Dissertation/Pre-Candidate",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SPACE 995",
+   "title": "Dissertation/Candidate",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "TCHNCLCM 300",
+   "title": "Technical Communication for Electrical and Computer Science",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "TCHNCLCM 350",
+   "title": "Technical Communication for Robotics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "TCHNCLCM 380",
+   "title": "Technical Communication in IOE",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "TCHNCLCM 401",
+   "title": "Special Topics Strategic Planning & Proposal Writing",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "TCHNCLCM 450",
+   "title": "Web Page and Site Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "TCHNCLCM 492",
+   "title": "Vis Comm-Tech Info",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "TCHNCLCM 496",
+   "title": "Advanced Technical Communication for Electrical Engineering and Computer Engineering",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "TCHNCLCM 497",
+   "title": "Advanced Technical Communication for Computer Science",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "TCHNCLCM 498",
+   "title": "Technical and Professional Writing for Industry, Government, and Business",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "TCHNCLCM 499",
+   "title": "Scientific and Technical Communication",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "TCHNCLCM 501",
+   "title": "Selected Topics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "TCHNCLCM 520",
+   "title": "Tech-Sci Editing",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "TCHNCLCM 530",
+   "title": "Graphic Typogr Desg",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "TCHNCLCM 570",
+   "title": "Tech Prose Cmprhnsn",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "TCHNCLCM 575",
+   "title": "Directed Study",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "TCHNCLCM 580",
+   "title": "Thry Tec-Sci Rhetor",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "TCHNCLCM 585",
+   "title": "Thry Documentation",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "TCHNCLCM 586",
+   "title": "Documentation Dsgn",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "TCHNCLCM 590",
+   "title": "Intern in Tech Comm",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "TCHNCLCM 595",
+   "title": "Comm Tech & Pub Pol",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "TCHNCLCM 598",
+   "title": "Mgmt Communication",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "TCHNCLCM 601",
+   "title": "Selected Topics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "TCHNCLCM 610",
+   "title": "Technical & Professional Communication For Graduate Students",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "TCHNCLCM 620",
+   "title": "Tchng Tech Writing",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "TCHNCLCM 675",
+   "title": "Directed Study",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "TO 605",
+   "title": "Manufacturing and Supply Operations",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "UARTS 150",
+   "title": "Writing and Interdisciplinary Collaborative Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "UARTS 175",
+   "title": "Collaborative Creative Project",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "UARTS 250",
+   "title": "Interdisciplinary Innovation & Creative Thinking",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "UARTS 260",
+   "title": "Introductory ArtsEngin Project",
+   "credits": 5,
+   "tags": []
+  },
+  {
+   "code": "UARTS 275",
+   "title": "Leading Collaborative Creative Projects",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "UARTS 290",
+   "title": "Special Topics in University Arts",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "UARTS 360",
+   "title": "Intermediate ArtsEngin Project",
+   "credits": 5,
+   "tags": []
+  },
+  {
+   "code": "UARTS 390",
+   "title": "Special Topics in University Arts",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "UARTS 460",
+   "title": "Advanced ArtsEngin Project",
+   "credits": 5,
+   "tags": []
+  },
+  {
+   "code": "UARTS 490",
+   "title": "Special Topics in University Arts",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "UARTS 550",
+   "title": "Creative Process",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "UARTS 560",
+   "title": "Graduate ArtsEngin Project",
+   "credits": 5,
+   "tags": []
+  },
+  {
+   "code": "UARTS 590",
+   "title": "Special Topics in University Arts",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "UC 101",
+   "title": "Seapower and Maritime Affairs",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "UC 201",
+   "title": "Team and Leadership Fundamentals I",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "UC 202",
+   "title": "Team and Leadership Fundamentals II",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "UC 203",
+   "title": "Innovative Tactical Leadership",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "UC 204",
+   "title": "Leadership in Changing Environments",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "UC 205",
+   "title": "Leadership and Management",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "UC 301",
+   "title": "Leading Small Organizations I",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "UC 302",
+   "title": "Leading Small Organizations II",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "UC 307",
+   "title": "Leading People and Effective Communication I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "UC 310",
+   "title": "Fundamentals of Warfare",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "UC 401",
+   "title": "Leadership and Management",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "UC 402",
+   "title": "Military Professionalism and Professional Ethics",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "UC 403",
+   "title": "Leadership and Ethics",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "UC 410",
+   "title": "Amphibious Warfare",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "UC 500",
+   "title": "Biomedical Engineering Seminar",
+   "credits": 1,
+   "tags": []
+  }
+ ]
+}

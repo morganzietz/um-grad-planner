@@ -1,0 +1,840 @@
+{
+ "id": "coe-data-science",
+ "name": "Data Science",
+ "school": "College of Engineering",
+ "goalCredits": 128,
+ "requirements": [
+  {
+   "id": "coe-total-credits",
+   "label": "128 Total Credits",
+   "hint": "All College of Engineering BSE programs require 128 credit hours.",
+   "need": 128,
+   "countMode": "credits",
+   "category": "coe-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/rules/graduation/"
+   ]
+  },
+  {
+   "id": "coe-math-115",
+   "label": "MATH 115: Calculus I",
+   "hint": "Part of the 16 credit CoE mathematics core. AP calculus credit counts here automatically. Honors math sequences also satisfy this per the CoE Bulletin, use the adjust control if your credit posted under a different course number.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 115"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-math-116",
+   "label": "MATH 116: Calculus II",
+   "hint": "Part of the 16 credit CoE mathematics core. AP calculus credit counts here automatically. Honors math sequences also satisfy this per the CoE Bulletin, use the adjust control if your credit posted under a different course number.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 116"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-math-215",
+   "label": "MATH 215: Multivariable Calculus",
+   "hint": "Part of the 16 credit CoE mathematics core.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 215"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-math-linear-algebra",
+   "label": "Linear algebra (MATH 214 or equivalent)",
+   "hint": "DS-Eng requires linear algebra in place of MATH 216. MATH 214, 217, or 417 satisfies this per the DS-Eng program guide, and EECS 245 also counts per the official DS course lists.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 214",
+    "MATH 217",
+    "MATH 417",
+    "EECS 245"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/",
+    "https://cse.engin.umich.edu/academics/undergraduate/majors-and-minors/data-science-eng-major/"
+   ]
+  },
+  {
+   "id": "coe-chem-core",
+   "label": "Chemistry core",
+   "hint": "Either CHEM 130 with the CHEM 125 and 126 labs, or CHEM 210 with the CHEM 211 lab for students who place into organic chemistry. Satisfactory AP chemistry credit also meets this per the CoE Bulletin, use the adjust control if that is your case.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "pickFromGroups": [
+    "coe-chem-gen-sequence",
+    "coe-chem-210-211"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-chem-gen-sequence",
+   "label": "CHEM 130 with labs 125 and 126",
+   "hint": "General chemistry with both laboratory courses.",
+   "need": 3,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "CHEM 130",
+    "CHEM 125",
+    "CHEM 126"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-chem-210-211",
+   "label": "CHEM 210 and CHEM 211",
+   "hint": "Organic chemistry path for students who place into CHEM 210. Placement here means no credit is given for CHEM 130.",
+   "need": 2,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "CHEM 210",
+    "CHEM 211"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-140",
+   "label": "PHYSICS 140: General Physics I",
+   "hint": "CoE physics core. The honors sequence PHYSICS 160 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 140",
+    "PHYSICS 160"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-141",
+   "label": "PHYSICS 141: Elementary Lab I",
+   "hint": "CoE physics core laboratory. The honors lab PHYSICS 161 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 141",
+    "PHYSICS 161"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-240",
+   "label": "PHYSICS 240: General Physics II",
+   "hint": "CoE physics core. The honors sequence PHYSICS 260 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 240",
+    "PHYSICS 260"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-241",
+   "label": "PHYSICS 241: Elementary Lab II",
+   "hint": "CoE physics core laboratory. The honors lab PHYSICS 261 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 241",
+    "PHYSICS 261"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-engr-100",
+   "label": "ENGR 100: Introduction to Engineering",
+   "hint": "A grade of C or better is required. Transfer students may substitute a course meeting the LSA first year writing requirement.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "ENGR 100"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-engr-101",
+   "label": "ENGR 101: Introduction to Computers and Programming",
+   "hint": "A grade of C or better is required. For DS-Eng, ENGR 151, EECS 183, ROB 102, or EECS 180 AP credit also satisfies this per the DS-Eng program guide.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "ENGR 101",
+    "ENGR 151",
+    "EECS 183",
+    "ROB 102"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-ib-total",
+   "label": "Intellectual Breadth (16 credits)",
+   "hint": "16 credits of liberal arts courses, meaning courses marked HU or SS that are not also marked BS, NS, or QR. ECON 101 and 102 count by explicit exception. Up to 4 credits of approved professional development courses from other U-M schools may also count, use the adjust control to include those.",
+   "need": 16,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "coe-liberal-arts",
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-ib-humanities",
+   "label": "Humanities minimum (3 credits)",
+   "hint": "At least 3 of the 16 Intellectual Breadth credits must be humanities courses. Credit by test cannot be used for this minimum.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "lsa-humanities",
+   "excludeTags": [
+    "lsa-bs",
+    "lsa-natural-sciences",
+    "lsa-qr"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-ib-upper",
+   "label": "Upper level liberal arts minimum (3 credits)",
+   "hint": "At least 3 of the 16 Intellectual Breadth credits must be liberal arts courses at the 300 level or higher. One course may satisfy both this and the humanities minimum.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "coe-liberal-arts-upper",
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-general-electives",
+   "label": "General electives (15 credits)",
+   "hint": "Free elective credits that bring the program to 128 total. Any U-M course counts.",
+   "need": 15,
+   "countMode": "credits",
+   "category": "coe-general-electives",
+   "matchAll": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-residency",
+   "label": "Residency (50 credits at U-M Ann Arbor)",
+   "hint": "Still building automatic checking for this rule. At least 50 credits must be U-M Ann Arbor coursework, including at least 30 credits of 300 level or higher technical courses offered by the College of Engineering in Ann Arbor.",
+   "need": 1,
+   "countMode": "count",
+   "manual": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/rules/graduation/"
+   ]
+  },
+  {
+   "id": "coe-data-science-intro-data-science",
+   "label": "Introductory Data Science",
+   "hint": "Choose 1 of: DATASCI 101, STATS 250, STATS 280, IOE 265, or ECON 451, C or better. The DS-Eng program guide strongly recommends DATASCI 101.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "DATASCI 101",
+    "STATS 250",
+    "STATS 280",
+    "IOE 265",
+    "ECON 451"
+   ],
+   "sources": [
+    "https://docs.google.com/document/d/1pd9-kPsnGRNls8Aa_1YFrjOUIPdSWtSO3IYLWwd7fHY/preview"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-data-science-discrete-math",
+   "label": "Discrete Mathematics: EECS 203 or MATH 465",
+   "hint": "Choose 1 of: EECS 203 or MATH 465. C or better.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "EECS 203",
+    "MATH 465"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-data-science-eecs-280",
+   "label": "EECS 280: Programming and Introductory Data Structures",
+   "hint": "C or better.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "EECS 280"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-data-science-eecs-281",
+   "label": "EECS 281: Data Structures and Algorithms",
+   "hint": "C or better.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "EECS 281"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-data-science-probability-statistics",
+   "label": "Probability and Statistics: STATS 412, 425, or 426",
+   "hint": "Choose 1 of: STATS 412, STATS 425 (also offered as MATH 425), or STATS 426 (also offered as MATH 426), C or better. STATS 250 may not fulfill this requirement.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "STATS 412",
+    "STATS 425",
+    "MATH 425",
+    "STATS 426",
+    "MATH 426"
+   ],
+   "sources": [
+    "https://docs.google.com/document/d/1pd9-kPsnGRNls8Aa_1YFrjOUIPdSWtSO3IYLWwd7fHY/preview"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-data-science-stats-413",
+   "label": "STATS/DATASCI 413: Applied Regression Analysis",
+   "hint": "C or better.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "STATS 413",
+    "DATASCI 413"
+   ],
+   "sources": [
+    "https://docs.google.com/document/d/1pd9-kPsnGRNls8Aa_1YFrjOUIPdSWtSO3IYLWwd7fHY/preview"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "whatif-rq-11215",
+   "label": "Capstone Experience",
+   "hint": "One approved DS capstone course of 4 credits, C or better, typically taken senior year. Per the DS-Eng capstone list, EECS 442 leaves the list starting Fall 2027, EECS 447 joins starting Winter 2027, and thesis or independent study routes such as EECS 443 or STATS 489 need pre-approval from a Data Science advisor.",
+   "need": 1,
+   "countMode": "count",
+   "category": "capstone",
+   "matchCodes": [
+    "STATS 485",
+    "DATASCI 485",
+    "EECS 442",
+    "EECS 447",
+    "EECS 448",
+    "EECS 449",
+    "EECS 467",
+    "EECS 486",
+    "EECS 443",
+    "STATS 489"
+   ],
+   "sources": [
+    "https://docs.google.com/spreadsheets/d/1Mets2NQ4i1ZY-4TNFfd7DpX2yU6h73bK673dgDiEEDA/preview#gid=590577141",
+    "https://docs.google.com/document/d/1pd9-kPsnGRNls8Aa_1YFrjOUIPdSWtSO3IYLWwd7fHY/preview"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-data-science-machine-learning",
+   "label": "Machine Learning and Data Mining: EECS 445 or STATS 415",
+   "hint": "Choose 1 of: EECS 445 or STATS 415, now offered as DATASCI 415. C or better. EECS 545 cannot fulfill this requirement, and students cannot earn credit for both EECS 445 and EECS 545.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "EECS 445",
+    "STATS 415",
+    "DATASCI 415"
+   ],
+   "sources": [
+    "https://docs.google.com/document/d/1pd9-kPsnGRNls8Aa_1YFrjOUIPdSWtSO3IYLWwd7fHY/preview"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-data-science-data-management",
+   "label": "Data Management and Applications: EECS 484 or 485",
+   "hint": "Choose 1 of: EECS 484 or EECS 485. C or better.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "EECS 484",
+    "EECS 485"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-data-science-application-elective",
+   "label": "Data Science Application Elective",
+   "hint": "One course from the approved Application Electives list, C or better, per the DS-Eng Application Electives list (retrieved July 2026). Select CSE 401X study abroad courses can also count with help from the advising office, and undergraduates are not guaranteed seats in graduate level courses.",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "matchCodes": [
+    "ANTHRBIO 463",
+    "ASTRO 361",
+    "ASTRO 406",
+    "ASTRO 416",
+    "BIOINF 463",
+    "BIOPHYS 463",
+    "MATH 463",
+    "BIOINF 527",
+    "BIOINF 528",
+    "BIOINF 529",
+    "BIOINF 547",
+    "MATH 547",
+    "STATS 547",
+    "BIOINF 580",
+    "BIOPHYS 445",
+    "CMPLXSYS 445",
+    "MATH 445",
+    "PHYSICS 445",
+    "BIOSTAT 449",
+    "STATS 449",
+    "CLIMATE 323",
+    "EARTH 323",
+    "SPACE 323",
+    "CMPLXSYS 466",
+    "EEB 466",
+    "MATH 466",
+    "CMPLXSYS 510",
+    "MATH 550",
+    "COGSCI 445",
+    "LING 445",
+    "CSE 585",
+    "CSE 587",
+    "CSE 595",
+    "DATASCI 306",
+    "STATS 306",
+    "DATASCI 315",
+    "STATS 315",
+    "DATASCI 406",
+    "EARTH 408",
+    "ENVIRON 403",
+    "ECON 408",
+    "ECON 409",
+    "ECON 452",
+    "EEB 391",
+    "EECS 367",
+    "ROB 380",
+    "EECS 442",
+    "EECS 448",
+    "EECS 449",
+    "EECS 465",
+    "ROB 422",
+    "EECS 467",
+    "EECS 471",
+    "EECS 476",
+    "EECS 486",
+    "EECS 493",
+    "EECS 504",
+    "EECS 548",
+    "SI 649",
+    "IOE 373",
+    "IOE 413",
+    "IOE 452",
+    "MFG 445",
+    "LING 441",
+    "MATH 423",
+    "MATH 523",
+    "POLSCI 490",
+    "POLSCI 499",
+    "STATS 485",
+    "DATASCI 485",
+    "SI 345",
+    "SI 650"
+   ],
+   "sources": [
+    "https://docs.google.com/spreadsheets/d/1Mets2NQ4i1ZY-4TNFfd7DpX2yU6h73bK673dgDiEEDA/preview#gid=362210235",
+    "https://docs.google.com/document/d/1pd9-kPsnGRNls8Aa_1YFrjOUIPdSWtSO3IYLWwd7fHY/preview"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-data-science-advanced-technical-electives",
+   "label": "Advanced Technical Electives (4 credits)",
+   "hint": "At least 4 of the 19 technical elective credits must come from the Advanced Technical Electives list, C or better, per the DS-Eng elective lists (retrieved July 2026). All 500 level EECS courses need pre-approval, and a course used for the capstone cannot also count here.",
+   "need": 4,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "ASTRO 406",
+    "BIOINF 545",
+    "BIOSTAT 646",
+    "STATS 545",
+    "BIOINF 547",
+    "MATH 547",
+    "STATS 547",
+    "BIOSTAT 449",
+    "STATS 449",
+    "CMPLXSYS 445",
+    "DATASCI 406",
+    "STATS 406",
+    "DATASCI 415",
+    "STATS 415",
+    "DATASCI 451",
+    "STATS 451",
+    "DATASCI 470",
+    "STATS 470",
+    "DATASCI 531",
+    "STATS 531",
+    "DATASCI 606",
+    "STATS 606",
+    "EECS 367",
+    "ROB 380",
+    "EECS 442",
+    "EECS 445",
+    "EECS 448",
+    "EECS 449",
+    "EECS 453",
+    "EECS 465",
+    "ROB 422",
+    "EECS 467",
+    "EECS 471",
+    "EECS 474",
+    "EECS 476",
+    "EECS 484",
+    "EECS 485",
+    "EECS 486",
+    "EECS 487",
+    "EECS 491",
+    "EECS 492",
+    "EECS 504",
+    "EECS 505",
+    "EECS 545",
+    "EECS 553",
+    "IOE 310",
+    "IOE 465",
+    "MATH 351",
+    "MATH 371",
+    "MATH 420",
+    "MATH 425",
+    "STATS 425",
+    "MATH 451",
+    "MATH 471",
+    "MATH 472",
+    "MATH 526",
+    "STATS 526",
+    "MATH 571",
+    "STATS 430",
+    "STATS 480",
+    "STATS 571"
+   ],
+   "sources": [
+    "https://docs.google.com/spreadsheets/d/1Mets2NQ4i1ZY-4TNFfd7DpX2yU6h73bK673dgDiEEDA/preview",
+    "https://docs.google.com/document/d/1pd9-kPsnGRNls8Aa_1YFrjOUIPdSWtSO3IYLWwd7fHY/preview"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-data-science-advanced-statistical-electives",
+   "label": "Advanced Statistical Analysis Electives (4 credits)",
+   "hint": "At least 4 of the 19 technical elective credits must come from the Advanced Statistical Analysis Electives list, C or better, per the DS-Eng elective lists (retrieved July 2026). The same course cannot count toward more than one elective category.",
+   "need": 4,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "DATASCI 306",
+    "STATS 306",
+    "DATASCI 315",
+    "STATS 315",
+    "DATASCI 415",
+    "STATS 415",
+    "MATH 525",
+    "STATS 525",
+    "MATH 526",
+    "STATS 526",
+    "STATS 426",
+    "STATS 449",
+    "DATASCI 451",
+    "STATS 451",
+    "DATASCI 470",
+    "STATS 470",
+    "STATS 480",
+    "STATS 485",
+    "DATASCI 485",
+    "BIOINF 545",
+    "BIOSTAT 646",
+    "STATS 545",
+    "BIOINF 547",
+    "MATH 547",
+    "STATS 547",
+    "DATASCI 531",
+    "STATS 531",
+    "STATS 571"
+   ],
+   "sources": [
+    "https://docs.google.com/spreadsheets/d/1Mets2NQ4i1ZY-4TNFfd7DpX2yU6h73bK673dgDiEEDA/preview#gid=1306521871",
+    "https://docs.google.com/document/d/1pd9-kPsnGRNls8Aa_1YFrjOUIPdSWtSO3IYLWwd7fHY/preview"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-data-science-flexible-technical-electives",
+   "label": "Flexible Technical Electives (11 credits to reach 19 total)",
+   "hint": "Still building automatic checking for this rule. The remaining technical elective credits to reach 19 total come from the pre-approved Flexible Technical Electives list of courses at the 200 level or higher, or from the two advanced lists, with at most 4 credits of directed or independent study, and EECS 201 is a recommended option.",
+   "need": 11,
+   "countMode": "credits",
+   "category": "electives",
+   "manual": true,
+   "sources": [
+    "https://docs.google.com/spreadsheets/d/1Mets2NQ4i1ZY-4TNFfd7DpX2yU6h73bK673dgDiEEDA/preview#gid=614866660",
+    "https://docs.google.com/document/d/1pd9-kPsnGRNls8Aa_1YFrjOUIPdSWtSO3IYLWwd7fHY/preview"
+   ]
+  },
+  {
+   "id": "coe-data-science-eecs-496",
+   "label": "EECS 496: Major Design Experience Professionalism",
+   "hint": "EECS 496 or EECS 295 per the DS-Eng program guide. Approved equivalents include COMPFOR 111, CSE 543, ENGR 499 section 002, and approved special topics sections.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "EECS 496",
+    "EECS 295",
+    "COMPFOR 111",
+    "CSE 543"
+   ],
+   "sources": [
+    "https://docs.google.com/document/d/1pd9-kPsnGRNls8Aa_1YFrjOUIPdSWtSO3IYLWwd7fHY/preview"
+   ]
+  },
+  {
+   "id": "coe-data-science-tchnclcm-300",
+   "label": "TCHNCLCM 300: Technical Communication for EECS",
+   "hint": "Must be taken in a term before the capstone.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "TCHNCLCM 300"
+   ],
+   "sources": [
+    "https://docs.google.com/document/d/1pd9-kPsnGRNls8Aa_1YFrjOUIPdSWtSO3IYLWwd7fHY/preview"
+   ]
+  },
+  {
+   "id": "coe-data-science-technical-writing",
+   "label": "Technical Writing: TCHNCLCM 400 level or STATS 404",
+   "hint": "Per the DS-Eng program guide the standard options are TCHNCLCM 497, STATS 404, or STATS 485, taken in the same or a later term as the capstone. Using STATS 485 for both this and the capstone requires 3 additional advanced technical elective credits.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "TCHNCLCM 496",
+    "TCHNCLCM 497",
+    "TCHNCLCM 499",
+    "STATS 404",
+    "STATS 485"
+   ],
+   "sources": [
+    "https://docs.google.com/document/d/1pd9-kPsnGRNls8Aa_1YFrjOUIPdSWtSO3IYLWwd7fHY/preview"
+   ]
+  },
+  {
+   "id": "whatif-rq-7853",
+   "label": "Major Total Credits: 46 Credits",
+   "hint": "Minimum 46 credits in the major, prerequisites excluded, counted against the official course lists used by the rows above. Flexible technical elective credits from outside those lists also count toward the total, use the adjust control to include them.",
+   "need": 46,
+   "countMode": "credits",
+   "category": "major-credit-min",
+   "matchCodes": [
+    "DATASCI 101",
+    "STATS 250",
+    "STATS 280",
+    "IOE 265",
+    "ECON 451",
+    "EECS 203",
+    "MATH 465",
+    "EECS 280",
+    "EECS 281",
+    "STATS 412",
+    "STATS 425",
+    "MATH 425",
+    "STATS 426",
+    "MATH 426",
+    "STATS 413",
+    "DATASCI 413",
+    "STATS 485",
+    "DATASCI 485",
+    "EECS 442",
+    "EECS 447",
+    "EECS 448",
+    "EECS 449",
+    "EECS 467",
+    "EECS 486",
+    "EECS 443",
+    "STATS 489",
+    "EECS 445",
+    "STATS 415",
+    "DATASCI 415",
+    "EECS 484",
+    "EECS 485",
+    "ANTHRBIO 463",
+    "ASTRO 361",
+    "ASTRO 406",
+    "ASTRO 416",
+    "BIOINF 463",
+    "BIOPHYS 463",
+    "MATH 463",
+    "BIOINF 527",
+    "BIOINF 528",
+    "BIOINF 529",
+    "BIOINF 547",
+    "MATH 547",
+    "STATS 547",
+    "BIOINF 580",
+    "BIOPHYS 445",
+    "CMPLXSYS 445",
+    "MATH 445",
+    "PHYSICS 445",
+    "BIOSTAT 449",
+    "STATS 449",
+    "CLIMATE 323",
+    "EARTH 323",
+    "SPACE 323",
+    "CMPLXSYS 466",
+    "EEB 466",
+    "MATH 466",
+    "CMPLXSYS 510",
+    "MATH 550",
+    "COGSCI 445",
+    "LING 445",
+    "CSE 585",
+    "CSE 587",
+    "CSE 595",
+    "DATASCI 306",
+    "STATS 306",
+    "DATASCI 315",
+    "STATS 315",
+    "DATASCI 406",
+    "EARTH 408",
+    "ENVIRON 403",
+    "ECON 408",
+    "ECON 409",
+    "ECON 452",
+    "EEB 391",
+    "EECS 367",
+    "ROB 380",
+    "EECS 465",
+    "ROB 422",
+    "EECS 471",
+    "EECS 476",
+    "EECS 493",
+    "EECS 504",
+    "EECS 548",
+    "SI 649",
+    "IOE 373",
+    "IOE 413",
+    "IOE 452",
+    "MFG 445",
+    "LING 441",
+    "MATH 423",
+    "MATH 523",
+    "POLSCI 490",
+    "POLSCI 499",
+    "SI 345",
+    "SI 650",
+    "BIOINF 545",
+    "BIOSTAT 646",
+    "STATS 545",
+    "STATS 406",
+    "DATASCI 451",
+    "STATS 451",
+    "DATASCI 470",
+    "STATS 470",
+    "DATASCI 531",
+    "STATS 531",
+    "DATASCI 606",
+    "STATS 606",
+    "EECS 453",
+    "EECS 474",
+    "EECS 487",
+    "EECS 491",
+    "EECS 492",
+    "EECS 505",
+    "EECS 545",
+    "EECS 553",
+    "IOE 310",
+    "IOE 465",
+    "MATH 351",
+    "MATH 371",
+    "MATH 420",
+    "MATH 451",
+    "MATH 471",
+    "MATH 472",
+    "MATH 526",
+    "STATS 526",
+    "MATH 571",
+    "STATS 430",
+    "STATS 480",
+    "STATS 571",
+    "MATH 525",
+    "STATS 525"
+   ]
+  }
+ ],
+ "sourceUrl": "https://cse.engin.umich.edu/academics/undergraduate/majors-and-minors/data-science-eng-major/"
+}

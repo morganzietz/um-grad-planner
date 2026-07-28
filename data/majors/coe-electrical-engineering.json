@@ -1,0 +1,691 @@
+{
+ "id": "coe-electrical-engineering",
+ "name": "Electrical Engineering",
+ "school": "College of Engineering",
+ "goalCredits": 128,
+ "requirements": [
+  {
+   "id": "coe-total-credits",
+   "label": "128 Total Credits",
+   "hint": "All College of Engineering BSE programs require 128 credit hours.",
+   "need": 128,
+   "countMode": "credits",
+   "category": "coe-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/rules/graduation/"
+   ]
+  },
+  {
+   "id": "coe-math-115",
+   "label": "MATH 115: Calculus I",
+   "hint": "Part of the 16 credit CoE mathematics core. AP calculus credit counts here automatically. Honors math sequences also satisfy this per the CoE Bulletin, use the adjust control if your credit posted under a different course number.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 115"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-math-116",
+   "label": "MATH 116: Calculus II",
+   "hint": "Part of the 16 credit CoE mathematics core. AP calculus credit counts here automatically. Honors math sequences also satisfy this per the CoE Bulletin, use the adjust control if your credit posted under a different course number.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 116"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-math-215",
+   "label": "MATH 215: Multivariable Calculus",
+   "hint": "Part of the 16 credit CoE mathematics core.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 215"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-math-216",
+   "label": "MATH 216: Differential Equations",
+   "hint": "Part of the 16 credit CoE mathematics core. Some programs substitute a different fourth math course, see your program rows below.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 216"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-chem-core",
+   "label": "Chemistry core",
+   "hint": "Either CHEM 130 with the CHEM 125 and 126 labs, or CHEM 210 with the CHEM 211 lab for students who place into organic chemistry. Satisfactory AP chemistry credit also meets this per the CoE Bulletin, use the adjust control if that is your case.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "pickFromGroups": [
+    "coe-chem-gen-sequence",
+    "coe-chem-210-211"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-chem-gen-sequence",
+   "label": "CHEM 130 with labs 125 and 126",
+   "hint": "General chemistry with both laboratory courses.",
+   "need": 3,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "CHEM 130",
+    "CHEM 125",
+    "CHEM 126"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-chem-210-211",
+   "label": "CHEM 210 and CHEM 211",
+   "hint": "Organic chemistry path for students who place into CHEM 210. Placement here means no credit is given for CHEM 130.",
+   "need": 2,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "CHEM 210",
+    "CHEM 211"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-140",
+   "label": "PHYSICS 140: General Physics I",
+   "hint": "CoE physics core. The honors sequence PHYSICS 160 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 140",
+    "PHYSICS 160"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-141",
+   "label": "PHYSICS 141: Elementary Lab I",
+   "hint": "CoE physics core laboratory. The honors lab PHYSICS 161 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 141",
+    "PHYSICS 161"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-240",
+   "label": "PHYSICS 240: General Physics II",
+   "hint": "CoE physics core. The honors sequence PHYSICS 260 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 240",
+    "PHYSICS 260"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-241",
+   "label": "PHYSICS 241: Elementary Lab II",
+   "hint": "CoE physics core laboratory. The honors lab PHYSICS 261 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 241",
+    "PHYSICS 261"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-engr-100",
+   "label": "ENGR 100: Introduction to Engineering",
+   "hint": "A grade of C or better is required. Transfer students may substitute a course meeting the LSA first year writing requirement.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "ENGR 100"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-engr-101",
+   "label": "ENGR 101: Introduction to Computers and Programming",
+   "hint": "A grade of C or better is required. ENGR 151 is an approved alternative for all CoE programs.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "ENGR 101",
+    "ENGR 151"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-ib-total",
+   "label": "Intellectual Breadth (16 credits)",
+   "hint": "16 credits of liberal arts courses, meaning courses marked HU or SS that are not also marked BS, NS, or QR. ECON 101 and 102 count by explicit exception. Up to 4 credits of approved professional development courses from other U-M schools may also count, use the adjust control to include those.",
+   "need": 16,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "coe-liberal-arts",
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-ib-humanities",
+   "label": "Humanities minimum (3 credits)",
+   "hint": "At least 3 of the 16 Intellectual Breadth credits must be humanities courses. Credit by test cannot be used for this minimum.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "lsa-humanities",
+   "excludeTags": [
+    "lsa-bs",
+    "lsa-natural-sciences",
+    "lsa-qr"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-ib-upper",
+   "label": "Upper level liberal arts minimum (3 credits)",
+   "hint": "At least 3 of the 16 Intellectual Breadth credits must be liberal arts courses at the 300 level or higher. One course may satisfy both this and the humanities minimum.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "coe-liberal-arts-upper",
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-general-electives",
+   "label": "General electives (11 credits)",
+   "hint": "Free elective credits that bring the program to 128 total. Any U-M course counts.",
+   "need": 11,
+   "countMode": "credits",
+   "category": "coe-general-electives",
+   "matchAll": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-residency",
+   "label": "Residency (50 credits at U-M Ann Arbor)",
+   "hint": "Still building automatic checking for this rule. At least 50 credits must be U-M Ann Arbor coursework, including at least 30 credits of 300 level or higher technical courses offered by the College of Engineering in Ann Arbor.",
+   "need": 1,
+   "countMode": "count",
+   "manual": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/rules/graduation/"
+   ]
+  },
+  {
+   "id": "coe-electrical-engineering-eecs-200",
+   "label": "EECS 200: Electrical Engineering Systems Design I",
+   "hint": "EE program core. A grade of C or higher is required.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "EECS 200"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-electrical-engineering-eecs-215",
+   "label": "EECS 215: Introduction to Electronic Circuits",
+   "hint": "EE program core. A grade of C or higher is required.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "EECS 215"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-electrical-engineering-eecs-216",
+   "label": "EECS 216: Introduction to Signals and Systems",
+   "hint": "EE program core. A grade of C or higher is required.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "EECS 216"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-electrical-engineering-eecs-230",
+   "label": "EECS 230: Electromagnetics I",
+   "hint": "EE program core. A grade of C or higher is required.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "EECS 230"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-electrical-engineering-eecs-280",
+   "label": "EECS 280: Programming and Introductory Data Structures",
+   "hint": "EE program core. A grade of C or higher is required.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "EECS 280"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-electrical-engineering-eecs-300",
+   "label": "EECS 300: Electrical Engineering Systems Design II",
+   "hint": "EE program core. A grade of C or higher is required.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "EECS 300"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-electrical-engineering-eecs-301",
+   "label": "EECS 301: Probabilistic Methods in Engineering",
+   "hint": "EE program core. A grade of C or higher is required.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "EECS 301"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-electrical-engineering-eecs-400",
+   "label": "EECS 400: ECE Major Design Experience",
+   "hint": "EE program core. A grade of C or higher is required. Taken concurrently with TCHNCLCM 496 and your MDE content course. Students who already completed EECS 496 or ENGR 499 are exempt, use the adjust control in that case.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "EECS 400"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-electrical-engineering-tchnclcm-300",
+   "label": "TCHNCLCM 300: Technical Communication for EECS",
+   "hint": "EE program core. A grade of C or higher is required.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "TCHNCLCM 300"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-electrical-engineering-tchnclcm-496",
+   "label": "TCHNCLCM 496: Advanced Technical Communication for ECE",
+   "hint": "EE program core. A grade of C or higher is required. Taken concurrently with EECS 400 and your MDE content course.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "TCHNCLCM 496"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "whatif-rq-7245",
+   "label": "Upper level electives in at least 2 categories",
+   "hint": "At least one upper level EE elective course must come from each of at least two of the six categories: Biomedical, Circuits and Solid State, Communication Control and Signal Processing, Computers, Electromagnetics and Optics, Power. These courses count within the 19 credit upper level EE elective total.",
+   "need": 2,
+   "countMode": "count",
+   "category": "electives",
+   "pickFromGroups": [
+    "coe-electrical-engineering-ulte-biomedical",
+    "coe-electrical-engineering-ulte-circuits-solid-state",
+    "coe-electrical-engineering-ulte-comm-control-signal",
+    "coe-electrical-engineering-ulte-computers",
+    "coe-electrical-engineering-ulte-electromagnetics-optics",
+    "coe-electrical-engineering-ulte-power"
+   ],
+   "sources": [
+    "https://docs.google.com/document/d/1NZ7-0qe5vj0W_3ZN8CuV8OqfKudM1FTe2XRz0toBAtM/",
+    "https://ece.engin.umich.edu/academics/undergraduate/majors-minors/electrical-engineering-major/"
+   ]
+  },
+  {
+   "id": "coe-electrical-engineering-ulte-biomedical",
+   "label": "Category: Biomedical",
+   "hint": "One approved upper level EE elective from the Biomedical category, per the ECE program guide.",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "matchCodes": [
+    "EECS 417",
+    "EECS 458"
+   ],
+   "sources": [
+    "https://docs.google.com/document/d/1NZ7-0qe5vj0W_3ZN8CuV8OqfKudM1FTe2XRz0toBAtM/"
+   ]
+  },
+  {
+   "id": "coe-electrical-engineering-ulte-circuits-solid-state",
+   "label": "Category: Circuits and Solid State",
+   "hint": "One approved upper level EE elective from the Circuits and Solid State category, per the ECE program guide.",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "matchCodes": [
+    "EECS 311",
+    "EECS 312",
+    "EECS 320",
+    "EECS 413",
+    "EECS 414",
+    "EECS 421",
+    "EECS 423",
+    "EECS 425",
+    "EECS 427",
+    "EECS 428",
+    "EECS 429"
+   ],
+   "sources": [
+    "https://docs.google.com/document/d/1NZ7-0qe5vj0W_3ZN8CuV8OqfKudM1FTe2XRz0toBAtM/"
+   ]
+  },
+  {
+   "id": "coe-electrical-engineering-ulte-comm-control-signal",
+   "label": "Category: Communication, Control and Signal Processing",
+   "hint": "One approved upper level EE elective from the Communication, Control and Signal Processing category, per the ECE program guide.",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "matchCodes": [
+    "EECS 351",
+    "EECS 442",
+    "EECS 444",
+    "EECS 452",
+    "EECS 453",
+    "EECS 455",
+    "EECS 460",
+    "EECS 461",
+    "EECS 464"
+   ],
+   "sources": [
+    "https://docs.google.com/document/d/1NZ7-0qe5vj0W_3ZN8CuV8OqfKudM1FTe2XRz0toBAtM/"
+   ]
+  },
+  {
+   "id": "coe-electrical-engineering-ulte-computers",
+   "label": "Category: Computers",
+   "hint": "One approved upper level EE elective from the Computers category, per the ECE program guide.",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "matchCodes": [
+    "EECS 270",
+    "EECS 370",
+    "EECS 373",
+    "EECS 376",
+    "EECS 445",
+    "EECS 470",
+    "EECS 472",
+    "EECS 473",
+    "EECS 475",
+    "EECS 477"
+   ],
+   "sources": [
+    "https://docs.google.com/document/d/1NZ7-0qe5vj0W_3ZN8CuV8OqfKudM1FTe2XRz0toBAtM/"
+   ]
+  },
+  {
+   "id": "coe-electrical-engineering-ulte-electromagnetics-optics",
+   "label": "Category: Electromagnetics and Optics",
+   "hint": "One approved upper level EE elective from the Electromagnetics and Optics category, per the ECE program guide.",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "matchCodes": [
+    "EECS 330",
+    "EECS 334",
+    "EECS 411",
+    "EECS 430",
+    "EECS 434",
+    "EECS 438"
+   ],
+   "sources": [
+    "https://docs.google.com/document/d/1NZ7-0qe5vj0W_3ZN8CuV8OqfKudM1FTe2XRz0toBAtM/"
+   ]
+  },
+  {
+   "id": "coe-electrical-engineering-ulte-power",
+   "label": "Category: Power",
+   "hint": "One approved upper level EE elective from the Power category, per the ECE program guide.",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "matchCodes": [
+    "EECS 418",
+    "EECS 419",
+    "EECS 463"
+   ],
+   "sources": [
+    "https://docs.google.com/document/d/1NZ7-0qe5vj0W_3ZN8CuV8OqfKudM1FTe2XRz0toBAtM/"
+   ]
+  },
+  {
+   "id": "coe-electrical-engineering-mde",
+   "label": "MDE content course (4 credits)",
+   "hint": "One 4 credit Major Design Experience content course, taken concurrently with EECS 400 and TCHNCLCM 496. EECS 470 satisfies this only if completed in Fall 2025 or earlier, and an approved senior design course from another program requires a petition, use the adjust control for either case.",
+   "need": 1,
+   "countMode": "count",
+   "category": "capstone",
+   "matchCodes": [
+    "EECS 411",
+    "EECS 413",
+    "EECS 425",
+    "EECS 427",
+    "EECS 430",
+    "EECS 438",
+    "EECS 452",
+    "EECS 472",
+    "EECS 473"
+   ],
+   "sources": [
+    "https://docs.google.com/document/d/1NZ7-0qe5vj0W_3ZN8CuV8OqfKudM1FTe2XRz0toBAtM/",
+    "https://ece.engin.umich.edu/academics/undergraduate/majors-minors/electrical-engineering-major/"
+   ]
+  },
+  {
+   "id": "coe-electrical-engineering-uleee",
+   "label": "Upper Level EE Electives (19 credits)",
+   "hint": "19 credits from the approved upper level EE elective list, chosen from at least two categories. The course used as your MDE content course cannot also count here, so the audit sets aside 4 matched credits for it.",
+   "need": 19,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "EECS 270",
+    "EECS 311",
+    "EECS 312",
+    "EECS 320",
+    "EECS 330",
+    "EECS 334",
+    "EECS 351",
+    "EECS 370",
+    "EECS 373",
+    "EECS 376",
+    "EECS 411",
+    "EECS 413",
+    "EECS 414",
+    "EECS 417",
+    "EECS 418",
+    "EECS 419",
+    "EECS 421",
+    "EECS 423",
+    "EECS 425",
+    "EECS 427",
+    "EECS 428",
+    "EECS 429",
+    "EECS 430",
+    "EECS 434",
+    "EECS 438",
+    "EECS 442",
+    "EECS 444",
+    "EECS 445",
+    "EECS 452",
+    "EECS 453",
+    "EECS 455",
+    "EECS 458",
+    "EECS 460",
+    "EECS 461",
+    "EECS 463",
+    "EECS 464",
+    "EECS 470",
+    "EECS 472",
+    "EECS 473",
+    "EECS 475",
+    "EECS 477"
+   ],
+   "offset": 4,
+   "sources": [
+    "https://docs.google.com/document/d/1NZ7-0qe5vj0W_3ZN8CuV8OqfKudM1FTe2XRz0toBAtM/"
+   ]
+  },
+  {
+   "id": "coe-electrical-engineering-uleee-400",
+   "label": "Upper Level EE Electives at 400 level (7 credits)",
+   "hint": "At least 7 of the 19 upper level EE elective credits must be at the 400 level or higher. The MDE content course does not count toward this minimum, so the audit sets aside 4 matched credits for it.",
+   "need": 7,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "EECS 411",
+    "EECS 413",
+    "EECS 414",
+    "EECS 417",
+    "EECS 418",
+    "EECS 419",
+    "EECS 421",
+    "EECS 423",
+    "EECS 425",
+    "EECS 427",
+    "EECS 428",
+    "EECS 429",
+    "EECS 430",
+    "EECS 434",
+    "EECS 438",
+    "EECS 442",
+    "EECS 444",
+    "EECS 445",
+    "EECS 452",
+    "EECS 453",
+    "EECS 455",
+    "EECS 458",
+    "EECS 460",
+    "EECS 461",
+    "EECS 463",
+    "EECS 464",
+    "EECS 470",
+    "EECS 472",
+    "EECS 473",
+    "EECS 475",
+    "EECS 477"
+   ],
+   "offset": 4,
+   "sources": [
+    "https://docs.google.com/document/d/1NZ7-0qe5vj0W_3ZN8CuV8OqfKudM1FTe2XRz0toBAtM/"
+   ]
+  },
+  {
+   "id": "coe-electrical-engineering-pes",
+   "label": "Physical Electronics and Semiconductors: EECS 311, 312, 320, 414, or 418",
+   "hint": "One physical electronics and semiconductors course is required. Per the ECE program guide the same course may also count toward upper level EE electives or flexible technical electives.",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "matchCodes": [
+    "EECS 311",
+    "EECS 312",
+    "EECS 320",
+    "EECS 414",
+    "EECS 418"
+   ],
+   "sources": [
+    "https://docs.google.com/document/d/1NZ7-0qe5vj0W_3ZN8CuV8OqfKudM1FTe2XRz0toBAtM/"
+   ]
+  },
+  {
+   "id": "coe-electrical-engineering-flex-tech",
+   "label": "Flexible Technical Electives (9 credits)",
+   "hint": "Still building automatic checking for this rule. 9 credits of flexible technical electives are required from the ECE approved list of advanced courses in engineering, mathematics, the physical sciences, and other technically relevant fields, with at most 4 credits of independent study.",
+   "need": 9,
+   "countMode": "credits",
+   "category": "electives",
+   "manual": true,
+   "sources": [
+    "https://docs.google.com/document/d/1NZ7-0qe5vj0W_3ZN8CuV8OqfKudM1FTe2XRz0toBAtM/",
+    "https://ece.engin.umich.edu/academics/undergraduate/majors-minors/electrical-engineering-major/"
+   ]
+  }
+ ],
+ "sourceUrl": "https://ece.engin.umich.edu/academics/undergraduate/electrical-engineering/"
+}

@@ -1,0 +1,527 @@
+{
+ "id": "coe-civil-engineering",
+ "name": "Civil Engineering",
+ "school": "College of Engineering",
+ "goalCredits": 128,
+ "requirements": [
+  {
+   "id": "coe-total-credits",
+   "label": "128 Total Credits",
+   "hint": "All College of Engineering BSE programs require 128 credit hours.",
+   "need": 128,
+   "countMode": "credits",
+   "category": "coe-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/rules/graduation/"
+   ]
+  },
+  {
+   "id": "coe-math-115",
+   "label": "MATH 115: Calculus I",
+   "hint": "Part of the 16 credit CoE mathematics core. AP calculus credit counts here automatically. Honors math sequences also satisfy this per the CoE Bulletin, use the adjust control if your credit posted under a different course number.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 115"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-math-116",
+   "label": "MATH 116: Calculus II",
+   "hint": "Part of the 16 credit CoE mathematics core. AP calculus credit counts here automatically. Honors math sequences also satisfy this per the CoE Bulletin, use the adjust control if your credit posted under a different course number.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 116"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-math-215",
+   "label": "MATH 215: Multivariable Calculus",
+   "hint": "Part of the 16 credit CoE mathematics core.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 215"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-math-216",
+   "label": "MATH 216: Differential Equations",
+   "hint": "Part of the 16 credit CoE mathematics core. Some programs substitute a different fourth math course, see your program rows below.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 216"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-chem-core",
+   "label": "Chemistry core",
+   "hint": "Either CHEM 130 with the CHEM 125 and 126 labs, or CHEM 210 with the CHEM 211 lab for students who place into organic chemistry. Satisfactory AP chemistry credit also meets this per the CoE Bulletin, use the adjust control if that is your case.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "pickFromGroups": [
+    "coe-chem-gen-sequence",
+    "coe-chem-210-211"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-chem-gen-sequence",
+   "label": "CHEM 130 with labs 125 and 126",
+   "hint": "General chemistry with both laboratory courses.",
+   "need": 3,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "CHEM 130",
+    "CHEM 125",
+    "CHEM 126"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-chem-210-211",
+   "label": "CHEM 210 and CHEM 211",
+   "hint": "Organic chemistry path for students who place into CHEM 210. Placement here means no credit is given for CHEM 130.",
+   "need": 2,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "CHEM 210",
+    "CHEM 211"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-140",
+   "label": "PHYSICS 140: General Physics I",
+   "hint": "CoE physics core. The honors sequence PHYSICS 160 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 140",
+    "PHYSICS 160"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-141",
+   "label": "PHYSICS 141: Elementary Lab I",
+   "hint": "CoE physics core laboratory. The honors lab PHYSICS 161 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 141",
+    "PHYSICS 161"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-240",
+   "label": "PHYSICS 240: General Physics II",
+   "hint": "CoE physics core. The honors sequence PHYSICS 260 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 240",
+    "PHYSICS 260"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-241",
+   "label": "PHYSICS 241: Elementary Lab II",
+   "hint": "CoE physics core laboratory. The honors lab PHYSICS 261 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 241",
+    "PHYSICS 261"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-engr-100",
+   "label": "ENGR 100: Introduction to Engineering",
+   "hint": "A grade of C or better is required. Transfer students may substitute a course meeting the LSA first year writing requirement.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "ENGR 100"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-engr-101",
+   "label": "ENGR 101: Introduction to Computers and Programming",
+   "hint": "A grade of C or better is required. ENGR 151 is an approved alternative for all CoE programs.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "ENGR 101",
+    "ENGR 151"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-ib-total",
+   "label": "Intellectual Breadth (16 credits)",
+   "hint": "16 credits of liberal arts courses, meaning courses marked HU or SS that are not also marked BS, NS, or QR. ECON 101 and 102 count by explicit exception. Up to 4 credits of approved professional development courses from other U-M schools may also count, use the adjust control to include those.",
+   "need": 16,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "coe-liberal-arts",
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-ib-humanities",
+   "label": "Humanities minimum (3 credits)",
+   "hint": "At least 3 of the 16 Intellectual Breadth credits must be humanities courses. Credit by test cannot be used for this minimum.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "lsa-humanities",
+   "excludeTags": [
+    "lsa-bs",
+    "lsa-natural-sciences",
+    "lsa-qr"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-ib-upper",
+   "label": "Upper level liberal arts minimum (3 credits)",
+   "hint": "At least 3 of the 16 Intellectual Breadth credits must be liberal arts courses at the 300 level or higher. One course may satisfy both this and the humanities minimum.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "coe-liberal-arts-upper",
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-general-electives",
+   "label": "General electives (12 credits)",
+   "hint": "Free elective credits that bring the program to 128 total. Any U-M course counts. The bulletin summary table says 11 but the AY2025-26 program of study allots 12, which is what makes the 128 total add up.",
+   "need": 12,
+   "countMode": "credits",
+   "category": "coe-general-electives",
+   "matchAll": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-residency",
+   "label": "Residency (50 credits at U-M Ann Arbor)",
+   "hint": "Still building automatic checking for this rule. At least 50 credits must be U-M Ann Arbor coursework, including at least 30 credits of 300 level or higher technical courses offered by the College of Engineering in Ann Arbor.",
+   "need": 1,
+   "countMode": "count",
+   "manual": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/rules/graduation/"
+   ]
+  },
+  {
+   "id": "coe-civil-engineering-economics",
+   "label": "Economics course (ECON 101 or 102)",
+   "hint": "Civil Engineering requires one course in economics per the CoE Bulletin, and the program of study lists ECON 101 or ECON 102. The same course may also count toward Intellectual Breadth.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-intellectual-breadth",
+   "matchCodes": [
+    "ECON 101",
+    "ECON 102"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/",
+    "https://bulletin.engin.umich.edu/wp-content/uploads/sites/306/2025/06/Civil-Engineering-Sample-Schedule_AY202526_Final.pdf"
+   ]
+  },
+  {
+   "id": "coe-civil-engineering-cee-303",
+   "label": "CEE 303: Computational Methods",
+   "hint": "Part of the 7 credit Mathematical Methods requirement. A grade of C- or better is required.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CEE 303"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/wp-content/uploads/sites/306/2025/06/Civil-Engineering-Sample-Schedule_AY202526_Final.pdf"
+   ]
+  },
+  {
+   "id": "coe-civil-engineering-cee-373",
+   "label": "CEE 373: Statistical Methods",
+   "hint": "Part of the 7 credit Mathematical Methods requirement. A grade of C- or better is required.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CEE 373"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/wp-content/uploads/sites/306/2025/06/Civil-Engineering-Sample-Schedule_AY202526_Final.pdf"
+   ]
+  },
+  {
+   "id": "coe-civil-engineering-cee-200",
+   "label": "CEE 200: Intro to Civil and Environmental Engineering",
+   "hint": "Required program subject. A grade of C- or better is required.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CEE 200"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/wp-content/uploads/sites/306/2025/06/Civil-Engineering-Sample-Schedule_AY202526_Final.pdf"
+   ]
+  },
+  {
+   "id": "coe-civil-engineering-cee-211",
+   "label": "CEE 211: Statics and Dynamics",
+   "hint": "Required program subject. A grade of C- or better is required.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CEE 211"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/wp-content/uploads/sites/306/2025/06/Civil-Engineering-Sample-Schedule_AY202526_Final.pdf"
+   ]
+  },
+  {
+   "id": "coe-civil-engineering-cee-212",
+   "label": "CEE 212: Solid and Structural Mechanics",
+   "hint": "Required program subject. A grade of C- or better is required.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CEE 212"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/wp-content/uploads/sites/306/2025/06/Civil-Engineering-Sample-Schedule_AY202526_Final.pdf"
+   ]
+  },
+  {
+   "id": "coe-civil-engineering-cee-230-or-375",
+   "label": "CEE 230 or CEE 375",
+   "hint": "One of CEE 230 Thermodynamics and the Environment or CEE 375 Sensors and Circuits. A grade of C- or better is required.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CEE 230",
+    "CEE 375"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/wp-content/uploads/sites/306/2025/06/Civil-Engineering-Sample-Schedule_AY202526_Final.pdf"
+   ]
+  },
+  {
+   "id": "coe-civil-engineering-cee-265",
+   "label": "CEE 265: Sustainable Engineering Principles",
+   "hint": "Required program subject. A grade of C- or better is required.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CEE 265"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/wp-content/uploads/sites/306/2025/06/Civil-Engineering-Sample-Schedule_AY202526_Final.pdf"
+   ]
+  },
+  {
+   "id": "coe-civil-engineering-cee-325",
+   "label": "CEE 325: Fluid Mechanics",
+   "hint": "Required program subject. A grade of C- or better is required.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CEE 325"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/wp-content/uploads/sites/306/2025/06/Civil-Engineering-Sample-Schedule_AY202526_Final.pdf"
+   ]
+  },
+  {
+   "id": "coe-civil-engineering-cee-402",
+   "label": "CEE 402: Professional Issues and Design",
+   "hint": "Senior design and professional issues capstone. Per the program of study it must be taken in the last Winter semester.",
+   "need": 1,
+   "countMode": "count",
+   "category": "capstone",
+   "matchCodes": [
+    "CEE 402"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/wp-content/uploads/sites/306/2025/06/Civil-Engineering-Sample-Schedule_AY202526_Final.pdf"
+   ]
+  },
+  {
+   "id": "coe-civil-engineering-science-elective",
+   "label": "Science elective (3 credits)",
+   "hint": "One approved science course chosen from BIOLOGY 171 or 172, EARTH 119, 201, 222, 284, or 320, or CEE 482 or 582 Environmental Microbiology. A grade of C- or better is required.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "BIOLOGY 171",
+    "BIOLOGY 172",
+    "EARTH 119",
+    "EARTH 201",
+    "EARTH 222",
+    "EARTH 284",
+    "EARTH 320",
+    "CEE 482",
+    "CEE 582"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/wp-content/uploads/sites/306/2025/06/Civil-Engineering-Sample-Schedule_AY202526_Final.pdf"
+   ]
+  },
+  {
+   "id": "coe-civil-engineering-program-electives",
+   "label": "Program electives (20 credits)",
+   "hint": "20 credits from the seven specialty area courses CEE 312, 331, 345, 351, 365, 421, and 450, meaning at least five of the seven are required. A grade of C- or better is required in each.",
+   "need": 20,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "CEE 312",
+    "CEE 331",
+    "CEE 345",
+    "CEE 351",
+    "CEE 365",
+    "CEE 421",
+    "CEE 450"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/wp-content/uploads/sites/306/2025/06/Civil-Engineering-Sample-Schedule_AY202526_Final.pdf"
+   ]
+  },
+  {
+   "id": "coe-civil-engineering-technical-electives",
+   "label": "Technical electives (9 credits)",
+   "hint": "9 credits from the CEE technical elective list covering construction, environmental, geotechnical, hazards, hydraulics, infrastructure systems, materials, structures, and transportation. A sixth program elective or an approved study abroad course may also count here, and for CEE 501 only the Hazards, Risk and Resilience topic applies.",
+   "need": 9,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "CEE 412",
+    "CEE 413",
+    "CEE 415",
+    "CEE 428",
+    "CEE 435",
+    "CEE 465",
+    "CEE 480",
+    "CEE 501",
+    "CEE 521",
+    "CEE 526",
+    "CEE 527",
+    "CEE 531",
+    "CEE 534",
+    "CEE 537",
+    "CEE 540",
+    "CEE 545",
+    "CEE 546",
+    "CEE 547",
+    "CEE 548",
+    "CEE 551",
+    "CEE 552",
+    "CEE 563",
+    "CEE 567",
+    "CEE 575"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/wp-content/uploads/sites/306/2025/06/Civil-Engineering-Sample-Schedule_AY202526_Final.pdf"
+   ]
+  },
+  {
+   "id": "coe-civil-engineering-design-elective",
+   "label": "Design technical elective",
+   "hint": "At least one of the three technical electives must be a design course. The design options are CEE 413, 415, 428, 435, 480, 526, 527, 534, 545, 546, 547, 551, 563, and 575.",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "matchCodes": [
+    "CEE 413",
+    "CEE 415",
+    "CEE 428",
+    "CEE 435",
+    "CEE 480",
+    "CEE 526",
+    "CEE 527",
+    "CEE 534",
+    "CEE 545",
+    "CEE 546",
+    "CEE 547",
+    "CEE 551",
+    "CEE 563",
+    "CEE 575"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/wp-content/uploads/sites/306/2025/06/Civil-Engineering-Sample-Schedule_AY202526_Final.pdf"
+   ]
+  }
+ ],
+ "sourceUrl": "https://cee.engin.umich.edu/undergraduate-studies/major-in-civil-engineering/"
+}

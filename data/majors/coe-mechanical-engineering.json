@@ -1,0 +1,709 @@
+{
+ "id": "coe-mechanical-engineering",
+ "name": "Mechanical Engineering",
+ "school": "College of Engineering",
+ "goalCredits": 128,
+ "requirements": [
+  {
+   "id": "coe-total-credits",
+   "label": "128 Total Credits",
+   "hint": "All College of Engineering BSE programs require 128 credit hours.",
+   "need": 128,
+   "countMode": "credits",
+   "category": "coe-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/rules/graduation/"
+   ]
+  },
+  {
+   "id": "coe-math-115",
+   "label": "MATH 115: Calculus I",
+   "hint": "Part of the 16 credit CoE mathematics core. AP calculus credit counts here automatically. Honors math sequences also satisfy this per the CoE Bulletin, use the adjust control if your credit posted under a different course number.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 115"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-math-116",
+   "label": "MATH 116: Calculus II",
+   "hint": "Part of the 16 credit CoE mathematics core. AP calculus credit counts here automatically. Honors math sequences also satisfy this per the CoE Bulletin, use the adjust control if your credit posted under a different course number.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 116"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-math-215",
+   "label": "MATH 215: Multivariable Calculus",
+   "hint": "Part of the 16 credit CoE mathematics core.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 215"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-math-216",
+   "label": "MATH 216: Differential Equations",
+   "hint": "Part of the 16 credit CoE mathematics core. Some programs substitute a different fourth math course, see your program rows below.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 216"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-chem-core",
+   "label": "Chemistry core",
+   "hint": "Either CHEM 130 with the CHEM 125 and 126 labs, or CHEM 210 with the CHEM 211 lab for students who place into organic chemistry. Satisfactory AP chemistry credit also meets this per the CoE Bulletin, use the adjust control if that is your case.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "pickFromGroups": [
+    "coe-chem-gen-sequence",
+    "coe-chem-210-211"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-chem-gen-sequence",
+   "label": "CHEM 130 with labs 125 and 126",
+   "hint": "General chemistry with both laboratory courses.",
+   "need": 3,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "CHEM 130",
+    "CHEM 125",
+    "CHEM 126"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-chem-210-211",
+   "label": "CHEM 210 and CHEM 211",
+   "hint": "Organic chemistry path for students who place into CHEM 210. Placement here means no credit is given for CHEM 130.",
+   "need": 2,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "CHEM 210",
+    "CHEM 211"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-physics-140",
+   "label": "PHYSICS 140: General Physics I",
+   "hint": "CoE physics core. The honors sequence PHYSICS 160 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 140",
+    "PHYSICS 160"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-physics-141",
+   "label": "PHYSICS 141: Elementary Lab I",
+   "hint": "CoE physics core laboratory. The honors lab PHYSICS 161 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 141",
+    "PHYSICS 161"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-physics-240",
+   "label": "PHYSICS 240: General Physics II",
+   "hint": "CoE physics core. The honors sequence PHYSICS 260 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 240",
+    "PHYSICS 260"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-physics-241",
+   "label": "PHYSICS 241: Elementary Lab II",
+   "hint": "CoE physics core laboratory. The honors lab PHYSICS 261 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 241",
+    "PHYSICS 261"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-engr-100",
+   "label": "ENGR 100: Introduction to Engineering",
+   "hint": "A grade of C or better is required. Transfer students may substitute a course meeting the LSA first year writing requirement.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "ENGR 100"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-engr-101",
+   "label": "ENGR 101: Introduction to Computers and Programming",
+   "hint": "A grade of C or better is required. ENGR 151 is an approved alternative for all CoE programs.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "ENGR 101",
+    "ENGR 151"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-ib-total",
+   "label": "Intellectual Breadth (16 credits)",
+   "hint": "16 credits of liberal arts courses, meaning courses marked HU or SS that are not also marked BS, NS, or QR. ECON 101 and 102 count by explicit exception. Up to 4 credits of approved professional development courses from other U-M schools may also count, use the adjust control to include those.",
+   "need": 16,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "coe-liberal-arts",
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "D-"
+  },
+  {
+   "id": "coe-ib-humanities",
+   "label": "Humanities minimum (3 credits)",
+   "hint": "At least 3 of the 16 Intellectual Breadth credits must be humanities courses. Credit by test cannot be used for this minimum.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "lsa-humanities",
+   "excludeTags": [
+    "lsa-bs",
+    "lsa-natural-sciences",
+    "lsa-qr"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "D-"
+  },
+  {
+   "id": "coe-ib-upper",
+   "label": "Upper level liberal arts minimum (3 credits)",
+   "hint": "At least 3 of the 16 Intellectual Breadth credits must be liberal arts courses at the 300 level or higher. One course may satisfy both this and the humanities minimum.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "coe-liberal-arts-upper",
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "D-"
+  },
+  {
+   "id": "coe-mechanical-engineering-econ-financial",
+   "label": "Economics or financial coursework (3 credits)",
+   "hint": "The ME department requires at least 3 credits of economic or financial coursework from its approved list, which spans ECON, accounting, finance, business economics, and public policy courses. Most choices also count toward Intellectual Breadth.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "minGrade": "D-",
+   "matchCodes": [
+    "ACC 301",
+    "ACC 302",
+    "ACC 315",
+    "ACC 317",
+    "ACC 471",
+    "BE 300",
+    "BE 301",
+    "BE 502",
+    "BE 562",
+    "BE 586",
+    "ECON 101",
+    "ECON 102",
+    "ECON 251",
+    "ECON 310",
+    "ECON 320",
+    "ECON 323",
+    "ECON 340",
+    "ECON 360",
+    "ECON 370",
+    "ECON 401",
+    "ECON 402",
+    "ECON 411",
+    "ECON 421",
+    "ECON 435",
+    "ECON 437",
+    "ECON 442",
+    "ECON 444",
+    "ECON 445",
+    "ECON 446",
+    "ECON 452",
+    "ECON 454",
+    "ECON 457",
+    "ECON 461",
+    "ECON 462",
+    "ECON 466",
+    "ECON 471",
+    "EAS 571",
+    "ECON 487",
+    "ENVIRON 375",
+    "FIN 300",
+    "FIN 302",
+    "FIN 317",
+    "FIN 329",
+    "ES 329",
+    "FIN 408",
+    "FIN 409",
+    "FIN 415",
+    "FIN 440",
+    "FIN 480",
+    "MKT 408",
+    "PUBPOL 330",
+    "PUBPOL 431",
+    "PUBPOL 432",
+    "PUBPOL 542",
+    "PUBPOL 555",
+    "PUBPOL 556",
+    "STRATEGY 310",
+    "STRATEGY 503",
+    "URP 509",
+    "URP 510"
+   ],
+   "sources": [
+    "https://me.engin.umich.edu/academics/undergrad/handbook/bachelors/",
+    "https://me.engin.umich.edu/academics/undergrad/handbook/courses/"
+   ]
+  },
+  {
+   "id": "coe-general-electives",
+   "label": "General electives (9 credits)",
+   "hint": "Free elective credits that bring the program to 128 total. Any U-M course counts.",
+   "need": 9,
+   "countMode": "credits",
+   "category": "coe-general-electives",
+   "matchAll": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "D-"
+  },
+  {
+   "id": "coe-residency",
+   "label": "Residency (50 credits at U-M Ann Arbor)",
+   "hint": "Still building automatic checking for this rule. At least 50 credits must be U-M Ann Arbor coursework, including at least 30 credits of 300 level or higher technical courses offered by the College of Engineering in Ann Arbor.",
+   "need": 1,
+   "countMode": "count",
+   "manual": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/rules/graduation/"
+   ]
+  },
+  {
+   "id": "coe-mechanical-engineering-mecheng-211",
+   "label": "MECHENG 211: Introduction to Solid Mechanics",
+   "hint": "ME core, Mechanics and Materials. A grade of C or better is required and it cannot be taken pass fail.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MECHENG 211"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-mechanical-engineering-mecheng-235",
+   "label": "MECHENG 235: Thermodynamics I",
+   "hint": "ME core, Thermal Sciences. A grade of C or better is required and it cannot be taken pass fail.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MECHENG 235"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-mechanical-engineering-mecheng-240",
+   "label": "MECHENG 240: Introduction to Dynamics and Vibrations",
+   "hint": "ME core, Dynamics and Controls. A grade of C or better is required and it cannot be taken pass fail.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MECHENG 240"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-mechanical-engineering-mecheng-250",
+   "label": "MECHENG 250: Design and Manufacturing I",
+   "hint": "ME core, Design and Manufacturing.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MECHENG 250"
+   ]
+  },
+  {
+   "id": "coe-mechanical-engineering-mecheng-320",
+   "label": "MECHENG 320: Introduction to Fluid Mechanics",
+   "hint": "ME core, Thermal Sciences. A grade of C or better is required and it cannot be taken pass fail.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MECHENG 320"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-mechanical-engineering-mecheng-335",
+   "label": "MECHENG 335: Heat Transfer",
+   "hint": "ME core, Thermal Sciences. A grade of D or better counts here per the ME grade policy.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MECHENG 335"
+   ],
+   "minGrade": "D"
+  },
+  {
+   "id": "coe-mechanical-engineering-mecheng-350",
+   "label": "MECHENG 350: Design and Manufacturing II",
+   "hint": "ME core, Design and Manufacturing.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MECHENG 350"
+   ]
+  },
+  {
+   "id": "coe-mechanical-engineering-mecheng-360",
+   "label": "MECHENG 360: Modeling, Analysis and Control of Dynamic Systems",
+   "hint": "ME core, Dynamics and Controls.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MECHENG 360"
+   ]
+  },
+  {
+   "id": "coe-mechanical-engineering-mecheng-382",
+   "label": "MECHENG 382: Mechanical Behavior of Materials",
+   "hint": "ME core, Mechanics and Materials.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MECHENG 382"
+   ]
+  },
+  {
+   "id": "coe-mechanical-engineering-mecheng-395",
+   "label": "MECHENG 395: Laboratory I",
+   "hint": "ME core, Laboratories and Technical Communication.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MECHENG 395"
+   ]
+  },
+  {
+   "id": "coe-mechanical-engineering-mecheng-495",
+   "label": "MECHENG 495: Laboratory II",
+   "hint": "ME core, Laboratories and Technical Communication. A grade of D or better counts here per the ME grade policy.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MECHENG 495"
+   ],
+   "minGrade": "D"
+  },
+  {
+   "id": "coe-mechanical-engineering-mecheng-450-or-455",
+   "label": "MECHENG 450 (Design and Manufacturing III) or MECHENG 455 (Analytical Product Design)",
+   "hint": "The senior capstone design course, either MECHENG 450 or MECHENG 455. A grade of D or better counts here per the ME grade policy.",
+   "need": 1,
+   "countMode": "count",
+   "category": "capstone",
+   "matchCodes": [
+    "MECHENG 450",
+    "MECHENG 455"
+   ],
+   "minGrade": "D"
+  },
+  {
+   "id": "coe-mechanical-engineering-eecs-314-or-215",
+   "label": "EECS 314: Electrical Circuits, Systems and Applications",
+   "hint": "Required electrical circuits course. Students pursuing the Electrical Engineering minor take EECS 215 instead, which counts in place of EECS 314. A grade of D or better counts here per the ME grade policy.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "EECS 314",
+    "EECS 215"
+   ],
+   "minGrade": "D"
+  },
+  {
+   "id": "coe-mechanical-engineering-advanced-math",
+   "label": "Advanced Mathematics (3 credits)",
+   "hint": "Three credits from the approved advanced mathematics list in the ME Undergraduate Handbook, mostly upper level MATH, STATS, IOE, and EECS courses. It cannot be taken pass fail. A grade of D or better counts here per the ME grade policy.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "AEROSP 510",
+    "CEE 373",
+    "CHE 554",
+    "ECON 451",
+    "ECON 452",
+    "EECS 301",
+    "ENGR 371",
+    "IOE 366",
+    "IOE 510",
+    "IOE 515",
+    "IOE 516",
+    "MATH 354",
+    "MATH 371",
+    "MATH 404",
+    "MATH 412",
+    "MATH 416",
+    "MATH 417",
+    "MATH 419",
+    "MATH 420",
+    "MATH 422",
+    "MATH 423",
+    "MATH 425",
+    "MATH 433",
+    "MATH 437",
+    "MATH 450",
+    "MATH 451",
+    "MATH 452",
+    "MATH 454",
+    "MATH 462",
+    "MATH 463",
+    "MATH 465",
+    "MATH 471",
+    "MATH 472",
+    "MATH 475",
+    "MATH 476",
+    "MATH 481",
+    "MATH 490",
+    "MECHENG 400",
+    "PHYSICS 452",
+    "STATS 400",
+    "STATS 401",
+    "STATS 406",
+    "STATS 412",
+    "STATS 415",
+    "STATS 425",
+    "STATS 426",
+    "STATS 430",
+    "STATS 500",
+    "STATS 501",
+    "STATS 503",
+    "STATS 510",
+    "STATS 511",
+    "STATS 520",
+    "STATS 525",
+    "STATS 526",
+    "STATS 550",
+    "STATS 560",
+    "TO 501",
+    "TO 502",
+    "TO 518",
+    "TO 566",
+    "TO 567"
+   ],
+   "sources": [
+    "https://me.engin.umich.edu/academics/undergrad/handbook/courses/",
+    "https://me.engin.umich.edu/academics/undergrad/handbook/bachelors/"
+   ],
+   "minGrade": "D"
+  },
+  {
+   "id": "coe-mechanical-engineering-core-technical-electives",
+   "label": "Core Technical Electives (6 credits)",
+   "hint": "Two ME elective classes totaling at least 6 credits that have a mechanical engineering prerequisite, chosen from the core technical elective list in the ME Undergraduate Handbook. MECHENG 500 and 600 level courses with a MECHENG prerequisite can also qualify, use the adjust control for those. A grade of D or better counts here per the ME grade policy.",
+   "need": 6,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "MECHENG 305",
+    "MECHENG 311",
+    "MECHENG 336",
+    "MECHENG 400",
+    "MECHENG 406",
+    "MECHENG 412",
+    "MECHENG 420",
+    "MECHENG 424",
+    "MECHENG 432",
+    "MECHENG 433",
+    "MECHENG 438",
+    "MECHENG 440",
+    "MECHENG 451",
+    "MECHENG 452",
+    "MECHENG 456",
+    "MECHENG 457",
+    "MECHENG 458",
+    "MECHENG 461",
+    "MECHENG 476",
+    "MECHENG 481",
+    "MECHENG 482",
+    "MECHENG 483",
+    "MECHENG 487",
+    "MECHENG 489",
+    "EECS 460",
+    "ENGR 350"
+   ],
+   "sources": [
+    "https://me.engin.umich.edu/academics/undergrad/handbook/bachelors/"
+   ],
+   "minGrade": "D"
+  },
+  {
+   "id": "coe-mechanical-engineering-400-level-elective",
+   "label": "MECHENG 400 level or higher elective (3 credits)",
+   "hint": "At least 3 more credits of MECHENG at the 400 level or higher, MECHENG 490 and 491 also qualify per the ME Undergraduate Handbook. One course cannot count for both this and the core technical electives, and MECHENG 450, 455, and 495 are counted by their own rows instead. A grade of D or better counts here per the ME grade policy.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "MECHENG 400",
+    "MECHENG 406",
+    "MECHENG 412",
+    "MECHENG 420",
+    "MECHENG 424",
+    "MECHENG 432",
+    "MECHENG 433",
+    "MECHENG 438",
+    "MECHENG 440",
+    "MECHENG 451",
+    "MECHENG 452",
+    "MECHENG 456",
+    "MECHENG 457",
+    "MECHENG 458",
+    "MECHENG 461",
+    "MECHENG 462",
+    "MECHENG 476",
+    "MECHENG 481",
+    "MECHENG 482",
+    "MECHENG 483",
+    "MECHENG 487",
+    "MECHENG 489",
+    "MECHENG 490",
+    "MECHENG 491",
+    "MECHENG 499",
+    "MECHENG 500",
+    "MECHENG 507",
+    "MECHENG 513",
+    "MECHENG 520",
+    "MECHENG 523",
+    "MECHENG 530",
+    "MECHENG 538",
+    "MECHENG 541",
+    "MECHENG 543",
+    "MECHENG 547",
+    "MECHENG 548",
+    "MECHENG 555",
+    "MECHENG 564",
+    "MECHENG 565",
+    "MECHENG 566",
+    "MECHENG 567",
+    "MECHENG 568",
+    "MECHENG 569",
+    "MECHENG 580",
+    "MECHENG 586",
+    "MECHENG 401"
+   ],
+   "sources": [
+    "https://me.engin.umich.edu/academics/undergrad/handbook/bachelors/"
+   ],
+   "minGrade": "D"
+  },
+  {
+   "id": "coe-mechanical-engineering-specialization-elective",
+   "label": "Specialization Elective (3 credits)",
+   "hint": "Still building automatic checking for this rule. Three credits of a course that either has a mandatory 300 level or higher prerequisite or is a 300 level or higher MECHENG course outside the ME core, per the ME Undergraduate Handbook, and ENGR, ENTR, practicum, and seminar courses do not count.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "electives",
+   "manual": true,
+   "sources": [
+    "https://me.engin.umich.edu/academics/undergrad/handbook/bachelors/"
+   ]
+  }
+ ],
+ "sourceUrl": "https://me.engin.umich.edu/academics/undergraduate/"
+}

@@ -1,5 +1,7 @@
 import type { Course, Minor } from './types';
 import lsaData from '../data/courses/lsa.json';
+import socData from '../data/courses/soc.json';
+import coeBulletinData from '../data/courses/coe-bulletin.json';
 import { all as bundledMinors } from '../data/minors';
 import {
   manualCourses,
@@ -14,6 +16,22 @@ import {
 } from './courses-manual';
 
 const scrapedCourses = (lsaData as unknown as { courses: Course[] }).courses;
+
+/**
+ * All-university courses from the official Schedule of Classes API
+ * (scripts/ingest/soc.ts). Fills every school the LSA Course Guide does not
+ * cover: CoE-only courses (ENGR 100, most ROB), Ross, SEAS, SPH, and so on.
+ * Empty until the ingest has been run with U-M API credentials.
+ */
+const socCourses = (socData as unknown as { courses: Course[] }).courses ?? [];
+
+/**
+ * CoE Bulletin course listings (scripts/ingest/coe-bulletin.ts): every
+ * course the College of Engineering publishes, including ones the LSA CG
+ * never carries. Gap-fill under both CG and SOC.
+ */
+const coeBulletinCourses =
+  (coeBulletinData as unknown as { courses: Course[] }).courses ?? [];
 
 // ─── Merge scraped + manual + programmatic tags → courseCatalog ───────────
 
@@ -125,11 +143,28 @@ const LSA_DIST_TAGS = new Set([
   'lsa-creative-expression',
 ]);
 
+// CoE Intellectual Breadth: a Liberal Arts Course is marked HU or SS and not
+// also marked BS, NS, or QR. ECON 101 and 102 count by explicit exception in
+// the CoE Bulletin (they are SS + QR and would otherwise be excluded).
+const COE_LAC_EXCLUDES = new Set(['lsa-bs', 'lsa-natural-sciences', 'lsa-qr']);
+
+function isCoeLiberalArts(c: Course): boolean {
+  if (c.code === 'ECON 101' || c.code === 'ECON 102') return true;
+  const huSs =
+    c.tags.includes('lsa-humanities') || c.tags.includes('lsa-social-sciences');
+  return huSs && !c.tags.some((t) => COE_LAC_EXCLUDES.has(t));
+}
+
 function applyProgrammaticTags(c: Course): Course {
   const extras = programmaticTags(c.code);
   // Umbrella tag for the LSA "30 distribution credits" requirement.
   const hasAnyDist = c.tags.some((t) => LSA_DIST_TAGS.has(t));
   if (hasAnyDist) extras.push('lsa-distribution');
+  if (isCoeLiberalArts(c)) {
+    extras.push('coe-liberal-arts');
+    const num = parseInt(c.code.split(/\s+/)[1] ?? '', 10);
+    if (Number.isFinite(num) && num >= 300) extras.push('coe-liberal-arts-upper');
+  }
   if (extras.length === 0) return c;
   return {
     ...c,
@@ -140,6 +175,16 @@ function applyProgrammaticTags(c: Course): Course {
 function buildCatalog(): Course[] {
   const byCode = new Map<string, Course>();
   for (const c of scrapedCourses) byCode.set(c.code, c);
+  // SOC fills gaps only: the LSA CG entry wins when both know a course (it
+  // carries distribution tags and descriptions). A course the LSA CG does
+  // NOT list is not approved for LSA credit, so SOC-only entries get the
+  // non-lsa tag; without it, every Ross/CoE/SPH course would wrongly count
+  // toward the LSA "100 LSA credits" college rules.
+  for (const c of [...socCourses, ...coeBulletinCourses]) {
+    if (byCode.has(c.code)) continue;
+    const tags = c.tags.includes(NON_LSA) ? c.tags : [...c.tags, NON_LSA];
+    byCode.set(c.code, { ...c, tags });
+  }
   for (const m of manualCourses) {
     const existing = byCode.get(m.code);
     if (existing) {

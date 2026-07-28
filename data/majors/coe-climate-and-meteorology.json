@@ -1,0 +1,631 @@
+{
+ "id": "coe-climate-and-meteorology",
+ "name": "Climate and Meteorology",
+ "school": "College of Engineering",
+ "goalCredits": 128,
+ "requirements": [
+  {
+   "id": "coe-total-credits",
+   "label": "128 Total Credits",
+   "hint": "All College of Engineering BSE programs require 128 credit hours.",
+   "need": 128,
+   "countMode": "credits",
+   "category": "coe-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/rules/graduation/"
+   ]
+  },
+  {
+   "id": "coe-math-115",
+   "label": "MATH 115: Calculus I",
+   "hint": "Part of the 16 credit CoE mathematics core. AP calculus credit counts here automatically. Honors math sequences also satisfy this per the CoE Bulletin, use the adjust control if your credit posted under a different course number.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 115"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-math-116",
+   "label": "MATH 116: Calculus II",
+   "hint": "Part of the 16 credit CoE mathematics core. AP calculus credit counts here automatically. Honors math sequences also satisfy this per the CoE Bulletin, use the adjust control if your credit posted under a different course number.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 116"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-math-215",
+   "label": "MATH 215: Multivariable Calculus",
+   "hint": "Part of the 16 credit CoE mathematics core.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 215"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-math-216",
+   "label": "MATH 216: Differential Equations",
+   "hint": "Part of the 16 credit CoE mathematics core. Some programs substitute a different fourth math course, see your program rows below.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 216"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-chem-core",
+   "label": "Chemistry core",
+   "hint": "Either CHEM 130 with the CHEM 125 and 126 labs, or CHEM 210 with the CHEM 211 lab for students who place into organic chemistry. Satisfactory AP chemistry credit also meets this per the CoE Bulletin, use the adjust control if that is your case.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "pickFromGroups": [
+    "coe-chem-gen-sequence",
+    "coe-chem-210-211"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-chem-gen-sequence",
+   "label": "CHEM 130 with labs 125 and 126",
+   "hint": "General chemistry with both laboratory courses.",
+   "need": 3,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "CHEM 130",
+    "CHEM 125",
+    "CHEM 126"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-chem-210-211",
+   "label": "CHEM 210 and CHEM 211",
+   "hint": "Organic chemistry path for students who place into CHEM 210. Placement here means no credit is given for CHEM 130.",
+   "need": 2,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "CHEM 210",
+    "CHEM 211"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-140",
+   "label": "PHYSICS 140: General Physics I",
+   "hint": "CoE physics core. The honors sequence PHYSICS 160 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 140",
+    "PHYSICS 160"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-141",
+   "label": "PHYSICS 141: Elementary Lab I",
+   "hint": "CoE physics core laboratory. The honors lab PHYSICS 161 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 141",
+    "PHYSICS 161"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-240",
+   "label": "PHYSICS 240: General Physics II",
+   "hint": "CoE physics core. The honors sequence PHYSICS 260 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 240",
+    "PHYSICS 260"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-241",
+   "label": "PHYSICS 241: Elementary Lab II",
+   "hint": "CoE physics core laboratory. The honors lab PHYSICS 261 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 241",
+    "PHYSICS 261"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-engr-100",
+   "label": "ENGR 100: Introduction to Engineering",
+   "hint": "A grade of C or better is required. Transfer students may substitute a course meeting the LSA first year writing requirement.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "ENGR 100"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-engr-101",
+   "label": "ENGR 101: Introduction to Computers and Programming",
+   "hint": "A grade of C or better is required. ENGR 151 is an approved alternative for all CoE programs.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "ENGR 101",
+    "ENGR 151"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-ib-total",
+   "label": "Intellectual Breadth (16 credits)",
+   "hint": "16 credits of liberal arts courses, meaning courses marked HU or SS that are not also marked BS, NS, or QR. ECON 101 and 102 count by explicit exception. Up to 4 credits of approved professional development courses from other U-M schools may also count, use the adjust control to include those.",
+   "need": 16,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "coe-liberal-arts",
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-ib-humanities",
+   "label": "Humanities minimum (3 credits)",
+   "hint": "At least 3 of the 16 Intellectual Breadth credits must be humanities courses. Credit by test cannot be used for this minimum.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "lsa-humanities",
+   "excludeTags": [
+    "lsa-bs",
+    "lsa-natural-sciences",
+    "lsa-qr"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-ib-upper",
+   "label": "Upper level liberal arts minimum (3 credits)",
+   "hint": "At least 3 of the 16 Intellectual Breadth credits must be liberal arts courses at the 300 level or higher. One course may satisfy both this and the humanities minimum.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "coe-liberal-arts-upper",
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-general-electives",
+   "label": "General electives (9 credits)",
+   "hint": "Free elective credits that bring the program to 128 total. Any U-M course counts.",
+   "need": 9,
+   "countMode": "credits",
+   "category": "coe-general-electives",
+   "matchAll": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-residency",
+   "label": "Residency (50 credits at U-M Ann Arbor)",
+   "hint": "Still building automatic checking for this rule. At least 50 credits must be U-M Ann Arbor coursework, including at least 30 credits of 300 level or higher technical courses offered by the College of Engineering in Ann Arbor.",
+   "need": 1,
+   "countMode": "count",
+   "manual": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/rules/graduation/"
+   ]
+  },
+  {
+   "id": "coe-climate-and-meteorology-climate-320",
+   "label": "CLIMATE 320: Earth Systems Evolution",
+   "hint": "Climate and Space core course, required for both concentrations. Also offered as SPACE 320 and EARTH 320, any listing counts.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CLIMATE 320",
+    "SPACE 320",
+    "EARTH 320"
+   ],
+   "sources": [
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/climate-science-and-impacts-concentration/",
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/meteorology-concentration/"
+   ]
+  },
+  {
+   "id": "coe-climate-and-meteorology-climate-321",
+   "label": "CLIMATE 321: Earth Systems Dynamics",
+   "hint": "Climate and Space core course, required for both concentrations. Also offered as SPACE 321 and EARTH 321, any listing counts.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CLIMATE 321",
+    "SPACE 321",
+    "EARTH 321"
+   ],
+   "sources": [
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/climate-science-and-impacts-concentration/",
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/meteorology-concentration/"
+   ]
+  },
+  {
+   "id": "coe-climate-and-meteorology-climate-323",
+   "label": "CLIMATE 323: Earth System Analysis",
+   "hint": "Climate and Space core course, required for both concentrations. Also offered as SPACE 323 and EARTH 323, any listing counts.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CLIMATE 323",
+    "SPACE 323",
+    "EARTH 323"
+   ],
+   "sources": [
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/climate-science-and-impacts-concentration/",
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/meteorology-concentration/"
+   ]
+  },
+  {
+   "id": "coe-climate-and-meteorology-climate-324",
+   "label": "CLIMATE 324: Instrumentation for Atmospheric and Space Sciences",
+   "hint": "Climate and Space core course, required for both concentrations.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CLIMATE 324"
+   ],
+   "sources": [
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/climate-science-and-impacts-concentration/",
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/meteorology-concentration/"
+   ]
+  },
+  {
+   "id": "coe-climate-and-meteorology-climate-350",
+   "label": "CLIMATE 350: Atmospheric Thermodynamics",
+   "hint": "Climate and Space core course, required for both concentrations. Also offered as SPACE 350 and EARTH 350, any listing counts.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CLIMATE 350",
+    "SPACE 350",
+    "EARTH 350"
+   ],
+   "sources": [
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/climate-science-and-impacts-concentration/",
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/meteorology-concentration/"
+   ]
+  },
+  {
+   "id": "coe-climate-and-meteorology-climate-380",
+   "label": "CLIMATE 380: Introduction to Atmospheric Radiation",
+   "hint": "Climate and Space core course, required for both concentrations. The CLaSP site lists this as Introduction to Radiative Transfer. Also offered as SPACE 380 and EARTH 381, any listing counts.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CLIMATE 380",
+    "SPACE 380",
+    "EARTH 381"
+   ],
+   "sources": [
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/climate-science-and-impacts-concentration/",
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/meteorology-concentration/"
+   ]
+  },
+  {
+   "id": "coe-climate-and-meteorology-climate-401",
+   "label": "CLIMATE 401: Geophysical Fluid Dynamics",
+   "hint": "Climate and Space core course, required for both concentrations. Also offered as EARTH 401, either listing counts.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CLIMATE 401",
+    "EARTH 401"
+   ],
+   "sources": [
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/climate-science-and-impacts-concentration/",
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/meteorology-concentration/"
+   ]
+  },
+  {
+   "id": "coe-climate-and-meteorology-climate-410",
+   "label": "CLIMATE 410: Earth System Modeling",
+   "hint": "Climate and Space core course, required for both concentrations. Also offered as EARTH 409, either listing counts.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CLIMATE 410",
+    "EARTH 409"
+   ],
+   "sources": [
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/climate-science-and-impacts-concentration/",
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/meteorology-concentration/"
+   ]
+  },
+  {
+   "id": "coe-climate-and-meteorology-climate-414",
+   "label": "CLIMATE 414: Weather Systems",
+   "hint": "Climate and Space core course, required for both concentrations. Also offered as EARTH 414, either listing counts.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CLIMATE 414",
+    "EARTH 414"
+   ],
+   "sources": [
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/climate-science-and-impacts-concentration/",
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/meteorology-concentration/"
+   ]
+  },
+  {
+   "id": "coe-climate-and-meteorology-climate-423",
+   "label": "CLIMATE 423: Data Analysis and Visualization",
+   "hint": "Climate and Space core course, required for both concentrations.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CLIMATE 423"
+   ],
+   "sources": [
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/climate-science-and-impacts-concentration/",
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/meteorology-concentration/"
+   ]
+  },
+  {
+   "id": "coe-climate-and-meteorology-climate-455",
+   "label": "CLIMATE 455: Capstone Design",
+   "hint": "Climate and Space capstone design course, required for both concentrations. Per the CoE Bulletin program plan, a year long senior thesis of CLIMATE 499 Directed Study at 2 credits per term may be taken instead.",
+   "need": 4,
+   "countMode": "credits",
+   "category": "capstone",
+   "matchCodes": [
+    "CLIMATE 455",
+    "CLIMATE 499"
+   ],
+   "sources": [
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/climate-science-and-impacts-concentration/",
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/meteorology-concentration/",
+    "https://bulletin.engin.umich.edu/wp-content/uploads/sites/306/2023/02/Program-Plan-CM-BSE-2.24.2023-Google-Sheets.pdf"
+   ]
+  },
+  {
+   "id": "coe-climate-and-meteorology-met-climate-411",
+   "label": "CLIMATE 411: Cloud and Precipitation Processes (Meteorology concentration)",
+   "hint": "Required only for the Meteorology concentration. The major requires completing one of two concentrations, Meteorology or Climate Science and Impacts. Also offered as EARTH 411, either listing counts.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CLIMATE 411",
+    "EARTH 411"
+   ],
+   "sources": [
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/meteorology-concentration/"
+   ]
+  },
+  {
+   "id": "coe-climate-and-meteorology-met-climate-463",
+   "label": "CLIMATE 463: Air Pollution Meteorology (Meteorology concentration)",
+   "hint": "Required only for the Meteorology concentration.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CLIMATE 463"
+   ],
+   "sources": [
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/meteorology-concentration/"
+   ]
+  },
+  {
+   "id": "coe-climate-and-meteorology-met-climate-440",
+   "label": "CLIMATE 440: Meteorological Analysis Laboratory (Meteorology concentration)",
+   "hint": "Required only for the Meteorology concentration. Also offered as EARTH 454, either listing counts.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CLIMATE 440",
+    "EARTH 454"
+   ],
+   "sources": [
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/meteorology-concentration/"
+   ]
+  },
+  {
+   "id": "coe-climate-and-meteorology-met-climate-485",
+   "label": "CLIMATE 485: Remote Sensing (Meteorology concentration)",
+   "hint": "Required only for the Meteorology concentration.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CLIMATE 485"
+   ],
+   "sources": [
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/meteorology-concentration/"
+   ]
+  },
+  {
+   "id": "coe-climate-and-meteorology-met-technical-electives",
+   "label": "Technical electives, 13 credits (Meteorology concentration)",
+   "hint": "Still building automatic checking for this rule. The Meteorology concentration requires 13 credits of technical electives, which per the CoE Bulletin must be at the 300 level or above and are chosen with a program advisor.",
+   "need": 13,
+   "countMode": "credits",
+   "category": "electives",
+   "manual": true,
+   "sources": [
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/meteorology-concentration/",
+    "https://bulletin.engin.umich.edu/depts/clasp/ug/"
+   ]
+  },
+  {
+   "id": "coe-climate-and-meteorology-csi-climate-473",
+   "label": "CLIMATE 473: Climate Physics (Climate Science and Impacts concentration)",
+   "hint": "Required only for the Climate Science and Impacts concentration. The major requires completing one of two concentrations, Meteorology or Climate Science and Impacts.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CLIMATE 473"
+   ],
+   "sources": [
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/climate-science-and-impacts-concentration/"
+   ]
+  },
+  {
+   "id": "coe-climate-and-meteorology-csi-stats-gis",
+   "label": "Statistics or GIS elective (Climate Science and Impacts concentration)",
+   "hint": "One statistics or GIS course from the suggested list on the CLaSP site, which includes CEE 270, EARTH 408, EAS 531, STATS 250, STATS 412, and STATS 425 or MATH 425. The site lists EAS 531 under its former NRE 531 number. Contact the CLaSP advisor about substitutions.",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "matchCodes": [
+    "CEE 270",
+    "EARTH 408",
+    "EAS 531",
+    "STATS 250",
+    "STATS 412",
+    "STATS 425",
+    "MATH 425"
+   ],
+   "sources": [
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/climate-science-and-impacts-concentration/"
+   ]
+  },
+  {
+   "id": "coe-climate-and-meteorology-csi-climate-change",
+   "label": "Climate and climate change elective (Climate Science and Impacts concentration)",
+   "hint": "One climate or climate change course from the suggested list on the CLaSP site: CLIMATE 466, CLIMATE 474, or CLIMATE 480. Contact the CLaSP advisor about substitutions.",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "matchCodes": [
+    "CLIMATE 466",
+    "CLIMATE 474",
+    "CLIMATE 480"
+   ],
+   "sources": [
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/climate-science-and-impacts-concentration/"
+   ]
+  },
+  {
+   "id": "coe-climate-and-meteorology-csi-energy-sustainability",
+   "label": "Energy or sustainability elective (Climate Science and Impacts concentration)",
+   "hint": "One energy or sustainability course from the suggested list on the CLaSP site, which includes CEE 265, CEE 365, EARTH 344, ENVIRON 312, ENVIRON 367, MECHENG 433, and EAS 574. The site lists EAS 574 under its former NRE 574 number. Contact the CLaSP advisor about substitutions.",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "matchCodes": [
+    "CEE 265",
+    "CEE 365",
+    "EARTH 344",
+    "ENVIRON 312",
+    "ENVIRON 367",
+    "MECHENG 433",
+    "EAS 574"
+   ],
+   "sources": [
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/climate-science-and-impacts-concentration/"
+   ]
+  },
+  {
+   "id": "coe-climate-and-meteorology-csi-interactions",
+   "label": "Atmosphere, land, and ocean interactions elective (Climate Science and Impacts concentration)",
+   "hint": "One interactions course from the suggested list on the CLaSP site, which includes CLIMATE 420, CLIMATE 467, CLIMATE 475, EEB 320 or ENVIRON 311, and EEB 380. Contact the CLaSP advisor about substitutions.",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "matchCodes": [
+    "CLIMATE 420",
+    "CLIMATE 467",
+    "CLIMATE 475",
+    "EEB 320",
+    "ENVIRON 311",
+    "EEB 380"
+   ],
+   "sources": [
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/climate-science-and-impacts-concentration/"
+   ]
+  },
+  {
+   "id": "coe-climate-and-meteorology-csi-technical-electives",
+   "label": "Technical electives, 10 credits (Climate Science and Impacts concentration)",
+   "hint": "Still building automatic checking for this rule. The Climate Science and Impacts concentration requires 10 credits of technical electives, which per the CoE Bulletin must be at the 300 level or above and are chosen with a program advisor.",
+   "need": 10,
+   "countMode": "credits",
+   "category": "electives",
+   "manual": true,
+   "sources": [
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/climate-science-and-impacts-concentration/",
+    "https://bulletin.engin.umich.edu/depts/clasp/ug/"
+   ]
+  }
+ ],
+ "sourceUrl": "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-climate-meteorology/"
+}

@@ -1,0 +1,654 @@
+{
+ "id": "coe-industrial-and-operations-engineering",
+ "name": "Industrial and Operations Engineering",
+ "school": "College of Engineering",
+ "goalCredits": 128,
+ "requirements": [
+  {
+   "id": "coe-total-credits",
+   "label": "128 Total Credits",
+   "hint": "All College of Engineering BSE programs require 128 credit hours.",
+   "need": 128,
+   "countMode": "credits",
+   "category": "coe-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/rules/graduation/"
+   ]
+  },
+  {
+   "id": "coe-math-115",
+   "label": "MATH 115: Calculus I",
+   "hint": "Part of the 16 credit CoE mathematics core. AP calculus credit counts here automatically. Honors math sequences also satisfy this per the CoE Bulletin, use the adjust control if your credit posted under a different course number.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 115"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-math-116",
+   "label": "MATH 116: Calculus II",
+   "hint": "Part of the 16 credit CoE mathematics core. AP calculus credit counts here automatically. Honors math sequences also satisfy this per the CoE Bulletin, use the adjust control if your credit posted under a different course number.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 116"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-math-215",
+   "label": "MATH 215: Multivariable Calculus",
+   "hint": "Part of the 16 credit CoE mathematics core.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 215"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-math-216",
+   "label": "MATH 216: Differential Equations",
+   "hint": "Part of the 16 credit CoE mathematics core. Some programs substitute a different fourth math course, see your program rows below.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 216"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-chem-core",
+   "label": "Chemistry core",
+   "hint": "Either CHEM 130 with the CHEM 125 and 126 labs, or CHEM 210 with the CHEM 211 lab for students who place into organic chemistry. Satisfactory AP chemistry credit also meets this per the CoE Bulletin, use the adjust control if that is your case.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "pickFromGroups": [
+    "coe-chem-gen-sequence",
+    "coe-chem-210-211"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-chem-gen-sequence",
+   "label": "CHEM 130 with labs 125 and 126",
+   "hint": "General chemistry with both laboratory courses.",
+   "need": 3,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "CHEM 130",
+    "CHEM 125",
+    "CHEM 126"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-chem-210-211",
+   "label": "CHEM 210 and CHEM 211",
+   "hint": "Organic chemistry path for students who place into CHEM 210. Placement here means no credit is given for CHEM 130.",
+   "need": 2,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "CHEM 210",
+    "CHEM 211"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-140",
+   "label": "PHYSICS 140: General Physics I",
+   "hint": "CoE physics core. The honors sequence PHYSICS 160 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 140",
+    "PHYSICS 160"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-141",
+   "label": "PHYSICS 141: Elementary Lab I",
+   "hint": "CoE physics core laboratory. The honors lab PHYSICS 161 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 141",
+    "PHYSICS 161"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-240",
+   "label": "PHYSICS 240: General Physics II",
+   "hint": "CoE physics core. The honors sequence PHYSICS 260 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 240",
+    "PHYSICS 260"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-241",
+   "label": "PHYSICS 241: Elementary Lab II",
+   "hint": "CoE physics core laboratory. The honors lab PHYSICS 261 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 241",
+    "PHYSICS 261"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-engr-100",
+   "label": "ENGR 100: Introduction to Engineering",
+   "hint": "A grade of C or better is required. Transfer students may substitute a course meeting the LSA first year writing requirement.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "ENGR 100"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-engr-101",
+   "label": "ENGR 101: Introduction to Computers and Programming",
+   "hint": "A grade of C or better is required. ENGR 151 is an approved alternative for all CoE programs.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "ENGR 101",
+    "ENGR 151"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-ib-total",
+   "label": "Intellectual Breadth (16 credits)",
+   "hint": "16 credits of liberal arts courses, meaning courses marked HU or SS that are not also marked BS, NS, or QR. ECON 101 and 102 count by explicit exception. Up to 4 credits of approved professional development courses from other U-M schools may also count, use the adjust control to include those.",
+   "need": 16,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "coe-liberal-arts",
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-ib-humanities",
+   "label": "Humanities minimum (3 credits)",
+   "hint": "At least 3 of the 16 Intellectual Breadth credits must be humanities courses. Credit by test cannot be used for this minimum.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "lsa-humanities",
+   "excludeTags": [
+    "lsa-bs",
+    "lsa-natural-sciences",
+    "lsa-qr"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-ib-upper",
+   "label": "Upper level liberal arts minimum (3 credits)",
+   "hint": "At least 3 of the 16 Intellectual Breadth credits must be liberal arts courses at the 300 level or higher. One course may satisfy both this and the humanities minimum.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "coe-liberal-arts-upper",
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-general-electives",
+   "label": "General electives (9 credits)",
+   "hint": "Free elective credits that bring the program to 128 total. Any U-M course counts. The CoE Bulletin lists a range of 9 to 12 general elective credits for this program depending on course choices.",
+   "need": 9,
+   "countMode": "credits",
+   "category": "coe-general-electives",
+   "matchAll": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-residency",
+   "label": "Residency (50 credits at U-M Ann Arbor)",
+   "hint": "Still building automatic checking for this rule. At least 50 credits must be U-M Ann Arbor coursework, including at least 30 credits of 300 level or higher technical courses offered by the College of Engineering in Ann Arbor.",
+   "need": 1,
+   "countMode": "count",
+   "manual": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/rules/graduation/"
+   ]
+  },
+  {
+   "id": "coe-industrial-and-operations-engineering-ioe-201",
+   "label": "IOE 201: Economic Decision Making",
+   "hint": "Required program subject for the IOE major.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "IOE 201"
+   ]
+  },
+  {
+   "id": "coe-industrial-and-operations-engineering-ioe-202",
+   "label": "IOE 202: Operations Engineering and Analytics",
+   "hint": "Required program subject for the IOE major.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "IOE 202"
+   ]
+  },
+  {
+   "id": "coe-industrial-and-operations-engineering-ioe-265",
+   "label": "IOE 265: Probability and Statistics for Engineers",
+   "hint": "Required program subject for the IOE major.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "IOE 265"
+   ]
+  },
+  {
+   "id": "coe-industrial-and-operations-engineering-ioe-310",
+   "label": "IOE 310: Optimization and Computational Methods",
+   "hint": "Required program subject for the IOE major.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "IOE 310"
+   ]
+  },
+  {
+   "id": "coe-industrial-and-operations-engineering-ioe-316",
+   "label": "IOE 316: Introduction to Markov Processes",
+   "hint": "Required program subject for the IOE major.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "IOE 316"
+   ]
+  },
+  {
+   "id": "coe-industrial-and-operations-engineering-ioe-333",
+   "label": "IOE 333: Human Factors and Ergonomics",
+   "hint": "Required program subject for the IOE major.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "IOE 333"
+   ]
+  },
+  {
+   "id": "coe-industrial-and-operations-engineering-ioe-366",
+   "label": "IOE 366: Introduction to Engineering Data Analytics",
+   "hint": "Required program subject for the IOE major.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "IOE 366"
+   ]
+  },
+  {
+   "id": "coe-industrial-and-operations-engineering-ioe-373",
+   "label": "IOE 373: Data Analytics Tools and Techniques",
+   "hint": "Required program subject for the IOE major.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "IOE 373"
+   ]
+  },
+  {
+   "id": "coe-industrial-and-operations-engineering-ioe-474",
+   "label": "IOE 474: Discrete-Event Simulation",
+   "hint": "Required program subject for the IOE major.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "IOE 474"
+   ]
+  },
+  {
+   "id": "coe-industrial-and-operations-engineering-tchnclcm-380",
+   "label": "TCHNCLCM 380: Technical Communication in IOE",
+   "hint": "Required program subject for the IOE major.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "TCHNCLCM 380"
+   ]
+  },
+  {
+   "id": "coe-industrial-and-operations-engineering-practicum",
+   "label": "Practicum: IOE 424, IOE 481, or IOE 499",
+   "hint": "One practicum course chosen from IOE 424 Practicum in Production and Service, IOE 481 Practicum in Hospital Systems, or IOE 499.",
+   "need": 1,
+   "countMode": "count",
+   "category": "capstone",
+   "matchCodes": [
+    "IOE 424",
+    "IOE 481",
+    "IOE 499"
+   ]
+  },
+  {
+   "id": "coe-industrial-and-operations-engineering-non-ioe-credits",
+   "label": "Non-IOE engineering courses (11 credits)",
+   "hint": "11 credits of non-IOE engineering coursework chosen from the approved course groups. Depending on course choices the total runs 11 to 12 credits.",
+   "need": 11,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "MECHENG 211",
+    "MECHENG 240",
+    "CEE 211",
+    "BIOMEDE 231",
+    "MECHENG 235",
+    "CHE 230",
+    "MATSCIE 220",
+    "MATSCIE 250",
+    "MECHENG 382",
+    "BIOMEDE 458",
+    "EECS 215",
+    "EECS 270",
+    "EECS 314",
+    "CEE 265",
+    "NERS 211",
+    "EECS 280"
+   ]
+  },
+  {
+   "id": "coe-industrial-and-operations-engineering-non-ioe-groups",
+   "label": "Non-IOE engineering: 1 course from 3 groups",
+   "hint": "Complete one course in 3 of the 6 non-IOE engineering course groups below.",
+   "need": 3,
+   "countMode": "count",
+   "category": "core",
+   "pickFromGroups": [
+    "coe-industrial-and-operations-engineering-non-ioe-group-1",
+    "coe-industrial-and-operations-engineering-non-ioe-group-2",
+    "coe-industrial-and-operations-engineering-non-ioe-group-3",
+    "coe-industrial-and-operations-engineering-non-ioe-group-4",
+    "coe-industrial-and-operations-engineering-non-ioe-group-5",
+    "coe-industrial-and-operations-engineering-non-ioe-group-6"
+   ]
+  },
+  {
+   "id": "coe-industrial-and-operations-engineering-non-ioe-group-1",
+   "label": "Group 1: MECHENG 211, MECHENG 240, CEE 211, or BIOMEDE 231",
+   "hint": "Counts as one of the three non-IOE engineering groups.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MECHENG 211",
+    "MECHENG 240",
+    "CEE 211",
+    "BIOMEDE 231"
+   ]
+  },
+  {
+   "id": "coe-industrial-and-operations-engineering-non-ioe-group-2",
+   "label": "Group 2: MECHENG 235 or CHE 230",
+   "hint": "Counts as one of the three non-IOE engineering groups.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MECHENG 235",
+    "CHE 230"
+   ]
+  },
+  {
+   "id": "coe-industrial-and-operations-engineering-non-ioe-group-3",
+   "label": "Group 3: MATSCIE 220, MATSCIE 250, or MECHENG 382",
+   "hint": "Counts as one of the three non-IOE engineering groups.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MATSCIE 220",
+    "MATSCIE 250",
+    "MECHENG 382"
+   ]
+  },
+  {
+   "id": "coe-industrial-and-operations-engineering-non-ioe-group-4",
+   "label": "Group 4: BIOMEDE 458, EECS 215, EECS 270, or EECS 314",
+   "hint": "Counts as one of the three non-IOE engineering groups.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "BIOMEDE 458",
+    "EECS 215",
+    "EECS 270",
+    "EECS 314"
+   ]
+  },
+  {
+   "id": "coe-industrial-and-operations-engineering-non-ioe-group-5",
+   "label": "Group 5: CEE 265 or NERS 211",
+   "hint": "Counts as one of the three non-IOE engineering groups.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CEE 265",
+    "NERS 211"
+   ]
+  },
+  {
+   "id": "coe-industrial-and-operations-engineering-non-ioe-group-6",
+   "label": "Group 6: EECS 280",
+   "hint": "Counts as one of the three non-IOE engineering groups.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "EECS 280"
+   ]
+  },
+  {
+   "id": "coe-industrial-and-operations-engineering-ioe-electives-credits",
+   "label": "IOE technical electives (12 credits)",
+   "hint": "At least 12 credits of IOE technical electives chosen from the approved elective lists. IOE 491 counts only with an approved topic.",
+   "need": 12,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "IOE 410",
+    "IOE 413",
+    "IOE 416",
+    "IOE 419",
+    "IOE 421",
+    "IOE 422",
+    "IOE 425",
+    "IOE 430",
+    "IOE 431",
+    "IOE 432",
+    "IOE 434",
+    "IOE 435",
+    "IOE 436",
+    "IOE 437",
+    "IOE 438",
+    "IOE 440",
+    "IOE 441",
+    "IOE 447",
+    "IOE 449",
+    "IOE 452",
+    "IOE 453",
+    "IOE 460",
+    "IOE 461",
+    "IOE 463",
+    "IOE 465",
+    "IOE 466",
+    "IOE 473",
+    "IOE 491"
+   ]
+  },
+  {
+   "id": "coe-industrial-and-operations-engineering-tech-elective-groups",
+   "label": "IOE technical electives: 1 course from 3 groups",
+   "hint": "Complete one course in 3 of the 4 IOE technical elective groups below. A single course counts for only one group.",
+   "need": 3,
+   "countMode": "count",
+   "category": "electives",
+   "pickFromGroups": [
+    "coe-industrial-and-operations-engineering-tech-elective-group-1",
+    "coe-industrial-and-operations-engineering-tech-elective-group-2",
+    "coe-industrial-and-operations-engineering-tech-elective-group-3",
+    "coe-industrial-and-operations-engineering-tech-elective-group-4"
+   ]
+  },
+  {
+   "id": "coe-industrial-and-operations-engineering-tech-elective-group-1",
+   "label": "Elective group 1: IOE 410, 413, 419, 440, 441, 447, or 449",
+   "hint": "Counts as one of the three IOE technical elective groups.",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "matchCodes": [
+    "IOE 410",
+    "IOE 413",
+    "IOE 419",
+    "IOE 440",
+    "IOE 441",
+    "IOE 447",
+    "IOE 449"
+   ]
+  },
+  {
+   "id": "coe-industrial-and-operations-engineering-tech-elective-group-2",
+   "label": "Elective group 2: IOE 416, 460, 461, 465, 466, 473, or 491",
+   "hint": "Counts as one of the three IOE technical elective groups. IOE 491 counts only with an approved topic.",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "matchCodes": [
+    "IOE 416",
+    "IOE 460",
+    "IOE 461",
+    "IOE 465",
+    "IOE 466",
+    "IOE 473",
+    "IOE 491"
+   ]
+  },
+  {
+   "id": "coe-industrial-and-operations-engineering-tech-elective-group-3",
+   "label": "Elective group 3: IOE 430, 431, 432, 434, 435, 436, 437, 438, 463, or 491",
+   "hint": "Counts as one of the three IOE technical elective groups. IOE 491 counts only with an approved topic.",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "matchCodes": [
+    "IOE 430",
+    "IOE 431",
+    "IOE 432",
+    "IOE 434",
+    "IOE 435",
+    "IOE 436",
+    "IOE 437",
+    "IOE 438",
+    "IOE 463",
+    "IOE 491"
+   ]
+  },
+  {
+   "id": "coe-industrial-and-operations-engineering-tech-elective-group-4",
+   "label": "Elective group 4: IOE 421, 422, 425, 430, 452, 453, or 491",
+   "hint": "Counts as one of the three IOE technical elective groups. IOE 491 counts only with an approved topic.",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "matchCodes": [
+    "IOE 421",
+    "IOE 422",
+    "IOE 425",
+    "IOE 430",
+    "IOE 452",
+    "IOE 453",
+    "IOE 491"
+   ]
+  },
+  {
+   "id": "whatif-rq-5686",
+   "label": "Technical electives (19 total credits)",
+   "hint": "Still building automatic checking for this rule. The program requires 19 total credits of technical electives, at least 12 of them from IOE courses, with the remaining credits from approved non-IOE technical courses.",
+   "need": 19,
+   "countMode": "credits",
+   "category": "electives",
+   "manual": true,
+   "sources": [
+    "https://ioe.engin.umich.edu/academics/undergraduate/"
+   ]
+  }
+ ],
+ "sourceUrl": "https://ioe.engin.umich.edu/academics/undergraduate/"
+}

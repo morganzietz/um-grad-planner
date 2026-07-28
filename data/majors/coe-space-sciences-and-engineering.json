@@ -1,0 +1,513 @@
+{
+ "id": "coe-space-sciences-and-engineering",
+ "name": "Space Sciences and Engineering",
+ "school": "College of Engineering",
+ "goalCredits": 128,
+ "requirements": [
+  {
+   "id": "coe-total-credits",
+   "label": "128 Total Credits",
+   "hint": "All College of Engineering BSE programs require 128 credit hours.",
+   "need": 128,
+   "countMode": "credits",
+   "category": "coe-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/rules/graduation/"
+   ]
+  },
+  {
+   "id": "coe-math-115",
+   "label": "MATH 115: Calculus I",
+   "hint": "Part of the 16 credit CoE mathematics core. AP calculus credit counts here automatically. Honors math sequences also satisfy this per the CoE Bulletin, use the adjust control if your credit posted under a different course number.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 115"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-math-116",
+   "label": "MATH 116: Calculus II",
+   "hint": "Part of the 16 credit CoE mathematics core. AP calculus credit counts here automatically. Honors math sequences also satisfy this per the CoE Bulletin, use the adjust control if your credit posted under a different course number.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 116"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-math-215",
+   "label": "MATH 215: Multivariable Calculus",
+   "hint": "Part of the 16 credit CoE mathematics core.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 215"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-math-216",
+   "label": "MATH 216: Differential Equations",
+   "hint": "Part of the 16 credit CoE mathematics core. Some programs substitute a different fourth math course, see your program rows below.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 216"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-chem-core",
+   "label": "Chemistry core",
+   "hint": "Either CHEM 130 with the CHEM 125 and 126 labs, or CHEM 210 with the CHEM 211 lab for students who place into organic chemistry. Satisfactory AP chemistry credit also meets this per the CoE Bulletin, use the adjust control if that is your case.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "pickFromGroups": [
+    "coe-chem-gen-sequence",
+    "coe-chem-210-211"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-chem-gen-sequence",
+   "label": "CHEM 130 with labs 125 and 126",
+   "hint": "General chemistry with both laboratory courses.",
+   "need": 3,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "CHEM 130",
+    "CHEM 125",
+    "CHEM 126"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-chem-210-211",
+   "label": "CHEM 210 and CHEM 211",
+   "hint": "Organic chemistry path for students who place into CHEM 210. Placement here means no credit is given for CHEM 130.",
+   "need": 2,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "CHEM 210",
+    "CHEM 211"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-140",
+   "label": "PHYSICS 140: General Physics I",
+   "hint": "CoE physics core. The honors sequence PHYSICS 160 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 140",
+    "PHYSICS 160"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-141",
+   "label": "PHYSICS 141: Elementary Lab I",
+   "hint": "CoE physics core laboratory. The honors lab PHYSICS 161 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 141",
+    "PHYSICS 161"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-240",
+   "label": "PHYSICS 240: General Physics II",
+   "hint": "CoE physics core. The honors sequence PHYSICS 260 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 240",
+    "PHYSICS 260"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-241",
+   "label": "PHYSICS 241: Elementary Lab II",
+   "hint": "CoE physics core laboratory. The honors lab PHYSICS 261 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 241",
+    "PHYSICS 261"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-engr-100",
+   "label": "ENGR 100: Introduction to Engineering",
+   "hint": "A grade of C or better is required. Transfer students may substitute a course meeting the LSA first year writing requirement.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "ENGR 100"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-engr-101",
+   "label": "ENGR 101: Introduction to Computers and Programming",
+   "hint": "A grade of C or better is required. ENGR 151 is an approved alternative for all CoE programs.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "ENGR 101",
+    "ENGR 151"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-ib-total",
+   "label": "Intellectual Breadth (16 credits)",
+   "hint": "16 credits of liberal arts courses, meaning courses marked HU or SS that are not also marked BS, NS, or QR. ECON 101 and 102 count by explicit exception. Up to 4 credits of approved professional development courses from other U-M schools may also count, use the adjust control to include those.",
+   "need": 16,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "coe-liberal-arts",
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-ib-humanities",
+   "label": "Humanities minimum (3 credits)",
+   "hint": "At least 3 of the 16 Intellectual Breadth credits must be humanities courses. Credit by test cannot be used for this minimum.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "lsa-humanities",
+   "excludeTags": [
+    "lsa-bs",
+    "lsa-natural-sciences",
+    "lsa-qr"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-ib-upper",
+   "label": "Upper level liberal arts minimum (3 credits)",
+   "hint": "At least 3 of the 16 Intellectual Breadth credits must be liberal arts courses at the 300 level or higher. One course may satisfy both this and the humanities minimum.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "coe-liberal-arts-upper",
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-general-electives",
+   "label": "General electives (12 credits)",
+   "hint": "Free elective credits that bring the program to 128 total. Any U-M course counts.",
+   "need": 12,
+   "countMode": "credits",
+   "category": "coe-general-electives",
+   "matchAll": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-residency",
+   "label": "Residency (50 credits at U-M Ann Arbor)",
+   "hint": "Still building automatic checking for this rule. At least 50 credits must be U-M Ann Arbor coursework, including at least 30 credits of 300 level or higher technical courses offered by the College of Engineering in Ann Arbor.",
+   "need": 1,
+   "countMode": "count",
+   "manual": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/rules/graduation/"
+   ]
+  },
+  {
+   "id": "coe-space-sciences-and-engineering-space-320",
+   "label": "SPACE 320: Earth Systems Evolution",
+   "hint": "Part of the Space Sciences and Engineering program subjects, minimum 30 credits total. Cross listed as CLIMATE 320 and EARTH 320.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "SPACE 320",
+    "CLIMATE 320",
+    "EARTH 320"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/courses/clasp/"
+   ]
+  },
+  {
+   "id": "coe-space-sciences-and-engineering-space-321",
+   "label": "SPACE 321: Earth Systems Dynamics",
+   "hint": "Part of the Space Sciences and Engineering program subjects, minimum 30 credits total. Cross listed as CLIMATE 321 and EARTH 321.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "SPACE 321",
+    "CLIMATE 321",
+    "EARTH 321"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/courses/clasp/"
+   ]
+  },
+  {
+   "id": "coe-space-sciences-and-engineering-space-323",
+   "label": "SPACE 323: Earth System Analysis",
+   "hint": "Part of the Space Sciences and Engineering program subjects, minimum 30 credits total. Cross listed as CLIMATE 323 and EARTH 323.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "SPACE 323",
+    "CLIMATE 323",
+    "EARTH 323"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/courses/clasp/"
+   ]
+  },
+  {
+   "id": "coe-space-sciences-and-engineering-space-370",
+   "label": "SPACE 370: Solar-Terrestrial Relations",
+   "hint": "Part of the Space Sciences and Engineering program subjects, minimum 30 credits total. Cross listed as EARTH 370.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "SPACE 370",
+    "EARTH 370"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/courses/clasp/"
+   ]
+  },
+  {
+   "id": "coe-space-sciences-and-engineering-space-462",
+   "label": "SPACE 462: Instrumentation for Atmospheric and Space Sciences",
+   "hint": "Part of the Space Sciences and Engineering program subjects, minimum 30 credits total. Cross listed as CLIMATE 462.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "SPACE 462",
+    "CLIMATE 462"
+   ],
+   "sources": [
+    "https://clasp.engin.umich.edu/wp-content/uploads/sites/6/2021/06/FINALTechElectivesforUndergrads.pdf"
+   ]
+  },
+  {
+   "id": "coe-space-sciences-and-engineering-space-478",
+   "label": "SPACE 478: Engineering for Space Environment",
+   "hint": "Part of the Space Sciences and Engineering program subjects, minimum 30 credits total.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "SPACE 478"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/courses/clasp/"
+   ]
+  },
+  {
+   "id": "coe-space-sciences-and-engineering-space-405",
+   "label": "SPACE 405: Data Analysis and Visualization",
+   "hint": "SPACE 405 is a special topics course and must be taken with the topic Data Analysis and Visualization to count here. Cross listed as CLIMATE 405.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "SPACE 405",
+    "CLIMATE 405"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/courses/clasp/"
+   ]
+  },
+  {
+   "id": "coe-space-sciences-and-engineering-space-495-or-595",
+   "label": "SPACE 495 or SPACE 595",
+   "hint": "One of SPACE 495, Upper Atmosphere and Ionosphere, or SPACE 595, Magnetosphere and Solar Wind. Part of the program subjects, minimum 30 credits total.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "SPACE 495",
+    "SPACE 595"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/courses/clasp/"
+   ]
+  },
+  {
+   "id": "whatif-rq-10600",
+   "label": "Concentration declaration",
+   "hint": "Still building automatic checking for this rule. Students must declare either the Space Science or the Space Instrumentation concentration, each has its own course plan published by the Climate and Space department.",
+   "need": 1,
+   "countMode": "count",
+   "manual": true,
+   "sources": [
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-space-science-engineering/space-science-concentration/",
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-space-science-engineering/space-instrumentation-concentration/"
+   ]
+  },
+  {
+   "id": "whatif-rq-8327",
+   "label": "Technical electives (11 credits)",
+   "hint": "At least 11 credits of technical electives with grades of C- or better. Progress is checked against the technical electives list published by the Climate and Space department for this degree. Other technical courses can count with advisor approval, use the adjust control to include them.",
+   "need": 11,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "MATH 371",
+    "MATH 471",
+    "STATS 426",
+    "AEROSP 305",
+    "AEROSP 335",
+    "AEROSP 347",
+    "AEROSP 405",
+    "AEROSP 483",
+    "CEE 211",
+    "CEE 212",
+    "CEE 265",
+    "CEE 303",
+    "CEE 325",
+    "EECS 230",
+    "EECS 280",
+    "EECS 311",
+    "EECS 314",
+    "EECS 330",
+    "EECS 334",
+    "EECS 381",
+    "EECS 402",
+    "EECS 430",
+    "EECS 461",
+    "EECS 477",
+    "EECS 492",
+    "ENGR 280",
+    "ENGR 301",
+    "ENGR 354",
+    "ENGR 355",
+    "ENGR 371",
+    "ENGR 391",
+    "ENGR 403",
+    "ENGR 405",
+    "ENGR 450",
+    "ENGR 455",
+    "ENGR 456",
+    "IOE 265",
+    "IOE 366",
+    "IOE 373",
+    "IOE 465",
+    "MATSCIE 330",
+    "MECHENG 235",
+    "MECHENG 250",
+    "MECHENG 305",
+    "MECHENG 320",
+    "MECHENG 335",
+    "MECHENG 336",
+    "MECHENG 350",
+    "MECHENG 420",
+    "NERS 250",
+    "NERS 311",
+    "NERS 312",
+    "NERS 472",
+    "TCHNCLCM 300",
+    "TCHNCLCM 401",
+    "TCHNCLCM 450",
+    "TCHNCLCM 499",
+    "MATH 289",
+    "MATH 316",
+    "MATH 351",
+    "MATH 354",
+    "MATH 404",
+    "MATH 416",
+    "MATH 417",
+    "MATH 419",
+    "MATH 425",
+    "MATH 450",
+    "MATH 454",
+    "PHYSICS 390",
+    "PHYSICS 401",
+    "PHYSICS 402",
+    "PHYSICS 405",
+    "PHYSICS 406",
+    "PHYSICS 411",
+    "PHYSICS 413",
+    "PHYSICS 453",
+    "PHYSICS 460",
+    "STATS 250",
+    "STATS 280",
+    "STATS 401",
+    "STATS 403",
+    "STATS 406",
+    "STATS 412",
+    "STATS 415",
+    "STATS 425",
+    "STATS 470",
+    "STATS 480"
+   ],
+   "sources": [
+    "https://clasp.engin.umich.edu/wp-content/uploads/sites/6/2021/06/FINALTechElectivesforUndergrads.pdf",
+    "https://clasp.engin.umich.edu/academics/undergraduate-studies/bse-space-science-engineering/space-science-concentration/"
+   ]
+  }
+ ],
+ "sourceUrl": "https://clasp.engin.umich.edu/academics/undergraduate/"
+}

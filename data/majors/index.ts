@@ -72,6 +72,24 @@ import p70 from './lsa-statistics.json';
 import p71 from './lsa-translation.json';
 import p72 from './lsa-womens-studies.json';
 import p73 from './lsa-computer-science-2.json';
+import c1 from './coe-aerospace-engineering.json';
+import c2 from './coe-biomedical-engineering.json';
+import c3 from './coe-chemical-engineering.json';
+import c4 from './coe-civil-engineering.json';
+import c5 from './coe-climate-and-meteorology.json';
+import c6 from './coe-computer-engineering.json';
+import c7 from './coe-computer-science.json';
+import c8 from './coe-data-science.json';
+import c9 from './coe-electrical-engineering.json';
+import c10 from './coe-engineering-physics.json';
+import c11 from './coe-environmental-engineering.json';
+import c12 from './coe-industrial-and-operations-engineering.json';
+import c13 from './coe-materials-science-and-engineering.json';
+import c14 from './coe-mechanical-engineering.json';
+import c15 from './coe-naval-architecture-and-marine-engineering.json';
+import c16 from './coe-nuclear-engineering-and-radiological-sciences.json';
+import c17 from './coe-robotics.json';
+import c18 from './coe-space-sciences-and-engineering.json';
 
 export const all: Major[] = [
   p1 as Major,
@@ -146,4 +164,22 @@ export const all: Major[] = [
   p71 as Major,
   p72 as Major,
   p73 as Major,
+  c1 as Major,
+  c2 as Major,
+  c3 as Major,
+  c4 as Major,
+  c5 as Major,
+  c6 as Major,
+  c7 as Major,
+  c8 as Major,
+  c9 as Major,
+  c10 as Major,
+  c11 as Major,
+  c12 as Major,
+  c13 as Major,
+  c14 as Major,
+  c15 as Major,
+  c16 as Major,
+  c17 as Major,
+  c18 as Major,
 ];

@@ -1,0 +1,896 @@
+{
+ "id": "coe-biomedical-engineering",
+ "name": "Biomedical Engineering",
+ "school": "College of Engineering",
+ "goalCredits": 128,
+ "requirements": [
+  {
+   "id": "coe-total-credits",
+   "label": "128 Total Credits",
+   "hint": "All College of Engineering BSE programs require 128 credit hours.",
+   "need": 128,
+   "countMode": "credits",
+   "category": "coe-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/rules/graduation/"
+   ]
+  },
+  {
+   "id": "coe-math-115",
+   "label": "MATH 115: Calculus I",
+   "hint": "Part of the 16 credit CoE mathematics core. AP calculus credit counts here automatically. Honors math sequences also satisfy this per the CoE Bulletin, use the adjust control if your credit posted under a different course number.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 115"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-math-116",
+   "label": "MATH 116: Calculus II",
+   "hint": "Part of the 16 credit CoE mathematics core. AP calculus credit counts here automatically. Honors math sequences also satisfy this per the CoE Bulletin, use the adjust control if your credit posted under a different course number.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 116"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-math-215",
+   "label": "MATH 215: Multivariable Calculus",
+   "hint": "Part of the 16 credit CoE mathematics core.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 215"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-math-216",
+   "label": "MATH 216: Differential Equations",
+   "hint": "Part of the 16 credit CoE mathematics core. Some programs substitute a different fourth math course, see your program rows below.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "MATH 216"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-chem-core",
+   "label": "Chemistry core",
+   "hint": "Either CHEM 130 with the CHEM 125 and 126 labs, or CHEM 210 with the CHEM 211 lab for students who place into organic chemistry. Satisfactory AP chemistry credit also meets this per the CoE Bulletin, use the adjust control if that is your case.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "pickFromGroups": [
+    "coe-chem-gen-sequence",
+    "coe-chem-210-211"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-chem-gen-sequence",
+   "label": "CHEM 130 with labs 125 and 126",
+   "hint": "General chemistry with both laboratory courses.",
+   "need": 3,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "CHEM 130",
+    "CHEM 125",
+    "CHEM 126"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-chem-210-211",
+   "label": "CHEM 210 and CHEM 211",
+   "hint": "Organic chemistry path for students who place into CHEM 210. Placement here means no credit is given for CHEM 130.",
+   "need": 2,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "CHEM 210",
+    "CHEM 211"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-140",
+   "label": "PHYSICS 140: General Physics I",
+   "hint": "CoE physics core. The honors sequence PHYSICS 160 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 140",
+    "PHYSICS 160"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-141",
+   "label": "PHYSICS 141: Elementary Lab I",
+   "hint": "CoE physics core laboratory. The honors lab PHYSICS 161 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 141",
+    "PHYSICS 161"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-240",
+   "label": "PHYSICS 240: General Physics II",
+   "hint": "CoE physics core. The honors sequence PHYSICS 260 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 240",
+    "PHYSICS 260"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-physics-241",
+   "label": "PHYSICS 241: Elementary Lab II",
+   "hint": "CoE physics core laboratory. The honors lab PHYSICS 261 also satisfies this.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "PHYSICS 241",
+    "PHYSICS 261"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-engr-100",
+   "label": "ENGR 100: Introduction to Engineering",
+   "hint": "A grade of C or better is required. Transfer students may substitute a course meeting the LSA first year writing requirement.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "ENGR 100"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-engr-101",
+   "label": "ENGR 101: Introduction to Computers and Programming",
+   "hint": "A grade of C or better is required. ENGR 151 is an approved alternative for all CoE programs.",
+   "need": 1,
+   "countMode": "count",
+   "category": "coe-core",
+   "matchCodes": [
+    "ENGR 101",
+    "ENGR 151"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ],
+   "minGrade": "C"
+  },
+  {
+   "id": "coe-ib-total",
+   "label": "Intellectual Breadth (16 credits)",
+   "hint": "16 credits of liberal arts courses, meaning courses marked HU or SS that are not also marked BS, NS, or QR. ECON 101 and 102 count by explicit exception. Up to 4 credits of approved professional development courses from other U-M schools may also count, use the adjust control to include those.",
+   "need": 16,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "coe-liberal-arts",
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-ib-humanities",
+   "label": "Humanities minimum (3 credits)",
+   "hint": "At least 3 of the 16 Intellectual Breadth credits must be humanities courses. Credit by test cannot be used for this minimum.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "lsa-humanities",
+   "excludeTags": [
+    "lsa-bs",
+    "lsa-natural-sciences",
+    "lsa-qr"
+   ],
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-ib-upper",
+   "label": "Upper level liberal arts minimum (3 credits)",
+   "hint": "At least 3 of the 16 Intellectual Breadth credits must be liberal arts courses at the 300 level or higher. One course may satisfy both this and the humanities minimum.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "coe-intellectual-breadth",
+   "matchTag": "coe-liberal-arts-upper",
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-general-electives",
+   "label": "General electives (9 credits)",
+   "hint": "Free elective credits that bring the program to 128 total. Any U-M course counts.",
+   "need": 9,
+   "countMode": "credits",
+   "category": "coe-general-electives",
+   "matchAll": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/ug-ed/reqs/"
+   ]
+  },
+  {
+   "id": "coe-residency",
+   "label": "Residency (50 credits at U-M Ann Arbor)",
+   "hint": "Still building automatic checking for this rule. At least 50 credits must be U-M Ann Arbor coursework, including at least 30 credits of 300 level or higher technical courses offered by the College of Engineering in Ann Arbor.",
+   "need": 1,
+   "countMode": "count",
+   "manual": true,
+   "sources": [
+    "https://bulletin.engin.umich.edu/rules/graduation/"
+   ]
+  },
+  {
+   "id": "coe-biomedical-engineering-biology-172",
+   "label": "BIOLOGY 172: Introductory Biology",
+   "hint": "Life science requirement for the BME program. AP Biology credit posted as BIOLOGY 195 also satisfies this per the BME curriculum guide.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "BIOLOGY 172",
+    "BIOLOGY 195"
+   ],
+   "sources": [
+    "https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://web.archive.org/web/20260728140439/https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://docs.google.com/document/d/1Ck_206v7XLetIKrPgNyul6Jvc71ExTQysn3zGtyqF7I/edit"
+   ]
+  },
+  {
+   "id": "coe-biomedical-engineering-matscie-220",
+   "label": "MATSCIE 220 or 250: Engineering Materials",
+   "hint": "Materials science requirement for the BME program. Either MATSCIE 220 or MATSCIE 250, Principles of Engineering Materials, satisfies it.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MATSCIE 220",
+    "MATSCIE 250"
+   ],
+   "sources": [
+    "https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://web.archive.org/web/20260728140439/https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://docs.google.com/document/d/1Ck_206v7XLetIKrPgNyul6Jvc71ExTQysn3zGtyqF7I/edit"
+   ]
+  },
+  {
+   "id": "coe-biomedical-engineering-biomede-211",
+   "label": "BIOMEDE 211: Circuits and Systems for BME",
+   "hint": "BME core course. EECS 215 is an approved alternative per the BME curriculum guide.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "BIOMEDE 211",
+    "EECS 215"
+   ],
+   "sources": [
+    "https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://web.archive.org/web/20260728140439/https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://docs.google.com/document/d/1Ck_206v7XLetIKrPgNyul6Jvc71ExTQysn3zGtyqF7I/edit"
+   ]
+  },
+  {
+   "id": "coe-biomedical-engineering-biomede-221",
+   "label": "BIOMEDE 221: Biophysical Chemistry and Thermodynamics",
+   "hint": "BME core course.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "BIOMEDE 221"
+   ],
+   "sources": [
+    "https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://web.archive.org/web/20260728140439/https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://docs.google.com/document/d/1Ck_206v7XLetIKrPgNyul6Jvc71ExTQysn3zGtyqF7I/edit"
+   ]
+  },
+  {
+   "id": "coe-biomedical-engineering-biomede-231",
+   "label": "BIOMEDE 231: Introduction to Biomechanics",
+   "hint": "BME core course.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "BIOMEDE 231"
+   ],
+   "sources": [
+    "https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://web.archive.org/web/20260728140439/https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://docs.google.com/document/d/1Ck_206v7XLetIKrPgNyul6Jvc71ExTQysn3zGtyqF7I/edit"
+   ]
+  },
+  {
+   "id": "coe-biomedical-engineering-biomede-241",
+   "label": "BIOMEDE 241: Statistics, Computation, and Data Analysis",
+   "hint": "BME core course, this is the statistics requirement for the program.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "BIOMEDE 241"
+   ],
+   "sources": [
+    "https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://web.archive.org/web/20260728140439/https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://docs.google.com/document/d/1Ck_206v7XLetIKrPgNyul6Jvc71ExTQysn3zGtyqF7I/edit"
+   ]
+  },
+  {
+   "id": "coe-biomedical-engineering-biomede-350",
+   "label": "BIOMEDE 350: Introduction to BME Design",
+   "hint": "BME core design course, taken before the senior capstone.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "BIOMEDE 350"
+   ],
+   "sources": [
+    "https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://web.archive.org/web/20260728140439/https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://docs.google.com/document/d/1Ck_206v7XLetIKrPgNyul6Jvc71ExTQysn3zGtyqF7I/edit"
+   ]
+  },
+  {
+   "id": "coe-biomedical-engineering-biomede-418",
+   "label": "BIOMEDE 418: Quantitative Cell Biology",
+   "hint": "BME core course.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "BIOMEDE 418"
+   ],
+   "sources": [
+    "https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://web.archive.org/web/20260728140439/https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://docs.google.com/document/d/1Ck_206v7XLetIKrPgNyul6Jvc71ExTQysn3zGtyqF7I/edit"
+   ]
+  },
+  {
+   "id": "coe-biomedical-engineering-biomede-419",
+   "label": "BIOMEDE 419: Quantitative Physiology",
+   "hint": "BME core course.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "BIOMEDE 419"
+   ],
+   "sources": [
+    "https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://web.archive.org/web/20260728140439/https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://docs.google.com/document/d/1Ck_206v7XLetIKrPgNyul6Jvc71ExTQysn3zGtyqF7I/edit"
+   ]
+  },
+  {
+   "id": "coe-biomedical-engineering-biomede-458",
+   "label": "BIOMEDE 458: Bioinstrumentation",
+   "hint": "BME core laboratory course.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "BIOMEDE 458"
+   ],
+   "sources": [
+    "https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://web.archive.org/web/20260728140439/https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://docs.google.com/document/d/1Ck_206v7XLetIKrPgNyul6Jvc71ExTQysn3zGtyqF7I/edit"
+   ]
+  },
+  {
+   "id": "coe-biomedical-engineering-capstone",
+   "label": "Capstone Design: BIOMEDE 450, or 451 and 452",
+   "hint": "Complete the senior design requirement through either the one term BIOMEDE 450 or the two term sequence BIOMEDE 451 and 452.",
+   "need": 1,
+   "countMode": "count",
+   "category": "capstone",
+   "pickFromGroups": [
+    "coe-biomedical-engineering-capstone-450",
+    "coe-biomedical-engineering-capstone-451-452"
+   ],
+   "sources": [
+    "https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://web.archive.org/web/20260728140439/https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://docs.google.com/document/d/1Ck_206v7XLetIKrPgNyul6Jvc71ExTQysn3zGtyqF7I/edit"
+   ]
+  },
+  {
+   "id": "coe-biomedical-engineering-capstone-450",
+   "label": "BIOMEDE 450: Biomedical Design",
+   "hint": "One term capstone design option.",
+   "need": 1,
+   "countMode": "count",
+   "category": "capstone",
+   "matchCodes": [
+    "BIOMEDE 450"
+   ],
+   "sources": [
+    "https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://web.archive.org/web/20260728140439/https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://docs.google.com/document/d/1Ck_206v7XLetIKrPgNyul6Jvc71ExTQysn3zGtyqF7I/edit"
+   ]
+  },
+  {
+   "id": "coe-biomedical-engineering-capstone-451-452",
+   "label": "BIOMEDE 451 and 452: Biomedical Engineering Design I and II",
+   "hint": "Two term capstone design sequence, both courses are required for this option.",
+   "need": 2,
+   "countMode": "count",
+   "category": "capstone",
+   "matchCodes": [
+    "BIOMEDE 451",
+    "BIOMEDE 452"
+   ],
+   "sources": [
+    "https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://web.archive.org/web/20260728140439/https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://docs.google.com/document/d/1Ck_206v7XLetIKrPgNyul6Jvc71ExTQysn3zGtyqF7I/edit"
+   ]
+  },
+  {
+   "id": "coe-biomedical-engineering-engineering-expertise-biomede",
+   "label": "Engineering Expertise: BIOMEDE minimum (6 credits)",
+   "hint": "At least 6 of the 12 Engineering Expertise credits must come from approved BIOMEDE courses at the 300 level or higher, per the BME Depth Requirement Guide.",
+   "need": 6,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "BIOMEDE 311",
+    "BIOMEDE 321",
+    "BIOMEDE 331",
+    "BIOMEDE 332",
+    "BIOMEDE 410",
+    "BIOMEDE 417",
+    "BIOMEDE 442",
+    "BIOMEDE 456",
+    "BIOMEDE 474",
+    "BIOMEDE 476",
+    "BIOMEDE 479",
+    "BIOMEDE 481",
+    "BIOMEDE 484",
+    "BIOMEDE 487",
+    "BIOMEDE 504",
+    "BIOMEDE 510",
+    "BIOMEDE 514",
+    "BIOMEDE 516",
+    "BIOMEDE 517",
+    "BIOMEDE 527",
+    "BIOMEDE 534",
+    "BIOMEDE 536",
+    "BIOMEDE 537",
+    "BIOMEDE 561",
+    "BIOMEDE 563"
+   ],
+   "sources": [
+    "https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://web.archive.org/web/20260728140439/https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://docs.google.com/spreadsheets/d/1s6pkAon538csGOypWK0PcwY6HfHIPrtoYYKHkWzvNjQ/edit"
+   ]
+  },
+  {
+   "id": "coe-biomedical-engineering-engineering-expertise",
+   "label": "Engineering Expertise (12 credits)",
+   "hint": "12 credits of approved engineering coursework at the 300 level or higher, including at least 6 credits of BIOMEDE courses. Courses not on the BME Depth Requirement Guide need department pre-approval, use the adjust control for approved exceptions.",
+   "need": 12,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "BIOMEDE 311",
+    "BIOMEDE 321",
+    "BIOMEDE 331",
+    "BIOMEDE 332",
+    "BIOMEDE 410",
+    "BIOMEDE 417",
+    "BIOMEDE 442",
+    "BIOMEDE 456",
+    "BIOMEDE 474",
+    "BIOMEDE 476",
+    "BIOMEDE 479",
+    "BIOMEDE 481",
+    "BIOMEDE 484",
+    "BIOMEDE 487",
+    "BIOMEDE 504",
+    "BIOMEDE 510",
+    "BIOMEDE 514",
+    "BIOMEDE 516",
+    "BIOMEDE 517",
+    "BIOMEDE 527",
+    "BIOMEDE 534",
+    "BIOMEDE 536",
+    "BIOMEDE 537",
+    "BIOMEDE 561",
+    "BIOMEDE 563",
+    "ANATOMY 504",
+    "BIOINF 520",
+    "BIOINF 576",
+    "BIOLCHEM 504",
+    "CHE 341",
+    "CHE 407",
+    "CHE 516",
+    "CHE 517",
+    "CHE 519",
+    "CHE 558",
+    "CHE 559",
+    "CHE 563",
+    "CHE 574",
+    "CHE 597",
+    "EECS 300",
+    "EECS 311",
+    "EECS 320",
+    "EECS 334",
+    "EECS 351",
+    "EECS 370",
+    "EECS 373",
+    "EECS 388",
+    "EECS 414",
+    "EECS 417",
+    "EECS 442",
+    "EECS 445",
+    "EECS 453",
+    "EECS 460",
+    "EECS 461",
+    "EECS 485",
+    "EECS 492",
+    "EECS 504",
+    "EECS 556",
+    "IOE 310",
+    "IOE 333",
+    "IOE 413",
+    "IOE 436",
+    "IOE 438",
+    "IOE 463",
+    "IOE 491",
+    "IOE 510",
+    "IOE 534",
+    "IOE 536",
+    "MACROMOL 410",
+    "MATSCIE 335",
+    "MATSCIE 350",
+    "MATSCIE 400",
+    "MATSCIE 410",
+    "MATSCIE 412",
+    "MATSCIE 420",
+    "MATSCIE 454",
+    "MATSCIE 465",
+    "MATSCIE 512",
+    "MATSCIE 514",
+    "MATSCIE 558",
+    "MATSCIE 559",
+    "MATSCIE 563",
+    "MATSCIE 583",
+    "MECHENG 350",
+    "MECHENG 360",
+    "MECHENG 406",
+    "MECHENG 452",
+    "MECHENG 456",
+    "MECHENG 476",
+    "MECHENG 482",
+    "MECHENG 553",
+    "MFG 452",
+    "MFG 463",
+    "MFG 480",
+    "MFG 501",
+    "MFG 517",
+    "MFG 534",
+    "MICRBIOL 504",
+    "NERS 484",
+    "ROB 310",
+    "EECS 516"
+   ],
+   "sources": [
+    "https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://web.archive.org/web/20260728140439/https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://docs.google.com/spreadsheets/d/1s6pkAon538csGOypWK0PcwY6HfHIPrtoYYKHkWzvNjQ/edit"
+   ]
+  },
+  {
+   "id": "coe-biomedical-engineering-cross-disciplinary",
+   "label": "Cross-Disciplinary courses (6 credits)",
+   "hint": "6 credits of approved courses at the 200 level or higher in math, natural science, or engineering related to BME, per the BME Depth Requirement Guide. Engineering Expertise courses beyond the first 12 credits also qualify, so the first 12 matching credits here are counted toward Engineering Expertise.",
+   "need": 6,
+   "countMode": "credits",
+   "category": "electives",
+   "offset": 12,
+   "matchCodes": [
+    "AES 218",
+    "AES 241",
+    "ANATOMY 303",
+    "ANATOMY 403",
+    "ANATOMY 504",
+    "ANTHRBIO 201",
+    "BIOINF 501",
+    "BIOINF 520",
+    "BIOINF 524",
+    "BIOINF 540",
+    "BIOINF 547",
+    "BIOINF 576",
+    "BIOLCHEM 415",
+    "BIOLCHEM 504",
+    "BIOLOGY 207",
+    "BIOLOGY 212",
+    "BIOLOGY 272",
+    "BIOLOGY 290",
+    "BIOMEDE 311",
+    "BIOMEDE 321",
+    "BIOMEDE 331",
+    "BIOMEDE 332",
+    "BIOMEDE 410",
+    "BIOMEDE 417",
+    "BIOMEDE 442",
+    "BIOMEDE 456",
+    "BIOMEDE 474",
+    "BIOMEDE 476",
+    "BIOMEDE 479",
+    "BIOMEDE 481",
+    "BIOMEDE 484",
+    "BIOMEDE 487",
+    "BIOMEDE 503",
+    "BIOMEDE 504",
+    "BIOMEDE 510",
+    "BIOMEDE 514",
+    "BIOMEDE 516",
+    "BIOMEDE 517",
+    "BIOMEDE 527",
+    "BIOMEDE 534",
+    "BIOMEDE 536",
+    "BIOMEDE 537",
+    "BIOMEDE 550",
+    "BIOMEDE 561",
+    "BIOMEDE 563",
+    "BIOPHYS 440",
+    "CDB 450",
+    "CHE 230",
+    "CHE 341",
+    "CHE 407",
+    "CHE 516",
+    "CHE 517",
+    "CHE 519",
+    "CHE 558",
+    "CHE 559",
+    "CHE 563",
+    "CHE 574",
+    "CHE 597",
+    "CHEM 210",
+    "CHEM 215",
+    "CHEM 241",
+    "CHEM 245",
+    "CHEM 351",
+    "EECS 203",
+    "EECS 216",
+    "EECS 270",
+    "EECS 280",
+    "EECS 281",
+    "EECS 285",
+    "EECS 291",
+    "EECS 300",
+    "EECS 311",
+    "EECS 320",
+    "EECS 334",
+    "EECS 351",
+    "EECS 370",
+    "EECS 373",
+    "EECS 388",
+    "EECS 414",
+    "EECS 417",
+    "EECS 442",
+    "EECS 445",
+    "EECS 453",
+    "EECS 460",
+    "EECS 461",
+    "EECS 485",
+    "EECS 492",
+    "EECS 504",
+    "EECS 556",
+    "ENTR 408",
+    "ENTR 413",
+    "ENTR 490",
+    "ENTR 500",
+    "ENTR 520",
+    "ENTR 530",
+    "ENTR 550",
+    "ENTR 560",
+    "ES 212",
+    "IOE 310",
+    "IOE 333",
+    "IOE 373",
+    "IOE 413",
+    "IOE 436",
+    "IOE 438",
+    "IOE 461",
+    "IOE 463",
+    "IOE 491",
+    "IOE 510",
+    "IOE 534",
+    "IOE 536",
+    "IOE 539",
+    "KINSTUDY 200",
+    "KINSTUDY 201",
+    "MACROMOL 410",
+    "MATH 214",
+    "MATH 217",
+    "MATH 371",
+    "MATH 417",
+    "MATH 425",
+    "MATH 463",
+    "MATH 465",
+    "MATH 540",
+    "MATH 568",
+    "MATSCIE 242",
+    "MATSCIE 335",
+    "MATSCIE 350",
+    "MATSCIE 400",
+    "MATSCIE 410",
+    "MATSCIE 412",
+    "MATSCIE 420",
+    "MATSCIE 440",
+    "MATSCIE 454",
+    "MATSCIE 465",
+    "MATSCIE 512",
+    "MATSCIE 514",
+    "MATSCIE 558",
+    "MATSCIE 559",
+    "MATSCIE 563",
+    "MATSCIE 583",
+    "MCDB 310",
+    "MCDB 408",
+    "MCDB 416",
+    "MCDB 436",
+    "MCDB 441",
+    "MCDB 451",
+    "MCDB 455",
+    "MCDB 456",
+    "MCDB 469",
+    "MECHENG 350",
+    "MECHENG 360",
+    "MECHENG 406",
+    "MECHENG 452",
+    "MECHENG 456",
+    "MECHENG 476",
+    "MECHENG 482",
+    "MECHENG 553",
+    "MFG 452",
+    "MFG 463",
+    "MFG 480",
+    "MFG 501",
+    "MFG 504",
+    "MFG 517",
+    "MFG 534",
+    "MFG 605",
+    "MICRBIOL 405",
+    "MICRBIOL 504",
+    "MO 302",
+    "MOVESCI 230",
+    "MOVESCI 231",
+    "MOVESCI 435",
+    "NERS 211",
+    "NERS 250",
+    "NERS 312",
+    "NERS 484",
+    "PHARMACOL 310",
+    "PHARMSCI 300",
+    "PHYSICS 390",
+    "PHYSIOL 415",
+    "PUBHLTH 200",
+    "ROB 204",
+    "ROB 310",
+    "STATS 403",
+    "STRATEGY 302",
+    "TO 302",
+    "TO 605",
+    "WGS 220",
+    "EECS 516"
+   ],
+   "sources": [
+    "https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://web.archive.org/web/20260728140439/https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://docs.google.com/spreadsheets/d/1s6pkAon538csGOypWK0PcwY6HfHIPrtoYYKHkWzvNjQ/edit"
+   ]
+  },
+  {
+   "id": "coe-biomedical-engineering-profession-in-practice",
+   "label": "Profession in Practice (3 credits)",
+   "hint": "3 credits of hands-on lab, design, practicum, or research coursework from the approved list in the BME Depth Requirement Guide. Directed research such as BIOMEDE 490 and courses not on the guide need pre-approval from BME advising, and a course cannot also count toward another depth requirement.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "BIOINF 527",
+    "BIOLOGY 173",
+    "BIOLOGY 226",
+    "BIOMEDE 474",
+    "BIOMEDE 490",
+    "BIOMEDE 510",
+    "BIOPHYS 422",
+    "BIOPHYS 450",
+    "CHEM 211",
+    "CHEM 216",
+    "CHEM 246",
+    "CHEM 247",
+    "CHEM 352",
+    "EECS 200",
+    "EECS 367",
+    "EECS 441",
+    "EECS 460",
+    "EECS 467",
+    "ENTR 402",
+    "ENTR 405",
+    "ENTR 412",
+    "MATSCIE 360",
+    "MATSCIE 465",
+    "MCDB 423",
+    "MCDB 424",
+    "MCDB 429",
+    "MECHENG 250",
+    "MECHENG 350",
+    "MECHENG 482",
+    "MECHENG 553",
+    "PHYSIOL 404"
+   ],
+   "sources": [
+    "https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://web.archive.org/web/20260728140439/https://bme.umich.edu/academics/undergraduate/curriculum/",
+    "https://docs.google.com/spreadsheets/d/1s6pkAon538csGOypWK0PcwY6HfHIPrtoYYKHkWzvNjQ/edit"
+   ]
+  }
+ ],
+ "sourceUrl": "https://bme.umich.edu/academics/undergraduate/curriculum/"
+}

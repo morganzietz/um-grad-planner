@@ -1,0 +1,6 @@
+{
+ "note": "Placeholder until scripts/ingest/soc.ts runs with U-M API credentials (see that file's header for the one-time setup). lib/data.ts merges courses listed here under the LSA CG scrape.",
+ "terms": [],
+ "fetched": [],
+ "courses": []
+}
