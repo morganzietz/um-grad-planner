@@ -369,7 +369,7 @@
   {
    "id": "ross-capstone",
    "label": "BBA capstone course",
-   "hint": "One Ross capstone taken in the winter of your final year, after all fixed and floating core courses. Approved courses per the published capstone list, including the Capstone MAP and the senior thesis seminar.",
+   "hint": "One Ross capstone taken in the winter of your final year, after all fixed and floating core courses. Approved courses per the published capstone list, including the Capstone MAP and the senior thesis seminar. Some approved capstones are not offered every winter, check the published list for the current term.",
    "need": 1,
    "countMode": "count",
    "category": "capstone",
@@ -388,7 +388,12 @@
     "TO 465",
     "BA 453",
     "BA 480",
-    "ES 402"
+    "ES 402",
+    "BE 410",
+    "BL 407",
+    "FIN 422",
+    "MO 468",
+    "STRATEGY 492"
    ],
    "minGrade": "D-",
    "sources": [
