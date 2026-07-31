@@ -1,0 +1,1150 @@
+{
+ "source": "UMSN Program Plans application data (nursing.umich.edu/program_plans/program_plan_data.json)",
+ "subjects": [
+  "BIOLCHEM",
+  "BIOSTAT",
+  "EPID",
+  "HS",
+  "IOE",
+  "LHS",
+  "NURS",
+  "NURSPNE",
+  "PHARMACY",
+  "PSYCH"
+ ],
+ "courses": [
+  {
+   "code": "BIOLCHEM 212",
+   "title": "Descriptive Biochem",
+   "credits": 4,
+   "tags": [],
+   "description": "A basic course in biochemistry that includes fundamental organic chemistry, biological information transfer processes, energy conservation metabolism, and special topics such as membrane transport and the biochemistry of vision. Intended for nurses and allied health professionals.",
+   "prereqRaw": "Intended for nurses and allied health professionals; open to others with permission of instructor."
+  },
+  {
+   "code": "BIOSTAT 591",
+   "title": "Intro to R",
+   "credits": 2,
+   "tags": [],
+   "description": "no description"
+  },
+  {
+   "code": "EPID 590",
+   "title": "Epidemiology Methods",
+   "credits": 3,
+   "tags": [],
+   "description": "no description"
+  },
+  {
+   "code": "HS 225",
+   "title": "Global Persp HIV",
+   "credits": 3,
+   "tags": [],
+   "description": "Beginning in 1981 when the first case of HIV was diagnosed, the HIV and AIDs epidemic has dramatically altered the social, cultural, economic, political and demographic landscape worldwide. Understanding the drivers and the implications of this epidemic of individuals, families, communities and countries requires insight into the myriad of biological, socio-cultural and political factors that shape individual knowledge and behavior, access to preventive and treatment modalities, as well as the political and international responses to the epidemic. The purpose of this course is to provide an overview of the social and behavioral factors that influence the transmission and prevention of HIV and AIDs worldwide. Topics to be covered include the natural history and epidemiology of the AIDS virus, the mechanisms of transmission, high risk and vulnerable populations, social determinants of risk and vulnerability, theoretical foundations for HIV prevention programs, primary and secondary HIV prevention strategies, treatment of HIV and AIDS, and implications of HIV and AIDS for individuals, families, communities and countries."
+  },
+  {
+   "code": "HS 301",
+   "title": "Expl Palliative Care",
+   "credits": 2,
+   "tags": [],
+   "description": "This course is designed to provide graduate and undergraduate nursing students with an in-depth understanding of palliative care focusing on delivery of patient/family centered care in a variety of healthcare practice environments. Using the ELNEC (End of Life Nursing Education Consortium) undergraduate nursing student curriculum or APRN curriculum, students will gain knowledge about the comprehensive delivery of quality palliative care during curative concurrent therapies through transitions to comfort-focused care. Ethical aspects, values and self-awareness will be explored as it influences delivery of care. Students will gain enhanced appreciation for a multidisciplinary team approach to care of the seriously ill patient. Students will develop interpersonal communication skills that are valuable when caring for patients with serious illness and working with families and interdisciplinary providers. This course will teach components of holistic care used along the palliative care continuum addressing spiritual, social, physical and psychological needs. The student will obtain a palliative care nursing education certificate of completion that can be placed in their portfolio."
+  },
+  {
+   "code": "HS 375",
+   "title": "Wellness Restoration",
+   "credits": 2,
+   "tags": [],
+   "description": "The aim of this course is to equip health professionals with the necessary knowledge, skills, and strategies to effectively manage and mitigate stress in their personal and professional lives, while providing high-quality care to patients. Theoretical frameworks for understanding the impact of stress paired with applicable tools for stress mitigation will be provided. Participants will engage in interactive discussions, case studies, role-playing exercises, and self- reflection activities to enhance their understanding of skills to support participants' wellbeing and practical application in healthcare settings. By acquiring these skills, participants will be better equipped to manage stress and promote a healthier and more resilient work environment for themselves and their colleagues."
+  },
+  {
+   "code": "HS 404",
+   "title": "GenderBased Violence",
+   "credits": 3,
+   "tags": [],
+   "description": "This elective course is designed to provide undergraduate students with the background to understand gender-based violence and the skills necessary to provide advocacy services to survivors. Our story on gender-based violence will include attention to intimate partner violence, stalking, sexual harassment, child abuse, sexual assault, and human trafficking. This course utilizes a 360-degree framework which recognizes that everything is interconnected and takes into consideration the multiple lenses through which each individual understands gender-based violence from a broad, holistic context. We will also examine gender-based violence utilizing other perspectives including feminist, ecological, and social justice. This course will introduce students to the roots of gender-based violence, the social and cultural context in which it occurs, the mental and physical health impact, justice and restitution frameworks, and will explore approaches to changing those structures in order to reduce or end it. Students will develop the skills to think critically about the local and global impact of gender-based violence, how it intersects with other forms of oppression and to develop an understanding of these issues that will be useful intellectually, personally, and professionally."
+  },
+  {
+   "code": "HS 495",
+   "title": "Selected Topics HS",
+   "credits": 4.5,
+   "tags": [],
+   "description": "Selected Topics in Health Sciences"
+  },
+  {
+   "code": "HS 501",
+   "title": "Expl Palliative Care",
+   "credits": 2,
+   "tags": [],
+   "description": "This course is designed to provide graduate and undergraduate nursing students with an in-depth understanding of palliative care focusing on delivery of patient/family centered care in a variety of healthcare practice environments. Using an ELNEC (End of Life Nursing Education Consortium) undergraduate nursing student curriculum or APRN curriculum, students will gain knowledge about the comprehensive delivery of quality palliative care during curative concurrent therapies through transitions to comfort-focused care. Ethical aspects values and self-awareness will be explored as it influences delivery of care. Students will gain enhanced appreciation for a multidisciplinary team approach to care of the seriously ill patient. Students will develop interpersonal communication skills that are valuable when caring for patients with serious illness and working with families and interdisciplinary providers. This course will teach components of holistic care used along the palliative care continuum addressing spiritual, social, physical and psychological needs. The student will obtain a palliative care nursing education certificate of completion that can be place in their portfolio."
+  },
+  {
+   "code": "HS 502",
+   "title": "Policy Politics Hlth",
+   "credits": 3,
+   "tags": [],
+   "description": "This course prepares students to lead in data driven advocacy for impact on population health and professional practice within the context of a diverse and changing social and political environment. Students will develop the skills necessary to seek out and analyze available data and evidence in order to evaluate existing policy, identify policy problems, and develop and justify innovative policy solutions. Students will consider options and devise new strategies for collaborating and communicating with various stakeholders to influence change. Evaluating the synergies between political power and the policy process is a theme throughout the course."
+  },
+  {
+   "code": "HS 505",
+   "title": "Team-Based Decisions",
+   "credits": 2,
+   "tags": [],
+   "description": "This inter-professional course is designed for students in: dentistry, medicine, nursing, pharmacy, and social work. The course allows health professional students to gain an understanding of how each discipline contributes to the healthcare team and the importance of effective communication and team collaboration to clinical decision making."
+  },
+  {
+   "code": "HS 510",
+   "title": "Health Informatics",
+   "credits": 3,
+   "tags": [],
+   "description": "This graduate-level course will deepen the understanding of how informatics fundamentally impacts care process, access, outcomes, value, costs and efficiency across diverse settings and populations. In addition to the introduction of fundamental informatics theories, principles, and practices, this course highlights the identification, definition, coordination, acquisition, storage, analysis, and communication of data as part of critical success factors for the organization and diverse users. Policy dimensions, particularly regarding patient engagement in information management and exchange, equitable access and the adoption of interoperability standards and regulations, will be incorporated. Tomorrow's leaders are those who have a deep understanding of the value of data as a strategic asset to the organization and the profession. The increasing importance of evidence, data analytics, and strategic thinking to achieve the organization's mission are core to this enhanced level of thinking."
+  },
+  {
+   "code": "HS 515",
+   "title": "LGBTQIA+ Hlth Histry",
+   "credits": 1,
+   "tags": [],
+   "description": "Through critical analysis and case studies, students will gain insight into the impact of policy and politics on LGBTQIA+ health and develop advocacy skills for promoting inclusive healthcare policies. Students will explore the historical context of the AIDS crisis, analyzing activism strategies, societal responses, and policy implications. They will also examine the intersectionality of factors affecting LGBTQIA+ individuals, including health disparities, and the unique challenges faced within healthcare systems. Additionally, students will learn advocacy tools aimed at national, state, local, and health system level policy changes to support improved access and health equity. Overall, this course empowers students to become informed advocates and providers who actively contribute to advancing LGBTQIA+ health equity."
+  },
+  {
+   "code": "HS 516",
+   "title": "LGBTQIA+ Well-being",
+   "credits": 1,
+   "tags": [],
+   "description": "This course offers a deep exploration of the intricate relationship between LGBTQIA+ identities, mental health, and substance use, providing students with a holistic understanding of the complex factors influencing well-being within the community. Through critical analysis, participants will develop the capacity to advocate for inclusive mental health policies and foster environments that prioritize empathy and support. Students will investigate the diverse needs of LGBTQIA+ individuals across their lifespan, including the unique experiences impacting their physical, mental, and social health from childhood through to old age. Equipped with culturally sensitive skills and knowledge, students will emerge prepared to understand how to design safe, affirming spaces, and offer tailored care and support that recognize intersectional identities and past histories that facilitate LGBTQIA+ psychosocial well-being."
+  },
+  {
+   "code": "HS 517",
+   "title": "LGBTQIA+ Advanced",
+   "credits": 1,
+   "tags": [],
+   "description": "This course provides students with the tools and skills necessary to provide compassionate and effective specialized healthcare to LGBTQIA+ individuals. Through a blend of theoretical study and practical application, students will learn to conduct culturally sensitive assessments and create personalized care plans that cater to the holistic health needs of this community. Students will gain exposure to clinicians who have expertise in delivering gender-affirming primary care, sexual and reproductive health services, and primary healthcare needs of LGBTQIA+ individuals. Course content with expand on foundational theoretical knowledge gained from pathophysiology, pharmacology, and health assessment to apply in an LGBTQIA+ practice environment. Additionally, the course will delve into best practices for tailoring health information and providing relevant, informed, and competent health education to empower the LGBTQIA+ population in making informed decisions about their health and well-being."
+  },
+  {
+   "code": "HS 530",
+   "title": "Glbl Hlth Sem I",
+   "credits": 1,
+   "tags": [],
+   "description": "This elective course is designed to coincide with the School of Nursing annual Global Summer Institute that takes place in May of each year. It will provide graduate students and upper level undergraduate students with the knowledge and skills to work in interdisciplinary groups to solve real-world global health issues with domestic and international partners. Students will have the opportunity to network with practitioners, researchers, and professionals across the globe during the Summer Institute. Students will also develop the skills to think critically about local and global health issues including potential solutions to address issues at the individual, interpersonal, community, or societal level that will contribute to an understanding of these issues that will be useful intellectually, personally, and professionally."
+  },
+  {
+   "code": "HS 540",
+   "title": "Trauma Basics",
+   "credits": 1,
+   "tags": [],
+   "description": "This course is a workshop-based inter-professional education course offered by the School of Social Work in partnership with the School of Nursing and School of Education. It is the first course in a 3-course sequence in Trauma-Informed Practice (TIP). This first course will provide basic, foundational knowledge about the cognitive, social-emotional, behavioral, and health-related outcomes of trauma in children. A key focus of the course will be on enhancing awareness of trauma in children; assessing and responding to the needs of children who encounter trauma; and changing systems to become more responsive to vulnerable children and their families. Exploration of factors known to promote resilience and well-being will be emphasized and examined throughout the course. The course will examine principles of interprofessional education, which focuses on helping students in the professions of social work, nursing, and education work collaboratively in generalist and specialty practice roles."
+  },
+  {
+   "code": "HS 541",
+   "title": "Trauma Practice",
+   "credits": 1,
+   "tags": [],
+   "description": "This course will provide foundational knowledge about trauma-informed practice. A primary goal is preparing students for interprofessional approaches to trauma-informed prevention and intervention. A key focus will be on teachers, social workers, and nurses collaborating to use specific trauma-informed practices for addressing young people's academic, social-emotional, behavioral, and health needs.",
+   "prereqRaw": "Preceded or accompanied by EDUC/SW/HS 540"
+  },
+  {
+   "code": "HS 542",
+   "title": "Trauma Systems",
+   "credits": 1,
+   "tags": [],
+   "description": "This course will provide foundational knowledge about developing and sustaining a school or organizational culture that is trauma-informed. The course will incorporate principles of interprofessional education, which focuses on helping students in the professions work collaboratively in generalist and specialty practice roles. A primary goal of the course is to prepare students to use interprofessional and team-based strategies to achieve organizational change. A key focus will be on teachers, social workers, and nurses going beyond their practice role to collaborate on organizational work. Examples including educating colleagues, planning for a long-term project, evaluating programs, and obtaining resources to sustain collaborative models and programs to address trauma in schools.",
+   "prereqRaw": "Preceded or accompanied by HS 540 (EDUC/SW 540)"
+  },
+  {
+   "code": "HS 575",
+   "title": "Wellness Restoration",
+   "credits": 1,
+   "tags": [],
+   "description": "The aim of this course is to equip health professionals with the necessary knowledge, skills, and strategies to effectively manage and mitigate stress in their personal and professional lives, while providing high-quality care to patients. Theoretical frameworks for understanding the impact of stress paired with applicable tools for stress mitigation will be provided. Participants will engage in interactive discussions, case studies, role-playing exercises, and self- reflection activities to enhance their understanding of skills to support participants' wellbeing and practical application in healthcare settings. By acquiring these skills, participants will be better equipped to manage stress and promote a healthier and more resilient work environment for themselves and their colleagues."
+  },
+  {
+   "code": "HS 610",
+   "title": "Sociotech Appr Pract",
+   "credits": 3,
+   "tags": [],
+   "description": "A sociotechnical approach is used with complex organizational change that recognizes the interaction between diverse people, innovation, and technology in the workplace. The synergy between the socio and technical approaches lead to the rise of productivity and wellbeing of the employee. This course explores components of sociotechnical frameworks that underlie for the development, deployment, and maintenance of organizational change. Strategic planning and strategies used to analyze, and model, health systems requirements, are emphasized. New and emerging innovations are assessed for their impact and potential strategic value to the organization.",
+   "prereqRaw": "HS 510"
+  },
+  {
+   "code": "HS 612",
+   "title": "Eval Health Systems",
+   "credits": 3,
+   "tags": [],
+   "description": "The exponential growth of healthcare innovations and implementation require ongoing evaluation of the new or significantly improved products, services, processes, programs, and systems. This course provides an overall review of methods for evaluation of healthcare programs, and systems, including methods and challenges unique to the evaluation of health information systems and technologies. A variety of evaluation frameworks, standards, and tools will be examined. Examples of program and system evaluation will be discussed and analyzed."
+  },
+  {
+   "code": "HS 630",
+   "title": "Glbl Hlth Sem II",
+   "credits": 2,
+   "tags": [],
+   "description": "This elective course is designed to coincide with the School of Nursing annual Global Summer Institute that takes place in May of each year. It will provide graduate students with the knowledge and skills to present their global health projects and ideas to interdisciplinary groups of domestic and international partners. This course will introduce students to a broader understanding of evidence-based practice, policy, and leadership related to global health. Students will have the opportunity to network with practitioners, researchers, and professionals across the globe during the Summer Institute. Students will also develop critical skills necessary for developing, implementing, and evaluating complex global health projects.",
+   "prereqRaw": "HS 530 Global Health Seminal I; This course is reserved for Nursing MSN, DNP, or PhD students"
+  },
+  {
+   "code": "HS 650",
+   "title": "Predictive Analytics",
+   "credits": 4,
+   "tags": [],
+   "description": "This is a quantitative graduate course that provides a general of the principles, concepts, techniques, tools and services for managing, harmonizing, aggregating, preprocessing, modeling, analyzing and interpreting large, multi-source, incomplete, incongruent, and heterogeneous data (Big Data). Students will be exposed to common challenges related to handling Big Data, the enormous opportunities and power associated with our ability to interrogate such complex datasets, extract useful information, derived new knowledge, and provide actionable forecasting. Biomedical, healthcare, and social datasets will provide context for addressing specific driving challenges. Students will learn about modern data analytic techniques and develop skills for importing and exporting, cleaning and fusing, modeling and visualizing, analyzing and synthesizing complex datasets. The collaborative design, implementation, sharing and community validation of high-throughput analytic workflows will be emphasized throughout the course. This course aims to build computational abilities, inferential thinking, and practical skills for tackling core data scientific challenges. It explores foundational concepts in data management, processing, statistical computing, and dynamic visualization using modern programming tools and agile web-services. Open-science concepts, ideas, and protocols are illustrated through examples of real observational, simulated and research-derived datasets. Some prior quantitative experience in programming, calculus, statistics, mathematical models, or linear algebra will be necessary."
+  },
+  {
+   "code": "HS 687",
+   "title": "Interprof Team Care",
+   "credits": 2,
+   "tags": [],
+   "description": "This interprofessional course is for graduate student learners in the health professions. The course allows health professional students to gain an understanding of how each discipline contributes to the healthcare team, the importance of effective communication, and the role of team collaboration in clinical decision making. This is an online IPE course where students will learn with, about, and from students in other health disciplines. Students will engage in case-based team-based learning online.",
+   "prereqRaw": "Graduate-level standing in one of the health sciences (Dental Hygiene, Dentistry, Kinesiology Medicine, Nursing, Pharmacy, Public Health, Social Work)"
+  },
+  {
+   "code": "HS 695",
+   "title": "Selected Topics HS",
+   "credits": 4,
+   "tags": [],
+   "description": "Selected Topics in Health Sciences"
+  },
+  {
+   "code": "HS 700",
+   "title": "Biostats Cln Pract",
+   "credits": 3,
+   "tags": [],
+   "description": "This is a clinically-oriented, graduate-level biostatistics course that covers fundamental statistical concepts and methods for health professionals who need to analyze clinical data and interpret research. Major topics include descriptive statistics, probability theory, statistical inference, hypothesis testing, correlation, regression, survival analysis, and diagnostic test performance. Relevance of analytic techniques to healthcare will be demonstrated via a series of assignments that focus on clinical applications. Students will become proficient in basic data analysis using a statistical software program including data importation/exportation, management, and analyses. Effective presentation of quantitative results in tables and graphics will be emphasized throughout the course."
+  },
+  {
+   "code": "HS 802",
+   "title": "Epi for Hlth Prof",
+   "credits": 1,
+   "tags": [],
+   "description": "Epidemiology is the discipline devoted to investigating patterns, causes, and effects of disease in populations. This course will provide a general overview of the principles, concepts, and methods of epidemiologic research for students who have no prior experience in epidemiology."
+  },
+  {
+   "code": "HS 841",
+   "title": "Qual Res Methods",
+   "credits": 3,
+   "tags": [],
+   "description": "This course provides an overview of selected qualitative research methods and an opportunity to comparatively analyze them. The discussion and analysis of each method includes theoretical paradigm and perspective, research method and technique, language use, and methodological issues. Exposure to the selected interpretive paradigms, methods, and techniques heightens students' awareness of the repertoire of strategies available for using knowledge. Simultaneously, the exposure to context-specific interpretive practices facilitates students' understanding of the influence of culture on the creation of knowledge."
+  },
+  {
+   "code": "HS 851",
+   "title": "Applied Inference",
+   "credits": 4,
+   "tags": [],
+   "description": "This course introduces student to applied inference methods in studies involving multiple variables. Specific methods that will be discussed include data presentation and summary, probability, variable distributions, hypothesis testing, analysis of variance, correlation models, and linear regression models. This course will emphasize the scientific formulation, analytical modeling, computational tools and applied statistical inference in diverse health-sciences problems. Data interrogation, modeling approaches, rigorous interpretation and inference will be emphasized throughout.",
+   "prereqRaw": "A quantitative course, or instructor permission."
+  },
+  {
+   "code": "HS 852",
+   "title": "Linear Modeling",
+   "credits": 4,
+   "tags": [],
+   "description": "This research methods course provides a foundation for using statistical methods in order to investigate health-related research questions. The course builds on concepts learned in prerequisite course HS 851 including univariate statistics; study design; data acquisition and management; and conceptual modeling. Modeling topics covered in the course include simple linear regressions, generalized linear models, and linear mixed models. Teaching methods include lectures, laboratory sessions, assigned readings, assignments, and critique of scientific papers. Assessment of the student's knowledge and understanding of the material will culminate in an empirical research project that addresses a research question using linear models. This is an applied graduate-level course and emphasizes the practical aspects of statistical methods.",
+   "prereqRaw": "HS 851 or an equivalent course, or instructor permission"
+  },
+  {
+   "code": "HS 888",
+   "title": "Observation Research",
+   "credits": 3,
+   "tags": [],
+   "description": "This PhD-level course aims to provide fundamental principles of research design and methods in the health sciences, with a particular emphasis on observational research. The course will provide an overview of a range of study designs, including but not limited to cross-sectional studies, longitudinal studies (trend, panel, and cohort), and case-control studies. It will also introduce students to quantitative survey and qualitative interview data collection methodologies. Students will develop enhanced capacity to understand and evaluate study designs and methodologies from the health and social sciences, in order to be critical consumers of research and engaged participants in scientific discourse. Throughout the course, issues related to diversity, equity, and inclusion that underpin health sciences research will be emphasized."
+  },
+  {
+   "code": "HS 889",
+   "title": "InterventionResearch",
+   "credits": 3,
+   "tags": [],
+   "description": "This PhD-level course aims to provide fundamental principles of research methodologies in the health sciences, with a particular emphasis on intervention research. The course will provide an overview of a range of methodologies, including assessment, scale development, intervention development and implementation, program evaluation, and implementation science. All activities will contribute to an enhanced understanding of the research process-from initial question development through study implementation and dissemination of findings. Further, topics will also facilitate the ability to critically evaluate literature (particularly intervention literature) pertaining to nursing science, as well as other health and social sciences. Throughout the course, attention will be given to issues of ethics and culture, especially as pertaining to vulnerable populations. Ultimately, students will gain skills in both designing and evaluating intervention research.",
+   "prereqRaw": "HS 888"
+  },
+  {
+   "code": "IOE 539",
+   "title": "Safety Engin Methods",
+   "credits": 3,
+   "tags": [],
+   "description": "no description",
+   "prereqRaw": "IOE 265 or BIOSTAT 503"
+  },
+  {
+   "code": "LHS 680",
+   "title": "Teamwork Healthcare",
+   "credits": 3,
+   "tags": [],
+   "description": "no description"
+  },
+  {
+   "code": "NURS 142",
+   "title": "Nursing Seminar",
+   "credits": 2,
+   "tags": [],
+   "description": "This course will inform student thinking and guide decision-making and practice by allowing the student to examine the framework of the ANA Standards of Professional Nursing and formulate a personal identity of the professional role. This role includes leadership and the importance of nursing in monitoring patient outcomes and safety. As part of this course, students will be exposed to nurse researchers and their work to recognize and appreciate the value of knowledge generation, evidence translations, and advancing the nursing profession and improving patient care outcomes. Course content will include and emphasize code of conduct behaviors expected of students throughout the 4 year BSN program. They will be introduced to technology that enables them to use the accepted online resources and those required for academics. Students will be expected to engage in activities that promote their wellness and explore the importance of self-care."
+  },
+  {
+   "code": "NURS 192",
+   "title": "Sel Cncpt Hum Physio",
+   "credits": 1,
+   "tags": [],
+   "description": "The purpose of this course is to review selected concepts in human physiology that are essential to understanding functional changes that occur during the development of diseases. Emphasis will be placed on reviewing the normal physiology of selected organ systems, specifically the musculoskeletal system, nervous system, endocrine system, cardiovascular system, respiratory system, and urinary system. This course is designed for students who have already completed coursework in biochemistry and anatomy and physiology.",
+   "prereqRaw": "Biochemistry, Human Anatomy and Physiology with Lab or permission of instructor"
+  },
+  {
+   "code": "NURS 194",
+   "title": "Context of Care I",
+   "credits": 3,
+   "tags": [],
+   "description": "This course introduces the ecological framework as a basis for nursing practice. Concepts include: patient-centered care and patient experience, family, community, populations, culture, global health, social justice, and diversity. Students will examine the transitions of care within and across the contexts in which care is provided and the health-illness continuum. They will be expected to reflect on how their personal beliefs may affect nursing care and describe the importance of respect, compassion, and empathy. Students have experiences in the community to introduce the broad scope in which nursing care is provided and to consider social determinants of health. They will be expected to engage in wellness activities to promote self-care."
+  },
+  {
+   "code": "NURS 196",
+   "title": "Comm, Grps, & Teams",
+   "credits": 2,
+   "tags": [],
+   "description": "This course introduces students to communication skills that build and maintain connections to foster therapeutic versus social relationships and promote interpersonal effectiveness. It also explores the elements of group functioning, intra and interprofessional collaboration and teamwork, and their importance in the delivery of safe and effective nursing care. Students will discuss how communication is important within and across the various contexts of care. The role of personal values, beliefs, and biases will be examined. The influence of culture and the media in using and interpreting communication will be considered. They will explore how communication can be used for patient advocacy. Students will be expected to demonstrate appropriate use of written and verbal communication."
+  },
+  {
+   "code": "NURS 210",
+   "title": "Hum Anat&Phys Body",
+   "credits": 5,
+   "tags": [],
+   "description": "The purpose of this course is to relate structure and function at the organ system level and to demonstrate the contribution of each organ system to maintenance of homeostasis. Physical and chemical principles are used explaining structure and function. Organ systems are explored from the cellular level upward. Hands on laboratory experiences using a plastinated and plastinated body parts, human skeletons, plastic models, computer programs and other available technology are incorporated into this course.",
+   "prereqRaw": "BIOCHEM"
+  },
+  {
+   "code": "NURS 211",
+   "title": "Anat & Phys Lab",
+   "credits": 1,
+   "tags": [],
+   "description": "This course consists of hands-on laboratory experience using plastinated body parts, human skeletons, plastic models, computer program, anatomage table, and other available technology. Students are expected to apply knowledge of anatomy to observation and identification of normal versus abnormal anatomy and physiology.",
+   "prereqRaw": "Pre-requisite BIOLCHEM 212; Co-Requisite NURS 210"
+  },
+  {
+   "code": "NURS 218",
+   "title": "Applied Statistics",
+   "credits": 3,
+   "tags": [],
+   "description": "This is an applied statistics course that examines approaches to the analysis and interpretation of health data. Major topics covered in the course include descriptive statistics, probability theory, statistical inference, hypothesis testing, correlation, regression, and survival analysis. Relevance of key concepts and analytic techniques to patient care, evaluation nursing interventions, and assessment of clinical outcomes will be emphasized throughout the course. Students will learn how to analyze health data using statistical software. Students will also consider ethical issues involved in collecting and using data."
+  },
+  {
+   "code": "NURS 220",
+   "title": "Women's Hlth",
+   "credits": 3,
+   "tags": [],
+   "description": "A feminist perspective on concepts and issues in women's individual and aggregate health. Course will include definitions of women's health, women's health concerns, and impact of multiple factors on health."
+  },
+  {
+   "code": "NURS 232",
+   "title": "Hlth Assessment",
+   "credits": 2,
+   "tags": [],
+   "description": "This course is designed to provide the student with the beginning knowledge and skills needed to assess the health status of individuals across the lifespan. Emphasis is on the assessment of physical, developmental, psychosocial (cognitive, affective, and behavioral), cultural, social, and spiritual dimensions of the client. Attention will be placed on distinguishing normal from abnormal findings and evaluating the functional abilities of the client. Students will be exposed to the concepts of physiological systems, cognition, affect, interpersonal communication, social and cultural determinants of health, lifespan development, and functional status.",
+   "prereqRaw": "(BIOLCHEM 212 and NURS 194 and 196 and 210 and 211 [all undergraduate nursing students] and NURS 192 [only required for sophomore transfer nursing students]) and (Preceded or accompanied by NURS 233 [all undergraduate nursing students])"
+  },
+  {
+   "code": "NURS 233",
+   "title": "Hlth Assessment Lab",
+   "credits": 2,
+   "tags": [],
+   "description": "Engaged learning and diverse simulated clinical experiences will be used to create opportunities to integrate the knowledge and skills necessary for history taking, physical and psychosocial examination. Students will practice assessing physiological systems, using therapeutic communication to examine cognition, affect, social and cultural determinants of health, lifespan development, and functional status. Communication is stressed as critical to effective assessment. Students will work towards integrating knowledge about assessment into practice using a variety of innovative strategies.",
+   "prereqRaw": "(BIOLCHEM 212 and NURS 194 and 196 and 210 and 211) and preceded or accompanied by NURS 232"
+  },
+  {
+   "code": "NURS 234",
+   "title": "Intro to Clinical",
+   "credits": 2,
+   "tags": [],
+   "description": "Engaged learning and diverse simulated clinical experiences will be used to create opportunities to learn basic nursing skills and demonstrate necessary psychomotor performance to deliver basic nursing care. Students will explain basic care concepts and implement care evidence into lab demonstration. Students will practice demonstrating psychomotor, interpersonal communication, and professional behavior to prepare to care for patients. Students will be expected to demonstrate skills learned in the course while incorporating skills from Health Assessment. Students will also integrate an awareness of social and cultural determinants of health, lifespan development, and functional status. Communication is stressed as critical to effective nursing skill performance.",
+   "prereqRaw": "(BIOLCHEM 212, NURS 194, NURS 196, NURS 210, and NURS 211; all undergraduate nursing students) & (NURS 192; only required for sophomore transfer students)"
+  },
+  {
+   "code": "NURS 236",
+   "title": "Microbio&InfDiseases",
+   "credits": 3,
+   "tags": [],
+   "description": "This course will primarily focus on the concepts of general microbiology that are essential to maintaining environments free of contamination, and for protecting both patients and providers from common infectious diseases. Morbidity and mortality associated with infectious diseases assume great significance in both developed and developing regions of the world. Furthermore, health care-associated infections represent a serious, yet often preventable, threat to patient safety. Students will learn about the major bacterial, fungal, viral and parasitic infections that affect humans, both locally and globally Basic epidemiological principles and procedures useful in the surveillance and investigation of health-related states or events pertaining to infectious diseases, including immunizations will also be introduced The relationships among disease, communities, societies, and culture, including global, will be discussed.",
+   "prereqRaw": "(BIOLCHEM 212, NURS 194, NURS 196, NURS 210, and NURS 211; all undergraduate nursing students) & (NURS 192; only required for sophomore transfer students)"
+  },
+  {
+   "code": "NURS 238",
+   "title": "Culture of Health",
+   "credits": 3,
+   "tags": [],
+   "description": "This course focuses on wellness and health for individuals, communities, and populations. Students will explore health across populations; personal values, beliefs and practices around health; and the need for social sectors to partner together for health promotion. This course will be guided by the Robert Wood Johnson Foundation's Culture of Health framework as applied to the ecological model for nursing. Students will examine issues of health equity, improving well-being, integration of health services, and continuum of health. The relationship between personal health and a culture of health will be discussed. Strategies to improve well-being such as sleep, nutrition, and physical activities will be explored. lnterprofessional practice will be discusses as a key component of health promotion.",
+   "prereqRaw": "BIOLCHEM 212 and NURS 194 and 196 and 210 and 211 and 232 and 233 and 234 and 236 and 245"
+  },
+  {
+   "code": "NURS 240",
+   "title": "Pharm",
+   "credits": 4,
+   "tags": [],
+   "description": "The purpose of this course is to examine pharmacological concepts relevant to the scope of practice for an entry-level generalist professional nurse. General principles of pharmacotherapeutics, including pharmacokinetics and pharmacodynamics are the conceptual framework of this course, built on the biological and physiological sciences. Emphasis is on knowing the different prototypes or classifications of pharmacologic agents used to prevent and treat common diseases and injuries across the life-span and health care settings. Current and investigational drugs, alternative medicine, genetics, genomics and economic implications are explored. Concepts related to clinical reasoning and judgment, patient safety and quality use of technology, effective and therapeutic communication techniques, patient and family caregiver education, diversity, ethical and legal issues, professional nursing responsibility and accountability are threaded throughout the course. Students' enactment of professional nursing values related to pharmacology is a fundamental component of the outcome of this course.",
+   "prereqRaw": "BIOLCHEM 212 and NURS 194 and 196 and 210 and 211 and 232 and 233 and 234 and 236 and 245"
+  },
+  {
+   "code": "NURS 244",
+   "title": "Eval Data & Evidence",
+   "credits": 3,
+   "tags": [],
+   "description": "This course introduces students to the scholarly process of research, evidence-based practice, and quality improvement. Students will use this knowledge to build upon their understanding of statistics and use of data to examine and evaluate evidence for practice and processes for improving quality of care. They will have the opportunity to find, evaluate, and interpret resources for evidence-based practice and quality improvement. Ethical issues in research, scholarship, and quality improvement will be discussed.",
+   "prereqRaw": "BIOLCHEM 212 and NURS 194 and 196 and 210 and 211 and 232 and 233 and 234 and 236 and 245"
+  },
+  {
+   "code": "NURS 245",
+   "title": "Pathophysiology",
+   "credits": 6,
+   "tags": [],
+   "description": "This course presents mechanisms and theories related to the development of diseases and conditions of the human body throughout the lifespan. Emphasis is placed on common diseases and conditions related to functional health patterns. Cellular and system wide alterations in body structure and function are discussed. Students will examine relationships among heredity (genetics), age, physical mobility, lifestyle, cultural background and pathophysiology. Principles of immunology have been integrated into this course.",
+   "prereqRaw": "(BIOLCHEM 212, NURS 194, NURS 196, NURS 210, and NURS 211; all undergraduate nursing students) & (NURS 192; only required for sophomore transfer students)"
+  },
+  {
+   "code": "NURS 262",
+   "title": "Ther Nurs Care I Lec",
+   "credits": 3,
+   "tags": [],
+   "description": "This is the first course in a series of three Therapeutic Nursing Care courses. Therapeutic Nursing I serves as an introduction to clinical nursing practice including critical thinking, clinical reasoning, and clinical decision-making. The importance of clinical judgment will be stressed. Content includes concepts involving pain, mobility, infection, thermoregulation, tissue integrity, and elimination. Concepts related to person, significant others; community; society; and culture are integrated within the course to apply the ecological model to nursing care. Therapeutic Nursing Care I clinical is concurrent to this lecture and provides experiences to complement the concepts presented throughout the course.",
+   "prereqRaw": "BIOLCHEM 212 and NURS 194 and 196 and 210 and 211 and 232 and 233 and 234 and 236 and 245"
+  },
+  {
+   "code": "NURS 295",
+   "title": "Honors Seminar",
+   "credits": 1,
+   "tags": [],
+   "description": "The undergraduate nursing honors seminar Is an opportunity for honors students to benefit from scholarly enrichment and to gain an understanding of research practices. This seminar places an emphasis on providing students with essential research knowledge to prepare for junior and senior year honors courses (N395 and N495). Students will learn knowledge. skills and values to articulate fundamentals of research with special attention devoted to cultural considerations and social determinants in research methodology, legal and ethical issues, and policy Implications of research.",
+   "prereqRaw": "HON PROG"
+  },
+  {
+   "code": "NURS 370",
+   "title": "Reproductive Health",
+   "credits": 3,
+   "tags": [],
+   "description": "In this course students will be challenged to think critically about aspects of female and male reproductive health using a continuum of care approach from health promotion to health restoration. The effect that culture, society, policy, environment, technology, economic and ethical factors have on childbearing and reproductive health will be analyzed. The factors influencing the expression of human sexuality in the context of gender and age will be explored. Students will examine the physiological and psychosocial basis of reproductive health, pregnancy, birth, postpartum period. The importance of communication, reflection of personal beliefs and values will be discussed. Students will evaluate current research and evidence that informs nursing care related to reproductive health.",
+   "prereqRaw": "NURS 232 and 233 and 234 and 236 and 238 and 240 and 244 and 245 and 262 and one PNE between PNE 200-225"
+  },
+  {
+   "code": "NURS 371",
+   "title": "Inf,Child,Adolescent",
+   "credits": 3,
+   "tags": [],
+   "description": "This course focuses on infant, children and adolescent health and illness within the context of their families, communities, and culture. Students will be expected to apply scientific principles and growth and development to develop and evaluate nursing care of children and families using evidence. Students will examine the impact of the health care system, policy, and economics, as well as legal and ethical issues that affect caring for children and their families.",
+   "prereqRaw": "NURS 232 and 233 and 234 and 236 and 238 and 240 and 244 and 245 and 262 and one PNE between PNE 200-225"
+  },
+  {
+   "code": "NURS 372",
+   "title": "Ther Nurs Care II",
+   "credits": 4,
+   "tags": [],
+   "description": "This course builds upon previous knowledge to enable the student to integrate and apply scientific care concepts to patients/families who are experiencing acute and chronic health challenges. Emphasis will be placed on the role of the nurse to guide transitions, collaborate and implement care across the context of the patient/family experience, including inpatient, outpatient, and community settings. Major content foci include themes of physiologic regulation; oxygenation and hemostasis; protection; bodily and cognitive function in response to environmental changes. Concepts related to person, significant other, community, society and culture are integrated throughout the course. Students will examine patient transitions across care environments. Therapeutic Nursing Care II provides experiences to complement the content in this course.",
+   "prereqRaw": "NURS 232 and 233 and 234 and 236 and 238 and 240 and 244 and 245 and 262 and one PNE between PNE 200-225"
+  },
+  {
+   "code": "NURS 373",
+   "title": "Behavioral Health",
+   "credits": 3,
+   "tags": [],
+   "description": "This theory course focuses on the influence of biology and the environment on people's emotions, behavior, and cognition. The emphasis is on promotion of mental health and intervention with people who are experiencing behavioral, emotional, or cognitive difficulties. It incorporates psychological, emotional, biological, social and spiritual elements, including discussion of genetics and social determinants that impact mental health and mental illness. Students will examine how behavioral health issues are related to other conditions such as medical illnesses. Topics such as addition, stigma, and suicide are addressed. Importance is on learning skills to create meaningful relationships through communications, skills that promoter healthy functioning. Students will explore how families, communities, societies, and culture impact mental health and interventions.",
+   "prereqRaw": "NURS 232 and 233 and 234 and 236 and 238 and 240 and 244 and 245 and 262 and one PNE between PNE 200-225"
+  },
+  {
+   "code": "NURS 390",
+   "title": "Honors Seminar",
+   "credits": 1,
+   "tags": [],
+   "description": "The undergraduate nursing honors seminar Is an opportunity for honors students to benefit from scholarly and leadership enrichment in addition to their faculty-mentored scholarly project. This seminar will provide students with foundational knowledge and skills in critically evaluating research, effective communication of research findings, and Identifying sources of evidence to support research objectives. Students examine strategies for communication and dissemination of research and apply information technology in developing scholarly projects.",
+   "prereqRaw": "Admission to the Undergraduate Honor's Program, NURS 295"
+  },
+  {
+   "code": "NURS 395",
+   "title": "Honors Seminar",
+   "credits": 1,
+   "tags": [],
+   "description": "The undergraduate nursing honors directed research course is an opportunity for honors students to benefit from close mentorship by a faculty member actively engaged in research. This seminar will focus facilitating student understanding of various aspects of research strategies and methodologies to prepare students for their scholarly projects. Students will gain knowledge and skills in study design, developing research aims and objectives, and identifying appropriate research methods that will be applied to their faculty-mentored scholarly project.",
+   "prereqRaw": "Admission to the Undergraduate Honors Progtam, NURS 295 and 390"
+  },
+  {
+   "code": "NURS 420",
+   "title": "Intro to Global Hlth",
+   "credits": 3,
+   "tags": [],
+   "description": "This course introduces global health concepts and the network of organizations working to advance health care internationally. Emphasis is on global burden of disease, determinants of health and importance of interdisciplinary approach to health care delivery. Provide students with a broad introduction to programs, systems and policies affecting global health. Will explore facets of the global health care delivery system, health care economics and the political process and its impact on the health of individuals and populations."
+  },
+  {
+   "code": "NURS 421",
+   "title": "Persp in Global Hlth",
+   "credits": 2,
+   "tags": [],
+   "description": "Interdisciplinary clinically focused elective course. Explores issues that directly or indirectly affect health in low and middle resource countries. Students will learn about health care delivery systems with a focus on global/public health concepts and health promotion and risk reduction. Purpose is to broaden the student's worldview and global perspectives of health care issues. Emphasis is on health equity among nations and for all people.",
+   "prereqRaw": "NURS 420"
+  },
+  {
+   "code": "NURS 423",
+   "title": "Glob Persp Comm Hlth",
+   "credits": 3,
+   "tags": [],
+   "description": "This course allows students to prepare for and participate in engaged learning opportunities in global health. Students will participate in seminar meetings focused on learning about the culture, health systems and history of the countries, populations or cultures they will be immersed in, self-paced learning on community engagement and then will have the opportunity to have a planned and approved immersion experience to learn about health systems and community health needs. Learning experiences can occur virtually or in-person, may include visits to local hospitals, health centers, community groups and nongovernmental organizations as well as participating with local community health workers and/or nursing students in health promotion activities.",
+   "prereqRaw": "Office of Global Affairs approved field experience"
+  },
+  {
+   "code": "NURS 480",
+   "title": "Population Health",
+   "credits": 2,
+   "tags": [],
+   "description": "This course explores the concept of community/population as client. Students will examine population-focused methods of assessment, planning, implementation, and evaluation, and will develop a comprehensive understanding of population-focused strategies to improve equity and reduce health disparities in local, community, and global settings. The course emphasizes the public health nurse's role in addressing health care needs of populations using systems theory, epidemiology, levels of prevention, and the national agenda for population health. The influence of socio-economic and physical environments is examined as they influence the health of populations.",
+   "prereqRaw": "NURS 370, NURS 371, NURS 372, NURS 373, one PNE between PNE 300-324, one PNE between PNE 325-349, one PNE between PNE 350-374, and one PNE between PNE 375-399"
+  },
+  {
+   "code": "NURS 481",
+   "title": "Leadership Prof Prac",
+   "credits": 2,
+   "tags": [],
+   "description": "This course focuses on leadership and management concepts relevant to clinical settings and other health care contexts. The course will build on previously learned concepts of teamwork, quality, delegation, motivation, negotiation, problem solving, and safety and apply these concepts to organization and system contexts. Students will examine interprofessional practice and teamwork in care delivery systems and study management structures and processes that enable an organization or unit to deliver efficient and effective nursing care. Moreover, course content focuses on use of data for quality improvement and practice change with specific attention to emerging science, innovative technologies, political and cultural environments, ethical implications, and financial considerations. Students will examine the Quality and Safety Education in Nursing (QSEN) competencies and their importance in care delivery and outcomes.",
+   "prereqRaw": "NURS 370, NURS 371, NURS 372, NURS 373, one PNE between PNE 300-324, one PNE between PNE 325-349, one PNE between PNE 350-374, and one PNE between PNE 375-399"
+  },
+  {
+   "code": "NURS 482",
+   "title": "Ther Nurs Care III",
+   "credits": 3,
+   "tags": [],
+   "description": "This course is an advanced nursing course with a focus on evaluating the complex needs of patients and families within the total context of care. Emphasis is on demonstrating synthesis of prior knowledge, and proficient use of evidenced based practice. Particular attention will be placed on student's ability to anticipate patient needs in order to refine clinical judgment, clinical reasoning, and clinical decision-making. Content includes advanced concepts such as homeostasis and regulation, oxygenation, cognitive function and transitions of care. Concepts related to person, family, significant other(s), community, society, and culture are integrated within the course. Professional standards of care, professional ethics, socioeconomics, and compliance with legal standards are integrated within the context of care.",
+   "prereqRaw": "NURS 370, NURS 371, NURS 372, NURS 373, one PNE between PNE 300-324, one PNE between PNE 325-349, one PNE between PNE 350-374, and one PNE between PNE 375-399"
+  },
+  {
+   "code": "NURS 484",
+   "title": "GlobalFieldPlacement",
+   "credits": 9,
+   "tags": [],
+   "description": "This global field placement provides students with a hands-on immersion opportunity to develop intercultural skills through coursework completed in diverse subject areas abroad. Students are expected to meet the requirements and achieve the objectives of the field site that coordinates and mentors the experience. Students will develop global knowledge and skills to advance health outcomes for diverse individuals, populations and healthcare systems locally and globally. This global field placement focuses on global education to prepare nursing students to better serve in an increasingly globalized and interconnected society. Immersion experiences are coordinated to support and expand on global health education based on the students' interests.",
+   "prereqRaw": "Accepted admission into a global field placement with permission from the Office of Global Affairs"
+  },
+  {
+   "code": "NURS 485",
+   "title": "CPT: Field Instr",
+   "credits": 1,
+   "tags": [],
+   "description": "This course is designed to provide international nursing students with relevant knowledge and skills to adjust to the clinical environments, healthcare systems, and/or patient care in the context of the United States. Students will engage in tasks and assignments that provide them with additional clinical experiences as well as individually adjusted resources and materials that support student learning outcomes. You must be enrolled in this CPT course during each term you are employed.",
+   "prereqRaw": "Students must complete checklist to apply for CPT obtained from UMSN-GlobalOutreach@med.umich.edu. Requirements include minimum one year of full time study, full time enrollment, F-1 Status, and International Center approval."
+  },
+  {
+   "code": "NURS 490",
+   "title": "Honors Seminar",
+   "credits": 1,
+   "tags": [],
+   "description": "The undergraduate nursing honors directed research course is an opportunity for honors students to develop and present a faculty-mentored scholarly project. This seminar will focus on dissemination communication of scholarly research. Students will explore strategies for presenting research findings, Identify structure and format for data presentation, and development skills in effective research communication. Skills developed in this course will be applied to completion and presentation of the faculty-mentored scholarly project.",
+   "prereqRaw": "Admission to the Undergraduate Honors Program, NURS 295, NURS 390, NURS 395"
+  },
+  {
+   "code": "NURS 494",
+   "title": "Context of Care II",
+   "credits": 3,
+   "tags": [],
+   "description": "This course provides a broad view of the context of health care within a complex socioeconomic, political, and legal environment. Issues such as access to care and health disparities, accelerating costs, regulation, policy, care transitions, and changes in science and health care delivery are discussed. Topics also include personalized medicine and virtual care. The delivery of innovative, safe, and quality care by inter-professional teams to individuals and community populations within diverse, complex contexts will be examined. Students will explore how the dynamic environment influences patient care outcomes and professional nursing practice through the lens of the Ecological Model. Patient advocacy across all care settings using social justice concepts will be discussed. Students will have the opportunity to integrate ethical principles into their advocacy for patients, families, groups, and populations.",
+   "prereqRaw": "NURS 370, NURS 371, NURS 372, NURS 373, one PNE between PNE 300-324, one PNE between PNE 325-349, one PNE between PNE 350-374, and one PNE between PNE 375-399"
+  },
+  {
+   "code": "NURS 495",
+   "title": "Honors Project",
+   "credits": 4,
+   "tags": [],
+   "description": "Honors Project",
+   "prereqRaw": "JR&P.I."
+  },
+  {
+   "code": "NURS 496",
+   "title": "Role Transition",
+   "credits": 2,
+   "tags": [],
+   "description": "In this course, students will synthesize role and professional concepts presented throughout the curriculum. Concepts will include crucial conversations, standards of practice, law, ethics, networking, mentoring, policy, and advocacy for self and patients/families. These will be applied to ideas related to their upcoming transition into practice. Students will generate strategies for successful practice as a novice professional nurse. During the course, the student will integrate professional practice standards into their beginning practice. They will reflect on personal beliefs and responses to entering professional practice and examine how organizational culture effects transition into practice. The course also includes the importance of personal accountability and selfcare. Furthermore, leadership and innovation in transforming professional nursing will be explored with consideration of continued personal career progression.",
+   "prereqRaw": "NURS 370, NURS 371, NURS 372, NURS 373, one PNE between PNE 300-324, one PNE between PNE 325-349, one PNE between PNE 350-374, and one PNE between PNE 375-399"
+  },
+  {
+   "code": "NURS 499",
+   "title": "Independent Study",
+   "credits": 5,
+   "tags": [],
+   "description": "Independent Study",
+   "prereqRaw": "PER. INSTR."
+  },
+  {
+   "code": "NURS 500",
+   "title": "Models & Theories",
+   "credits": 4,
+   "tags": [],
+   "description": "This course introduces critical issues and contributions of advanced nursing practice across settings, locations and diverse populations. The contexts of micro, meso, macro and networked dynamics are explored as they affect health care outcomes, including disparities, and health care system delivery (e.g. local, regional, global). Students will examine a broad array of theories, models, and methods to analyze the influence of system factors on contemporary issues including improvements in quality, safety, information technology and population health.",
+   "prereqRaw": "HS 700"
+  },
+  {
+   "code": "NURS 502",
+   "title": "Adv Phys&Pathophys",
+   "credits": 4,
+   "tags": [],
+   "description": "This course provides students with the advanced physiological and pathophysiological knowledge needed to assess acute and chronic health problems across the lifespan, to understand the aims of clinical and pharmacological interventions, and to support decision-making for restoring and maintaining health. The key concepts of the course include how the body maintains homeostasis in health, how homeostasis is disrupted in disease and how the body's response to disruption can be either adaptive or maladaptive. Disruptions will be presented at the genetic, cellular, organ and multi-organ systems levels as appropriate. There is emphasis on phenomena such as genetic changes and chronic inflammation that are underlying to a variety of disorders."
+  },
+  {
+   "code": "NURS 503",
+   "title": "Adv Hlth Assess",
+   "credits": 4,
+   "tags": [],
+   "description": "This course focuses on the advanced, comprehensive assessment of individuals within a developmental life span perspective. The interactions of developmental, biopsychosocial, and socio-cultural contexts resulting in health effects for individuals provide the structure of the course. The course builds on the students' knowledge and skills of basic physical assessment and provides a foundation for the advanced practice nurse to evaluate the health of individuals across the life span. Students are grounded in the theoretical perspectives, empirical documentation, and practice skills necessary for advanced communication (i.e., clinical interviewing, focused history taking), biopsychosocial and physical assessment, critical diagnostic reasoning, and clinical decision-making. Students acquire the requisite advances knowledge and skills within a case based, problem focused learning framework that integrates theoretical, empirical, and experienced-based practical knowledge.",
+   "prereqRaw": "Undergraduate Physical Assessment Approval and permission of instructor."
+  },
+  {
+   "code": "NURS 504",
+   "title": "Foundations Ldrshp",
+   "credits": 3,
+   "tags": [],
+   "description": "This is a graduate-level course that examines the foundations and context of nursing leadership to impact and drive both nursing and healthcare organizations in creating transformative structures for high quality and value-based patient care across the continuum. Key themes through this course include multiple theories in leadership, models of care, interprofessional collaboration, and practice environments. Students will apply a future forward and action oriented approach to addressing the contemporary valued based dilemmas facing health care leaders. Students will engage in defining leadership initiatives and the impact to health policy and advocacy that nursing leaders can achieve."
+  },
+  {
+   "code": "NURS 509",
+   "title": "Foundations Innovat",
+   "credits": 3,
+   "tags": [],
+   "description": "This course will prepare students to lead the process of innovation and transformation of nursing and healthcare. Healthcare innovation is described as any new idea, nursing practice, models of care, clinical measures, or healthcare technology that is as perceived new by an individual, and other units or adoption that improves the efficiency, effectiveness, quality, safety, sustainability, and affordability of healthcare. Innovation will be described with a focus on value to health and healthcare."
+  },
+  {
+   "code": "NURS 518",
+   "title": "Dementia:Fam Caregiv",
+   "credits": 2,
+   "tags": [],
+   "description": "no description",
+   "prereqRaw": "530&531/P.I."
+  },
+  {
+   "code": "NURS 521",
+   "title": "Intro to Glob Hlth",
+   "credits": 3,
+   "tags": [],
+   "description": "This course introduces global health concepts and the network of organizations working to advance health care internationally. Emphasis is on global burden of disease, determinants of health and importance of interdisciplinary approach to health care delivery. Provides students with a broad introduction to programs, systems and policies affecting global health. We will consider how history, culture, politics and social institutions influence health and health systems. The purpose of the course is to broaden the student's worldview and global perspective on health care issues. Emphasis for this course is on health equity among nations and for all people."
+  },
+  {
+   "code": "NURS 523",
+   "title": "Role Transition",
+   "credits": 3,
+   "tags": [],
+   "description": "The course explores the role of the Advanced Practice Registered Nurse (APRN*) as an advanced practice health care provider meeting individual, population, community and system level health care needs. The historical and contemporary evolution of the APRN role is reviewed including their unique position in health care and nursing leadership, policy, practice and advocacy. Education, certification, regulation, credentialing and scope of practice requirements will be identified for the varied APRN roles with a focus on optimizing APRN practice through full practice authority laws.",
+   "prereqRaw": "Graduate Nursing Students"
+  },
+  {
+   "code": "NURS 533",
+   "title": "Str Res & Ops Ldrshp",
+   "credits": 3,
+   "tags": [],
+   "description": "This is a course designed to provide action oriented healthcare leaders with the competency needed to lead inclusive teams in the operations of the organization using principles and practices that are strategically aligned in financial and economic, human resources, strategic planning, marketing, and applied technology principles. Using data as strategic asset in key communication and operational decisions is simulated. For obtaining optimal efficiency and valued-based care, data driven models and tools are applied and evaluated to address resource allocation and distribution in a range of diverse contexts. Students will become proficient in using strategic business/project planning and organizational goal alignment in diverse contexts of interests to them."
+  },
+  {
+   "code": "NURS 539",
+   "title": "Qual Sci&Perf Analyt",
+   "credits": 3,
+   "tags": [],
+   "description": "This course reviews principles of quality science and approaches to analyze current and historical data to predict future events and trends in health care systems. The course focuses on applications for effective decision-making and deployment of scarce resources. The role of government regulation and accrediting bodies on quality and performance improvement will be discussed.",
+   "prereqRaw": "HS 700"
+  },
+  {
+   "code": "NURS 546",
+   "title": "Midwifery Pregnancy",
+   "credits": 6,
+   "tags": [],
+   "description": "This course provides the knowledge and skills needed to provide midwifery care during pregnancy. In the clinical portion of the course students will implement the evidence-based models of midwifery practice in the ambulatory setting providing primary care, reproductive and gynecologic care and antenatal care.",
+   "prereqRaw": "Nurs. 542, Nurs. 540;  Permission of instructor."
+  },
+  {
+   "code": "NURS 552",
+   "title": "Peds Adv Mgmt II",
+   "credits": 4,
+   "tags": [],
+   "description": "This course is the second in a series of two courses. This course prepares students to address the physiologic and psychological needs of infants, children, and adolescents with acute, critical, and chronic health conditions. This course builds on knowledge and skills from pathophysiology, Pharmacology, Pediatric Acute Care Advanced Management I, and other courses. The content of this course will include complex diseases including multisystem disorders. Evidence-based, and advanced practice nursing interventions consistent with the CNS and NP roles will be discussed. The focus will be the development of clinical judgment and critical thinking in increasingly complex patients to understand the impact on self-care management practices, family care giving, quality of life, and end-of-life. Issues of age, culture, race, gender, genetics, psychosocial well-being, and socioeconomic status will be addressed. Other key concepts include patient and family counseling, ethical principles, interdisciplinary collaboration, and resource utilization. Students will utilize conceptual and theoretical frameworks evidence-based knowledge to develop an advanced practice management plan of care to address the complex care needs of pediatric patients. Principles of diagnostic and therapeutic treatment modalities will be expanded upon to provide a comprehensive understanding of interventions commonly provided to pediatric patients with acute, critical, and chronic illness. Students will gain procedural experience in casting, thoracentesis, and central line insertion thru laboratory simulation and will have the opportunity to apply the knowledge and skills from this course during the remainder of their clinical experiences in N638 and N639.",
+   "prereqRaw": "NURS 502 & 545 & 551"
+  },
+  {
+   "code": "NURS 553",
+   "title": "Proced Skills Acute",
+   "credits": 3,
+   "tags": [],
+   "description": "This course introduces the Nurse Practitioner student to the principles of advanced diagnostic and treatment modalities commonly utilized in the Advanced Practice Nursing role. It will highlight an understanding of the rationale for choosing specific diagnostic and treatment practices in the patient care setting, instruction on performing selected diagnostic and treatment procedures, and analysis and interpretation of findings based on these interventions. This includes an understanding of how social and structural determinants of health, patient cultural beliefs, and bias in the patient-provider interaction may influence equitable access to or wishes for diagnostic and treatment interventions. Additionally, we will explore variation in the evidence to support specific testing and interventions for a diversity of populations and evidence-based practice for a person-centered approach to care. Content will include analysis of relevant laboratory data, interpretation of radiographs and EKGs. The student will have faculty supervised instruction and hands-on practice of selected and procedures that is specific to the patient population and practice sites related to the area of certification. Procedures such as wound repair, orthopedic splinting and casting, intubation, lumbar puncture, relevant to the specialty patient population will be offered.",
+   "prereqRaw": "NURS 502; Clinical Decision Making per program; Didactic per program; Advanced Clinical Practicum per program; Permission per program faculty"
+  },
+  {
+   "code": "NURS 554",
+   "title": "ProcedSkills Primary",
+   "credits": 2,
+   "tags": [],
+   "description": "This course introduces the Nurse Practitioner student to the principles of advanced diagnostic and treatment modalities commonly utilized in the Advanced Practice Nursing role. It will highlight an understanding of the rationale for choosing specific diagnostic and treatment practices in the patient care setting, instruction on performing selected diagnostic and treatment procedures, and analysis and interpretation of findings based on these interventions. This includes an understanding of how social andstructural determinants of health, patient cultural beliefs, and bias in the patient-provider interaction may influence equitable access to or wishes for diagnostic and treatment interventions. Additionally, we will explore variation in the evidence to support specific testing and interventions for a diversity of populations and evidence-based practice for a person-centered approach to care. Content will include analysis of relevant laboratory data, interpretation of radiographs and EKGs. The student will have faculty supervised instruction and hands-on practice of selected and procedures that is specific to the patient population and practice sites related to the area of certification. Procedures such as wound repair, orthopedic splinting and casting, intubation, lumbar puncture, relevant to the specialty patient population will be offered.",
+   "prereqRaw": "NURS 502; Clinical Decision Making per program; Didactic per program; Advanced Clinical Practicum per program; Permission per program faculty"
+  },
+  {
+   "code": "NURS 555",
+   "title": "ProcedSkills PedPrim",
+   "credits": 1,
+   "tags": [],
+   "description": "This course introduces the Nurse Practitioner student to the principles of advanced diagnostic and treatment modalities commonly utilized in the Advanced Practice Nursing role. It will highlight an understanding of the rationale for choosing specific diagnostic and treatment practices in the patient care setting, instruction on performing selected diagnostic and treatment procedures, and analysis and interpretation of findings based on these interventions. This includes an understanding of how social andstructural determinants of health, patient cultural beliefs, and bias in the patient-provider interaction may influence equitable access to or wishes for diagnostic and treatment interventions. Additionally, we will explore variation in the evidence to support specific testing and interventions for a diversity of populations and evidence-based practice for a person-centered approach to care. Content will include analysis of relevant laboratory data, interpretation of radiographs and EKGs. The student will have faculty supervised instruction and hands-on practice of selected and procedures that is specific to the patient population and practice sites related to the area of certification. Procedures such as wound repair, orthopedic splinting and casting, intubation, lumbar puncture, relevant to the specialty patient population will be offered.structural determinants of health, patient cultural beliefs, and bias in the patient-provider interaction may influence equitable access to or wishes for diagnostic and treatment interventions. Additionally, we will explore variation in the evidence to support specific testing and interventions for a diversity of populations and evidence-based practice for a person-centered approach to care. Content will include analysis of relevant laboratory data, interpretation of radiographs and EKGs. The student will have faculty supervised instruction and hands-on practice of selected and procedures that is specific to the patient population and practice sites related to the area of certification. Procedures such as wound repair, orthopedic splinting and casting, intubation, lumbar puncture, relevant to the specialty patient population will be offered.",
+   "prereqRaw": "NURS 502; Clinical Decision Making per program; Didactic per program; Advanced Clinical Practicum per program; Permission per program faculty"
+  },
+  {
+   "code": "NURS 557",
+   "title": "Chld Hlth & Wellness",
+   "credits": 4,
+   "tags": [],
+   "description": "This course will focus on issues relevant to the advanced theory based practice of nursing in providing primary health care to infants, children, and adolescents in families, including promoting physical and psychosocial health and development and managing various common child, adolescent, and parental concerns. Class topics will be approach from a developmental perspective.",
+   "prereqRaw": "(Prerequisites: NURS 502 and 503 and PHARMACY 620) and Corequisite: PHARMACY 621"
+  },
+  {
+   "code": "NURS 560",
+   "title": "PNP ClinPrac I",
+   "credits": 2,
+   "tags": [],
+   "description": "This course extends the clinical application of advanced theory-based practice of nursing in providing primary health care to infants, children, and adolescents in families, including promoting physical and psychosocial health and development and managing various common child, adolescent, and parental concerns. Class topics will be approached from a developmental perspective. Attention will be given to cultural factors as they relate to health care needs. Selected theoretical/conceptual perspectives current research will serve as the basis for formulating nursing intervention strategies. Clinical experiences in primary care settings will afford students opportunities to apply knowledge and skills in child health assessment, managing the preventive and promotion health needs of infants, children, adolescents, and their families. In addition, the scientific basis of common health problems and factors influencing nursing management of these problems will be examined. Relevant nursing interventions for common health care problems of children in families will be explored, as will the child and family's responses and adaptation to common health problems.",
+   "prereqRaw": "Co-requisite NURS 557"
+  },
+  {
+   "code": "NURS 561",
+   "title": "Intro to Midwifery",
+   "credits": 4,
+   "tags": [],
+   "description": "The purpose of this course is to provide the midwifery student with an introduction to the essential concepts and skills necessary for providing midwifery care to essentially healthy people. The course will prepare the nurse-midwifery student to work in partnership with clients to provide primary, reproductive and prenatal healthcare, anticipatory guidance and health promotion, and screening for deviations from normal. Through a combination of didactic content, seminar discussions, in-service trainings and structured simulations students will be prepared for clinical practicum experiences in clinical settings.",
+   "prereqRaw": "NURS 503"
+  },
+  {
+   "code": "NURS 566",
+   "title": "Adv Primary Care I",
+   "credits": 3,
+   "tags": [],
+   "description": "This course provides students with the knowledge and skills necessary to promote health, prevent illness, and manage the common, acute primary care needs of adults, including adolescents through older adults, form a variety of cultural, ethic, and racial backgrounds while providing the conceptual basis for advanced nursing practice and midwifery.",
+   "prereqRaw": "NURS 542 or concurrent, 564 or 537 taken concurrent; see dept for details"
+  },
+  {
+   "code": "NURS 572",
+   "title": "Cur&Emerg Iss Occu",
+   "credits": 2,
+   "tags": [],
+   "description": "This course focuses on the current and emerging issues in occupational health services to worker populations will be explored. Students will analyze the history and current and future practice of occupational health nursing.",
+   "prereqRaw": "Graduate Standing"
+  },
+  {
+   "code": "NURS 573",
+   "title": "AGACNP Nrs Thry I",
+   "credits": 4,
+   "tags": [],
+   "description": "This course focuses on acute health conditions in adults and older adults with acute, critical and complex chronic illnesses across the entire adult age spectrum from young adults (including late adolescents), to adults and older adults (including frail older adults) with an emphasis on health promotion and disease prevention. Competencies for the MSN and DNP prepared AGACNP are addressed and build on the core competencies for all nurse practitioners (NPs). Evidence-based, advanced practice nursing interventions (consistent with the AGACNP role) will be discussed to assess and manage acutely ill adults and older adults. Issues of age, culture, race, gender, sexuality, genetics, psychosocial well-being and socioeconomic status will be addressed. Health promotion, stress and coping, and cultural theories are integrated throughout the course. Primary, secondary, and tertiary levels of health promotion and disease prevention will be evaluated within inpatient/hospital settings and across hospital to clinic settings. (e.g. ED, ICU, acute care units and specialty clinics.) Coordination of comprehensive care in and across care settings to ensure that the acute and chronic illness needs of patients are met during care transitions are also addressed. Other key concepts include diagnostic reasoning and decision-making skills, healthy lifestyle, patient and family education/counseling, and treatment seeking decisions of acutely ill adults and older adults. Students will apply evidence- based knowledge to develop a holistic management plan of care that addresses the complex health problems of adults and older adults.",
+   "prereqRaw": "NURS 502 and PHARMACY 620 and previous/concurrent PHARMACY 621"
+  },
+  {
+   "code": "NURS 575",
+   "title": "AGACNP Nrs Thry II",
+   "credits": 4,
+   "tags": [],
+   "description": "This second management course focuses on complex chronic health conditions and their acute exacerbations in adults and older adults, including multiple co-morbidities and functional losses. Competencies for the MSN and DNP prepared AGACNP are addressed and build on the core competencies for all nurse practitioners (NPs). The course builds on knowledge and skills from Advanced Practice Nursing Theory I, Pathophysiology, Pharmacology, and other core courses. Evidence-based, advanced practice nursing interventions consistent with the AGACNP role will be discussed to assess and manage complex chronic health conditions and the impact on self-care management practices, family care giving, surrogate decision-making, quality of life, and end-of-life. Issues of age, culture, race, gender, sexuality, genetics, psychosocial well-being and socioeconomic status will be addressed. Other key concepts include patient and family education/counseling, ethical principles/standards, interdisciplinary collaboration, and community resource utilization. Coordination of comprehensive care in and across care settings to ensure that the acute and chronic illness needs of patients are met during care transitions are also addressed. Students will utilize conceptual and theoretical frameworks and evidence-based knowledge to develop an advanced practice management plan of care to address the chronic complex health care needs of adults and older adults. Emphasis will be placed on maximizing quality of life and minimizing the negative sequelae associated with acute exacerbations of chronic illnesses and managed within tertiary acute care and sub-acute care settings.",
+   "prereqRaw": "NURS 502 or 503 or 573 or PHARM 620 or 621"
+  },
+  {
+   "code": "NURS 577",
+   "title": "AGAPN Clin Pract I",
+   "credits": 5,
+   "tags": [],
+   "description": "This precepted clinical practicum provides students the opportunity to obtain a comprehensive health history, apply advanced physical assessment skills, and utilize advanced physiology/pathophysiology, and pharmacology knowledge to promote health, prevent illness, and manage acutely ill in adults and older adults with acute, critical and complex chronic physical illnesses encountered across the continuum of care settings appropriate for the AGACNP role. Selected health promotion, stress and coping, cultural theories and evidence-based findings will be applied to manage acute health conditions of adults and older adults from diverse backgrounds (e.g. age, culture, ethnicity, race, sexuality, and socioeconomic status). Emphasis will be placed on primary, secondary, and tertiary levels of health promotion and disease prevention. Students will have the opportunity to evaluate laboratory and diagnostic data to determine health status and prioritize differential and nursing diagnoses. Regular seminars provide a forum for students to receive instructions, consultation, and supervision from faculty and to share this learning process with their classmates. Seminars build upon an evidence-based practice model and emphasize diagnostic reasoning, critical thinking, problem solving, and decision-making in addition to concepts that are necessary for the practical application of clinical practice. Case studies examples are used as the basis of discussion. Students will be placed with clinical preceptors appropriate to their AGACNP role.",
+   "prereqRaw": "NURS 502, NURS 503, NURS 553, NURS 573, NURS 575, PHARMACY 620 and PHARMACY 621"
+  },
+  {
+   "code": "NURS 579",
+   "title": "AGAPN Clin Prac II",
+   "credits": 5,
+   "tags": [],
+   "description": "The second precepted clinical practicum focuses on complex acute and chronic health conditions of adults and older adults and will provide students the opportunity to continue to develop skills in obtaining a comprehensive health history, apply advanced physical assessment skills, and utilize advanced physiology/pathophysiology, and pharmacology knowledge to promote health, prevent illness, and manage acutely ill in adults and older adults with acute, critical and complex chronic physical illnesses encountered across the continuum of care settings appropriate for the AGACNP role. This practicum builds on knowledge and skills obtained from Clinical Practicum I, prerequisite courses, and other core courses. Students will increasingly integrate synthesize knowledge of health care delivery systems, organizational structures, finances, and resources with advanced physical assessments, pathophysiology, psychopathology, and pharmacology knowledge into the management plan of care for their patient population. Evidenced based advanced nursing interventions will be applied to manage complex chronic health conditions and acute exacerbations of younger adults, adults, and older adults from diverse background (e.g. age, culture, ethnicity, race, sexuality, and socioeconomic status). Emphasis will be placed on strategies that maintain and/or maximize function (physical and cognitive), and promote self-care management practices and optimize quality of life. Students will analyze laboratory and diagnostic data to determine the sequelae of chronic health conditions and prioritize differential and nursing diagnoses in the clinical setting. Students will design a personalized patient and family education plan including an effective learning environment and evaluating outcomes. The student will also be able to increasingly articulate the AGACNP role and its place in the interprofessional health care delivery team. Students will be placed with clinical preceptors appropriate to their AGACNP role.",
+   "prereqRaw": "NURS 502, 503, 553, 573, 575, 577, PHARM 620 & 621"
+  },
+  {
+   "code": "NURS 589",
+   "title": "Adv PNP Cln Pract",
+   "credits": 4,
+   "tags": [],
+   "description": "This course extends the clinical application of advanced theory based practice of nursing in providing primary health care to infants, children, and adolescents in families, including promoting physical and psychosocial health and development and managing various common cold, adolescent, and parental concerns. Class topics will be approached from developmental perspective.",
+   "prereqRaw": "NURS 557"
+  },
+  {
+   "code": "NURS 591",
+   "title": "Occupational Safety",
+   "credits": 2,
+   "tags": [],
+   "description": "no description"
+  },
+  {
+   "code": "NURS 593",
+   "title": "FNP Practicum I",
+   "credits": 3,
+   "tags": [],
+   "description": "This clinical practicum course is for FNP students to apply the didactic, theoretical, and evidence-based knowledge developed in N566 and N557 for individuals and families in primary care settings. Students will participate preceptor supervised clinical experiences to demonstrate integration of health promotion, developmental assessment, management of common illness, and wellness care in clinical settings across the lifespan for individuals and families.",
+   "prereqRaw": "(Co-requisite: NURS 566 and 557) and (Prerequisite: NURS 502 and 503 and PHARM 620)"
+  },
+  {
+   "code": "NURS 594",
+   "title": "AGPCNP Practicum I",
+   "credits": 2,
+   "tags": [],
+   "description": "This clinical practicum course is for AGPCNP students to apply the didactic, theoretical and evidence based knowledge developed in N566 (Health Promotion and Management of Acute Health Problems of Adults and Well Woman/GYN Care) for individuals age 13 and older in primary care settings. Students will participate in preceptor supervised clinical experiences to demonstrate integration of health promotion, developmental assessment, management of common illness and wellness care in clinical settings for individuals.",
+   "prereqRaw": "NURS 502 and NURS 503 and NURS 566 and PHARMACY 620"
+  },
+  {
+   "code": "NURS 617",
+   "title": "Child Hlth: Mult Set",
+   "credits": 3,
+   "tags": [],
+   "description": "This course will focus on providing health care to infants, children, and adolescents within the full scope of advanced practice (wellness, common minor health problems, and acute and chronic illness). Students will incorporate into advanced nursing practice the knowledge and skills of pediatric primary health care, a development focus, and theoretical and conceptual perspectives important for the care of children across multiple settings.",
+   "prereqRaw": "NURS 557"
+  },
+  {
+   "code": "NURS 637",
+   "title": "Acute Peds Cln I",
+   "credits": 4,
+   "tags": [],
+   "description": "This precepted clinical practicum provides students the opportunity to obtain comprehensive health history, apply advanced physical assessment skills, and utilize advanced physiology/pathophysiology, and pharmacology knowledge to promote health, prevent illness, and manage acute illness and stable chronic illness in infants, children and adolescents. Selected health promotion, stress and coping, cultural theories and evidence-based findings will be applied to manage acute health conditions of infants, children, and adolescents with acute illness and stable chronic illness with diverse backgrounds (e.g. age, culture, ethnicity, race, tertiary levels of health promotion and disease prevention. Students will evaluate laboratory and diagnostic data to determine health status and prioritize differential and nursing diagnoses. Regular seminars provide a forum for students to receive instruction, consultation, and supervision from faculty and to share this learning process with their classmates. Seminars build upon an evidenced-based practice model and emphasize diagnostic reasoning, critical thinking, problem solving, and decision-making. Case studies are used as the basis for discussion. Students will be placed with clinical preceptors appropriate to their role (e.g. Clinical Nurse Specialist or Nurse Practitioner).",
+   "prereqRaw": "NURS 502 & 503 & 545 & 548 & PHARMACY 567"
+  },
+  {
+   "code": "NURS 638",
+   "title": "Acute Peds Cln II",
+   "credits": 4,
+   "tags": [],
+   "description": "The precepted clinical practicum focuses on complex chronic health conditions of infants, children, and adolescents. This practicum builds on knowledge and skills obtained from Clinical Practicum I, prerequisite courses and other core courses. Evidence based advanced nursing interventions will be applied to manage complex chronic health conditions and acute exacerbations of infants, children, and adolescents from diverse backgrounds (e.g. age, culture, ethnicity, race, sexuality, and socioeconomic status). Emphasis will be placed on strategies that maintain and/or maximize function (physical and developmental), promote family and self-care management practices and optimize quality of life. Complementary and alternative therapies and family caregiver issues will be discussed. Students will analyze laboratory and diagnostic data to determine the sequelae of chronic health conditions and prioritize differential and nursing diagnoses. Students will design personalized patient and family education plan including in effective learning environment and evaluating outcomes. Seminars provide a forum for students to present and discuss case studies, incorporate evidenced based guidelines, and promote continuity of care and manage chronic health conditions. Students will be placed with clinical preceptors appropriate to their role (e.g. CNS or NP).",
+   "prereqRaw": "NURS 637"
+  },
+  {
+   "code": "NURS 639",
+   "title": "Acute Peds Cln III",
+   "credits": 5,
+   "tags": [],
+   "description": "This capstone clinical practicum course prepares the acute care pediatric nurse practitioner and clinical nurse specialist students to synthesize and apply concepts and knowledge critical for professional advanced practice nursing. Student will synthesize knowledge of health care delivery systems, organizational structures, finances, and resources with advanced physical, developmental, and psychosocial assessments, pathophysiology, and pharmacology knowledge into the management plan of care for infants, children, and adolescents with acute, chronic, and critical illness. Emphasis will be placed on evidence-based strategies to optimize the delivery of accessible, cost efficient, quality health care by pediatric acute advanced practice nurses. Other key issues include monitoring the quality of care and engaging in practice consistent with the authorized scope of practice. Student, in collaboration with their preceptors, will be accountable, for increasingly independent management of the holistic case needs of infant, child, and adolescent patients in the acute care setting. Students will be placed with clinical preceptors appropriate to their role (e.g. CNS or NP)."
+  },
+  {
+   "code": "NURS 642",
+   "title": "Global Health Ldrshp",
+   "credits": 2,
+   "tags": [],
+   "description": "This course introduces students to the knowledge, skills, and practical tools needed to successfully lead within global public health systems. Students will be introduced to global health issues of two kinds: (1) fundamental cross-cutting issues such as the relationship between global health and economic development and (2) selected thematic areas such as child survival, HIV/AIDS and global tobacco control. The course will both contextualize current efforts in global health historically and describe likely future trends. Readings will be drawn from a range of disciplinary perspectives, including history, political science, economics, sociology and anthropology. This course is designed to equip students with critical perspectives and resources they will need for leadership roles in nursing and public health in our increasingly small and interdependent world.",
+   "prereqRaw": "Junior or Senior level undergraduate standing, or graduate standing."
+  },
+  {
+   "code": "NURS 643",
+   "title": "Glbl Hlth Ldrs wSem",
+   "credits": 3,
+   "tags": [],
+   "description": "no description",
+   "prereqRaw": "Junior or Senior level undergraduate standing, or graduate standing; Enrollment in UMSN global health concentration,"
+  },
+  {
+   "code": "NURS 666",
+   "title": "Prim Care Ill Adults",
+   "credits": 3,
+   "tags": [],
+   "description": "This course develops and broadens student's primary care knowledge, skills, and clinical judgment. Specific content relates to the primary health care needs of individuals and their families in screening for, preventing, and/or managing common chronic conditions. Content addresses the impact of chronic illness on the course of the individual's health and disease states, the family constellation and use of personal and health resources. Issues of age, gender, race, genetics, and sexuality are addressed within the context of family and community. Uses of information technology and community resources are integrated to promote positive adaptation to the impact and sequelae of the chronic illness.",
+   "prereqRaw": "Prior completion of PHARM 621, NURS 566 and (NURS 593 or 594); NURS 566, PHARMACY 621 or concurrent"
+  },
+  {
+   "code": "NURS 671",
+   "title": "Special Populations",
+   "credits": 4,
+   "tags": [],
+   "description": "The purpose of this course is to prepare the Family Nurse Practitioner (FNP) and Adult Gerontology ? Primary Care Nurse Practitioner (AGPCNP) student to provide care across the lifecourse including the range of developmental phases (e.g. adolescence to geriatrics) and during life events (e.g. pregnancy) within their scope of practice. Unique dimensions of care, including psychosocial, sexual and cultural aspects, for each special population will be explored within the context of developmental theory and aging across culturally diverse populations within family structures. The student will expand their primary care health knowledge and skills in comprehensive assessment of patients to include individuals and families within these special populations. Advanced nursing assessment, diagnosis, decision making, treatment and evaluation of outcomes during adolescence, pregnancy and older ages will be emphasized. Students will apply theory informed, evidence-based care practices to promote wellness, maximize function and enhance self-care for special populations within the scope of practice for the FNP and AGPCNP.",
+   "prereqRaw": "NURS 502 and 503 and 566; Graduate standing, permission of faculty"
+  },
+  {
+   "code": "NURS 672",
+   "title": "Strat Teaching Nurs",
+   "credits": 3,
+   "tags": [],
+   "description": "This competency-based course will provide an introduction to the role and function of the nurse involved in staff development, patient education, or a faculty role. Following an introduction to philosophies and theories of teaching and learning, students will focus on understanding the characteristics of learners, analysis of needs assessments, development of instructional objectives, and course design. Emphasis will be placed on teaching methods, including distance learning and online instruction; experiential learning; and evaluation measures. An individual practical application assignment in designing and presenting a teaching plan will facilitate development of knowledge and skill."
+  },
+  {
+   "code": "NURS 674",
+   "title": "Adv Nurs Adults&Fam",
+   "credits": 7,
+   "tags": [],
+   "description": "This capstone clinical course prepares the student to synthesize and apply concepts and knowledge critical for advanced practice primary care nursing with complex individuals, families, and communities. This course will prepare the student to assess and manage acute and chronic illness in addition to social, behavioral, developmental, and lifestyle issues in primary care.",
+   "prereqRaw": "NURS 666, NURS 671, and (NURS 693 or NURS 694)"
+  },
+  {
+   "code": "NURS 676",
+   "title": "Midwifery Intra Post",
+   "credits": 7,
+   "tags": [],
+   "description": "This course provides the knowledge and skills needed for midwifery care of diverse persons and families during labor, birth and postpartum as well as care of the newborn. In the clinical portion of the course students will implement evidence-based models of midwifery practice in the intrapartum and postpartum setting.",
+   "prereqRaw": "Permission of instructor and NURS 540, 542, 546."
+  },
+  {
+   "code": "NURS 677",
+   "title": "Full-scope Midwifery",
+   "credits": 7,
+   "tags": [],
+   "description": "This course is designed to provide the learner with didactic and clinical practicum to synthesize the full scope of midwifery care including primary care, care through the childbearing cycle, and care of newborns. It will build on earlier learning and present new opportunities for decision making, childbirth education and management of care of families with varying issues, cultures, and beliefs. The learners will utilize self-mastery and basic educational concepts to prepare for the AMCB board exam. This process builds skills in developing basic educational content necessary for maintaining clinical competence in practice as well as clinical leadership skills.",
+   "prereqRaw": "Permission of instructor and NURS 676."
+  },
+  {
+   "code": "NURS 681",
+   "title": "Dec Sci Complex Syst",
+   "credits": 2,
+   "tags": [],
+   "description": "This course emphasizes the theoretical underpinnings of decision science and the applications of a variety of analytic tools, models, and methods that drive decision analysis under conditions of uncertainty, risk and sensitivity. Use of decision science tools are applied to understand impact on outcomes such as public health, policy, resource allocation, and quality and safety.",
+   "prereqRaw": "NURS 504 and 533 and 539 and HS 700; Permission of instructor required if enforced prerequisites are not met."
+  },
+  {
+   "code": "NURS 693",
+   "title": "FNP Practicum II",
+   "credits": 3,
+   "tags": [],
+   "description": "This clinical practicum course is for FNP students to apply the didactic, theoretical, and evidence-based knowledge developed in N666 and prior clinical courses N566&N557 in clinical settings. Students will participate in preceptor supervised clinical experiences to demonstrate integration of clinical experiences from N593 with the addition of management of chronic illness in primary care practice across the lifespan for individuals and families.",
+   "prereqRaw": "[Co- or prerequisite: NURS 666] and [Prerequisite: PHARM 620, PHARM 621, NURS 566, NURS 593, and NURS 557]"
+  },
+  {
+   "code": "NURS 694",
+   "title": "AGPCNP Practicum II",
+   "credits": 3,
+   "tags": [],
+   "description": "This clinical practicum course is for AGPCNP students to apply the didactic, theoretical and evidence-based knowledge developed in N666 and prior clinical courses, N566 & N557 in clinical settings. Students will participate in preceptor supervised clinical experiences to demonstrate integration of clinical experiences from N594 with the addition of management of chronic illness in primary care practice for individuals age 13 and older in primary care settings.",
+   "prereqRaw": "Preceded or accompanied by NURS 666. Prior completion of NURS 502, NURS 503, PHARM 620, PHARM 621, NURS 566, and NURS 594."
+  },
+  {
+   "code": "NURS 697",
+   "title": "Independent Studies",
+   "credits": 4,
+   "tags": [],
+   "description": "This course is intended to enable master's students to engage in in-depth exploration of a specific topic of their choice. The student develops objectives and a study plan in consultation with a faculty member. The plan includes the nature of the independent study, the objectives, the expected outcome (such as a project, paper, and the like), and the grading procedures. The nature and amount of time and guidance to be provided by the faculty member are also determined. Independent study projects are intended to be pursued independently, under the overall supervision of the faculty member."
+  },
+  {
+   "code": "NURS 782",
+   "title": "LAI Immersion",
+   "credits": 3,
+   "tags": [],
+   "description": "This course provides students with a hands-on immersion to develop diverse skills through individualized mentored experiences. Students will apply knowledge, skills and key competencies to support the interconnected needs of diverse individuals, institutions, and populations across the health care system continuum and/or in a variety of health care industries. This immersion focuses on post-graduate career goals and creates focused competence to prepare for a variety of future forward leadership, role based on student's interests and experiences. Immersion experiences are crafted to support designated specialty role competencies and criteria.",
+   "prereqRaw": "NURS 504 and 533 and 539 and HS 510; Permission of instructor required if enforced prerequisites are not met."
+  },
+  {
+   "code": "NURS 797",
+   "title": "Independent Study",
+   "credits": 3,
+   "tags": [],
+   "description": "no description",
+   "prereqRaw": "Doctoral student or permission of instructor."
+  },
+  {
+   "code": "NURS 803",
+   "title": "RCRS",
+   "credits": 1,
+   "tags": [],
+   "description": "The primary goal of this course is to review and discuss various aspects of Responsible Conduct of Research and Scholarship (RCRS), and to enable students to demonstrate the ability to conduct quality research/scholarship as the foundation for strong professional reputation as a researcher. RCRS is defined by the NIH as the practice of scientific investigation [and academia] with integrity. It involves the awareness and application of established professional norms and ethical principles in the performance of all activities related scientific research [and academia]. According to NIH policy, RCRS training/course must be undertaken at least once during each career stage and at a frequency of no less than once every four years. Completion of this course is a graduation requirement of the PhD program at the Rackham Graduate School at the University of Michigan and a graduation requirement of the DNP program at the School of Nursing at the University of Michigan. PhD and DNP students are required to complete this RCRS course during the first year of study and before they initiate their doctoral dissertation-related work or their scholarly project."
+  },
+  {
+   "code": "NURS 804",
+   "title": "Research Synthesis",
+   "credits": 3,
+   "tags": [],
+   "description": "This course is one of three PhD seminars designed to provide students with the knowledge and skills necessary to meet PhD milestones: conducting a systematic synthesis of research, writing a grant, and preparing publications. The seminar includes three critical components: 1) seminars that include in-depth review of processes and components of systematic literature synthesis and reviews; 2) mentored work with research mentors and research teams to set forth the state of the science in a substantive content area; 3) peer review and critique. General and substantive specific approaches, resources, and methods are reviewed and discussed. The achievement of milestones is foundational to scientific inquiry and to the development of scientists."
+  },
+  {
+   "code": "NURS 805",
+   "title": "Grant Writing",
+   "credits": 2,
+   "tags": [],
+   "description": "The course is one of three PhD seminars designed to provide students with knowledge and skills necessary to meet PhD milestones: conducting a systematic synthesis of research, writing a grant, and preparing publications. This course focuses on preparing students to write research proposals. This is a seminar/ workshop style course, and is not driven by didactic teaching, That is, there will be very few lectures or PPT presentations in this course. The course will be workshop style, in which students are expected to work both individually and collectively on the pieces that comprise a research grant. The final deliverable for the course is a final draft of a research proposal. During the course, the instructor will provide instruction and discussion on how to write the pieces of a research grant. Each class will deal with a different part of the research grant, and the course builds such that by the end students should have completed all elements of a research grant to a standard that is sufficient to be submitted to a funding agency. A key element of this course is the student's work with their PhD mentor/s. Students are expected to work extensively with their PhD mentor/s to complete the elements of the research proposal. While the instructor will be providing instruction on how to write the elements of the research proposal in class, students will be expected to be working with their mentor/s outside of class time to complete the research proposal pieces. The class contains two tracks: NRSA and non-NRSA. The NRSA track is for those students who are working towards a NRSA proposal. The non-NRSA track is for those students who are working on a research proposal that is to be submitted to a funding agency other than NRSA. 90% of the content for the two tracks is the same. All students are expected to attend all lectures and participate in all course work."
+  },
+  {
+   "code": "NURS 806",
+   "title": "Prep Pubs",
+   "credits": 2,
+   "tags": [],
+   "description": "This course is third of three PhD seminars designed to provide students with knowledge and skills necessary to meet PhD milestones: conducting a systematic synthesis of research, writing a grant, and preparing publications. This seminar includes three clinical components: 1) seminars that include in-depth review of processes and components of preparing publications including a focus on visual representation via tables, figures, and graphs from conceptualization to design to production using software programs; 2) mentored work with research mentors and research teams to develop substantive content; and 3) peer review and critique. General and substantive specific approaches, resources, and methods are reviewed and discussed. The achievement of milestones is foundational to scientific inquiry and to the development of scientists."
+  },
+  {
+   "code": "NURS 815",
+   "title": "Quality and Safety",
+   "credits": 4,
+   "tags": [],
+   "description": "This course prepares leaders for development and execution of quality improvement and patient safety programs. Students will examine issues and concepts such as creating a high reliability culture of patient quality and safety; application of quantitative (e.g. statistical process control) and qualitative methods (e.g., focus groups; case studies); and behavioral knowledge and skills in leading interdisciplinary teams. The influence of external forces (e.g., technology, pandemics, workforce competency) on quality improvement and patient safety agendas along with health disparities and national and state trends in healthcare will be examined.",
+   "prereqRaw": "Doctoral Program Standing"
+  },
+  {
+   "code": "NURS 832",
+   "title": "Effect Resource Mgmt",
+   "credits": 3,
+   "tags": [],
+   "description": "This course examines leadership, team-building, and the management of resources in the context of advanced practice nursing designed to deliver quality patient care. The goal is to prepare clinician leaders who can design, implement, and evaluate models and programs of care to meet population or system needs."
+  },
+  {
+   "code": "NURS 856",
+   "title": "Res & Prof Dev Sem I",
+   "credits": 1,
+   "tags": [],
+   "description": "This course introduces first year doctoral students to the policies, practices and culture of Graduate Studies at the University and School; presents to students best practices and strategies for academic success; provides students opportunities for research and professional development for the production of independent and original scholarship and investigation; and familiarizes students with multiple resources of support at the University, local community and School crucial to successful degree completion. Students are introduced to program expectations, benchmarks and milestones. To integrate students into the scientific and intellectual community, the course provides opportunities to introduce students to the research activities of faculty, research intensive entities (REIs), and potential mentors and doctoral committee chairs.",
+   "prereqRaw": "PhD student"
+  },
+  {
+   "code": "NURS 857",
+   "title": "Res&Prof Dev Sem II",
+   "credits": 1,
+   "tags": [],
+   "description": "Students enrolled in this course will continue to learn about the policies, practices, culture, and resources relevant to the University and School that are crucial to successful degree completion. Students will continue to explore potential scientific foci and research methods for future in-depth study. To integrate students into the scientific and intellectual community, the course provides continues opportunities to introduce students to the research activities of faculty, research intensive entities (REIs), and potential mentors and doctoral committee chairs.",
+   "prereqRaw": "NURS 856"
+  },
+  {
+   "code": "NURS 880",
+   "title": "Phil Inf&Theory Sci",
+   "credits": 3,
+   "tags": [],
+   "description": "This course is designed for PhD students and post-doctoral fellows in the health sciences. Students will discuss the philosophical foundations of science and their influence on theory building. Scientific philosophies regarding the nature of truth (epistemology), scientific paradigms, and methods of discovery will be explored. Students will learn about a variety of theories in nursing, behavioral, and social sciences that inform research in health and healthcare, and how the theoretical underpinnings guide development of conceptual models and frameworks for the students' emerging program of research. Students will learn the skills of scientific discourse, theoretical critiques, concept analysis, and development of a preliminary conceptual model/framework for their research."
+  },
+  {
+   "code": "NURS 890",
+   "title": "Research Focus I",
+   "credits": 3,
+   "tags": [],
+   "description": "The substantive research focus is designed to prepare students for specific careers in their chosen fields of study. Students complete 3 credit of substantive research content through guided study with their research mentor(s) and mentoring team. During this study, students are required to demonstrate rigorous analysis and synthesis of theoretical and empirical literature that they will use to develop their own unique independent area of study. Socialization through close work with a research mentor will lead to demonstrable milestones critical to scientific inquiry."
+  },
+  {
+   "code": "NURS 891",
+   "title": "Research Focus II",
+   "credits": 3,
+   "tags": [],
+   "description": "The substantive research focus study is designed to prepare students for scientific careers in their chosen field of study. Students complete 3 credits of substantive research content through guided study with their research mentor(s) and mentoring team. During this study, students are required to demonstrate rigorous analysis and synthesis of theoretical and empirical literature that they will use to develop their own unique independent area of study. Socialization through close work with a research mentor will lead to demonstrable milestones critical to scientific inquiry."
+  },
+  {
+   "code": "NURS 900",
+   "title": "Seminar on Research",
+   "credits": 3,
+   "tags": [],
+   "description": "This course will familiarize students with scientific methods for evaluating levels of evidence and conducting systematic and integrative literature reviews. These techniques will be utilized to synthesize available evidence related to a clinical practice problem of choice. Course content will include an overview of the philosophy of science and theories/ models of practice; the methodology for searching existing databases, documenting the search process, and selecting appropriate inclusion/exclusion criteria for studies; and critical appraisal of evidence.",
+   "prereqRaw": "Scientific foundations for the practice doctorate"
+  },
+  {
+   "code": "NURS 910",
+   "title": "Translation Implemen",
+   "credits": 3,
+   "tags": [],
+   "description": "This interdisciplinary seminar focuses on using findings from translation science, comparative effectiveness studies, and other knowledge sources to improve quality of care and patient outcomes. Students will apply concepts to patient populations and systems of care delivery. Terms and models use in this field of inquiry will be compared, contrasted, and analyzed. Students will develop, select or modify a model of inquiry to guide their residency and scholarly projects. Factors that influence adoption of healthcare innovations will be examined through critique and synthesis of research in the field. Infrastructure requirements for building a practice program to promote adoption of evidence-based practices and healthcare innovations will be discussed."
+  },
+  {
+   "code": "NURS 950",
+   "title": "DNP Residency",
+   "credits": 6,
+   "tags": [],
+   "description": "The residency provides a mentored practice experience in a clinical setting. The student will have an opportunity to apply knowledge and skills learned in the program. Students will become actively involved in senior leadership activities and develop and potentially carry out their scholarly project. Placement is individualized based on the students' scholarly project, learning objectives, previous clinical and leadership experiences, and career goals. Students will participate in a seminar when enrolled for residency credits.",
+   "prereqRaw": "Doctoral level status"
+  },
+  {
+   "code": "NURS 955",
+   "title": "Scholarly Project",
+   "credits": 6,
+   "tags": [],
+   "description": "This scholarly project is a culminating, independent experience, which demonstrates the students synthesis of coursework and lays the foundation for future scholarship. The student will propose and lead a quality improvement or practice change initiative using evaluation data. The project will be embedded in a healthcare organization and address an organizational need. The project will be supervised by a faculty committee. The final project will be publically presented and the project committee will approve the final written document. It is intended that the final written document will be a submission ready manuscript with results also disseminated to the residency site and at clinical and scientific meetings. Students will work closely with their committee chair and committee members when enrolled in project credits. Credits can be repeated to facilitate effort on the project with a minimum of 5 credits required for degree completion.",
+   "prereqRaw": "Completion of the majority of coursework; approval proposal."
+  },
+  {
+   "code": "NURS 960",
+   "title": "Capstone Res & Sem I",
+   "credits": 4,
+   "tags": [],
+   "description": "This course integrates DNP residency activities with the implementation of a practice inquiry project in the clinical setting. The DNP residency is a clinical course that focuses on the application of system level thinking and skills to understand and improve clinical practice. Students will also use the seminar and the residency placement to develop expertise in an area of practice inquiry that focuses on the translation of evidence-based knowledge into strategies to promote quality, safety and equity in health outcomes across populations and/or system levels. The student uses collaboration and facilitation skills with their clinical setting to identify need and develop a team based practice project proposal."
+  },
+  {
+   "code": "NURS 965",
+   "title": "Capstone Res&Sem II",
+   "credits": 4,
+   "tags": [],
+   "description": "This course continues to integrate DNP residency activities with he implementation of a practice inquiry project in the clinical setting. The student uses collaboration and facilitation skills with their clinical setting to implement change, and carry out a team based practice project. Students will also develop a project product that can be disseminated to the practice community of published.",
+   "prereqRaw": "NURS 960: Capstone & Seminar I"
+  },
+  {
+   "code": "NURS 990",
+   "title": "Diss-Precand",
+   "credits": 8,
+   "tags": [],
+   "description": "Diss-Precand",
+   "prereqRaw": "Election for dissertation work by doctoral student not yet admitted as a Candidate."
+  },
+  {
+   "code": "NURS 995",
+   "title": "Diss-Cand",
+   "credits": 8,
+   "tags": [],
+   "description": "Diss-Cand",
+   "prereqRaw": "Candidate"
+  },
+  {
+   "code": "NURSPNE 262",
+   "title": "Ther Nurs Care I Clinical (PNE 200-230)",
+   "credits": 4,
+   "tags": [],
+   "description": "Ther Nurs Care I Clinical (PNE 200-230)"
+  },
+  {
+   "code": "NURSPNE 370",
+   "title": "Reproductive Health Clinical (PNE 300-324)",
+   "credits": 3,
+   "tags": [],
+   "description": "Reproductive Health Clinical (PNE 300-324)"
+  },
+  {
+   "code": "NURSPNE 371",
+   "title": "Inf,Child,Adolescent Clinical (PNE 325-349)",
+   "credits": 3,
+   "tags": [],
+   "description": "Inf,Child,Adolescent Clinical (PNE 325-349)"
+  },
+  {
+   "code": "NURSPNE 372",
+   "title": "Ther Nurs Care II Clinical (PNE 350-374)",
+   "credits": 5,
+   "tags": [],
+   "description": "Ther Nurs Care II Clinical (PNE 350-374)"
+  },
+  {
+   "code": "NURSPNE 373",
+   "title": "Behavioral Health Clinical (PNE 375-399)",
+   "credits": 3,
+   "tags": [],
+   "description": "Behavioral Health Clinical (PNE 375-399)"
+  },
+  {
+   "code": "NURSPNE 480",
+   "title": "Population Health Clinical (PNE 400-424)",
+   "credits": 3,
+   "tags": [],
+   "description": "Population Health Clinical (PNE 400-424)"
+  },
+  {
+   "code": "NURSPNE 481",
+   "title": "Leadership Prof Prac Clinical (PNE 425-449)",
+   "credits": 2,
+   "tags": [],
+   "description": "Leadership Prof Prac Clinical (PNE 425-449)"
+  },
+  {
+   "code": "NURSPNE 482",
+   "title": "Ther Nurs Care III Clinical (PNE 450-474)",
+   "credits": 8,
+   "tags": [],
+   "description": "Ther Nurs Care III Clinical (PNE 450-474)"
+  },
+  {
+   "code": "PHARMACY 620",
+   "title": "Pharmacotherapeu I",
+   "credits": 3,
+   "tags": [],
+   "description": "This course focuses on core knowledge needed to understand the therapeutic use of drugs and develop appropriate, evidence-based treatment regimens across the lifespan. Basic principles of pharmacology, such as mechanisms of action, pharmacokinetics and pharmacodynamics, of major drug classes will be discussed in relation to physiology and pathophysiology; current research data and evidence-based treatment guidelines will be reviewed. Exemplars and case studies will be used for clinical application.",
+   "prereqRaw": "Graduate standing in the School of Nursing or permission of instructor."
+  },
+  {
+   "code": "PHARMACY 621",
+   "title": "Pharmacotherapeu II",
+   "credits": 3,
+   "tags": [],
+   "description": "Second in course in the series. The course focuses on core knowledge needed to understand the therapeutic use of drugs and develop appropriate, evidence-based treatment regimens across the lifespan. Basic principles of pharmacology, such a mechanisms of action, pharmacokinetics and pharmacodynamics, of major drug classes will be discussed in relation to physiology and pathophysiology; current research data and evidence-based treatment guidelines will be reviewed. Exemplars and case studies will be used for clinical application.",
+   "prereqRaw": "Graduate standing in the School of Nursing or permission of instructor."
+  },
+  {
+   "code": "PSYCH 111",
+   "title": "Intro to Psych",
+   "credits": 4,
+   "tags": [],
+   "description": "no description"
+  },
+  {
+   "code": "PSYCH 250",
+   "title": "Intro Dev Psych",
+   "credits": 4,
+   "tags": [],
+   "description": "This course provides an overview of the milestones of human development from conception to death. The physical, cognitive, social, and emotional growth of children, adolescents, and adults are examined, as are the various factors (e.g., genetics, parenting, peer groups, schooling, and the media) that influence development. The goal is to provide an introduction to the main issues, central theories, and dominant research methods in development psychology.",
+   "prereqRaw": "PSYCH 111 or 112 or 114 or 115"
+  }
+ ]
+}

@@ -59,6 +59,7 @@ const MATCH_ALL_WHITELIST = new Set([
   'smtd-total-credits',
   'smtd-liberal-arts-credits', // non-SMTD minimum (excludeTags smtd-credit)
   'smtd-non-music-credits', // BM non-Music minimum (excludeTags smtd-music)
+  'nursing-total-credits', // BSN 128 total credits (12+ are free electives)
 ]);
 
 const VALID_CATEGORIES = new Set([
@@ -86,6 +87,8 @@ const VALID_CATEGORIES = new Set([
   // School of Music, Theatre & Dance
   'smtd-credit-min',
   'smtd-liberal-arts',
+  // School of Nursing
+  'nursing-credit-min',
 ]);
 
 /**

@@ -120,6 +120,7 @@ import s24 from './smtd-bma-multidisciplinary.json';
 import s25 from './smtd-bma-performance.json';
 import s26 from './smtd-bs-sound-engineering.json';
 import s27 from './smtd-bta.json';
+import n1 from './nursing-bsn.json';
 
 export const all: Major[] = [
   p1 as Major,
@@ -242,4 +243,5 @@ export const all: Major[] = [
   s25 as Major,
   s26 as Major,
   s27 as Major,
+  n1 as Major,
 ];

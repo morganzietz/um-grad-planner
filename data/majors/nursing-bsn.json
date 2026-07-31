@@ -1,0 +1,144 @@
+{
+ "id": "nursing-bsn",
+ "name": "Nursing (BSN)",
+ "school": "School of Nursing",
+ "goalCredits": 128,
+ "requirements": [
+  {
+   "id": "nursing-total-credits",
+   "label": "128 Total Credits",
+   "hint": "All BSN students must earn at least 128 credits. At least 12 of these are free elective credits, and any course taken for credit at U-M meets the elective requirement (sophomore transfer admits need 13 elective credits). Requirements follow the published First Year Entry program plan; the BSN is lock step, so each level must be completed before the next begins.",
+   "need": 128,
+   "countMode": "credits",
+   "category": "nursing-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://nursing.umich.edu/academics/program_plans/details",
+    "https://nursing.umich.edu/sites/default/files/content/page/530/2025-2026%20UMSN%20UG%20Student%20Handbook%20Final_edited%2012.12.25.pdf"
+   ]
+  },
+  {
+   "id": "nursing-fywr",
+   "label": "First year writing",
+   "hint": "ENGLISH 124 or 125 or another approved first year writing course. One of the few requirements that may be completed as an approved transfer equivalent.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchTag": "lsa-fywr",
+   "sources": [
+    "https://nursing.umich.edu/academics/program_plans/details"
+   ]
+  },
+  {
+   "id": "nursing-level1-science",
+   "label": "Level 1 science and social science",
+   "hint": "BIOLCHEM 212 Descriptive Biochemistry, PSYCH 111 Introduction to Psychology, PSYCH 250 Introduction to Developmental Psychology, and NURS 218 Applied Statistics. A grade of C or higher is required in all required courses. Approved transfer equivalents are allowed for PSYCH 111, PSYCH 250, and NURS 218; all other science courses must be taken in residence at U-M Ann Arbor.",
+   "need": 4,
+   "countMode": "count",
+   "category": "core",
+   "minGrade": "C",
+   "matchCodes": ["BIOLCHEM 212", "PSYCH 111", "PSYCH 250", "NURS 218"],
+   "sources": [
+    "https://nursing.umich.edu/academics/program_plans/details",
+    "https://nursing.umich.edu/sites/default/files/content/page/530/2025-2026%20UMSN%20UG%20Student%20Handbook%20Final_edited%2012.12.25.pdf"
+   ]
+  },
+  {
+   "id": "nursing-level1-nursing",
+   "label": "Level 1 nursing courses (first year)",
+   "hint": "NURS 142 Nursing Seminar, NURS 196 Communication, Groups, and Teams, NURS 194 Context of Care I, NURS 210 Human Anatomy and Physiology, and NURS 211 Anatomy and Physiology Lab. Fall courses must be completed before winter courses, and all of Level 1 must be completed before Level 2 begins. Grade of C or higher required.",
+   "need": 5,
+   "countMode": "count",
+   "category": "core",
+   "minGrade": "C",
+   "matchCodes": ["NURS 142", "NURS 196", "NURS 194", "NURS 210", "NURS 211"],
+   "sources": [
+    "https://nursing.umich.edu/academics/program_plans/details",
+    "https://nursing.umich.edu/sites/default/files/content/page/530/2025-2026%20UMSN%20UG%20Student%20Handbook%20Final_edited%2012.12.25.pdf"
+   ]
+  },
+  {
+   "id": "nursing-level2",
+   "label": "Level 2 nursing courses (sophomore year)",
+   "hint": "Fall: NURS 232 Health Assessment, NURS 233 Health Assessment Lab, NURS 234 Introduction to Clinical, NURS 236 Microbiology and Infectious Diseases, NURS 245 Pathophysiology. Winter: NURS 238 Culture of Health, NURS 240 Pharmacology, NURS 244 Evaluating Data and Evidence, NURS 262 Therapeutic Nursing Care I. Sophomore transfer admits join the program here. Grade of C or higher required.",
+   "need": 9,
+   "countMode": "count",
+   "category": "core",
+   "minGrade": "C",
+   "matchCodes": [
+    "NURS 232", "NURS 233", "NURS 234", "NURS 236", "NURS 245",
+    "NURS 238", "NURS 240", "NURS 244", "NURS 262"
+   ],
+   "sources": [
+    "https://nursing.umich.edu/academics/program_plans/details",
+    "https://nursing.umich.edu/sites/default/files/content/page/530/2025-2026%20UMSN%20UG%20Student%20Handbook%20Final_edited%2012.12.25.pdf"
+   ]
+  },
+  {
+   "id": "nursing-level2-clinical",
+   "label": "Level 2 clinical (NURSPNE 262)",
+   "hint": "Therapeutic Nursing Care I Clinical, taken with NURS 262. A minimum of B- is required in a repeated clinical course.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "minGrade": "C",
+   "matchCodes": ["NURSPNE 262"],
+   "sources": [
+    "https://nursing.umich.edu/academics/program_plans/details"
+   ]
+  },
+  {
+   "id": "nursing-level3",
+   "label": "Level 3 nursing courses (junior year)",
+   "hint": "NURS 370 Reproductive Health, NURS 371 Infant, Child, and Adolescent, NURS 372 Therapeutic Nursing Care II, and NURS 373 Behavioral Health, split across fall and winter. Grade of C or higher required.",
+   "need": 4,
+   "countMode": "count",
+   "category": "core",
+   "minGrade": "C",
+   "matchCodes": ["NURS 370", "NURS 371", "NURS 372", "NURS 373"],
+   "sources": [
+    "https://nursing.umich.edu/academics/program_plans/details"
+   ]
+  },
+  {
+   "id": "nursing-level3-clinical",
+   "label": "Level 3 clinicals (junior year)",
+   "hint": "NURSPNE 370, 371, 372, and 373, the clinical companions to each junior year course. Clinical placements require proof of completed prerequisites.",
+   "need": 4,
+   "countMode": "count",
+   "category": "core",
+   "minGrade": "C",
+   "matchCodes": ["NURSPNE 370", "NURSPNE 371", "NURSPNE 372", "NURSPNE 373"],
+   "sources": [
+    "https://nursing.umich.edu/academics/program_plans/details"
+   ]
+  },
+  {
+   "id": "nursing-level4",
+   "label": "Level 4 nursing courses (senior year)",
+   "hint": "NURS 482 Therapeutic Nursing Care III and NURS 496 Role Transition in fall; NURS 480 Population Health, NURS 481 Leadership and Professional Practice, and NURS 494 Context of Care II in winter. Grade of C or higher required.",
+   "need": 5,
+   "countMode": "count",
+   "category": "core",
+   "minGrade": "C",
+   "matchCodes": ["NURS 482", "NURS 496", "NURS 480", "NURS 481", "NURS 494"],
+   "sources": [
+    "https://nursing.umich.edu/academics/program_plans/details"
+   ]
+  },
+  {
+   "id": "nursing-level4-clinical",
+   "label": "Level 4 clinicals (senior year)",
+   "hint": "NURSPNE 482 Therapeutic Nursing Care III Clinical (8 credits), NURSPNE 480 Population Health Clinical, and NURSPNE 481 Leadership and Professional Practice Clinical. The program includes over 1,000 hours of hands on clinical experience.",
+   "need": 3,
+   "countMode": "count",
+   "category": "capstone",
+   "minGrade": "C",
+   "matchCodes": ["NURSPNE 482", "NURSPNE 480", "NURSPNE 481"],
+   "sources": [
+    "https://nursing.umich.edu/academics/program_plans/details"
+   ]
+  }
+ ],
+ "sourceUrl": "https://nursing.umich.edu/academics/program_plans/details"
+}

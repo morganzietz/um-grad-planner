@@ -5,6 +5,7 @@ import coeBulletinData from '../data/courses/coe-bulletin.json';
 import rossBulletinData from '../data/courses/ross-bulletin.json';
 import umsiCatalogData from '../data/courses/umsi-catalog.json';
 import smtdCatalogData from '../data/courses/smtd-catalog.json';
+import nursingCatalogData from '../data/courses/nursing-catalog.json';
 import { all as bundledMinors } from '../data/minors';
 import {
   manualCourses,
@@ -49,6 +50,10 @@ const umsiCatalogCourses =
 /** Full SMTD catalog from the school's public course-description docs. */
 const smtdCatalogCourses =
   (smtdCatalogData as unknown as { courses: Course[] }).courses ?? [];
+
+/** School of Nursing catalog from the school's Program Plans app data. */
+const nursingCatalogCourses =
+  (nursingCatalogData as unknown as { courses: Course[] }).courses ?? [];
 
 // ─── Merge scraped + manual + programmatic tags → courseCatalog ───────────
 
@@ -279,7 +284,7 @@ function buildCatalog(): Course[] {
   // NOT list is not approved for LSA credit, so SOC-only entries get the
   // non-lsa tag; without it, every Ross/CoE/SPH course would wrongly count
   // toward the LSA "100 LSA credits" college rules.
-  for (const c of [...socCourses, ...coeBulletinCourses, ...rossBulletinCourses, ...umsiCatalogCourses, ...smtdCatalogCourses]) {
+  for (const c of [...socCourses, ...coeBulletinCourses, ...rossBulletinCourses, ...umsiCatalogCourses, ...smtdCatalogCourses, ...nursingCatalogCourses]) {
     if (byCode.has(c.code)) continue;
     const tags = c.tags.includes(NON_LSA) ? c.tags : [...c.tags, NON_LSA];
     byCode.set(c.code, { ...c, tags });
