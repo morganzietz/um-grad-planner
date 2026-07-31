@@ -1,0 +1,224 @@
+{
+ "id": "kines-sport-management",
+ "name": "Sport Management (BA)",
+ "school": "School of Kinesiology",
+ "goalCredits": 120,
+ "requirements": [
+  {
+   "id": "kines-total-credits",
+   "label": "120 Total Credits",
+   "hint": "The BA requires at least 120 credits, with 60 of the 120 earned in residence and 30 of the final 60 in residence. A cumulative GPA of 2.0 is required to graduate. Kinesiology courses and courses required for the degree may not be taken pass fail; at most four pass fail courses outside Kinesiology are allowed, no more than one per term. In years three and four at least 15 credits must be taken outside Sport Management. Requirements follow the 2025-2026 Undergraduate Bulletin.",
+   "need": 120,
+   "countMode": "credits",
+   "category": "kines-credit-min",
+   "matchAll": true,
+   "minGrade": "D-",
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf"
+   ]
+  },
+  {
+   "id": "kines-sm-hu",
+   "label": "Humanities distribution (12 credits)",
+   "hint": "Twelve credits of humanities coursework. Major courses may double count; the record sheet pre-populates SM 101 and SM 217 here, and all U-M language courses count as humanities for Kinesiology students. Kinesiology courses do not carry LSA distribution marks in the planner, so add them to this requirement with the include control when you use them for distribution.",
+   "need": 12,
+   "countMode": "credits",
+   "category": "kines-distribution",
+   "matchTag": "lsa-humanities",
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-10/Accessible%20SM%20Record%20Sheet%202024-25.pdf"
+   ]
+  },
+  {
+   "id": "kines-sm-ns",
+   "label": "Natural Science distribution (11 credits)",
+   "hint": "Kinesiology states this area as Natural Science and Quantitative Reasoning, 11 credits for Sport Management. The record sheet pre-populates the statistics course plus SM 238, SM 239, and SM 249. Kinesiology courses do not carry LSA distribution marks in the planner, so add them with the include control when you use them for distribution.",
+   "need": 11,
+   "countMode": "credits",
+   "category": "kines-distribution",
+   "matchTag": "lsa-natural-sciences",
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-10/Accessible%20SM%20Record%20Sheet%202024-25.pdf"
+   ]
+  },
+  {
+   "id": "kines-sm-ss",
+   "label": "Social Science distribution (12 credits)",
+   "hint": "Twelve credits of social science coursework. Major courses may double count; the record sheet pre-populates PSYCH 111 and ECON 101.",
+   "need": 12,
+   "countMode": "credits",
+   "category": "kines-distribution",
+   "matchTag": "lsa-social-sciences",
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-10/Accessible%20SM%20Record%20Sheet%202024-25.pdf"
+   ]
+  },
+  {
+   "id": "kines-sm-fywr",
+   "label": "First year writing",
+   "hint": "ENGLISH 125 or another approved first year writing course, with a grade of C or better.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchTag": "lsa-fywr",
+   "minGrade": "C",
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-10/Accessible%20SM%20Record%20Sheet%202024-25.pdf"
+   ]
+  },
+  {
+   "id": "kines-sm-psych",
+   "label": "Introductory psychology",
+   "hint": "PSYCH 111 or PSYCH 112. AP Psychology credit fulfills this requirement.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": [
+    "PSYCH 111",
+    "PSYCH 112"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-10/Accessible%20SM%20Record%20Sheet%202024-25.pdf"
+   ]
+  },
+  {
+   "id": "kines-sm-econ",
+   "label": "ECON 101",
+   "hint": "Principles of Economics I (Micro). ECON departmental credit from AP exams will not fulfill this requirement.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": [
+    "ECON 101"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-10/Accessible%20SM%20Record%20Sheet%202024-25.pdf"
+   ]
+  },
+  {
+   "id": "kines-sm-stats",
+   "label": "Introductory statistics",
+   "hint": "STATS 250 or SOC 210. AP Statistics credit does not fulfill this requirement; students who want to keep AP Stats credit take STATS 280 or a 400 level STATS course instead.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": [
+    "STATS 250",
+    "SOC 210",
+    "STATS 280"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-10/Accessible%20SM%20Record%20Sheet%202024-25.pdf"
+   ]
+  },
+  {
+   "id": "kines-sm-level1",
+   "label": "Level 1 Sport Management courses",
+   "hint": "SM 100 Sport Management Seminar (2 credits), SM 101 Public and Small Group Communication, SM 111 Historical and Sociological Issues in Sport and Fitness, and SM 203 Introduction to Sport Management, completed in year one. Students admitted as freshmen must complete Level 1 courses at U-M. Advancement to Level 2 is competitive, with applications due September 15 and January 15 and a 3.0 GPA advisory.",
+   "need": 4,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": [
+    "SM 100",
+    "SM 101",
+    "SM 111",
+    "SM 203"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-10/Accessible%20SM%20Record%20Sheet%202024-25.pdf"
+   ]
+  },
+  {
+   "id": "kines-sm-level2-core",
+   "label": "Level 2 required courses",
+   "hint": "SM 217 Business Communications, SM 238 Introduction to Accounting and SM 239 Introduction to Financial Decision Making (1.5 credits each, winter only), SM 241 Introduction to Economic and Policy Issues in Sport (fall only), SM 246 Principles of Marketing, SM 249 Research Methods, SM 332 Organizational Behavior of Sport Organizations, SM 333 Legal and Ethical Issues in Sport, and SM 499 Strategy of Sport Organizations, which requires senior standing. Level 2 admission is required to enroll, and 300 and 400 level requirements cannot be transferred.",
+   "need": 9,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "SM 217",
+    "SM 238",
+    "SM 239",
+    "SM 241",
+    "SM 246",
+    "SM 249",
+    "SM 332",
+    "SM 333",
+    "SM 499"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-10/Accessible%20SM%20Record%20Sheet%202024-25.pdf"
+   ]
+  },
+  {
+   "id": "kines-sm-internship",
+   "label": "SM 403 Internship (6 credits)",
+   "hint": "Six credits of SM 403 internship experience are required in total, usually earned across repeated one to three credit elections; the planner counts one election. Internships must be pre approved by the internship coordinator after the SM 403 workshop, and fifty internship hours equal one credit. International internships may be accepted with approval.",
+   "need": 1,
+   "countMode": "count",
+   "category": "capstone",
+   "matchCodes": [
+    "SM 403"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-10/Accessible%20SM%20Record%20Sheet%202024-25.pdf"
+   ]
+  },
+  {
+   "id": "kines-sm-electives",
+   "label": "SM concentration electives (21 credits)",
+   "hint": "Twenty one credits of electives in years three and four: 18 credits from the declared concentration, Path 1 Sport Marketing and Management or Path 2 Sport Policy and Analytics, plus 3 credits from either path. This bucket matches the union of both published path lists; SM 470 and KINESLGY 302 each count at most 3 credits toward the concentration, SM 361 and SM 461 are the paired Detroit sports courses, and Path 2 students must have MATH 105 or an equivalent or higher math course. Faculty announce the path for new SM 313 topics as they are offered.",
+   "need": 21,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "SM 313",
+    "SM 317",
+    "SM 330",
+    "SM 331",
+    "SM 361",
+    "SM 428",
+    "SM 429",
+    "SM 430",
+    "SM 431",
+    "SM 433",
+    "SM 435",
+    "SM 436",
+    "SM 438",
+    "SM 439",
+    "SM 440",
+    "SM 441",
+    "SM 442",
+    "SM 443",
+    "SM 444",
+    "SM 445",
+    "SM 446",
+    "SM 451",
+    "SM 454",
+    "SM 461",
+    "SM 462",
+    "SM 463",
+    "SM 464",
+    "SM 465",
+    "SM 470",
+    "SM 480",
+    "KINESLGY 302"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-10/Accessible%20SM%20Record%20Sheet%202024-25.pdf"
+   ]
+  }
+ ],
+ "sourceUrl": "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf"
+}

@@ -1,0 +1,436 @@
+{
+ "id": "kines-movement-science",
+ "name": "Movement Science (BS)",
+ "school": "School of Kinesiology",
+ "goalCredits": 120,
+ "requirements": [
+  {
+   "id": "kines-total-credits",
+   "label": "120 Total Credits",
+   "hint": "The BS requires at least 120 credits, with 60 of the 120 earned in residence and 30 of the final 60 in residence. A cumulative GPA of 2.0 is required to graduate. Kinesiology courses and courses required for the degree may not be taken pass fail; at most four pass fail courses outside Kinesiology are allowed, no more than one per term. Requirements follow the 2025-2026 Undergraduate Bulletin.",
+   "need": 120,
+   "countMode": "credits",
+   "category": "kines-credit-min",
+   "matchAll": true,
+   "minGrade": "D-",
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf"
+   ]
+  },
+  {
+   "id": "kines-mvs-hu",
+   "label": "Humanities distribution (12 credits)",
+   "hint": "Twelve credits of humanities coursework. Major courses may double count; the record sheet pre-populates MOVESCI 219 here, and all U-M language courses count as humanities for Kinesiology students. Kinesiology courses do not carry LSA distribution marks in the planner, so add them to this requirement with the include control when you use them for distribution.",
+   "need": 12,
+   "countMode": "credits",
+   "category": "kines-distribution",
+   "matchTag": "lsa-humanities",
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20MOVESCI%20Record%20Sheet%202024-25%20r1.pdf"
+   ]
+  },
+  {
+   "id": "kines-mvs-ns",
+   "label": "Natural Science distribution (12 credits)",
+   "hint": "Twelve credits of natural science coursework. Major courses double count; the record sheet pre-populates MATH 115, CHEM 130, BIOLOGY 171 and 172, PHYSIOL 201, and ANATOMY 403, which already exceed the minimum.",
+   "need": 12,
+   "countMode": "credits",
+   "category": "kines-distribution",
+   "matchTag": "lsa-natural-sciences",
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20MOVESCI%20Record%20Sheet%202024-25%20r1.pdf"
+   ]
+  },
+  {
+   "id": "kines-mvs-ss",
+   "label": "Social Science distribution (12 credits)",
+   "hint": "Twelve credits of social science coursework. Major courses may double count; the record sheet pre-populates PSYCH 111. Kinesiology courses do not carry LSA distribution marks in the planner, so add them with the include control when you use them for distribution.",
+   "need": 12,
+   "countMode": "credits",
+   "category": "kines-distribution",
+   "matchTag": "lsa-social-sciences",
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20MOVESCI%20Record%20Sheet%202024-25%20r1.pdf"
+   ]
+  },
+  {
+   "id": "kines-mvs-fywr",
+   "label": "First year writing",
+   "hint": "ENGLISH 125 or another approved first year writing course, with a grade of C or better.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchTag": "lsa-fywr",
+   "minGrade": "C",
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20MOVESCI%20Record%20Sheet%202024-25%20r1.pdf"
+   ]
+  },
+  {
+   "id": "kines-mvs-biology-core",
+   "label": "BIOLOGY 171 and 173",
+   "hint": "BIOLOGY 171 Introductory Biology: Ecology and Evolution, plus the BIOLOGY 173 lab. AP credit (BIOLOGY 195) will not fulfill the lab. External transfer students can cover the lecture sequence with BIOLOGY 191 and 192; add such substitutions with the include control.",
+   "need": 2,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": [
+    "BIOLOGY 171",
+    "BIOLOGY 173"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20MOVESCI%20Record%20Sheet%202024-25%20r1.pdf"
+   ]
+  },
+  {
+   "id": "kines-mvs-biology-cell",
+   "label": "BIOLOGY 172 or 174",
+   "hint": "Introductory cellular and molecular biology; elect either BIOLOGY 172 or BIOLOGY 174, not both. Prior or concurrent enrollment in CHEM 130 is advised.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": [
+    "BIOLOGY 172",
+    "BIOLOGY 174"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20MOVESCI%20Record%20Sheet%202024-25%20r1.pdf"
+   ]
+  },
+  {
+   "id": "kines-mvs-chem",
+   "label": "General chemistry",
+   "hint": "CHEM 130. For students who do not take CHEM 130, successful completion of CHEM 210 fulfills the requirement.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": [
+    "CHEM 130",
+    "CHEM 210"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20MOVESCI%20Record%20Sheet%202024-25%20r1.pdf"
+   ]
+  },
+  {
+   "id": "kines-mvs-math",
+   "label": "Calculus I",
+   "hint": "MATH 115. AP credit for MATH 120 also fulfills this requirement.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": [
+    "MATH 115",
+    "MATH 120"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20MOVESCI%20Record%20Sheet%202024-25%20r1.pdf"
+   ]
+  },
+  {
+   "id": "kines-mvs-anatomy",
+   "label": "ANATOMY 403",
+   "hint": "Human Anatomy: Structure and Function, 5 credits, from the Medical School.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": [
+    "ANATOMY 403"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20MOVESCI%20Record%20Sheet%202024-25%20r1.pdf"
+   ]
+  },
+  {
+   "id": "kines-mvs-physics",
+   "label": "Introductory physics",
+   "hint": "PHYSICS 140 or PHYSICS 150 with a C- or better. PHYSICS 125 transfer credit for algebra based Physics I also fulfills this requirement.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "minGrade": "C-",
+   "matchCodes": [
+    "PHYSICS 140",
+    "PHYSICS 150"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20MOVESCI%20Record%20Sheet%202024-25%20r1.pdf"
+   ]
+  },
+  {
+   "id": "kines-mvs-physiol",
+   "label": "PHYSIOL 201",
+   "hint": "Introduction to Human Physiology. Prior completion of BIOLOGY 172 or 174 is strongly recommended.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": [
+    "PHYSIOL 201"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20MOVESCI%20Record%20Sheet%202024-25%20r1.pdf"
+   ]
+  },
+  {
+   "id": "kines-mvs-psych",
+   "label": "Introductory psychology",
+   "hint": "PSYCH 111 or PSYCH 112; elect one, not both.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": [
+    "PSYCH 111",
+    "PSYCH 112"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20MOVESCI%20Record%20Sheet%202024-25%20r1.pdf"
+   ]
+  },
+  {
+   "id": "kines-mvs-kines-prereqs",
+   "label": "MOVESCI 110 and 219",
+   "hint": "MOVESCI 110 Biological and Behavioral Bases of Human Movement and MOVESCI 219 Scientific Writing, the Kinesiology prerequisites for the 300 level core.",
+   "need": 2,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": [
+    "MOVESCI 110",
+    "MOVESCI 219"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20MOVESCI%20Record%20Sheet%202024-25%20r1.pdf"
+   ]
+  },
+  {
+   "id": "kines-mvs-anatomy-core",
+   "label": "MOVESCI 230 and 231",
+   "hint": "Human Musculoskeletal Anatomy lecture and lab, taken concurrently. Non Kinesiology students attempting to transfer may take them non concurrently.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MOVESCI 230",
+    "MOVESCI 231"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20MOVESCI%20Record%20Sheet%202024-25%20r1.pdf"
+   ]
+  },
+  {
+   "id": "kines-mvs-stats",
+   "label": "Statistics (MOVESCI 250)",
+   "hint": "MOVESCI 250 Statistics and Research Methods in Movement Science. Effective Fall 2025 this can be substituted with STATS 250; STATS 250 taken before transferring to Kinesiology also fulfills it.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MOVESCI 250",
+    "STATS 250"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20MOVESCI%20Record%20Sheet%202024-25%20r1.pdf"
+   ]
+  },
+  {
+   "id": "kines-mvs-core-300",
+   "label": "MOVESCI 320, 330, and 340",
+   "hint": "Motor Control, Biomechanics of Human Movement, and Exercise Physiology, the 4 credit core. All three must be taken at the University of Michigan, and all enforced prerequisites must be completed first with no concurrent enrollment.",
+   "need": 3,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MOVESCI 320",
+    "MOVESCI 330",
+    "MOVESCI 340"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20MOVESCI%20Record%20Sheet%202024-25%20r1.pdf"
+   ]
+  },
+  {
+   "id": "kines-mvs-upper-electives",
+   "label": "Upper level MOVESCI electives (9 credits)",
+   "hint": "Nine credits of upper division Movement Science electives from the published lecture based list, with at least six credits lecture based. Up to three credits of 400 level experiential or independent study work, for example MOVESCI 429, 439, 449, or 464, may substitute for one lecture course; add such a course with the include control.",
+   "need": 9,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "MOVESCI 413",
+    "MOVESCI 421",
+    "MOVESCI 422",
+    "MOVESCI 423",
+    "MOVESCI 424",
+    "MOVESCI 425",
+    "MOVESCI 428",
+    "MOVESCI 431",
+    "MOVESCI 434",
+    "MOVESCI 437",
+    "MOVESCI 438",
+    "MOVESCI 442",
+    "MOVESCI 443",
+    "MOVESCI 446",
+    "MOVESCI 447",
+    "MOVESCI 448",
+    "MOVESCI 451",
+    "MOVESCI 452",
+    "MOVESCI 453",
+    "MOVESCI 465",
+    "MOVESCI 475"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20MOVESCI%20Record%20Sheet%202024-25%20r1.pdf"
+   ]
+  },
+  {
+   "id": "kines-mvs-cognates",
+   "label": "Cognate electives (11 credits)",
+   "hint": "Eleven credits of cognate electives outside Movement Science, with at least six of the eleven outside the School of Kinesiology. Matched against the published November 2022 cognate list; the department can approve other courses by petition, so add approved off list courses with the include control. Women's Studies courses on the list now run under the WGS subject.",
+   "need": 11,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "ALA 106",
+    "ALA 109",
+    "ANTHRBIO 201",
+    "ANTHRBIO 297",
+    "ANTHRBIO 364",
+    "ANTHRCUL 344",
+    "ANTHRCUL 409",
+    "AT 115",
+    "AT 117",
+    "AT 200",
+    "AT 205",
+    "AT 210",
+    "AT 212",
+    "AT 215",
+    "AT 217",
+    "AT 326",
+    "BIOLCHEM 212",
+    "BIOLCHEM 415",
+    "BIOLCHEM 451",
+    "BIOLOGY 101",
+    "BIOLOGY 118",
+    "BIOLOGY 205",
+    "BIOLOGY 207",
+    "BIOLOGY 225",
+    "BIOLOGY 226",
+    "BIOLOGY 252",
+    "BIOLOGY 305",
+    "BIOMEDE 417",
+    "BIOMEDE 456",
+    "BIOPHYS 520",
+    "CEE 211",
+    "CHEM 120",
+    "CHEM 125",
+    "CHEM 126",
+    "CHEM 210",
+    "CHEM 211",
+    "CHEM 215",
+    "CHEM 216",
+    "CHEM 230",
+    "CHEM 260",
+    "CHEM 261",
+    "CHEM 302",
+    "CHEM 351",
+    "CHEM 398",
+    "CHEM 451",
+    "CHEM 467",
+    "CHEM 482",
+    "CHEM 520",
+    "CMPLXSYS 541",
+    "EECS 280",
+    "EECS 281",
+    "EECS 285",
+    "EECS 370",
+    "EECS 478",
+    "ENGR 371",
+    "HISTORY 284",
+    "HISTORY 376",
+    "HONORS 493",
+    "IOE 333",
+    "IOE 334",
+    "IOE 474",
+    "MATH 116",
+    "MATH 214",
+    "MATH 215",
+    "MATH 216",
+    "MATH 371",
+    "MCDB 310",
+    "MCDB 418",
+    "MCDB 423",
+    "MCDB 427",
+    "MCDB 428",
+    "MCDB 429",
+    "MCDB 436",
+    "MECHENG 211",
+    "MECHENG 240",
+    "MECHENG 456",
+    "MICRBIOL 302",
+    "MICRBIOL 350",
+    "MICRBIOL 405",
+    "NURS 220",
+    "PHIL 232",
+    "PHIL 340",
+    "PHIL 356",
+    "PHIL 383",
+    "PHYSICS 126",
+    "PHYSICS 127",
+    "PHYSICS 128",
+    "PHYSICS 141",
+    "PHYSICS 151",
+    "PHYSICS 240",
+    "PHYSICS 241",
+    "PHYSICS 250",
+    "PHYSICS 251",
+    "PHYSICS 401",
+    "PHYSICS 413",
+    "PHYSIOL 404",
+    "PHYSIOL 502",
+    "PHYSIOL 541",
+    "PSYCH 211",
+    "PSYCH 230",
+    "PSYCH 240",
+    "PSYCH 250",
+    "PSYCH 270",
+    "PSYCH 280",
+    "PSYCH 290",
+    "PSYCH 335",
+    "PSYCH 345",
+    "PSYCH 351",
+    "PSYCH 355",
+    "PSYCH 401",
+    "PSYCH 442",
+    "PUBHLTH 200",
+    "PUBHLTH 210",
+    "PUBHLTH 626",
+    "SM 434",
+    "SM 437",
+    "SOC 302",
+    "SOC 475",
+    "WGS 220",
+    "WGS 400"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2022-11/MOVESCI%20Cognate%20Courses%202022.pdf"
+   ]
+  }
+ ],
+ "sourceUrl": "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf"
+}

@@ -121,6 +121,9 @@ import s25 from './smtd-bma-performance.json';
 import s26 from './smtd-bs-sound-engineering.json';
 import s27 from './smtd-bta.json';
 import n1 from './nursing-bsn.json';
+import k1 from './kines-applied-exercise-science.json';
+import k2 from './kines-movement-science.json';
+import k3 from './kines-sport-management.json';
 
 export const all: Major[] = [
   p1 as Major,
@@ -244,4 +247,7 @@ export const all: Major[] = [
   s26 as Major,
   s27 as Major,
   n1 as Major,
+  k1 as Major,
+  k2 as Major,
+  k3 as Major,
 ];

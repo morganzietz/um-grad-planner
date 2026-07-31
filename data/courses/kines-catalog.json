@@ -1,0 +1,2739 @@
+{
+ "source": "School of Kinesiology course catalog (kines.umich.edu/academics/course-catalog) via Internet Archive captures, plus hand-curated 2025-2026 bulletin courses",
+ "subjects": [
+  "AES",
+  "AT",
+  "KINESLGY",
+  "KINSTUDY",
+  "MOVESCI",
+  "SM"
+ ],
+ "courses": [
+  {
+   "code": "AES 100",
+   "title": "Intro to AES",
+   "credits": 2,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 110",
+   "title": "Bio&Beh Bases Hu Mvt",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 212",
+   "title": "Stud Ath Hlt&Welfare",
+   "credits": 2,
+   "offeredTerms": [
+    "spring",
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 218",
+   "title": "Emergency Response",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 220",
+   "title": "Physiology",
+   "credits": 3,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 221",
+   "title": "PhysiologyLaboratory",
+   "credits": 1,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 230",
+   "title": "Hum Musculo Anat",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 231",
+   "title": "Hum Musculo Anat Lab",
+   "credits": 1,
+   "offeredTerms": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 240",
+   "title": "Prin Phys Act&Wellns",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 241",
+   "title": "Ex Nutr Wt Cn",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 242",
+   "title": "Essent Exerc Phys",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 243",
+   "title": "Essntls in ExPhysLab",
+   "credits": 1,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 251",
+   "title": "Tech AES",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AES 270",
+   "title": "Honors Reading",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AES 280",
+   "title": "Research Opport",
+   "credits": 4,
+   "offeredTerms": [
+    "winter",
+    "fall",
+    "spring"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 290",
+   "title": "Field Exp AES",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 313",
+   "title": "Special Topics",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 315",
+   "title": "Ex Rx & Test",
+   "credits": 3,
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 330",
+   "title": "Biomech Lab",
+   "credits": 1,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 331",
+   "title": "Biomech Sprt Ftns",
+   "credits": 3,
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 332",
+   "title": "Prin Motor Behavior",
+   "credits": 3,
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 333",
+   "title": "Leg/Eth Iss in Sport",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 334",
+   "title": "Exercise Psychology",
+   "credits": 3,
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 336",
+   "title": "Phys Act Hlthy Aging",
+   "credits": 3,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 337",
+   "title": "Developing Social-Emotional Skills Through Physical Activities for Children",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AES 370",
+   "title": "Honors Reading",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AES 380",
+   "title": "Honors Research",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AES 402",
+   "title": "Teach Exp AES",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AES 403",
+   "title": "Internship in AES",
+   "credits": 2,
+   "offeredTerms": [
+    "winter",
+    "fall",
+    "summer",
+    "spring"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 407",
+   "title": "Ex Assessment",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 408",
+   "title": "Ex Pathophys Rx",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 413",
+   "title": "Special Topics AES",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 416",
+   "title": "Environmental Policy",
+   "credits": 3,
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 417",
+   "title": "Intro to Qualitative Research Methods",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AES 420",
+   "title": "Obesity Weight Management & Exercise",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AES 425",
+   "title": "Disability &Movement",
+   "credits": 4,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 426",
+   "title": "StrengthConditioning",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 434",
+   "title": "Mgr Ethcs Sprt Fitns",
+   "credits": 3,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 437",
+   "title": "Psych Sport&Exer",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 446",
+   "title": "Soc Factors Phys Act",
+   "credits": 3,
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 451",
+   "title": "PA Lifespan",
+   "credits": 3,
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 460",
+   "title": "PhysActyIntervention",
+   "credits": 3,
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AES 470",
+   "title": "Independent Study",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "AES 493",
+   "title": "Clinical ExTest ECG",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AT 218",
+   "title": "Emergency Response",
+   "credits": 3,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AT 403",
+   "title": "Internship in AT",
+   "credits": 4,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AT 501",
+   "title": "Prev&Care Ath Inj",
+   "credits": 3,
+   "offeredTerms": [
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AT 502",
+   "title": "Prev&Care-AT Inj Lab",
+   "credits": 2,
+   "offeredTerms": [
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AT 503",
+   "title": "Low Extrem Eval",
+   "credits": 3,
+   "offeredTerms": [
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AT 504",
+   "title": "Low Extrem Lab",
+   "credits": 1,
+   "offeredTerms": [
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AT 505",
+   "title": "Em Med Resp Ath Tr",
+   "credits": 3,
+   "offeredTerms": [
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AT 510",
+   "title": "Clin Exper AT 1",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AT 511",
+   "title": "Upper Extrem Eval",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AT 512",
+   "title": "Upper Extrem Lab",
+   "credits": 1,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AT 513",
+   "title": "Therap Modalities",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AT 514",
+   "title": "Ther Modalities Lab",
+   "credits": 1,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AT 515",
+   "title": "Rehab Ath Injuries",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AT 516",
+   "title": "Rehab Athlet Inj Lab",
+   "credits": 1,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AT 520",
+   "title": "Clin Exper AT 2",
+   "credits": 3,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AT 521",
+   "title": "AT Admin",
+   "credits": 3,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AT 523",
+   "title": "Pathophys and Pharm",
+   "credits": 3,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AT 525",
+   "title": "Fund of Strngth&Cond",
+   "credits": 3,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AT 610",
+   "title": "Clin Exper AT 3",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AT 611",
+   "title": "Research Methods",
+   "credits": 3,
+   "offeredTerms": [
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AT 613",
+   "title": "Contemp Issue Sp Med",
+   "credits": 3,
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "AT 620",
+   "title": "Immersive AT Exper",
+   "credits": 6,
+   "offeredTerms": [
+    "summer",
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 302",
+   "title": "Kines Study Abroad",
+   "credits": 18,
+   "offeredTerms": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 402",
+   "title": "Teach Exper",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 413",
+   "title": "Special Topics MVS",
+   "credits": 3,
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 414",
+   "title": "Dir Teach Sem",
+   "credits": 2,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 415",
+   "title": "Dir Teach P E",
+   "credits": 12,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 416",
+   "title": "Environmental Policy",
+   "credits": 3,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 421",
+   "title": "Disord Vol Move",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 422",
+   "title": "Motor Learning",
+   "credits": 3,
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 423",
+   "title": "Sensorimot Dev",
+   "credits": 3,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 424",
+   "title": "Aging&Motor Perfmnc",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 425",
+   "title": "Disability & Mvmt",
+   "credits": 4,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 427",
+   "title": "Expertise",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 428",
+   "title": "AppMotorDevChildren",
+   "credits": 2,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 429",
+   "title": "Lab Mtr Cnt Dev",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 431",
+   "title": "Clinical Gait",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 435",
+   "title": "Biomech Hum Locomot",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 437",
+   "title": "MotnCap Anim Biomech",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 438",
+   "title": "Musculoskeletal Imag",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 439",
+   "title": "Lab Biomechanic",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 441",
+   "title": "Environ Exer Phys",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 442",
+   "title": "Exer Endocrinology",
+   "credits": 3,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 443",
+   "title": "Exrcse&Succ Aging",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 444",
+   "title": "6-12 Methods in PE",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 446",
+   "title": "Soc Factors Phys Act",
+   "credits": 3,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 448",
+   "title": "CV Ex Phys",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 449",
+   "title": "Lab Exer Phys",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 450",
+   "title": "Sem Adapted Phys Act",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 451",
+   "title": "PA Lifespan",
+   "credits": 3,
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 452",
+   "title": "Exp w/Wearable Tech",
+   "credits": 3,
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 453",
+   "title": "Spt Concussion",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 471",
+   "title": "Phys Activity Epid",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 473",
+   "title": "Schl Hlth Prog",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 474",
+   "title": "Worksite Wellness",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 475",
+   "title": "HIV/AIDS",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 500",
+   "title": "Topical Seminar",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 505",
+   "title": "Disability Studies",
+   "credits": 3,
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 506",
+   "title": "Mngng Prof Spt Fran",
+   "credits": 2,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 510",
+   "title": "Exp Crse Biomech",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 511",
+   "title": "Exp Crse Exer Phys",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 512",
+   "title": "Exp Crse Motor Ctrl",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 513",
+   "title": "Experimental Course",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 519",
+   "title": "Spt Mgmt in Depth",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 520",
+   "title": "Sem Motor Control",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 522",
+   "title": "Clin Neurophys Image",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 530",
+   "title": "Sem Biomechanics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 531",
+   "title": "Analysis in MATLAB",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 533",
+   "title": "Neuromechanics",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 542",
+   "title": "Exercise Nutrition",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 551",
+   "title": "Thry SprtCons Beh",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 572",
+   "title": "Fit EvalExer Presc",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 600",
+   "title": "Grad Sem MVS",
+   "credits": 1,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 606",
+   "title": "Topics Kinesiology",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 615",
+   "title": "Phil Sci Res Kines",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 616",
+   "title": "Prof Skills Res Sci",
+   "credits": 3,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 619",
+   "title": "Thesis Research",
+   "credits": 1,
+   "offeredTerms": [
+    "fall",
+    "winter",
+    "spring",
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 640",
+   "title": "Exp in Hum Exer Phys",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 680",
+   "title": "Practicum Kines",
+   "credits": 6,
+   "offeredTerms": [
+    "fall",
+    "winter",
+    "spring",
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 682",
+   "title": "Ind Read in Kin",
+   "credits": 1,
+   "offeredTerms": [
+    "fall",
+    "winter",
+    "spring",
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 684",
+   "title": "Ind Res in Kin",
+   "credits": 1,
+   "offeredTerms": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 685",
+   "title": "Res Rotation in Kin",
+   "credits": 6,
+   "offeredTerms": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 686",
+   "title": "Intern in Kines",
+   "credits": 1,
+   "offeredTerms": [
+    "fall",
+    "winter",
+    "spring",
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 990",
+   "title": "Diss-Precand",
+   "credits": 1,
+   "offeredTerms": [
+    "fall",
+    "winter",
+    "spring",
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINESLGY 995",
+   "title": "Diss-Cand",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "KINSTUDY 100",
+   "title": "First Year Seminar",
+   "credits": 1,
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINSTUDY 200",
+   "title": "Topics Human Perform",
+   "credits": 3,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINSTUDY 201",
+   "title": "Tech Data Sports Sci",
+   "credits": 3,
+   "offeredTerms": [
+    "winter",
+    "spring"
+   ],
+   "tags": []
+  },
+  {
+   "code": "KINSTUDY 202",
+   "title": "Soc Cont Sports Sci",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 100",
+   "title": "Seminar Movement Sci",
+   "credits": 1,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 110",
+   "title": "Bio&Beh Bases Hu Mvt",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 219",
+   "title": "Scientific Writing",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 230",
+   "title": "Hum Musculo Anat",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter",
+    "spring",
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 231",
+   "title": "Hum Musculo Anat Lab",
+   "credits": 1,
+   "offeredTerms": [
+    "fall",
+    "winter",
+    "spring",
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 240",
+   "title": "Prin Phys Act&Wellns",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 241",
+   "title": "Ex Nutr Wt Cn",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 250",
+   "title": "Statistics",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter",
+    "spring",
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 280",
+   "title": "Kin UG Research Opp",
+   "credits": 4,
+   "offeredTerms": [
+    "fall",
+    "winter",
+    "spring",
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 290",
+   "title": "Field Exp MOVESCI",
+   "credits": 1,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 305",
+   "title": "Topical Sem",
+   "credits": 1,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 313",
+   "title": "Special Topics",
+   "credits": 2,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 320",
+   "title": "Motor Control",
+   "credits": 4,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 330",
+   "title": "Biomech of Hum Mvmt",
+   "credits": 4,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 340",
+   "title": "Exercise Physiol",
+   "credits": 4,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 361",
+   "title": "Intro Surg Neuromon",
+   "credits": 3,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 362",
+   "title": "Surg Neuromon Lab",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 363",
+   "title": "IONM",
+   "credits": 4,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 380",
+   "title": "Prob in Move Sci",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 381",
+   "title": "Comm Serv Learn",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 382",
+   "title": "Honors Reading",
+   "credits": 1,
+   "offeredTerms": [
+    "fall",
+    "winter",
+    "spring",
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 384",
+   "title": "Honors Research",
+   "credits": 1,
+   "offeredTerms": [
+    "fall",
+    "winter",
+    "spring",
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 390",
+   "title": "Field Exp MVS",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 402",
+   "title": "Teach Exp MVS",
+   "credits": 1,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 403",
+   "title": "Internship",
+   "credits": 4,
+   "offeredTerms": [
+    "fall",
+    "winter",
+    "spring",
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 408",
+   "title": "Ex Pathophys Rx",
+   "credits": 3,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 413",
+   "title": "Special Topics MVS",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 421",
+   "title": "Disord Vol Move",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 422",
+   "title": "Motor Learning",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 423",
+   "title": "Sensorimot Dev",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 424",
+   "title": "Aging&Motor Perfmnc",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 425",
+   "title": "Disability &Movement",
+   "credits": 4,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 426",
+   "title": "Cog Neuro of Action",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 427",
+   "title": "Expertise",
+   "credits": 3,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 428",
+   "title": "AppMotorDevChildren",
+   "credits": 2,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 429",
+   "title": "Lab Mtr Cnt Dev",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 431",
+   "title": "Clinical Gait",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 434",
+   "title": "Sci Inquiry Mocap",
+   "credits": 3,
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 435",
+   "title": "Biomech Hum Locomot",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 437",
+   "title": "MotnCap Anim Biomech",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 438",
+   "title": "Musculoskeletal Imag",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 439",
+   "title": "Lab Biomechanic",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 441",
+   "title": "ExerHum Biol",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 442",
+   "title": "Exer Endocrinology",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 443",
+   "title": "Exrcse&Succ Aging",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 444",
+   "title": "Exercise Nutrition",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 446",
+   "title": "Soc Factors Phys Act",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 447",
+   "title": "Diabetes & Exercise",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 448",
+   "title": "CV Ex Phys",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 449",
+   "title": "Lab Exer Phys",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 450",
+   "title": "Sem Adapted Phys Act",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 451",
+   "title": "PA Lifespan",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 452",
+   "title": "Exp w/Wearable Tech",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 453",
+   "title": "SprtConcussMedSciSoc",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 464",
+   "title": "Clin Rot IONM I",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 465",
+   "title": "Neuro Adv Top IONM",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 466",
+   "title": "Clin Rot IONM II",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 467",
+   "title": "Clin Rot IONM III",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 471",
+   "title": "Phy Act Hlt Dis",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 474",
+   "title": "Worksite Wellness",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 475",
+   "title": "Pharm Allied Hl Prof",
+   "credits": 2,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 477",
+   "title": "Science of Medicine",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 481",
+   "title": "Service Learning",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 488",
+   "title": "Independent Study",
+   "credits": 1,
+   "offeredTerms": [
+    "fall",
+    "winter",
+    "spring",
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 489",
+   "title": "Senior Thesis",
+   "credits": 2,
+   "offeredTerms": [
+    "fall",
+    "winter",
+    "spring",
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 490",
+   "title": "Sr Honors Thesis-A",
+   "credits": 1,
+   "offeredTerms": [
+    "fall",
+    "winter",
+    "spring",
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 491",
+   "title": "MOVESCI 491",
+   "credits": 1,
+   "offeredTerms": [
+    "fall",
+    "winter",
+    "spring",
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 502",
+   "title": "Teach Exper for MVS",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 507",
+   "title": "Ex Assessment",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 508",
+   "title": "Ex Pathophys Rx",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 509",
+   "title": "Clinical Ex Test ECG",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 513",
+   "title": "Experimental Course",
+   "credits": 3,
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 520",
+   "title": "Sem Motor Control",
+   "credits": 3,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 521",
+   "title": "Disord Vol Move",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 522",
+   "title": "Motor Learning",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 523",
+   "title": "IntgrtvProc: Dvlpmnt",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 524",
+   "title": "Aging&Motor Perfmnc",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 525",
+   "title": "Disability &Movement",
+   "credits": 4,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 528",
+   "title": "AppMotorDevChildren",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 531",
+   "title": "Clinical Gait",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 532",
+   "title": "Clinical Gait",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 533",
+   "title": "Neuromechanics",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 538",
+   "title": "Musculoskeletal Imag",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 540",
+   "title": "Adv Exerc Phys",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 542",
+   "title": "Exer Endocrinology",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 543",
+   "title": "Exrcse&Succ Aging",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 545",
+   "title": "Metab Respon to Exer",
+   "credits": 3,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 546",
+   "title": "Soc Factors Phys Act",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 547",
+   "title": "Diabetes & Exercise",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 552",
+   "title": "Exp w/Wearable Tech",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 560",
+   "title": "PhysActyIntervention",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 629",
+   "title": "Lab Mtr Cnt Dev",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 639",
+   "title": "Lab Biomech",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "MOVESCI 649",
+   "title": "Lab Exer Phys",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 100",
+   "title": "SM Seminar",
+   "credits": 2,
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 101",
+   "title": "Pub&Small Grp Comm",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 111",
+   "title": "Iss in Sport&Fitness",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 203",
+   "title": "Intro Sport Mgmt",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "spring",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 217",
+   "title": "Business Comm",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "spring",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 238",
+   "title": "Intro to Accounting",
+   "credits": 1.5,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 239",
+   "title": "IntroFinancialDecMak",
+   "credits": 1.5,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 241",
+   "title": "Sports Econ&Pol",
+   "credits": 3,
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 246",
+   "title": "Prin of Marketing",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "spring",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 249",
+   "title": "Research Methods",
+   "credits": 4,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 270",
+   "title": "Honors Reading",
+   "credits": 1,
+   "offeredTerms": [
+    "fall",
+    "spring",
+    "summer",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 280",
+   "title": "Research Opport",
+   "credits": 4,
+   "offeredTerms": [
+    "fall",
+    "winter",
+    "spring",
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 313",
+   "title": "Special Topics",
+   "credits": 1.5,
+   "offeredTerms": [
+    "fall",
+    "spring",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 317",
+   "title": "Career Planning",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 330",
+   "title": "Data Mgmt & Vis in R",
+   "credits": 1.5,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 331",
+   "title": "Bus Optimization",
+   "credits": 1.5,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 332",
+   "title": "Org Behave-Sport Org",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 333",
+   "title": "Leg/Eth Iss in Sport",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 341",
+   "title": "Sport Finance",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 361",
+   "title": "Detroit Sports Cultr",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 370",
+   "title": "Honors Reading",
+   "credits": 1,
+   "offeredTerms": [
+    "fall",
+    "winter",
+    "spring",
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 380",
+   "title": "Honors Research",
+   "credits": 1,
+   "offeredTerms": [
+    "fall",
+    "winter",
+    "spring",
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 390",
+   "title": "Field Experience",
+   "credits": 1,
+   "offeredTerms": [
+    "fall",
+    "winter",
+    "spring",
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 402",
+   "title": "Teach Expernce SM",
+   "credits": 1,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 403",
+   "title": "Internship in SM",
+   "credits": 1,
+   "offeredTerms": [
+    "fall",
+    "winter",
+    "spring",
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 421",
+   "title": "Gender and Sport",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SM 428",
+   "title": "Exp Mktg In Sport",
+   "credits": 3,
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 429",
+   "title": "Soc Media In Sport",
+   "credits": 3,
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 430",
+   "title": "SocEnt&Nonprofit Mgt",
+   "credits": 3,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 431",
+   "title": "Sports & the Media",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 432",
+   "title": "Hum Res Mang in Spt",
+   "credits": 3,
+   "offeredTerms": [
+    "winter",
+    "spring"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 433",
+   "title": "Spt&Public Policy",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 434",
+   "title": "Mgr Ethcs Sprt Fitns",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 435",
+   "title": "Sport&the Consumer",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 436",
+   "title": "Race Rel,Cul Images",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 437",
+   "title": "Psych Sport&Exer",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "spring",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 438",
+   "title": "Econ College Sport",
+   "credits": 3,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 439",
+   "title": "Spnsrshp Lnkd Mrktng",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 440",
+   "title": "Sport,EconDev&UrbRev",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 441",
+   "title": "Monetizing Sport",
+   "credits": 3,
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 442",
+   "title": "Sports Real Est Devp",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 443",
+   "title": "Sport Ven Res Sem",
+   "credits": 3,
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 444",
+   "title": "Sales Mng in Spt Ind",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 445",
+   "title": "Sport Tourism",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 446",
+   "title": "Brand Strat&Ad Camp",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 450",
+   "title": "Intro to Sport Analy",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 451",
+   "title": "SportAnlytcsTeamPerf",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 452",
+   "title": "Sport SocMedia Analy",
+   "credits": 1.5,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 454",
+   "title": "SportMarketingAnaly",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 461",
+   "title": "Detroit Sports",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 462",
+   "title": "Global & ML Soccer",
+   "credits": 1.5,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 463",
+   "title": "Football & Football",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 464",
+   "title": "Sport and Development",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SM 465",
+   "title": "Global Perspectives in Sport Management",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SM 470",
+   "title": "Independent Study",
+   "credits": 1,
+   "offeredTerms": [
+    "fall",
+    "winter",
+    "spring",
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 480",
+   "title": "Business of Sport and Environmental Sustainability",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SM 490",
+   "title": "Sr Honors Thesis",
+   "credits": 1,
+   "offeredTerms": [
+    "fall",
+    "winter",
+    "spring",
+    "summer"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 499",
+   "title": "Strat of Sport Orgs",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 503",
+   "title": "Legal Asp of Sport",
+   "credits": 3,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 509",
+   "title": "Fin Mgmt Spt Indus",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 513",
+   "title": "Special Topics",
+   "credits": 3,
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 514",
+   "title": "Strat Mngmt in Sport",
+   "credits": 3,
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 515",
+   "title": "Phil Sci & Res SM",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 520",
+   "title": "Diversity in Sport",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 532",
+   "title": "Org Behavior and HR",
+   "credits": 3,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 542",
+   "title": "Sports Real Est Devp",
+   "credits": 3,
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 543",
+   "title": "Sport Ven Res Sem",
+   "credits": 3,
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 550",
+   "title": "Mkt Mngmtin Sport",
+   "credits": 3,
+   "offeredTerms": [
+    "fall"
+   ],
+   "tags": []
+  },
+  {
+   "code": "SM 560",
+   "title": "Intro Stats SM",
+   "credits": 3,
+   "offeredTerms": [
+    "winter"
+   ],
+   "tags": []
+  }
+ ]
+}

@@ -1,0 +1,314 @@
+{
+ "id": "kines-applied-exercise-science",
+ "name": "Applied Exercise Science (BS)",
+ "school": "School of Kinesiology",
+ "goalCredits": 120,
+ "requirements": [
+  {
+   "id": "kines-total-credits",
+   "label": "120 Total Credits",
+   "hint": "The BS requires at least 120 credits, with 60 of the 120 earned in residence and 30 of the final 60 in residence. A cumulative GPA of 2.0 is required to graduate. Kinesiology courses and courses required for the degree may not be taken pass fail; at most four pass fail courses outside Kinesiology are allowed, no more than one per term. Requirements follow the 2025-2026 Undergraduate Bulletin for students who matriculated Fall 2023 or later.",
+   "need": 120,
+   "countMode": "credits",
+   "category": "kines-credit-min",
+   "matchAll": true,
+   "minGrade": "D-",
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf"
+   ]
+  },
+  {
+   "id": "kines-aes-hu",
+   "label": "Humanities distribution (12 credits)",
+   "hint": "Twelve credits of humanities coursework. Major courses may double count; the record sheet pre-populates SM 101 and SM 217 or MOVESCI 219 here, and all U-M language courses count as humanities for Kinesiology students. Kinesiology courses do not carry LSA distribution marks in the planner, so add them to this requirement with the include control when you use them for distribution.",
+   "need": 12,
+   "countMode": "credits",
+   "category": "kines-distribution",
+   "matchTag": "lsa-humanities",
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20AES%20Record%20Sheet%202024-25%20r1a.pdf"
+   ]
+  },
+  {
+   "id": "kines-aes-ns",
+   "label": "Natural Science distribution (12 credits)",
+   "hint": "Kinesiology states this area as Natural Science and Quantitative Reasoning. The record sheet pre-populates MATH 105, AES 110, AES 220 and 221 or PHYSIOL 201, and the statistics course. Kinesiology courses do not carry LSA distribution marks in the planner, so add them with the include control when you use them for distribution.",
+   "need": 12,
+   "countMode": "credits",
+   "category": "kines-distribution",
+   "matchTag": "lsa-natural-sciences",
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20AES%20Record%20Sheet%202024-25%20r1a.pdf"
+   ]
+  },
+  {
+   "id": "kines-aes-ss",
+   "label": "Social Science distribution (12 credits)",
+   "hint": "Twelve credits of social science coursework. Major courses may double count; the record sheet pre-populates PSYCH 111 and AES 334. Kinesiology courses do not carry LSA distribution marks in the planner, so add them with the include control when you use them for distribution.",
+   "need": 12,
+   "countMode": "credits",
+   "category": "kines-distribution",
+   "matchTag": "lsa-social-sciences",
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20AES%20Record%20Sheet%202024-25%20r1a.pdf"
+   ]
+  },
+  {
+   "id": "kines-aes-fywr",
+   "label": "First year writing",
+   "hint": "ENGLISH 125 or another approved first year writing course, with a grade of C or better.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchTag": "lsa-fywr",
+   "minGrade": "C",
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20AES%20Record%20Sheet%202024-25%20r1a.pdf"
+   ]
+  },
+  {
+   "id": "kines-aes-math",
+   "label": "Mathematics (MATH 105 or higher)",
+   "hint": "MATH 105 with a C or better. MATH 115 with a C- or better also fulfills, as does AP credit for MATH 120 or a Calculus Definite math placement recommendation. Incoming AES freshmen must take MATH 105 at U-M; the course cannot be transferred.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "minGrade": "C-",
+   "matchCodes": [
+    "MATH 105",
+    "MATH 115",
+    "MATH 120"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20AES%20Record%20Sheet%202024-25%20r1a.pdf"
+   ]
+  },
+  {
+   "id": "kines-aes-psych",
+   "label": "Introductory psychology",
+   "hint": "PSYCH 111 or PSYCH 112. AP or IB Psychology credit can fulfill this requirement.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": [
+    "PSYCH 111",
+    "PSYCH 112"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20AES%20Record%20Sheet%202024-25%20r1a.pdf"
+   ]
+  },
+  {
+   "id": "kines-aes-stats",
+   "label": "Introductory statistics",
+   "hint": "MOVESCI 250, STATS 250, STATS 280, or SOC 210. AP Statistics credit does not fulfill this requirement; students with AP Stats credit can take MOVESCI 250 or STATS 280 to retain it.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": [
+    "MOVESCI 250",
+    "STATS 250",
+    "STATS 280",
+    "SOC 210"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20AES%20Record%20Sheet%202024-25%20r1a.pdf"
+   ]
+  },
+  {
+   "id": "kines-aes-intro",
+   "label": "AES 100 and AES 218",
+   "hint": "AES 100 Introduction to Applied Exercise Science and AES 218 Emergency Response.",
+   "need": 2,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": [
+    "AES 100",
+    "AES 218"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20AES%20Record%20Sheet%202024-25%20r1a.pdf"
+   ]
+  },
+  {
+   "id": "kines-aes-physiology",
+   "label": "Applied human physiology",
+   "hint": "AES 220 and AES 221 taken concurrently, or PHYSIOL 201 alone. A grade of C or better is required. Students with non equivalent physiology transfer credit can sit for a placement exam to test out.",
+   "need": 4,
+   "countMode": "credits",
+   "category": "prerequisites",
+   "minGrade": "C",
+   "matchCodes": [
+    "AES 220",
+    "AES 221",
+    "PHYSIOL 201"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20AES%20Record%20Sheet%202024-25%20r1a.pdf"
+   ]
+  },
+  {
+   "id": "kines-aes-field-experience",
+   "label": "AES 290 Field Experience (2 credits)",
+   "hint": "Two credits of AES 290, designed for lower classmen; the experience may be repeated for credit when the content differs. Fifty internship hours equal one credit.",
+   "need": 2,
+   "countMode": "credits",
+   "category": "prerequisites",
+   "matchCodes": [
+    "AES 290"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20AES%20Record%20Sheet%202024-25%20r1a.pdf"
+   ]
+  },
+  {
+   "id": "kines-aes-supporting",
+   "label": "SM 101 and AES 110",
+   "hint": "SM 101 Public and Small Group Communication and AES 110 Biological and Behavioral Bases of Human Movement.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "SM 101",
+    "AES 110"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20AES%20Record%20Sheet%202024-25%20r1a.pdf"
+   ]
+  },
+  {
+   "id": "kines-aes-communication",
+   "label": "Communication course",
+   "hint": "AES 413 Science Communication, SM 217 Business Communications, or MOVESCI 219 Scientific Writing. AES 413 is a special topics number that also runs other titles; only the Science Communication section fulfills this requirement.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "AES 413",
+    "SM 217",
+    "MOVESCI 219"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20AES%20Record%20Sheet%202024-25%20r1a.pdf"
+   ]
+  },
+  {
+   "id": "kines-aes-anatomy",
+   "label": "Musculoskeletal anatomy",
+   "hint": "MOVESCI 230 and MOVESCI 231 together, or ANATOMY 403 alone.",
+   "need": 4,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "MOVESCI 230",
+    "MOVESCI 231",
+    "ANATOMY 403"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20AES%20Record%20Sheet%202024-25%20r1a.pdf"
+   ]
+  },
+  {
+   "id": "kines-aes-core",
+   "label": "AES core coursework",
+   "hint": "AES 242 and 243, Essentials of Exercise Physiology lecture and lab; AES 315 Exercise Prescription and Testing, which cannot be transferred; AES 331 and 330, Biomechanics lecture and lab; AES 332 Principles of Motor Behavior; and AES 334 Exercise Psychology. AES 242, 331, and 332 require the physiology requirement with a C or better first.",
+   "need": 7,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "AES 242",
+    "AES 243",
+    "AES 315",
+    "AES 331",
+    "AES 330",
+    "AES 332",
+    "AES 334"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20AES%20Record%20Sheet%202024-25%20r1a.pdf"
+   ]
+  },
+  {
+   "id": "kines-aes-social-behavioral",
+   "label": "Social-behavioral courses (two of four)",
+   "hint": "Two of AES 416, AES 446, AES 451, and AES 460, grounding physical activity in social and ecological context. These carry senior standing or core course prerequisites; see the bulletin.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "AES 416",
+    "AES 446",
+    "AES 451",
+    "AES 460"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20AES%20Record%20Sheet%202024-25%20r1a.pdf"
+   ]
+  },
+  {
+   "id": "kines-aes-internship",
+   "label": "AES 403 Internship (3 credits)",
+   "hint": "Three credits of AES 403 are required in total; the internship may be repeated in one to three credit elections when the content differs, and the planner counts one election. Eligibility requires junior standing, a cumulative GPA of 2.5, AES 315, AES 218, and SM 217 or MOVESCI 219. Fifty internship hours equal one credit.",
+   "need": 1,
+   "countMode": "count",
+   "category": "capstone",
+   "matchCodes": [
+    "AES 403"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://www.kines.umich.edu/sites/default/files/2024-11/Accessible%20AES%20Record%20Sheet%202024-25%20r1a.pdf"
+   ]
+  },
+  {
+   "id": "kines-aes-electives",
+   "label": "AES electives (15 credits)",
+   "hint": "Fifteen credits from the published Fall 2023 and later AES electives list. A course used toward a core requirement cannot double count as an elective, and ANATOMY 403 can be an elective or the anatomy core choice but not both. Several AES 413 special topics sections qualify.",
+   "need": 15,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "AES 313",
+    "AES 333",
+    "AES 336",
+    "AES 337",
+    "AES 402",
+    "AES 403",
+    "AES 407",
+    "AES 408",
+    "AES 413",
+    "AES 416",
+    "AES 417",
+    "AES 420",
+    "AES 425",
+    "AES 426",
+    "AES 446",
+    "AES 451",
+    "AES 460",
+    "AES 470",
+    "AES 493",
+    "ANATOMY 403"
+   ],
+   "sources": [
+    "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf",
+    "https://docs.google.com/document/d/14r2XQaKVroqw9MR89BLAzFkZvS-jbRCba6_PBoMNIJk/"
+   ]
+  }
+ ],
+ "sourceUrl": "https://www.kines.umich.edu/sites/default/files/2026-04/2025-2026%20Undergraduate%20Bulletin.pdf"
+}
