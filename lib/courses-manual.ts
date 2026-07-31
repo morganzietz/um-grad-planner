@@ -25,6 +25,8 @@ import type { Course } from './types';
 export const AP_CREDIT = 'ap-credit';
 export const NON_LSA = 'non-lsa';
 export const SI_CREDIT = 'si-credit';
+export const SMTD_CREDIT = 'smtd-credit';
+export const SMTD_MUSIC = 'smtd-music';
 export const CS_DEPT = 'cs-dept';
 export const CS_MAJOR_UPPER = 'cs-major-upper';
 export const CS_UPPER_ELECTIVE = 'cs-upper-elective';

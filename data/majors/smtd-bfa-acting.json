@@ -1,0 +1,167 @@
+{
+ "id": "smtd-bfa-acting",
+ "name": "Theatre Performance: Acting (BFA)",
+ "school": "School of Music, Theatre & Dance",
+ "goalCredits": 122,
+ "requirements": [
+  {
+   "id": "smtd-total-credits",
+   "label": "122 Total Credits",
+   "hint": "The BFA in Theatre Performance: Acting requires a minimum of 122 credits. Requirements follow the 2024-2025 Silent Advisor; SMTD students follow the curriculum of their admit year.",
+   "need": 122,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://smtd.umich.edu/degree/bachelor-of-fine-arts-in-theatre-drama-acting/",
+    "https://drive.google.com/file/d/1gG6gROr9BwEe1SD3jwTBbAfssE6KSvE-/view"
+   ]
+  },
+  {
+   "id": "smtd-liberal-arts-credits",
+   "label": "Non-SMTD credits (41)",
+   "hint": "At least 41 credits outside SMTD. Courses within Arts Administration also count as non-SMTD.",
+   "need": 41,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "excludeTags": ["smtd-credit"],
+   "sources": [
+    "https://drive.google.com/file/d/1gG6gROr9BwEe1SD3jwTBbAfssE6KSvE-/view"
+   ]
+  },
+  {
+   "id": "smtd-acting-theatre-credits",
+   "label": "Theatre credits (69)",
+   "hint": "A minimum of 69 credits in Theatre courses.",
+   "need": 69,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchTag": "subj-thtremus",
+   "sources": [
+    "https://drive.google.com/file/d/1gG6gROr9BwEe1SD3jwTBbAfssE6KSvE-/view"
+   ]
+  },
+  {
+   "id": "smtd-acting-smtd-credits",
+   "label": "SMTD credits (80)",
+   "hint": "The 69 Theatre credits plus a minimum of 11 SMTD elective credits, which may include courses within Theatre, Musical Theatre, Dance, or Music.",
+   "need": 80,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchTag": "smtd-credit",
+   "sources": [
+    "https://drive.google.com/file/d/1gG6gROr9BwEe1SD3jwTBbAfssE6KSvE-/view"
+   ]
+  },
+  {
+   "id": "smtd-acting-core",
+   "label": "Acting core (26 courses)",
+   "hint": "The full acting sequence: Movement I-III and Physical Theatre, Acting I-V, VII, and VIII, Voice I-III, Stage Combat I and II, Stage Dialects, On Camera I and II, Script Analysis, Intro to Technical Theatre, Production Practicum, History of Theatre I and II, and Studio I and II. Studio credits (THTREMUS 387/388) are earned when cast in a production, 2 credits per production, minimum 4 credits. A grade below C- in any Performance course does not count.",
+   "need": 26,
+   "countMode": "count",
+   "category": "core",
+   "minGrade": "C-",
+   "matchCodes": [
+    "THTREMUS 172", "THTREMUS 181", "THTREMUS 182", "THTREMUS 192",
+    "THTREMUS 250", "THTREMUS 251", "THTREMUS 271", "THTREMUS 272",
+    "THTREMUS 274", "THTREMUS 281", "THTREMUS 282", "THTREMUS 283",
+    "THTREMUS 291", "THTREMUS 292", "THTREMUS 321", "THTREMUS 322",
+    "THTREMUS 371", "THTREMUS 374", "THTREMUS 381", "THTREMUS 383",
+    "THTREMUS 387", "THTREMUS 388", "THTREMUS 395", "THTREMUS 481",
+    "THTREMUS 482", "THTREMUS 484"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1gG6gROr9BwEe1SD3jwTBbAfssE6KSvE-/view"
+   ]
+  },
+  {
+   "id": "smtd-acting-theatre-history-elective",
+   "label": "Additional Theatre history elective (3 credits)",
+   "hint": "One additional elective chosen from THTREMUS 323 American Theatre and Drama, 324 Global Community Practice, 325 Contemporary American Theatre and Drama, 326 Intercultural Drama, or 440 Topics in African American Theatre.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "THTREMUS 323", "THTREMUS 324", "THTREMUS 325", "THTREMUS 326",
+    "THTREMUS 440"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1gG6gROr9BwEe1SD3jwTBbAfssE6KSvE-/view"
+   ]
+  },
+  {
+   "id": "smtd-acting-dei-elective",
+   "label": "Theatre DEI elective",
+   "hint": "One course chosen from THTREMUS 233 Acting Outside the Box: Multicultural Acting, 399 Hip Hop Theatre, or 335 Theatre and Incarceration. Other Theatre DEI electives may be considered with approval of a faculty advisor.",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "matchCodes": ["THTREMUS 233", "THTREMUS 399", "THTREMUS 335"],
+   "sources": [
+    "https://drive.google.com/file/d/1gG6gROr9BwEe1SD3jwTBbAfssE6KSvE-/view"
+   ]
+  },
+  {
+   "id": "smtd-acting-flexible-elective",
+   "label": "Flexible Acting/Skills elective",
+   "hint": "Still building automatic checking for this rule. One advanced skills course, which may include Voiceover, Advanced Stage Combat, Comedy, Advanced Movement, Senior Seminar, Solo Performance, or other advanced skills courses approved by the department.",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "manual": true,
+   "sources": [
+    "https://drive.google.com/file/d/1gG6gROr9BwEe1SD3jwTBbAfssE6KSvE-/view"
+   ]
+  },
+  {
+   "id": "smtd-acting-fywr",
+   "label": "First year writing",
+   "hint": "ENGLISH 124, 125, or an equivalent first year writing course.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-fywr",
+   "sources": [
+    "https://drive.google.com/file/d/1gG6gROr9BwEe1SD3jwTBbAfssE6KSvE-/view"
+   ]
+  },
+  {
+   "id": "smtd-acting-ulwr",
+   "label": "Upper level writing",
+   "hint": "An upper level writing course approved by the Sweetland Writing Center.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-ulwr",
+   "sources": [
+    "https://drive.google.com/file/d/1gG6gROr9BwEe1SD3jwTBbAfssE6KSvE-/view"
+   ]
+  },
+  {
+   "id": "smtd-acting-race-ethnicity",
+   "label": "Race and Ethnicity electives (2 courses)",
+   "hint": "Two courses in Race and Ethnicity chosen from an approved LSA list, 3 to 4 credits each.",
+   "need": 2,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-race-ethnicity",
+   "sources": [
+    "https://drive.google.com/file/d/1gG6gROr9BwEe1SD3jwTBbAfssE6KSvE-/view"
+   ]
+  },
+  {
+   "id": "smtd-acting-language",
+   "label": "Foreign language (1 term)",
+   "hint": "One term of a foreign language, or demonstrated proficiency.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-language",
+   "sources": [
+    "https://drive.google.com/file/d/1gG6gROr9BwEe1SD3jwTBbAfssE6KSvE-/view"
+   ]
+  }
+ ],
+ "sourceUrl": "https://smtd.umich.edu/degree/bachelor-of-fine-arts-in-theatre-drama-acting/"
+}

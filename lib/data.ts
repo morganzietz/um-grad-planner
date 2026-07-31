@@ -4,6 +4,7 @@ import socData from '../data/courses/soc.json';
 import coeBulletinData from '../data/courses/coe-bulletin.json';
 import rossBulletinData from '../data/courses/ross-bulletin.json';
 import umsiCatalogData from '../data/courses/umsi-catalog.json';
+import smtdCatalogData from '../data/courses/smtd-catalog.json';
 import { all as bundledMinors } from '../data/minors';
 import {
   manualCourses,
@@ -11,6 +12,8 @@ import {
   AP_CREDIT,
   NON_LSA,
   SI_CREDIT,
+  SMTD_CREDIT,
+  SMTD_MUSIC,
   CS_DEPT,
   CS_MAJOR_UPPER,
   CS_UPPER_ELECTIVE,
@@ -42,6 +45,10 @@ const rossBulletinCourses =
 /** Full UMSI catalog from the school's public course catalog sheet. */
 const umsiCatalogCourses =
   (umsiCatalogData as unknown as { courses: Course[] }).courses ?? [];
+
+/** Full SMTD catalog from the school's public course-description docs. */
+const smtdCatalogCourses =
+  (smtdCatalogData as unknown as { courses: Course[] }).courses ?? [];
 
 // ─── Merge scraped + manual + programmatic tags → courseCatalog ───────────
 
@@ -162,6 +169,30 @@ const ROSS_SUBJECTS: ReadonlySet<string> = new Set([
   'ACC', 'BA', 'BCOM', 'BE', 'BL', 'ES', 'FIN', 'MKT', 'MO', 'STRATEGY', 'TO',
 ]);
 
+/**
+ * SMTD subjects, from the school's Course Descriptions Index docs. SMTD
+ * degrees state minimums as "X% within SMTD" / "Y liberal arts (non-SMTD)
+ * credits"; membership is by subject.
+ */
+const SMTD_SUBJECTS: ReadonlySet<string> = new Set([
+  'ARTSADMN', 'BASSOON', 'CARILLON', 'CELLO', 'CHAMBER', 'CLARINET', 'COMP',
+  'CONDUCT', 'DANCE', 'DBLBASS', 'ENS', 'EUPHBARI', 'FLUTE', 'FPIANO',
+  'FRENHORN', 'GUITAR', 'HARP', 'JAZZ', 'MUSED', 'MUSIC', 'MUSICOL',
+  'MUSPERF', 'MUSTHTRE', 'OBOE', 'OPERA', 'ORGAN', 'ORGANLIT', 'PAT',
+  'PERCUSS', 'PIANO', 'PIANOLP', 'SACREDMU', 'SAX', 'THEORY', 'THTREMUS',
+  'TROMBONE', 'TRUM', 'TUBA', 'VIOLA', 'VIOLIN', 'VOICE', 'VOICELIT',
+  'WELLNESS',
+]);
+
+/**
+ * SMTD subjects that count as NON-Music for BM "minimum non-Music credits"
+ * rules. Per the published Silent Advisors: "courses within Arts
+ * Administration, Dance, and Theatre may also count as non-Music."
+ */
+const SMTD_NON_MUSIC_SUBJECTS: ReadonlySet<string> = new Set([
+  'ARTSADMN', 'DANCE', 'THTREMUS',
+]);
+
 // CoE Intellectual Breadth: a Liberal Arts Course is marked HU or SS and not
 // also marked BS, NS, or QR. ECON 101 and 102 count by explicit exception in
 // the CoE Bulletin (they are SS + QR and would otherwise be excluded).
@@ -179,6 +210,9 @@ function applyProgrammaticTags(c: Course): Course {
   // Umbrella tag for the LSA "30 distribution credits" requirement.
   const hasAnyDist = c.tags.some((t) => LSA_DIST_TAGS.has(t));
   if (hasAnyDist) extras.push('lsa-distribution');
+  // BA in Music distribution electives also accept Quantitative Reasoning
+  // courses, which are not an LSA distribution area.
+  if (hasAnyDist || c.tags.includes('lsa-qr')) extras.push('smtd-ba-distribution');
   if (isCoeLiberalArts(c)) {
     extras.push('coe-liberal-arts');
     const num = parseInt(c.code.split(/\s+/)[1] ?? '', 10);
@@ -188,6 +222,21 @@ function applyProgrammaticTags(c: Course): Course {
   // the union of the LSA Natural Science and Math & Symbolic Analysis marks.
   if (ROSS_SUBJECTS.has(c.code.split(/\s+/)[0] ?? '')) {
     extras.push('ross-business');
+  }
+  // SMTD credit membership by subject. Music vs non-Music matters for the
+  // BM degrees' "minimum non-Music credits" buckets.
+  {
+    const subj = c.code.split(/\s+/)[0] ?? '';
+    // Arts Administration is an SMTD subject but the Silent Advisors state
+    // its courses may count as non-SMTD; leaving smtd-credit off makes them
+    // count toward non-SMTD minimums by default (force into an SMTD-credit
+    // row with the adjust control if preferred).
+    if (SMTD_SUBJECTS.has(subj) && subj !== 'ARTSADMN') {
+      extras.push(SMTD_CREDIT);
+      if (!SMTD_NON_MUSIC_SUBJECTS.has(subj)) extras.push(SMTD_MUSIC);
+      // Union tag for "electives in Dance or Theatre" rules that mix subjects.
+      if (subj === 'DANCE' || subj === 'THTREMUS') extras.push('smtd-dance-theatre');
+    }
   }
   if (c.tags.includes('lsa-natural-sciences') || c.tags.includes('lsa-math-symbolic')) {
     extras.push('ross-ns-msa');
@@ -230,7 +279,7 @@ function buildCatalog(): Course[] {
   // NOT list is not approved for LSA credit, so SOC-only entries get the
   // non-lsa tag; without it, every Ross/CoE/SPH course would wrongly count
   // toward the LSA "100 LSA credits" college rules.
-  for (const c of [...socCourses, ...coeBulletinCourses, ...rossBulletinCourses, ...umsiCatalogCourses]) {
+  for (const c of [...socCourses, ...coeBulletinCourses, ...rossBulletinCourses, ...umsiCatalogCourses, ...smtdCatalogCourses]) {
     if (byCode.has(c.code)) continue;
     const tags = c.tags.includes(NON_LSA) ? c.tags : [...c.tags, NON_LSA];
     byCode.set(c.code, { ...c, tags });

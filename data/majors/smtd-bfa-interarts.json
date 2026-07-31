@@ -1,0 +1,33 @@
+{
+ "id": "smtd-bfa-interarts",
+ "name": "Interarts Performance (BFA)",
+ "school": "School of Music, Theatre & Dance",
+ "goalCredits": 130,
+ "requirements": [
+  {
+   "id": "smtd-total-credits",
+   "label": "130 Total Credits",
+   "hint": "The BFA in Interarts Performance requires a minimum of 130 credits, jointly with the Stamps School of Art & Design. Coursework is 70 percent within SMTD and Stamps and 30 percent within the liberal arts. SMTD students follow the curriculum of their admit year.",
+   "need": 130,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://smtd.umich.edu/degree/bachelor-of-fine-arts-in-interarts/"
+   ]
+  },
+  {
+   "id": "smtd-interarts-curriculum",
+   "label": "Interarts Performance curriculum",
+   "hint": "Still building automatic checking for this program. Course by course requirements are published by the Stamps School on its BFA in Interarts Performance page. Work with your Stamps and SMTD advisors and mark courses via overrides.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "manual": true,
+   "sources": [
+    "https://smtd.umich.edu/degree/bachelor-of-fine-arts-in-interarts/"
+   ]
+  }
+ ],
+ "sourceUrl": "https://smtd.umich.edu/degree/bachelor-of-fine-arts-in-interarts/"
+}

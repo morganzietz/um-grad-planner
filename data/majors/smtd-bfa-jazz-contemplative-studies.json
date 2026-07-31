@@ -1,0 +1,298 @@
+{
+ "id": "smtd-bfa-jazz-contemplative-studies",
+ "name": "Jazz and Contemplative Studies (BFA)",
+ "school": "School of Music, Theatre & Dance",
+ "goalCredits": 120,
+ "requirements": [
+  {
+   "id": "smtd-total-credits",
+   "label": "120 Total Credits",
+   "hint": "The BFA in Jazz and Contemplative Studies requires a minimum of 120 credits. Requirements follow the 2024-2025 Silent Advisor; SMTD students follow the curriculum of their admit year.",
+   "need": 120,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://smtd.umich.edu/degree/bachelor-of-fine-arts-in-jazz-contemporary-improvisation/",
+    "https://drive.google.com/file/d/1dUN7aiOGJQK1d5Q-n5lF9aClTIBumOhk/view"
+   ]
+  },
+  {
+   "id": "smtd-non-music-credits",
+   "label": "Non-Music credits (30)",
+   "hint": "At least 30 credits outside music. Courses within Arts Administration, Dance, and Theatre also count as non-Music.",
+   "need": 30,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "excludeTags": [
+    "smtd-music"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1dUN7aiOGJQK1d5Q-n5lF9aClTIBumOhk/view"
+   ]
+  },
+  {
+   "id": "smtd-jcs-smtd-credits",
+   "label": "SMTD credits (90)",
+   "hint": "At least 90 credits within SMTD.",
+   "need": 90,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchTag": "smtd-credit",
+   "sources": [
+    "https://drive.google.com/file/d/1dUN7aiOGJQK1d5Q-n5lF9aClTIBumOhk/view"
+   ]
+  },
+  {
+   "id": "smtd-jcs-theory-musicol-core",
+   "label": "Music Theory and Musicology core",
+   "hint": "THEORY 149 Written Skills I, JAZZ 114 Contemporary Basic Musicianship, PAT 150 Experiential Music Theory, and MUSICOL 139 Intro to the Study of Music.",
+   "need": 4,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "THEORY 149",
+    "JAZZ 114",
+    "PAT 150",
+    "MUSICOL 139"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1dUN7aiOGJQK1d5Q-n5lF9aClTIBumOhk/view"
+   ]
+  },
+  {
+   "id": "smtd-jcs-musicology-elective",
+   "label": "Musicology elective",
+   "hint": "One Musicology elective, 2 to 3 credits.",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "matchTag": "subj-musicol",
+   "sources": [
+    "https://drive.google.com/file/d/1dUN7aiOGJQK1d5Q-n5lF9aClTIBumOhk/view"
+   ]
+  },
+  {
+   "id": "smtd-jcs-musicol-theory-electives",
+   "label": "Additional Musicology or Theory courses (3)",
+   "hint": "Three additional courses chosen from Musicology and/or Theory. Other SMTD electives may substitute in consultation with an advisor.",
+   "need": 3,
+   "countMode": "count",
+   "category": "electives",
+   "matchCodes": [
+    "MUSICOL 121",
+    "MUSICOL 122",
+    "MUSICOL 123",
+    "MUSICOL 130",
+    "MUSICOL 139",
+    "MUSICOL 140",
+    "MUSICOL 239",
+    "MUSICOL 240",
+    "MUSICOL 343",
+    "MUSICOL 345",
+    "MUSICOL 346",
+    "MUSICOL 413",
+    "MUSICOL 414",
+    "MUSICOL 417",
+    "MUSICOL 420",
+    "MUSICOL 421",
+    "MUSICOL 423",
+    "MUSICOL 424",
+    "MUSICOL 450",
+    "MUSICOL 457",
+    "MUSICOL 458",
+    "MUSICOL 464",
+    "MUSICOL 465",
+    "MUSICOL 467",
+    "MUSICOL 477",
+    "MUSICOL 481",
+    "THEORY 135",
+    "THEORY 137",
+    "THEORY 139",
+    "THEORY 140",
+    "THEORY 149",
+    "THEORY 150",
+    "THEORY 211",
+    "THEORY 212",
+    "THEORY 236",
+    "THEORY 238",
+    "THEORY 239",
+    "THEORY 240",
+    "THEORY 249",
+    "THEORY 250",
+    "THEORY 334",
+    "THEORY 339",
+    "THEORY 407",
+    "THEORY 430",
+    "THEORY 433",
+    "THEORY 436",
+    "THEORY 438",
+    "THEORY 440",
+    "THEORY 442",
+    "THEORY 443",
+    "THEORY 454",
+    "THEORY 455",
+    "THEORY 460",
+    "THEORY 461"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1dUN7aiOGJQK1d5Q-n5lF9aClTIBumOhk/view"
+   ]
+  },
+  {
+   "id": "smtd-jcs-class-piano",
+   "label": "Class Piano (PIANO 110, 111, 112)",
+   "hint": "PIANO 110, 111, and 112, or proficiency.",
+   "need": 3,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "PIANO 110",
+    "PIANO 111",
+    "PIANO 112"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1dUN7aiOGJQK1d5Q-n5lF9aClTIBumOhk/view"
+   ]
+  },
+  {
+   "id": "smtd-jcs-ensemble",
+   "label": "ENS 460: Jazz Ensemble (4 terms)",
+   "hint": "Four terms of ENS 460 Jazz Ensemble. The planner counts one election; repeat it across terms.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "ENS 460"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1dUN7aiOGJQK1d5Q-n5lF9aClTIBumOhk/view"
+   ]
+  },
+  {
+   "id": "smtd-jcs-ensemble-additional",
+   "label": "Additional ensemble (4 terms)",
+   "hint": "Four additional terms chosen from ENS 462 Small Jazz Ensemble or ENS 467 Creative Arts Orchestra. Repeat elections across terms count.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "ENS 462",
+    "ENS 467"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1dUN7aiOGJQK1d5Q-n5lF9aClTIBumOhk/view"
+   ]
+  },
+  {
+   "id": "smtd-jcs-performance-lessons",
+   "label": "Performance lessons (24 credits)",
+   "hint": "Private jazz study every term, minimum 24 credits or completion of JAZZ 402.",
+   "need": 24,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "JAZZ 101",
+    "JAZZ 102",
+    "JAZZ 201",
+    "JAZZ 202",
+    "JAZZ 301",
+    "JAZZ 302",
+    "JAZZ 401",
+    "JAZZ 402"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1dUN7aiOGJQK1d5Q-n5lF9aClTIBumOhk/view"
+   ]
+  },
+  {
+   "id": "smtd-jcs-senior-recital",
+   "label": "MUSPERF 440: Senior Recital",
+   "hint": "Zero credit capstone recital in the final year.",
+   "need": 1,
+   "countMode": "count",
+   "category": "capstone",
+   "matchCodes": [
+    "MUSPERF 440"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1dUN7aiOGJQK1d5Q-n5lF9aClTIBumOhk/view"
+   ]
+  },
+  {
+   "id": "smtd-jcs-core",
+   "label": "Jazz core requirements",
+   "hint": "JAZZ 113 Jazz Piano, 422 Jazz Styles and Historical Practice, 423 Black Music Matters, 432 Fundamentals of Rhythm, 470 Improvisational Forms, 466 Improvisation I, 467 Improvisation II, 471 Upper Level Improvisation, and 468 Compositional Forms. JAZZ 432 is not yet in the planner catalog, so the audit counts 8 of the 9; verify JAZZ 432 by hand.",
+   "need": 8,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "JAZZ 113",
+    "JAZZ 422",
+    "JAZZ 423",
+    "JAZZ 432",
+    "JAZZ 466",
+    "JAZZ 467",
+    "JAZZ 468",
+    "JAZZ 470",
+    "JAZZ 471"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1dUN7aiOGJQK1d5Q-n5lF9aClTIBumOhk/view"
+   ]
+  },
+  {
+   "id": "smtd-jcs-contemplative",
+   "label": "Contemplative practices (4 terms)",
+   "hint": "JAZZ 450 Contemplative Practices Seminar or JAZZ 455 Creativity and Consciousness, elected four terms. The planner counts one election; repeat across terms.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "JAZZ 450",
+    "JAZZ 455"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1dUN7aiOGJQK1d5Q-n5lF9aClTIBumOhk/view"
+   ]
+  },
+  {
+   "id": "smtd-jcs-fywr",
+   "label": "First year writing",
+   "hint": "ENGLISH 124, 125, or an equivalent first year writing course.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-fywr",
+   "sources": [
+    "https://drive.google.com/file/d/1dUN7aiOGJQK1d5Q-n5lF9aClTIBumOhk/view"
+   ]
+  },
+  {
+   "id": "smtd-jcs-ulwr",
+   "label": "Upper level writing",
+   "hint": "An upper level writing course approved by the Sweetland Writing Center.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-ulwr",
+   "sources": [
+    "https://drive.google.com/file/d/1dUN7aiOGJQK1d5Q-n5lF9aClTIBumOhk/view"
+   ]
+  },
+  {
+   "id": "smtd-jcs-nonsmtd-subjects",
+   "label": "Non-SMTD subject courses (5)",
+   "hint": "Minimum 5 non-SMTD courses chosen from Anthropology, Cultural Studies, Psychology, Religion, Neuroscience, and other areas as approved with a departmental faculty advisor. We are still building automatic checking for this advisor approved list.",
+   "need": 5,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "manual": true,
+   "sources": [
+    "https://drive.google.com/file/d/1dUN7aiOGJQK1d5Q-n5lF9aClTIBumOhk/view"
+   ]
+  }
+ ],
+ "sourceUrl": "https://smtd.umich.edu/degree/bachelor-of-fine-arts-in-jazz-contemporary-improvisation/"
+}

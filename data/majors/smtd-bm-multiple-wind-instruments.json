@@ -1,0 +1,406 @@
+{
+ "id": "smtd-bm-multiple-wind-instruments",
+ "name": "Multiple Wind Instruments Performance (BM)",
+ "school": "School of Music, Theatre & Dance",
+ "goalCredits": 131,
+ "requirements": [
+  {
+   "id": "smtd-total-credits",
+   "label": "131 Total Credits",
+   "hint": "The BM in Performance: Multiple Wind Instruments requires a minimum of 131 credits. Requirements follow the 2024-2025 Silent Advisor; SMTD students follow the curriculum of their admit year.",
+   "need": 131,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://smtd.umich.edu/degree/bachelor-of-music-in-performance-multiple-winds/",
+    "https://drive.google.com/file/d/1ncTCu1Lb5uM_ZlhjtMabzzJVPDHByshi/view"
+   ]
+  },
+  {
+   "id": "smtd-non-music-credits",
+   "label": "Non-Music credits (30)",
+   "hint": "At least 30 credits outside music. Courses within Arts Administration, Dance, and Theatre also count as non-Music.",
+   "need": 30,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "excludeTags": [
+    "smtd-music"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1ncTCu1Lb5uM_ZlhjtMabzzJVPDHByshi/view"
+   ]
+  },
+  {
+   "id": "smtd-mw-theory-core",
+   "label": "Music Theory core (Aural and Written Skills I-IV)",
+   "hint": "THEORY 139, 149, 140, 150, 239, 249, 240, and 250. The aural and written skills sequences run across the first two years. JAZZ 220 can be taken in place of THEORY 239 and 249, and JAZZ 221 in place of THEORY 240 and 250 (use an override if you substitute).",
+   "need": 8,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "THEORY 139",
+    "THEORY 149",
+    "THEORY 140",
+    "THEORY 150",
+    "THEORY 239",
+    "THEORY 249",
+    "THEORY 240",
+    "THEORY 250"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1ncTCu1Lb5uM_ZlhjtMabzzJVPDHByshi/view"
+   ]
+  },
+  {
+   "id": "smtd-mw-theory-400-elective",
+   "label": "400 level Theory elective (3 credits)",
+   "hint": "One 400 level Theory elective.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "THEORY 407",
+    "THEORY 430",
+    "THEORY 433",
+    "THEORY 436",
+    "THEORY 438",
+    "THEORY 440",
+    "THEORY 442",
+    "THEORY 443",
+    "THEORY 454",
+    "THEORY 455",
+    "THEORY 460",
+    "THEORY 461"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1ncTCu1Lb5uM_ZlhjtMabzzJVPDHByshi/view"
+   ]
+  },
+  {
+   "id": "smtd-mw-musicology-core",
+   "label": "Musicology core",
+   "hint": "MUSICOL 139 Intro to the Study of Music, 140 History of U.S. Musics, 239 History of Music, and 240 History of Western Music.",
+   "need": 4,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MUSICOL 139",
+    "MUSICOL 140",
+    "MUSICOL 239",
+    "MUSICOL 240"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1ncTCu1Lb5uM_ZlhjtMabzzJVPDHByshi/view"
+   ]
+  },
+  {
+   "id": "smtd-mw-musicol-theory-jazz-400",
+   "label": "400 level Musicology, Theory, or listed Jazz elective (3 credits)",
+   "hint": "One 400 level Musicology or Theory elective, or JAZZ 460, 467, 470, or 479.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "MUSICOL 413",
+    "MUSICOL 414",
+    "MUSICOL 417",
+    "MUSICOL 420",
+    "MUSICOL 421",
+    "MUSICOL 423",
+    "MUSICOL 424",
+    "MUSICOL 450",
+    "MUSICOL 457",
+    "MUSICOL 458",
+    "MUSICOL 464",
+    "MUSICOL 465",
+    "MUSICOL 467",
+    "MUSICOL 477",
+    "MUSICOL 481",
+    "THEORY 407",
+    "THEORY 430",
+    "THEORY 433",
+    "THEORY 436",
+    "THEORY 438",
+    "THEORY 440",
+    "THEORY 442",
+    "THEORY 443",
+    "THEORY 454",
+    "THEORY 455",
+    "THEORY 460",
+    "THEORY 461",
+    "JAZZ 460",
+    "JAZZ 467",
+    "JAZZ 470",
+    "JAZZ 479"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1ncTCu1Lb5uM_ZlhjtMabzzJVPDHByshi/view"
+   ]
+  },
+  {
+   "id": "smtd-mw-class-piano",
+   "label": "Class Piano (through PIANO 112 or proficiency)",
+   "hint": "PIANO 110, 111, and 112, or demonstrated proficiency. If you place out of any level, use the adjust control to mark it satisfied.",
+   "need": 3,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "PIANO 110",
+    "PIANO 111",
+    "PIANO 112"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1ncTCu1Lb5uM_ZlhjtMabzzJVPDHByshi/view"
+   ]
+  },
+  {
+   "id": "smtd-mw-large-ensemble",
+   "label": "Large ensemble (every term)",
+   "hint": "A listed large ensemble elected every term. The planner counts one election; repeat it across terms.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "ENS 345",
+    "ENS 347",
+    "ENS 460"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1ncTCu1Lb5uM_ZlhjtMabzzJVPDHByshi/view"
+   ]
+  },
+  {
+   "id": "smtd-mw-small-ensemble",
+   "label": "Small ensemble (3 terms)",
+   "hint": "Three terms of small ensemble chosen from the listed groups. The planner counts one election; repeat it across terms.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "ENS 461",
+    "ENS 463",
+    "ENS 465",
+    "ENS 466",
+    "ENS 400",
+    "ENS 475"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1ncTCu1Lb5uM_ZlhjtMabzzJVPDHByshi/view"
+   ]
+  },
+  {
+   "id": "smtd-mw-primary-lessons",
+   "label": "Performance lessons, major instrument (24 credits)",
+   "hint": "Minimum 24 credits of private study on the major wind instrument every term, with completion of the 440 level.",
+   "need": 24,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "FLUTE 139",
+    "FLUTE 140",
+    "FLUTE 239",
+    "FLUTE 240",
+    "FLUTE 339",
+    "FLUTE 340",
+    "FLUTE 439",
+    "FLUTE 440",
+    "OBOE 139",
+    "OBOE 140",
+    "OBOE 239",
+    "OBOE 240",
+    "OBOE 339",
+    "OBOE 340",
+    "OBOE 439",
+    "OBOE 440",
+    "CLARINET 139",
+    "CLARINET 140",
+    "CLARINET 239",
+    "CLARINET 240",
+    "CLARINET 339",
+    "CLARINET 340",
+    "CLARINET 439",
+    "CLARINET 440",
+    "BASSOON 139",
+    "BASSOON 140",
+    "BASSOON 239",
+    "BASSOON 240",
+    "BASSOON 339",
+    "BASSOON 340",
+    "BASSOON 439",
+    "BASSOON 440",
+    "SAX 139",
+    "SAX 140",
+    "SAX 239",
+    "SAX 240",
+    "SAX 339",
+    "SAX 340",
+    "SAX 439",
+    "SAX 440",
+    "FRENHORN 139",
+    "FRENHORN 140",
+    "FRENHORN 239",
+    "FRENHORN 240",
+    "FRENHORN 339",
+    "FRENHORN 340",
+    "FRENHORN 439",
+    "FRENHORN 440",
+    "TRUM 139",
+    "TRUM 140",
+    "TRUM 239",
+    "TRUM 240",
+    "TRUM 339",
+    "TRUM 340",
+    "TRUM 439",
+    "TRUM 440",
+    "TROMBONE 139",
+    "TROMBONE 140",
+    "TROMBONE 239",
+    "TROMBONE 240",
+    "TROMBONE 339",
+    "TROMBONE 340",
+    "TROMBONE 439",
+    "TROMBONE 440",
+    "EUPHBARI 139",
+    "EUPHBARI 140",
+    "EUPHBARI 239",
+    "EUPHBARI 240",
+    "EUPHBARI 339",
+    "EUPHBARI 340",
+    "EUPHBARI 439",
+    "EUPHBARI 440",
+    "TUBA 139",
+    "TUBA 140",
+    "TUBA 239",
+    "TUBA 240",
+    "TUBA 339",
+    "TUBA 340",
+    "TUBA 439",
+    "TUBA 440"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1ncTCu1Lb5uM_ZlhjtMabzzJVPDHByshi/view"
+   ]
+  },
+  {
+   "id": "smtd-mw-secondary-lessons",
+   "label": "Secondary lessons, related instruments (16 credits)",
+   "hint": "Secondary lessons on related wind instruments (the 111 to 114 sequence on each), two credits per term across eight terms in the 2024-2025 layout, with proficiency at the 114 level demonstrated on each related instrument.",
+   "need": 16,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "FLUTE 111",
+    "FLUTE 112",
+    "FLUTE 113",
+    "FLUTE 114",
+    "OBOE 111",
+    "OBOE 112",
+    "OBOE 113",
+    "OBOE 114",
+    "CLARINET 111",
+    "CLARINET 112",
+    "CLARINET 113",
+    "CLARINET 114",
+    "BASSOON 111",
+    "BASSOON 112",
+    "BASSOON 113",
+    "BASSOON 114",
+    "SAX 111",
+    "SAX 112",
+    "SAX 113",
+    "SAX 114",
+    "FRENHORN 111",
+    "FRENHORN 112",
+    "FRENHORN 113",
+    "FRENHORN 114",
+    "TRUM 111",
+    "TRUM 112",
+    "TRUM 113",
+    "TRUM 114",
+    "TROMBONE 111",
+    "TROMBONE 112",
+    "TROMBONE 113",
+    "TROMBONE 114",
+    "EUPHBARI 111",
+    "EUPHBARI 112",
+    "EUPHBARI 113",
+    "EUPHBARI 114",
+    "TUBA 111",
+    "TUBA 112",
+    "TUBA 113",
+    "TUBA 114"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1ncTCu1Lb5uM_ZlhjtMabzzJVPDHByshi/view"
+   ]
+  },
+  {
+   "id": "smtd-mw-conducting",
+   "label": "Conducting (CONDUCT 315 and 316)",
+   "hint": "CONDUCT 315 Elementary Conducting I and CONDUCT 316 Elementary Conducting II.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CONDUCT 315",
+    "CONDUCT 316"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1ncTCu1Lb5uM_ZlhjtMabzzJVPDHByshi/view"
+   ]
+  },
+  {
+   "id": "smtd-mw-senior-recital",
+   "label": "MUSPERF 440: Senior Recital",
+   "hint": "Zero credit capstone recital in the final year, taken alongside the 440 level lessons.",
+   "need": 1,
+   "countMode": "count",
+   "category": "capstone",
+   "matchCodes": [
+    "MUSPERF 440"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1ncTCu1Lb5uM_ZlhjtMabzzJVPDHByshi/view"
+   ]
+  },
+  {
+   "id": "smtd-mw-fywr",
+   "label": "First year writing",
+   "hint": "ENGLISH 124, 125, or an equivalent first year writing course.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-fywr",
+   "sources": [
+    "https://drive.google.com/file/d/1ncTCu1Lb5uM_ZlhjtMabzzJVPDHByshi/view"
+   ]
+  },
+  {
+   "id": "smtd-mw-ulwr",
+   "label": "Upper level writing",
+   "hint": "An upper level writing course approved by the Sweetland Writing Center.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-ulwr",
+   "sources": [
+    "https://drive.google.com/file/d/1ncTCu1Lb5uM_ZlhjtMabzzJVPDHByshi/view"
+   ]
+  },
+  {
+   "id": "smtd-mw-race-ethnicity",
+   "label": "Race and Ethnicity course",
+   "hint": "One course in Race and Ethnicity selected from approved courses within LSA, or within SMTD by petition. SMTD RE courses will not count into overall non-SMTD credits.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-race-ethnicity",
+   "sources": [
+    "https://drive.google.com/file/d/1ncTCu1Lb5uM_ZlhjtMabzzJVPDHByshi/view"
+   ]
+  }
+ ],
+ "sourceUrl": "https://smtd.umich.edu/degree/bachelor-of-music-in-performance-multiple-winds/"
+}

@@ -1,0 +1,444 @@
+{
+ "id": "smtd-bfa-performing-arts-technology",
+ "name": "Performing Arts Technology (BFA)",
+ "school": "School of Music, Theatre & Dance",
+ "goalCredits": 120,
+ "requirements": [
+  {
+   "id": "smtd-total-credits",
+   "label": "120 Total Credits",
+   "hint": "The BFA in Performing Arts Technology requires a minimum of 120 credits. Requirements follow the 2024-2025 Silent Advisor; SMTD students follow the curriculum of their admit year.",
+   "need": 120,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://smtd.umich.edu/degree/bachelor-of-fine-arts-in-performing-arts-technology-music-technology/",
+    "https://drive.google.com/file/d/1cng9QgFuI-2dbuCyo7wDKYt9aPFRgJoQ/view"
+   ]
+  },
+  {
+   "id": "smtd-liberal-arts-credits",
+   "label": "Non-SMTD credits (30)",
+   "hint": "The school states this as a percentage: at least 25 percent of coursework, about 30 of 120 credits, must be outside SMTD. This covers first year writing, upper level writing, Race and Ethnicity, Math 105, the programming elective, the ARTDES/FTVM courses, and non-SMTD concentration electives.",
+   "need": 30,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "excludeTags": [
+    "smtd-credit"
+   ],
+   "sources": [
+    "https://smtd.umich.edu/degree/bachelor-of-fine-arts-in-performing-arts-technology-music-technology/",
+    "https://drive.google.com/file/d/1cng9QgFuI-2dbuCyo7wDKYt9aPFRgJoQ/view"
+   ]
+  },
+  {
+   "id": "smtd-pat-theory-1",
+   "label": "Music Theory: Aural and Written Skills I",
+   "hint": "THEORY 139 Aural Skills I and THEORY 149 Written Skills I.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "THEORY 139",
+    "THEORY 149"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1cng9QgFuI-2dbuCyo7wDKYt9aPFRgJoQ/view"
+   ]
+  },
+  {
+   "id": "smtd-pat-theory-2",
+   "label": "Music Theory: Aural and Written Skills II or Experiential Theory",
+   "hint": "THEORY 140 and 150, or PAT 150 Experiential Theory. Students who elect PAT 150 are not eligible to take Theory 239, 249, 240, and 250, but may take Jazz 220 and 221.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "pickFromGroups": [
+    "smtd-pat-theory-2-theory",
+    "smtd-pat-theory-2-pat"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1cng9QgFuI-2dbuCyo7wDKYt9aPFRgJoQ/view"
+   ]
+  },
+  {
+   "id": "smtd-pat-theory-2-theory",
+   "label": "Theory 140 and 150",
+   "hint": "Aural Skills II and Written Skills II.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "THEORY 140",
+    "THEORY 150"
+   ]
+  },
+  {
+   "id": "smtd-pat-theory-2-pat",
+   "label": "PAT 150: Experiential Theory",
+   "hint": "PAT 150 in place of Theory 140 and 150.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "PAT 150"
+   ]
+  },
+  {
+   "id": "smtd-pat-theory-upper",
+   "label": "Upper Music Theory (Theory III-IV, Jazz 220-221, or listed electives)",
+   "hint": "Choose one combination: THEORY 239, 249, 240, and 250; or JAZZ 220 and 221; or 6 credits chosen from JAZZ 460, 466, 467, 468, MUSICOL 465, WGS 354, RCMUSIC 258, and RCMUSIC 321.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "pickFromGroups": [
+    "smtd-pat-theory-upper-theory",
+    "smtd-pat-theory-upper-jazz",
+    "smtd-pat-theory-upper-listed"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1cng9QgFuI-2dbuCyo7wDKYt9aPFRgJoQ/view"
+   ]
+  },
+  {
+   "id": "smtd-pat-theory-upper-theory",
+   "label": "Theory 239, 249, 240, and 250",
+   "hint": "Aural and Written Skills III and IV.",
+   "need": 4,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "THEORY 239",
+    "THEORY 249",
+    "THEORY 240",
+    "THEORY 250"
+   ]
+  },
+  {
+   "id": "smtd-pat-theory-upper-jazz",
+   "label": "Jazz 220 and 221",
+   "hint": "JAZZ 220 Basic Musicianship I and JAZZ 221 Basic Musicianship II.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "JAZZ 220",
+    "JAZZ 221"
+   ]
+  },
+  {
+   "id": "smtd-pat-theory-upper-listed",
+   "label": "Listed musicianship electives (6 credits)",
+   "hint": "Six credits chosen from JAZZ 460, 466, 467, 468, MUSICOL 465, WGS 354, RCMUSIC 258, and RCMUSIC 321.",
+   "need": 6,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "JAZZ 460",
+    "JAZZ 466",
+    "JAZZ 467",
+    "JAZZ 468",
+    "MUSICOL 465",
+    "WGS 354",
+    "RCMUSIC 258",
+    "RCMUSIC 321"
+   ]
+  },
+  {
+   "id": "smtd-pat-musicology",
+   "label": "Musicology (2 courses)",
+   "hint": "Two courses in Musicology, 4 to 6 credits.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchTag": "subj-musicol",
+   "sources": [
+    "https://drive.google.com/file/d/1cng9QgFuI-2dbuCyo7wDKYt9aPFRgJoQ/view"
+   ]
+  },
+  {
+   "id": "smtd-pat-class-piano",
+   "label": "Class Piano (Piano 110 and 111)",
+   "hint": "PIANO 110 and 111, two credits each, or proficiency.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "PIANO 110",
+    "PIANO 111"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1cng9QgFuI-2dbuCyo7wDKYt9aPFRgJoQ/view"
+   ]
+  },
+  {
+   "id": "smtd-pat-comp-or-songwriting",
+   "label": "Composition 421 or PAT 220",
+   "hint": "COMP 421 Creative Composition or PAT 220 Songwriting Workshop, 2 credits.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "COMP 421",
+    "PAT 220"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1cng9QgFuI-2dbuCyo7wDKYt9aPFRgJoQ/view"
+   ]
+  },
+  {
+   "id": "smtd-pat-dance",
+   "label": "Dance elective (1 credit)",
+   "hint": "One credit in Dance.",
+   "need": 1,
+   "countMode": "credits",
+   "category": "core",
+   "matchTag": "subj-dance",
+   "sources": [
+    "https://drive.google.com/file/d/1cng9QgFuI-2dbuCyo7wDKYt9aPFRgJoQ/view"
+   ]
+  },
+  {
+   "id": "smtd-pat-pat-core",
+   "label": "PAT core",
+   "hint": "PAT 101 Seminar in Media Arts, 102 Acoustics and Psychoacoustics, 201 Intro to Computer Music, 202 Computer Music Programming and Arranging, 204 Creative Coding for Music, 331 and 332 Sound Recording and Production I-II, 412 Digital Music Ensemble, and 413 Electronic Chamber Music.",
+   "need": 9,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "PAT 101",
+    "PAT 102",
+    "PAT 201",
+    "PAT 202",
+    "PAT 204",
+    "PAT 331",
+    "PAT 332",
+    "PAT 412",
+    "PAT 413"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1cng9QgFuI-2dbuCyo7wDKYt9aPFRgJoQ/view"
+   ]
+  },
+  {
+   "id": "smtd-pat-pat-seminar",
+   "label": "PAT 400: PAT Seminar (8 terms)",
+   "hint": "Still building automatic checking for this rule. PAT 400 PAT Seminar, 0.5 credits, elected every term for eight terms. The planner catalog does not carry PAT 400 yet.",
+   "need": 4,
+   "countMode": "credits",
+   "category": "core",
+   "manual": true,
+   "sources": [
+    "https://drive.google.com/file/d/1cng9QgFuI-2dbuCyo7wDKYt9aPFRgJoQ/view"
+   ]
+  },
+  {
+   "id": "smtd-pat-pat-electives",
+   "label": "PAT electives (18 credits)",
+   "hint": "Six courses, minimum 18 credits, chosen from PAT 421, 422, 424, 431, 432, 441, 442, 443, 451, 452, 454, 461, 462, 471, and 472.",
+   "need": 18,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "PAT 421",
+    "PAT 422",
+    "PAT 424",
+    "PAT 431",
+    "PAT 432",
+    "PAT 441",
+    "PAT 442",
+    "PAT 443",
+    "PAT 451",
+    "PAT 452",
+    "PAT 454",
+    "PAT 461",
+    "PAT 462",
+    "PAT 471",
+    "PAT 472"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1cng9QgFuI-2dbuCyo7wDKYt9aPFRgJoQ/view"
+   ]
+  },
+  {
+   "id": "smtd-pat-senior-thesis",
+   "label": "PAT 490: Senior Thesis",
+   "hint": "Still building automatic checking for this rule. PAT 490 Senior Thesis, 3 credits, taken in the final year. The planner catalog does not carry PAT 490 yet.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "capstone",
+   "manual": true,
+   "sources": [
+    "https://drive.google.com/file/d/1cng9QgFuI-2dbuCyo7wDKYt9aPFRgJoQ/view"
+   ]
+  },
+  {
+   "id": "smtd-pat-concentration",
+   "label": "Concentration (18 credits)",
+   "hint": "Still building automatic checking for this rule. Minimum 18 credits in one concentration (Engineering, Visual Arts, Computer and Information Sciences, or Multidisciplinary Studies) or non-SMTD electives chosen in consultation with a faculty advisor. Engineering and Computer and Information Sciences concentrators must take MATH 115 or receive credit for MATH 120. Multidisciplinary plans of study must be approved by the PAT advisor by the first semester of sophomore year.",
+   "need": 18,
+   "countMode": "credits",
+   "category": "electives",
+   "manual": true,
+   "sources": [
+    "https://drive.google.com/file/d/1cng9QgFuI-2dbuCyo7wDKYt9aPFRgJoQ/view"
+   ]
+  },
+  {
+   "id": "smtd-pat-fywr",
+   "label": "First year writing",
+   "hint": "ENGLISH 124, 125, or an equivalent first year writing course.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-fywr",
+   "sources": [
+    "https://drive.google.com/file/d/1cng9QgFuI-2dbuCyo7wDKYt9aPFRgJoQ/view"
+   ]
+  },
+  {
+   "id": "smtd-pat-ulwr",
+   "label": "Upper level writing",
+   "hint": "An upper level writing course approved by the Sweetland Writing Center.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-ulwr",
+   "sources": [
+    "https://drive.google.com/file/d/1cng9QgFuI-2dbuCyo7wDKYt9aPFRgJoQ/view"
+   ]
+  },
+  {
+   "id": "smtd-pat-race-ethnicity",
+   "label": "Race and Ethnicity course",
+   "hint": "One course in Race and Ethnicity selected from approved courses within LSA, or within SMTD by petition. SMTD RE courses will not count into overall non-SMTD credits.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-race-ethnicity",
+   "sources": [
+    "https://drive.google.com/file/d/1cng9QgFuI-2dbuCyo7wDKYt9aPFRgJoQ/view"
+   ]
+  },
+  {
+   "id": "smtd-pat-math-105",
+   "label": "Math 105: Data, Functions, and Graphs",
+   "hint": "MATH 105, 4 credits, or proficiency. Engineering and Computer and Information Sciences concentrators take MATH 115 instead.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchCodes": [
+    "MATH 105",
+    "MATH 115"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1cng9QgFuI-2dbuCyo7wDKYt9aPFRgJoQ/view"
+   ]
+  },
+  {
+   "id": "smtd-pat-programming",
+   "label": "Computer programming elective",
+   "hint": "Still building automatic checking for this rule. A computer programming elective, 3 to 4 credits, chosen in consultation with an advisor.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "smtd-liberal-arts",
+   "manual": true,
+   "sources": [
+    "https://drive.google.com/file/d/1cng9QgFuI-2dbuCyo7wDKYt9aPFRgJoQ/view"
+   ]
+  },
+  {
+   "id": "smtd-pat-artdes-ftvm",
+   "label": "Art and Design or Film, Television, and Media (6 credits)",
+   "hint": "Minimum 6 credits chosen from Art and Design (ARTDES) and Film, Television, and Media (FTVM) courses. UARTS 250 may count as ARTDES.",
+   "need": 6,
+   "countMode": "credits",
+   "category": "smtd-liberal-arts",
+   "matchCodes": [
+    "ARTDES 100",
+    "ARTDES 105",
+    "ARTDES 120",
+    "ARTDES 170",
+    "ARTDES 172",
+    "ARTDES 173",
+    "ARTDES 174",
+    "ARTDES 175",
+    "ARTDES 176",
+    "ARTDES 178",
+    "ARTDES 181",
+    "ARTDES 210",
+    "ARTDES 220",
+    "ARTDES 377",
+    "ARTDES 389",
+    "ARTDES 399",
+    "ARTDES 406",
+    "FTVM 150",
+    "FTVM 190",
+    "FTVM 203",
+    "FTVM 210",
+    "FTVM 225",
+    "FTVM 266",
+    "FTVM 272",
+    "FTVM 290",
+    "FTVM 300",
+    "FTVM 301",
+    "FTVM 302",
+    "FTVM 303",
+    "FTVM 304",
+    "FTVM 306",
+    "FTVM 307",
+    "FTVM 310",
+    "FTVM 311",
+    "FTVM 312",
+    "FTVM 315",
+    "FTVM 316",
+    "FTVM 317",
+    "FTVM 318",
+    "FTVM 322",
+    "FTVM 330",
+    "FTVM 334",
+    "FTVM 346",
+    "FTVM 350",
+    "FTVM 352",
+    "FTVM 353",
+    "FTVM 355",
+    "FTVM 356",
+    "FTVM 358",
+    "FTVM 364",
+    "FTVM 366",
+    "FTVM 368",
+    "FTVM 372",
+    "FTVM 375",
+    "FTVM 376",
+    "FTVM 379",
+    "FTVM 391",
+    "FTVM 394",
+    "FTVM 404",
+    "FTVM 406",
+    "FTVM 409",
+    "FTVM 410",
+    "FTVM 411",
+    "FTVM 420",
+    "FTVM 423",
+    "FTVM 427",
+    "FTVM 441",
+    "FTVM 443",
+    "FTVM 455",
+    "FTVM 460",
+    "FTVM 461",
+    "FTVM 480",
+    "FTVM 485",
+    "FTVM 495",
+    "FTVM 499",
+    "FTVM 500",
+    "UARTS 250"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1cng9QgFuI-2dbuCyo7wDKYt9aPFRgJoQ/view"
+   ]
+  }
+ ],
+ "sourceUrl": "https://smtd.umich.edu/degree/bachelor-of-fine-arts-in-performing-arts-technology-music-technology/"
+}

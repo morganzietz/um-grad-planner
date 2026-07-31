@@ -1,0 +1,216 @@
+{
+ "id": "smtd-bta",
+ "name": "Theatre Arts (BTA)",
+ "school": "School of Music, Theatre & Dance",
+ "goalCredits": 120,
+ "requirements": [
+  {
+   "id": "smtd-total-credits",
+   "label": "120 Total Credits",
+   "hint": "The Bachelor of Theatre Arts requires a minimum of 120 credits. Requirements follow the 2024-2025 Silent Advisor; SMTD students follow the curriculum of their admit year.",
+   "need": 120,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://smtd.umich.edu/degree/bachelor-of-theatre-arts/",
+    "https://drive.google.com/file/d/1EydAByv0wpFfQn6yHlAjvviCE-2TCGXE/view"
+   ]
+  },
+  {
+   "id": "smtd-liberal-arts-credits",
+   "label": "Non-SMTD credits (40)",
+   "hint": "At least 40 credits outside SMTD. Courses within Arts Administration also count as non-SMTD.",
+   "need": 40,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "excludeTags": ["smtd-credit"],
+   "sources": [
+    "https://drive.google.com/file/d/1EydAByv0wpFfQn6yHlAjvviCE-2TCGXE/view"
+   ]
+  },
+  {
+   "id": "smtd-bta-theatre-credits",
+   "label": "Theatre credits (42)",
+   "hint": "A minimum of 42 credits in Theatre courses.",
+   "need": 42,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchTag": "subj-thtremus",
+   "sources": [
+    "https://drive.google.com/file/d/1EydAByv0wpFfQn6yHlAjvviCE-2TCGXE/view"
+   ]
+  },
+  {
+   "id": "smtd-bta-smtd-credits",
+   "label": "SMTD credits (60)",
+   "hint": "A minimum of 60 SMTD credits, including the Theatre credits.",
+   "need": 60,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchTag": "smtd-credit",
+   "sources": [
+    "https://drive.google.com/file/d/1EydAByv0wpFfQn6yHlAjvviCE-2TCGXE/view"
+   ]
+  },
+  {
+   "id": "smtd-bta-core",
+   "label": "Theatre core (4 courses)",
+   "hint": "Intro to Design, Script Analysis, Intro to Technical Theatre, and Run Crew.",
+   "need": 4,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "THTREMUS 240", "THTREMUS 283", "THTREMUS 250", "THTREMUS 251"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1EydAByv0wpFfQn6yHlAjvviCE-2TCGXE/view"
+   ]
+  },
+  {
+   "id": "smtd-bta-acting-intro",
+   "label": "Intro acting course",
+   "hint": "THTREMUS 101 Intro to Acting or THTREMUS 110 Acting for the Camera.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": ["THTREMUS 101", "THTREMUS 110"],
+   "sources": [
+    "https://drive.google.com/file/d/1EydAByv0wpFfQn6yHlAjvviCE-2TCGXE/view"
+   ]
+  },
+  {
+   "id": "smtd-bta-management-intro",
+   "label": "Stage or arts management course",
+   "hint": "THTREMUS 245 Stage Management or THTREMUS 385 Performing Arts Management.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": ["THTREMUS 245", "THTREMUS 385"],
+   "sources": [
+    "https://drive.google.com/file/d/1EydAByv0wpFfQn6yHlAjvviCE-2TCGXE/view"
+   ]
+  },
+  {
+   "id": "smtd-bta-forum",
+   "label": "THTREMUS 405: BTA Forum (3 terms)",
+   "hint": "Still building automatic checking for this rule. BTA Forum is elected three terms across the program; the course catalog does not carry THTREMUS 405 yet.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "manual": true,
+   "sources": [
+    "https://drive.google.com/file/d/1EydAByv0wpFfQn6yHlAjvviCE-2TCGXE/view"
+   ]
+  },
+  {
+   "id": "smtd-bta-hlc-core",
+   "label": "Theatre History, Literature, Criticism / Practice as Research core (3 credits)",
+   "hint": "Minimum 3 credits chosen from THTREMUS 212 Intro to World Performance, 321 Theatre History I, 222 Global Performance and Ethnic Studies, or 322 Theatre History II.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "THTREMUS 212", "THTREMUS 321", "THTREMUS 222", "THTREMUS 322"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1EydAByv0wpFfQn6yHlAjvviCE-2TCGXE/view"
+   ]
+  },
+  {
+   "id": "smtd-bta-hlc-total",
+   "label": "HLC / PAR total (12 credits)",
+   "hint": "The 3 core credits plus an additional 9 credits chosen from the core courses or from Rituals/Practices, Directing I, American Theatre and Drama, Global Community Practicum, Contemporary American Theatre and Drama, Intercultural Drama, Archives and Oral History, Documentary Theatre, The Atonement Project, Theatre and Incarceration, Latina/o Theatre for Social Change, Devising Theatre, Topics in Theatre, Theatre Pedagogy, Topics in African American Theatre, or ENGLISH 367 Shakespeare's Plays (counts as non-SMTD credit). Equivalent electives may be taken in consultation with a BTA advisor.",
+   "need": 12,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "THTREMUS 212", "THTREMUS 321", "THTREMUS 222", "THTREMUS 322",
+    "THTREMUS 233", "THTREMUS 241", "THTREMUS 323", "THTREMUS 324",
+    "THTREMUS 325", "THTREMUS 326", "THTREMUS 332", "THTREMUS 333",
+    "THTREMUS 334", "THTREMUS 335", "THTREMUS 336", "THTREMUS 340",
+    "THTREMUS 399", "THTREMUS 437", "THTREMUS 440", "ENGLISH 367"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1EydAByv0wpFfQn6yHlAjvviCE-2TCGXE/view"
+   ]
+  },
+  {
+   "id": "smtd-bta-immersive",
+   "label": "Immersive Learning course",
+   "hint": "One course chosen from THTREMUS 324 Global Community Practicum, 334 The Atonement Project, 335 Theatre and Incarceration, THTREMUS 417 Internship (or study abroad, global engagement, or fieldwork approved with a BTA advisor), or RCHUMS 341 Community Empowerment Through the Arts.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "THTREMUS 324", "THTREMUS 334", "THTREMUS 335", "THTREMUS 417",
+    "RCHUMS 341"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1EydAByv0wpFfQn6yHlAjvviCE-2TCGXE/view"
+   ]
+  },
+  {
+   "id": "smtd-bta-concentration",
+   "label": "Concentration",
+   "hint": "Still building automatic checking for this rule. Choose at least one concentration: Theatre Studies (Theatre courses chosen with a BTA advisor), Performing Arts Management (THTREMUS 385, 417, 435, and 426 or 438, plus four business-related courses), Playwriting (THTREMUS 227, 327, 427 plus one of 340, 399, 429, FTVM 210, or FTVM 308), or Global and Ethnic Performance Studies (THTREMUS 222, 233, 324 plus one of 325, 326, 332, 340, or 440). Students may instead elect the PAME, Playwriting, or Global and Ethnic Performance Studies minor.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "manual": true,
+   "sources": [
+    "https://drive.google.com/file/d/1EydAByv0wpFfQn6yHlAjvviCE-2TCGXE/view"
+   ]
+  },
+  {
+   "id": "smtd-bta-fywr",
+   "label": "First year writing",
+   "hint": "ENGLISH 124, 125, or an equivalent first year writing course.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-fywr",
+   "sources": [
+    "https://drive.google.com/file/d/1EydAByv0wpFfQn6yHlAjvviCE-2TCGXE/view"
+   ]
+  },
+  {
+   "id": "smtd-bta-ulwr",
+   "label": "Upper level writing",
+   "hint": "An upper level writing course approved by the Sweetland Writing Center.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-ulwr",
+   "sources": [
+    "https://drive.google.com/file/d/1EydAByv0wpFfQn6yHlAjvviCE-2TCGXE/view"
+   ]
+  },
+  {
+   "id": "smtd-bta-race-ethnicity",
+   "label": "Race and Ethnicity course",
+   "hint": "One course in Race and Ethnicity selected from approved courses within LSA.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-race-ethnicity",
+   "sources": [
+    "https://drive.google.com/file/d/1EydAByv0wpFfQn6yHlAjvviCE-2TCGXE/view"
+   ]
+  },
+  {
+   "id": "smtd-bta-subject-area",
+   "label": "Non-SMTD subject area (9 credits)",
+   "hint": "Still building automatic checking for this rule. Minimum 9 credits within one non-SMTD subject area of the student's choosing; RCHUMS Drama courses do not count toward this requirement.",
+   "need": 9,
+   "countMode": "credits",
+   "category": "smtd-liberal-arts",
+   "manual": true,
+   "sources": [
+    "https://drive.google.com/file/d/1EydAByv0wpFfQn6yHlAjvviCE-2TCGXE/view"
+   ]
+  }
+ ],
+ "sourceUrl": "https://smtd.umich.edu/degree/bachelor-of-theatre-arts/"
+}

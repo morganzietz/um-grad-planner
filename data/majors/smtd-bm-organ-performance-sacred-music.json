@@ -1,0 +1,336 @@
+{
+ "id": "smtd-bm-organ-performance-sacred-music",
+ "name": "Organ Performance and Sacred Music (BM)",
+ "school": "School of Music, Theatre & Dance",
+ "goalCredits": 120,
+ "requirements": [
+  {
+   "id": "smtd-total-credits",
+   "label": "120 Total Credits",
+   "hint": "The BM in Organ Performance and Sacred Music requires a minimum of 120 credits. Requirements follow the 2024-2025 Silent Advisor; SMTD students follow the curriculum of their admit year.",
+   "need": 120,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://smtd.umich.edu/degree/bachelor-of-music-in-organ-performance-sacred-music/",
+    "https://drive.google.com/file/d/1UoeA50iumZo7mqeq6_QUpCGtK910d8cx/view"
+   ]
+  },
+  {
+   "id": "smtd-non-music-credits",
+   "label": "Non-Music credits (30)",
+   "hint": "At least 30 credits outside music. Courses within Arts Administration, Dance, and Theatre also count as non-Music.",
+   "need": 30,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "excludeTags": [
+    "smtd-music"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1UoeA50iumZo7mqeq6_QUpCGtK910d8cx/view"
+   ]
+  },
+  {
+   "id": "smtd-organ-theory-core",
+   "label": "Music Theory core (Aural and Written Skills I-IV)",
+   "hint": "THEORY 139, 149, 140, 150, 239, 249, 240, and 250. The aural and written skills sequences run across the first two years. JAZZ 220 can be taken in place of THEORY 239 and 249, and JAZZ 221 in place of THEORY 240 and 250 (use an override if you substitute).",
+   "need": 8,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "THEORY 139",
+    "THEORY 149",
+    "THEORY 140",
+    "THEORY 150",
+    "THEORY 239",
+    "THEORY 249",
+    "THEORY 240",
+    "THEORY 250"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1UoeA50iumZo7mqeq6_QUpCGtK910d8cx/view"
+   ]
+  },
+  {
+   "id": "smtd-organ-theory-400-electives",
+   "label": "400 level Theory electives (6 credits)",
+   "hint": "Two 400 level Theory electives, 6 credits total: the Silent Advisor lists one 400 level Theory elective plus an additional 400 level Theory course.",
+   "need": 6,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "THEORY 407",
+    "THEORY 430",
+    "THEORY 433",
+    "THEORY 436",
+    "THEORY 438",
+    "THEORY 440",
+    "THEORY 442",
+    "THEORY 443",
+    "THEORY 454",
+    "THEORY 455",
+    "THEORY 460",
+    "THEORY 461"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1UoeA50iumZo7mqeq6_QUpCGtK910d8cx/view"
+   ]
+  },
+  {
+   "id": "smtd-organ-musicology-core",
+   "label": "Musicology core",
+   "hint": "MUSICOL 139 Intro to the Study of Music, 140 History of U.S. Musics, 239 History of Music, and 240 History of Western Music.",
+   "need": 4,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MUSICOL 139",
+    "MUSICOL 140",
+    "MUSICOL 239",
+    "MUSICOL 240"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1UoeA50iumZo7mqeq6_QUpCGtK910d8cx/view"
+   ]
+  },
+  {
+   "id": "smtd-organ-musicol-theory-jazz-400",
+   "label": "400 level Musicology, Theory, or listed Jazz elective (3 credits)",
+   "hint": "One 400 level Musicology or Theory elective, or JAZZ 460, 467, 470, or 479.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "MUSICOL 413",
+    "MUSICOL 414",
+    "MUSICOL 417",
+    "MUSICOL 420",
+    "MUSICOL 421",
+    "MUSICOL 423",
+    "MUSICOL 424",
+    "MUSICOL 450",
+    "MUSICOL 457",
+    "MUSICOL 458",
+    "MUSICOL 464",
+    "MUSICOL 465",
+    "MUSICOL 467",
+    "MUSICOL 477",
+    "MUSICOL 481",
+    "THEORY 407",
+    "THEORY 430",
+    "THEORY 433",
+    "THEORY 436",
+    "THEORY 438",
+    "THEORY 440",
+    "THEORY 442",
+    "THEORY 443",
+    "THEORY 454",
+    "THEORY 455",
+    "THEORY 460",
+    "THEORY 461",
+    "JAZZ 460",
+    "JAZZ 467",
+    "JAZZ 470",
+    "JAZZ 479"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1UoeA50iumZo7mqeq6_QUpCGtK910d8cx/view"
+   ]
+  },
+  {
+   "id": "smtd-organ-ensembles",
+   "label": "Ensembles (2 terms from the approved list)",
+   "hint": "Two terms from the listed ensembles.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "ENS 345",
+    "ENS 347",
+    "ENS 348",
+    "ENS 349",
+    "ENS 350",
+    "ENS 470"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1UoeA50iumZo7mqeq6_QUpCGtK910d8cx/view"
+   ]
+  },
+  {
+   "id": "smtd-organ-ensembles-additional",
+   "label": "Additional approved ensembles (2 terms)",
+   "hint": "Two additional terms of any approved ensemble beyond the two listed-ensemble terms.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchTag": "subj-ens",
+   "offset": 2,
+   "sources": [
+    "https://drive.google.com/file/d/1UoeA50iumZo7mqeq6_QUpCGtK910d8cx/view"
+   ]
+  },
+  {
+   "id": "smtd-organ-performance-lessons",
+   "label": "Organ performance lessons (24 credits)",
+   "hint": "Minimum 24 credits of organ lessons with completion of ORGAN 440. Piano study as recommended by the department. Extensive repertory requirements (baroque through 21st century) are tracked by the organ studio.",
+   "need": 24,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "ORGAN 139",
+    "ORGAN 140",
+    "ORGAN 239",
+    "ORGAN 240",
+    "ORGAN 339",
+    "ORGAN 340",
+    "ORGAN 439",
+    "ORGAN 440"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1UoeA50iumZo7mqeq6_QUpCGtK910d8cx/view"
+   ]
+  },
+  {
+   "id": "smtd-organ-conducting",
+   "label": "Conducting (CONDUCT 315 and 316)",
+   "hint": "CONDUCT 315 Elementary Conducting I and CONDUCT 316 Elementary Conducting II.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CONDUCT 315",
+    "CONDUCT 316"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1UoeA50iumZo7mqeq6_QUpCGtK910d8cx/view"
+   ]
+  },
+  {
+   "id": "smtd-organ-sacred-music-core",
+   "label": "Sacred music and organ literature",
+   "hint": "ORGANLIT 481 Organ Literature Pre-1750, ORGANLIT 482 Organ Literature 1750 to Present, SACREDMU 483 Improvisation I, SACREDMU 484 Service Playing, SACREDMU 490 Improvisation II, and SACREDMU 491 Creative Hymn-Playing.",
+   "need": 6,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "ORGANLIT 481",
+    "ORGANLIT 482",
+    "SACREDMU 483",
+    "SACREDMU 484",
+    "SACREDMU 490",
+    "SACREDMU 491"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1UoeA50iumZo7mqeq6_QUpCGtK910d8cx/view"
+   ]
+  },
+  {
+   "id": "smtd-organ-basso-continuo",
+   "label": "Early Music 450: Basso Continuo",
+   "hint": "Still building automatic checking for this rule. Early Music 450 Basso Continuo, 2 credits, normally in the fall of third year; the course catalog does not currently carry this code, so mark it met with an override once taken.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "manual": true,
+   "sources": [
+    "https://drive.google.com/file/d/1UoeA50iumZo7mqeq6_QUpCGtK910d8cx/view"
+   ]
+  },
+  {
+   "id": "smtd-organ-senior-recital",
+   "label": "MUSPERF 440: Senior Recital",
+   "hint": "Zero credit capstone recital in the final year, taken alongside ORGAN 440. Works performed for the degree recital are to be memorized, except ensemble works and works in challenging contemporary idioms.",
+   "need": 1,
+   "countMode": "count",
+   "category": "capstone",
+   "matchCodes": [
+    "MUSPERF 440"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1UoeA50iumZo7mqeq6_QUpCGtK910d8cx/view"
+   ]
+  },
+  {
+   "id": "smtd-organ-language",
+   "label": "Language: French, German, or Spanish (2 terms)",
+   "hint": "Two terms of French, German, or Spanish.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "pickFromGroups": [
+    "smtd-organ-language-french",
+    "smtd-organ-language-german",
+    "smtd-organ-language-spanish"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1UoeA50iumZo7mqeq6_QUpCGtK910d8cx/view"
+   ]
+  },
+  {
+   "id": "smtd-organ-language-french",
+   "label": "French (2 terms)",
+   "hint": "Two terms of French.",
+   "need": 2,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "subj-french"
+  },
+  {
+   "id": "smtd-organ-language-german",
+   "label": "German (2 terms)",
+   "hint": "Two terms of German.",
+   "need": 2,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "subj-german"
+  },
+  {
+   "id": "smtd-organ-language-spanish",
+   "label": "Spanish (2 terms)",
+   "hint": "Two terms of Spanish.",
+   "need": 2,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "subj-spanish"
+  },
+  {
+   "id": "smtd-organ-fywr",
+   "label": "First year writing",
+   "hint": "ENGLISH 124, 125, or an equivalent first year writing course.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-fywr",
+   "sources": [
+    "https://drive.google.com/file/d/1UoeA50iumZo7mqeq6_QUpCGtK910d8cx/view"
+   ]
+  },
+  {
+   "id": "smtd-organ-ulwr",
+   "label": "Upper level writing",
+   "hint": "An upper level writing course approved by the Sweetland Writing Center.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-ulwr",
+   "sources": [
+    "https://drive.google.com/file/d/1UoeA50iumZo7mqeq6_QUpCGtK910d8cx/view"
+   ]
+  },
+  {
+   "id": "smtd-organ-race-ethnicity",
+   "label": "Race and Ethnicity course",
+   "hint": "One course in Race and Ethnicity selected from approved courses within LSA, or within SMTD by petition. SMTD RE courses will not count into overall non-SMTD credits.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-race-ethnicity",
+   "sources": [
+    "https://drive.google.com/file/d/1UoeA50iumZo7mqeq6_QUpCGtK910d8cx/view"
+   ]
+  }
+ ],
+ "sourceUrl": "https://smtd.umich.edu/degree/bachelor-of-music-in-organ-performance-sacred-music/"
+}

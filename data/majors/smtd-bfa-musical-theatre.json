@@ -1,0 +1,345 @@
+{
+ "id": "smtd-bfa-musical-theatre",
+ "name": "Musical Theatre (BFA)",
+ "school": "School of Music, Theatre & Dance",
+ "goalCredits": 124,
+ "requirements": [
+  {
+   "id": "smtd-total-credits",
+   "label": "124 Total Credits",
+   "hint": "The BFA in Musical Theatre requires a minimum of 124 credits. Requirements follow the 2024-2025 Silent Advisor; SMTD students follow the curriculum of their admit year.",
+   "need": 124,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://smtd.umich.edu/degree/bachelor-of-fine-arts-in-musical-theatre/",
+    "https://drive.google.com/file/d/1rBGt-We9pyXBwAG33B23Fr7hacwum8R_/view"
+   ]
+  },
+  {
+   "id": "smtd-liberal-arts-credits",
+   "label": "Non-SMTD credits (30)",
+   "hint": "At least 30 credits outside SMTD. Courses within Arts Administration also count as non-SMTD.",
+   "need": 30,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "excludeTags": [
+    "smtd-credit"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1rBGt-We9pyXBwAG33B23Fr7hacwum8R_/view"
+   ]
+  },
+  {
+   "id": "smtd-mt-core",
+   "label": "Musical Theatre core (11 courses)",
+   "hint": "Intro to Musical Theatre I and II, Intro to Musical Theatre Acting I and II, Ensemble Techniques, Performance I-IV, and History of Musical Theatre I and II. A grade below C- in MUSTHTRE 235 or 236 does not count. After MUSTHTRE 236, all majors complete a second year evaluation that qualifies them for upper level performance courses.",
+   "need": 11,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MUSTHTRE 133",
+    "MUSTHTRE 134",
+    "MUSTHTRE 145",
+    "MUSTHTRE 146",
+    "MUSTHTRE 150",
+    "MUSTHTRE 235",
+    "MUSTHTRE 236",
+    "MUSTHTRE 335",
+    "MUSTHTRE 435",
+    "MUSTHTRE 441",
+    "MUSTHTRE 442"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1rBGt-We9pyXBwAG33B23Fr7hacwum8R_/view"
+   ]
+  },
+  {
+   "id": "smtd-mt-production-performance",
+   "label": "MUSTHTRE 280/480: Production Performance (3 terms if cast)",
+   "hint": "Minimum 3 terms if cast. Majors must audition for all mainstage musical productions and accept any role in which they are cast; students cast in a faculty directed musical or play enroll in 280 or 480 for at least one credit.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MUSTHTRE 280",
+    "MUSTHTRE 480"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1rBGt-We9pyXBwAG33B23Fr7hacwum8R_/view"
+   ]
+  },
+  {
+   "id": "smtd-mt-theatre-core",
+   "label": "Theatre core (5 courses)",
+   "hint": "THTREMUS 282 Heightened Language and Text, 382 20th and 21st Century American Realism, 383 Acting for the Camera I, 250 Intro to Theatre Practices, and 251 Run Crew. A grade below C- in THTREMUS 282, 382, or 383 does not count.",
+   "need": 5,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "THTREMUS 282",
+    "THTREMUS 382",
+    "THTREMUS 383",
+    "THTREMUS 250",
+    "THTREMUS 251"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1rBGt-We9pyXBwAG33B23Fr7hacwum8R_/view"
+   ]
+  },
+  {
+   "id": "smtd-mt-theatre-history",
+   "label": "Theatre History (2 courses)",
+   "hint": "Two courses in Theatre History, such as Theatre History I or II, American Theatre and Drama, Contemporary American Theatre and Drama, Intercultural Drama, or Topics in African American Theatre. One course may be fulfilled by the Race and Ethnicity requirement.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "THTREMUS 321",
+    "THTREMUS 322",
+    "THTREMUS 323",
+    "THTREMUS 325",
+    "THTREMUS 326",
+    "THTREMUS 440"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1rBGt-We9pyXBwAG33B23Fr7hacwum8R_/view"
+   ]
+  },
+  {
+   "id": "smtd-mt-theatre-management",
+   "label": "Theatre Management elective (1 term)",
+   "hint": "One term of a Theatre management course, such as Stage Management, Performing Arts Management, Practicum in Arts Management, Producing in the American Theatre, Fundraising and the Arts, or Legal Issues in the Theatre.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "THTREMUS 345",
+    "THTREMUS 385",
+    "THTREMUS 386",
+    "THTREMUS 426",
+    "THTREMUS 435",
+    "THTREMUS 438",
+    "THTREMUS 445",
+    "THTREMUS 446"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1rBGt-We9pyXBwAG33B23Fr7hacwum8R_/view"
+   ]
+  },
+  {
+   "id": "smtd-mt-ballet",
+   "label": "Ballet (2 terms)",
+   "hint": "Two terms of Ballet for Musical Theatre. A grade below C- in a Dance class does not count.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MUSTHTRE 123",
+    "MUSTHTRE 124",
+    "MUSTHTRE 323",
+    "MUSTHTRE 324",
+    "MUSTHTRE 423",
+    "MUSTHTRE 424"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1rBGt-We9pyXBwAG33B23Fr7hacwum8R_/view"
+   ],
+   "minGrade": "C-"
+  },
+  {
+   "id": "smtd-mt-tap",
+   "label": "Tap (2 terms)",
+   "hint": "Two terms of Tap Dance.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MUSTHTRE 151",
+    "MUSTHTRE 152",
+    "MUSTHTRE 351",
+    "MUSTHTRE 352"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1rBGt-We9pyXBwAG33B23Fr7hacwum8R_/view"
+   ],
+   "minGrade": "C-"
+  },
+  {
+   "id": "smtd-mt-dance-styles",
+   "label": "Dance Styles (2 terms)",
+   "hint": "Two terms of Dance Styles.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MUSTHTRE 253",
+    "MUSTHTRE 254",
+    "MUSTHTRE 353",
+    "MUSTHTRE 354",
+    "MUSTHTRE 453",
+    "MUSTHTRE 454"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1rBGt-We9pyXBwAG33B23Fr7hacwum8R_/view"
+   ],
+   "minGrade": "C-"
+  },
+  {
+   "id": "smtd-mt-dance-credits",
+   "label": "Dance credits (12)",
+   "hint": "Minimum 12 credits of dance, including the Ballet, Dance Styles, and Tap terms, completed with dance electives such as Choreography or Dance Workshop.",
+   "need": 12,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "MUSTHTRE 123",
+    "MUSTHTRE 124",
+    "MUSTHTRE 151",
+    "MUSTHTRE 152",
+    "MUSTHTRE 253",
+    "MUSTHTRE 254",
+    "MUSTHTRE 323",
+    "MUSTHTRE 324",
+    "MUSTHTRE 351",
+    "MUSTHTRE 352",
+    "MUSTHTRE 353",
+    "MUSTHTRE 354",
+    "MUSTHTRE 423",
+    "MUSTHTRE 424",
+    "MUSTHTRE 443",
+    "MUSTHTRE 450",
+    "MUSTHTRE 453",
+    "MUSTHTRE 454"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1rBGt-We9pyXBwAG33B23Fr7hacwum8R_/view"
+   ],
+   "minGrade": "C-"
+  },
+  {
+   "id": "smtd-mt-class-piano",
+   "label": "Class Piano (2 courses)",
+   "hint": "Two courses in Class Piano depending on placement: PIANO 110 and 111, or 111 and 112. Students may test out via proficiency.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "PIANO 110",
+    "PIANO 111",
+    "PIANO 112"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1rBGt-We9pyXBwAG33B23Fr7hacwum8R_/view"
+   ]
+  },
+  {
+   "id": "smtd-mt-music-theory",
+   "label": "Music Theory (4 credits)",
+   "hint": "Minimum 4 credits of music theory, normally MT Theory I and II (MUSTHTRE 155 and 156). Other Music Theory coursework also counts.",
+   "need": 4,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "MUSTHTRE 155",
+    "MUSTHTRE 156",
+    "MUSTHTRE 337",
+    "THEORY 137",
+    "THEORY 139",
+    "THEORY 140",
+    "THEORY 149",
+    "THEORY 150",
+    "THEORY 236",
+    "THEORY 238"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1rBGt-We9pyXBwAG33B23Fr7hacwum8R_/view"
+   ]
+  },
+  {
+   "id": "smtd-mt-voice",
+   "label": "Voice Performance (24 credits)",
+   "hint": "Minimum 24 credits of MT Applied Voice, or completion of VOICE 426; elected each term.",
+   "need": 24,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "VOICE 219",
+    "VOICE 220",
+    "VOICE 221",
+    "VOICE 222",
+    "VOICE 423",
+    "VOICE 424",
+    "VOICE 425",
+    "VOICE 426"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1rBGt-We9pyXBwAG33B23Fr7hacwum8R_/view"
+   ],
+   "minGrade": "C-"
+  },
+  {
+   "id": "smtd-mt-fywr",
+   "label": "First year writing",
+   "hint": "ENGLISH 124, 125, or an equivalent first year writing course.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-fywr",
+   "sources": [
+    "https://drive.google.com/file/d/1rBGt-We9pyXBwAG33B23Fr7hacwum8R_/view"
+   ]
+  },
+  {
+   "id": "smtd-mt-ulwr",
+   "label": "Upper level writing",
+   "hint": "An upper level writing course approved by the Sweetland Writing Center.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-ulwr",
+   "sources": [
+    "https://drive.google.com/file/d/1rBGt-We9pyXBwAG33B23Fr7hacwum8R_/view"
+   ]
+  },
+  {
+   "id": "smtd-mt-race-ethnicity",
+   "label": "Race and Ethnicity course",
+   "hint": "One course in Race and Ethnicity selected from approved courses within LSA, or within SMTD by petition. SMTD RE courses will not count into overall non-SMTD credits.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-race-ethnicity",
+   "sources": [
+    "https://drive.google.com/file/d/1rBGt-We9pyXBwAG33B23Fr7hacwum8R_/view"
+   ]
+  },
+  {
+   "id": "smtd-mt-language",
+   "label": "Foreign language (2 terms)",
+   "hint": "Two terms of a foreign language, or proficiency.",
+   "need": 2,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-language",
+   "sources": [
+    "https://drive.google.com/file/d/1rBGt-We9pyXBwAG33B23Fr7hacwum8R_/view"
+   ]
+  },
+  {
+   "id": "smtd-mt-history",
+   "label": "American or World History",
+   "hint": "One American or World History course, 3 to 4 credits.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "subj-history",
+   "sources": [
+    "https://drive.google.com/file/d/1rBGt-We9pyXBwAG33B23Fr7hacwum8R_/view"
+   ]
+  }
+ ],
+ "sourceUrl": "https://smtd.umich.edu/degree/bachelor-of-fine-arts-in-musical-theatre/"
+}

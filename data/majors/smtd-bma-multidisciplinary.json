@@ -1,0 +1,480 @@
+{
+ "id": "smtd-bma-multidisciplinary",
+ "name": "Musical Arts: Multidisciplinary Studies (BMA)",
+ "school": "School of Music, Theatre & Dance",
+ "goalCredits": 120,
+ "requirements": [
+  {
+   "id": "smtd-total-credits",
+   "label": "120 Total Credits",
+   "hint": "The BMA in Multidisciplinary Studies requires a minimum of 120 credits. Requirements follow the 2024-2025 Silent Advisor; SMTD students follow the curriculum of their admit year.",
+   "need": 120,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://smtd.umich.edu/degree/bachelor-of-musical-arts-in-piano/",
+    "https://drive.google.com/file/d/1TxSPAiip0iRQ6f8Y5fZOjW24FtW3K0u1/view"
+   ]
+  },
+  {
+   "id": "smtd-non-music-credits",
+   "label": "Non-Music credits (40)",
+   "hint": "Minimum 40 credits outside music. Courses within Arts Administration, Dance, and Theatre also count as non-Music.",
+   "need": 40,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "excludeTags": [
+    "smtd-music"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1TxSPAiip0iRQ6f8Y5fZOjW24FtW3K0u1/view"
+   ]
+  },
+  {
+   "id": "smtd-bmamd-smtd-credits",
+   "label": "SMTD credits (60)",
+   "hint": "Minimum 60 credits within SMTD.",
+   "need": 60,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchTag": "smtd-credit",
+   "sources": [
+    "https://drive.google.com/file/d/1TxSPAiip0iRQ6f8Y5fZOjW24FtW3K0u1/view"
+   ]
+  },
+  {
+   "id": "smtd-bmamd-theory-core",
+   "label": "Music Theory core (Aural and Written Skills I-II)",
+   "hint": "THEORY 139, 149, 140, and 150, taken across the first year.",
+   "need": 4,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "THEORY 139",
+    "THEORY 149",
+    "THEORY 140",
+    "THEORY 150"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1TxSPAiip0iRQ6f8Y5fZOjW24FtW3K0u1/view"
+   ]
+  },
+  {
+   "id": "smtd-bmamd-theory-upper",
+   "label": "Music Theory: Aural and Written Skills III-IV (or Jazz substitution)",
+   "hint": "THEORY 239, 249, 240, and 250, or the Jazz substitution: JAZZ 220 in place of Theory 239 and 249, and JAZZ 221 in place of Theory 240 and 250.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "pickFromGroups": [
+    "smtd-bmamd-theory-upper-theory",
+    "smtd-bmamd-theory-upper-jazz"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1TxSPAiip0iRQ6f8Y5fZOjW24FtW3K0u1/view"
+   ]
+  },
+  {
+   "id": "smtd-bmamd-theory-upper-theory",
+   "label": "Theory 239, 249, 240, and 250",
+   "hint": "Aural and Written Skills III and IV.",
+   "need": 4,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "THEORY 239",
+    "THEORY 249",
+    "THEORY 240",
+    "THEORY 250"
+   ]
+  },
+  {
+   "id": "smtd-bmamd-theory-upper-jazz",
+   "label": "Jazz 220 and 221",
+   "hint": "JAZZ 220 Basic Musicianship I and JAZZ 221 Basic Musicianship II. Jazz 220/221 may not be accepted as a prerequisite for some 400 level Theory courses.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "JAZZ 220",
+    "JAZZ 221"
+   ]
+  },
+  {
+   "id": "smtd-bmamd-musicol-139",
+   "label": "Musicology 139: Intro to the Study of Music",
+   "hint": "MUSICOL 139, 2 credits.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MUSICOL 139"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1TxSPAiip0iRQ6f8Y5fZOjW24FtW3K0u1/view"
+   ]
+  },
+  {
+   "id": "smtd-bmamd-musicol-additional",
+   "label": "Additional Musicology (3 courses)",
+   "hint": "Three additional Musicology courses chosen from MUSICOL 140 History of U.S. Musics, 239 History of Music, 240 History of Western Music, and 400 level Musicology courses.",
+   "need": 3,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MUSICOL 140",
+    "MUSICOL 239",
+    "MUSICOL 240",
+    "MUSICOL 413",
+    "MUSICOL 414",
+    "MUSICOL 417",
+    "MUSICOL 420",
+    "MUSICOL 421",
+    "MUSICOL 423",
+    "MUSICOL 424",
+    "MUSICOL 450",
+    "MUSICOL 457",
+    "MUSICOL 458",
+    "MUSICOL 464",
+    "MUSICOL 465",
+    "MUSICOL 467",
+    "MUSICOL 477",
+    "MUSICOL 481"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1TxSPAiip0iRQ6f8Y5fZOjW24FtW3K0u1/view"
+   ]
+  },
+  {
+   "id": "smtd-bmamd-musicol-theory-jazz-400",
+   "label": "400 level Musicology, Theory, or listed Jazz elective (3 credits)",
+   "hint": "One 400 level Musicology or Theory elective, or JAZZ 460, 467, 470, or 479.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "MUSICOL 413",
+    "MUSICOL 414",
+    "MUSICOL 417",
+    "MUSICOL 420",
+    "MUSICOL 421",
+    "MUSICOL 423",
+    "MUSICOL 424",
+    "MUSICOL 450",
+    "MUSICOL 457",
+    "MUSICOL 458",
+    "MUSICOL 464",
+    "MUSICOL 465",
+    "MUSICOL 467",
+    "MUSICOL 477",
+    "MUSICOL 481",
+    "THEORY 407",
+    "THEORY 430",
+    "THEORY 433",
+    "THEORY 436",
+    "THEORY 438",
+    "THEORY 440",
+    "THEORY 442",
+    "THEORY 443",
+    "THEORY 454",
+    "THEORY 455",
+    "THEORY 460",
+    "THEORY 461",
+    "JAZZ 460",
+    "JAZZ 467",
+    "JAZZ 470",
+    "JAZZ 479"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1TxSPAiip0iRQ6f8Y5fZOjW24FtW3K0u1/view"
+   ]
+  },
+  {
+   "id": "smtd-bmamd-pat-200",
+   "label": "PAT 200: Intro to Computer Music",
+   "hint": "PAT 200, 3 credits, or another PAT course by petition.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "PAT 200"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1TxSPAiip0iRQ6f8Y5fZOjW24FtW3K0u1/view"
+   ]
+  },
+  {
+   "id": "smtd-bmamd-class-piano",
+   "label": "Class Piano (Piano 110, 111, and 112)",
+   "hint": "PIANO 110, 111, and 112, two credits each, or proficiency.",
+   "need": 3,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "PIANO 110",
+    "PIANO 111",
+    "PIANO 112"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1TxSPAiip0iRQ6f8Y5fZOjW24FtW3K0u1/view"
+   ]
+  },
+  {
+   "id": "smtd-bmamd-ensembles",
+   "label": "Ensemble (4 terms, at least two different ensembles)",
+   "hint": "Four terms of approved ensembles, drawn from at least two different ensembles. The planner cannot check the two-ensemble mix, so track that yourself.",
+   "need": 4,
+   "countMode": "count",
+   "category": "core",
+   "sources": [
+    "https://drive.google.com/file/d/1TxSPAiip0iRQ6f8Y5fZOjW24FtW3K0u1/view"
+   ],
+   "matchTag": "subj-ens"
+  },
+  {
+   "id": "smtd-bmamd-performance-lessons",
+   "label": "Performance lessons (24 credits)",
+   "hint": "Performance lessons on the principal instrument: 24 credits or completion of the 426 (or 402) level.",
+   "need": 24,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "PIANO 219",
+    "PIANO 220",
+    "PIANO 221",
+    "PIANO 222",
+    "PIANO 423",
+    "PIANO 424",
+    "PIANO 425",
+    "PIANO 426",
+    "ORGAN 219",
+    "ORGAN 220",
+    "ORGAN 221",
+    "ORGAN 222",
+    "ORGAN 423",
+    "ORGAN 424",
+    "ORGAN 425",
+    "ORGAN 426",
+    "VOICE 219",
+    "VOICE 220",
+    "VOICE 221",
+    "VOICE 222",
+    "VOICE 423",
+    "VOICE 424",
+    "VOICE 425",
+    "VOICE 426",
+    "VIOLIN 219",
+    "VIOLIN 220",
+    "VIOLIN 221",
+    "VIOLIN 222",
+    "VIOLIN 423",
+    "VIOLIN 424",
+    "VIOLIN 425",
+    "VIOLIN 426",
+    "VIOLA 219",
+    "VIOLA 220",
+    "VIOLA 221",
+    "VIOLA 222",
+    "VIOLA 423",
+    "VIOLA 424",
+    "VIOLA 425",
+    "VIOLA 426",
+    "CELLO 219",
+    "CELLO 220",
+    "CELLO 221",
+    "CELLO 222",
+    "CELLO 423",
+    "CELLO 424",
+    "CELLO 425",
+    "CELLO 426",
+    "DBLBASS 219",
+    "DBLBASS 220",
+    "DBLBASS 221",
+    "DBLBASS 222",
+    "DBLBASS 423",
+    "DBLBASS 424",
+    "DBLBASS 425",
+    "DBLBASS 426",
+    "HARP 219",
+    "HARP 220",
+    "HARP 221",
+    "HARP 222",
+    "HARP 423",
+    "HARP 424",
+    "HARP 425",
+    "HARP 426",
+    "FLUTE 219",
+    "FLUTE 220",
+    "FLUTE 221",
+    "FLUTE 222",
+    "FLUTE 423",
+    "FLUTE 424",
+    "FLUTE 425",
+    "FLUTE 426",
+    "OBOE 219",
+    "OBOE 220",
+    "OBOE 221",
+    "OBOE 222",
+    "OBOE 423",
+    "OBOE 424",
+    "OBOE 425",
+    "OBOE 426",
+    "CLARINET 219",
+    "CLARINET 220",
+    "CLARINET 221",
+    "CLARINET 222",
+    "CLARINET 423",
+    "CLARINET 424",
+    "CLARINET 425",
+    "CLARINET 426",
+    "BASSOON 219",
+    "BASSOON 220",
+    "BASSOON 221",
+    "BASSOON 222",
+    "BASSOON 423",
+    "BASSOON 424",
+    "BASSOON 425",
+    "BASSOON 426",
+    "SAX 219",
+    "SAX 220",
+    "SAX 221",
+    "SAX 222",
+    "SAX 423",
+    "SAX 424",
+    "SAX 425",
+    "SAX 426",
+    "FRENHORN 219",
+    "FRENHORN 220",
+    "FRENHORN 221",
+    "FRENHORN 222",
+    "FRENHORN 423",
+    "FRENHORN 424",
+    "FRENHORN 425",
+    "FRENHORN 426",
+    "TRUM 219",
+    "TRUM 220",
+    "TRUM 221",
+    "TRUM 222",
+    "TRUM 423",
+    "TRUM 424",
+    "TRUM 425",
+    "TRUM 426",
+    "TROMBONE 219",
+    "TROMBONE 220",
+    "TROMBONE 221",
+    "TROMBONE 222",
+    "TROMBONE 423",
+    "TROMBONE 424",
+    "TROMBONE 425",
+    "TROMBONE 426",
+    "EUPHBARI 219",
+    "EUPHBARI 220",
+    "EUPHBARI 221",
+    "EUPHBARI 222",
+    "EUPHBARI 423",
+    "EUPHBARI 424",
+    "EUPHBARI 425",
+    "EUPHBARI 426",
+    "TUBA 219",
+    "TUBA 220",
+    "TUBA 221",
+    "TUBA 222",
+    "TUBA 423",
+    "TUBA 424",
+    "TUBA 425",
+    "TUBA 426",
+    "PERCUSS 219",
+    "PERCUSS 220",
+    "PERCUSS 221",
+    "PERCUSS 222",
+    "PERCUSS 423",
+    "PERCUSS 424",
+    "PERCUSS 425",
+    "PERCUSS 426",
+    "CARILLON 219",
+    "CARILLON 220",
+    "CARILLON 221",
+    "CARILLON 222",
+    "CARILLON 423",
+    "CARILLON 424",
+    "CARILLON 425",
+    "CARILLON 426",
+    "JAZZ 101",
+    "JAZZ 102",
+    "JAZZ 150",
+    "JAZZ 201",
+    "JAZZ 202",
+    "JAZZ 301",
+    "JAZZ 302",
+    "JAZZ 401",
+    "JAZZ 402"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1TxSPAiip0iRQ6f8Y5fZOjW24FtW3K0u1/view"
+   ]
+  },
+  {
+   "id": "smtd-bmamd-smtd-electives",
+   "label": "SMTD electives (10 credits)",
+   "hint": "Minimum 10 credits chosen from SMTD courses.",
+   "need": 10,
+   "countMode": "credits",
+   "category": "electives",
+   "matchTag": "smtd-credit",
+   "sources": [
+    "https://drive.google.com/file/d/1TxSPAiip0iRQ6f8Y5fZOjW24FtW3K0u1/view"
+   ]
+  },
+  {
+   "id": "smtd-bmamd-cognate",
+   "label": "Non-SMTD cognate (3 courses, 9 credits)",
+   "hint": "Still building automatic checking for this rule. Three non-SMTD courses beyond the introductory level, minimum 9 credits, supporting the student's field of interest and chosen in consultation with an advisor.",
+   "need": 9,
+   "countMode": "credits",
+   "category": "smtd-liberal-arts",
+   "manual": true,
+   "sources": [
+    "https://drive.google.com/file/d/1TxSPAiip0iRQ6f8Y5fZOjW24FtW3K0u1/view"
+   ]
+  },
+  {
+   "id": "smtd-bmamd-fywr",
+   "label": "First year writing",
+   "hint": "ENGLISH 124, 125, or an equivalent first year writing course.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-fywr",
+   "sources": [
+    "https://drive.google.com/file/d/1TxSPAiip0iRQ6f8Y5fZOjW24FtW3K0u1/view"
+   ]
+  },
+  {
+   "id": "smtd-bmamd-ulwr",
+   "label": "Upper level writing",
+   "hint": "An upper level writing course approved by the Sweetland Writing Center.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-ulwr",
+   "sources": [
+    "https://drive.google.com/file/d/1TxSPAiip0iRQ6f8Y5fZOjW24FtW3K0u1/view"
+   ]
+  },
+  {
+   "id": "smtd-bmamd-race-ethnicity",
+   "label": "Race and Ethnicity course",
+   "hint": "One course in Race and Ethnicity selected from approved courses within LSA, or within SMTD by petition. SMTD RE courses will not count into overall non-SMTD credits.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-race-ethnicity",
+   "sources": [
+    "https://drive.google.com/file/d/1TxSPAiip0iRQ6f8Y5fZOjW24FtW3K0u1/view"
+   ]
+  }
+ ],
+ "sourceUrl": "https://smtd.umich.edu/degree/bachelor-of-musical-arts-in-piano/"
+}

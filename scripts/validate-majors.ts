@@ -54,6 +54,11 @@ const MATCH_ALL_WHITELIST = new Set([
   'ross-total-credits',
   'ross-non-business-credits',
   'umsi-total-credits', // BSI 120 total credits
+  'smtd-bam-free-electives', // BA in Music 17 free-elective credits (any course)
+  // SMTD credit splits (matchAll with the smtd tags excluded IS the rule)
+  'smtd-total-credits',
+  'smtd-liberal-arts-credits', // non-SMTD minimum (excludeTags smtd-credit)
+  'smtd-non-music-credits', // BM non-Music minimum (excludeTags smtd-music)
 ]);
 
 const VALID_CATEGORIES = new Set([
@@ -78,6 +83,9 @@ const VALID_CATEGORIES = new Set([
   'ross-distribution',
   // School of Information
   'umsi-credit-min',
+  // School of Music, Theatre & Dance
+  'smtd-credit-min',
+  'smtd-liberal-arts',
 ]);
 
 /**

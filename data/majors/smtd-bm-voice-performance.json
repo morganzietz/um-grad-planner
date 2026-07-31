@@ -1,0 +1,408 @@
+{
+ "id": "smtd-bm-voice-performance",
+ "name": "Voice Performance (BM)",
+ "school": "School of Music, Theatre & Dance",
+ "goalCredits": 122,
+ "requirements": [
+  {
+   "id": "smtd-total-credits",
+   "label": "122 Total Credits",
+   "hint": "The BM in Voice Performance requires a minimum of 122 credits. Requirements follow the 2024-2025 Silent Advisor; SMTD students follow the curriculum of their admit year.",
+   "need": 122,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://smtd.umich.edu/degree/bachelor-of-music-in-performance-voice/",
+    "https://drive.google.com/file/d/1VzA8kOvt9LNYy8MkdqZNv8nI-jpsZwOb/view"
+   ]
+  },
+  {
+   "id": "smtd-non-music-credits",
+   "label": "Non-Music credits (30)",
+   "hint": "At least 30 credits outside music. Courses within Arts Administration, Dance, and Theatre also count as non-Music.",
+   "need": 30,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "excludeTags": [
+    "smtd-music"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1VzA8kOvt9LNYy8MkdqZNv8nI-jpsZwOb/view"
+   ]
+  },
+  {
+   "id": "smtd-voice-theory-core",
+   "label": "Music Theory core (Aural and Written Skills I-IV)",
+   "hint": "THEORY 139, 149, 140, 150, 239, 249, 240, and 250. The aural and written skills sequences run across the first two years. JAZZ 220 can be taken in place of THEORY 239 and 249, and JAZZ 221 in place of THEORY 240 and 250 (use an override if you substitute).",
+   "need": 8,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "THEORY 139",
+    "THEORY 149",
+    "THEORY 140",
+    "THEORY 150",
+    "THEORY 239",
+    "THEORY 249",
+    "THEORY 240",
+    "THEORY 250"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1VzA8kOvt9LNYy8MkdqZNv8nI-jpsZwOb/view"
+   ]
+  },
+  {
+   "id": "smtd-voice-theory-400-elective",
+   "label": "400 level Theory elective (3 credits)",
+   "hint": "One 400 level Theory elective.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "THEORY 407",
+    "THEORY 430",
+    "THEORY 433",
+    "THEORY 436",
+    "THEORY 438",
+    "THEORY 440",
+    "THEORY 442",
+    "THEORY 443",
+    "THEORY 454",
+    "THEORY 455",
+    "THEORY 460",
+    "THEORY 461"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1VzA8kOvt9LNYy8MkdqZNv8nI-jpsZwOb/view"
+   ]
+  },
+  {
+   "id": "smtd-voice-musicology-core",
+   "label": "Musicology core",
+   "hint": "MUSICOL 139 Intro to the Study of Music, 140 History of U.S. Musics, 239 History of Music, and 240 History of Western Music.",
+   "need": 4,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MUSICOL 139",
+    "MUSICOL 140",
+    "MUSICOL 239",
+    "MUSICOL 240"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1VzA8kOvt9LNYy8MkdqZNv8nI-jpsZwOb/view"
+   ]
+  },
+  {
+   "id": "smtd-voice-musicol-theory-jazz-400",
+   "label": "400 level Musicology, Theory, or listed Jazz elective (3 credits)",
+   "hint": "One 400 level Musicology or Theory elective, or JAZZ 460, 467, 470, or 479.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "MUSICOL 413",
+    "MUSICOL 414",
+    "MUSICOL 417",
+    "MUSICOL 420",
+    "MUSICOL 421",
+    "MUSICOL 423",
+    "MUSICOL 424",
+    "MUSICOL 450",
+    "MUSICOL 457",
+    "MUSICOL 458",
+    "MUSICOL 464",
+    "MUSICOL 465",
+    "MUSICOL 467",
+    "MUSICOL 477",
+    "MUSICOL 481",
+    "THEORY 407",
+    "THEORY 430",
+    "THEORY 433",
+    "THEORY 436",
+    "THEORY 438",
+    "THEORY 440",
+    "THEORY 442",
+    "THEORY 443",
+    "THEORY 454",
+    "THEORY 455",
+    "THEORY 460",
+    "THEORY 461",
+    "JAZZ 460",
+    "JAZZ 467",
+    "JAZZ 470",
+    "JAZZ 479"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1VzA8kOvt9LNYy8MkdqZNv8nI-jpsZwOb/view"
+   ]
+  },
+  {
+   "id": "smtd-voice-class-piano",
+   "label": "Class Piano (through PIANO 112 or proficiency)",
+   "hint": "PIANO 110, 111, and 112, or demonstrated proficiency. If you place out of any level, use the adjust control to mark it satisfied.",
+   "need": 3,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "PIANO 110",
+    "PIANO 111",
+    "PIANO 112"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1VzA8kOvt9LNYy8MkdqZNv8nI-jpsZwOb/view"
+   ]
+  },
+  {
+   "id": "smtd-voice-ensemble",
+   "label": "Choral ensemble (8 terms)",
+   "hint": "Eight terms of ensemble chosen from the listed choirs. The planner counts one election; repeat it across terms.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "ENS 349",
+    "ENS 350",
+    "ENS 470"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1VzA8kOvt9LNYy8MkdqZNv8nI-jpsZwOb/view"
+   ]
+  },
+  {
+   "id": "smtd-voice-opera-chorus",
+   "label": "ENS 352: Opera Chorus",
+   "hint": "One credit of ENS 352 Opera Chorus, required in the fall term of sophomore year.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "ENS 352"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1VzA8kOvt9LNYy8MkdqZNv8nI-jpsZwOb/view"
+   ]
+  },
+  {
+   "id": "smtd-voice-performance-lessons",
+   "label": "Performance lessons (32 credits)",
+   "hint": "Private voice study every term, four credits per term across eight terms (32 credits total) with completion of VOICE 440. Solo and ensemble participation is subject to the approval of the voice instructor.",
+   "need": 32,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "VOICE 139",
+    "VOICE 140",
+    "VOICE 239",
+    "VOICE 240",
+    "VOICE 339",
+    "VOICE 340",
+    "VOICE 439",
+    "VOICE 440"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1VzA8kOvt9LNYy8MkdqZNv8nI-jpsZwOb/view"
+   ]
+  },
+  {
+   "id": "smtd-voice-conducting",
+   "label": "Conducting (CONDUCT 315 and 316)",
+   "hint": "CONDUCT 315 Elementary Conducting I and CONDUCT 316 Elementary Conducting II.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "CONDUCT 315",
+    "CONDUCT 316"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1VzA8kOvt9LNYy8MkdqZNv8nI-jpsZwOb/view"
+   ]
+  },
+  {
+   "id": "smtd-voice-opera-skills",
+   "label": "Opera Performance Skills I-III",
+   "hint": "OPERA 139 Performance Skills I, OPERA 239 Performance Skills II, and OPERA 240 Performance Skills III.",
+   "need": 3,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "OPERA 139",
+    "OPERA 239",
+    "OPERA 240"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1VzA8kOvt9LNYy8MkdqZNv8nI-jpsZwOb/view"
+   ]
+  },
+  {
+   "id": "smtd-voice-diction",
+   "label": "Diction (Italian, German, French)",
+   "hint": "VOICELIT 201 Italian Diction, VOICELIT 202 German Diction, and VOICELIT 203 French Diction.",
+   "need": 3,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "VOICELIT 201",
+    "VOICELIT 202",
+    "VOICELIT 203"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1VzA8kOvt9LNYy8MkdqZNv8nI-jpsZwOb/view"
+   ]
+  },
+  {
+   "id": "smtd-voice-production-practicum",
+   "label": "THTREMUS 251: Production Practicum I",
+   "hint": "One credit of THTREMUS 251 Production Practicum I, taken in the winter term of first year.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "THTREMUS 251"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1VzA8kOvt9LNYy8MkdqZNv8nI-jpsZwOb/view"
+   ]
+  },
+  {
+   "id": "smtd-voice-opera-electives",
+   "label": "Opera electives (4 credits)",
+   "hint": "Minimum 4 credits chosen from OPERA 340 Opera Workshop I, OPERA 341 Opera Workshop II, or OPERA 455 Mainstage (Opera Production).",
+   "need": 4,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "OPERA 340",
+    "OPERA 341",
+    "OPERA 455"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1VzA8kOvt9LNYy8MkdqZNv8nI-jpsZwOb/view"
+   ]
+  },
+  {
+   "id": "smtd-voice-voicelit-elective",
+   "label": "Voice Literature elective (2 credits)",
+   "hint": "Minimum 2 credits of Voice Literature electives: VOICELIT 410 Vocal Literature of Black American Composers (African American art song), VOICELIT 411 Czech Vocal Literature, or VOICELIT 450 Chamber Music for Voice and Instruments. The oratorio option also qualifies when offered; the undergraduate catalog lists no oratorio course, VOICELIT 567 is graduate level.",
+   "need": 2,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "VOICELIT 410",
+    "VOICELIT 411",
+    "VOICELIT 450"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1VzA8kOvt9LNYy8MkdqZNv8nI-jpsZwOb/view"
+   ]
+  },
+  {
+   "id": "smtd-voice-dance-theatre-electives",
+   "label": "Additional electives in Dance or Theatre (2 credits)",
+   "hint": "At least 2 credits of additional electives in Dance or Theatre, in either subject or a mix.",
+   "need": 2,
+   "countMode": "credits",
+   "category": "electives",
+   "sources": [
+    "https://drive.google.com/file/d/1VzA8kOvt9LNYy8MkdqZNv8nI-jpsZwOb/view"
+   ],
+   "matchTag": "smtd-dance-theatre"
+  },
+  {
+   "id": "smtd-voice-senior-recital",
+   "label": "MUSPERF 440: Senior Recital",
+   "hint": "Zero credit capstone recital in the final year, taken alongside the 440 level lessons. The minimum vocal repertory requirements (song and aria lists tracked by the voice studio) must also be completed; at least 25 selections are needed to qualify for junior standing.",
+   "need": 1,
+   "countMode": "count",
+   "category": "capstone",
+   "matchCodes": [
+    "MUSPERF 440"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1VzA8kOvt9LNYy8MkdqZNv8nI-jpsZwOb/view"
+   ]
+  },
+  {
+   "id": "smtd-voice-fywr",
+   "label": "First year writing",
+   "hint": "ENGLISH 124, 125, or an equivalent first year writing course.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-fywr",
+   "sources": [
+    "https://drive.google.com/file/d/1VzA8kOvt9LNYy8MkdqZNv8nI-jpsZwOb/view"
+   ]
+  },
+  {
+   "id": "smtd-voice-ulwr",
+   "label": "Upper level writing",
+   "hint": "An upper level writing course approved by the Sweetland Writing Center.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-ulwr",
+   "sources": [
+    "https://drive.google.com/file/d/1VzA8kOvt9LNYy8MkdqZNv8nI-jpsZwOb/view"
+   ]
+  },
+  {
+   "id": "smtd-voice-race-ethnicity",
+   "label": "Race and Ethnicity course",
+   "hint": "One course in Race and Ethnicity selected from approved courses within LSA, or within SMTD by petition. SMTD RE courses will not count into overall non-SMTD credits.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-race-ethnicity",
+   "sources": [
+    "https://drive.google.com/file/d/1VzA8kOvt9LNYy8MkdqZNv8nI-jpsZwOb/view"
+   ]
+  },
+  {
+   "id": "smtd-voice-french",
+   "label": "FRENCH 101: Elementary French",
+   "hint": "FRENCH 101 Elementary French with a C- or better, or demonstrated proficiency (use an override if you place out).",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchCodes": [
+    "FRENCH 101"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1VzA8kOvt9LNYy8MkdqZNv8nI-jpsZwOb/view"
+   ]
+  },
+  {
+   "id": "smtd-voice-german",
+   "label": "GERMAN 101: Elementary German",
+   "hint": "GERMAN 101 Elementary German with a C- or better, or demonstrated proficiency (use an override if you place out).",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchCodes": [
+    "GERMAN 101"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1VzA8kOvt9LNYy8MkdqZNv8nI-jpsZwOb/view"
+   ]
+  },
+  {
+   "id": "smtd-voice-italian",
+   "label": "ITALIAN 101: Elementary Italian",
+   "hint": "ITALIAN 101 Elementary Italian with a C- or better, or demonstrated proficiency (use an override if you place out).",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchCodes": [
+    "ITALIAN 101"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1VzA8kOvt9LNYy8MkdqZNv8nI-jpsZwOb/view"
+   ]
+  }
+ ],
+ "sourceUrl": "https://smtd.umich.edu/degree/bachelor-of-music-in-performance-voice/"
+}

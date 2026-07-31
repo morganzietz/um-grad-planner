@@ -1,0 +1,310 @@
+{
+ "id": "smtd-bs-sound-engineering",
+ "name": "Sound Engineering (BS)",
+ "school": "School of Music, Theatre & Dance",
+ "goalCredits": 120,
+ "requirements": [
+  {
+   "id": "smtd-total-credits",
+   "label": "120 Total Credits",
+   "hint": "The BS in Sound Engineering requires a minimum of 120 credits, including 12 credits of math, 10 of physics, and 20 of engineering. Requirements follow the 2024-2025 Silent Advisor; SMTD students follow the curriculum of their admit year.",
+   "need": 120,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://smtd.umich.edu/degree/bachelor-of-science-in-sound-engineering/",
+    "https://drive.google.com/file/d/19ZSQaCqQGnZXheWuA0QuS1gwCRgN2gAN/view"
+   ]
+  },
+  {
+   "id": "smtd-se-theory-1",
+   "label": "Music Theory: Aural and Written Skills I",
+   "hint": "THEORY 139 Aural Skills I and THEORY 149 Written Skills I.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "THEORY 139",
+    "THEORY 149"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/19ZSQaCqQGnZXheWuA0QuS1gwCRgN2gAN/view"
+   ]
+  },
+  {
+   "id": "smtd-se-theory-2",
+   "label": "Music Theory: Aural and Written Skills II or Experiential Theory",
+   "hint": "THEORY 140 and 150, or PAT 150 Experiential Theory. Students who elect PAT 150 are not eligible to take Theory 239, 249, 240, and 250, but may take Jazz 220 and 221.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "pickFromGroups": [
+    "smtd-se-theory-2-theory",
+    "smtd-se-theory-2-pat"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/19ZSQaCqQGnZXheWuA0QuS1gwCRgN2gAN/view"
+   ]
+  },
+  {
+   "id": "smtd-se-theory-2-theory",
+   "label": "Theory 140 and 150",
+   "hint": "Aural Skills II and Written Skills II.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "THEORY 140",
+    "THEORY 150"
+   ]
+  },
+  {
+   "id": "smtd-se-theory-2-pat",
+   "label": "PAT 150: Experiential Theory",
+   "hint": "PAT 150 in place of Theory 140 and 150.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "PAT 150"
+   ]
+  },
+  {
+   "id": "smtd-se-theory-upper",
+   "label": "Upper Music Theory (Theory III-IV, Jazz 220-221, or listed electives)",
+   "hint": "Choose one combination: THEORY 239, 249, 240, and 250; or JAZZ 220 and 221; or 6 credits chosen from JAZZ 460, 466, 467, 468, MUSICOL 465, WGS 354, RCMUSIC 258, and RCMUSIC 321.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "pickFromGroups": [
+    "smtd-se-theory-upper-theory",
+    "smtd-se-theory-upper-jazz",
+    "smtd-se-theory-upper-listed"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/19ZSQaCqQGnZXheWuA0QuS1gwCRgN2gAN/view"
+   ]
+  },
+  {
+   "id": "smtd-se-theory-upper-theory",
+   "label": "Theory 239, 249, 240, and 250",
+   "hint": "Aural and Written Skills III and IV.",
+   "need": 4,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "THEORY 239",
+    "THEORY 249",
+    "THEORY 240",
+    "THEORY 250"
+   ]
+  },
+  {
+   "id": "smtd-se-theory-upper-jazz",
+   "label": "Jazz 220 and 221",
+   "hint": "JAZZ 220 Basic Musicianship I and JAZZ 221 Basic Musicianship II.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "JAZZ 220",
+    "JAZZ 221"
+   ]
+  },
+  {
+   "id": "smtd-se-theory-upper-listed",
+   "label": "Listed musicianship electives (6 credits)",
+   "hint": "Six credits chosen from JAZZ 460, 466, 467, 468, MUSICOL 465, WGS 354, RCMUSIC 258, and RCMUSIC 321.",
+   "need": 6,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "JAZZ 460",
+    "JAZZ 466",
+    "JAZZ 467",
+    "JAZZ 468",
+    "MUSICOL 465",
+    "WGS 354",
+    "RCMUSIC 258",
+    "RCMUSIC 321"
+   ]
+  },
+  {
+   "id": "smtd-se-musicology",
+   "label": "Musicology (2 courses)",
+   "hint": "Two courses in Musicology, 4 to 6 credits.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchTag": "subj-musicol",
+   "sources": [
+    "https://drive.google.com/file/d/19ZSQaCqQGnZXheWuA0QuS1gwCRgN2gAN/view"
+   ]
+  },
+  {
+   "id": "smtd-se-class-piano",
+   "label": "Class Piano (Piano 110 and 111)",
+   "hint": "PIANO 110 and 111, two credits each, or proficiency.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "PIANO 110",
+    "PIANO 111"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/19ZSQaCqQGnZXheWuA0QuS1gwCRgN2gAN/view"
+   ]
+  },
+  {
+   "id": "smtd-se-pat-core",
+   "label": "PAT core",
+   "hint": "PAT 101 Seminar in Media Arts, 102 Acoustics and Psychoacoustics, 201 Intro to Computer Music, 202 Computer Music Programming and Arranging, 204 Creative Coding for Music, 280 Sound Reinforcement, 331 and 332 Sound Recording and Production I-II, 380 Sound for Theatre, 422 Technical Ear Training and Critical Listening, and 431 and 432 Contemporary Practices in Studio Production I-II.",
+   "need": 12,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "PAT 101",
+    "PAT 102",
+    "PAT 201",
+    "PAT 202",
+    "PAT 204",
+    "PAT 280",
+    "PAT 331",
+    "PAT 332",
+    "PAT 380",
+    "PAT 422",
+    "PAT 431",
+    "PAT 432"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/19ZSQaCqQGnZXheWuA0QuS1gwCRgN2gAN/view"
+   ]
+  },
+  {
+   "id": "smtd-se-pat-seminar",
+   "label": "PAT 400: PAT Seminar (8 terms)",
+   "hint": "Still building automatic checking for this rule. PAT 400 PAT Seminar, 0.5 credits, elected every term for eight terms. The planner catalog does not carry PAT 400 yet.",
+   "need": 4,
+   "countMode": "credits",
+   "category": "core",
+   "manual": true,
+   "sources": [
+    "https://drive.google.com/file/d/19ZSQaCqQGnZXheWuA0QuS1gwCRgN2gAN/view"
+   ]
+  },
+  {
+   "id": "smtd-se-senior-thesis",
+   "label": "PAT 490: Senior Thesis",
+   "hint": "Still building automatic checking for this rule. PAT 490 Senior Thesis, 3 credits, taken in the final year. The planner catalog does not carry PAT 490 yet.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "capstone",
+   "manual": true,
+   "sources": [
+    "https://drive.google.com/file/d/19ZSQaCqQGnZXheWuA0QuS1gwCRgN2gAN/view"
+   ]
+  },
+  {
+   "id": "smtd-se-math",
+   "label": "Math (Calculus I-II and Differential Equations)",
+   "hint": "MATH 115 Calculus I, MATH 116 Calculus II, and MATH 216 Intro to Differential Equations, 12 credits.",
+   "need": 3,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MATH 115",
+    "MATH 116",
+    "MATH 216"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/19ZSQaCqQGnZXheWuA0QuS1gwCRgN2gAN/view"
+   ]
+  },
+  {
+   "id": "smtd-se-physics",
+   "label": "Physics with labs",
+   "hint": "PHYSICS 140 Physics I with lab 141, and PHYSICS 240 General Physics with lab 241, 10 credits.",
+   "need": 4,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "PHYSICS 140",
+    "PHYSICS 141",
+    "PHYSICS 240",
+    "PHYSICS 241"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/19ZSQaCqQGnZXheWuA0QuS1gwCRgN2gAN/view"
+   ]
+  },
+  {
+   "id": "smtd-se-engineering",
+   "label": "Engineering (EECS sequence)",
+   "hint": "EECS 215 Intro to Electronic Circuits, 216 Intro to Signals and Systems, 280 Programming and Data Structures, 351 Digital Signal Processing and Analysis, and 452 Design Lab, 20 credits. This set of courses fulfills an Electrical Engineering minor.",
+   "need": 5,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "EECS 215",
+    "EECS 216",
+    "EECS 280",
+    "EECS 351",
+    "EECS 452"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/19ZSQaCqQGnZXheWuA0QuS1gwCRgN2gAN/view"
+   ]
+  },
+  {
+   "id": "smtd-se-fywr",
+   "label": "First year writing",
+   "hint": "ENGLISH 124, 125, or an equivalent first year writing course.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-fywr",
+   "sources": [
+    "https://drive.google.com/file/d/19ZSQaCqQGnZXheWuA0QuS1gwCRgN2gAN/view"
+   ]
+  },
+  {
+   "id": "smtd-se-ulwr",
+   "label": "Upper level writing",
+   "hint": "An upper level writing course approved by the Sweetland Writing Center.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-ulwr",
+   "sources": [
+    "https://drive.google.com/file/d/19ZSQaCqQGnZXheWuA0QuS1gwCRgN2gAN/view"
+   ]
+  },
+  {
+   "id": "smtd-se-race-ethnicity",
+   "label": "Race and Ethnicity course",
+   "hint": "One course in Race and Ethnicity selected from approved courses within LSA, or within SMTD by petition. SMTD RE courses will not count into overall non-SMTD credits.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-race-ethnicity",
+   "sources": [
+    "https://drive.google.com/file/d/19ZSQaCqQGnZXheWuA0QuS1gwCRgN2gAN/view"
+   ]
+  },
+  {
+   "id": "smtd-se-programming",
+   "label": "Computer programming elective",
+   "hint": "Still building automatic checking for this rule. A computer programming elective, 3 to 4 credits, chosen in consultation with an advisor.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "smtd-liberal-arts",
+   "manual": true,
+   "sources": [
+    "https://drive.google.com/file/d/19ZSQaCqQGnZXheWuA0QuS1gwCRgN2gAN/view"
+   ]
+  }
+ ],
+ "sourceUrl": "https://smtd.umich.edu/degree/bachelor-of-science-in-sound-engineering/"
+}

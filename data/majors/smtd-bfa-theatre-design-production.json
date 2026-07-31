@@ -1,0 +1,292 @@
+{
+ "id": "smtd-bfa-theatre-design-production",
+ "name": "Design and Production (BFA)",
+ "school": "School of Music, Theatre & Dance",
+ "goalCredits": 120,
+ "requirements": [
+  {
+   "id": "smtd-total-credits",
+   "label": "120 Total Credits",
+   "hint": "The BFA in Design and Production requires a minimum of 120 credits. Requirements follow the 2024-2025 Silent Advisor; SMTD students follow the curriculum of their admit year.",
+   "need": 120,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://smtd.umich.edu/degree/bachelor-of-fine-arts-in-design-production/",
+    "https://drive.google.com/file/d/1AABY8J-kxudqMO2riMaZmm2ojXtimzQ7/view"
+   ]
+  },
+  {
+   "id": "smtd-liberal-arts-credits",
+   "label": "Non-SMTD credits (39)",
+   "hint": "At least 39 credits outside SMTD. Courses within Arts Administration also count as non-SMTD.",
+   "need": 39,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "excludeTags": [
+    "smtd-credit"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1AABY8J-kxudqMO2riMaZmm2ojXtimzQ7/view"
+   ]
+  },
+  {
+   "id": "smtd-dp-fundamentals",
+   "label": "D&P Fundamentals (11 courses)",
+   "hint": "Intro to Acting, Directing I, Intro to Stage Management, Intro to Technical Theatre, Lighting Design I, Scene Design I, Foundations in Design, Costume Design I, Research Methodology, Script Analysis, and the Design and Production Seminar (THTREMUS 403, elected across four terms). A grade below C- in any D&P course does not count.",
+   "need": 11,
+   "countMode": "count",
+   "category": "core",
+   "minGrade": "C-",
+   "matchCodes": [
+    "THTREMUS 101",
+    "THTREMUS 241",
+    "THTREMUS 245",
+    "THTREMUS 250",
+    "THTREMUS 256",
+    "THTREMUS 260",
+    "THTREMUS 263",
+    "THTREMUS 270",
+    "THTREMUS 235",
+    "THTREMUS 283",
+    "THTREMUS 403"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1AABY8J-kxudqMO2riMaZmm2ojXtimzQ7/view"
+   ]
+  },
+  {
+   "id": "smtd-dp-performance-studies",
+   "label": "Performance Studies (9 credits)",
+   "hint": "Minimum 9 credits chosen in consultation with a D&P advisor from Interarts 150, Theatre History I and II, American Theatre and Drama, Contemporary American Drama, Intercultural Drama, Global Performance and Ethnic Studies, Topics in African American Theatre, PAT 313, Musical Theatre History I, Topics in Early Opera, 19th-20th Century Opera, or Dance Special Topics.",
+   "need": 9,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "INTERARTS 150",
+    "THTREMUS 321",
+    "THTREMUS 322",
+    "THTREMUS 323",
+    "THTREMUS 325",
+    "THTREMUS 326",
+    "THTREMUS 222",
+    "THTREMUS 440",
+    "PAT 313",
+    "MUSTHTRE 441",
+    "MUSICOL 413",
+    "MUSICOL 414",
+    "DANCE 496"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1AABY8J-kxudqMO2riMaZmm2ojXtimzQ7/view"
+   ]
+  },
+  {
+   "id": "smtd-dp-practicum",
+   "label": "Practicum (8 credits)",
+   "hint": "Minimum 8 credits chosen from Run Crew, Intro UProd Shop Practicum, Production Practicum, Assistant Stage Manager/Designer, Advanced Production Practicum, Design Practicum, Advanced Management Practicum, or Uber Practicum.",
+   "need": 8,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "THTREMUS 251",
+    "THTREMUS 252",
+    "THTREMUS 261",
+    "THTREMUS 262",
+    "THTREMUS 351",
+    "THTREMUS 352",
+    "THTREMUS 451",
+    "THTREMUS 461",
+    "THTREMUS 495"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1AABY8J-kxudqMO2riMaZmm2ojXtimzQ7/view"
+   ],
+   "minGrade": "C-"
+  },
+  {
+   "id": "smtd-dp-specialization",
+   "label": "D&P Specialization (17 credits)",
+   "hint": "Minimum 17 credits from the specialization lists: Production Studio (makeup, costume construction, puppetry, scene construction, period costume, scene painting, costume patterning and technology), Management (stage management, arts management, producing), Design Studio (sound, lighting II-IV, scene design II-IV, costume design II-IV), Creative Communication (professional preparation, drafting, CAD), Design History, and directed or independent study. Specialization courses may be taken as early as sophomore year.",
+   "need": 17,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "THTREMUS 162",
+    "THTREMUS 265",
+    "THTREMUS 285",
+    "THTREMUS 350",
+    "THTREMUS 452",
+    "THTREMUS 464",
+    "THTREMUS 471",
+    "THTREMUS 476",
+    "THTREMUS 345",
+    "THTREMUS 445",
+    "THTREMUS 446",
+    "THTREMUS 385",
+    "THTREMUS 386",
+    "THTREMUS 435",
+    "THTREMUS 353",
+    "THTREMUS 356",
+    "THTREMUS 456",
+    "THTREMUS 457",
+    "THTREMUS 360",
+    "THTREMUS 460",
+    "THTREMUS 560",
+    "THTREMUS 370",
+    "THTREMUS 470",
+    "THTREMUS 570",
+    "THTREMUS 404",
+    "THTREMUS 462",
+    "THTREMUS 463",
+    "THTREMUS 277",
+    "THTREMUS 468",
+    "THTREMUS 478",
+    "THTREMUS 400",
+    "THTREMUS 401"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1AABY8J-kxudqMO2riMaZmm2ojXtimzQ7/view"
+   ],
+   "minGrade": "C-"
+  },
+  {
+   "id": "smtd-dp-theatre-electives",
+   "label": "Theatre and Drama electives (9 credits)",
+   "hint": "Minimum 9 credits in Theatre and Drama electives beyond the named D&P requirements. The audit counts Theatre credits past the roughly 57 credits used by the Fundamentals, Practicum, and Specialization requirements.",
+   "need": 9,
+   "countMode": "credits",
+   "category": "electives",
+   "offset": 57,
+   "matchTag": "subj-thtremus",
+   "sources": [
+    "https://drive.google.com/file/d/1AABY8J-kxudqMO2riMaZmm2ojXtimzQ7/view"
+   ]
+  },
+  {
+   "id": "smtd-dp-cognate",
+   "label": "Cognate (6 credits)",
+   "hint": "Still building automatic checking for this rule. Minimum 6 credits in courses related to the student's field of specialization; may include architecture, art, art history, computer science, film and video, engineering, language, math, psychology, or non-Theatre SMTD courses, chosen with a D&P advisor.",
+   "need": 6,
+   "countMode": "credits",
+   "category": "electives",
+   "manual": true,
+   "sources": [
+    "https://drive.google.com/file/d/1AABY8J-kxudqMO2riMaZmm2ojXtimzQ7/view"
+   ]
+  },
+  {
+   "id": "smtd-dp-fywr",
+   "label": "First year writing",
+   "hint": "ENGLISH 124, 125, or an equivalent first year writing course.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-fywr",
+   "sources": [
+    "https://drive.google.com/file/d/1AABY8J-kxudqMO2riMaZmm2ojXtimzQ7/view"
+   ]
+  },
+  {
+   "id": "smtd-dp-ulwr",
+   "label": "Upper level writing",
+   "hint": "An upper level writing course approved by the Sweetland Writing Center.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-ulwr",
+   "sources": [
+    "https://drive.google.com/file/d/1AABY8J-kxudqMO2riMaZmm2ojXtimzQ7/view"
+   ]
+  },
+  {
+   "id": "smtd-dp-race-ethnicity",
+   "label": "Race and Ethnicity course",
+   "hint": "One course in Race and Ethnicity selected from approved courses within LSA.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-race-ethnicity",
+   "sources": [
+    "https://drive.google.com/file/d/1AABY8J-kxudqMO2riMaZmm2ojXtimzQ7/view"
+   ]
+  },
+  {
+   "id": "smtd-dp-shakespeare",
+   "label": "Shakespeare's Plays",
+   "hint": "ENGLISH 367 Shakespeare's Plays. The current catalog cycle does not carry ENGLISH 367; ENGLISH 167, 267, and 467 are accepted here as stand-ins, confirm with an advisor.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchCodes": [
+    "ENGLISH 367",
+    "ENGLISH 167",
+    "ENGLISH 267",
+    "ENGLISH 467"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1AABY8J-kxudqMO2riMaZmm2ojXtimzQ7/view"
+   ]
+  },
+  {
+   "id": "smtd-dp-language",
+   "label": "Foreign language (1 term)",
+   "hint": "One term of a foreign language, or proficiency.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-language",
+   "sources": [
+    "https://drive.google.com/file/d/1AABY8J-kxudqMO2riMaZmm2ojXtimzQ7/view"
+   ]
+  },
+  {
+   "id": "smtd-dp-history-of-art",
+   "label": "History of Art (6 credits)",
+   "hint": "Six credits of History of Art coursework.",
+   "need": 6,
+   "countMode": "credits",
+   "category": "smtd-liberal-arts",
+   "matchTag": "subj-histart",
+   "sources": [
+    "https://drive.google.com/file/d/1AABY8J-kxudqMO2riMaZmm2ojXtimzQ7/view"
+   ]
+  },
+  {
+   "id": "smtd-dp-sci-electives",
+   "label": "Social and/or Natural Science electives (8 credits)",
+   "hint": "Eight additional credits in Social Science and/or Natural Science. The audit checks 8 credits within one of the two areas; a mix across both areas also satisfies the school's rule and can be recorded with an override.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "pickFromGroups": [
+    "smtd-dp-sci-social",
+    "smtd-dp-sci-natural"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1AABY8J-kxudqMO2riMaZmm2ojXtimzQ7/view"
+   ]
+  },
+  {
+   "id": "smtd-dp-sci-social",
+   "label": "Social Science (8 credits)",
+   "hint": "Eight credits of Social Science coursework.",
+   "need": 8,
+   "countMode": "credits",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-social-sciences"
+  },
+  {
+   "id": "smtd-dp-sci-natural",
+   "label": "Natural Science (8 credits)",
+   "hint": "Eight credits of Natural Science coursework.",
+   "need": 8,
+   "countMode": "credits",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-natural-sciences"
+  }
+ ],
+ "sourceUrl": "https://smtd.umich.edu/degree/bachelor-of-fine-arts-in-design-production/"
+}

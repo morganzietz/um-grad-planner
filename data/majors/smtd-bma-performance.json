@@ -1,0 +1,490 @@
+{
+ "id": "smtd-bma-performance",
+ "name": "Musical Arts: Performance (BMA)",
+ "school": "School of Music, Theatre & Dance",
+ "goalCredits": 120,
+ "requirements": [
+  {
+   "id": "smtd-total-credits",
+   "label": "120 Total Credits",
+   "hint": "The BMA in Performance requires a minimum of 120 credits. Requirements follow the 2024-2025 Silent Advisor; SMTD students follow the curriculum of their admit year.",
+   "need": 120,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://smtd.umich.edu/degree/bachelor-of-musical-arts-in-piano/",
+    "https://drive.google.com/file/d/16sWHlfRY_p7RMJuqbW3D_CcC-50o6TZN/view"
+   ]
+  },
+  {
+   "id": "smtd-non-music-credits",
+   "label": "Non-Music credits (40)",
+   "hint": "Minimum 40 credits outside music. Courses within Arts Administration, Dance, and Theatre also count as non-Music.",
+   "need": 40,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "excludeTags": [
+    "smtd-music"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/16sWHlfRY_p7RMJuqbW3D_CcC-50o6TZN/view"
+   ]
+  },
+  {
+   "id": "smtd-bmaperf-smtd-credits",
+   "label": "SMTD credits (60)",
+   "hint": "Minimum 60 credits within SMTD.",
+   "need": 60,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchTag": "smtd-credit",
+   "sources": [
+    "https://drive.google.com/file/d/16sWHlfRY_p7RMJuqbW3D_CcC-50o6TZN/view"
+   ]
+  },
+  {
+   "id": "smtd-bmaperf-theory-core",
+   "label": "Music Theory core (Aural and Written Skills I-II)",
+   "hint": "THEORY 139, 149, 140, and 150, taken across the first year.",
+   "need": 4,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "THEORY 139",
+    "THEORY 149",
+    "THEORY 140",
+    "THEORY 150"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/16sWHlfRY_p7RMJuqbW3D_CcC-50o6TZN/view"
+   ]
+  },
+  {
+   "id": "smtd-bmaperf-theory-upper",
+   "label": "Music Theory: Aural and Written Skills III-IV (or Jazz substitution)",
+   "hint": "THEORY 239, 249, 240, and 250, or the Jazz substitution: JAZZ 220 in place of Theory 239 and 249, and JAZZ 221 in place of Theory 240 and 250.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "pickFromGroups": [
+    "smtd-bmaperf-theory-upper-theory",
+    "smtd-bmaperf-theory-upper-jazz"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/16sWHlfRY_p7RMJuqbW3D_CcC-50o6TZN/view"
+   ]
+  },
+  {
+   "id": "smtd-bmaperf-theory-upper-theory",
+   "label": "Theory 239, 249, 240, and 250",
+   "hint": "Aural and Written Skills III and IV.",
+   "need": 4,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "THEORY 239",
+    "THEORY 249",
+    "THEORY 240",
+    "THEORY 250"
+   ]
+  },
+  {
+   "id": "smtd-bmaperf-theory-upper-jazz",
+   "label": "Jazz 220 and 221",
+   "hint": "JAZZ 220 Basic Musicianship I and JAZZ 221 Basic Musicianship II. Jazz 220/221 may not be accepted as a prerequisite for some 400 level Theory courses.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "JAZZ 220",
+    "JAZZ 221"
+   ]
+  },
+  {
+   "id": "smtd-bmaperf-theory-400",
+   "label": "400 level Theory elective (3 credits)",
+   "hint": "One 400 level Theory elective. Jazz 220/221 may not be accepted as a prerequisite for some 400 level Theory courses.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "THEORY 407",
+    "THEORY 430",
+    "THEORY 433",
+    "THEORY 436",
+    "THEORY 438",
+    "THEORY 440",
+    "THEORY 442",
+    "THEORY 443",
+    "THEORY 454",
+    "THEORY 455",
+    "THEORY 460",
+    "THEORY 461"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/16sWHlfRY_p7RMJuqbW3D_CcC-50o6TZN/view"
+   ]
+  },
+  {
+   "id": "smtd-bmaperf-musicology-core",
+   "label": "Musicology core",
+   "hint": "MUSICOL 139 Intro to the Study of Music, 140 History of U.S. Musics, 239 History of Music, and 240 History of Western Music.",
+   "need": 4,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MUSICOL 139",
+    "MUSICOL 140",
+    "MUSICOL 239",
+    "MUSICOL 240"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/16sWHlfRY_p7RMJuqbW3D_CcC-50o6TZN/view"
+   ]
+  },
+  {
+   "id": "smtd-bmaperf-musicol-theory-jazz-400",
+   "label": "400 level Musicology, Theory, or listed Jazz elective (3 credits)",
+   "hint": "One 400 level Musicology or Theory elective, or JAZZ 460, 467, 470, or 479.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "MUSICOL 413",
+    "MUSICOL 414",
+    "MUSICOL 417",
+    "MUSICOL 420",
+    "MUSICOL 421",
+    "MUSICOL 423",
+    "MUSICOL 424",
+    "MUSICOL 450",
+    "MUSICOL 457",
+    "MUSICOL 458",
+    "MUSICOL 464",
+    "MUSICOL 465",
+    "MUSICOL 467",
+    "MUSICOL 477",
+    "MUSICOL 481",
+    "THEORY 407",
+    "THEORY 430",
+    "THEORY 433",
+    "THEORY 436",
+    "THEORY 438",
+    "THEORY 440",
+    "THEORY 442",
+    "THEORY 443",
+    "THEORY 454",
+    "THEORY 455",
+    "THEORY 460",
+    "THEORY 461",
+    "JAZZ 460",
+    "JAZZ 467",
+    "JAZZ 470",
+    "JAZZ 479"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/16sWHlfRY_p7RMJuqbW3D_CcC-50o6TZN/view"
+   ]
+  },
+  {
+   "id": "smtd-bmaperf-class-piano",
+   "label": "Class Piano (Piano 110, 111, and 112)",
+   "hint": "PIANO 110, 111, and 112, two credits each, or proficiency. Piano Performance concentrators must also elect PIANO 460 Piano Forum each term, PIANOLP 487 Piano Literature Elizabethan through Mozart, and ENS 481 Piano Accompanying.",
+   "need": 3,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "PIANO 110",
+    "PIANO 111",
+    "PIANO 112"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/16sWHlfRY_p7RMJuqbW3D_CcC-50o6TZN/view"
+   ]
+  },
+  {
+   "id": "smtd-bmaperf-ensembles",
+   "label": "Ensembles (2 terms from the approved list)",
+   "hint": "Two terms from the listed ensembles.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "ENS 345",
+    "ENS 347",
+    "ENS 348",
+    "ENS 349",
+    "ENS 350",
+    "ENS 460",
+    "ENS 470"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/16sWHlfRY_p7RMJuqbW3D_CcC-50o6TZN/view"
+   ]
+  },
+  {
+   "id": "smtd-bmaperf-ensembles-additional",
+   "label": "Additional approved ensembles (2 terms)",
+   "hint": "Two additional terms of any approved ensemble.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchTag": "subj-ens",
+   "offset": 2,
+   "sources": [
+    "https://drive.google.com/file/d/16sWHlfRY_p7RMJuqbW3D_CcC-50o6TZN/view"
+   ]
+  },
+  {
+   "id": "smtd-bmaperf-performance-lessons",
+   "label": "Performance lessons (24 credits)",
+   "hint": "Private study on the principal instrument every term: 24 credits with completion of the 440 (or 402) level.",
+   "need": 24,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "PIANO 139",
+    "PIANO 140",
+    "PIANO 239",
+    "PIANO 240",
+    "PIANO 339",
+    "PIANO 340",
+    "PIANO 439",
+    "PIANO 440",
+    "ORGAN 139",
+    "ORGAN 140",
+    "ORGAN 239",
+    "ORGAN 240",
+    "ORGAN 339",
+    "ORGAN 340",
+    "ORGAN 439",
+    "ORGAN 440",
+    "VOICE 139",
+    "VOICE 140",
+    "VOICE 239",
+    "VOICE 240",
+    "VOICE 339",
+    "VOICE 340",
+    "VOICE 439",
+    "VOICE 440",
+    "VIOLIN 139",
+    "VIOLIN 140",
+    "VIOLIN 239",
+    "VIOLIN 240",
+    "VIOLIN 339",
+    "VIOLIN 340",
+    "VIOLIN 439",
+    "VIOLIN 440",
+    "VIOLA 139",
+    "VIOLA 140",
+    "VIOLA 239",
+    "VIOLA 240",
+    "VIOLA 339",
+    "VIOLA 340",
+    "VIOLA 439",
+    "VIOLA 440",
+    "CELLO 139",
+    "CELLO 140",
+    "CELLO 239",
+    "CELLO 240",
+    "CELLO 339",
+    "CELLO 340",
+    "CELLO 439",
+    "CELLO 440",
+    "DBLBASS 139",
+    "DBLBASS 140",
+    "DBLBASS 239",
+    "DBLBASS 240",
+    "DBLBASS 339",
+    "DBLBASS 340",
+    "DBLBASS 439",
+    "DBLBASS 440",
+    "HARP 139",
+    "HARP 140",
+    "HARP 239",
+    "HARP 240",
+    "HARP 339",
+    "HARP 340",
+    "HARP 439",
+    "HARP 440",
+    "FLUTE 139",
+    "FLUTE 140",
+    "FLUTE 239",
+    "FLUTE 240",
+    "FLUTE 339",
+    "FLUTE 340",
+    "FLUTE 439",
+    "FLUTE 440",
+    "OBOE 139",
+    "OBOE 140",
+    "OBOE 239",
+    "OBOE 240",
+    "OBOE 339",
+    "OBOE 340",
+    "OBOE 439",
+    "OBOE 440",
+    "CLARINET 139",
+    "CLARINET 140",
+    "CLARINET 239",
+    "CLARINET 240",
+    "CLARINET 339",
+    "CLARINET 340",
+    "CLARINET 439",
+    "CLARINET 440",
+    "BASSOON 139",
+    "BASSOON 140",
+    "BASSOON 239",
+    "BASSOON 240",
+    "BASSOON 339",
+    "BASSOON 340",
+    "BASSOON 439",
+    "BASSOON 440",
+    "SAX 139",
+    "SAX 140",
+    "SAX 239",
+    "SAX 240",
+    "SAX 339",
+    "SAX 340",
+    "SAX 439",
+    "SAX 440",
+    "FRENHORN 139",
+    "FRENHORN 140",
+    "FRENHORN 239",
+    "FRENHORN 240",
+    "FRENHORN 339",
+    "FRENHORN 340",
+    "FRENHORN 439",
+    "FRENHORN 440",
+    "TRUM 139",
+    "TRUM 140",
+    "TRUM 239",
+    "TRUM 240",
+    "TRUM 339",
+    "TRUM 340",
+    "TRUM 439",
+    "TRUM 440",
+    "TROMBONE 139",
+    "TROMBONE 140",
+    "TROMBONE 239",
+    "TROMBONE 240",
+    "TROMBONE 339",
+    "TROMBONE 340",
+    "TROMBONE 439",
+    "TROMBONE 440",
+    "EUPHBARI 139",
+    "EUPHBARI 140",
+    "EUPHBARI 239",
+    "EUPHBARI 240",
+    "EUPHBARI 339",
+    "EUPHBARI 340",
+    "EUPHBARI 439",
+    "EUPHBARI 440",
+    "TUBA 139",
+    "TUBA 140",
+    "TUBA 239",
+    "TUBA 240",
+    "TUBA 339",
+    "TUBA 340",
+    "TUBA 439",
+    "TUBA 440",
+    "PERCUSS 139",
+    "PERCUSS 140",
+    "PERCUSS 239",
+    "PERCUSS 240",
+    "PERCUSS 339",
+    "PERCUSS 340",
+    "PERCUSS 439",
+    "PERCUSS 440",
+    "JAZZ 101",
+    "JAZZ 102",
+    "JAZZ 150",
+    "JAZZ 201",
+    "JAZZ 202",
+    "JAZZ 301",
+    "JAZZ 302",
+    "JAZZ 401",
+    "JAZZ 402"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/16sWHlfRY_p7RMJuqbW3D_CcC-50o6TZN/view"
+   ]
+  },
+  {
+   "id": "smtd-bmaperf-senior-recital",
+   "label": "Musperf 440: Senior Recital",
+   "hint": "Zero credit senior recital in the final year.",
+   "need": 1,
+   "countMode": "count",
+   "category": "capstone",
+   "matchCodes": [
+    "MUSPERF 440"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/16sWHlfRY_p7RMJuqbW3D_CcC-50o6TZN/view"
+   ]
+  },
+  {
+   "id": "smtd-bmaperf-smtd-electives",
+   "label": "SMTD electives (10 credits)",
+   "hint": "Minimum 10 credits chosen from SMTD courses. Voice Performance concentrators must include OPERA 139 Performance Skills I and two courses chosen from VOICELIT 201 Italian Diction, 202 German Diction, and 203 French Diction. Piano Performance concentrators' forum, literature, and accompanying courses count here.",
+   "need": 10,
+   "countMode": "credits",
+   "category": "electives",
+   "matchTag": "smtd-credit",
+   "sources": [
+    "https://drive.google.com/file/d/16sWHlfRY_p7RMJuqbW3D_CcC-50o6TZN/view"
+   ]
+  },
+  {
+   "id": "smtd-bmaperf-cognate",
+   "label": "Non-SMTD cognate (3 courses, 9 credits)",
+   "hint": "Still building automatic checking for this rule. Three non-SMTD courses beyond the introductory level, minimum 9 credits, supporting the student's field of interest and chosen in consultation with an advisor.",
+   "need": 9,
+   "countMode": "credits",
+   "category": "smtd-liberal-arts",
+   "manual": true,
+   "sources": [
+    "https://drive.google.com/file/d/16sWHlfRY_p7RMJuqbW3D_CcC-50o6TZN/view"
+   ]
+  },
+  {
+   "id": "smtd-bmaperf-fywr",
+   "label": "First year writing",
+   "hint": "ENGLISH 124, 125, or an equivalent first year writing course.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-fywr",
+   "sources": [
+    "https://drive.google.com/file/d/16sWHlfRY_p7RMJuqbW3D_CcC-50o6TZN/view"
+   ]
+  },
+  {
+   "id": "smtd-bmaperf-ulwr",
+   "label": "Upper level writing",
+   "hint": "An upper level writing course approved by the Sweetland Writing Center.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-ulwr",
+   "sources": [
+    "https://drive.google.com/file/d/16sWHlfRY_p7RMJuqbW3D_CcC-50o6TZN/view"
+   ]
+  },
+  {
+   "id": "smtd-bmaperf-race-ethnicity",
+   "label": "Race and Ethnicity course",
+   "hint": "One course in Race and Ethnicity selected from approved courses within LSA, or within SMTD by petition. SMTD RE courses will not count into overall non-SMTD credits.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-race-ethnicity",
+   "sources": [
+    "https://drive.google.com/file/d/16sWHlfRY_p7RMJuqbW3D_CcC-50o6TZN/view"
+   ]
+  }
+ ],
+ "sourceUrl": "https://smtd.umich.edu/degree/bachelor-of-musical-arts-in-piano/"
+}

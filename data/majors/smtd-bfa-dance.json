@@ -1,0 +1,306 @@
+{
+ "id": "smtd-bfa-dance",
+ "name": "Dance (BFA)",
+ "school": "School of Music, Theatre & Dance",
+ "goalCredits": 120,
+ "requirements": [
+  {
+   "id": "smtd-total-credits",
+   "label": "120 Total Credits",
+   "hint": "The BFA in Dance requires a minimum of 120 credits. Requirements follow the 2024-2025 Silent Advisor; SMTD students follow the curriculum of their admit year.",
+   "need": 120,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://smtd.umich.edu/degree/bachelor-of-fine-arts-in-dance/",
+    "https://drive.google.com/file/d/1s4MX1A5YVkh-_olt0UZdaToaCcwXWhi1/view"
+   ]
+  },
+  {
+   "id": "smtd-liberal-arts-credits",
+   "label": "Non-SMTD credits (30)",
+   "hint": "At least 30 credits outside SMTD. Courses within Arts Administration also count as non-SMTD.",
+   "need": 30,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "excludeTags": [
+    "smtd-credit"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1s4MX1A5YVkh-_olt0UZdaToaCcwXWhi1/view"
+   ]
+  },
+  {
+   "id": "smtd-dance-physical-practice",
+   "label": "Physical Practice/Technique (32 credits)",
+   "hint": "32 credits of technique, including at least 2 credits each in Modern, Ballet, Improvisation, World, and Somatic Practice, with a minimum of 4th year level reached in at least one method. Physical Practice may also include Dance Lab credits and a maximum of 3 credits from Dance courses offered in Musical Theatre.",
+   "need": 32,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "DANCE 101",
+    "DANCE 102",
+    "DANCE 103",
+    "DANCE 104",
+    "DANCE 105",
+    "DANCE 106",
+    "DANCE 111",
+    "DANCE 112",
+    "DANCE 113",
+    "DANCE 114",
+    "DANCE 115",
+    "DANCE 116",
+    "DANCE 127",
+    "DANCE 128",
+    "DANCE 171",
+    "DANCE 201",
+    "DANCE 202",
+    "DANCE 203",
+    "DANCE 204",
+    "DANCE 207",
+    "DANCE 208",
+    "DANCE 211",
+    "DANCE 212",
+    "DANCE 213",
+    "DANCE 214",
+    "DANCE 227",
+    "DANCE 228",
+    "DANCE 261",
+    "DANCE 262",
+    "DANCE 265",
+    "DANCE 270",
+    "DANCE 301",
+    "DANCE 302",
+    "DANCE 303",
+    "DANCE 304",
+    "DANCE 305",
+    "DANCE 306",
+    "DANCE 311",
+    "DANCE 312",
+    "DANCE 313",
+    "DANCE 314",
+    "DANCE 315",
+    "DANCE 327",
+    "DANCE 328",
+    "DANCE 332",
+    "DANCE 401",
+    "DANCE 402",
+    "DANCE 403",
+    "DANCE 404",
+    "DANCE 405",
+    "DANCE 407",
+    "DANCE 411",
+    "DANCE 412",
+    "DANCE 413",
+    "DANCE 414",
+    "DANCE 427",
+    "DANCE 428"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1s4MX1A5YVkh-_olt0UZdaToaCcwXWhi1/view"
+   ]
+  },
+  {
+   "id": "smtd-dance-repertory",
+   "label": "Dance Repertory (4 credits if cast)",
+   "hint": "Minimum 4 credits if cast, from Sophomore, Junior, and Senior Repertory or the MFA Thesis. Up to 2 additional credits of Repertory may be used toward Physical Practice/Technique.",
+   "need": 4,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "DANCE 221",
+    "DANCE 222",
+    "DANCE 321",
+    "DANCE 322",
+    "DANCE 391",
+    "DANCE 421",
+    "DANCE 422"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1s4MX1A5YVkh-_olt0UZdaToaCcwXWhi1/view"
+   ]
+  },
+  {
+   "id": "smtd-dance-composition",
+   "label": "Dance Composition (8 credits)",
+   "hint": "Minimum 8 credits from Composition I-IV or Advanced Dance Making.",
+   "need": 8,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "DANCE 131",
+    "DANCE 132",
+    "DANCE 231",
+    "DANCE 232",
+    "DANCE 331"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1s4MX1A5YVkh-_olt0UZdaToaCcwXWhi1/view"
+   ]
+  },
+  {
+   "id": "smtd-dance-history",
+   "label": "Dance History (9 credits)",
+   "hint": "Minimum 9 credits from Art of Dance, Dance and Society, World Dance, Dancing Cities, Africanist Traditions, Dancing Women/Dancing Queer, or Writing Dancing.",
+   "need": 9,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "DANCE 241",
+    "DANCE 247",
+    "DANCE 342",
+    "DANCE 347",
+    "DANCE 348",
+    "DANCE 445",
+    "DANCE 448"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1s4MX1A5YVkh-_olt0UZdaToaCcwXWhi1/view"
+   ]
+  },
+  {
+   "id": "smtd-dance-additional",
+   "label": "Additional Dance requirements (8 courses)",
+   "hint": "Freshman Touring Company, Anatomy and Physiology for Dancers, Kinesiology for Dancers, First Year Seminar, Integration of Music and Movement, Sophomore Seminar, Dance Production, and Senior Seminar.",
+   "need": 8,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "DANCE 126",
+    "DANCE 153",
+    "DANCE 155",
+    "DANCE 191",
+    "DANCE 242",
+    "DANCE 291",
+    "DANCE 372",
+    "DANCE 491"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1s4MX1A5YVkh-_olt0UZdaToaCcwXWhi1/view"
+   ]
+  },
+  {
+   "id": "smtd-dance-teaching-methods",
+   "label": "Teaching Methods",
+   "hint": "Teaching Methods, listed as Dance 481/482 on the Silent Advisor; the current catalog carries Teaching Methods as DANCE 381 and 382.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "DANCE 381",
+    "DANCE 382"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1s4MX1A5YVkh-_olt0UZdaToaCcwXWhi1/view"
+   ]
+  },
+  {
+   "id": "smtd-dance-senior-concert",
+   "label": "Senior Concert (4 credits)",
+   "hint": "DANCE 493/494 Senior Concert, 4 credits in the final year.",
+   "need": 4,
+   "countMode": "credits",
+   "category": "capstone",
+   "matchCodes": [
+    "DANCE 493",
+    "DANCE 494"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1s4MX1A5YVkh-_olt0UZdaToaCcwXWhi1/view"
+   ]
+  },
+  {
+   "id": "smtd-dance-run-crew",
+   "label": "THTREMUS 251: Run Crew",
+   "hint": "One credit of Theatre Run Crew.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "THTREMUS 251"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1s4MX1A5YVkh-_olt0UZdaToaCcwXWhi1/view"
+   ]
+  },
+  {
+   "id": "smtd-dance-smtd-electives",
+   "label": "SMTD electives (6 credits)",
+   "hint": "Minimum 6 credits made up from Musicology, Music Theory, Performance, or Ensemble courses, and one Theatre course other than 251. The audit counts any non-Dance SMTD course here.",
+   "need": 6,
+   "countMode": "credits",
+   "category": "electives",
+   "matchTag": "smtd-credit",
+   "excludeTags": [
+    "subj-dance"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1s4MX1A5YVkh-_olt0UZdaToaCcwXWhi1/view"
+   ]
+  },
+  {
+   "id": "smtd-dance-theatre-course",
+   "label": "Theatre course",
+   "hint": "One Theatre course other than THTREMUS 251, which is separately required. The first Theatre election is reserved for 251.",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "matchTag": "subj-thtremus",
+   "sources": [
+    "https://drive.google.com/file/d/1s4MX1A5YVkh-_olt0UZdaToaCcwXWhi1/view"
+   ],
+   "offset": 1
+  },
+  {
+   "id": "smtd-dance-fywr",
+   "label": "First year writing",
+   "hint": "ENGLISH 124, 125, or an equivalent first year writing course.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-fywr",
+   "sources": [
+    "https://drive.google.com/file/d/1s4MX1A5YVkh-_olt0UZdaToaCcwXWhi1/view"
+   ]
+  },
+  {
+   "id": "smtd-dance-ulwr",
+   "label": "Upper level writing",
+   "hint": "An upper level writing course approved by the Sweetland Writing Center.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-ulwr",
+   "sources": [
+    "https://drive.google.com/file/d/1s4MX1A5YVkh-_olt0UZdaToaCcwXWhi1/view"
+   ]
+  },
+  {
+   "id": "smtd-dance-race-ethnicity",
+   "label": "Race and Ethnicity course",
+   "hint": "One course in Race and Ethnicity selected from approved courses within LSA, or within SMTD by petition. SMTD RE courses will not count into overall non-SMTD credits.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-race-ethnicity",
+   "sources": [
+    "https://drive.google.com/file/d/1s4MX1A5YVkh-_olt0UZdaToaCcwXWhi1/view"
+   ]
+  },
+  {
+   "id": "smtd-dance-history-of-art",
+   "label": "History of Art elective",
+   "hint": "One History of Art course, 3 to 4 credits.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "subj-histart",
+   "sources": [
+    "https://drive.google.com/file/d/1s4MX1A5YVkh-_olt0UZdaToaCcwXWhi1/view"
+   ]
+  }
+ ],
+ "sourceUrl": "https://smtd.umich.edu/degree/bachelor-of-fine-arts-in-dance/"
+}

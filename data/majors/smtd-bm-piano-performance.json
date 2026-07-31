@@ -1,0 +1,355 @@
+{
+ "id": "smtd-bm-piano-performance",
+ "name": "Piano Performance (BM)",
+ "school": "School of Music, Theatre & Dance",
+ "goalCredits": 125,
+ "requirements": [
+  {
+   "id": "smtd-total-credits",
+   "label": "125 Total Credits",
+   "hint": "The BM in Piano Performance requires a minimum of 125 credits. Requirements follow the 2024-2025 Silent Advisor; SMTD students follow the curriculum of their admit year.",
+   "need": 125,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://smtd.umich.edu/degree/bachelor-of-music-in-piano-performance/",
+    "https://drive.google.com/file/d/12DWoUjBEEH3R7vlRxQ3xvv8Yzx_WoJQw/view"
+   ]
+  },
+  {
+   "id": "smtd-non-music-credits",
+   "label": "Non-Music credits (30)",
+   "hint": "At least 30 credits outside music. Courses within Arts Administration, Dance, and Theatre also count as non-Music.",
+   "need": 30,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "excludeTags": [
+    "smtd-music"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/12DWoUjBEEH3R7vlRxQ3xvv8Yzx_WoJQw/view"
+   ]
+  },
+  {
+   "id": "smtd-piano-theory-core",
+   "label": "Music Theory core (Aural and Written Skills I-IV)",
+   "hint": "THEORY 139, 149, 140, 150, 239, 249, 240, and 250. The aural and written skills sequences run across the first two years.",
+   "need": 8,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "THEORY 139",
+    "THEORY 149",
+    "THEORY 140",
+    "THEORY 150",
+    "THEORY 239",
+    "THEORY 249",
+    "THEORY 240",
+    "THEORY 250"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/12DWoUjBEEH3R7vlRxQ3xvv8Yzx_WoJQw/view"
+   ]
+  },
+  {
+   "id": "smtd-piano-theory-400-elective",
+   "label": "400 level Theory elective (3 credits)",
+   "hint": "One 400 level Theory elective. THEORY 433 may count here or toward the junior and senior elective, not both.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "THEORY 407",
+    "THEORY 430",
+    "THEORY 436",
+    "THEORY 438",
+    "THEORY 440",
+    "THEORY 443",
+    "THEORY 454",
+    "THEORY 455",
+    "THEORY 460",
+    "THEORY 461",
+    "THEORY 433"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/12DWoUjBEEH3R7vlRxQ3xvv8Yzx_WoJQw/view"
+   ]
+  },
+  {
+   "id": "smtd-piano-musicology-core",
+   "label": "Musicology core",
+   "hint": "MUSICOL 139 Intro to the Study of Music, 140 History of U.S. Musics, 239 History of Music, and 240 History of Western Music.",
+   "need": 4,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MUSICOL 139",
+    "MUSICOL 140",
+    "MUSICOL 239",
+    "MUSICOL 240"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/12DWoUjBEEH3R7vlRxQ3xvv8Yzx_WoJQw/view"
+   ]
+  },
+  {
+   "id": "smtd-piano-musicol-theory-jazz-400",
+   "label": "400 level Musicology, Theory, or listed Jazz elective (3 credits)",
+   "hint": "One 400 level Musicology or Theory elective, or JAZZ 460, 467, 470, or 479.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "electives",
+   "matchCodes": [
+    "MUSICOL 413",
+    "MUSICOL 414",
+    "MUSICOL 417",
+    "MUSICOL 420",
+    "MUSICOL 421",
+    "MUSICOL 423",
+    "MUSICOL 424",
+    "MUSICOL 450",
+    "MUSICOL 457",
+    "MUSICOL 458",
+    "MUSICOL 464",
+    "MUSICOL 465",
+    "MUSICOL 467",
+    "MUSICOL 477",
+    "MUSICOL 481",
+    "THEORY 407",
+    "THEORY 430",
+    "THEORY 433",
+    "THEORY 436",
+    "THEORY 438",
+    "THEORY 440",
+    "THEORY 442",
+    "THEORY 443",
+    "THEORY 454",
+    "THEORY 455",
+    "THEORY 460",
+    "THEORY 461",
+    "JAZZ 460",
+    "JAZZ 467",
+    "JAZZ 470",
+    "JAZZ 479"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/12DWoUjBEEH3R7vlRxQ3xvv8Yzx_WoJQw/view"
+   ]
+  },
+  {
+   "id": "smtd-piano-ensembles",
+   "label": "Ensembles (2 terms from the approved list)",
+   "hint": "Two terms from the listed large ensembles.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "ENS 345",
+    "ENS 347",
+    "ENS 348",
+    "ENS 349",
+    "ENS 350",
+    "ENS 460",
+    "ENS 470"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/12DWoUjBEEH3R7vlRxQ3xvv8Yzx_WoJQw/view"
+   ]
+  },
+  {
+   "id": "smtd-piano-ensembles-additional",
+   "label": "Additional approved ensembles (2 terms)",
+   "hint": "Two additional terms of any approved ensemble beyond the two listed-ensemble terms.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchTag": "subj-ens",
+   "offset": 2,
+   "sources": [
+    "https://drive.google.com/file/d/12DWoUjBEEH3R7vlRxQ3xvv8Yzx_WoJQw/view"
+   ]
+  },
+  {
+   "id": "smtd-piano-sightreading",
+   "label": "ENS 181: Sightreading Skills (2 terms or proficiency)",
+   "hint": "Two terms of ENS 181, or pass the proficiency. Students who receive proficiency must still elect 2 terms of an approved large or small ensemble.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "ENS 181"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/12DWoUjBEEH3R7vlRxQ3xvv8Yzx_WoJQw/view"
+   ]
+  },
+  {
+   "id": "smtd-piano-accompanying",
+   "label": "ENS 481: Piano Accompanying (4 terms)",
+   "hint": "Four terms of ENS 481, normally in the third and fourth years.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "ENS 481"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/12DWoUjBEEH3R7vlRxQ3xvv8Yzx_WoJQw/view"
+   ]
+  },
+  {
+   "id": "smtd-piano-performance-lessons",
+   "label": "Performance lessons (24 credits)",
+   "hint": "Private piano study every term, 24 credits total with completion of PIANO 440.",
+   "need": 24,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "PIANO 139",
+    "PIANO 140",
+    "PIANO 239",
+    "PIANO 240",
+    "PIANO 339",
+    "PIANO 340",
+    "PIANO 439",
+    "PIANO 440"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/12DWoUjBEEH3R7vlRxQ3xvv8Yzx_WoJQw/view"
+   ]
+  },
+  {
+   "id": "smtd-piano-forum",
+   "label": "PIANO 460: Piano Forum (every term)",
+   "hint": "One credit, elected each term of the program.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "PIANO 460"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/12DWoUjBEEH3R7vlRxQ3xvv8Yzx_WoJQw/view"
+   ]
+  },
+  {
+   "id": "smtd-piano-additional-music",
+   "label": "Additional music requirements",
+   "hint": "PIANOLP 401 Piano Technology, CONDUCT 315 Elementary Conducting I, THEORY 211 Basic Keyboard Skills I, THEORY 433 Analysis of 20th Century Music, THEORY 442 18th Century Counterpoint, and PIANOLP 481, 482, 487, 488, and 489 (pedagogy and literature sequence).",
+   "need": 10,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "PIANOLP 401",
+    "CONDUCT 315",
+    "THEORY 211",
+    "THEORY 433",
+    "THEORY 442",
+    "PIANOLP 481",
+    "PIANOLP 482",
+    "PIANOLP 487",
+    "PIANOLP 488",
+    "PIANOLP 489"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/12DWoUjBEEH3R7vlRxQ3xvv8Yzx_WoJQw/view"
+   ]
+  },
+  {
+   "id": "smtd-piano-senior-recital",
+   "label": "MUSPERF 440: Senior Recital",
+   "hint": "Zero credit capstone recital in the final year, taken alongside PIANO 440.",
+   "need": 1,
+   "countMode": "count",
+   "category": "capstone",
+   "matchCodes": [
+    "MUSPERF 440"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/12DWoUjBEEH3R7vlRxQ3xvv8Yzx_WoJQw/view"
+   ]
+  },
+  {
+   "id": "smtd-piano-fywr",
+   "label": "First year writing",
+   "hint": "ENGLISH 124, 125, or an equivalent first year writing course.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-fywr",
+   "sources": [
+    "https://drive.google.com/file/d/12DWoUjBEEH3R7vlRxQ3xvv8Yzx_WoJQw/view"
+   ]
+  },
+  {
+   "id": "smtd-piano-ulwr",
+   "label": "Upper level writing",
+   "hint": "An upper level writing course approved by the Sweetland Writing Center.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-ulwr",
+   "sources": [
+    "https://drive.google.com/file/d/12DWoUjBEEH3R7vlRxQ3xvv8Yzx_WoJQw/view"
+   ]
+  },
+  {
+   "id": "smtd-piano-race-ethnicity",
+   "label": "Race and Ethnicity course",
+   "hint": "One course in Race and Ethnicity selected from approved courses within LSA, or within SMTD by petition. SMTD RE courses will not count into overall non-SMTD credits.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-race-ethnicity",
+   "sources": [
+    "https://drive.google.com/file/d/12DWoUjBEEH3R7vlRxQ3xvv8Yzx_WoJQw/view"
+   ]
+  },
+  {
+   "id": "smtd-piano-language",
+   "label": "Language: French, German, or Italian (2 terms)",
+   "hint": "Two terms of French, German, or Italian.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "pickFromGroups": [
+    "smtd-piano-language-french",
+    "smtd-piano-language-german",
+    "smtd-piano-language-italian"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/12DWoUjBEEH3R7vlRxQ3xvv8Yzx_WoJQw/view"
+   ]
+  },
+  {
+   "id": "smtd-piano-language-french",
+   "label": "French (2 terms)",
+   "hint": "Two terms of French.",
+   "need": 2,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "subj-french"
+  },
+  {
+   "id": "smtd-piano-language-german",
+   "label": "German (2 terms)",
+   "hint": "Two terms of German.",
+   "need": 2,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "subj-german"
+  },
+  {
+   "id": "smtd-piano-language-italian",
+   "label": "Italian (2 terms)",
+   "hint": "Two terms of Italian.",
+   "need": 2,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "subj-italian"
+  }
+ ],
+ "sourceUrl": "https://smtd.umich.edu/degree/bachelor-of-music-in-piano-performance/"
+}

@@ -1,0 +1,205 @@
+{
+ "id": "smtd-bfa-directing",
+ "name": "Theatre Performance: Directing (BFA)",
+ "school": "School of Music, Theatre & Dance",
+ "goalCredits": 122,
+ "requirements": [
+  {
+   "id": "smtd-total-credits",
+   "label": "122 Total Credits",
+   "hint": "The BFA in Theatre Performance: Directing requires a minimum of 122 credits. Requirements follow the 2024-2025 Silent Advisor; SMTD students follow the curriculum of their admit year.",
+   "need": 122,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://smtd.umich.edu/degree/bachelor-of-fine-arts-in-theatre-drama-directing/",
+    "https://drive.google.com/file/d/1Q7qZCob0DiuAFvHZZekt8PcWGuuWohz4/view"
+   ]
+  },
+  {
+   "id": "smtd-liberal-arts-credits",
+   "label": "Non-SMTD credits (45)",
+   "hint": "At least 45 credits outside SMTD. Courses within Arts Administration also count as non-SMTD.",
+   "need": 45,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchAll": true,
+   "excludeTags": ["smtd-credit"],
+   "sources": [
+    "https://drive.google.com/file/d/1Q7qZCob0DiuAFvHZZekt8PcWGuuWohz4/view"
+   ]
+  },
+  {
+   "id": "smtd-directing-theatre-credits",
+   "label": "Theatre credits (67)",
+   "hint": "A minimum of 67 credits in Theatre courses.",
+   "need": 67,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchTag": "subj-thtremus",
+   "sources": [
+    "https://drive.google.com/file/d/1Q7qZCob0DiuAFvHZZekt8PcWGuuWohz4/view"
+   ]
+  },
+  {
+   "id": "smtd-directing-smtd-credits",
+   "label": "SMTD credits (74)",
+   "hint": "The 67 Theatre credits plus a minimum of 7 SMTD elective credits. Suggested electives include THTREMUS 222, 227, 233, 325, 385, 427, MUSTHTRE 133, and MUSTHTRE 235.",
+   "need": 74,
+   "countMode": "credits",
+   "category": "smtd-credit-min",
+   "matchTag": "smtd-credit",
+   "sources": [
+    "https://drive.google.com/file/d/1Q7qZCob0DiuAFvHZZekt8PcWGuuWohz4/view"
+   ]
+  },
+  {
+   "id": "smtd-directing-core",
+   "label": "Directing core (22 courses)",
+   "hint": "Movement I, Ensemble and Imagination, Observation and Action, Research Methodology, Intro to Design, Directing I-IV, Intro to Stage Management, Intro to Technical Theatre, Run Crew, UProd Shop Practicum, Lighting I, Scene Design I, Stage Combat, Script Analysis, Theatre History I, American Theatre and Drama, Studio I, Playwriting Toward Production, and the Directing Project. A grade below C- in any Directing course does not count.",
+   "need": 22,
+   "countMode": "count",
+   "category": "core",
+   "minGrade": "C-",
+   "matchCodes": [
+    "THTREMUS 172", "THTREMUS 181", "THTREMUS 182", "THTREMUS 235",
+    "THTREMUS 240", "THTREMUS 241", "THTREMUS 242", "THTREMUS 245",
+    "THTREMUS 250", "THTREMUS 251", "THTREMUS 252", "THTREMUS 256",
+    "THTREMUS 260", "THTREMUS 274", "THTREMUS 283", "THTREMUS 321",
+    "THTREMUS 323", "THTREMUS 341", "THTREMUS 342", "THTREMUS 387",
+    "THTREMUS 429", "THTREMUS 442"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1Q7qZCob0DiuAFvHZZekt8PcWGuuWohz4/view"
+   ]
+  },
+  {
+   "id": "smtd-directing-colloquium",
+   "label": "THTREMUS 443: Colloquium (8 terms)",
+   "hint": "One credit, elected each of eight terms of the program.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": ["THTREMUS 443"],
+   "sources": [
+    "https://drive.google.com/file/d/1Q7qZCob0DiuAFvHZZekt8PcWGuuWohz4/view"
+   ]
+  },
+  {
+   "id": "smtd-directing-theatre-studies",
+   "label": "Theatre Studies course",
+   "hint": "One course chosen from THTREMUS 222 Global Performance and Ethnic Studies, 322 Theatre History II, 325 Contemporary American Drama, 326 Intercultural Drama, or 440 Topics in African American Theatre and Drama.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "THTREMUS 222", "THTREMUS 322", "THTREMUS 325", "THTREMUS 326",
+    "THTREMUS 440"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1Q7qZCob0DiuAFvHZZekt8PcWGuuWohz4/view"
+   ]
+  },
+  {
+   "id": "smtd-directing-musicology",
+   "label": "Musicology course",
+   "hint": "One of MUSICOL 121 Intro to the Art of Music, 122 Intro to World Music, 123 Intro to Popular Music, 130 Opera!, or 345 or 346 History of Music. Another Musicology course may count with approval of the Head of Directing.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "MUSICOL 121", "MUSICOL 122", "MUSICOL 123", "MUSICOL 130",
+    "MUSICOL 345", "MUSICOL 346"
+   ],
+   "sources": [
+    "https://drive.google.com/file/d/1Q7qZCob0DiuAFvHZZekt8PcWGuuWohz4/view"
+   ]
+  },
+  {
+   "id": "smtd-directing-flexible-elective",
+   "label": "Flexible Acting/Skills elective",
+   "hint": "Still building automatic checking for this rule. One advanced skills course, which may include Acting VI, Voiceover, Advanced Stage Combat, Comedy, Advanced Movement, Solo Performance, or other advanced skills courses approved by the department.",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "manual": true,
+   "sources": [
+    "https://drive.google.com/file/d/1Q7qZCob0DiuAFvHZZekt8PcWGuuWohz4/view"
+   ]
+  },
+  {
+   "id": "smtd-directing-fywr",
+   "label": "First year writing",
+   "hint": "ENGLISH 124, 125, or an equivalent first year writing course.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-fywr",
+   "sources": [
+    "https://drive.google.com/file/d/1Q7qZCob0DiuAFvHZZekt8PcWGuuWohz4/view"
+   ]
+  },
+  {
+   "id": "smtd-directing-ulwr",
+   "label": "Upper level writing",
+   "hint": "An upper level writing course approved by the Sweetland Writing Center.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-ulwr",
+   "sources": [
+    "https://drive.google.com/file/d/1Q7qZCob0DiuAFvHZZekt8PcWGuuWohz4/view"
+   ]
+  },
+  {
+   "id": "smtd-directing-race-ethnicity",
+   "label": "Race and Ethnicity courses (2)",
+   "hint": "Two courses in Race and Ethnicity selected from approved courses within LSA.",
+   "need": 2,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-race-ethnicity",
+   "sources": [
+    "https://drive.google.com/file/d/1Q7qZCob0DiuAFvHZZekt8PcWGuuWohz4/view"
+   ]
+  },
+  {
+   "id": "smtd-directing-shakespeare",
+   "label": "Shakespeare's Plays",
+   "hint": "ENGLISH 367 Shakespeare's Plays or an equivalent Shakespeare course. The current catalog cycle does not carry ENGLISH 367; ENGLISH 167, 267, and 467 are accepted as equivalents here.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchCodes": ["ENGLISH 367", "ENGLISH 167", "ENGLISH 267", "ENGLISH 467"],
+   "sources": [
+    "https://drive.google.com/file/d/1Q7qZCob0DiuAFvHZZekt8PcWGuuWohz4/view"
+   ]
+  },
+  {
+   "id": "smtd-directing-language",
+   "label": "Foreign language (2 terms)",
+   "hint": "Two terms of a foreign language, or proficiency.",
+   "need": 2,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "lsa-language",
+   "sources": [
+    "https://drive.google.com/file/d/1Q7qZCob0DiuAFvHZZekt8PcWGuuWohz4/view"
+   ]
+  },
+  {
+   "id": "smtd-directing-ftvm",
+   "label": "Film, Television, and Media elective",
+   "hint": "One FTVM course at the 200 level or above.",
+   "need": 1,
+   "countMode": "count",
+   "category": "smtd-liberal-arts",
+   "matchTag": "subj-ftvm",
+   "sources": [
+    "https://drive.google.com/file/d/1Q7qZCob0DiuAFvHZZekt8PcWGuuWohz4/view"
+   ]
+  }
+ ],
+ "sourceUrl": "https://smtd.umich.edu/degree/bachelor-of-fine-arts-in-theatre-drama-directing/"
+}

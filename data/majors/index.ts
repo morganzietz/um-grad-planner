@@ -93,6 +93,33 @@ import c18 from './coe-space-sciences-and-engineering.json';
 import r1 from './ross-business-administration.json';
 import u1 from './umsi-information-analysis.json';
 import u2 from './umsi-ux-design.json';
+import s1 from './smtd-ba-music.json';
+import s2 from './smtd-bfa-acting.json';
+import s3 from './smtd-bfa-dance.json';
+import s4 from './smtd-bfa-directing.json';
+import s5 from './smtd-bfa-interarts.json';
+import s6 from './smtd-bfa-jazz-contemplative-studies.json';
+import s7 from './smtd-bfa-musical-theatre.json';
+import s8 from './smtd-bfa-performing-arts-technology.json';
+import s9 from './smtd-bfa-theatre-design-production.json';
+import s10 from './smtd-bm-choral-music-education.json';
+import s11 from './smtd-bm-composition.json';
+import s12 from './smtd-bm-harp-performance.json';
+import s13 from './smtd-bm-instrumental-music-education.json';
+import s14 from './smtd-bm-jazz-contemporary-improvisation.json';
+import s15 from './smtd-bm-multiple-wind-instruments.json';
+import s16 from './smtd-bm-music-and-technology.json';
+import s17 from './smtd-bm-music-theory.json';
+import s18 from './smtd-bm-musicology.json';
+import s19 from './smtd-bm-organ-performance-sacred-music.json';
+import s20 from './smtd-bm-piano-performance.json';
+import s21 from './smtd-bm-strings-performance.json';
+import s22 from './smtd-bm-voice-performance.json';
+import s23 from './smtd-bm-winds-percussion-performance.json';
+import s24 from './smtd-bma-multidisciplinary.json';
+import s25 from './smtd-bma-performance.json';
+import s26 from './smtd-bs-sound-engineering.json';
+import s27 from './smtd-bta.json';
 
 export const all: Major[] = [
   p1 as Major,
@@ -188,4 +215,31 @@ export const all: Major[] = [
   r1 as Major,
   u1 as Major,
   u2 as Major,
+  s1 as Major,
+  s2 as Major,
+  s3 as Major,
+  s4 as Major,
+  s5 as Major,
+  s6 as Major,
+  s7 as Major,
+  s8 as Major,
+  s9 as Major,
+  s10 as Major,
+  s11 as Major,
+  s12 as Major,
+  s13 as Major,
+  s14 as Major,
+  s15 as Major,
+  s16 as Major,
+  s17 as Major,
+  s18 as Major,
+  s19 as Major,
+  s20 as Major,
+  s21 as Major,
+  s22 as Major,
+  s23 as Major,
+  s24 as Major,
+  s25 as Major,
+  s26 as Major,
+  s27 as Major,
 ];
