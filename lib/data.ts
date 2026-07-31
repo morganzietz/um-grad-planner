@@ -3,6 +3,7 @@ import lsaData from '../data/courses/lsa.json';
 import socData from '../data/courses/soc.json';
 import coeBulletinData from '../data/courses/coe-bulletin.json';
 import rossBulletinData from '../data/courses/ross-bulletin.json';
+import umsiCatalogData from '../data/courses/umsi-catalog.json';
 import { all as bundledMinors } from '../data/minors';
 import {
   manualCourses,
@@ -37,6 +38,10 @@ const coeBulletinCourses =
 /** Ross BBA core + capstone courses from the Ross bulletin tables. */
 const rossBulletinCourses =
   (rossBulletinData as unknown as { courses: Course[] }).courses ?? [];
+
+/** Full UMSI catalog from the school's public course catalog sheet. */
+const umsiCatalogCourses =
+  (umsiCatalogData as unknown as { courses: Course[] }).courses ?? [];
 
 // ─── Merge scraped + manual + programmatic tags → courseCatalog ───────────
 
@@ -92,7 +97,8 @@ function programmaticTags(code: string): string[] {
   }
 
   // UMSI courses count for SI credit but not toward LSA distribution/credit.
-  if (subject === 'SI') {
+  // SIABRD is UMSI's study-abroad subject and counts the same way.
+  if (subject === 'SI' || subject === 'SIABRD') {
     extras.push(SI_CREDIT, NON_LSA);
   }
 
@@ -186,6 +192,20 @@ function applyProgrammaticTags(c: Course): Course {
   if (c.tags.includes('lsa-natural-sciences') || c.tags.includes('lsa-math-symbolic')) {
     extras.push('ross-ns-msa');
   }
+  // UMSI upper-level credit: everything 300+, plus SI 201 and SI 261 which
+  // the BSI curriculum page explicitly counts as upper-level. Checked via
+  // the catalog number (not c.tags) so it holds for courses whose
+  // upper-level tag is itself computed in this pass.
+  {
+    const num = parseInt(c.code.split(/\s+/)[1] ?? '', 10);
+    if (
+      (Number.isFinite(num) && num >= 300) ||
+      c.code === 'SI 201' ||
+      c.code === 'SI 261'
+    ) {
+      extras.push('umsi-upper');
+    }
+  }
   // Ross SS distribution counts LSA Social Science courses except ECON 101
   // and 102 (excluded by name in the BBA bulletin).
   if (
@@ -210,7 +230,7 @@ function buildCatalog(): Course[] {
   // NOT list is not approved for LSA credit, so SOC-only entries get the
   // non-lsa tag; without it, every Ross/CoE/SPH course would wrongly count
   // toward the LSA "100 LSA credits" college rules.
-  for (const c of [...socCourses, ...coeBulletinCourses, ...rossBulletinCourses]) {
+  for (const c of [...socCourses, ...coeBulletinCourses, ...rossBulletinCourses, ...umsiCatalogCourses]) {
     if (byCode.has(c.code)) continue;
     const tags = c.tags.includes(NON_LSA) ? c.tags : [...c.tags, NON_LSA];
     byCode.set(c.code, { ...c, tags });

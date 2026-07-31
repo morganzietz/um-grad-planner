@@ -95,13 +95,13 @@ export const manualCourses: ManualCourse[] = [
 
   // ─── Courses NOT in the Fall 2026 / Winter 2026 scrape ───────────────
   // UMSI courses that don't run in scraped terms (or run under different codes).
-  { code: 'SI 201', title: 'Intro to Info Systems', credits: 3 },
+  { code: 'SI 201', title: 'Data-Oriented Programming', credits: 4 },
   { code: 'SI 212', title: 'Code without Coding', credits: 3 },
   // SI 261 is 200-level but LSA/UMSI treats it as upper-level for BSI credit
   { code: 'SI 261', title: 'Intro to Statistics with Applications', credits: 3, tags: [UPPER_LEVEL] },
   { code: 'SI 300', title: 'Career & Internship Studio: Design Your Success', credits: 1 },
   { code: 'SI 303', title: 'Intro to Qualitative Methods/Research', credits: 3 },
-  { code: 'SI 305', title: 'Data Manipulation', credits: 3 },
+  { code: 'SI 305', title: 'Introduction to Information Analysis', credits: 3 },
   { code: 'SI 307', title: 'Intro to Design', credits: 3 },
   { code: 'SI 310', title: 'Intro to Information Ethics', credits: 3 },
   { code: 'SI 311', title: 'Generative AI + UX', credits: 1.5 },
@@ -127,6 +127,10 @@ export const manualCourses: ManualCourse[] = [
   { code: 'SI 457', title: 'Advanced Development', credits: 4,
     prereqs: [['SI 357']] },
   { code: 'SI 465', title: 'Applied Machine Learning', credits: 4 },
+  { code: 'SI 485', title: 'Information Analysis Capstone I', credits: 2,
+    sequenceNext: 'SI 495', placement: 'final-fall' },
+  { code: 'SI 495', title: 'Information Analysis Capstone II', credits: 4,
+    prereqs: [['SI 485']], placement: 'final-winter' },
   { code: 'SI 487', title: 'User Experience Capstone I', credits: 2,
     sequenceNext: 'SI 497', placement: 'final-fall' },
   { code: 'SI 497', title: 'User Experience Capstone II', credits: 4,

@@ -53,6 +53,7 @@ const MATCH_ALL_WHITELIST = new Set([
   // Ross BBA credit splits (matchAll with the business tag excluded IS the rule)
   'ross-total-credits',
   'ross-non-business-credits',
+  'umsi-total-credits', // BSI 120 total credits
 ]);
 
 const VALID_CATEGORIES = new Set([
@@ -75,6 +76,8 @@ const VALID_CATEGORIES = new Set([
   'ross-credit-min',
   'ross-first-year',
   'ross-distribution',
+  // School of Information
+  'umsi-credit-min',
 ]);
 
 /**

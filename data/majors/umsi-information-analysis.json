@@ -1,0 +1,278 @@
+{
+ "id": "umsi-information-analysis",
+ "name": "Information (Information Analysis)",
+ "school": "School of Information",
+ "goalCredits": 120,
+ "requirements": [
+  {
+   "id": "umsi-total-credits",
+   "label": "120 Total Credits",
+   "hint": "The BSI requires 120 U-M credits in total.",
+   "need": 120,
+   "countMode": "credits",
+   "category": "umsi-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://www.si.umich.edu/programs/bachelor-science-information/bachelor-science-information-curriculum"
+   ]
+  },
+  {
+   "id": "umsi-upper-level-credits",
+   "label": "Upper level credits (60)",
+   "hint": "Half of the 120 credits must be upper level. SI 201 and SI 261 count as upper level even though they carry 200 numbers.",
+   "need": 60,
+   "countMode": "credits",
+   "category": "umsi-credit-min",
+   "matchTag": "umsi-upper",
+   "sources": [
+    "https://www.si.umich.edu/programs/bachelor-science-information/bachelor-science-information-curriculum"
+   ]
+  },
+  {
+   "id": "umsi-si-credits",
+   "label": "UMSI credits (54)",
+   "hint": "54 of the 120 credits must come from School of Information courses. Equivalents used to waive prerequisites, such as EECS 183 or EECS 280, do not count toward this total. UMSI courses must be taken for a letter grade of C- or higher except SI 210, SI 300, and SI 390.",
+   "need": 54,
+   "countMode": "credits",
+   "category": "umsi-credit-min",
+   "matchTag": "si-credit",
+   "sources": [
+    "https://www.si.umich.edu/programs/bachelor-science-information/bachelor-science-information-curriculum"
+   ]
+  },
+  {
+   "id": "umsi-prereq-programming",
+   "label": "Programming prerequisite (SI 101)",
+   "hint": "SI 101 or an equivalent programming course, completed before entering the program. EECS 183, ENGR 101, and ROB 102 fulfill it but do not count toward the 54 UMSI credits. Preferred admission applicants need a B or better and cannot take it pass fail.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": [
+    "SI 101",
+    "EECS 183",
+    "ENGR 101",
+    "ROB 102"
+   ],
+   "sources": [
+    "https://www.si.umich.edu/programs/bachelor-science-information/bachelor-science-information-curriculum",
+    "https://www.si.umich.edu/programs/bachelor-science-information/how-do-i-apply/preferred-admissions"
+   ]
+  },
+  {
+   "id": "umsi-prereq-writing",
+   "label": "First year writing prerequisite",
+   "hint": "ENGLISH 124 or 125 or an equivalent first year writing course, completed before entering the program.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchTag": "lsa-fywr",
+   "sources": [
+    "https://www.si.umich.edu/programs/bachelor-science-information/bachelor-science-information-curriculum",
+    "https://www.si.umich.edu/programs/bachelor-science-information/how-do-i-apply/preferred-admissions"
+   ]
+  },
+  {
+   "id": "umsi-core-si-110",
+   "label": "SI 110: Introduction to Information Studies",
+   "hint": "Core for all BSI students. Often taken before admission; students who have not taken it complete it in their first BSI semester.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "SI 110"
+   ],
+   "sources": [
+    "https://www.si.umich.edu/programs/bachelor-science-information/bachelor-science-information-curriculum"
+   ]
+  },
+  {
+   "id": "umsi-core-si-201",
+   "label": "SI 201: Data-Oriented Programming",
+   "hint": "Core for all BSI students. EECS 280 or EECS 281 with a C or higher waives it, but waiver credits do not count toward the UMSI or upper level totals.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "SI 201",
+    "EECS 280",
+    "EECS 281"
+   ],
+   "sources": [
+    "https://www.si.umich.edu/programs/bachelor-science-information/bachelor-science-information-curriculum"
+   ]
+  },
+  {
+   "id": "umsi-core-si-261",
+   "label": "SI 261: Introduction to Statistics with Applications",
+   "hint": "Core for all BSI students. Counts as upper level credit.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "SI 261"
+   ],
+   "sources": [
+    "https://www.si.umich.edu/programs/bachelor-science-information/bachelor-science-information-curriculum"
+   ]
+  },
+  {
+   "id": "umsi-core-si-300",
+   "label": "SI 300: Career and Internship Studio",
+   "hint": "Core for all BSI students. One credit, and one of the few UMSI courses that may be taken pass fail.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "SI 300"
+   ],
+   "sources": [
+    "https://www.si.umich.edu/programs/bachelor-science-information/bachelor-science-information-curriculum"
+   ]
+  },
+  {
+   "id": "umsi-core-si-310",
+   "label": "SI 310: Introduction to Information Ethics",
+   "hint": "Core for all BSI students.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "SI 310"
+   ],
+   "sources": [
+    "https://www.si.umich.edu/programs/bachelor-science-information/bachelor-science-information-curriculum"
+   ]
+  },
+  {
+   "id": "umsi-ia-si-315",
+   "label": "SI 315: Models of Social Information Processing",
+   "hint": "Information Analysis capstone prerequisite.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "SI 315"
+   ],
+   "sources": [
+    "https://www.si.umich.edu/programs/bachelor-science-information/bachelor-science-information-curriculum"
+   ]
+  },
+  {
+   "id": "umsi-ia-si-305",
+   "label": "SI 305: Introduction to Information Analysis",
+   "hint": "Information Analysis capstone prerequisite.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "SI 305"
+   ],
+   "sources": [
+    "https://www.si.umich.edu/programs/bachelor-science-information/bachelor-science-information-curriculum"
+   ]
+  },
+  {
+   "id": "umsi-ia-si-345",
+   "label": "SI 345: Data Manipulation",
+   "hint": "Information Analysis capstone prerequisite.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "SI 345"
+   ],
+   "sources": [
+    "https://www.si.umich.edu/programs/bachelor-science-information/bachelor-science-information-curriculum"
+   ]
+  },
+  {
+   "id": "umsi-ia-si-385",
+   "label": "SI 385: Data Exploration",
+   "hint": "Information Analysis capstone prerequisite. Offered in fall only.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "SI 385"
+   ],
+   "sources": [
+    "https://www.si.umich.edu/programs/bachelor-science-information/bachelor-science-information-curriculum"
+   ]
+  },
+  {
+   "id": "umsi-ia-si-425",
+   "label": "SI 425: Introduction to User Modeling",
+   "hint": "Information Analysis capstone prerequisite. Offered in fall only.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "SI 425"
+   ],
+   "sources": [
+    "https://www.si.umich.edu/programs/bachelor-science-information/bachelor-science-information-curriculum"
+   ]
+  },
+  {
+   "id": "umsi-ia-methods-selective",
+   "label": "Methods selective (choose 1)",
+   "hint": "SI 325, Mathematics for Information Analysis, offered fall only, or SI 303, Introduction to Qualitative Methods and Research.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "SI 325",
+    "SI 303"
+   ],
+   "sources": [
+    "https://www.si.umich.edu/programs/bachelor-science-information/bachelor-science-information-curriculum"
+   ]
+  },
+  {
+   "id": "umsi-ia-advanced-selectives",
+   "label": "Advanced selectives (choose 2)",
+   "hint": "Two of SI 405 Applied Generative AI, SI 465 Applied Machine Learning, SI 403 Advanced Qualitative Methods and Research, or SI 413 Advanced Quantitative Methods and Research. All are offered in winter.",
+   "need": 2,
+   "countMode": "count",
+   "category": "electives",
+   "matchCodes": [
+    "SI 405",
+    "SI 465",
+    "SI 403",
+    "SI 413"
+   ],
+   "sources": [
+    "https://www.si.umich.edu/programs/bachelor-science-information/bachelor-science-information-curriculum"
+   ]
+  },
+  {
+   "id": "umsi-ia-capstone-1",
+   "label": "SI 485: Information Analysis Capstone I",
+   "hint": "Fall of the final year. The capstone sequence must be taken in direct sequence.",
+   "need": 1,
+   "countMode": "count",
+   "category": "capstone",
+   "matchCodes": [
+    "SI 485"
+   ],
+   "sources": [
+    "https://www.si.umich.edu/programs/bachelor-science-information/bachelor-science-information-curriculum"
+   ]
+  },
+  {
+   "id": "umsi-ia-capstone-2",
+   "label": "SI 495: Information Analysis Capstone II",
+   "hint": "Winter of the final year, immediately after SI 485.",
+   "need": 1,
+   "countMode": "count",
+   "category": "capstone",
+   "matchCodes": [
+    "SI 495"
+   ],
+   "sources": [
+    "https://www.si.umich.edu/programs/bachelor-science-information/bachelor-science-information-curriculum"
+   ]
+  }
+ ],
+ "sourceUrl": "https://www.si.umich.edu/programs/bachelor-science-information/bachelor-science-information-curriculum"
+}

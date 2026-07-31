@@ -1,0 +1,1151 @@
+{
+ "source": "UMSI public course catalog Google Sheet (linked from si.umich.edu/programs/courses)",
+ "courses": [
+  {
+   "code": "SI 101",
+   "title": "Introduction to Programming with Python",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SI 110",
+   "title": "Introduction to Information Studies",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SI 201",
+   "title": "Data-Oriented Programming",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SI 207",
+   "title": "Introduction to UX Design for Non-Majors",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 210",
+   "title": "Career Exploration in Information",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "SI 211",
+   "title": "Special Topics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 212",
+   "title": "Coding without Coding",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 261",
+   "title": "Introduction to Statistics with Applications",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 300",
+   "title": "Career and Internship Studio: Design Your Success",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "SI 303",
+   "title": "Introduction to Qualitative Methods",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 305",
+   "title": "Introduction to Information Analysis",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 307",
+   "title": "Introduction to Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 310",
+   "title": "Introduction to Information Ethics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 311",
+   "title": "Special Topics in Information",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 312",
+   "title": "Information Environments and Work",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SI 313",
+   "title": "Introduction to Quantitative Methods",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 315",
+   "title": "Models of Social Information Processing",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SI 316",
+   "title": "Interpersonal and Psychological Implications of Social Media",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 322",
+   "title": "Graphic Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SI 324",
+   "title": "Data Visualization",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 325",
+   "title": "Mathematics for Information Analysis",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 326",
+   "title": "Understanding AI: Concepts, Ethics, and Societal Impacts",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 328",
+   "title": "Engaging with Communities",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 332",
+   "title": "Privacy, Surveillance, Technology and Society: a multidisciplinary assessment",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 334",
+   "title": "Persuasion and Social Influence",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 336",
+   "title": "Social Media in Organizations",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 338",
+   "title": "Web Design, Development, and Accessibility",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SI 342",
+   "title": "Games & UX",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 345",
+   "title": "Data Manipulation",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SI 346",
+   "title": "AI and the Law",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 347",
+   "title": "Human-Computer Interaction",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 348",
+   "title": "Accessibility, Disability, and Technology",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 350",
+   "title": "UX Field Research in the Public Sector",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 357",
+   "title": "Introduction to Development",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 364",
+   "title": "SQL and Databases",
+   "credits": 1.5,
+   "tags": []
+  },
+  {
+   "code": "SI 376",
+   "title": "AI in Practice: Tools & Problem Solving",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 378",
+   "title": "Building Interactive Applications",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 385",
+   "title": "Data Exploration",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 390",
+   "title": "Internship Experience and Seminar in Practical Engagement",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "SI 394",
+   "title": "Introduction to Automotive UX",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 403",
+   "title": "Advanced Qualitative Methods",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SI 405",
+   "title": "Applied Generative AI",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SI 407",
+   "title": "Advanced Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SI 410",
+   "title": "Ethics and Information Technology",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SI 411",
+   "title": "Advanced Special Topics in Information",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 413",
+   "title": "Advanced Quantitative Methods",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SI 425",
+   "title": "Introduction to User Modeling",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 428",
+   "title": "Online Communities: Analysis and Design of Online Interaction",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 432",
+   "title": "Information Technology and Global Society",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 434",
+   "title": "Algorithms and Society",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 436",
+   "title": "Exploring Computational Thinking Through Making",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 457",
+   "title": "Advanced Development",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SI 465",
+   "title": "Applied AI: Machine Learning",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SI 478",
+   "title": "UX Research at Scale",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 485",
+   "title": "Information Analysis Capstone I",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "SI 487",
+   "title": "User Experience Design Capstone I",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "SI 491",
+   "title": "Independent Study",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "SI 495",
+   "title": "Information Analysis Capstone II",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SI 497",
+   "title": "User Experience Design Capstone II",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SI 500",
+   "title": "Problem-solving with People, Information, & Technology",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 503",
+   "title": "Libraries, Archives, and Knowledge Environments in Society",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 504",
+   "title": "Servers, The Shell, and Git",
+   "credits": 1.5,
+   "tags": []
+  },
+  {
+   "code": "SI 505",
+   "title": "Career and Internship Studio: Design Your Success",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "SI 506",
+   "title": "Programming I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 507",
+   "title": "Intermediate Programming",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 510",
+   "title": "Information Ethics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 511",
+   "title": "Special Topics in Information",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "SI 512",
+   "title": "Research Experience Development Program (REDP)",
+   "credits": 1.5,
+   "tags": []
+  },
+  {
+   "code": "SI 514",
+   "title": "Special Topics",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "SI 515",
+   "title": "Motion Capture for Interaction Design MOCAP Interac Design [Owned by School of Music, Theatre & Dance]",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 519",
+   "title": "Intellectual Property and Information Law",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 520",
+   "title": "Graphic Design and Visual Communications",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 521",
+   "title": "Advanced Psychoacoustics (Adv Psychoacoustics) [Owned by School of Music, Theatre & Dance]",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 526",
+   "title": "Collaboration Lab: UX + Dev + PM",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 529",
+   "title": "Online Communities",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 530",
+   "title": "Principles in Management",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 531",
+   "title": "Introduction to Project Management",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 532",
+   "title": "Product Discovery – Strategy for Innovation and Growth",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 534",
+   "title": "Theories of Social Influence",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 535",
+   "title": "Vibe Coding",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "SI 536",
+   "title": "Introduction to Urban Informatics (Intro to Urbn Inform) [Owned by Taubman College of Architecture and Urban Planning]",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 538",
+   "title": "Citizen Interaction Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SI 539",
+   "title": "Web Design: Responsiveness and Accessibility",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 540",
+   "title": "Privacy in Information Technology",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 542",
+   "title": "Introduction to Health Informatics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 544",
+   "title": "Introduction to Statistics and Data Analysis",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 547",
+   "title": "Engaging with Communities",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 548",
+   "title": "Principles of Software Design for Learning (Prin Soft Design) [Owned by Marsal School of Education]",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 549",
+   "title": "Transformative Learning and Teaching with Technology (Trfrm Lrng Tchg Tech) [Owned by Marsal School of Education]",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 552",
+   "title": "Introduction to Accessibility",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 554",
+   "title": "Consumer Health Informatics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 559",
+   "title": "Introduction to AR/VR Application Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 561",
+   "title": "Natural Language Processing (Nat Lang Proc) [Owned by EECS]",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 563",
+   "title": "Game Theory",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 564",
+   "title": "SQL and Databases",
+   "credits": 1.5,
+   "tags": []
+  },
+  {
+   "code": "SI 568",
+   "title": "Becoming a Data Scientist",
+   "credits": 1.5,
+   "tags": []
+  },
+  {
+   "code": "SI 569",
+   "title": "Creating XR Experiences",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 574",
+   "title": "Health Informatics Program Seminar",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "SI 579",
+   "title": "Building Interactive Applications",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 580",
+   "title": "Understanding Records and Archives",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 581",
+   "title": "Preserving Information Resources in a Digital Age",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 582",
+   "title": "Introduction to Interaction Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 583",
+   "title": "Managing Accountability Through Recordkeeping",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 585",
+   "title": "Scholarly Communication",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 588",
+   "title": "Principles of User Experience",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 591",
+   "title": "Humanitarian Innovation",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 594",
+   "title": "Automotive User Experience",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 597",
+   "title": "Research Foundations for MTOP",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "SI 602",
+   "title": "Mathematical Foundations for Applied Data Science",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 605",
+   "title": "Interdisciplinary Problem Solving (Interdisc Prob Solv) [Owned by the Law School]",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 608",
+   "title": "Networks",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 610",
+   "title": "Advanced Digital Studies Seminar (Dig Studies Seminar) [Owned by LSA]",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 611",
+   "title": "Special Topics in Information",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 612",
+   "title": "IoT Interaction Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 616",
+   "title": "Advanced Topics in Graphic Design and Communication",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 617",
+   "title": "Choice Architecture",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 618",
+   "title": "Data Manipulation and Analysis",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 622",
+   "title": "Needs Assessment and Usability Evaluation",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SI 623",
+   "title": "Research Methods for Information Professionals",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 624",
+   "title": "Healthcare Data Application, Analysis, Consulting and Communication",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 626",
+   "title": "Management of Non-Profit Libraries and Information Services",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 627",
+   "title": "Managing Information Technology",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 630",
+   "title": "Natural Language Processing: Algorithms and People",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 631",
+   "title": "Agile Software Development",
+   "credits": 1.5,
+   "tags": []
+  },
+  {
+   "code": "SI 632",
+   "title": "Appraisal and Collection Development",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 633",
+   "title": "Assessment in Cultural Institutions",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 639",
+   "title": "Web Archiving",
+   "credits": 1.5,
+   "tags": []
+  },
+  {
+   "code": "SI 642",
+   "title": "Population Health Informatics (Popultn Hlth Infmtcs) [Owned by School of Public Health]",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 643",
+   "title": "Instructional Skills for Information Professionals",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 644",
+   "title": "Advanced SQL & Databases",
+   "credits": 1.5,
+   "tags": []
+  },
+  {
+   "code": "SI 646",
+   "title": "Information Economics",
+   "credits": 1.5,
+   "tags": []
+  },
+  {
+   "code": "SI 647",
+   "title": "Information Resources and Services",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 648",
+   "title": "Evaluation and Research Methods for Health Informatics and Learning Systems (Eval Methods in HI) [Owned by Learning Health Sciences]",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 649",
+   "title": "Information Visualization",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 650",
+   "title": "Information Retrieval",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 652",
+   "title": "Incentives, AI, and Alignment",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 654",
+   "title": "Critical Policy Issues in Health IT",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 657",
+   "title": "Information Technology and International Development",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 658",
+   "title": "Information Architecture",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 659",
+   "title": "Developing AR/VR Experiences",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 661",
+   "title": "Managing Health Informatics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 664",
+   "title": "Database Application Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 666",
+   "title": "Organization of Information Resources",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 667",
+   "title": "Foundations of Digital Curation",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 669",
+   "title": "Developing Mobile Experiences",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 670",
+   "title": "Applied Machine Learning",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 671",
+   "title": "Data Mining: Methods and Applications",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 672",
+   "title": "Applied Clinical Informatics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 673",
+   "title": "Intro to Cloud Computing",
+   "credits": 1.5,
+   "tags": []
+  },
+  {
+   "code": "SI 676",
+   "title": "Managing Digital Collections",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 678",
+   "title": "Preserving Sound and Motion",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 679",
+   "title": "Back of the Stack: Back-end Development for Full-Stack Applications",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 681",
+   "title": "Internship/Field Experience and Seminar in Practical Engagement",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "SI 682",
+   "title": "Advanced User Research in the Field",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 684",
+   "title": "Designing Consumer-Health Technologies",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 686",
+   "title": "User-Generated Content",
+   "credits": 1.5,
+   "tags": []
+  },
+  {
+   "code": "SI 688",
+   "title": "Immersive Applied Projects in the Social Sector",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "SI 690",
+   "title": "Internship/Field Experience and Seminar in Practical Engagement",
+   "credits": 9,
+   "tags": []
+  },
+  {
+   "code": "SI 691",
+   "title": "Independent Study",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 697",
+   "title": "Master's Thesis Option Program - 1st Semester",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "SI 698",
+   "title": "Master's Thesis Option Program - 2nd Semester",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 699",
+   "title": "MSI Mastery Courses",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 701",
+   "title": "Doctoral Foundations Seminar",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 702",
+   "title": "Seminar in Organizational Studies (Sem Orgnztl St) [Owned by Ross]",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "SI 705",
+   "title": "First Semester Experience",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "SI 706",
+   "title": "Researching & Writing A Critical Literature Review",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 710",
+   "title": "Research Sem in Information",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 719",
+   "title": "Knowledge/Power/Practice in Science, Technology, and Medicine (Science Tech&Med) [Owned by LSA]",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 721",
+   "title": "Data Mining: Methods and Applications",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 724",
+   "title": "Qualitative Methods",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 755",
+   "title": "Unorthodox Research Methods",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 791",
+   "title": "Independent Study",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 840",
+   "title": "Research Methods",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 860",
+   "title": "Research Methods Course in Experimental Methods",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 901",
+   "title": "Directed Research",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 902",
+   "title": "Directed Research",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SI 990",
+   "title": "Diss-Precand",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "SI 995",
+   "title": "Diss-Cand",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "SI 998",
+   "title": "Curriculum Practical Project",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "SIABRD 301",
+   "title": "Study Abroad - IE University, Espana",
+   "credits": 18,
+   "tags": []
+  },
+  {
+   "code": "SIABRD 302",
+   "title": "Study Abroad - University of Economics, Czech Republic",
+   "credits": 18,
+   "tags": []
+  },
+  {
+   "code": "SIABRD 303",
+   "title": "Study Abroad - University of New South Wales, Australia",
+   "credits": 18,
+   "tags": []
+  },
+  {
+   "code": "SIABRD 304",
+   "title": "Study Abroad - Uppsala University, Sweden",
+   "credits": 18,
+   "tags": []
+  },
+  {
+   "code": "SIABRD 306",
+   "title": "Study Abroad - Queen Mary University of London, UK",
+   "credits": 18,
+   "tags": []
+  },
+  {
+   "code": "SIABRD 308",
+   "title": "Study Abroad - Dublin City University",
+   "credits": 18,
+   "tags": []
+  },
+  {
+   "code": "SIABRD 309",
+   "title": "Study Abroad - Thessaloniki, Greece",
+   "credits": 18,
+   "tags": []
+  },
+  {
+   "code": "SIABRD 310",
+   "title": "Study Abroad - Amsterdam, The Netherlands",
+   "credits": 18,
+   "tags": []
+  },
+  {
+   "code": "SIABRD 330",
+   "title": "Study Abroad - University of Vic in Barcelona",
+   "credits": 18,
+   "tags": []
+  },
+  {
+   "code": "SIABRD 338",
+   "title": "Study Aboad - Dublin City University",
+   "credits": 18,
+   "tags": []
+  },
+  {
+   "code": "SIABRD 504",
+   "title": "Study Abroad - Uppsala University, Sweden",
+   "credits": 18,
+   "tags": []
+  },
+  {
+   "code": "SIABRD 507",
+   "title": "Study Abroad - Tsukuba University, Japan",
+   "credits": 18,
+   "tags": []
+  }
+ ]
+}
