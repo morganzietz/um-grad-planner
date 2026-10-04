@@ -1,0 +1,212 @@
+{
+ "id": "sph-ba-community-global-public-health",
+ "name": "Community and Global Public Health (BA)",
+ "school": "School of Public Health",
+ "goalCredits": 120,
+ "sourceUrl": "https://sph.umich.edu/undergrad/degrees/degree-requirements.html",
+ "requirements": [
+  {
+   "id": "sph-total-credits",
+   "label": "120 Total Credits",
+   "hint": "The bachelor's degree requires a minimum of 120 credits, including the prerequisite courses completed before entering the school.",
+   "need": 120,
+   "countMode": "credits",
+   "category": "sph-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://sph.umich.edu/undergrad/degrees/degree-requirements.html"
+   ]
+  },
+  {
+   "id": "sph-upper-credits",
+   "label": "Upper-level credits (60)",
+   "hint": "At least 60 of the 120 credits must be upper level. Any 300-level or higher course at U-M counts, as do the published 200-level pre-health exceptions (select BIOLOGY, CHEM, PHYSICS, PHYSIOL, and NURS courses) and the final course of a fourth-term language sequence.",
+   "need": 60,
+   "countMode": "credits",
+   "category": "sph-credit-min",
+   "matchTag": "sph-upper-ok",
+   "sources": [
+    "https://sph.umich.edu/undergrad/degrees/degree-requirements.html",
+    "https://sph.umich.edu/undergrad/degrees/upper-level-exceptions.html"
+   ]
+  },
+  {
+   "id": "sph-sph-credits",
+   "label": "Upper-level SPH credits (45)",
+   "hint": "45 of the 60 upper-level credits must come from School of Public Health courses (PUBHLTH, BIOSTAT, EHS, EPID, HBHEQ, HMP, NUTR). The remaining 15 may be any upper-level U-M coursework.",
+   "need": 45,
+   "countMode": "credits",
+   "category": "sph-credit-min",
+   "matchTag": "sph-upper",
+   "sources": [
+    "https://sph.umich.edu/undergrad/degrees/degree-requirements.html"
+   ]
+  },
+  {
+   "id": "sph-prereq-pubhlth-200",
+   "label": "PUBHLTH 200: Health and Society",
+   "hint": "Admission prerequisite, completed before entering the school. Prerequisites must be taken for a letter grade (C- or better, no pass/fail) and AP credit does not fulfill them.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": ["PUBHLTH 200"],
+   "sources": [
+    "https://sph.umich.edu/undergrad/apply/prerequisites.html"
+   ]
+  },
+  {
+   "id": "sph-prereq-stats",
+   "label": "Statistics (STATS 250)",
+   "hint": "STATS 250 or an approved alternative: DATASCI 101, STATS 206, or STATS 280. Admission prerequisite; letter grade of C- or better, no pass/fail, no AP credit.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": ["STATS 250", "DATASCI 101", "STATS 206", "STATS 280"],
+   "sources": [
+    "https://sph.umich.edu/undergrad/apply/prerequisites.html"
+   ]
+  },
+  {
+   "id": "sph-prereq-fywr",
+   "label": "First-year writing prerequisite",
+   "hint": "One course fulfilling the First-Year Writing Requirement, completed before entering the school with a C- or better.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchTag": "lsa-fywr",
+   "sources": [
+    "https://sph.umich.edu/undergrad/apply/prerequisites.html"
+   ]
+  },
+  {
+   "id": "sph-prereq-social-science",
+   "label": "Social science prerequisite (3 credits)",
+   "hint": "At least 3 credits in anthropology, communications, economics, history, international studies, political science, psychology, sociology, or women's studies. Prerequisite courses may not double count toward another prerequisite.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "prerequisites",
+   "matchTag": "lsa-social-sciences",
+   "sources": [
+    "https://sph.umich.edu/undergrad/apply/prerequisites.html"
+   ]
+  },
+  {
+   "id": "sph-prereq-hum-ce",
+   "label": "Humanities or Creative Expression prerequisite",
+   "hint": "At least 3 credits in either the humanities or creative expression.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "pickFromGroups": ["sph-prereq-hum", "sph-prereq-ce"],
+   "sources": [
+    "https://sph.umich.edu/undergrad/apply/prerequisites.html"
+   ]
+  },
+  {
+   "id": "sph-prereq-hum",
+   "label": "Humanities option (3 credits)",
+   "hint": "3 credits of humanities coursework.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "prerequisites",
+   "matchTag": "lsa-humanities"
+  },
+  {
+   "id": "sph-prereq-ce",
+   "label": "Creative Expression option (3 credits)",
+   "hint": "3 credits of creative expression coursework.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "prerequisites",
+   "matchTag": "lsa-creative-expression"
+  },
+  {
+   "id": "sph-prereq-life-science",
+   "label": "Life science prerequisite (3 credits)",
+   "hint": "At least 3 credits of life science; chemistry and physics do not count. Matched by life-science department (ANATOMY, BIOLOGY, EEB, MCDB, MICRBIOL, PHYSIOL); use the adjust control for a qualifying course from another department.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "prerequisites",
+   "matchTag": "sph-life-science",
+   "sources": [
+    "https://sph.umich.edu/undergrad/apply/prerequisites.html"
+   ]
+  },
+  {
+   "id": "sph-core-integrated",
+   "label": "Integrated core (PUBHLTH 381, 382, 383, 384)",
+   "hint": "The four-course integrated core taken by all public health majors across the junior and senior years: Public Health Systems, Population Health Determinants & Disparities, Data Driven Solutions, and Creating Change in Public Health.",
+   "need": 4,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": ["PUBHLTH 381", "PUBHLTH 382", "PUBHLTH 383", "PUBHLTH 384"],
+   "sources": [
+    "https://sph.umich.edu/undergrad/degrees/degree-requirements.html"
+   ]
+  },
+  {
+   "id": "sph-ba-global",
+   "label": "PUBHLTH 350: Global Public Health",
+   "hint": "Required for the BA in Community and Global Public Health.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": ["PUBHLTH 350"],
+   "sources": [
+    "https://sph.umich.edu/undergrad/degrees/degree-requirements.html"
+   ]
+  },
+  {
+   "id": "sph-ba-ccsj",
+   "label": "PUBHLTH 360: Community, Culture & Social Justice",
+   "hint": "Required for the BA in Community and Global Public Health. Also on the approved health equity list, so it satisfies both rows.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": ["PUBHLTH 360"],
+   "sources": [
+    "https://sph.umich.edu/undergrad/degrees/degree-requirements.html"
+   ]
+  },
+  {
+   "id": "sph-health-equity",
+   "label": "Health equity course (3 credits)",
+   "hint": "One approved 3-credit health equity course: PUBHLTH 308, 313, 320, 328, 360, or 450. The approved PUBHLTH 333 topic section (Power and Politics of Public Health) also counts; force it in with the adjust control since topic sections aren't tracked.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "PUBHLTH 308", "PUBHLTH 313", "PUBHLTH 320", "PUBHLTH 328",
+    "PUBHLTH 360", "PUBHLTH 450"
+   ],
+   "sources": [
+    "https://sph.umich.edu/undergrad/degrees/healthequity.html"
+   ]
+  },
+  {
+   "id": "sph-ph-electives",
+   "label": "Public health electives (18 credits)",
+   "hint": "18 credits of public health coursework at the 300 level or above, outside this degree's required courses. Courses required by the BS (such as PUBHLTH 370) and graduate SPH courses open to undergraduates count.",
+   "need": 18,
+   "countMode": "credits",
+   "category": "electives",
+   "matchTag": "sph-ph-elective",
+   "excludeTags": ["sph-core-req", "sph-ba-core"],
+   "sources": [
+    "https://sph.umich.edu/undergrad/degrees/degree-requirements.html"
+   ]
+  },
+  {
+   "id": "sph-culminating",
+   "label": "Culminating experience (PUBHLTH 380 & 481)",
+   "hint": "Public Health Leadership (1 credit, junior year) and Public Health Practice & Professionalism (3 credits, senior fall).",
+   "need": 2,
+   "countMode": "count",
+   "category": "capstone",
+   "matchCodes": ["PUBHLTH 380", "PUBHLTH 481"],
+   "sources": [
+    "https://sph.umich.edu/undergrad/degrees/degree-requirements.html"
+   ]
+  }
+ ]
+}

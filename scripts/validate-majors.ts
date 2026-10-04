@@ -61,6 +61,7 @@ const MATCH_ALL_WHITELIST = new Set([
   'smtd-non-music-credits', // BM non-Music minimum (excludeTags smtd-music)
   'nursing-total-credits', // BSN 128 total credits (12+ are free electives)
   'kines-total-credits', // Kinesiology 120 total credits (shared by all SoK majors)
+  'sph-total-credits', // SPH 120 total credits (shared by the BA and BS)
 ]);
 
 const VALID_CATEGORIES = new Set([
@@ -93,6 +94,8 @@ const VALID_CATEGORIES = new Set([
   // School of Kinesiology
   'kines-credit-min',
   'kines-distribution',
+  // School of Public Health
+  'sph-credit-min',
 ]);
 
 /**

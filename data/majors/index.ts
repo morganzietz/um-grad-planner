@@ -124,6 +124,8 @@ import n1 from './nursing-bsn.json';
 import k1 from './kines-applied-exercise-science.json';
 import k2 from './kines-movement-science.json';
 import k3 from './kines-sport-management.json';
+import ph1 from './sph-ba-community-global-public-health.json';
+import ph2 from './sph-bs-public-health-sciences.json';
 
 export const all: Major[] = [
   p1 as Major,
@@ -250,4 +252,6 @@ export const all: Major[] = [
   k1 as Major,
   k2 as Major,
   k3 as Major,
+  ph1 as Major,
+  ph2 as Major,
 ];

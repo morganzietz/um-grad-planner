@@ -1,0 +1,884 @@
+{
+ "source": "SPH course browser (sph.umich.edu/research-education/courses/undergrad.php, Fall + Winter term pages, undergraduate and graduate-open-to-undergraduate tables)",
+ "courses": [
+  {
+   "code": "BIOSTAT 449",
+   "title": "Topics In Biostatistics",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "BIOSTAT 521",
+   "title": "Applied Biostatistics",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "BIOSTAT 601",
+   "title": "Probability And Inference I",
+   "credits": 4,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "EHS 500",
+   "title": "Principles of Environmental Health Sciences",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "EHS 576",
+   "title": "Biological Agents",
+   "credits": 2,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "EHS 585",
+   "title": "Psychosocial Factors Impacting Environmental And Occupational Health",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "EHS 597",
+   "title": "Environmental Health And Policy",
+   "credits": 2,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "EHS 603",
+   "title": "Occupational and Environmental Disease",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "EHS 660",
+   "title": "Environmental Epigenetics and Public Health",
+   "credits": 2,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "EHS 668",
+   "title": "Interprofessional Perspectives In Occupational Health And Safety",
+   "credits": 2,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "EHS 685",
+   "title": "Toxicology Case Studies Of Environmental Disasters: How Chemicals Cause Harm",
+   "credits": 2,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "EPID 505",
+   "title": "Polymicrobial Communities in Human Health and Disease",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "EPID 507",
+   "title": "Microbial Control: Sterilization, Disinfection and Manipulation",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "EPID 600",
+   "title": "Introduction To Epidemiology",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "EPID 638",
+   "title": "Computer Modeling Of Complex Systems",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "EPID 679",
+   "title": "Psychiatric Epidemiology",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "EPID 696",
+   "title": "Pregnancy And Perinatal Epidemiology",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "HBHEQ 530",
+   "title": "Techniques of Survey Research",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "HBHEQ 540",
+   "title": "Fundamentals Of Reproductive Justice",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "HBHEQ 605",
+   "title": "Lgbtq Health And Inequities",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "HBHEQ 630",
+   "title": "Aging and Health Behavior",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "HBHEQ 634",
+   "title": "Child Health and Development",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "HBHEQ 639",
+   "title": "Mixed Methods Research Designs And Applications",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "HBHEQ 659",
+   "title": "Introduction to Adolescent Substance Use Prevention",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "HBHEQ 669",
+   "title": "Genetics, Health Behavior, and Health Education",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "HBHEQ 680",
+   "title": "Youth Violence: Issues and Prevention",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "HMP 528",
+   "title": "Community Health Issues For Asian Americans And Pacific Islanders",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "HMP 613",
+   "title": "Climate Change And The Healthcare System",
+   "credits": 1,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "HMP 625",
+   "title": "Comparative Health Policy and Management in High Income Countries",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "HMP 638",
+   "title": "Measuring and Monitoring Population Health",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "HMP 653",
+   "title": "Law and Public Health",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "HMP 677",
+   "title": "Health Care Organization: An International Perspective",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "HMP 681",
+   "title": "Special Topics In Health Management And Policy",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "NUTR 510",
+   "title": "Nutrition in the Life Cycle",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "NUTR 518",
+   "title": "Food Literacy for All",
+   "credits": 2,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "NUTR 525",
+   "title": "U.s. Food Policy",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "NUTR 621",
+   "title": "Eating Disorders Prevention &amp; Treatment",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "NUTR 626",
+   "title": "Controversial Topics In Nutrition",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "NUTR 630",
+   "title": "Principles of Nutritional Science",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "NUTR 650",
+   "title": "Socio-ecological Approaches to Child and Adolescent Nutrition",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "NUTR 796",
+   "title": "Special Topics in Nutritional Sciences",
+   "credits": 6,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 200",
+   "title": "Health and Society: Introduction to Public Health",
+   "credits": 4,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter",
+    "spring"
+   ]
+  },
+  {
+   "code": "PUBHLTH 250",
+   "title": "On Purpose: Designing and Living a Big Life",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "PUBHLTH 300",
+   "title": "Behavioral And Social Science Foundations In Public Health",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "PUBHLTH 305",
+   "title": "The Environment And Human Health",
+   "credits": 4,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 306",
+   "title": "Practical Tools for Conducting Public Health Research",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 307",
+   "title": "Basic Computing For Data Analytics",
+   "credits": 1,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "PUBHLTH 308",
+   "title": "Black American Health: A Focus on Children, Families, and Communities",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 309",
+   "title": "Hunger In America: Building Skills To Feed Communities",
+   "credits": 2,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 310",
+   "title": "Nutrition in the life cycle",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 311",
+   "title": "Introduction to Public Health Genetics",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "PUBHLTH 313",
+   "title": "Lgbtq+ Health Promotion: Local And Global Strategies",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 314",
+   "title": "Public Health in U.S. Popular Culture",
+   "credits": 2,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 319",
+   "title": "360-degree Perspective On The Experience Of Chronic Illness In America",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 320",
+   "title": "The History of Racism in the U.S. Healthcare System",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "PUBHLTH 321",
+   "title": "Eating Disorders Prevention &amp; Treatment",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "PUBHLTH 323",
+   "title": "Food Security &amp; Food Assistance In The U.s.",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "PUBHLTH 326",
+   "title": "Introduction To U.s. Healthcare System: Organization, Delivery, And Financing",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "PUBHLTH 328",
+   "title": "Community Health Issues For Asian Americans And Pacific Islanders",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 330",
+   "title": "Food Systems Around The World:  A Geographic Perspective",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "PUBHLTH 333",
+   "title": "Emerging Issues In Public Health",
+   "credits": 4,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 335",
+   "title": "Patient-provider Interaction",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "PUBHLTH 345",
+   "title": "Public Health Data Visualization",
+   "credits": 2,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 350",
+   "title": "Global Public Health: Challenges and Transformations",
+   "credits": 4,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 355",
+   "title": "Assessing Environmental Threats To Public Health:  In Practice And Research",
+   "credits": 2,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "PUBHLTH 360",
+   "title": "Community, Culture, and Social Justice (CCSJ) in Public Health",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "PUBHLTH 370",
+   "title": "Public Health Biology and Pathophysiology",
+   "credits": 4,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "PUBHLTH 380",
+   "title": "Leadership And Teamwork: From Personal Growth To Professional Achievement",
+   "credits": 1,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 381",
+   "title": "Public Health Systems: Achievements and Challenges",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "PUBHLTH 382",
+   "title": "Population Health Determinants &amp; Disparities",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 383",
+   "title": "Data Driven Solutions In Public Health",
+   "credits": 4,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 384",
+   "title": "Creating Change In Public Health",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "PUBHLTH 394",
+   "title": "Pluralism And Public Health In The United States - An Intenstive Writing Seminar",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "PUBHLTH 401",
+   "title": "Exploring the public health spectrum of cancer: from prevention to survivorship",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "PUBHLTH 405",
+   "title": "Social history of infectious disease",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "PUBHLTH 407",
+   "title": "Links between Infectious and Non-Communicable Diseases",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 410",
+   "title": "Making Change: Public Health Policy Advocacy in Principle and Practice",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 411",
+   "title": "Making Change: Experiential Learning in Effective Public Health Policy Advocacy",
+   "credits": 1,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 414",
+   "title": "Population Approaches to Mental Health",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 417",
+   "title": "Eat, Sleep, Analyze:  The Interplay Of Sleep And Nutrition On Population Health",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "PUBHLTH 425",
+   "title": "The Price Of Health: Economics And Global Healthcare Models",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "PUBHLTH 430",
+   "title": "Nutrients And Health",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "PUBHLTH 443",
+   "title": "Viruses And Vaccines In Public Health",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "PUBHLTH 450",
+   "title": "Critical Reflections on Global Public Health",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 460",
+   "title": "Introduction To Bacterial Pathogenesis",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 465",
+   "title": "The Science of Medicine",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 477",
+   "title": "Readings in Public Health",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 478",
+   "title": "Practical Projects in Public Health",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 479",
+   "title": "Independent Research in Public Health",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 481",
+   "title": "Public Health Practice And Professionalism",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "PUBHLTH 503",
+   "title": "Service Learning for Health Professionals",
+   "credits": 2,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 516",
+   "title": "Leadership Skills For Interprofessional Practice",
+   "credits": 1,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 555",
+   "title": "Chatgpt/AI And Public Health",
+   "credits": 2,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 615",
+   "title": "Public Health in Action: National",
+   "credits": 2,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 622",
+   "title": "Entrepreneurship and Innovation in Public Health: New Business Models for a public health economy",
+   "credits": 1,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "PUBHLTH 626",
+   "title": "Understanding And Improving The U S Healthcare System",
+   "credits": 1,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  }
+ ]
+}

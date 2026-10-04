@@ -7,6 +7,7 @@ import umsiCatalogData from '../data/courses/umsi-catalog.json';
 import smtdCatalogData from '../data/courses/smtd-catalog.json';
 import nursingCatalogData from '../data/courses/nursing-catalog.json';
 import kinesCatalogData from '../data/courses/kines-catalog.json';
+import sphCatalogData from '../data/courses/sph-catalog.json';
 import { all as bundledMinors } from '../data/minors';
 import {
   manualCourses,
@@ -60,6 +61,10 @@ const nursingCatalogCourses =
 const kinesCatalogCourses =
   (kinesCatalogData as unknown as { courses: Course[] }).courses ?? [];
 
+/** School of Public Health catalog from the school's course browser. */
+const sphCatalogCourses =
+  (sphCatalogData as unknown as { courses: Course[] }).courses ?? [];
+
 // ─── Merge scraped + manual + programmatic tags → courseCatalog ───────────
 
 /**
@@ -73,6 +78,55 @@ const LANGUAGE_SUBJECTS: ReadonlySet<string> = new Set([
   'HEBREW', 'HINDI', 'ITALIAN', 'JAPANESE', 'KOREAN', 'LADINO', 'LATIN',
   'PERSIAN', 'POLISH', 'PORTUG', 'ROMLANG', 'RUSSIAN', 'SCAND', 'SPANISH',
   'TURKISH', 'UKR', 'YIDDISH',
+]);
+
+/**
+ * School of Public Health subjects, from the school's course browser.
+ * HBEHED is the pre-rename code for Health Behavior & Health Equity (HBHEQ)
+ * and is kept so older transcript imports still count as SPH credit.
+ */
+const SPH_SUBJECTS: ReadonlySet<string> = new Set([
+  'PUBHLTH', 'BIOSTAT', 'EHS', 'EPID', 'HBHEQ', 'HBEHED', 'HMP', 'NUTR',
+]);
+
+/**
+ * Required courses for the SPH bachelor's degrees, tagged so the "18 credits
+ * of public health electives, outside the required courses" rule can exclude
+ * them. Core = both degrees; ba/bs = that degree's required and selective
+ * courses (electives for students in the other degree).
+ */
+const SPH_CORE_CODES: ReadonlySet<string> = new Set([
+  'PUBHLTH 380', 'PUBHLTH 381', 'PUBHLTH 382', 'PUBHLTH 383', 'PUBHLTH 384',
+  'PUBHLTH 481',
+]);
+const SPH_BA_CORE_CODES: ReadonlySet<string> = new Set([
+  'PUBHLTH 350', 'PUBHLTH 360',
+]);
+const SPH_BS_CORE_CODES: ReadonlySet<string> = new Set([
+  'PUBHLTH 370', 'PUBHLTH 305', 'PUBHLTH 310', 'PUBHLTH 311',
+]);
+
+/**
+ * 200-level pre-health courses the SPH degrees accept toward the 60
+ * upper-level credits, per the published upper-level elective exceptions
+ * page (sph.umich.edu/undergrad/degrees/upper-level-exceptions.html).
+ */
+const SPH_UPPER_EXCEPTION_CODES: ReadonlySet<string> = new Set([
+  'BIOLOGY 207', 'BIOLOGY 225', 'BIOLOGY 226',
+  'CHEM 210', 'CHEM 211', 'CHEM 215', 'CHEM 216', 'CHEM 230', 'CHEM 260',
+  'PHYSICS 126', 'PHYSICS 128', 'PHYSICS 235', 'PHYSICS 236', 'PHYSICS 240',
+  'PHYSICS 241', 'PHYSICS 250', 'PHYSICS 251', 'PHYSICS 260', 'PHYSICS 261',
+  'PHYSIOL 201', 'NURS 236', 'NURS 245',
+]);
+
+/**
+ * Life-science departments for the SPH "3 credits of life science, excluding
+ * chemistry and physics" admission prerequisite. Loose by-subject membership
+ * in the spirit of the schools matcher; one-off courses from other
+ * departments can be force-included with the adjust control.
+ */
+const SPH_LIFE_SCIENCE_SUBJECTS: ReadonlySet<string> = new Set([
+  'ANATOMY', 'BIOLOGY', 'EEB', 'MCDB', 'MICRBIOL', 'PHYSIOL',
 ]);
 
 /**
@@ -142,6 +196,32 @@ function programmaticTags(code: string): string[] {
     catalogNum >= 200
   ) {
     extras.push('lsa-language');
+  }
+
+  // School of Public Health bachelor's degrees. sph-upper feeds the "45
+  // upper-level credits from SPH courses" rule; sph-ph-elective the "18
+  // credits of public health electives (300-level and above)" rule, which
+  // explicitly includes the graduate courses open to undergraduates.
+  if (SPH_SUBJECTS.has(subject)) {
+    if (Number.isFinite(catalogNum) && catalogNum >= 300) {
+      extras.push('sph-upper', 'sph-ph-elective');
+    }
+  }
+  if (SPH_CORE_CODES.has(code)) extras.push('sph-core-req');
+  if (SPH_BA_CORE_CODES.has(code)) extras.push('sph-ba-core');
+  if (SPH_BS_CORE_CODES.has(code)) extras.push('sph-bs-core');
+  // SPH 60-upper-level rule: any 300+ course anywhere at U-M, plus the
+  // published 200-level pre-health exceptions and the final fourth-term
+  // language course (same membership as the LSA language tag).
+  if (
+    (Number.isFinite(catalogNum) && catalogNum >= 300) ||
+    SPH_UPPER_EXCEPTION_CODES.has(code) ||
+    (LANGUAGE_SUBJECTS.has(subject) && Number.isFinite(catalogNum) && catalogNum >= 200)
+  ) {
+    extras.push('sph-upper-ok');
+  }
+  if (SPH_LIFE_SCIENCE_SUBJECTS.has(subject)) {
+    extras.push('sph-life-science');
   }
 
   return extras;
@@ -289,7 +369,7 @@ function buildCatalog(): Course[] {
   // NOT list is not approved for LSA credit, so SOC-only entries get the
   // non-lsa tag; without it, every Ross/CoE/SPH course would wrongly count
   // toward the LSA "100 LSA credits" college rules.
-  for (const c of [...socCourses, ...coeBulletinCourses, ...rossBulletinCourses, ...umsiCatalogCourses, ...smtdCatalogCourses, ...nursingCatalogCourses, ...kinesCatalogCourses]) {
+  for (const c of [...socCourses, ...coeBulletinCourses, ...rossBulletinCourses, ...umsiCatalogCourses, ...smtdCatalogCourses, ...nursingCatalogCourses, ...kinesCatalogCourses, ...sphCatalogCourses]) {
     if (byCode.has(c.code)) continue;
     const tags = c.tags.includes(NON_LSA) ? c.tags : [...c.tags, NON_LSA];
     byCode.set(c.code, { ...c, tags });
