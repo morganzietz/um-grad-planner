@@ -1,0 +1,278 @@
+{
+ "id": "stamps-ba-art-and-design",
+ "name": "Art and Design (BA)",
+ "school": "Stamps School of Art & Design",
+ "goalCredits": 128,
+ "sourceUrl": "https://stamps.umich.edu/undergraduate-programs/ba",
+ "requirements": [
+  {
+   "id": "stamps-total-credits",
+   "label": "128 Total Credits",
+   "hint": "The BA requires 128 credits in total: 59 Stamps credits and 69 non-Stamps credits.",
+   "need": 128,
+   "countMode": "credits",
+   "category": "stamps-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/ba"
+   ]
+  },
+  {
+   "id": "stamps-ba-stamps-credits",
+   "label": "Stamps credits (59)",
+   "hint": "At least 59 of the 128 credits must be Stamps coursework (ARTDES courses and Stamps study abroad).",
+   "need": 59,
+   "countMode": "credits",
+   "category": "stamps-credit-min",
+   "matchTag": "stamps-credit",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/ba"
+   ]
+  },
+  {
+   "id": "stamps-ba-nonstamps-credits",
+   "label": "Non-Stamps credits (69)",
+   "hint": "At least 69 of the 128 credits must come from outside the Stamps School.",
+   "need": 69,
+   "countMode": "credits",
+   "category": "stamps-credit-min",
+   "matchAll": true,
+   "excludeTags": [
+    "stamps-credit"
+   ],
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/ba"
+   ]
+  },
+  {
+   "id": "stamps-foundation-studios",
+   "label": "Foundation studios (7 courses)",
+   "hint": "ARTDES 100 and 105 (Drawing 1 & 2), 115 (2D), 120 (3D), 125 (4D), 130 (Creative Process Strategies), and 220 (Second Year Studio).",
+   "need": 7,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "ARTDES 100",
+    "ARTDES 105",
+    "ARTDES 115",
+    "ARTDES 120",
+    "ARTDES 125",
+    "ARTDES 130",
+    "ARTDES 220"
+   ],
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/ba"
+   ]
+  },
+  {
+   "id": "stamps-context-history",
+   "label": "ARTDES 150 & 151: Art & Design in Context / History",
+   "hint": "The two required first-year academic courses.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "ARTDES 150",
+    "ARTDES 151"
+   ],
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/ba"
+   ]
+  },
+  {
+   "id": "stamps-lecture-series",
+   "label": "Stamps Lecture Series (8 credits)",
+   "hint": "ARTDES 160, 1 credit per term for 8 terms. Each completed term counts; a planned term registers once, so log each term as taken when it finishes.",
+   "need": 8,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "ARTDES 160"
+   ],
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/ba"
+   ]
+  },
+  {
+   "id": "stamps-ba-ulwr",
+   "label": "Upper-level writing (3 credits)",
+   "hint": "One upper-level writing course (LSA ULWR mark or a Stamps ULWR-approved course such as ARTDES 399).",
+   "need": 3,
+   "countMode": "credits",
+   "category": "stamps-liberal-arts",
+   "matchTag": "stamps-ulwr-ok",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/ba"
+   ]
+  },
+  {
+   "id": "stamps-ba-studio-electives",
+   "label": "Elective studios (21 credits)",
+   "hint": "Seven elective studios at the 200 to 400 level. At most one course (3 credits) from other U-M departments or approved study abroad may count; apply it through the adjust control.",
+   "need": 21,
+   "countMode": "credits",
+   "category": "electives",
+   "matchTag": "stamps-studio-elective",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/ba"
+   ]
+  },
+  {
+   "id": "stamps-ba-studio-200",
+   "label": "200-level elective studios (6 credits)",
+   "hint": "Two elective studios at the 200 level.",
+   "need": 6,
+   "countMode": "credits",
+   "category": "electives",
+   "matchTag": "stamps-studio-elective-200",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/ba"
+   ]
+  },
+  {
+   "id": "stamps-ba-studio-300",
+   "label": "300-level elective studios (6 credits)",
+   "hint": "Two elective studios at the 300 level.",
+   "need": 6,
+   "countMode": "credits",
+   "category": "electives",
+   "matchTag": "stamps-studio-elective-300",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/ba"
+   ]
+  },
+  {
+   "id": "stamps-engagement-studio",
+   "label": "Engagement studio",
+   "hint": "One elective studio must carry the Engagement designation (the ARTDES 310-319 block, plus other designated studios).",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "matchTag": "stamps-engagement-ok",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/ba",
+    "https://stamps.umich.edu/undergraduate-programs/ba"
+   ]
+  },
+  {
+   "id": "stamps-ba-studio-400",
+   "label": "400-level elective studio (3 credits)",
+   "hint": "One elective studio at the 400 level.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "electives",
+   "matchTag": "stamps-studio-elective-400",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/ba"
+   ]
+  },
+  {
+   "id": "stamps-ba-stamps-elective",
+   "label": "Stamps elective course (3 credits)",
+   "hint": "One additional 3-credit Stamps course, academic or studio, beyond the named requirements.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "electives",
+   "matchTag": "stamps-credit",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/ba"
+   ]
+  },
+  {
+   "id": "stamps-fywr",
+   "label": "First-year writing",
+   "hint": "One course fulfilling the First-Year Writing Requirement.",
+   "need": 1,
+   "countMode": "count",
+   "category": "stamps-liberal-arts",
+   "matchTag": "lsa-fywr",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/ba"
+   ]
+  },
+  {
+   "id": "stamps-social-science",
+   "label": "Social science (3 credits)",
+   "need": 3,
+   "hint": "At least 3 credits of social science coursework.",
+   "countMode": "credits",
+   "category": "stamps-liberal-arts",
+   "matchTag": "lsa-social-sciences",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/ba"
+   ]
+  },
+  {
+   "id": "stamps-natural-science",
+   "label": "Natural science (3 credits)",
+   "need": 3,
+   "hint": "At least 3 credits of natural science coursework.",
+   "countMode": "credits",
+   "category": "stamps-liberal-arts",
+   "matchTag": "lsa-natural-sciences",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/ba"
+   ]
+  },
+  {
+   "id": "stamps-analytical",
+   "label": "Analytical reasoning (3 credits)",
+   "need": 3,
+   "hint": "At least 3 credits carrying the MSA or QR distribution marks.",
+   "countMode": "credits",
+   "category": "stamps-liberal-arts",
+   "matchTag": "analytical-reasoning",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/ba"
+   ]
+  },
+  {
+   "id": "stamps-environ",
+   "label": "Environmental studies (3 credits)",
+   "need": 3,
+   "hint": "At least 3 credits of environmental studies. Matched to the Program in the Environment (ENVIRON) subject; use the adjust control for an environment course from another department.",
+   "countMode": "credits",
+   "category": "stamps-liberal-arts",
+   "matchTag": "subj-environ",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/ba"
+   ]
+  },
+  {
+   "id": "stamps-race-ethnicity",
+   "label": "Race and ethnicity (3 credits)",
+   "need": 3,
+   "hint": "At least 3 credits carrying the Race & Ethnicity mark. One course may satisfy this alongside another distribution area.",
+   "countMode": "credits",
+   "category": "stamps-liberal-arts",
+   "matchTag": "lsa-race-ethnicity",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/ba"
+   ]
+  },
+  {
+   "id": "stamps-adhtc",
+   "label": "Art/design history, theory, criticism (6 credits)",
+   "need": 6,
+   "hint": "6 to 8 credits of art or design history, theory, or criticism beyond ARTDES 151. Matched to History of Art courses and Stamps HTC-designated courses.",
+   "countMode": "credits",
+   "category": "stamps-liberal-arts",
+   "matchTag": "stamps-adhtc",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/ba"
+   ]
+  },
+  {
+   "id": "stamps-sophomore-review",
+   "label": "Sophomore Review",
+   "hint": "Still building a way to track this milestone: present your work to date to a faculty committee in the winter of sophomore year (no credit, participation mandatory). Mark it done with the adjust control once completed.",
+   "need": 1,
+   "countMode": "count",
+   "category": "other",
+   "manual": true,
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/ba"
+   ]
+  }
+ ]
+}

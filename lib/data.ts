@@ -8,6 +8,7 @@ import smtdCatalogData from '../data/courses/smtd-catalog.json';
 import nursingCatalogData from '../data/courses/nursing-catalog.json';
 import kinesCatalogData from '../data/courses/kines-catalog.json';
 import sphCatalogData from '../data/courses/sph-catalog.json';
+import stampsCatalogData from '../data/courses/stamps-catalog.json';
 import { all as bundledMinors } from '../data/minors';
 import {
   manualCourses,
@@ -64,6 +65,10 @@ const kinesCatalogCourses =
 /** School of Public Health catalog from the school's course browser. */
 const sphCatalogCourses =
   (sphCatalogData as unknown as { courses: Course[] }).courses ?? [];
+
+/** Stamps catalog from the school's course browser + archive captures. */
+const stampsCatalogCourses =
+  (stampsCatalogData as unknown as { courses: Course[] }).courses ?? [];
 
 // ─── Merge scraped + manual + programmatic tags → courseCatalog ───────────
 
@@ -224,6 +229,23 @@ function programmaticTags(code: string): string[] {
     extras.push('sph-life-science');
   }
 
+  // Stamps credit membership by subject (ARTDES plus the school's own
+  // study-abroad subject), for the BA's Stamps/non-Stamps credit split.
+  if (subject === 'ARTDES' || subject === 'ADABRD') {
+    extras.push('stamps-credit');
+  }
+  // Engagement Studios are the ARTDES 310-319 block per the BA requirements
+  // page; the designation tag from the course browser is unioned in
+  // applyProgrammaticTags for anything designated outside the block.
+  if (
+    subject === 'ARTDES' &&
+    Number.isFinite(catalogNum) &&
+    catalogNum >= 310 &&
+    catalogNum <= 319
+  ) {
+    extras.push('stamps-engagement-ok');
+  }
+
   return extras;
 }
 
@@ -354,6 +376,50 @@ function applyProgrammaticTags(c: Course): Course {
   ) {
     extras.push('ross-ss-dist');
   }
+  // Stamps BFA/BA rules, derived from the course browser's designation tags.
+  {
+    const num = parseInt(c.code.split(/\s+/)[1] ?? '', 10);
+    const isGradOrNonMajor =
+      c.tags.includes('stamps-nonmajor') || c.tags.includes('stamps-grad');
+    // Studio credit: studio-designated or Stamps study abroad, excluding
+    // non-major studios and graduate (MFA/MDes) studios.
+    if (
+      (c.tags.includes('stamps-studio') || c.tags.includes('stamps-abroad')) &&
+      !isGradOrNonMajor
+    ) {
+      extras.push('stamps-studio-credit');
+    }
+    // Elective studios, with per-level variants for the "N studios at each
+    // level" rows. Study abroad is excluded (its credits apply via the
+    // adjust control, capped by school policy).
+    if (
+      c.tags.includes('stamps-studio') &&
+      c.tags.includes('stamps-elective') &&
+      !isGradOrNonMajor
+    ) {
+      extras.push('stamps-studio-elective');
+      if (Number.isFinite(num)) {
+        if (num >= 200 && num <= 299) extras.push('stamps-studio-elective-200');
+        if (num >= 300 && num <= 399) extras.push('stamps-studio-elective-300');
+        if (num >= 400 && num <= 499) extras.push('stamps-studio-elective-400');
+      }
+    }
+    if (c.tags.includes('stamps-engagement')) extras.push('stamps-engagement-ok');
+    // Art/design history-theory-criticism electives: the school's HTC
+    // designation plus any History of Art course.
+    if (c.tags.includes('stamps-htc') || c.code.startsWith('HISTART ')) {
+      extras.push('stamps-adhtc');
+    }
+    // BA upper-level writing: LSA ULWR mark or Stamps' own approved list.
+    if (c.tags.includes('lsa-ulwr') || c.tags.includes('stamps-ulwr-approved')) {
+      extras.push('stamps-ulwr-ok');
+    }
+  }
+  // Analytical reasoning union (MSA or QR), used by the Stamps liberal
+  // arts distribution.
+  if (c.tags.includes('lsa-math-symbolic') || c.tags.includes('lsa-qr')) {
+    extras.push('analytical-reasoning');
+  }
   if (extras.length === 0) return c;
   return {
     ...c,
@@ -369,7 +435,7 @@ function buildCatalog(): Course[] {
   // NOT list is not approved for LSA credit, so SOC-only entries get the
   // non-lsa tag; without it, every Ross/CoE/SPH course would wrongly count
   // toward the LSA "100 LSA credits" college rules.
-  for (const c of [...socCourses, ...coeBulletinCourses, ...rossBulletinCourses, ...umsiCatalogCourses, ...smtdCatalogCourses, ...nursingCatalogCourses, ...kinesCatalogCourses, ...sphCatalogCourses]) {
+  for (const c of [...socCourses, ...coeBulletinCourses, ...rossBulletinCourses, ...umsiCatalogCourses, ...smtdCatalogCourses, ...nursingCatalogCourses, ...kinesCatalogCourses, ...sphCatalogCourses, ...stampsCatalogCourses]) {
     if (byCode.has(c.code)) continue;
     const tags = c.tags.includes(NON_LSA) ? c.tags : [...c.tags, NON_LSA];
     byCode.set(c.code, { ...c, tags });

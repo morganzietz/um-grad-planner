@@ -1,0 +1,292 @@
+{
+ "id": "stamps-bfa-art-and-design",
+ "name": "Art and Design (BFA)",
+ "school": "Stamps School of Art & Design",
+ "goalCredits": 128,
+ "sourceUrl": "https://stamps.umich.edu/undergraduate-programs/bfa",
+ "requirements": [
+  {
+   "id": "stamps-total-credits",
+   "label": "128 Total Credits",
+   "hint": "The BFA requires 128 credits in total: 66 to 72 studio credits and 56 to 62 non-studio credits.",
+   "need": 128,
+   "countMode": "credits",
+   "category": "stamps-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/bfa"
+   ]
+  },
+  {
+   "id": "stamps-bfa-studio-credits",
+   "label": "Studio credits (66)",
+   "hint": "At least 66 of the 128 credits must be studio courses. Matched by the school's studio designation plus Stamps study abroad; up to 6 studio credits from other U-M schools may apply through the adjust control.",
+   "need": 66,
+   "countMode": "credits",
+   "category": "stamps-credit-min",
+   "matchTag": "stamps-studio-credit",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/bfa"
+   ]
+  },
+  {
+   "id": "stamps-bfa-nonstudio-credits",
+   "label": "Non-studio credits (56)",
+   "hint": "At least 56 of the 128 credits must be non-studio coursework (Stamps academic courses and courses across U-M).",
+   "need": 56,
+   "countMode": "credits",
+   "category": "stamps-credit-min",
+   "matchAll": true,
+   "excludeTags": [
+    "stamps-studio-credit"
+   ],
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/bfa"
+   ]
+  },
+  {
+   "id": "stamps-foundation-studios",
+   "label": "Foundation studios (7 courses)",
+   "hint": "ARTDES 100 and 105 (Drawing 1 & 2), 115 (2D), 120 (3D), 125 (4D), 130 (Creative Process Strategies), and 220 (Second Year Studio).",
+   "need": 7,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "ARTDES 100",
+    "ARTDES 105",
+    "ARTDES 115",
+    "ARTDES 120",
+    "ARTDES 125",
+    "ARTDES 130",
+    "ARTDES 220"
+   ],
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/bfa"
+   ]
+  },
+  {
+   "id": "stamps-context-history",
+   "label": "ARTDES 150 & 151: Art & Design in Context / History",
+   "hint": "The two required first-year academic courses.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "ARTDES 150",
+    "ARTDES 151"
+   ],
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/bfa"
+   ]
+  },
+  {
+   "id": "stamps-lecture-series",
+   "label": "Stamps Lecture Series (8 credits)",
+   "hint": "ARTDES 160, 1 credit per term for 8 terms. Each completed term counts; a planned term registers once, so log each term as taken when it finishes.",
+   "need": 8,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": [
+    "ARTDES 160"
+   ],
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/bfa"
+   ]
+  },
+  {
+   "id": "stamps-bfa-writing",
+   "label": "ARTDES 399: Writing in Art and Design",
+   "hint": "The BFA's required writing course, normally taken in the third year.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "ARTDES 399"
+   ],
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/bfa"
+   ]
+  },
+  {
+   "id": "stamps-bfa-studio-electives",
+   "label": "Elective studios (45 credits)",
+   "hint": "A minimum of fifteen elective studios. Up to two studio mini-courses (3 credits total) and up to 6 credits of studio work from other U-M schools or approved study abroad may count; apply those through the adjust control.",
+   "need": 45,
+   "countMode": "credits",
+   "category": "electives",
+   "matchTag": "stamps-studio-elective",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/bfa"
+   ]
+  },
+  {
+   "id": "stamps-bfa-studio-200",
+   "label": "200-level elective studios (12 credits)",
+   "hint": "Four elective studios at the 200 level.",
+   "need": 12,
+   "countMode": "credits",
+   "category": "electives",
+   "matchTag": "stamps-studio-elective-200",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/bfa"
+   ]
+  },
+  {
+   "id": "stamps-bfa-studio-300",
+   "label": "300-level elective studios (12 credits)",
+   "hint": "Four elective studios at the 300 level.",
+   "need": 12,
+   "countMode": "credits",
+   "category": "electives",
+   "matchTag": "stamps-studio-elective-300",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/bfa"
+   ]
+  },
+  {
+   "id": "stamps-engagement-studio",
+   "label": "Engagement studio",
+   "hint": "One elective studio must carry the Engagement designation (the ARTDES 310-319 block, plus other designated studios).",
+   "need": 1,
+   "countMode": "count",
+   "category": "electives",
+   "matchTag": "stamps-engagement-ok",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/bfa",
+    "https://stamps.umich.edu/undergraduate-programs/ba"
+   ]
+  },
+  {
+   "id": "stamps-bfa-senior",
+   "label": "400-level studios or Integrative Project",
+   "hint": "Either three 400-level elective studios (9 credits) or the two-semester senior Integrative Project (ARTDES 498 in fall, ARTDES 499 in winter, 9 credits).",
+   "need": 1,
+   "countMode": "count",
+   "category": "capstone",
+   "pickFromGroups": [
+    "stamps-bfa-studio-400",
+    "stamps-bfa-integrative"
+   ],
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/bfa"
+   ]
+  },
+  {
+   "id": "stamps-bfa-studio-400",
+   "label": "400-level elective studios option (9 credits)",
+   "hint": "Three elective studios at the 400 level.",
+   "need": 9,
+   "countMode": "credits",
+   "category": "capstone",
+   "matchTag": "stamps-studio-elective-400"
+  },
+  {
+   "id": "stamps-bfa-integrative",
+   "label": "Integrative Project option (9 credits)",
+   "hint": "ARTDES 498 and 499, the two-semester senior studio culminating in a senior project.",
+   "need": 9,
+   "countMode": "credits",
+   "category": "capstone",
+   "matchCodes": [
+    "ARTDES 498",
+    "ARTDES 499"
+   ]
+  },
+  {
+   "id": "stamps-fywr",
+   "label": "First-year writing",
+   "hint": "One course fulfilling the First-Year Writing Requirement.",
+   "need": 1,
+   "countMode": "count",
+   "category": "stamps-liberal-arts",
+   "matchTag": "lsa-fywr",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/bfa"
+   ]
+  },
+  {
+   "id": "stamps-social-science",
+   "label": "Social science (3 credits)",
+   "need": 3,
+   "hint": "At least 3 credits of social science coursework.",
+   "countMode": "credits",
+   "category": "stamps-liberal-arts",
+   "matchTag": "lsa-social-sciences",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/bfa"
+   ]
+  },
+  {
+   "id": "stamps-natural-science",
+   "label": "Natural science (3 credits)",
+   "need": 3,
+   "hint": "At least 3 credits of natural science coursework.",
+   "countMode": "credits",
+   "category": "stamps-liberal-arts",
+   "matchTag": "lsa-natural-sciences",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/bfa"
+   ]
+  },
+  {
+   "id": "stamps-analytical",
+   "label": "Analytical reasoning (3 credits)",
+   "need": 3,
+   "hint": "At least 3 credits carrying the MSA or QR distribution marks.",
+   "countMode": "credits",
+   "category": "stamps-liberal-arts",
+   "matchTag": "analytical-reasoning",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/bfa"
+   ]
+  },
+  {
+   "id": "stamps-environ",
+   "label": "Environmental studies (3 credits)",
+   "need": 3,
+   "hint": "At least 3 credits of environmental studies. Matched to the Program in the Environment (ENVIRON) subject; use the adjust control for an environment course from another department.",
+   "countMode": "credits",
+   "category": "stamps-liberal-arts",
+   "matchTag": "subj-environ",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/bfa"
+   ]
+  },
+  {
+   "id": "stamps-race-ethnicity",
+   "label": "Race and ethnicity (3 credits)",
+   "need": 3,
+   "hint": "At least 3 credits carrying the Race & Ethnicity mark. One course may satisfy this alongside another distribution area.",
+   "countMode": "credits",
+   "category": "stamps-liberal-arts",
+   "matchTag": "lsa-race-ethnicity",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/bfa"
+   ]
+  },
+  {
+   "id": "stamps-adhtc",
+   "label": "Art/design history, theory, criticism (6 credits)",
+   "need": 6,
+   "hint": "6 to 8 credits of art or design history, theory, or criticism beyond ARTDES 151. Matched to History of Art courses and Stamps HTC-designated courses.",
+   "countMode": "credits",
+   "category": "stamps-liberal-arts",
+   "matchTag": "stamps-adhtc",
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/bfa"
+   ]
+  },
+  {
+   "id": "stamps-sophomore-review",
+   "label": "Sophomore Review",
+   "hint": "Still building a way to track this milestone: present your work to date to a faculty committee in the winter of sophomore year (no credit, participation mandatory). Mark it done with the adjust control once completed.",
+   "need": 1,
+   "countMode": "count",
+   "category": "other",
+   "manual": true,
+   "sources": [
+    "https://stamps.umich.edu/undergraduate-programs/bfa"
+   ]
+  }
+ ]
+}

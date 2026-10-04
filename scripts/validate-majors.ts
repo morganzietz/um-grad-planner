@@ -62,6 +62,10 @@ const MATCH_ALL_WHITELIST = new Set([
   'nursing-total-credits', // BSN 128 total credits (12+ are free electives)
   'kines-total-credits', // Kinesiology 120 total credits (shared by all SoK majors)
   'sph-total-credits', // SPH 120 total credits (shared by the BA and BS)
+  'stamps-total-credits', // Stamps 128 total credits (shared by the BFA and BA)
+  // Stamps credit splits (matchAll with the studio/Stamps tag excluded IS the rule)
+  'stamps-bfa-nonstudio-credits',
+  'stamps-ba-nonstamps-credits',
 ]);
 
 const VALID_CATEGORIES = new Set([
@@ -96,6 +100,9 @@ const VALID_CATEGORIES = new Set([
   'kines-distribution',
   // School of Public Health
   'sph-credit-min',
+  // Stamps School of Art & Design
+  'stamps-credit-min',
+  'stamps-liberal-arts',
 ]);
 
 /**
@@ -104,6 +111,11 @@ const VALID_CATEGORIES = new Set([
  * Winter terms (e.g. spring/summer field camps). Downgraded to warnings.
  */
 const KNOWN_CATALOG_GAPS = new Set([
+  // ARTDES 160 is a repeatable 1-credit lecture series taken 8 terms; the
+  // positive control can only take a catalog course once, so 8 credits are
+  // unreachable from one entry. Transcript imports with one row per term
+  // sum correctly.
+  'stamps-lecture-series',
   'whatif-rq-9701', // EES Field Experience: EARTH 440/450 run spring/summer only
   'greekmod-language-sequence', // GREEKMOD 302 not offered FA26/WN26
   'menas-core-history-443', // HISTORY 443 not offered FA26/WN26

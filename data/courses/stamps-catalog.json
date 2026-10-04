@@ -1,0 +1,1859 @@
+{
+ "source": "Stamps course browser (stamps.umich.edu/courses, live Fall 2026 listing + designation topic filters, plus the 2025-11-23 Internet Archive capture for Fall 2025/Winter 2026 listings)",
+ "courses": [
+  {
+   "code": "ADABRD 101",
+   "title": "Study Abroad for Artists and Designers",
+   "credits": 1,
+   "tags": [
+    "stamps-academic",
+    "stamps-elective"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ADABRD 320",
+   "title": "Burren College of Art Semester Abroad",
+   "credits": 15,
+   "tags": [
+    "stamps-abroad"
+   ],
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ]
+  },
+  {
+   "code": "ADABRD 321",
+   "title": "DIS Copenhagen Semester Abroad",
+   "credits": 15,
+   "tags": [
+    "stamps-abroad"
+   ],
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ]
+  },
+  {
+   "code": "ADABRD 330",
+   "title": "University Arts London (UAL) Semester Abroad",
+   "credits": 15,
+   "tags": [
+    "stamps-abroad"
+   ],
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ]
+  },
+  {
+   "code": "ADABRD 339",
+   "title": "Kyoto Seika University Semester Abroad",
+   "credits": 15,
+   "tags": [
+    "stamps-abroad"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ADABRD 349",
+   "title": "Costa Rica Semester Abroad",
+   "credits": 15,
+   "tags": [
+    "stamps-abroad"
+   ],
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ]
+  },
+  {
+   "code": "ADABRD 384",
+   "title": "Paris College of Art",
+   "credits": 15,
+   "tags": [
+    "stamps-abroad"
+   ],
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 100",
+   "title": "Drawing: Observation",
+   "credits": 3,
+   "tags": [
+    "stamps-required",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 105",
+   "title": "Drawing: Visualization",
+   "credits": 3,
+   "tags": [
+    "stamps-required",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 115",
+   "title": "Studio: 2D",
+   "credits": 3,
+   "tags": [
+    "stamps-required",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 120",
+   "title": "Studio: 3D",
+   "credits": 3,
+   "tags": [
+    "stamps-required",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 125",
+   "title": "Studio: 4D",
+   "credits": 3,
+   "tags": [
+    "stamps-required",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 129",
+   "title": "First Year Writing in Art and Design",
+   "credits": 4,
+   "tags": [
+    "stamps-academic",
+    "stamps-elective"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 130",
+   "title": "Creative Process Strategies",
+   "credits": 3,
+   "tags": [
+    "stamps-required",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 150",
+   "title": "Art and Design in Context - Lecture",
+   "credits": 2,
+   "tags": [
+    "stamps-academic",
+    "stamps-required"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 151",
+   "title": "Art and Design History - Lecture",
+   "credits": 2,
+   "tags": [
+    "stamps-academic",
+    "stamps-required"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 160",
+   "title": "Stamps Lecture Series",
+   "credits": 1,
+   "tags": [
+    "stamps-academic",
+    "stamps-required"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 170",
+   "title": "Drawing for Non-Majors",
+   "credits": 3,
+   "tags": [
+    "stamps-nonmajor"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 172",
+   "title": "Painting for Non-Majors",
+   "credits": 3,
+   "tags": [
+    "stamps-nonmajor"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 173",
+   "title": "Digital Photography for Non-Majors",
+   "credits": 3,
+   "tags": [
+    "stamps-nonmajor"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 174",
+   "title": "Watercolor for Non-Majors",
+   "credits": 3,
+   "tags": [
+    "stamps-nonmajor"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 175",
+   "title": "Life Drawing for Non-Majors",
+   "credits": 3,
+   "tags": [
+    "stamps-nonmajor"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 176",
+   "title": "Graphic Design for Non-Majors",
+   "credits": 3,
+   "tags": [
+    "stamps-nonmajor"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 177",
+   "title": "Jewelry/Metals for Non-Majors",
+   "credits": 3,
+   "tags": [
+    "stamps-nonmajor"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 178",
+   "title": "Exploring Animation for Non-Majors",
+   "credits": 3,
+   "tags": [
+    "stamps-nonmajor"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 181",
+   "title": "Clay for Non-Majors",
+   "credits": 3,
+   "tags": [
+    "stamps-nonmajor"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 190",
+   "title": "Making Images with Photoshop",
+   "credits": 1,
+   "tags": [
+    "stamps-mini"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 192",
+   "title": "Making Images with Illustrator",
+   "credits": 1,
+   "tags": [
+    "stamps-mini"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 197",
+   "title": "Sewing: Stitched Assemblage",
+   "credits": 1,
+   "tags": [
+    "stamps-mini"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 202",
+   "title": "Intro to Ceramics",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 203",
+   "title": "Social Spaces: The Role of Artists  Designers  and Citizens",
+   "credits": 3,
+   "tags": [
+    "stamps-engagement",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 204",
+   "title": "Design Drawing",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 205",
+   "title": "Intro to Painting: Organizing Visual Space",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 206",
+   "title": "Garment Design & Construction",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 207",
+   "title": "Textile Design: Pattern & Print",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 208",
+   "title": "Textile Design: Fiber Structures",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 210",
+   "title": "Typography",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 211",
+   "title": "Sign and Symbol",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 215",
+   "title": "Fab 1: Wood and Metal",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 216",
+   "title": "Mold-Making and Multiples",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 217",
+   "title": "Fab 3: Bits and Atoms",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 220",
+   "title": "Second Year Studio",
+   "credits": 3,
+   "tags": [
+    "stamps-required",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 231",
+   "title": "Book Arts: Methods & Materials",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 235",
+   "title": "Intro to Printmaking",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 239",
+   "title": "Creative Programming",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 241",
+   "title": "Intro to Product Design",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 243",
+   "title": "Intro to Animation",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 245",
+   "title": "Building Web Interfaces",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 248",
+   "title": "Sonic Media",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 252",
+   "title": "Intro to Metals/Jewelry",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 255",
+   "title": "Intro to Photography",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 257",
+   "title": "Physical Computing",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 260",
+   "title": "Intro to Sculpture",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 265",
+   "title": "Intro to Video: Digital Cinematography & Editing",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 269",
+   "title": "Figure Drawing",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 270",
+   "title": "Visualizing and Depicting Ideas",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 275",
+   "title": "Color",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 300",
+   "title": "From Tree to Table",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 301",
+   "title": "Ceramics Materials Research & Experimentation",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 303",
+   "title": "Mold Making and Ceramic Practice",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 305",
+   "title": "Busytown",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 306",
+   "title": "Jewelry/Metals: Color + Image",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 307",
+   "title": "Jewelry/Metals: Multiples & Mechanisms",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 309",
+   "title": "Figure Painting",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 311",
+   "title": "Art Connections: In the Classroom",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter",
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 314",
+   "title": "Change by Design",
+   "credits": 3,
+   "tags": [
+    "stamps-engagement",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 317",
+   "title": "Creative Campaign for Voting",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 320",
+   "title": "Memory Aging & Expressive Arts",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 321",
+   "title": "Experiments with Text",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 323",
+   "title": "Fiber Sculpture",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 326",
+   "title": "Digital Painting",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 327",
+   "title": "Digital Sculpture",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 328",
+   "title": "Experimental Animation",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 329",
+   "title": "Experimental Video: Modeling Space & Marking Time",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 330",
+   "title": "Documentary Photography",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 332",
+   "title": "Dressing Up and Down",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 333",
+   "title": "Information Design",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 334",
+   "title": "Video Diaries",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 336",
+   "title": "Comics/Graphic Narrative",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 338",
+   "title": "Moving Image",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 339",
+   "title": "Science Illustration",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 340",
+   "title": "Digital Image Making",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 342",
+   "title": "Discursive Design",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 345",
+   "title": "Interaction Design",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 349",
+   "title": "Visual Identity and Branding",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 352",
+   "title": "Florilegium: A Plant Compendium",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 356",
+   "title": "Digital Character Development: Imagining Identities",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 357",
+   "title": "Painting and the Artificial Eye",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 358",
+   "title": "Publication Design",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 359",
+   "title": "Marking Memory",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 362",
+   "title": "Mediated Spaces",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 364",
+   "title": "Making Science Visible",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 369",
+   "title": "Embodied Interfaces",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 370",
+   "title": "Exploring Lithography Printmaking (From Stone to Plate)",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 371",
+   "title": "Poster Design",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 372",
+   "title": "Installation Art: Expansive Sculpture",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 373",
+   "title": "Visual Storytelling: Stop-Motion",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 376",
+   "title": "Exploring Color in Relief Printmaking",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 377",
+   "title": "Gender Race & Sexuality in Photography",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 378",
+   "title": "Artist Books: Exploration of Form & Content",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 381",
+   "title": "Kinetics Robotics Animatronics and Automatons",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 389",
+   "title": "Writing Cultural Criticism",
+   "credits": 3,
+   "tags": [
+    "stamps-academic",
+    "stamps-elective",
+    "stamps-htc",
+    "stamps-ulwr-approved"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 391",
+   "title": "Professional Practice",
+   "credits": 3,
+   "tags": [
+    "stamps-academic",
+    "stamps-elective"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 398",
+   "title": "Art Controversies",
+   "credits": 3,
+   "tags": [
+    "stamps-academic",
+    "stamps-elective",
+    "stamps-htc"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 399",
+   "title": "Writing in Art and Design",
+   "credits": 3,
+   "tags": [
+    "stamps-academic",
+    "stamps-required",
+    "stamps-ulwr-approved"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 401",
+   "title": "BA Senior Studio",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 402",
+   "title": "Senior Independent Studio",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 405",
+   "title": "Unfashionable",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 406",
+   "title": "Writing about Creative Research Practices",
+   "credits": 3,
+   "tags": [
+    "stamps-academic",
+    "stamps-elective"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 414",
+   "title": "Where do Paintings Come From",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 416",
+   "title": "Integrated Product Development-Tauber",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 419",
+   "title": "Experimental Fashion Design",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 420",
+   "title": "SciFi Prototyping",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 422",
+   "title": "Advanced Typography",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 423",
+   "title": "Packaging Design",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 426",
+   "title": "Body Con(cept)",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 429",
+   "title": "Delightful Design",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 430",
+   "title": "Advanced Documentary Photography",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 431",
+   "title": "Advanced Comics",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 432",
+   "title": "Advanced Animation Projects in Art & Design",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 437",
+   "title": "Color in the Expanded Field",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 438",
+   "title": "Gender Euphoria: Exploring Gender & Identity & Sexuality in Contemporary Art & Design",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 441",
+   "title": "BioDesign Competition",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 444",
+   "title": "Design Studio: Detroit Neighborhood Entrepreneurs Project",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 447",
+   "title": "Narrative Forms",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 449",
+   "title": "Gallery as Site for Social Change",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 451",
+   "title": "Exhibition Design",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 462",
+   "title": "Sequential Images in Painting",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 489",
+   "title": "3D Design Portfolio Project",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 498",
+   "title": "Integrative Project - Class/Studio",
+   "credits": 3,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "fall"
+   ],
+   "sequenceNext": "ARTDES 499"
+  },
+  {
+   "code": "ARTDES 499",
+   "title": "Integrative Project - Class/Studio",
+   "credits": 6,
+   "tags": [
+    "stamps-elective",
+    "stamps-studio"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 506",
+   "title": "Writing about Creative Research Practices",
+   "credits": 3,
+   "tags": [
+    "stamps-grad"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 516",
+   "title": "Integrated Product Development",
+   "credits": 3,
+   "tags": [
+    "stamps-grad"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 600",
+   "title": "MFA Research Methods",
+   "credits": 3,
+   "tags": [
+    "stamps-grad"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 602",
+   "title": "Art Theory Seminar: Decolonizing the Archive",
+   "credits": 3,
+   "tags": [
+    "stamps-grad"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 605",
+   "title": "MFA Critique",
+   "credits": 3,
+   "tags": [
+    "stamps-grad"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 606",
+   "title": "MFA Critique",
+   "credits": 3,
+   "tags": [
+    "stamps-grad"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 610",
+   "title": "MFA Directed Studio",
+   "credits": 6,
+   "tags": [
+    "stamps-grad"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 611",
+   "title": "MFA Directed Studio",
+   "credits": 6,
+   "tags": [
+    "stamps-grad"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 650",
+   "title": "MDes Design Studio 1: Design Futures",
+   "credits": 6,
+   "tags": [
+    "stamps-grad"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 651",
+   "title": "MDes Research Methods 1: Speculative Design",
+   "credits": 3,
+   "tags": [
+    "stamps-grad"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 663",
+   "title": "MDes Critical Forum",
+   "credits": 3,
+   "tags": [
+    "stamps-grad"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 665",
+   "title": "MDes Fieldwork",
+   "credits": 3,
+   "tags": [
+    "stamps-grad"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 700",
+   "title": "MFA Professional Practice",
+   "credits": 3,
+   "tags": [
+    "stamps-grad"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 703",
+   "title": "Thesis Writing Seminar",
+   "credits": 3,
+   "tags": [
+    "stamps-grad"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 705",
+   "title": "MFA Critique",
+   "credits": 3,
+   "tags": [
+    "stamps-grad"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 706",
+   "title": "MFA Critique",
+   "credits": 3,
+   "tags": [
+    "stamps-grad"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 710",
+   "title": "MFA Thesis Studio",
+   "credits": 6,
+   "tags": [
+    "stamps-grad"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARTDES 711",
+   "title": "MFA Thesis Studio",
+   "credits": 6,
+   "tags": [
+    "stamps-grad"
+   ],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARTDES 720",
+   "title": "MFA International Project",
+   "credits": 3,
+   "tags": [
+    "stamps-grad"
+   ],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "INTPERF 150",
+   "title": "Live Art Survey",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "INTPERF 160",
+   "title": "Interarts Performance Forum",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "UARTS 150",
+   "title": "Writing & Interdisciplinary Collaborative Design",
+   "credits": 4,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "UARTS 250",
+   "title": "Creative Process",
+   "credits": 4,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  }
+ ]
+}
