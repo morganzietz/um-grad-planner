@@ -63,12 +63,6 @@ export const SCHOOLS: School[] = [
     matcher: (s) => /kinesiology/i.test(s),
   },
   {
-    id: 'seas',
-    short: 'SEAS',
-    full: 'School for Environment & Sustainability',
-    matcher: (s) => /(environment.*sustainability|\bseas\b)/i.test(s),
-  },
-  {
     id: 'sph',
     short: 'Public Health',
     full: 'School of Public Health',
