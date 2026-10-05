@@ -1,0 +1,141 @@
+{
+ "id": "dentistry-bs-dental-hygiene",
+ "name": "Dental Hygiene (BS)",
+ "school": "School of Dentistry",
+ "goalCredits": 120,
+ "sourceUrl": "https://dent.umich.edu/education/academic-programs/dental-hygiene-programs/undergraduate-program-bs",
+ "requirements": [
+  {
+   "id": "dh-total-credits",
+   "label": "120 Total Credits",
+   "hint": "The U-M bachelor's minimum. Prerequisite coursework plus the fixed six-semester professional curriculum typically exceeds it.",
+   "need": 120,
+   "countMode": "credits",
+   "category": "dent-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://dent.umich.edu/education/academic-programs/dental-hygiene-programs/undergraduate-program-bs"
+   ]
+  },
+  {
+   "id": "dh-prereq-credits",
+   "label": "Prerequisite credit hours (35)",
+   "hint": "A minimum of 35 credit hours of prerequisite coursework must be completed before applying. Applicants enter the program as sophomores; admission weighs science coursework heavily (incoming average GPA is about 3.5).",
+   "need": 35,
+   "countMode": "credits",
+   "category": "prerequisites",
+   "matchAll": true,
+   "sources": [
+    "https://dent.umich.edu/education/academic-programs/dental-hygiene-programs/undergraduate-program-bs/application-process"
+   ]
+  },
+  {
+   "id": "dh-english-comp",
+   "label": "English composition",
+   "hint": "One English composition course; at U-M, a course fulfilling the First-Year Writing Requirement. English Composition II is a suggested elective.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchTag": "lsa-fywr",
+   "sources": [
+    "https://dent.umich.edu/education/academic-programs/dental-hygiene-programs/undergraduate-program-bs/application-process"
+   ]
+  },
+  {
+   "id": "dh-gen-chem",
+   "label": "General chemistry with lab",
+   "hint": "General chemistry lecture plus a lab; at U-M, CHEM 130 with CHEM 125 or 126.",
+   "need": 2,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": ["CHEM 130", "CHEM 125", "CHEM 126"],
+   "sources": [
+    "https://dent.umich.edu/education/academic-programs/dental-hygiene-programs/undergraduate-program-bs/application-process"
+   ]
+  },
+  {
+   "id": "dh-psychology",
+   "label": "Introductory psychology",
+   "hint": "PSYCH 111 or 112.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": ["PSYCH 111", "PSYCH 112"],
+   "sources": [
+    "https://dent.umich.edu/education/academic-programs/dental-hygiene-programs/undergraduate-program-bs/application-process"
+   ]
+  },
+  {
+   "id": "dh-sociology",
+   "label": "Introductory sociology",
+   "hint": "SOC 100 or an introductory special-topics section (SOC 102).",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": ["SOC 100", "SOC 102"],
+   "sources": [
+    "https://dent.umich.edu/education/academic-programs/dental-hygiene-programs/undergraduate-program-bs/application-process"
+   ]
+  },
+  {
+   "id": "dh-speech",
+   "label": "Speech (public speaking)",
+   "hint": "Still building automatic checking for this rule: U-M Ann Arbor does not offer a fundamentals-of-speech or public-speaking course, so this prerequisite is usually completed at a community college or another institution. Mark it done with the adjust control.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "manual": true,
+   "sources": [
+    "https://dent.umich.edu/education/academic-programs/dental-hygiene-programs/undergraduate-program-bs/application-process"
+   ]
+  },
+  {
+   "id": "dh-anatomy-physiology",
+   "label": "Anatomy & Physiology I & II or equivalent",
+   "hint": "At U-M, one human anatomy course (ANATOMY 303 or 403) plus one human physiology course (PHYSIOL 201 or 502) is the standard equivalent.",
+   "need": 2,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": ["ANATOMY 303", "ANATOMY 403", "PHYSIOL 201", "PHYSIOL 502"],
+   "sources": [
+    "https://dent.umich.edu/education/academic-programs/dental-hygiene-programs/undergraduate-program-bs/application-process"
+   ]
+  },
+  {
+   "id": "dh-microbiology",
+   "label": "Microbiology with lab",
+   "hint": "BIOLOGY 207 (lecture with lab), or MICRBIOL 405 paired with the MICRBIOL 350 lab.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": ["BIOLOGY 207", "MICRBIOL 405"],
+   "sources": [
+    "https://dent.umich.edu/education/academic-programs/dental-hygiene-programs/undergraduate-program-bs/application-process"
+   ]
+  },
+  {
+   "id": "dh-biochemistry",
+   "label": "Biochemistry",
+   "hint": "One biochemistry course: BIOLCHEM 212 (Descriptive Biochemistry) is the common choice; BIOLCHEM 415, MCDB 310, or CHEM 351 also satisfy it.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": ["BIOLCHEM 212", "BIOLCHEM 415", "MCDB 310", "CHEM 351"],
+   "sources": [
+    "https://dent.umich.edu/education/academic-programs/dental-hygiene-programs/undergraduate-program-bs/application-process"
+   ]
+  },
+  {
+   "id": "dh-professional-curriculum",
+   "label": "Dental hygiene professional curriculum",
+   "hint": "Still building automatic checking for this rule: after admission, the program is a fixed six-consecutive-semester cohort curriculum beginning in spring term, with no course selection to plan. Mark it done with the adjust control as you progress; dental hygiene courses are not yet in the course catalog.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "manual": true,
+   "sources": [
+    "https://dent.umich.edu/education/academic-programs/dental-hygiene-programs/undergraduate-program-bs"
+   ]
+  }
+ ]
+}

@@ -68,6 +68,8 @@ const MATCH_ALL_WHITELIST = new Set([
   'stamps-ba-nonstamps-credits',
   'taubman-total-credits', // Taubman totals (121 BS Arch / 120 BS Urban Tech)
   'pharm-total-credits', // BSPS 120 total credits
+  'dh-total-credits', // Dental Hygiene 120 total credits
+  'dh-prereq-credits', // 35 credit hours of any coursework before applying IS the rule
 ]);
 
 const VALID_CATEGORIES = new Set([
@@ -111,6 +113,8 @@ const VALID_CATEGORIES = new Set([
   'pharm-credit-min',
   'pharm-gen-ed',
   'pharm-science-math',
+  // School of Dentistry
+  'dent-credit-min',
 ]);
 
 /**
