@@ -1,0 +1,261 @@
+{
+ "id": "taubman-bs-architecture",
+ "name": "Architecture (BS)",
+ "school": "Taubman College of Architecture and Urban Planning",
+ "goalCredits": 121,
+ "sourceUrl": "https://taubmancollege.umich.edu/academics/architecture/bachelor-of-science-in-architecture/degree-information/",
+ "requirements": [
+  {
+   "id": "taubman-total-credits",
+   "label": "121 Total Credits",
+   "hint": "The BS in Architecture requires a minimum of 121 credits: 61 lower-division (28 general education, 21 pre-architecture, 12 elective) and 60 upper-division. A 2.0 cumulative GPA in required architecture courses is also required and is not auto-checked.",
+   "need": 121,
+   "countMode": "credits",
+   "category": "taubman-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://taubmancollege.umich.edu/wp-content/uploads/2025/08/Undergraduate-Booklet-2025.pdf"
+   ]
+  },
+  {
+   "id": "taubman-arch-credits",
+   "label": "Architecture credits (45)",
+   "hint": "A minimum of 45 credits in architecture courses must be earned while enrolled in Taubman College (within 50 total Taubman College credits). Enrollment timing is not tracked; this row counts all ARCH coursework.",
+   "need": 45,
+   "countMode": "credits",
+   "category": "taubman-credit-min",
+   "matchTag": "subj-arch",
+   "sources": [
+    "https://taubmancollege.umich.edu/students/policies/"
+   ]
+  },
+  {
+   "id": "taubman-arch-modules",
+   "label": "Foundational studio modules (6 of 9)",
+   "hint": "Any six of the nine half-semester, 2-credit modules over the first two years: ARCH 251 Seeing, 252 Measuring, 253 Scale, 254 Projection, 255 Imaging, 256 Immersion, 257 Assembly, 258 Translation, 259 Orientation. Required architecture courses need a D or better.",
+   "need": 6,
+   "countMode": "count",
+   "category": "core",
+   "minGrade": "D",
+   "matchCodes": [
+    "ARCH 251", "ARCH 252", "ARCH 253", "ARCH 254", "ARCH 255",
+    "ARCH 256", "ARCH 257", "ARCH 258", "ARCH 259"
+   ],
+   "sources": [
+    "https://taubmancollege.umich.edu/wp-content/uploads/2025/08/Undergraduate-Booklet-2025.pdf"
+   ]
+  },
+  {
+   "id": "taubman-arch-208",
+   "label": "ARCH 208: Design Foundations",
+   "hint": "The first-year introduction to design thinking and process.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "minGrade": "D",
+   "matchCodes": ["ARCH 208"],
+   "sources": [
+    "https://taubmancollege.umich.edu/academics/architecture/bachelor-of-science-in-architecture/degree-information/"
+   ]
+  },
+  {
+   "id": "taubman-arch-history",
+   "label": "ARCH 313 & 323: History of Architecture I & II",
+   "hint": "The two-course architectural history sequence, normally in year two.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "minGrade": "D",
+   "matchCodes": ["ARCH 313", "ARCH 323"],
+   "sources": [
+    "https://taubmancollege.umich.edu/academics/architecture/bachelor-of-science-in-architecture/degree-information/"
+   ]
+  },
+  {
+   "id": "taubman-fywr",
+   "label": "First-year writing",
+   "hint": "ENGLISH 125 or another course fulfilling the First-Year Writing Requirement.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchTag": "lsa-fywr",
+   "sources": [
+    "https://taubmancollege.umich.edu/wp-content/uploads/2025/08/Undergraduate-Booklet-2025.pdf"
+   ]
+  },
+  {
+   "id": "taubman-humanities",
+   "label": "Humanities electives (6 credits)",
+   "hint": "Two humanities courses in the first two years.",
+   "need": 6,
+   "countMode": "credits",
+   "category": "prerequisites",
+   "matchTag": "lsa-humanities",
+   "sources": [
+    "https://taubmancollege.umich.edu/wp-content/uploads/2025/08/Undergraduate-Booklet-2025.pdf"
+   ]
+  },
+  {
+   "id": "taubman-social-science",
+   "label": "Social science electives (6 credits)",
+   "hint": "Two social science courses in the first two years.",
+   "need": 6,
+   "countMode": "credits",
+   "category": "prerequisites",
+   "matchTag": "lsa-social-sciences",
+   "sources": [
+    "https://taubmancollege.umich.edu/wp-content/uploads/2025/08/Undergraduate-Booklet-2025.pdf"
+   ]
+  },
+  {
+   "id": "taubman-natural-science",
+   "label": "Natural science elective (3 credits)",
+   "hint": "One natural science course beyond the physics requirement.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "prerequisites",
+   "matchTag": "lsa-natural-sciences",
+   "sources": [
+    "https://taubmancollege.umich.edu/wp-content/uploads/2025/08/Undergraduate-Booklet-2025.pdf"
+   ]
+  },
+  {
+   "id": "taubman-calculus",
+   "label": "Calculus I",
+   "hint": "MATH 115 (or the honors equivalents) or AP credit.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": ["MATH 115", "MATH 185", "MATH 295"],
+   "sources": [
+    "https://taubmancollege.umich.edu/wp-content/uploads/2025/08/Undergraduate-Booklet-2025.pdf"
+   ]
+  },
+  {
+   "id": "taubman-physics",
+   "label": "Physics for Architects",
+   "hint": "PHYSICS 121 (Physics for Architects) or the two-course General Physics sequence.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "pickFromGroups": ["taubman-physics-121", "taubman-physics-sequence"],
+   "sources": [
+    "https://taubmancollege.umich.edu/wp-content/uploads/2025/08/Undergraduate-Booklet-2025.pdf"
+   ]
+  },
+  {
+   "id": "taubman-physics-121",
+   "label": "PHYSICS 121 option",
+   "hint": "Physics for Architects, 5 credits.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": ["PHYSICS 121"]
+  },
+  {
+   "id": "taubman-physics-sequence",
+   "label": "General Physics I & II option",
+   "hint": "A two-course general physics sequence (e.g. PHYSICS 140 and 240); take one mechanics course and one electricity & magnetism course.",
+   "need": 2,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": [
+    "PHYSICS 135", "PHYSICS 140", "PHYSICS 150",
+    "PHYSICS 235", "PHYSICS 240", "PHYSICS 250"
+   ]
+  },
+  {
+   "id": "taubman-arch-ug12",
+   "label": "ARCH 312 & 322: Architectural Design UG1 & UG2",
+   "hint": "The third-year studio sequence, 6 credits each. Planning ARCH 312 auto-places ARCH 322 the following winter.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "minGrade": "D",
+   "matchCodes": ["ARCH 312", "ARCH 322"],
+   "sources": [
+    "https://taubmancollege.umich.edu/academics/architecture/bachelor-of-science-in-architecture/degree-information/"
+   ]
+  },
+  {
+   "id": "taubman-arch-construction",
+   "label": "ARCH 317: Construction",
+   "need": 1,
+   "hint": "Third-year building construction course.",
+   "countMode": "count",
+   "category": "core",
+   "minGrade": "D",
+   "matchCodes": ["ARCH 317"],
+   "sources": [
+    "https://taubmancollege.umich.edu/academics/architecture/bachelor-of-science-in-architecture/degree-information/"
+   ]
+  },
+  {
+   "id": "taubman-arch-environmental",
+   "label": "ARCH 425: Environmental Systems",
+   "need": 1,
+   "hint": "Third-year environmental systems course.",
+   "countMode": "count",
+   "category": "core",
+   "minGrade": "D",
+   "matchCodes": ["ARCH 425"],
+   "sources": [
+    "https://taubmancollege.umich.edu/academics/architecture/bachelor-of-science-in-architecture/degree-information/"
+   ]
+  },
+  {
+   "id": "taubman-arch-theories",
+   "label": "ARCH 316 & 326: Theories and Methods I & II",
+   "hint": "The third-year theories and methods sequence (also published as Design Fundamentals I & II).",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "minGrade": "D",
+   "matchCodes": ["ARCH 316", "ARCH 326"],
+   "sources": [
+    "https://taubmancollege.umich.edu/academics/architecture/bachelor-of-science-in-architecture/degree-information/"
+   ]
+  },
+  {
+   "id": "taubman-arch-ug34",
+   "label": "ARCH 432 & 442: Architectural Design UG3 & UG4",
+   "hint": "The fourth-year studio sequence, 6 credits each, ending with the Wallenberg Studio. Planning ARCH 432 auto-places ARCH 442 the following winter.",
+   "need": 2,
+   "countMode": "count",
+   "category": "capstone",
+   "minGrade": "D",
+   "matchCodes": ["ARCH 432", "ARCH 442"],
+   "sources": [
+    "https://taubmancollege.umich.edu/academics/architecture/bachelor-of-science-in-architecture/degree-information/"
+   ]
+  },
+  {
+   "id": "taubman-arch-structures",
+   "label": "ARCH 314 & 324: Structures I & II",
+   "hint": "The fourth-year structures sequence (curriculum Path 1). Path 2 replaces it with two Theories and Methods seminars; if following Path 2, resolve this row with the adjust control.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "minGrade": "D",
+   "matchCodes": ["ARCH 314", "ARCH 324"],
+   "sources": [
+    "https://taubmancollege.umich.edu/academics/architecture/bachelor-of-science-in-architecture/degree-information/",
+    "https://taubmancollege.umich.edu/wp-content/uploads/2025/08/Undergraduate-Booklet-2025.pdf"
+   ]
+  },
+  {
+   "id": "taubman-arch-elective",
+   "label": "Architecture elective (3 credits)",
+   "hint": "One architecture course beyond the required curriculum, normally in year three.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "electives",
+   "minGrade": "D",
+   "matchTag": "subj-arch",
+   "excludeTags": ["taubman-arch-core"],
+   "sources": [
+    "https://taubmancollege.umich.edu/academics/architecture/bachelor-of-science-in-architecture/degree-information/"
+   ]
+  }
+ ]
+}

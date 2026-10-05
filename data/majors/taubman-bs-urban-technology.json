@@ -1,0 +1,202 @@
+{
+ "id": "taubman-bs-urban-technology",
+ "name": "Urban Technology (BS)",
+ "school": "Taubman College of Architecture and Urban Planning",
+ "goalCredits": 120,
+ "sourceUrl": "https://taubmancollege.umich.edu/academics/urban-technology/",
+ "requirements": [
+  {
+   "id": "taubman-total-credits",
+   "label": "120 Total Credits",
+   "hint": "The BS in Urban Technology requires 120 credits in total.",
+   "need": 120,
+   "countMode": "credits",
+   "category": "taubman-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://taubmancollege.umich.edu/wp-content/uploads/2025/08/Undergraduate-Booklet-2025.pdf"
+   ]
+  },
+  {
+   "id": "taubman-ut-programming",
+   "label": "SI 101: Programming with Python",
+   "hint": "First-fall programming course; the start of the four-course computing sequence taken in order (SI 101, SI 201, UT 435, UT 230).",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": ["SI 101"],
+   "sources": [
+    "https://taubmancollege.umich.edu/wp-content/uploads/2025/08/Undergraduate-Booklet-2025.pdf"
+   ]
+  },
+  {
+   "id": "taubman-ut-data-programming",
+   "label": "SI 201: Data-Oriented Programming",
+   "hint": "Second course in the computing sequence, taken after SI 101.",
+   "need": 1,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": ["SI 201"],
+   "sources": [
+    "https://taubmancollege.umich.edu/wp-content/uploads/2025/08/Undergraduate-Booklet-2025.pdf"
+   ]
+  },
+  {
+   "id": "taubman-ut-informatics",
+   "label": "UT 435 & 230: Urban Informatics and Design & Urban Inquiries",
+   "hint": "The second-year pair completing the in-order computing sequence. Planning UT 435 auto-places UT 230 the following winter.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": ["UT 435", "UT 230"],
+   "sources": [
+    "https://taubmancollege.umich.edu/wp-content/uploads/2025/08/Undergraduate-Booklet-2025.pdf"
+   ]
+  },
+  {
+   "id": "taubman-ut-first-year",
+   "label": "UT 102 & 103: Anatomy of the City / Urban Observation",
+   "hint": "The first-fall pair, taken alongside the Cities Intensive.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": ["UT 102", "UT 103"],
+   "sources": [
+    "https://taubmancollege.umich.edu/wp-content/uploads/2025/08/Undergraduate-Booklet-2025.pdf"
+   ]
+  },
+  {
+   "id": "taubman-ut-city-design-core",
+   "label": "UT 201, 202 & 210: cities and design methods core",
+   "hint": "Change-Making in Cities, Technology in Context, and Listening: Design Ethnography Methods, across years one and two.",
+   "need": 3,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": ["UT 201", "UT 202", "UT 210"],
+   "sources": [
+    "https://taubmancollege.umich.edu/wp-content/uploads/2025/08/Undergraduate-Booklet-2025.pdf"
+   ]
+  },
+  {
+   "id": "taubman-ut-studios",
+   "label": "Studios: UT 330, 360 & 430 (18 credits)",
+   "hint": "The three 6-credit studios, taken in order across years three and four: Interaction Design & Urban Experiences, Service Design & Urban Needs, and Strategic Design & Urban Systems. Planning UT 330 auto-places UT 360.",
+   "need": 3,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": ["UT 330", "UT 360", "UT 430"],
+   "sources": [
+    "https://taubmancollege.umich.edu/wp-content/uploads/2025/08/Undergraduate-Booklet-2025.pdf"
+   ]
+  },
+  {
+   "id": "taubman-ut-methods",
+   "label": "UT 340, 350 & 411: Prototyping, Strategic Foresight, Becoming Digital",
+   "hint": "The three upper-level methods courses.",
+   "need": 3,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": ["UT 340", "UT 350", "UT 411"],
+   "sources": [
+    "https://taubmancollege.umich.edu/wp-content/uploads/2025/08/Undergraduate-Booklet-2025.pdf"
+   ]
+  },
+  {
+   "id": "taubman-ut-capstone",
+   "label": "UT 401: Reflective Practice & Career Pathways",
+   "hint": "The final-winter reflective capstone. Auto-placed after UT 430 when planning.",
+   "need": 1,
+   "countMode": "count",
+   "category": "capstone",
+   "matchCodes": ["UT 401"],
+   "sources": [
+    "https://taubmancollege.umich.edu/wp-content/uploads/2025/08/Undergraduate-Booklet-2025.pdf"
+   ]
+  },
+  {
+   "id": "taubman-ut-electives",
+   "label": "UT electives (12 credits)",
+   "hint": "Four UT elective courses beyond the required curriculum.",
+   "need": 12,
+   "countMode": "credits",
+   "category": "electives",
+   "matchTag": "subj-ut",
+   "excludeTags": ["taubman-ut-core"],
+   "sources": [
+    "https://taubmancollege.umich.edu/wp-content/uploads/2025/08/Undergraduate-Booklet-2025.pdf"
+   ]
+  },
+  {
+   "id": "taubman-ut-fywr",
+   "label": "First-year writing",
+   "hint": "One course fulfilling the First-Year Writing Requirement.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchTag": "lsa-fywr",
+   "sources": [
+    "https://taubmancollege.umich.edu/wp-content/uploads/2025/08/Undergraduate-Booklet-2025.pdf"
+   ]
+  },
+  {
+   "id": "taubman-ut-race-ethnicity",
+   "label": "Race and ethnicity (3 credits)",
+   "hint": "One course carrying the Race & Ethnicity mark.",
+   "need": 3,
+   "countMode": "credits",
+   "category": "prerequisites",
+   "matchTag": "lsa-race-ethnicity",
+   "sources": [
+    "https://taubmancollege.umich.edu/wp-content/uploads/2025/08/Undergraduate-Booklet-2025.pdf"
+   ]
+  },
+  {
+   "id": "taubman-ut-social-science",
+   "label": "Social science (6 credits)",
+   "hint": "Two social science courses.",
+   "need": 6,
+   "countMode": "credits",
+   "category": "prerequisites",
+   "matchTag": "lsa-social-sciences",
+   "sources": [
+    "https://taubmancollege.umich.edu/wp-content/uploads/2025/08/Undergraduate-Booklet-2025.pdf"
+   ]
+  },
+  {
+   "id": "taubman-ut-humanities",
+   "label": "Humanities (6 credits)",
+   "hint": "Two humanities courses.",
+   "need": 6,
+   "countMode": "credits",
+   "category": "prerequisites",
+   "matchTag": "lsa-humanities",
+   "sources": [
+    "https://taubmancollege.umich.edu/wp-content/uploads/2025/08/Undergraduate-Booklet-2025.pdf"
+   ]
+  },
+  {
+   "id": "taubman-ut-statistics",
+   "label": "Statistics",
+   "hint": "STATS 250 or an equivalent introductory statistics course.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": ["STATS 250", "STATS 206", "STATS 280", "DATASCI 101"],
+   "sources": [
+    "https://taubmancollege.umich.edu/wp-content/uploads/2025/08/Undergraduate-Booklet-2025.pdf"
+   ]
+  },
+  {
+   "id": "taubman-ut-econ",
+   "label": "ECON 101: Principles of Economics I",
+   "hint": "Introductory microeconomics.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchCodes": ["ECON 101"],
+   "sources": [
+    "https://taubmancollege.umich.edu/wp-content/uploads/2025/08/Undergraduate-Booklet-2025.pdf"
+   ]
+  }
+ ]
+}

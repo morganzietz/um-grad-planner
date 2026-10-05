@@ -66,6 +66,7 @@ const MATCH_ALL_WHITELIST = new Set([
   // Stamps credit splits (matchAll with the studio/Stamps tag excluded IS the rule)
   'stamps-bfa-nonstudio-credits',
   'stamps-ba-nonstamps-credits',
+  'taubman-total-credits', // Taubman totals (121 BS Arch / 120 BS Urban Tech)
 ]);
 
 const VALID_CATEGORIES = new Set([
@@ -103,6 +104,8 @@ const VALID_CATEGORIES = new Set([
   // Stamps School of Art & Design
   'stamps-credit-min',
   'stamps-liberal-arts',
+  // Taubman College
+  'taubman-credit-min',
 ]);
 
 /**
@@ -111,6 +114,10 @@ const VALID_CATEGORIES = new Set([
  * Winter terms (e.g. spring/summer field camps). Downgraded to warnings.
  */
 const KNOWN_CATALOG_GAPS = new Set([
+  // Urban Technology is a new program and only two non-core UT electives
+  // (6 credits) exist in the FA26/WN26 listings; the 12-credit rule is
+  // accurate to the curriculum chart and more electives appear each year.
+  'taubman-ut-electives',
   // ARTDES 160 is a repeatable 1-credit lecture series taken 8 terms; the
   // positive control can only take a catalog course once, so 8 credits are
   // unreachable from one entry. Transcript imports with one row per term

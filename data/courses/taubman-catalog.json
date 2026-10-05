@@ -1,0 +1,1457 @@
+{
+ "source": "Taubman course listing (taubmancollege.umich.edu/courses, live Fall 2026 listing + per-course detail pages for credits, plus the 2025-11-11 Internet Archive capture for Winter 2026 listings; archive-only credits from the 2025 undergraduate booklet charts or asserted at 3)",
+ "courses": [
+  {
+   "code": "ARCH 208",
+   "title": "Design Foundations",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARCH 212",
+   "title": "Understanding Architecture",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 251",
+   "title": "Seeing",
+   "credits": 2,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 252",
+   "title": "Measuring",
+   "credits": 2,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 253",
+   "title": "Scale",
+   "credits": 2,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 254",
+   "title": "Projection",
+   "credits": 2,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 255",
+   "title": "Imaging",
+   "credits": 2,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 256",
+   "title": "Immersion",
+   "credits": 2,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 257",
+   "title": "Assembly",
+   "credits": 2,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 258",
+   "title": "Translation",
+   "credits": 2,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 259",
+   "title": "Orientation",
+   "credits": 2,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 312",
+   "title": "Architectural Design I (UG1)",
+   "credits": 6,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ],
+   "sequenceNext": "ARCH 322"
+  },
+  {
+   "code": "ARCH 313",
+   "title": "History of Architecture I",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARCH 314",
+   "title": "Structures I",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARCH 316",
+   "title": "Theories &#038; Methods I (Formerly Design Fundamentals I)",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARCH 317",
+   "title": "Construction (UG)",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARCH 322",
+   "title": "Architectural Design II (UG2)",
+   "credits": 6,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 323",
+   "title": "History of Architecture II: Land, Labor, Capital, Material",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 324",
+   "title": "Structures II",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 326",
+   "title": "Theories & Methods II (previously Design Fundamentals II)",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 357",
+   "title": "Architecture, Sustainability and the City",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 409",
+   "title": "Egalitarian Metropolis",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 411",
+   "title": "Becoming Digital",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 412",
+   "title": "Architectural Design I (3G2)",
+   "credits": 6,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARCH 413",
+   "title": "History of Architecture (3G)",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARCH 417",
+   "title": "Construction (3G)",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARCH 421",
+   "title": "Geometric Modeling",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 422",
+   "title": "Architectural Design (3G)",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 423",
+   "title": "Introduction to Urban and Environmental Planning",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 425",
+   "title": "Environmental Systems (UG)",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 432",
+   "title": "Architectural Design III (UG3)",
+   "credits": 6,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ],
+   "sequenceNext": "ARCH 442"
+  },
+  {
+   "code": "ARCH 433",
+   "title": "Possible Worlds",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARCH 442",
+   "title": "Architectural Design IV (UG4)",
+   "credits": 6,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 453",
+   "title": "History of Urban Form",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARCH 463",
+   "title": "Architecture and Psychology",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARCH 466",
+   "title": "Dimensions",
+   "credits": 1,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 486",
+   "title": "Design Activism + Social Justice",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARCH 500",
+   "title": "Fresh Graphics",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 503",
+   "title": "Distributed Site",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 504",
+   "title": "Masonry Structures",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARCH 506",
+   "title": "Idiomatic Devils: Detailing Scarpa",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 507",
+   "title": "Generative AI: Thinking and Designing with Machine Intelligence",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 509",
+   "title": "Learning to Teach",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 515",
+   "title": "Sustainable Systems",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARCH 516",
+   "title": "Architectural Representation",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARCH 518",
+   "title": "Introduction to Housing",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 523",
+   "title": "History of Urban Form",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARCH 527",
+   "title": "Integrative Systems",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 531",
+   "title": "District and Network",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 533",
+   "title": "Possible Worlds",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARCH 535",
+   "title": "Research in Environmental Technology",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 537",
+   "title": "Fabrication",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 544",
+   "title": "Wood Structures",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 545",
+   "title": "Advanced Lighting Design",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 546",
+   "title": "Outlooks",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 552",
+   "title": "Architectural Design V (2G1/3G4)",
+   "credits": 6,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARCH 557",
+   "title": "Augmented Tectonics",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 562",
+   "title": "Architectural Design VI (2G2/3G5)",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 572",
+   "title": "Architectural Theory and Criticism",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 581",
+   "title": "Advanced Robotics",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 583",
+   "title": "Professional Practice",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARCH 585",
+   "title": "Advanced Building Technology",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 586",
+   "title": "Design Activism + Social Justice",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARCH 609",
+   "title": "Disability Studies: Criptographies-Disability and Design",
+   "credits": 1,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 633",
+   "title": "Architecture in Global Socialism",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 660",
+   "title": "Thesis Development Seminar",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARCH 662",
+   "title": "Thesis Studio (2G4/3G7)",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 663",
+   "title": "Architecture and Psychology",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARCH 672",
+   "title": "Architectural Design VII (2G3/3G6)",
+   "credits": 6,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARCH 702",
+   "title": "Robotic Engagement",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 707",
+   "title": "Material Engagement",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 708",
+   "title": "Systems Engagement",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 709",
+   "title": "Advanced Computational Geometry",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 714",
+   "title": "MS Proseminar",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 739",
+   "title": "MS_DMT Capstone",
+   "credits": 6,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "ARCH 801",
+   "title": "Doctoral Colloquium",
+   "credits": 1,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 812",
+   "title": "Theory in Architectural Research",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 823",
+   "title": "Architecture in Global Socialism",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "ARCH 825",
+   "title": "Advanced Computational Geometry",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "UD 712",
+   "title": "Urban Design Studio I",
+   "credits": 6,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "UD 713",
+   "title": "History of Urban Form",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "UD 715",
+   "title": "Theories and Methods of Urban Design",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "UD 716",
+   "title": "City Making",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "UD 717",
+   "title": "City as Thesis",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "UD 722",
+   "title": "Urban Design Studio II",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "UD 732",
+   "title": "Urban Design Studio III",
+   "credits": 6,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 357",
+   "title": "Architecture, Sustainability and the City",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "URP 390",
+   "title": "Real Estate Design and Development Fundamentals",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "URP 423",
+   "title": "Introduction to Urban and Environmental Planning",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "URP 427",
+   "title": "Foundations of Sustainable Food Systems",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 439",
+   "title": "Sustainable Design and Construction in Real Estate",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 482",
+   "title": "Housing Systems",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "URP 489",
+   "title": "Tech Clusters and Smart Cities",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 498",
+   "title": "Affordable Housing Development in Practice",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 499",
+   "title": "Is a Career in Real Estate Right For Me?",
+   "credits": 2,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "URP 500",
+   "title": "Planning Theory and History",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 502",
+   "title": "U.S. Planning Institutions and Law",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "URP 503",
+   "title": "Comparative Planning Institutions and Law",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "URP 506",
+   "title": "Planning Methods",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 507",
+   "title": "Fundamentals of Planning Practice",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "URP 509",
+   "title": "Public Economics for Urban Planning",
+   "credits": 2,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 510",
+   "title": "Fiscal Planning and Management",
+   "credits": 2,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 520",
+   "title": "Introduction to Geographic Information Systems (GIS)",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "URP 521",
+   "title": "Intermediate Geographic Information Systems (GIS)",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "URP 523",
+   "title": "Comparative Participatory Planning and Community Development",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 524",
+   "title": "Program Evaluation for Urban Planning",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 527",
+   "title": "Foundations of Sustainable Food Systems",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 529",
+   "title": "History of Urban Form",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 530",
+   "title": "Urban AI",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "URP 534",
+   "title": "Public Safety and Community Development",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 535",
+   "title": "Intro to Urban Informatics",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "URP 539",
+   "title": "Sustainable Design and Construction in Real Estate",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 541",
+   "title": "Urban Land Use Planning",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "URP 550",
+   "title": "Planning Representation and Communication",
+   "credits": 4,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 551",
+   "title": "Physical Planning and Design Workshop",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "URP 552",
+   "title": "Healthy Cities",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 556",
+   "title": "Healthy Cities Integrative Seminar",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "URP 560",
+   "title": "Transportation and Land Use Planning",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 561",
+   "title": "Transportation and Public Policy",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "URP 562",
+   "title": "Active Transportation: Planning for Biking and Walking",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 570",
+   "title": "Global and Comparative Planning",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "URP 572",
+   "title": "Comparative Housing and Property Policy",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 581",
+   "title": "Housing Policy & Economics",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "URP 582",
+   "title": "Neighborhood Planning",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 583",
+   "title": "Race, Difference, and Social Justice in the American City",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 588",
+   "title": "Planning as Repair(ations)",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 589",
+   "title": "Tech Clusters and Smart Cities",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 590",
+   "title": "Integrative Real Estate Seminar",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "URP 591",
+   "title": "Financing Real Estate Development",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 595",
+   "title": "Public Private Partnerships &#8211; Financing Equitable Development",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 596",
+   "title": "Fundamentals of Real Estate Development",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 598",
+   "title": "Affordable Housing Development in Practice",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 599",
+   "title": "Is a Career in Real Estate Right For Me?",
+   "credits": 2,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "URP 600",
+   "title": "Expanded Horizons",
+   "credits": 1,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 603",
+   "title": "Urban and Regional Planning Capstone Studio",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "URP 610",
+   "title": "Public Mechanics: How Services Work",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "URP 611",
+   "title": "Radical Planning",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "URP 620",
+   "title": "Energy Planning",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 700",
+   "title": "Advanced Urban Theory",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "URP 801",
+   "title": "Research Design",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "URP 802",
+   "title": "Proposal Writing and Professional Ethics",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "URP 803",
+   "title": "URP PhD Pro-Seminar",
+   "credits": 1,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "UT 102",
+   "title": "Anatomy of the City",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "UT 103",
+   "title": "Urban Observation",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "UT 201",
+   "title": "Change-Making in Cities",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "UT 202",
+   "title": "Technology in Context",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "UT 210",
+   "title": "Listening",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "UT 230",
+   "title": "Design and Urban Inquiries",
+   "credits": 4,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "UT 330",
+   "title": "Interaction Design and Urban Experiences",
+   "credits": 6,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ],
+   "sequenceNext": "UT 360"
+  },
+  {
+   "code": "UT 340",
+   "title": "Prototyping",
+   "credits": 4,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "UT 350",
+   "title": "Strategic Foresight",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": []
+  },
+  {
+   "code": "UT 360",
+   "title": "Advanced Studio: Service Design and Urban Needs",
+   "credits": 6,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "UT 401",
+   "title": "Reflective Practice",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "UT 402",
+   "title": "Public Mechanics: How Services Work",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  },
+  {
+   "code": "UT 411",
+   "title": "Becoming Digital",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "UT 430",
+   "title": "Strategic Design and Urban Systems",
+   "credits": 6,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ],
+   "sequenceNext": "UT 401"
+  },
+  {
+   "code": "UT 435",
+   "title": "Intro to Urban Informatics",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ],
+   "sequenceNext": "UT 230"
+  },
+  {
+   "code": "UT 439",
+   "title": "Urban AI",
+   "credits": 3,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  }
+ ]
+}

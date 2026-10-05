@@ -9,6 +9,7 @@ import nursingCatalogData from '../data/courses/nursing-catalog.json';
 import kinesCatalogData from '../data/courses/kines-catalog.json';
 import sphCatalogData from '../data/courses/sph-catalog.json';
 import stampsCatalogData from '../data/courses/stamps-catalog.json';
+import taubmanCatalogData from '../data/courses/taubman-catalog.json';
 import { all as bundledMinors } from '../data/minors';
 import {
   manualCourses,
@@ -70,6 +71,10 @@ const sphCatalogCourses =
 const stampsCatalogCourses =
   (stampsCatalogData as unknown as { courses: Course[] }).courses ?? [];
 
+/** Taubman catalog from the college's course listing + archive captures. */
+const taubmanCatalogCourses =
+  (taubmanCatalogData as unknown as { courses: Course[] }).courses ?? [];
+
 // ─── Merge scraped + manual + programmatic tags → courseCatalog ───────────
 
 /**
@@ -122,6 +127,23 @@ const SPH_UPPER_EXCEPTION_CODES: ReadonlySet<string> = new Set([
   'PHYSICS 126', 'PHYSICS 128', 'PHYSICS 235', 'PHYSICS 236', 'PHYSICS 240',
   'PHYSICS 241', 'PHYSICS 250', 'PHYSICS 251', 'PHYSICS 260', 'PHYSICS 261',
   'PHYSIOL 201', 'NURS 236', 'NURS 245',
+]);
+
+/**
+ * Required courses for the Taubman bachelor's degrees, per the college's
+ * degree pages and 2025 undergraduate booklet curriculum charts. Used to
+ * keep core courses out of the "architecture elective" / "UT elective"
+ * rows.
+ */
+const TAUBMAN_ARCH_CORE_CODES: ReadonlySet<string> = new Set([
+  'ARCH 208', 'ARCH 251', 'ARCH 252', 'ARCH 253', 'ARCH 254', 'ARCH 255',
+  'ARCH 256', 'ARCH 257', 'ARCH 258', 'ARCH 259', 'ARCH 312', 'ARCH 313',
+  'ARCH 314', 'ARCH 316', 'ARCH 317', 'ARCH 322', 'ARCH 323', 'ARCH 324',
+  'ARCH 326', 'ARCH 425', 'ARCH 432', 'ARCH 442',
+]);
+const TAUBMAN_UT_CORE_CODES: ReadonlySet<string> = new Set([
+  'UT 102', 'UT 103', 'UT 201', 'UT 202', 'UT 210', 'UT 230', 'UT 330',
+  'UT 340', 'UT 350', 'UT 360', 'UT 401', 'UT 411', 'UT 430', 'UT 435',
 ]);
 
 /**
@@ -228,6 +250,12 @@ function programmaticTags(code: string): string[] {
   if (SPH_LIFE_SCIENCE_SUBJECTS.has(subject)) {
     extras.push('sph-life-science');
   }
+
+  // Taubman required courses, tagged so the "architecture elective" and
+  // "UT elective" rows can exclude them (subj-arch / subj-ut alone would
+  // let the cores double count).
+  if (TAUBMAN_ARCH_CORE_CODES.has(code)) extras.push('taubman-arch-core');
+  if (TAUBMAN_UT_CORE_CODES.has(code)) extras.push('taubman-ut-core');
 
   // Stamps credit membership by subject (ARTDES plus the school's own
   // study-abroad subject), for the BA's Stamps/non-Stamps credit split.
@@ -435,7 +463,7 @@ function buildCatalog(): Course[] {
   // NOT list is not approved for LSA credit, so SOC-only entries get the
   // non-lsa tag; without it, every Ross/CoE/SPH course would wrongly count
   // toward the LSA "100 LSA credits" college rules.
-  for (const c of [...socCourses, ...coeBulletinCourses, ...rossBulletinCourses, ...umsiCatalogCourses, ...smtdCatalogCourses, ...nursingCatalogCourses, ...kinesCatalogCourses, ...sphCatalogCourses, ...stampsCatalogCourses]) {
+  for (const c of [...socCourses, ...coeBulletinCourses, ...rossBulletinCourses, ...umsiCatalogCourses, ...smtdCatalogCourses, ...nursingCatalogCourses, ...kinesCatalogCourses, ...sphCatalogCourses, ...stampsCatalogCourses, ...taubmanCatalogCourses]) {
     if (byCode.has(c.code)) continue;
     const tags = c.tags.includes(NON_LSA) ? c.tags : [...c.tags, NON_LSA];
     byCode.set(c.code, { ...c, tags });

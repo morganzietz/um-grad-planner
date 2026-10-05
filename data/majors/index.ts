@@ -128,6 +128,8 @@ import ph1 from './sph-ba-community-global-public-health.json';
 import ph2 from './sph-bs-public-health-sciences.json';
 import st1 from './stamps-bfa-art-and-design.json';
 import st2 from './stamps-ba-art-and-design.json';
+import t1 from './taubman-bs-architecture.json';
+import t2 from './taubman-bs-urban-technology.json';
 
 export const all: Major[] = [
   p1 as Major,
@@ -258,4 +260,6 @@ export const all: Major[] = [
   ph2 as Major,
   st1 as Major,
   st2 as Major,
+  t1 as Major,
+  t2 as Major,
 ];
