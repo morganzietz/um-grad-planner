@@ -69,6 +69,12 @@ export const SCHOOLS: School[] = [
     matcher: (s) => /public health/i.test(s),
   },
   {
+    id: 'pharmacy',
+    short: 'Pharmacy',
+    full: 'College of Pharmacy',
+    matcher: (s) => /pharmacy/i.test(s),
+  },
+  {
     id: 'stamps',
     short: 'Stamps',
     full: 'Stamps School of Art & Design',

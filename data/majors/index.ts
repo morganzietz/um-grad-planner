@@ -130,6 +130,7 @@ import st1 from './stamps-bfa-art-and-design.json';
 import st2 from './stamps-ba-art-and-design.json';
 import t1 from './taubman-bs-architecture.json';
 import t2 from './taubman-bs-urban-technology.json';
+import rx1 from './pharmacy-bs-pharmaceutical-sciences.json';
 
 export const all: Major[] = [
   p1 as Major,
@@ -262,4 +263,5 @@ export const all: Major[] = [
   st2 as Major,
   t1 as Major,
   t2 as Major,
+  rx1 as Major,
 ];

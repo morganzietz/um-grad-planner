@@ -67,6 +67,7 @@ const MATCH_ALL_WHITELIST = new Set([
   'stamps-bfa-nonstudio-credits',
   'stamps-ba-nonstamps-credits',
   'taubman-total-credits', // Taubman totals (121 BS Arch / 120 BS Urban Tech)
+  'pharm-total-credits', // BSPS 120 total credits
 ]);
 
 const VALID_CATEGORIES = new Set([
@@ -106,6 +107,10 @@ const VALID_CATEGORIES = new Set([
   'stamps-liberal-arts',
   // Taubman College
   'taubman-credit-min',
+  // College of Pharmacy
+  'pharm-credit-min',
+  'pharm-gen-ed',
+  'pharm-science-math',
 ]);
 
 /**
@@ -118,6 +123,9 @@ const KNOWN_CATALOG_GAPS = new Set([
   // (6 credits) exist in the FA26/WN26 listings; the 12-credit rule is
   // accurate to the curriculum chart and more electives appear each year.
   'taubman-ut-electives',
+  // PHARMSCI 402 is a repeatable 1-credit seminar taken senior fall and
+  // winter; the positive control can only take a catalog course once.
+  'pharm-seminar-402',
   // ARTDES 160 is a repeatable 1-credit lecture series taken 8 terms; the
   // positive control can only take a catalog course once, so 8 credits are
   // unreachable from one entry. Transcript imports with one row per term

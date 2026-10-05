@@ -1,0 +1,51 @@
+{
+ "source": "Curated from the College of Pharmacy BSPS Degree Checklist and BSPS Seminars PDFs (pharmacy.umich.edu/wp-content/uploads); all other BSPS courses come from the LSA Course Guide scrape",
+ "courses": [
+  {
+   "code": "PHARMACY 102",
+   "title": "Exploring Careers in Pharmaceutical Sciences and Healthcare",
+   "credits": 1,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "PHARMACY 212",
+   "title": "Contemporary Research in the Pharmaceutical Sciences",
+   "credits": 1,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "PHARMACY 302",
+   "title": "Developing Your Professional Self",
+   "credits": 1,
+   "tags": [],
+   "offeredTerms": [
+    "fall"
+   ]
+  },
+  {
+   "code": "PHARMACY 312",
+   "title": "Clinical and Research Ethics",
+   "credits": 1,
+   "tags": [],
+   "offeredTerms": [
+    "winter"
+   ]
+  },
+  {
+   "code": "PHARMSCI 402",
+   "title": "Undergraduate Seminar",
+   "credits": 1,
+   "tags": [],
+   "offeredTerms": [
+    "fall",
+    "winter"
+   ]
+  }
+ ]
+}

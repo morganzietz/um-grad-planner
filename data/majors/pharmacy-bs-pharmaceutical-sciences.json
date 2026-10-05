@@ -1,0 +1,250 @@
+{
+ "id": "pharmacy-bs-pharmaceutical-sciences",
+ "name": "Pharmaceutical Sciences (BS)",
+ "school": "College of Pharmacy",
+ "goalCredits": 120,
+ "sourceUrl": "https://pharmacy.umich.edu/pharmacy-programs/bs-in-pharmaceutical-sciences/curriculum/",
+ "requirements": [
+  {
+   "id": "pharm-total-credits",
+   "label": "120 Total Credits",
+   "hint": "The BSPS requires at least 120 credits: 18 general education, 49 science/math/lab, 27 BSPS core, and about 26 electives. A minimum 2.0 cumulative GPA and 60 credits taken at Michigan while in the BSPS are also required and are not auto-checked.",
+   "need": 120,
+   "countMode": "credits",
+   "category": "pharm-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://pharmacy.umich.edu/wp-content/uploads/Bachelors-BSPS-Degree-Checklist.pdf"
+   ]
+  },
+  {
+   "id": "pharm-fywr",
+   "label": "First-year writing (4 credits)",
+   "hint": "One course fulfilling the First-Year Writing Requirement.",
+   "need": 1,
+   "countMode": "count",
+   "category": "pharm-gen-ed",
+   "matchTag": "lsa-fywr",
+   "sources": [
+    "https://pharmacy.umich.edu/wp-content/uploads/Bachelors-BSPS-Degree-Checklist.pdf"
+   ]
+  },
+  {
+   "id": "pharm-hum-lang",
+   "label": "Humanities or language (7 credits)",
+   "hint": "Two courses (4 + 3 credits) in the humanities or a foreign language. Only one AP/IB humanities course may count.",
+   "need": 7,
+   "countMode": "credits",
+   "category": "pharm-gen-ed",
+   "matchTag": "humanities-or-language",
+   "sources": [
+    "https://pharmacy.umich.edu/wp-content/uploads/Bachelors-BSPS-Degree-Checklist.pdf"
+   ]
+  },
+  {
+   "id": "pharm-social-science",
+   "label": "Social science (7 credits)",
+   "hint": "Two social science courses (4 + 3 credits). Only one AP/IB social science course may count.",
+   "need": 7,
+   "countMode": "credits",
+   "category": "pharm-gen-ed",
+   "matchTag": "lsa-social-sciences",
+   "sources": [
+    "https://pharmacy.umich.edu/wp-content/uploads/Bachelors-BSPS-Degree-Checklist.pdf"
+   ]
+  },
+  {
+   "id": "pharm-bio-sequence",
+   "label": "Introductory biology (BIOLOGY 171, 172 & 173)",
+   "hint": "The introductory biology lecture pair and lab.",
+   "need": 3,
+   "countMode": "count",
+   "category": "pharm-science-math",
+   "matchCodes": ["BIOLOGY 171", "BIOLOGY 172", "BIOLOGY 173"],
+   "sources": [
+    "https://pharmacy.umich.edu/wp-content/uploads/Bachelors-BSPS-Degree-Checklist.pdf"
+   ]
+  },
+  {
+   "id": "pharm-gen-chem",
+   "label": "General chemistry (CHEM 130, 125 & 126)",
+   "hint": "General chemistry lecture and the two 1-credit labs. BSPS core prerequisites require a C- or better.",
+   "need": 3,
+   "countMode": "count",
+   "category": "pharm-science-math",
+   "matchCodes": ["CHEM 130", "CHEM 125", "CHEM 126"],
+   "sources": [
+    "https://pharmacy.umich.edu/wp-content/uploads/Bachelors-BSPS-Degree-Checklist.pdf"
+   ]
+  },
+  {
+   "id": "pharm-orgo-1",
+   "label": "Organic chemistry I (CHEM 210 & 211)",
+   "hint": "Organic lecture I and its lab.",
+   "need": 2,
+   "countMode": "count",
+   "category": "pharm-science-math",
+   "matchCodes": ["CHEM 210", "CHEM 211"],
+   "sources": [
+    "https://pharmacy.umich.edu/wp-content/uploads/Bachelors-BSPS-Degree-Checklist.pdf"
+   ]
+  },
+  {
+   "id": "pharm-orgo-2",
+   "label": "Organic chemistry II (CHEM 215 & 216)",
+   "hint": "Organic lecture II and its lab.",
+   "need": 2,
+   "countMode": "count",
+   "category": "pharm-science-math",
+   "matchCodes": ["CHEM 215", "CHEM 216"],
+   "sources": [
+    "https://pharmacy.umich.edu/wp-content/uploads/Bachelors-BSPS-Degree-Checklist.pdf"
+   ]
+  },
+  {
+   "id": "pharm-chem-230-260",
+   "label": "CHEM 230 or 260",
+   "hint": "Physical chemistry principles or quantum chemistry.",
+   "need": 1,
+   "countMode": "count",
+   "category": "pharm-science-math",
+   "matchCodes": ["CHEM 230", "CHEM 260"],
+   "sources": [
+    "https://pharmacy.umich.edu/wp-content/uploads/Bachelors-BSPS-Degree-Checklist.pdf"
+   ]
+  },
+  {
+   "id": "pharm-biochem",
+   "label": "Biochemistry (BIOLCHEM 415, MCDB 310, or CHEM 351)",
+   "hint": "One 4-credit biochemistry course.",
+   "need": 1,
+   "countMode": "count",
+   "category": "pharm-science-math",
+   "matchCodes": ["BIOLCHEM 415", "MCDB 310", "CHEM 351"],
+   "sources": [
+    "https://pharmacy.umich.edu/wp-content/uploads/Bachelors-BSPS-Degree-Checklist.pdf"
+   ]
+  },
+  {
+   "id": "pharm-physics",
+   "label": "Physics lecture (PHYSICS 140 or 150)",
+   "hint": "Introductory mechanics.",
+   "need": 1,
+   "countMode": "count",
+   "category": "pharm-science-math",
+   "matchCodes": ["PHYSICS 140", "PHYSICS 150"],
+   "sources": [
+    "https://pharmacy.umich.edu/wp-content/uploads/Bachelors-BSPS-Degree-Checklist.pdf"
+   ]
+  },
+  {
+   "id": "pharm-physics-lab",
+   "label": "Physics lab (PHYSICS 141 or 151)",
+   "hint": "The matching 1-credit lab.",
+   "need": 1,
+   "countMode": "count",
+   "category": "pharm-science-math",
+   "matchCodes": ["PHYSICS 141", "PHYSICS 151"],
+   "sources": [
+    "https://pharmacy.umich.edu/wp-content/uploads/Bachelors-BSPS-Degree-Checklist.pdf"
+   ]
+  },
+  {
+   "id": "pharm-calculus",
+   "label": "Calculus I (MATH 115)",
+   "hint": "MATH 115 or equivalent AP credit.",
+   "need": 1,
+   "countMode": "count",
+   "category": "pharm-science-math",
+   "matchCodes": ["MATH 115", "MATH 120"],
+   "sources": [
+    "https://pharmacy.umich.edu/wp-content/uploads/Bachelors-BSPS-Degree-Checklist.pdf"
+   ]
+  },
+  {
+   "id": "pharm-stats",
+   "label": "Statistics (STATS 250)",
+   "hint": "Introduction to statistics and data analysis.",
+   "need": 1,
+   "countMode": "count",
+   "category": "pharm-science-math",
+   "matchCodes": ["STATS 250"],
+   "sources": [
+    "https://pharmacy.umich.edu/wp-content/uploads/Bachelors-BSPS-Degree-Checklist.pdf"
+   ]
+  },
+  {
+   "id": "pharm-physiology",
+   "label": "Physiology (PHYSIOL 201 or 502)",
+   "hint": "Human physiology.",
+   "need": 1,
+   "countMode": "count",
+   "category": "pharm-science-math",
+   "matchCodes": ["PHYSIOL 201", "PHYSIOL 502"],
+   "sources": [
+    "https://pharmacy.umich.edu/wp-content/uploads/Bachelors-BSPS-Degree-Checklist.pdf"
+   ]
+  },
+  {
+   "id": "pharm-core-first-year",
+   "label": "First-year core (PHARMACY 102 & PHARMSCI 101)",
+   "hint": "Exploring Careers in Pharmaceutical Sciences (fall) and the winter introduction to pharmaceutical sciences. BSPS core courses require a C- or better.",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": ["PHARMACY 102", "PHARMSCI 101"],
+   "sources": [
+    "https://pharmacy.umich.edu/wp-content/uploads/Bachelors-BSPS-Degree-Checklist.pdf"
+   ]
+  },
+  {
+   "id": "pharm-core-sophomore",
+   "label": "Sophomore core (PHARMACY 200, 212, 217 & MEDCHEM 210)",
+   "hint": "Science of Medicines, Contemporary Research, Introduction to Precision Health, and Introduction to Medicinal Chemistry.",
+   "need": 4,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": ["PHARMACY 200", "PHARMACY 212", "PHARMACY 217", "MEDCHEM 210"],
+   "sources": [
+    "https://pharmacy.umich.edu/wp-content/uploads/Bachelors-BSPS-Degree-Checklist.pdf"
+   ]
+  },
+  {
+   "id": "pharm-core-junior",
+   "label": "Junior core (PHARMSCI 300, PHARMACY 302, 312 & MEDCHEM 310)",
+   "hint": "Pharmaceutical sciences, Developing Your Professional Self, Clinical and Research Ethics, and Principles of Drug Action.",
+   "need": 4,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": ["PHARMSCI 300", "PHARMACY 302", "PHARMACY 312", "MEDCHEM 310"],
+   "sources": [
+    "https://pharmacy.umich.edu/wp-content/uploads/Bachelors-BSPS-Degree-Checklist.pdf"
+   ]
+  },
+  {
+   "id": "pharm-core-senior",
+   "label": "Senior core (PHARMSCI 400 & MEDCHEM 410)",
+   "hint": "Senior-year pharmaceutical sciences (fall) and Concepts in Drug Discovery and Development (winter).",
+   "need": 2,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": ["PHARMSCI 400", "MEDCHEM 410"],
+   "sources": [
+    "https://pharmacy.umich.edu/wp-content/uploads/Bachelors-BSPS-Degree-Checklist.pdf"
+   ]
+  },
+  {
+   "id": "pharm-seminar-402",
+   "label": "PHARMSCI 402: Undergraduate Seminar (2 terms)",
+   "hint": "A 1-credit seminar taken twice, senior fall and winter. Each completed term counts; a planned term registers once, so log each term as taken when it finishes.",
+   "need": 2,
+   "countMode": "count",
+   "category": "capstone",
+   "matchCodes": ["PHARMSCI 402"],
+   "sources": [
+    "https://pharmacy.umich.edu/wp-content/uploads/Bachelors-BSPS-Degree-Checklist.pdf",
+    "https://pharmacy.umich.edu/wp-content/uploads/BSPS-Seminars.pdf"
+   ]
+  }
+ ]
+}

@@ -10,6 +10,7 @@ import kinesCatalogData from '../data/courses/kines-catalog.json';
 import sphCatalogData from '../data/courses/sph-catalog.json';
 import stampsCatalogData from '../data/courses/stamps-catalog.json';
 import taubmanCatalogData from '../data/courses/taubman-catalog.json';
+import pharmacyCatalogData from '../data/courses/pharmacy-catalog.json';
 import { all as bundledMinors } from '../data/minors';
 import {
   manualCourses,
@@ -74,6 +75,10 @@ const stampsCatalogCourses =
 /** Taubman catalog from the college's course listing + archive captures. */
 const taubmanCatalogCourses =
   (taubmanCatalogData as unknown as { courses: Course[] }).courses ?? [];
+
+/** College of Pharmacy seminar entries curated from the BSPS PDFs. */
+const pharmacyCatalogCourses =
+  (pharmacyCatalogData as unknown as { courses: Course[] }).courses ?? [];
 
 // ─── Merge scraped + manual + programmatic tags → courseCatalog ───────────
 
@@ -223,6 +228,13 @@ function programmaticTags(code: string): string[] {
     catalogNum >= 200
   ) {
     extras.push('lsa-language');
+  }
+
+  // Language courses at any level count for "Humanities or Language"
+  // buckets (BSPS gen ed); the humanities half of the union is added in
+  // applyProgrammaticTags from the LSA distribution tag.
+  if (LANGUAGE_SUBJECTS.has(subject)) {
+    extras.push('humanities-or-language');
   }
 
   // School of Public Health bachelor's degrees. sph-upper feeds the "45
@@ -448,6 +460,11 @@ function applyProgrammaticTags(c: Course): Course {
   if (c.tags.includes('lsa-math-symbolic') || c.tags.includes('lsa-qr')) {
     extras.push('analytical-reasoning');
   }
+  // Humanities half of the "Humanities or Language" union (BSPS gen ed);
+  // the language half is tagged by subject in programmaticTags.
+  if (c.tags.includes('lsa-humanities')) {
+    extras.push('humanities-or-language');
+  }
   if (extras.length === 0) return c;
   return {
     ...c,
@@ -463,7 +480,7 @@ function buildCatalog(): Course[] {
   // NOT list is not approved for LSA credit, so SOC-only entries get the
   // non-lsa tag; without it, every Ross/CoE/SPH course would wrongly count
   // toward the LSA "100 LSA credits" college rules.
-  for (const c of [...socCourses, ...coeBulletinCourses, ...rossBulletinCourses, ...umsiCatalogCourses, ...smtdCatalogCourses, ...nursingCatalogCourses, ...kinesCatalogCourses, ...sphCatalogCourses, ...stampsCatalogCourses, ...taubmanCatalogCourses]) {
+  for (const c of [...socCourses, ...coeBulletinCourses, ...rossBulletinCourses, ...umsiCatalogCourses, ...smtdCatalogCourses, ...nursingCatalogCourses, ...kinesCatalogCourses, ...sphCatalogCourses, ...stampsCatalogCourses, ...taubmanCatalogCourses, ...pharmacyCatalogCourses]) {
     if (byCode.has(c.code)) continue;
     const tags = c.tags.includes(NON_LSA) ? c.tags : [...c.tags, NON_LSA];
     byCode.set(c.code, { ...c, tags });
