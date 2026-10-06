@@ -70,6 +70,7 @@ const MATCH_ALL_WHITELIST = new Set([
   'pharm-total-credits', // BSPS 120 total credits
   'dh-total-credits', // Dental Hygiene 120 total credits
   'dh-prereq-credits', // 35 credit hours of any coursework before applying IS the rule
+  'educ-total-credits', // Marsal 120 total credits (shared by LEAPS and ElemEd)
 ]);
 
 const VALID_CATEGORIES = new Set([
@@ -115,6 +116,9 @@ const VALID_CATEGORIES = new Set([
   'pharm-science-math',
   // School of Dentistry
   'dent-credit-min',
+  // Marsal School of Education
+  'educ-credit-min',
+  'educ-gen-ed',
 ]);
 
 /**
@@ -130,6 +134,9 @@ const KNOWN_CATALOG_GAPS = new Set([
   // PHARMSCI 402 is a repeatable 1-credit seminar taken senior fall and
   // winter; the positive control can only take a catalog course once.
   'pharm-seminar-402',
+  // LEAPS Forum: EDUC 101 and 322 are repeatable 1-credit courses taken
+  // five terms total; the positive control can only take each once.
+  'leaps-forum',
   // ARTDES 160 is a repeatable 1-credit lecture series taken 8 terms; the
   // positive control can only take a catalog course once, so 8 credits are
   // unreachable from one entry. Transcript imports with one row per term

@@ -132,6 +132,8 @@ import t1 from './taubman-bs-architecture.json';
 import t2 from './taubman-bs-urban-technology.json';
 import rx1 from './pharmacy-bs-pharmaceutical-sciences.json';
 import d1 from './dentistry-bs-dental-hygiene.json';
+import e1 from './educ-ba-leaps.json';
+import e2 from './educ-elementary-teacher-education.json';
 
 export const all: Major[] = [
   p1 as Major,
@@ -266,4 +268,6 @@ export const all: Major[] = [
   t2 as Major,
   rx1 as Major,
   d1 as Major,
+  e1 as Major,
+  e2 as Major,
 ];

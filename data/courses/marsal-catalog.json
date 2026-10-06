@@ -1,0 +1,1758 @@
+{
+ "source": "Marsal course syllabi table (marsal.umich.edu/academics-admissions/course-syllabi, all pages) plus LEAPS and elementary teacher education program-page entries for courses the table does not carry",
+ "courses": [
+  {
+   "code": "EDUC 100",
+   "title": "Learning Within and Across Settings",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 101",
+   "title": "Lower Division Forum",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "EDUC 107",
+   "title": "Preparing for Engaged Learning I",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EDUC 108",
+   "title": "Preparing for Engaged Learning II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 118",
+   "title": "Schooling in a Multicultural Society",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 120",
+   "title": "Children Learning in Mathematics and Beyond (CLiMB)",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 130",
+   "title": "The City as Identity",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 131",
+   "title": "Science in the City",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 140",
+   "title": "Writing With Detroit",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 141",
+   "title": "Schools, Society, and Self",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "EDUC 151",
+   "title": "Youth Serving Community Engagement",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "EDUC 160",
+   "title": "Everyday Equitable Practice and Dialogue",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 200",
+   "title": "Learning for Social Change",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 202",
+   "title": "Design as Community Inquiry",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 203",
+   "title": "Inquiry, Partnership, and Research",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 207",
+   "title": "Lower Division Community-Engaged Learning Internship",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "EDUC 208",
+   "title": "Visual Texts: Picturebooks, Comics, Graphic Novels",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 210",
+   "title": "Mathematics and Social Justice",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 212",
+   "title": "The History of College Athletics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 219",
+   "title": "Education Policy in a Multicultural Society",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 220",
+   "title": "Coaching for Today's Society",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 225",
+   "title": "Education and the Social Development of Youth of Color",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EDUC 241",
+   "title": "Deepening Disciplinary Knowledge",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 251",
+   "title": "Mathematics and Society",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 260",
+   "title": "Tutoring Literacy and Language in the Elementary Grades",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 271",
+   "title": "Youth Serving Community Engagement II",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "EDUC 291",
+   "title": "Educational Psychology",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 301",
+   "title": "Directed Teaching in the Elementary Grades",
+   "credits": 12,
+   "tags": []
+  },
+  {
+   "code": "EDUC 302",
+   "title": "Directed Teaching in the Secondary School",
+   "credits": 12,
+   "tags": []
+  },
+  {
+   "code": "EDUC 303",
+   "title": "Problems and Principles of Elementary Education",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "EDUC 304",
+   "title": "Problems and Principles of Secondary Education",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EDUC 307",
+   "title": "Practicum",
+   "credits": 7,
+   "tags": []
+  },
+  {
+   "code": "EDUC 308",
+   "title": "Creating Arts Access in Community",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 309",
+   "title": "Science for Sustainable Communities",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 310",
+   "title": "Independent Study",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "EDUC 311",
+   "title": "Educational Policy, Inquiry, and Advocacy",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 313",
+   "title": "Detroit Vs. Everybody: Stories, Culture, and Making the Motor City",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 314",
+   "title": "Directed Teaching Seminar: Physical Education",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "EDUC 315",
+   "title": "Equity and Empowerment for Coaching and Leading",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 316",
+   "title": "Sport, Education and Social Justice: Leading and Coaching for Transformation",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 317",
+   "title": "Observation and Participation in Educational Settings",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "EDUC 320",
+   "title": "Honors Independent Study",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "EDUC 322",
+   "title": "Upper Division Forum",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "EDUC 327",
+   "title": "Climate Justice Education and Action",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 330",
+   "title": "Education for Empowerment Internship",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "EDUC 331",
+   "title": "Strategic Communication",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 332",
+   "title": "Coaching and Consulting for Social Change",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 333",
+   "title": "Video Games and Learning",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 335",
+   "title": "Education and Equity in Name, Image, & Likeness in College Athletics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 336",
+   "title": "How to Thrive in a World of Intelligent Machines",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 341",
+   "title": "Leading and Coaching",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 343",
+   "title": "Race Frameworks in Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 344",
+   "title": "Race, Education, and Latino Studies",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 349",
+   "title": "Literacies in a Digital World",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 359",
+   "title": "Growing Up in School – Education and Development from a Global Perspective",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 360",
+   "title": "Partners in Authentic Learning in Schools",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 362",
+   "title": "Michigan Student Caucus",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 363",
+   "title": "Educational Programs for Youth",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EDUC 364",
+   "title": "Web-Based Mentorship: ImagineNation Matters",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 365",
+   "title": "Web-Based Mentorship: International Poetry Guild",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 375",
+   "title": "Wellness for Learning, Teaching, Coaching and Leadership",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 383",
+   "title": "Introduction to Education Research Methods",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 384",
+   "title": "Literacy Development and the Young Child",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 390",
+   "title": "Community-Engaged Learning in ESL Teaching Contexts",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 391",
+   "title": "Educational Psychology and Human Development",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 392",
+   "title": "Educational Foundations in a Multicultural Society",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 393",
+   "title": "Upper Division Community-Engaged Learning Internship",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "EDUC 395",
+   "title": "Principles and Practices of Teaching ESL in Migrant Communities",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 401",
+   "title": "Literacy 1: Development of Foundational Skills",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 402",
+   "title": "Reading and Writing in Content Areas",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 403",
+   "title": "Literacy 2: Development of Comprehension and Motivation PK-6",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 404",
+   "title": "Introduction to Teaching English Internationally",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 405",
+   "title": "Literacy 3: Development of Language and Composition PK-6",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 406",
+   "title": "Teaching in the Elementary School",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 407",
+   "title": "Literacy 4: Teaching Language, Literacy, and Academic Content to Diverse Learners",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 408",
+   "title": "Literacy Teaching and Learning: An Integrated Language Arts Perspective",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 411",
+   "title": "Teaching PK-6 Mathematics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EDUC 412",
+   "title": "Mathematical Proof and Teaching",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 413",
+   "title": "Teaching Secondary School Mathematics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 414",
+   "title": "Creating School and Classroom Culture",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 415",
+   "title": "Children As Sensemakers in PK-6 Mathematics and Science",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EDUC 416",
+   "title": "Teaching With Curriculum Materials in PK-6 Mathematics and Science",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EDUC 417",
+   "title": "Imagination and the Whole Child",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "EDUC 418",
+   "title": "Teaching Language, Literacy, and Academic Content to Diverse Learners",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 419",
+   "title": "Teaching Methods for World Language Minors",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "EDUC 420",
+   "title": "Teaching World Languages in the Secondary School",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 421",
+   "title": "Teaching PK-6 Science",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 422",
+   "title": "Teaching of Science in Secondary Schools",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 426",
+   "title": "Teaching with Curriculum Materials",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "EDUC 427",
+   "title": "Elementary School Art",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 430",
+   "title": "“Teaching to Transgress:” Using Dialogic Thinking and History/Social Science Perspectives to Understand Contemporary and Historical Issues",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 431",
+   "title": "Teaching Social Studies in PK-6",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 432",
+   "title": "Teaching of Social Studies in the Secondary School",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 433",
+   "title": "Methods in Teaching Minor: Secondary History/ Social Sciences",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "EDUC 434",
+   "title": "Leadership Practice Towards Liberation",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 438",
+   "title": "Disciplinary Foundations for Teaching Social Studies",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 440",
+   "title": "Teaching of English",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 443",
+   "title": "Teaching Students Identified with (Dis)abilities in Inclusive Elementary Classrooms",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 444",
+   "title": "Teaching With Digital Technologies",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 445",
+   "title": "Teaching Students Identified with (Dis)abilities in Inclusive Secondary Classrooms",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 446",
+   "title": "Teaching with Digital Technologies 6-12",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 448",
+   "title": "Policy Analysis",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 450",
+   "title": "Education, Peace, and Conflict",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 457",
+   "title": "Education Media Lab",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 460",
+   "title": "Equitable Everyday Practices",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 461",
+   "title": "Web-Based Mentorship: Earth Odysseys (MENAS 461)",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 462",
+   "title": "Web-Based Mentorship: Learning Through Character Play (MENAS 462)",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 463",
+   "title": "Web-Based Mentorship: Arab-Israeli Conflict Simulation (MENAS 463)",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 464",
+   "title": "Data Visualization & Storytelling",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 465",
+   "title": "Digital Wellness for Adolescents",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 470",
+   "title": "Independent Study in Higher and Postsecondary Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 471",
+   "title": "Topics in Higher and Postsecondary Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 480",
+   "title": "Education for Empowerment Capstone",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "EDUC 481",
+   "title": "Education for Empowerment Capstone I",
+   "credits": 3,
+   "tags": [],
+   "sequenceNext": "EDUC 482"
+  },
+  {
+   "code": "EDUC 482",
+   "title": "Education for Empowerment Capstone II",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EDUC 485",
+   "title": "Mathematics for Elementary School Teachers and Supervisors",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "EDUC 490",
+   "title": "Topics in Professional Education",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "EDUC 501",
+   "title": "Literacy Curriculum, Instruction and Assessment: Primary / Elementary",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 503",
+   "title": "Media Literacies",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 504",
+   "title": "Teaching with Technology",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 505",
+   "title": "Literacy Curriculum, Instruction & Assessment: Middle / Secondary",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 510",
+   "title": "Teaching and Learning",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 511",
+   "title": "Records of Practice I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 512",
+   "title": "Records of Practice II",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "EDUC 513",
+   "title": "Detroit Vs. Everybody: Stories, Culture, and Making the Motor City",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 516",
+   "title": "Theory and Practice in Early Childhood Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 517",
+   "title": "Early Childhood Education: Policy Issues",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 518",
+   "title": "Teaching PK-6 Mathematics",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EDUC 519",
+   "title": "Connecting Mathematical Practices and PK-6 Mathematical Topics",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "EDUC 524",
+   "title": "Inquiry on Education Issues",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 525",
+   "title": "Language and Learning in Home and School Settings",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 526",
+   "title": "Language and Literacy for Second Language Learners",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 528",
+   "title": "Teaching PK-6 Science",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 536",
+   "title": "How to Survive in a World of Intelligent Machines",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 540",
+   "title": "Trauma Basics",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "EDUC 541",
+   "title": "Trauma-Informed Practice",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "EDUC 542",
+   "title": "Creating and Sustaining Trauma-Informed Systems",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "EDUC 543",
+   "title": "Race Frameworks in Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 546",
+   "title": "Design of Learning Environments",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 551",
+   "title": "School Organization and the Policy Environment",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 552",
+   "title": "Instructional Leadership in Schools",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 553",
+   "title": "Administrative Leadership in Schools",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 554",
+   "title": "Chemistry Education Research and Practice",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 555",
+   "title": "Financial and Legal Policies for Schools",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 560",
+   "title": "Everyday Equitable Practices",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 561",
+   "title": "Introduction to Higher Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 563",
+   "title": "The Community College",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 570",
+   "title": "Professional Development Seminar in Education",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "EDUC 571",
+   "title": "Professional Development Seminar in Teacher Education",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "EDUC 572",
+   "title": "ELP Capstone Course",
+   "credits": 1.5,
+   "tags": []
+  },
+  {
+   "code": "EDUC 575",
+   "title": "Introduction to Leadership Development",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 579",
+   "title": "Second Language Learning",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 580",
+   "title": "Topics in Disability Studies (ARCH 609, ENGLISH 528, KINESLGY 505, PMR 580, RACKHAM 580, SOC 580, SW 572, WOMENSTD 590)",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 581",
+   "title": "Advanced Environmental Education: Research, Practice and Professional Skills (NRE 581)",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 582",
+   "title": "Directed Study in Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 583",
+   "title": "Advanced Education Technology Class",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "EDUC 590",
+   "title": "Applying ELD Theory to Practice",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "EDUC 591",
+   "title": "Learning about How People Learn",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 592",
+   "title": "Methods of Teaching Language and Literacy to PK‐12",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EDUC 593",
+   "title": "Language Development & Second Language Learning",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "EDUC 594",
+   "title": "Education in a Multilingual Society",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 595",
+   "title": "Leadership and Advocacy Practices for Teachers of Culturally and Linguistically Diverse Learners",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "EDUC 601",
+   "title": "Transformative Learning and Teaching with Technology (SI 549)",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 602",
+   "title": "Videogames, Learning, and School Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 603",
+   "title": "Design-Based Research for Assessing Learning Environments",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 604",
+   "title": "Curriculum Development & Evaluation",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 605",
+   "title": "Internship in Learning Technologies",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 606",
+   "title": "Developmental and Psychological Perspectives on Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 607",
+   "title": "Contemporary Approaches to Educational Assessment",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 608",
+   "title": "Networks, Policy, and Organizations",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 609",
+   "title": "Anti-Racist Pedagogies",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 611",
+   "title": "Classroom Assessment Seminar",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 616",
+   "title": "Learning Experience Design",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 617",
+   "title": "Universal Design for Learning and Digital Accessibility",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 620",
+   "title": "Emerging Technologies for Learning",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 621",
+   "title": "Teaching Writing in the Elementary and Secondary Schools",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 622",
+   "title": "Proseminar in Higher Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 624",
+   "title": "Digital Media, AI, and Child Development",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 626",
+   "title": "Principles of Software Design for Learning (SI 548)",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 627",
+   "title": "Current Issues in Educational Studies",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 628",
+   "title": "Democracy and Education (PUBPOL 628)",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 634",
+   "title": "Leadership Practice Towards Liberation",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 637",
+   "title": "Practicum in Assessment",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 638",
+   "title": "Internship and Directed Field Experience",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 639",
+   "title": "Special Topics in Education Research and Practice",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 640",
+   "title": "Independent Study in Educational Studies",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "EDUC 641",
+   "title": "History of American Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 643",
+   "title": "Sociology of Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 644",
+   "title": "Comparative and International Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 645",
+   "title": "Education and Cultural Studies",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 646",
+   "title": "Educational Policy Analysis",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 647",
+   "title": "Foundations of Literacy",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 649",
+   "title": "Foundational Perspectives on Educational Reform",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 650",
+   "title": "Reflective Teaching Field Experience",
+   "credits": 13,
+   "tags": []
+  },
+  {
+   "code": "EDUC 651",
+   "title": "Directed Teaching in the Elementary Grades",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "EDUC 652",
+   "title": "Directed Teaching in the Secondary School",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "EDUC 653",
+   "title": "Problems and Principles of Elementary Education",
+   "credits": 2,
+   "tags": []
+  },
+  {
+   "code": "EDUC 654",
+   "title": "Problems and Principles of Secondary Education",
+   "credits": 1.5,
+   "tags": []
+  },
+  {
+   "code": "EDUC 655",
+   "title": "Directed Research in Educational Studies",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "EDUC 656",
+   "title": "Critical Perspectives on The Global Role of English",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 657",
+   "title": "Practicum in Educational Studies",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "EDUC 658",
+   "title": "Workshop in Educational Administration",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "EDUC 659",
+   "title": "MA Research Practicum in Higher Education",
+   "credits": 1.5,
+   "tags": []
+  },
+  {
+   "code": "EDUC 661",
+   "title": "History of Postsecondary Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 662",
+   "title": "Learning and Development in Higher Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 665",
+   "title": "Foundations for Student Affairs Educators (formerly titled Management of Student Affairs and Support Services)",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 669",
+   "title": "Institutional Advancement and Development in Higher Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 672",
+   "title": "Power, Privilege, and the Politics of Difference in Higher Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 684",
+   "title": "Students in U.S. Higher Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 695",
+   "title": "Research and Educational Practice",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 705",
+   "title": "Evaluating Educational and Social Programs",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 706",
+   "title": "Seminar: Issues in Research on Literacy",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 707",
+   "title": "Psychometric Theory: Classical and Latent Trait Models (PSYCH 707)",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 708",
+   "title": "Cognition and Instruction in the Classroom (PSYCH 708)",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 709",
+   "title": "Motivation in the Classroom (PSYCH 709)",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 711",
+   "title": "Research in Mathematics Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 712",
+   "title": "Causal Inference in Education Policy Research: Preschool, Elementary and Secondary (PUBPOL 712)",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 714",
+   "title": "Casual Interference in Education Policy Research: Postsecondary (PUBPOL 713)",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 715",
+   "title": "Special Topics in Education and Psychology",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 716",
+   "title": "Education Psychology Advanced Proseminar",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 717",
+   "title": "Interdisciplinary Problem Solving",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 718",
+   "title": "Critical Participatory Action Research in Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 719",
+   "title": "Pedagogies of Diversity, Inclusion, Justice and Equity",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "EDUC 720",
+   "title": "Social and Personality Psychology of Education (PSYCH 720)",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 721",
+   "title": "Human Development and Schooling (PSYCH 723)",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 722",
+   "title": "Anti-Racism",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 728",
+   "title": "Practicum in Learning Technology Design",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EDUC 730",
+   "title": "Reviewing Research for Professional Learning I",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 731",
+   "title": "Reviewing Research for Professional Learning II",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 732",
+   "title": "Critical Race Methodologies",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 735",
+   "title": "Case Study Research",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 737",
+   "title": "Topics in Educational Studies",
+   "credits": 4,
+   "tags": []
+  },
+  {
+   "code": "EDUC 750",
+   "title": "Introduction to Systemic Functional Linguistics",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 756",
+   "title": "Independent Study: Educational Administration and Policy",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 760",
+   "title": "Access and Equity in Higher Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 761",
+   "title": "Postsecondary Institutions as Complex Organizations",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 764",
+   "title": "Public Policy in Postsecondary Education (POLSCI 734, PUBPOL 732)",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 765",
+   "title": "Research Design in Higher and Continuing Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 766",
+   "title": "CPEP Research Practicum",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 767",
+   "title": "Research Practicum in Higher and Continuing Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 768",
+   "title": "Economics of Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 769",
+   "title": "Philanthropy and Higher Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 770",
+   "title": "Independent Study in Higher and Postsecondary Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 771",
+   "title": "Topics in Higher and Postsecondary Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 772",
+   "title": "Policy and Contexts of Teacher Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 774",
+   "title": "The Practice of Teacher Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 775",
+   "title": "Research on Teacher Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 776",
+   "title": "The Practice of Teaching",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 777",
+   "title": "Administrative Practicum in Higher and Continuing Education",
+   "credits": 6,
+   "tags": []
+  },
+  {
+   "code": "EDUC 778",
+   "title": "Advanced Administrative Practicum in Higher and Continuing Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 779",
+   "title": "International Higher Education (formerly EDUC 870)",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 780",
+   "title": "Research on Teaching",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 781",
+   "title": "The Study of Mathematics Instruction",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 782",
+   "title": "The Study of Mathematical Thinking and Learning",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 785",
+   "title": "Academic Affairs in Higher Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 786",
+   "title": "Advanced Reading Topics in Educational Studie",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 787",
+   "title": "Education Equity Lab and Studio",
+   "credits": 5,
+   "tags": []
+  },
+  {
+   "code": "EDUC 789",
+   "title": "Research Apprenticeship",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 790",
+   "title": "Foundations of Schooling",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 791",
+   "title": "Foundations of Teaching and Learning",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 792",
+   "title": "Methods in Educational Research: Qualitative",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 793",
+   "title": "Introduction to Quantitative Methods in Educational Research",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 794",
+   "title": "Quantitative Methods for Causal Analysis in Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 795",
+   "title": "Quantitative Methods for Non-Experimental Research",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 798",
+   "title": "Teaching Apprenticeship",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 799",
+   "title": "Categorical and Limited Dependent Variable Modeling",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 803",
+   "title": "Structural Equation Model (SEM) (PSYCH 804)",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 817",
+   "title": "Interdisciplinary Seminar in Quantitative Social Science Methodology (STATS 817, SOC 810, PSYCH 817)",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "EDUC 820",
+   "title": "Causal Inference in Education Research",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 830",
+   "title": "Historical and Philosophical Roots of Science Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 831",
+   "title": "Theory and Research on Learning and Instruction in Science",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 832",
+   "title": "Theory and Research on the Development of Expertise in Science Teaching",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 834",
+   "title": "Designing Science Learning Environments",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 835",
+   "title": "Independent Study",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 865",
+   "title": "Evaluation and Assessment in Postsecondary Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 868",
+   "title": "Philosophy of Academic Leadership",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 869",
+   "title": "The Scholarship of Academic Contexts and Success",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 873",
+   "title": "Race, Ethnicity and Gender in Higher Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 874",
+   "title": "Law and Higher Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 881",
+   "title": "Public Policy Research and Analysis in Postsecondary Education",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 890",
+   "title": "Multi-level Analysis of Survey Data (SURVMETH 790)",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 891",
+   "title": "Qualitative Methods Workshop",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 895",
+   "title": "The Logic of Inquiry",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 896",
+   "title": "Engaging in the Practice of Writing Educational Research",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 897",
+   "title": "Race & Social Justice Institute",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "EDUC 898",
+   "title": "Professional Development Seminar",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "EDUC 899",
+   "title": "Qualifying Paper B",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 965",
+   "title": "Dissertation Research Seminar in Higher and Continuing Education",
+   "credits": 1,
+   "tags": []
+  },
+  {
+   "code": "EDUC 990",
+   "title": "Dissertation, Precandidacy",
+   "credits": 8,
+   "tags": []
+  },
+  {
+   "code": "EDUC 991",
+   "title": "Scholarly Paper (previously Prelim A)",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 992",
+   "title": "Portfolio (previously Prelim B)",
+   "credits": 3,
+   "tags": []
+  },
+  {
+   "code": "EDUC 995",
+   "title": "Dissertation, Candidacy",
+   "credits": 8,
+   "tags": []
+  }
+ ]
+}

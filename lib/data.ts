@@ -11,6 +11,7 @@ import sphCatalogData from '../data/courses/sph-catalog.json';
 import stampsCatalogData from '../data/courses/stamps-catalog.json';
 import taubmanCatalogData from '../data/courses/taubman-catalog.json';
 import pharmacyCatalogData from '../data/courses/pharmacy-catalog.json';
+import marsalCatalogData from '../data/courses/marsal-catalog.json';
 import { all as bundledMinors } from '../data/minors';
 import {
   manualCourses,
@@ -79,6 +80,10 @@ const taubmanCatalogCourses =
 /** College of Pharmacy seminar entries curated from the BSPS PDFs. */
 const pharmacyCatalogCourses =
   (pharmacyCatalogData as unknown as { courses: Course[] }).courses ?? [];
+
+/** Marsal School of Education catalog from the course syllabi table. */
+const marsalCatalogCourses =
+  (marsalCatalogData as unknown as { courses: Course[] }).courses ?? [];
 
 // ─── Merge scraped + manual + programmatic tags → courseCatalog ───────────
 
@@ -149,6 +154,18 @@ const TAUBMAN_ARCH_CORE_CODES: ReadonlySet<string> = new Set([
 const TAUBMAN_UT_CORE_CODES: ReadonlySet<string> = new Set([
   'UT 102', 'UT 103', 'UT 201', 'UT 202', 'UT 210', 'UT 230', 'UT 330',
   'UT 340', 'UT 350', 'UT 360', 'UT 401', 'UT 411', 'UT 430', 'UT 435',
+]);
+
+/**
+ * Required courses for the Marsal elementary teacher education degree,
+ * tagged so its "EDUC electives" row can exclude them.
+ */
+const MARSAL_ELEM_CORE_CODES: ReadonlySet<string> = new Set([
+  'EDUC 118', 'EDUC 141', 'EDUC 151', 'EDUC 160', 'EDUC 241', 'EDUC 271',
+  'EDUC 291', 'EDUC 392', 'EDUC 301', 'EDUC 303', 'EDUC 307', 'EDUC 391',
+  'EDUC 401', 'EDUC 403', 'EDUC 405', 'EDUC 407', 'EDUC 411', 'EDUC 414',
+  'EDUC 415', 'EDUC 416', 'EDUC 417', 'EDUC 421', 'EDUC 430', 'EDUC 431',
+  'EDUC 443', 'EDUC 444',
 ]);
 
 /**
@@ -268,6 +285,7 @@ function programmaticTags(code: string): string[] {
   // let the cores double count).
   if (TAUBMAN_ARCH_CORE_CODES.has(code)) extras.push('taubman-arch-core');
   if (TAUBMAN_UT_CORE_CODES.has(code)) extras.push('taubman-ut-core');
+  if (MARSAL_ELEM_CORE_CODES.has(code)) extras.push('educ-elem-core');
 
   // Stamps credit membership by subject (ARTDES plus the school's own
   // study-abroad subject), for the BA's Stamps/non-Stamps credit split.
@@ -480,7 +498,7 @@ function buildCatalog(): Course[] {
   // NOT list is not approved for LSA credit, so SOC-only entries get the
   // non-lsa tag; without it, every Ross/CoE/SPH course would wrongly count
   // toward the LSA "100 LSA credits" college rules.
-  for (const c of [...socCourses, ...coeBulletinCourses, ...rossBulletinCourses, ...umsiCatalogCourses, ...smtdCatalogCourses, ...nursingCatalogCourses, ...kinesCatalogCourses, ...sphCatalogCourses, ...stampsCatalogCourses, ...taubmanCatalogCourses, ...pharmacyCatalogCourses]) {
+  for (const c of [...socCourses, ...coeBulletinCourses, ...rossBulletinCourses, ...umsiCatalogCourses, ...smtdCatalogCourses, ...nursingCatalogCourses, ...kinesCatalogCourses, ...sphCatalogCourses, ...stampsCatalogCourses, ...taubmanCatalogCourses, ...pharmacyCatalogCourses, ...marsalCatalogCourses]) {
     if (byCode.has(c.code)) continue;
     const tags = c.tags.includes(NON_LSA) ? c.tags : [...c.tags, NON_LSA];
     byCode.set(c.code, { ...c, tags });

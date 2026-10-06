@@ -81,6 +81,12 @@ export const SCHOOLS: School[] = [
     matcher: (s) => /dentistry/i.test(s),
   },
   {
+    id: 'education',
+    short: 'Education',
+    full: 'Marsal Family School of Education',
+    matcher: (s) => /school of education/i.test(s),
+  },
+  {
     id: 'stamps',
     short: 'Stamps',
     full: 'Stamps School of Art & Design',

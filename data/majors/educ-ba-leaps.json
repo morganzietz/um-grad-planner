@@ -1,0 +1,107 @@
+{
+ "id": "educ-ba-leaps",
+ "name": "Learning, Equity, and Problem Solving for the Public Good (BA)",
+ "school": "Marsal Family School of Education",
+ "goalCredits": 120,
+ "sourceUrl": "https://marsal.umich.edu/academics-admissions/degrees/bachelors/learning-equity-and-problem-solving-public-good",
+ "requirements": [
+  {
+   "id": "educ-total-credits",
+   "label": "120 Total Credits",
+   "hint": "LEAPS requires a minimum of 120 credits plus demonstrated mastery of the four program-wide learning areas (Ways of Knowing, Personal Good, Group Good, Public Good); the mastery transcript is assessed by the program and is not auto-checked.",
+   "need": 120,
+   "countMode": "credits",
+   "category": "educ-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://marsal.umich.edu/academics-admissions/degrees/bachelors/learning-equity-and-problem-solving-public-good"
+   ]
+  },
+  {
+   "id": "leaps-core",
+   "label": "Core sequence (EDUC 100, 107, 108, 130, 202, 203)",
+   "hint": "Learning Within and Across Settings, Preparing for Engaged Learning I and II, The City as Identity, Design as Community Inquiry, and Inquiry, Partnership, and Research.",
+   "need": 6,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "EDUC 100", "EDUC 107", "EDUC 108", "EDUC 130", "EDUC 202", "EDUC 203"
+   ],
+   "sources": [
+    "https://marsal.umich.edu/academics-admissions/degrees/bachelors/learning-equity-and-problem-solving-public-good"
+   ]
+  },
+  {
+   "id": "leaps-gen-ed",
+   "label": "LEAPS general education (EDUC 131, 140, 251, 331)",
+   "hint": "Science in the City, Writing With Detroit, Mathematics and Society, and Strategic Communication.",
+   "need": 4,
+   "countMode": "count",
+   "category": "educ-gen-ed",
+   "matchCodes": ["EDUC 131", "EDUC 140", "EDUC 251", "EDUC 331"],
+   "sources": [
+    "https://marsal.umich.edu/academics-admissions/degrees/bachelors/learning-equity-and-problem-solving-public-good"
+   ]
+  },
+  {
+   "id": "leaps-forum",
+   "label": "Forum (5 credits)",
+   "hint": "EDUC 101 (Lower Division Forum, three 1-credit terms) and EDUC 322 (Upper Division Forum, two 1-credit terms). Each completed term counts; a planned term registers once, so log each term as taken when it finishes.",
+   "need": 5,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": ["EDUC 101", "EDUC 322"],
+   "sources": [
+    "https://marsal.umich.edu/academics-admissions/degrees/bachelors/learning-equity-and-problem-solving-public-good"
+   ]
+  },
+  {
+   "id": "leaps-internship-lower",
+   "label": "Lower division internship (EDUC 207, 4 credits)",
+   "hint": "Community-Engaged Learning Internship; 4 credits required, up to 8 may count.",
+   "need": 4,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": ["EDUC 207"],
+   "sources": [
+    "https://marsal.umich.edu/academics-admissions/degrees/bachelors/learning-equity-and-problem-solving-public-good"
+   ]
+  },
+  {
+   "id": "leaps-internship-upper",
+   "label": "Upper division internship (EDUC 393, 8 credits)",
+   "hint": "Upper Division Community-Engaged Learning Internship.",
+   "need": 8,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": ["EDUC 393"],
+   "sources": [
+    "https://marsal.umich.edu/academics-admissions/degrees/bachelors/learning-equity-and-problem-solving-public-good"
+   ]
+  },
+  {
+   "id": "leaps-concentration",
+   "label": "Concentration (24 credits)",
+   "hint": "Still building automatic checking for this rule: concentrations are chosen junior year from Public-service Entrepreneurship, Education, Public Health, Public Service/Government, or Law, or custom-designed with faculty approval, so no fixed course list exists. Count your concentration courses in with the adjust control.",
+   "need": 24,
+   "countMode": "credits",
+   "category": "electives",
+   "manual": true,
+   "sources": [
+    "https://marsal.umich.edu/academics-admissions/degrees/bachelors/learning-equity-and-problem-solving-public-good"
+   ]
+  },
+  {
+   "id": "leaps-capstone",
+   "label": "Capstone (EDUC 481 & 482)",
+   "hint": "Education for Empowerment Capstone I and II across senior year. Planning EDUC 481 auto-places EDUC 482 the following term.",
+   "need": 2,
+   "countMode": "count",
+   "category": "capstone",
+   "matchCodes": ["EDUC 481", "EDUC 482"],
+   "sources": [
+    "https://marsal.umich.edu/academics-admissions/degrees/bachelors/learning-equity-and-problem-solving-public-good"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "id": "educ-elementary-teacher-education",
+ "name": "Elementary Teacher Education (AB or BS)",
+ "school": "Marsal Family School of Education",
+ "goalCredits": 120,
+ "sourceUrl": "https://marsal.umich.edu/academics-admissions/degrees/bachelors-certification/undergraduate-elementary-teacher-education",
+ "requirements": [
+  {
+   "id": "educ-total-credits",
+   "label": "120 Total Credits",
+   "hint": "The degree requires a minimum of 120 credits and leads to State of Michigan elementary certification (PK-3 or 3-6, all subjects). Dual degrees are not available with this program.",
+   "need": 120,
+   "countMode": "credits",
+   "category": "educ-credit-min",
+   "matchAll": true,
+   "sources": [
+    "https://marsal.umich.edu/academics-admissions/degrees/bachelors-certification/undergraduate-elementary-teacher-education"
+   ]
+  },
+  {
+   "id": "elemed-educ-core",
+   "label": "Education core, years 1-2 (8 courses)",
+   "hint": "EDUC 118, 141, 151, 160, 241, 271, 291, and 392: the pre-professional education sequence.",
+   "need": 8,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "EDUC 118", "EDUC 141", "EDUC 151", "EDUC 160",
+    "EDUC 241", "EDUC 271", "EDUC 291", "EDUC 392"
+   ],
+   "sources": [
+    "https://marsal.umich.edu/academics-admissions/degrees/bachelors-certification/undergraduate-elementary-teacher-education"
+   ]
+  },
+  {
+   "id": "elemed-educ-electives",
+   "label": "EDUC electives (6 credits)",
+   "hint": "Two education courses beyond the required sequence.",
+   "need": 6,
+   "countMode": "credits",
+   "category": "electives",
+   "matchTag": "subj-educ",
+   "excludeTags": ["educ-elem-core"],
+   "sources": [
+    "https://marsal.umich.edu/academics-admissions/degrees/bachelors-certification/undergraduate-elementary-teacher-education"
+   ]
+  },
+  {
+   "id": "elemed-fywr",
+   "label": "First-year writing",
+   "hint": "One course fulfilling the First-Year Writing Requirement.",
+   "need": 1,
+   "countMode": "count",
+   "category": "prerequisites",
+   "matchTag": "lsa-fywr",
+   "sources": [
+    "https://marsal.umich.edu/academics-admissions/degrees/bachelors-certification/undergraduate-elementary-teacher-education"
+   ]
+  },
+  {
+   "id": "elemed-natural-science",
+   "label": "Natural science (6 credits)",
+   "hint": "Two courses in different natural science disciplines (astronomy, biology, chemistry, earth science, physics, or environmental science). AP/IB credit does not count; the different-discipline rule is not auto-checked.",
+   "need": 6,
+   "countMode": "credits",
+   "category": "prerequisites",
+   "matchTag": "lsa-natural-sciences",
+   "sources": [
+    "https://marsal.umich.edu/academics-admissions/degrees/bachelors-certification/undergraduate-elementary-teacher-education"
+   ]
+  },
+  {
+   "id": "elemed-social-science",
+   "label": "Social science (6 credits)",
+   "hint": "Two courses in different social science disciplines (civics/political science, economics, history, or geography). AP/IB credit does not count; the different-discipline rule is not auto-checked.",
+   "need": 6,
+   "countMode": "credits",
+   "category": "prerequisites",
+   "matchTag": "lsa-social-sciences",
+   "sources": [
+    "https://marsal.umich.edu/academics-admissions/degrees/bachelors-certification/undergraduate-elementary-teacher-education"
+   ]
+  },
+  {
+   "id": "elemed-prof-core",
+   "label": "Professional sequence, years 3-4 (16 courses)",
+   "hint": "The elementary methods core: EDUC 303, 391, the four-course literacy sequence (401, 403, 405, 407), mathematics and science methods (411, 415, 416, 421), 414, 417, 430, 431, and the two-module courses 443 and 444.",
+   "need": 16,
+   "countMode": "count",
+   "category": "core",
+   "matchCodes": [
+    "EDUC 303", "EDUC 391", "EDUC 401", "EDUC 403", "EDUC 405",
+    "EDUC 407", "EDUC 411", "EDUC 414", "EDUC 415", "EDUC 416",
+    "EDUC 417", "EDUC 421", "EDUC 430", "EDUC 431", "EDUC 443",
+    "EDUC 444"
+   ],
+   "sources": [
+    "https://marsal.umich.edu/academics-admissions/degrees/bachelors-certification/undergraduate-elementary-teacher-education"
+   ]
+  },
+  {
+   "id": "elemed-practicum",
+   "label": "Practicum (EDUC 307, 6 credits)",
+   "hint": "Two credits per semester across three semesters alongside the professional sequence. Each completed term counts; a planned term registers once, so log each term as taken when it finishes.",
+   "need": 6,
+   "countMode": "credits",
+   "category": "core",
+   "matchCodes": ["EDUC 307"],
+   "sources": [
+    "https://marsal.umich.edu/academics-admissions/degrees/bachelors-certification/undergraduate-elementary-teacher-education"
+   ]
+  },
+  {
+   "id": "elemed-student-teaching",
+   "label": "EDUC 301: Directed Teaching (10 credits)",
+   "hint": "The 14-15 week student teaching culmination.",
+   "need": 1,
+   "countMode": "count",
+   "category": "capstone",
+   "matchCodes": ["EDUC 301"],
+   "sources": [
+    "https://marsal.umich.edu/academics-admissions/degrees/bachelors-certification/undergraduate-elementary-teacher-education"
+   ]
+  }
+ ]
+}
