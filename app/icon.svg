@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- The header brand badge: blue rounded square, ink border, maize block M.
+       The M is a hand-drawn path so the icon needs no font. -->
+  <rect x="4" y="4" width="56" height="56" rx="11" fill="#00274C" stroke="#0F1B2C" stroke-width="3"/>
+  <path fill="#FFCB05" d="M12 46 L12 18 L26 18 L32 27 L38 18 L52 18 L52 46 L42 46 L42 32 L36 41 L28 41 L22 32 L22 46 Z"/>
+</svg>

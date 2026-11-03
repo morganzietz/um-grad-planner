@@ -87,7 +87,7 @@ export default function Home() {
               M
             </div>
             <div className="flex flex-col leading-tight">
-              <div className="display text-[15px] font-bold text-ink">Grad Planner</div>
+              <div className="display text-[15px] font-bold text-ink">WolverinePlan</div>
               <div className="text-[11px] font-medium text-ink-3">University of Michigan</div>
             </div>
           </div>

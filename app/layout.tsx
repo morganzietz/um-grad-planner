@@ -19,8 +19,24 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Michigan Graduation Planner",
-  description: "Pick a major, map out your semesters, and see what's left. For University of Michigan students.",
+  metadataBase: new URL("https://www.wolverineplan.com"),
+  title: "WolverinePlan",
+  description:
+    "Pick a major, map out your semesters, and see what's left. The unofficial graduation planner for University of Michigan students.",
+  openGraph: {
+    title: "WolverinePlan",
+    description:
+      "Pick a major, map out your semesters, and see what's left. The unofficial graduation planner for University of Michigan students.",
+    url: "https://www.wolverineplan.com",
+    siteName: "WolverinePlan",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "WolverinePlan",
+    description:
+      "Pick a major, map out your semesters, and see what's left. The unofficial graduation planner for University of Michigan students.",
+  },
 };
 
 export default function RootLayout({
